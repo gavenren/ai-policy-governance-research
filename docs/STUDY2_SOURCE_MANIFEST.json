@@ -1,0 +1,138 @@
+{
+  "status": "working source pilot; no study analysis or compliance assessment",
+  "evidence_cutoff_date_utc": "2026-10-09",
+  "retrievals": [
+    {
+      "id": "gsa-rgo-2026-01",
+      "url": "https://www.acquisition.gov/sites/default/files/page_file_uploads/RGO-2026-01.pdf",
+      "started_at_utc": "2026-10-09T23:50:39.127728+00:00",
+      "completed_at_utc": "2026-10-09T23:50:39.454783+00:00",
+      "sha256": "8fa12d17e819e4ea144e46476f31f5e98b196cc8ebf6eaf9392f70638d90f5d5",
+      "bytes": 4298490,
+      "local_path": ".local-sources/study2/gsa-rgo-2026-01.pdf",
+      "rights_note": "local-only source snapshot; do not commit whole source",
+      "http_status_chain": [
+        200
+      ],
+      "retrieval_method": "curl HTTPS public URL; redirects followed; ordinary Mozilla/5.0 user agent; no account authentication"
+    },
+    {
+      "id": "omb-m-25-22",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2025/02/M-25-22-Driving-Efficient-Acquisition-of-Artificial-Intelligence-in-Government.pdf",
+      "started_at_utc": "2026-10-09T23:50:39.458884+00:00",
+      "completed_at_utc": "2026-10-09T23:50:39.755561+00:00",
+      "sha256": "e157538371eb9665fabdacff748788fc6afc0575bb3661d15b146f3138084cd8",
+      "bytes": 1399862,
+      "local_path": ".local-sources/study2/omb-m-25-22.pdf",
+      "rights_note": "local-only source snapshot; do not commit whole source",
+      "http_status_chain": [
+        200
+      ],
+      "retrieval_method": "curl HTTPS public URL; redirects followed; ordinary Mozilla/5.0 user agent; no account authentication"
+    },
+    {
+      "id": "openai-deprecations",
+      "url": "https://developers.openai.com/api/docs/deprecations",
+      "started_at_utc": "2026-10-09T23:50:39.757486+00:00",
+      "completed_at_utc": "2026-10-09T23:50:40.027217+00:00",
+      "sha256": "09c001408089ce08163ffe5cf21988fa3e3f1bcd060ec05f85a9d2c1bff968f2",
+      "bytes": 495068,
+      "local_path": ".local-sources/study2/openai-deprecations.html",
+      "rights_note": "local-only source snapshot; do not commit whole source",
+      "http_status_chain": [
+        200
+      ],
+      "retrieval_method": "curl HTTPS public URL; redirects followed; ordinary Mozilla/5.0 user agent; no account authentication"
+    },
+    {
+      "id": "anthropic-deprecations",
+      "url": "https://platform.claude.com/docs/en/about-claude/model-deprecations",
+      "started_at_utc": "2026-10-09T23:50:40.028294+00:00",
+      "completed_at_utc": "2026-10-09T23:50:40.394968+00:00",
+      "sha256": "3b3d584da51a4937f1a0ef8616c6fd0476853d316173348a9370d93228ad6462",
+      "bytes": 446213,
+      "local_path": ".local-sources/study2/anthropic-deprecations.html",
+      "rights_note": "local-only source snapshot; do not commit whole source",
+      "http_status_chain": [
+        200
+      ],
+      "retrieval_method": "curl HTTPS public URL; redirects followed; ordinary Mozilla/5.0 user agent; no account authentication"
+    },
+    {
+      "id": "google-model-versions",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/model-versions",
+      "started_at_utc": "2026-10-09T23:50:40.396778+00:00",
+      "completed_at_utc": "2026-10-09T23:50:40.884381+00:00",
+      "sha256": "686ddb0d4d47d18f8daa5f5dee91b90c5f998aa5ddc1b57d2f7cacd819a2e4eb",
+      "bytes": 421663,
+      "local_path": ".local-sources/study2/google-model-versions.html",
+      "rights_note": "local-only source snapshot; do not commit whole source",
+      "http_status_chain": [
+        200
+      ],
+      "retrieval_method": "curl HTTPS public URL; redirects followed; ordinary Mozilla/5.0 user agent; no account authentication"
+    },
+    {
+      "id": "omb-memoranda-index",
+      "url": "https://www.whitehouse.gov/omb/information-resources/guidance/memoranda/",
+      "started_at_utc": "2026-10-09T23:54:10.700907+00:00",
+      "completed_at_utc": "2026-10-09T23:54:11.416025+00:00",
+      "sha256": "b9a9c952bde27c09f98c08e48355de0c5550d05d50408c4a6c2edef14f6e4961",
+      "bytes": 256006,
+      "local_path": ".local-sources/study2/omb-memoranda-index.html",
+      "rights_note": "local-only source snapshot; do not commit whole source",
+      "http_status_chain": [
+        200
+      ],
+      "retrieval_method": "curl HTTPS public URL; redirects followed; ordinary Mozilla/5.0 user agent; no account authentication"
+    },
+    {
+      "id": "anthropic-release-notes",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "started_at_utc": "2026-10-09T23:54:11.416587+00:00",
+      "completed_at_utc": "2026-10-09T23:54:12.094494+00:00",
+      "sha256": "92297a4ea525b0ca68f6424f3729539ba1e8f604933eb7a8405b24a3cf06a7a0",
+      "bytes": 894702,
+      "local_path": ".local-sources/study2/anthropic-release-notes.html",
+      "rights_note": "local-only source snapshot; do not commit whole source",
+      "http_status_chain": [
+        200
+      ],
+      "retrieval_method": "curl HTTPS public URL; redirects followed; ordinary Mozilla/5.0 user agent; no account authentication"
+    },
+    {
+      "id": "google-gemini-25-flash-lite",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-flash-lite",
+      "started_at_utc": "2026-10-09T23:54:12.095705+00:00",
+      "completed_at_utc": "2026-10-09T23:54:12.989955+00:00",
+      "sha256": "d60f526ccd71d5ae93db50600313ef09b0dae40140d6581a6ded8be797e585bd",
+      "bytes": 431586,
+      "local_path": ".local-sources/study2/google-gemini-25-flash-lite.html",
+      "rights_note": "local-only source snapshot; do not commit whole source",
+      "http_status_chain": [
+        200
+      ],
+      "retrieval_method": "curl HTTPS public URL; redirects followed; ordinary Mozilla/5.0 user agent; no account authentication"
+    }
+  ],
+  "verification": {
+    "reviewer": "Codex AI standards-research subagent",
+    "independent_critical_review": false,
+    "human_review": false,
+    "gsa_visual_pages_one_based": [
+      4,
+      6,
+      53,
+      135,
+      148,
+      149
+    ],
+    "omb_visual_pages_one_based": [
+      1,
+      2,
+      10
+    ],
+    "render_method": "macOS PDFKit; rendered images remain in ignored local source directory"
+  },
+  "rights_policy": "Full sources, headers, extracted text, and renders remain local and ignored; this public manifest contains source metadata and hashes only."
+}

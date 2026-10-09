@@ -1,0 +1,105 @@
+{
+  "status": "working source metadata; not a completed study",
+  "retrievals": [
+    {
+      "id": "oecd-2025-framework",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/02/towards-a-common-reporting-framework-for-ai-incidents_8c488fdb/f326d4ac-en.pdf",
+      "edition": "OECD Artificial Intelligence Papers No. 34, 2025-02-28",
+      "status": "policy paper / reporting framework; not itself a general legal mandate",
+      "retrieved_at_utc": "2026-10-09T23:45:24.831658+00:00",
+      "retrieval_time_basis": "local file completion timestamp from curl download",
+      "sha256": "e8c1a12dd0f69b56641a83c96a728e378732966b517cc48672b3f424de67f3d1",
+      "bytes": 2541493,
+      "http_status": 200,
+      "local_path": ".local-sources/oecd-f326d4ac-en.pdf",
+      "rights_note": "CC BY 4.0 except third-party material; retained locally",
+      "render_method": "macOS PDFKit; full source and rendered pages remain ignored"
+    },
+    {
+      "id": "etsi-aicie-common-container",
+      "url": "https://www.etsi.org/deliver/etsi_ts/104100_104199/10415802/01.01.01_60/ts_10415802v010101p.pdf",
+      "edition": "ETSI TS 104 158-2 V1.1.1, published 2026-03-16",
+      "status": "technical specification; official work item says not a harmonised standard",
+      "retrieved_at_utc": "2026-10-09T23:45:58.026402+00:00",
+      "retrieval_time_basis": "local file completion timestamp from curl download",
+      "sha256": "806c7e3fdd0147478cfed6e0a23e7648817715cfe54025a1648f862cc733d59c",
+      "bytes": 727395,
+      "http_status": 200,
+      "local_path": ".local-sources/etsi-ts10415802v010101p.pdf",
+      "rights_note": "ETSI copyright and reproduction restrictions; full file local only",
+      "render_method": "macOS PDFKit; full source and rendered pages remain ignored"
+    }
+  ],
+  "checks": {
+    "etsi_visual_pages": [
+      9,
+      11,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "oecd_visual_pages": [
+      23,
+      24
+    ],
+    "reviewer": "Codex AI standards-research subagent",
+    "human_review": false
+  },
+  "retrieval_failures": [
+    {
+      "source": "etsi",
+      "method": "curl default User-Agent",
+      "status": 403,
+      "resolution": "ordinary Mozilla/5.0 User-Agent succeeded; no authentication used"
+    },
+    {
+      "source": "both",
+      "method": "sandboxed Python urllib",
+      "result": "DNS unavailable"
+    },
+    {
+      "source": "OECD",
+      "method": "approved Python urllib",
+      "result": "local SSL trust-store failure; system curl succeeded"
+    }
+  ],
+  "status_page_snapshots": [
+    {
+      "url": "https://www.oecd.org/en/publications/towards-a-common-reporting-framework-for-ai-incidents_f326d4ac-en.html",
+      "retrieval_error": "curl: (56) The requested URL returned error: 403",
+      "fallback": {
+        "snapshot_type": "selected lines from web-tool extraction, not original HTML",
+        "local_path": ".local-sources/oecd-publication-page.web-excerpt.txt",
+        "bytes": 1097,
+        "sha256": "55f0b866edcf699bc6cb5f11d8f9dcbf40234a4670d32225828c7bfd0ac34e7b",
+        "recorded_at_utc": "2026-10-09T23:49:26.313762+00:00"
+      }
+    },
+    {
+      "url": "https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=75426",
+      "retrieved_at_utc": "2026-10-09T23:49:07.447375+00:00",
+      "sha256": "fa54d43aa258e6d97a978979331638dfd2fe9054990127a35cbe1ebec2435f54",
+      "bytes": 17024,
+      "local_path": ".local-sources/etsi-work-item.html",
+      "rights_note": "local snapshot only; redistribution rights not assessed"
+    },
+    {
+      "url": "https://www.etsi.org/deliver/etsi_ts/104100_104199/10415802/01.01.01_60/",
+      "retrieved_at_utc": "2026-10-09T23:49:07.887557+00:00",
+      "sha256": "108124fce15bf97543ea4bfe0e735e1572df3f3f43e2203fea691b3ec8fe6889",
+      "bytes": 454,
+      "local_path": ".local-sources/etsi-edition-directory.html",
+      "rights_note": "local snapshot only; redistribution rights not assessed"
+    },
+    {
+      "url": "https://www.etsi.org/deliver/etsi_ts/104100_104199/10415802/",
+      "retrieved_at_utc": "2026-10-09T23:49:08.359678+00:00",
+      "sha256": "d07d2a0906a357cbe60d79874a5d2e04c6a169ab1ad8a336fd213d2c27a730d7",
+      "bytes": 392,
+      "local_path": ".local-sources/etsi-parent-directory.html",
+      "rights_note": "local snapshot only; redistribution rights not assessed"
+    }
+  ]
+}

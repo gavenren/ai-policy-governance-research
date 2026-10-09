@@ -1,0 +1,280 @@
+{
+  "status": "working-notes source metadata; no converter execution",
+  "evidence_date": "2026-10-09",
+  "snapshot_policy": "Full source bytes are held only in ignored .local-sources/prior-art; no wholesale source content is included in this public manifest.",
+  "retrieval_method": "curl HTTPS with certificate verification enabled; git HTTPS read-only clone",
+  "pages": [
+    {
+      "path": ".local-sources/prior-art/flare-arxiv-v1.html",
+      "url": "https://arxiv.org/html/2606.31567v1",
+      "retrieved_utc": "2026-10-09T23:45:54.111211+00:00",
+      "curl_returncode": 0,
+      "final_url": "https://arxiv.org/html/2606.31567v1",
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "7c1c8c1cacd7695fbaaf6971e18a1adbee6287d6c4f445ddf18f3a000a5f808b",
+      "bytes": 392838
+    },
+    {
+      "path": ".local-sources/prior-art/flare-pmlr.html",
+      "url": "https://proceedings.mlr.press/v306/longpre26a.html",
+      "retrieved_utc": "2026-10-09T23:45:54.225636+00:00",
+      "curl_returncode": 0,
+      "final_url": "https://proceedings.mlr.press/v306/longpre26a.html",
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "1b2797a40157bbacde5d61cc620aeb637bf5f3a2140edd752a98c74a3b2ddda3",
+      "bytes": 18541
+    },
+    {
+      "path": ".local-sources/prior-art/gomez-arxiv-v2.html",
+      "url": "https://arxiv.org/html/2604.23183v2",
+      "retrieved_utc": "2026-10-09T23:45:54.341124+00:00",
+      "curl_returncode": 0,
+      "final_url": "https://arxiv.org/html/2604.23183v2",
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "1479895273bd1b29643febd774d4adbfac51ed02e8f6269a4f88b864fc338058",
+      "bytes": 181271
+    },
+    {
+      "path": ".local-sources/prior-art/pustozerova-arxiv-v1.html",
+      "url": "https://arxiv.org/html/2609.24515v1",
+      "retrieved_utc": "2026-10-09T23:45:54.466930+00:00",
+      "curl_returncode": 0,
+      "final_url": "https://arxiv.org/html/2609.24515v1",
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "c020b6bbb68846c064b6d4abe31f5d9817aa47d853fea09493b0d2eb1d6b8076",
+      "bytes": 156253
+    },
+    {
+      "path": ".local-sources/prior-art/mit-2026-10-08.html",
+      "url": "https://airisk.mit.edu/blog/preliminary-findings-on-how-ai-incident-databases-are-used",
+      "retrieved_utc": "2026-10-09T23:45:54.609001+00:00",
+      "curl_returncode": 0,
+      "final_url": "https://airisk.mit.edu/blog/preliminary-findings-on-how-ai-incident-databases-are-used",
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "f5c035a472586a08bd5d0222f1d440c914496b7308c442bf59408459e7f7557d",
+      "bytes": 97440
+    },
+    {
+      "path": ".local-sources/prior-art/vorp-postmortem.html",
+      "url": "https://vorplabs.com/ai-threat-monitoring/postmortem-completeness",
+      "retrieved_utc": "2026-10-09T23:45:54.904017+00:00",
+      "curl_returncode": 0,
+      "final_url": "https://vorplabs.com/ai-threat-monitoring/postmortem-completeness",
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "f166a54c41ae59745e6cf43404e7439612f806ae682881c51377f815a35006a2",
+      "bytes": 133673
+    },
+    {
+      "path": ".local-sources/prior-art/ezell-abstract.html",
+      "url": "https://arxiv.org/abs/2508.14231",
+      "retrieved_utc": "2026-10-09T23:45:54.998650+00:00",
+      "curl_returncode": 0,
+      "final_url": "https://arxiv.org/abs/2508.14231",
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "908ebaeafee597d6f8fe3a91eda62fa6333a5d307bcc23d987ae58633b3d42d9",
+      "bytes": 42515
+    },
+    {
+      "path": ".local-sources/prior-art/ezell-arxiv-v1.html",
+      "url": "https://arxiv.org/html/2508.14231v1",
+      "retrieved_utc": "2026-10-09T23:45:55.114058+00:00",
+      "curl_returncode": 0,
+      "final_url": "https://arxiv.org/html/2508.14231v1",
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "da9acd0ff87e6ad7104537b8bf24e1be9fec3bec88b967cf46d8f89a7863d80c",
+      "bytes": 213958
+    },
+    {
+      "path": ".local-sources/prior-art/gomez-abstract.html",
+      "url": "https://arxiv.org/abs/2604.23183",
+      "retrieved_utc": "2026-10-09T23:45:55.199539+00:00",
+      "curl_returncode": 0,
+      "final_url": "https://arxiv.org/abs/2604.23183",
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "7649367c947215fe46587b227ce1b885af3be9bb2e9801dd795ee3fcb3253365",
+      "bytes": 44538
+    },
+    {
+      "path": ".local-sources/prior-art/pustozerova-abstract.html",
+      "url": "https://arxiv.org/abs/2609.24515",
+      "retrieved_utc": "2026-10-09T23:45:55.303385+00:00",
+      "curl_returncode": 0,
+      "final_url": "https://arxiv.org/abs/2609.24515",
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "ec2c3689d2d833d6ad913941e1628b6ffa07ff40fcbc29529871918f3c0371bb",
+      "bytes": 45207
+    },
+    {
+      "path": ".local-sources/prior-art/flare-abstract.html",
+      "url": "https://arxiv.org/abs/2606.31567",
+      "retrieved_utc": "2026-10-09T23:45:55.404345+00:00",
+      "curl_returncode": 0,
+      "final_url": "https://arxiv.org/abs/2606.31567",
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "7ebb655c8dccef237d6d0942e5284be78d99f980f78ee129a978d8774fc696b2",
+      "bytes": 44253
+    },
+    {
+      "path": ".local-sources/prior-art/holeman-arxiv-v1.html",
+      "url": "https://arxiv.org/html/2605.05531v1",
+      "retrieved_utc": "2026-10-09T23:45:55.531679+00:00",
+      "curl_returncode": 0,
+      "final_url": "https://arxiv.org/html/2605.05531v1",
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "495fe94be4604d2af8c16b6e2e3a765cb867350190f9e5cd44c850a9c9514117",
+      "bytes": 335110
+    },
+    {
+      "path": ".local-sources/prior-art/holeman-abstract.html",
+      "url": "https://arxiv.org/abs/2605.05531",
+      "retrieved_utc": "2026-10-09T23:45:55.647397+00:00",
+      "curl_returncode": 0,
+      "final_url": "https://arxiv.org/abs/2605.05531",
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "f547d24329b8fc5a6c6bd7ac082fbeb5ce0078e4193d996f7994d8a37bfab0c4",
+      "bytes": 41772
+    },
+    {
+      "path": ".local-sources/prior-art/repeated-agents-v1.html",
+      "url": "https://arxiv.org/html/2609.11030v1",
+      "retrieved_utc": "2026-10-09T23:46:36.230825+00:00",
+      "curl_returncode": 0,
+      "final_url": "https://arxiv.org/html/2609.11030v1",
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "c5124788fc3b78d1d26d5e13f8751d6c4b742e56b0c78671998a0544313af2dd",
+      "bytes": 197045
+    },
+    {
+      "path": ".local-sources/prior-art/repeated-agents-abstract.html",
+      "url": "https://arxiv.org/abs/2609.11030",
+      "retrieved_utc": "2026-10-09T23:46:36.318744+00:00",
+      "curl_returncode": 0,
+      "final_url": "https://arxiv.org/abs/2609.11030",
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "a0735512bafec2d6d0c7d4b90cf5e482fd74518d10215b8e684330bde2491c16",
+      "bytes": 42216
+    },
+    {
+      "path": ".local-sources/prior-art/sequeda-arxiv-v1.html",
+      "url": "https://arxiv.org/html/1202.3667v1",
+      "retrieved_utc": "2026-10-09T23:48:27.193967+00:00",
+      "curl_returncode": 0,
+      "final_url": "https://arxiv.org/html/1202.3667v1",
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "6cd309037c6dbe8dd2663d7a6b65e763dc57c41a1ab336e06281181625f70d12",
+      "bytes": 1137199
+    },
+    {
+      "path": ".local-sources/prior-art/bifrons-arxiv-v2.html",
+      "url": "https://arxiv.org/html/2502.18954v2",
+      "retrieved_utc": "2026-10-09T23:48:27.320056+00:00",
+      "curl_returncode": 0,
+      "final_url": "https://arxiv.org/html/2502.18954v2",
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "e907c0a75b8471c36e9ef3d8dd977165e2a6310546c34ffba2fa026a027b625f",
+      "bytes": 397501
+    },
+    {
+      "path": ".local-sources/prior-art/prov-dm-2013.html",
+      "url": "https://www.w3.org/TR/2013/REC-prov-dm-20130430/",
+      "retrieved_utc": "2026-10-09T23:48:27.492656+00:00",
+      "curl_returncode": 0,
+      "final_url": "https://www.w3.org/TR/2013/REC-prov-dm-20130430/",
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "5c925c21bc96c285b25017c3b90d82cf74251d07713b71fcb81ca60f873c9e88",
+      "bytes": 271572
+    },
+    {
+      "path": ".local-sources/prior-art/flare-site-about.html",
+      "url": "https://www.ai-reports.org/about-us",
+      "retrieved_utc": "2026-10-09T23:48:27.653791+00:00",
+      "curl_returncode": 0,
+      "final_url": "https://www.ai-reports.org/about-us",
+      "http_status": "200",
+      "content_type": "text/html; charset=utf-8",
+      "sha256": "8efd1cca3e64b107dacaf31406f7982a6029837179604383b171fe915d5d6a6c",
+      "bytes": 83674
+    }
+  ],
+  "implementation": {
+    "repository": "https://github.com/ai-flaw-reporting/ai-flaw-reporting",
+    "commit": "f51514d4b999fa7988e05d44b9bf18ea0aa98031",
+    "commit_time_utc": "2026-08-22T22:28:53Z",
+    "checkout_location": ".local-sources/prior-art/flare-code",
+    "verification_utc": "2026-10-09T23:49:45.042992+00:00",
+    "files": [
+      {
+        "path": "LICENSE",
+        "url": "https://github.com/ai-flaw-reporting/ai-flaw-reporting/blob/f51514d4b999fa7988e05d44b9bf18ea0aa98031/LICENSE",
+        "sha256": "0bce2d2b902ebff7dcecb779909794d56738b1af84e9de74dda0872888384a0e",
+        "bytes": 1065
+      },
+      {
+        "path": "client/src/entities/ai-flaw-report/model/schema.ts",
+        "url": "https://github.com/ai-flaw-reporting/ai-flaw-reporting/blob/f51514d4b999fa7988e05d44b9bf18ea0aa98031/client/src/entities/ai-flaw-report/model/schema.ts",
+        "sha256": "b22411d1fad1b05ece56f52ce16b576fabee432b3c7c3fb88a332b90262a2392",
+        "bytes": 9887
+      },
+      {
+        "path": "client/src/entities/ai-flaw-report/lib/jsonld-converter.ts",
+        "url": "https://github.com/ai-flaw-reporting/ai-flaw-reporting/blob/f51514d4b999fa7988e05d44b9bf18ea0aa98031/client/src/entities/ai-flaw-report/lib/jsonld-converter.ts",
+        "sha256": "7225ef69951f20d73be64cd3b0eabed9146d5add0741651c68896b3a505198b3",
+        "bytes": 8160
+      },
+      {
+        "path": "client/src/entities/ai-flaw-report/lib/cert-converter.ts",
+        "url": "https://github.com/ai-flaw-reporting/ai-flaw-reporting/blob/f51514d4b999fa7988e05d44b9bf18ea0aa98031/client/src/entities/ai-flaw-report/lib/cert-converter.ts",
+        "sha256": "fe1a7130baa1e20cac188fbc739d915f540f293cf03e4fda57fbdb54035582f3",
+        "bytes": 6756
+      },
+      {
+        "path": "client/src/entities/ai-flaw-report/model/hooks/useDownloadReport.ts",
+        "url": "https://github.com/ai-flaw-reporting/ai-flaw-reporting/blob/f51514d4b999fa7988e05d44b9bf18ea0aa98031/client/src/entities/ai-flaw-report/model/hooks/useDownloadReport.ts",
+        "sha256": "ebcdc2e42d2f819911c98187f03cf84bcd15bcc7160bc95bf51e9abe9b5f398d",
+        "bytes": 2377
+      },
+      {
+        "path": "client/src/widgets/ai-flaw-report/reporter-details-step/ai-system-info.tsx",
+        "url": "https://github.com/ai-flaw-reporting/ai-flaw-reporting/blob/f51514d4b999fa7988e05d44b9bf18ea0aa98031/client/src/widgets/ai-flaw-report/reporter-details-step/ai-system-info.tsx",
+        "sha256": "4efa05bd3631ecfa68297c3ff4068ee41fb0bef3f6bbaed8f82913a5d0bcf2b0",
+        "bytes": 13755
+      },
+      {
+        "path": "server/src/api/report/content-types/report/schema.json",
+        "url": "https://github.com/ai-flaw-reporting/ai-flaw-reporting/blob/f51514d4b999fa7988e05d44b9bf18ea0aa98031/server/src/api/report/content-types/report/schema.json",
+        "sha256": "adbc04c735c6c908bc4f928e21d6a5bc802c2d45f26d78d0e96889693bc149cd",
+        "bytes": 3852
+      },
+      {
+        "path": "server/src/api/report/utils/jsonld-converter.ts",
+        "url": "https://github.com/ai-flaw-reporting/ai-flaw-reporting/blob/f51514d4b999fa7988e05d44b9bf18ea0aa98031/server/src/api/report/utils/jsonld-converter.ts",
+        "sha256": "fb44df46b300790c81765c9ead18c8f64ec54f3ac0832c3055377eeaee9fd6a8",
+        "bytes": 8276
+      },
+      {
+        "path": "server/src/api/report/utils/cert-converter.ts",
+        "url": "https://github.com/ai-flaw-reporting/ai-flaw-reporting/blob/f51514d4b999fa7988e05d44b9bf18ea0aa98031/server/src/api/report/utils/cert-converter.ts",
+        "sha256": "df912337c5164491fbd60ef0355836c2eef497a542e9250b90065b65f1a1e23f",
+        "bytes": 6635
+      }
+    ]
+  }
+}
