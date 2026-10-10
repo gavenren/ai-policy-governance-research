@@ -1,0 +1,19 @@
+{
+  "status": "design frozen before confirmation rerun; initial diagnostic outputs already existed",
+  "frozen_utc": "2026-10-09T23:55:15.934513Z",
+  "checks": {
+    "pair_count": 16,
+    "case_count": 32,
+    "query_count": 13,
+    "all_pairs_exactly_one_declared_leaf": true,
+    "mapping_query_count_reconciles": true
+  },
+  "sha256": {
+    "data/fixtures.json": "6e355a22a4513e167ebe7168c81084647c767bdf1e9048436a9a47ff2d65b79d",
+    "protocol.md": "bcdc808915b9ff528a96c22896228e2dec455f348a74a5ac291529662b7e1b74",
+    "mapping.csv": "cd4682f7a5c372080fa2a0faebb46e889880b27fd5beefbcc753902e6a0e7549"
+  },
+  "previous_freeze_utc": "2026-10-09T23:54:12.638283Z",
+  "previous_protocol_sha256": "fdbcddbdbbd9484eb951b57396d1f7c0b63a3cea5ef9061e30dd644f5f32f1d5",
+  "revision_reason": "Chronology correction: observed results modification time was not first execution; fixtures and mapping unchanged."
+}

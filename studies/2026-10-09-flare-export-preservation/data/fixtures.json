@@ -1,0 +1,3442 @@
+{
+  "metadata": {
+    "status": "protocol fixtures; synthetic and never submitted",
+    "protocol_recorded_utc": "2026-10-09T23:51:50.001466Z",
+    "source_commit": "f51514d4b999fa7988e05d44b9bf18ea0aa98031",
+    "design_timing": "Exploratory code inspection preceded fixture selection; not preregistered. No converter outcomes were executed by fixture author before this file was written.",
+    "frozen_clock": "2026-10-09T00:00:00.000Z",
+    "population": "16 selected minimal pairs / 32 synthetic records; no sampling population or prevalence estimand",
+    "attachment_scope": "All attachments arrays are empty. Raw recovery is restricted to JSON-serializable form content.",
+    "ui_reachability": "Source-schema validation is required; end-to-end UI creation was not tested.",
+    "expected_state_semantics": "Research annotations describe exact source strings/omissions. Except not_sure/no/undecided, these are not native typed state values."
+  },
+  "base_record": {
+    "step": "REVIEW_AND_SUBMIT_REPORT",
+    "classifyReport": {
+      "real_world_harm": true,
+      "malicious_use": false,
+      "csam_involved": false
+    },
+    "reporterDetails": {
+      "reporter": {
+        "email": "synthetic-reporter@example.invalid",
+        "org": "Fictional Evaluation Group",
+        "country": "US"
+      },
+      "systems": [
+        {
+          "platform": "Other",
+          "model": "SyntheticLedgerModel",
+          "accessMethod": "Web App",
+          "version": "build-2026-08-01"
+        }
+      ]
+    },
+    "incidentDescription": {
+      "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+      "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+      "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+      "policyViolation": {
+        "urls": [
+          "https://example.invalid/synthetic-policy"
+        ],
+        "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+      }
+    },
+    "evidence": {
+      "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+      "proofOfConcept": "No executable exploit is supplied.",
+      "attachments": []
+    },
+    "impactAssessment": {
+      "severityOfHarm": "medium",
+      "prevalence": "rare",
+      "harmType": "documented",
+      "documentedHarmCwe": "cwe-200",
+      "harmTypes": [
+        "financial_harm"
+      ],
+      "specificImpactTypes": [],
+      "affectedStakeholders": [
+        "end_users"
+      ],
+      "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+      "discoveryContext": "testing",
+      "responsibleFactors": [
+        "system_design"
+      ]
+    },
+    "securityDetails": {
+      "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+      "incidentLocation": "Fictional jurisdiction",
+      "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+      "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+      "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+      "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+      "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+    },
+    "disclosurePlan": {
+      "publicDisclosureIntent": "yes",
+      "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+      "disclosureTimeline": "After the fictional coordination review.",
+      "disclosureDatepicker": "2026-11-01",
+      "disclosureLink": "https://example.invalid/synthetic-disclosure"
+    },
+    "reviewReport": {
+      "selectedStakeholders": [
+        "CERT"
+      ]
+    }
+  },
+  "queries": [
+    {
+      "id": "Q01",
+      "question": "Which explicit build/version string was supplied?",
+      "source_paths": [
+        "/reporterDetails/systems/0/version"
+      ],
+      "profile_paths": {
+        "jsonld_named": [
+          "/aiSystem/0/version"
+        ],
+        "cert": [
+          "/product_version"
+        ]
+      },
+      "profile_semantics": {
+        "jsonld_named": "structured",
+        "cert": "narrative"
+      },
+      "ui_label": "Version; distinct from Model",
+      "ui_source": "https://github.com/ai-flaw-reporting/ai-flaw-reporting/blob/f51514d4b999fa7988e05d44b9bf18ea0aa98031/client/src/widgets/ai-flaw-report/reporter-details-step/ai-system-info.tsx#L324-L343",
+      "interpretation_note": "JSON-LD assigns model to version; CERT flattens platform and model, excluding source version."
+    },
+    {
+      "id": "Q02",
+      "question": "Which access method was supplied?",
+      "source_paths": [
+        "/reporterDetails/systems/0/accessMethod"
+      ],
+      "profile_paths": {
+        "jsonld_named": [],
+        "cert": []
+      },
+      "profile_semantics": {
+        "jsonld_named": "unmapped",
+        "cert": "unmapped"
+      },
+      "ui_label": "Access Method",
+      "ui_source": "https://github.com/ai-flaw-reporting/ai-flaw-reporting/blob/f51514d4b999fa7988e05d44b9bf18ea0aa98031/client/src/widgets/ai-flaw-report/reporter-details-step/ai-system-info.tsx#L299-L320",
+      "interpretation_note": "No named converter reference to accessMethod."
+    },
+    {
+      "id": "Q03",
+      "question": "What expected behavior did the reporter supply?",
+      "source_paths": [
+        "/incidentDescription/expectedBehavior"
+      ],
+      "profile_paths": {
+        "jsonld_named": [],
+        "cert": []
+      },
+      "profile_semantics": {
+        "jsonld_named": "unmapped",
+        "cert": "unmapped"
+      },
+      "ui_label": "What should have happened?",
+      "ui_source": "https://github.com/ai-flaw-reporting/ai-flaw-reporting/blob/f51514d4b999fa7988e05d44b9bf18ea0aa98031/client/src/entities/ai-flaw-report/model/form-data/incident-description-fields-config.ts",
+      "interpretation_note": "The issueDescription field is a different source field and must not silently substitute for expectedBehavior."
+    },
+    {
+      "id": "Q04",
+      "question": "What actual-behavior statement did the reporter supply?",
+      "source_paths": [
+        "/incidentDescription/actualBehavior"
+      ],
+      "profile_paths": {
+        "jsonld_named": [],
+        "cert": []
+      },
+      "profile_semantics": {
+        "jsonld_named": "unmapped",
+        "cert": "unmapped"
+      },
+      "ui_label": "What actually happened?",
+      "ui_source": "https://github.com/ai-flaw-reporting/ai-flaw-reporting/blob/f51514d4b999fa7988e05d44b9bf18ea0aa98031/client/src/entities/ai-flaw-report/model/form-data/incident-description-fields-config.ts",
+      "interpretation_note": "Exact supplied assertion including revisions; not a benchmark judgment of ground truth."
+    },
+    {
+      "id": "Q05",
+      "question": "What harm narrative and assessment state did the reporter supply?",
+      "source_paths": [
+        "/securityDetails/harmNarrative"
+      ],
+      "profile_paths": {
+        "jsonld_named": [],
+        "cert": []
+      },
+      "profile_semantics": {
+        "jsonld_named": "unmapped",
+        "cert": "unmapped"
+      },
+      "ui_label": "Describe the harm that occurred",
+      "ui_source": "https://github.com/ai-flaw-reporting/ai-flaw-reporting/blob/f51514d4b999fa7988e05d44b9bf18ea0aa98031/client/src/entities/ai-flaw-report/model/form-data/security-details-fields-config.ts",
+      "interpretation_note": "Both variants retain a synthetic financial harm; privacy negative versus uninvestigated is narrative content, not a native typed state."
+    },
+    {
+      "id": "Q06",
+      "question": "Was prospective severity omitted, explicitly uncertain, or supplied at a level?",
+      "source_paths": [
+        "/impactAssessment/severityOfHarm"
+      ],
+      "profile_paths": {
+        "jsonld_named": [
+          "/severity"
+        ],
+        "cert": [
+          "/vul_description"
+        ]
+      },
+      "profile_semantics": {
+        "jsonld_named": "structured",
+        "cert": "narrative"
+      },
+      "ui_label": "How bad the harm would be if someone hits this flaw?",
+      "ui_source": "https://github.com/ai-flaw-reporting/ai-flaw-reporting/blob/f51514d4b999fa7988e05d44b9bf18ea0aa98031/client/src/entities/ai-flaw-report/model/form-data/impact-assessment-fields-config.ts",
+      "interpretation_note": "This is prospective severity, not the observed amount of harm. Missing maps to Unknown in JSON-LD and N/A in CERT text."
+    },
+    {
+      "id": "Q07",
+      "question": "Was prevalence omitted, explicitly uncertain, or supplied at a level?",
+      "source_paths": [
+        "/impactAssessment/prevalence"
+      ],
+      "profile_paths": {
+        "jsonld_named": [
+          "/prevalence"
+        ],
+        "cert": [
+          "/vul_description"
+        ]
+      },
+      "profile_semantics": {
+        "jsonld_named": "structured",
+        "cert": "narrative"
+      },
+      "ui_label": "How common is this issue?",
+      "ui_source": "https://github.com/ai-flaw-reporting/ai-flaw-reporting/blob/f51514d4b999fa7988e05d44b9bf18ea0aa98031/client/src/entities/ai-flaw-report/model/form-data/impact-assessment-fields-config.ts",
+      "interpretation_note": "not_sure is a native UI value; no incident prevalence estimate is made by the study."
+    },
+    {
+      "id": "Q08",
+      "question": "Which documented weakness category did the reporter supply?",
+      "source_paths": [
+        "/impactAssessment/documentedHarmCwe"
+      ],
+      "profile_paths": {
+        "jsonld_named": [],
+        "cert": [
+          "/vul_description"
+        ]
+      },
+      "profile_semantics": {
+        "jsonld_named": "unmapped",
+        "cert": "narrative"
+      },
+      "ui_label": "Documented Weakness / MITRE CWE selector",
+      "ui_source": "https://github.com/ai-flaw-reporting/ai-flaw-reporting/blob/f51514d4b999fa7988e05d44b9bf18ea0aa98031/client/src/entities/ai-flaw-report/model/form-data/impact-assessment-fields-config.ts",
+      "interpretation_note": "Both variants keep harmType=documented. No claim that a hypothetical weakness diagnosis is correct."
+    },
+    {
+      "id": "Q09",
+      "question": "What detection guidance did the reporter supply?",
+      "source_paths": [
+        "/securityDetails/detectionMethod"
+      ],
+      "profile_paths": {
+        "jsonld_named": [
+          "/flare:securityAspect/flare:detectionMethod"
+        ],
+        "cert": []
+      },
+      "profile_semantics": {
+        "jsonld_named": "structured",
+        "cert": "unmapped"
+      },
+      "ui_label": "How could this be detected?",
+      "ui_source": "https://github.com/ai-flaw-reporting/ai-flaw-reporting/blob/f51514d4b999fa7988e05d44b9bf18ea0aa98031/client/src/entities/ai-flaw-report/model/form-data/security-details-fields-config.ts",
+      "interpretation_note": "This field describes detection or prevention methods, not a historical detection event or timestamp. Its string is narrative despite occupying a dedicated field."
+    },
+    {
+      "id": "Q10",
+      "question": "Which public-disclosure intent did the reporter select?",
+      "source_paths": [
+        "/disclosurePlan/publicDisclosureIntent"
+      ],
+      "profile_paths": {
+        "jsonld_named": [
+          "/flare:disclosure/flare:intent"
+        ],
+        "cert": [
+          "/disclosure_plans"
+        ]
+      },
+      "profile_semantics": {
+        "jsonld_named": "structured",
+        "cert": "narrative"
+      },
+      "ui_label": "Do you plan to disclose this issue publicly?",
+      "ui_source": "https://github.com/ai-flaw-reporting/ai-flaw-reporting/blob/f51514d4b999fa7988e05d44b9bf18ea0aa98031/client/src/entities/ai-flaw-report/model/form-data/disclosure-plan-fields-config.ts",
+      "interpretation_note": "Compare no and undecided. CERT boolean vul_disclose alone does not answer the question, while disclosure_plans retains the selected text."
+    },
+    {
+      "id": "Q11",
+      "question": "Which planned/public disclosure date string was supplied?",
+      "source_paths": [
+        "/disclosurePlan/disclosureDatepicker"
+      ],
+      "profile_paths": {
+        "jsonld_named": [],
+        "cert": [
+          "/disclosure_plans"
+        ]
+      },
+      "profile_semantics": {
+        "jsonld_named": "unmapped",
+        "cert": "narrative"
+      },
+      "ui_label": "When was / will it be disclosed?",
+      "ui_source": "https://github.com/ai-flaw-reporting/ai-flaw-reporting/blob/f51514d4b999fa7988e05d44b9bf18ea0aa98031/client/src/entities/ai-flaw-report/model/form-data/disclosure-plan-fields-config.ts",
+      "interpretation_note": "This is public disclosure, not authority notification, incident occurrence, or discovery time."
+    },
+    {
+      "id": "Q12",
+      "question": "What embargo or coordination requirement was supplied in the disclosure plan?",
+      "source_paths": [
+        "/disclosurePlan/embargoDetails"
+      ],
+      "profile_paths": {
+        "jsonld_named": [],
+        "cert": [
+          "/disclosure_plans"
+        ]
+      },
+      "profile_semantics": {
+        "jsonld_named": "unmapped",
+        "cert": "narrative"
+      },
+      "ui_label": "Any embargo or coordination requirements?",
+      "ui_source": "https://github.com/ai-flaw-reporting/ai-flaw-reporting/blob/f51514d4b999fa7988e05d44b9bf18ea0aa98031/client/src/entities/ai-flaw-report/model/form-data/disclosure-plan-fields-config.ts",
+      "interpretation_note": "Narrative revisions are source text; no native revision-history mechanism is inferred."
+    },
+    {
+      "id": "Q13",
+      "question": "What coordination requirement was supplied in impact assessment?",
+      "source_paths": [
+        "/impactAssessment/mitigationNotes"
+      ],
+      "profile_paths": {
+        "jsonld_named": [],
+        "cert": []
+      },
+      "profile_semantics": {
+        "jsonld_named": "unmapped",
+        "cert": "unmapped"
+      },
+      "ui_label": "Any embargo or coordination requirements?",
+      "ui_source": "https://github.com/ai-flaw-reporting/ai-flaw-reporting/blob/f51514d4b999fa7988e05d44b9bf18ea0aa98031/client/src/entities/ai-flaw-report/model/form-data/impact-assessment-fields-config.ts",
+      "interpretation_note": "Despite the internal name mitigationNotes, the actual UI prompt concerns coordination; this is not containment completion status."
+    }
+  ],
+  "pairs": [
+    {
+      "id": "P01",
+      "query_id": "Q01",
+      "source_path": "/reporterDetails/systems/0/version",
+      "variants": [
+        {
+          "id": "P01A",
+          "state": "supplied",
+          "value": "build-2026-08-01"
+        },
+        {
+          "id": "P01B",
+          "state": "supplied",
+          "value": "build-2026-08-02"
+        }
+      ],
+      "rationale": "One supplied version changes; platform and model remain identical."
+    },
+    {
+      "id": "P02",
+      "query_id": "Q01",
+      "source_path": "/reporterDetails/systems/0/version",
+      "variants": [
+        {
+          "id": "P02A",
+          "state": "missing"
+        },
+        {
+          "id": "P02B",
+          "state": "explicit_unknown",
+          "value": "Version unknown to reporter"
+        }
+      ],
+      "rationale": "Omitted version differs from explicit uncertainty in its free-text field; no standardized unknown enum is asserted."
+    },
+    {
+      "id": "P03",
+      "query_id": "Q02",
+      "source_path": "/reporterDetails/systems/0/accessMethod",
+      "variants": [
+        {
+          "id": "P03A",
+          "state": "supplied",
+          "value": "Web App"
+        },
+        {
+          "id": "P03B",
+          "state": "supplied",
+          "value": "Official API"
+        }
+      ],
+      "rationale": "Both are native access-method options."
+    },
+    {
+      "id": "P04",
+      "query_id": "Q03",
+      "source_path": "/incidentDescription/expectedBehavior",
+      "variants": [
+        {
+          "id": "P04A",
+          "state": "supplied",
+          "value": "The assistant should omit unauthorized synthetic entries."
+        },
+        {
+          "id": "P04B",
+          "state": "supplied",
+          "value": "The assistant should refuse the entire request if any entry is unauthorized."
+        }
+      ],
+      "rationale": "Two distinct expected behaviors, with the same issue and actual behavior."
+    },
+    {
+      "id": "P05",
+      "query_id": "Q04",
+      "source_path": "/incidentDescription/actualBehavior",
+      "variants": [
+        {
+          "id": "P05A",
+          "state": "supplied",
+          "value": "Initial statement: the summary included one unauthorized synthetic account entry."
+        },
+        {
+          "id": "P05B",
+          "state": "supplied",
+          "value": "Updated statement: the unauthorized-entry allegation is withdrawn after checking the synthetic logs."
+        }
+      ],
+      "rationale": "Revision is explicit narrative content, not a machine-interpreted update state. The separate fictional financial loss is unchanged."
+    },
+    {
+      "id": "P06",
+      "query_id": "Q05",
+      "source_path": "/securityDetails/harmNarrative",
+      "variants": [
+        {
+          "id": "P06A",
+          "state": "explicit_negative",
+          "value": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact."
+        },
+        {
+          "id": "P06B",
+          "state": "uninvestigated",
+          "value": "In this synthetic scenario, a fictional customer lost 10 fictional credits. Privacy impact has not been investigated."
+        }
+      ],
+      "rationale": "Privacy assessment changes while established fictional financial harm remains; real_world_harm=true stays truthful in both synthetic worlds."
+    },
+    {
+      "id": "P07",
+      "query_id": "Q06",
+      "source_path": "/impactAssessment/severityOfHarm",
+      "variants": [
+        {
+          "id": "P07A",
+          "state": "missing"
+        },
+        {
+          "id": "P07B",
+          "state": "explicit_unknown",
+          "value": "not_sure"
+        }
+      ],
+      "rationale": "Native optional severity absent versus native not_sure value; UI reachability of omission is not established by schema validation."
+    },
+    {
+      "id": "P08",
+      "query_id": "Q06",
+      "source_path": "/impactAssessment/severityOfHarm",
+      "variants": [
+        {
+          "id": "P08A",
+          "state": "supplied",
+          "value": "low"
+        },
+        {
+          "id": "P08B",
+          "state": "supplied",
+          "value": "high"
+        }
+      ],
+      "rationale": "Positive preservation control using native prospective-severity levels."
+    },
+    {
+      "id": "P09",
+      "query_id": "Q07",
+      "source_path": "/impactAssessment/prevalence",
+      "variants": [
+        {
+          "id": "P09A",
+          "state": "missing"
+        },
+        {
+          "id": "P09B",
+          "state": "explicit_unknown",
+          "value": "not_sure"
+        }
+      ],
+      "rationale": "Native optional prevalence absent versus native not_sure value; UI reachability of omission is not established by schema validation."
+    },
+    {
+      "id": "P10",
+      "query_id": "Q07",
+      "source_path": "/impactAssessment/prevalence",
+      "variants": [
+        {
+          "id": "P10A",
+          "state": "supplied",
+          "value": "rare"
+        },
+        {
+          "id": "P10B",
+          "state": "supplied",
+          "value": "common"
+        }
+      ],
+      "rationale": "Positive preservation control using native prevalence levels."
+    },
+    {
+      "id": "P11",
+      "query_id": "Q08",
+      "source_path": "/impactAssessment/documentedHarmCwe",
+      "variants": [
+        {
+          "id": "P11A",
+          "state": "supplied",
+          "value": "cwe-20"
+        },
+        {
+          "id": "P11B",
+          "state": "supplied",
+          "value": "cwe-200"
+        }
+      ],
+      "rationale": "Two native documented-weakness options; the fixture tests the supplied diagnosis, not diagnosis validity."
+    },
+    {
+      "id": "P12",
+      "query_id": "Q09",
+      "source_path": "/securityDetails/detectionMethod",
+      "variants": [
+        {
+          "id": "P12A",
+          "state": "supplied",
+          "value": "Flag unauthorized synthetic account entries during an audit."
+        },
+        {
+          "id": "P12B",
+          "state": "explicit_unknown",
+          "value": "No reliable detection method is known to the reporter."
+        }
+      ],
+      "rationale": "Detection guidance versus explicitly unknown guidance in the dedicated narrative field."
+    },
+    {
+      "id": "P13",
+      "query_id": "Q10",
+      "source_path": "/disclosurePlan/publicDisclosureIntent",
+      "variants": [
+        {
+          "id": "P13A",
+          "state": "explicit_negative",
+          "value": "no"
+        },
+        {
+          "id": "P13B",
+          "state": "explicit_unknown",
+          "value": "undecided"
+        }
+      ],
+      "rationale": "The two native intent choices differ; optional schedule strings are held absent in both as they are not applicable to an unplanned release."
+    },
+    {
+      "id": "P14",
+      "query_id": "Q11",
+      "source_path": "/disclosurePlan/disclosureDatepicker",
+      "variants": [
+        {
+          "id": "P14A",
+          "state": "supplied",
+          "value": "2026-11-01"
+        },
+        {
+          "id": "P14B",
+          "state": "supplied",
+          "value": "2026-11-08"
+        }
+      ],
+      "rationale": "Single date change; yes intent and required embargo/timeline statements remain coherent."
+    },
+    {
+      "id": "P15",
+      "query_id": "Q12",
+      "source_path": "/disclosurePlan/embargoDetails",
+      "variants": [
+        {
+          "id": "P15A",
+          "state": "supplied",
+          "value": "Initial plan: hold all details until the planned fictional disclosure date."
+        },
+        {
+          "id": "P15B",
+          "state": "updated",
+          "value": "Updated plan: allow a summary before the planned date; hold technical details until that date."
+        }
+      ],
+      "rationale": "Updated coordination requirement is narrative content, not an official typed revision."
+    },
+    {
+      "id": "P16",
+      "query_id": "Q13",
+      "source_path": "/impactAssessment/mitigationNotes",
+      "variants": [
+        {
+          "id": "P16A",
+          "state": "supplied",
+          "value": "Fictional Team Alpha is the coordination contact."
+        },
+        {
+          "id": "P16B",
+          "state": "disputed",
+          "value": "Coordination contact disputed: Fictional Teams Alpha and Beta each decline responsibility."
+        }
+      ],
+      "rationale": "Supported coordination text; neither submitter identity nor internal field name is treated as proof of an escalation owner."
+    }
+  ],
+  "cases": [
+    {
+      "id": "P01A",
+      "pair_id": "P01",
+      "query_id": "Q01",
+      "source_path": "/reporterDetails/systems/0/version",
+      "expected": {
+        "state": "supplied",
+        "value": "build-2026-08-01"
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P01B",
+      "pair_id": "P01",
+      "query_id": "Q01",
+      "source_path": "/reporterDetails/systems/0/version",
+      "expected": {
+        "state": "supplied",
+        "value": "build-2026-08-02"
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-02"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P02A",
+      "pair_id": "P02",
+      "query_id": "Q01",
+      "source_path": "/reporterDetails/systems/0/version",
+      "expected": {
+        "state": "missing"
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P02B",
+      "pair_id": "P02",
+      "query_id": "Q01",
+      "source_path": "/reporterDetails/systems/0/version",
+      "expected": {
+        "state": "explicit_unknown",
+        "value": "Version unknown to reporter"
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "Version unknown to reporter"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P03A",
+      "pair_id": "P03",
+      "query_id": "Q02",
+      "source_path": "/reporterDetails/systems/0/accessMethod",
+      "expected": {
+        "state": "supplied",
+        "value": "Web App"
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P03B",
+      "pair_id": "P03",
+      "query_id": "Q02",
+      "source_path": "/reporterDetails/systems/0/accessMethod",
+      "expected": {
+        "state": "supplied",
+        "value": "Official API"
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Official API",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P04A",
+      "pair_id": "P04",
+      "query_id": "Q03",
+      "source_path": "/incidentDescription/expectedBehavior",
+      "expected": {
+        "state": "supplied",
+        "value": "The assistant should omit unauthorized synthetic entries."
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The assistant should omit unauthorized synthetic entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P04B",
+      "pair_id": "P04",
+      "query_id": "Q03",
+      "source_path": "/incidentDescription/expectedBehavior",
+      "expected": {
+        "state": "supplied",
+        "value": "The assistant should refuse the entire request if any entry is unauthorized."
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The assistant should refuse the entire request if any entry is unauthorized.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P05A",
+      "pair_id": "P05",
+      "query_id": "Q04",
+      "source_path": "/incidentDescription/actualBehavior",
+      "expected": {
+        "state": "supplied",
+        "value": "Initial statement: the summary included one unauthorized synthetic account entry."
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "Initial statement: the summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P05B",
+      "pair_id": "P05",
+      "query_id": "Q04",
+      "source_path": "/incidentDescription/actualBehavior",
+      "expected": {
+        "state": "supplied",
+        "value": "Updated statement: the unauthorized-entry allegation is withdrawn after checking the synthetic logs."
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "Updated statement: the unauthorized-entry allegation is withdrawn after checking the synthetic logs.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P06A",
+      "pair_id": "P06",
+      "query_id": "Q05",
+      "source_path": "/securityDetails/harmNarrative",
+      "expected": {
+        "state": "explicit_negative",
+        "value": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact."
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P06B",
+      "pair_id": "P06",
+      "query_id": "Q05",
+      "source_path": "/securityDetails/harmNarrative",
+      "expected": {
+        "state": "uninvestigated",
+        "value": "In this synthetic scenario, a fictional customer lost 10 fictional credits. Privacy impact has not been investigated."
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. Privacy impact has not been investigated.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P07A",
+      "pair_id": "P07",
+      "query_id": "Q06",
+      "source_path": "/impactAssessment/severityOfHarm",
+      "expected": {
+        "state": "missing"
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P07B",
+      "pair_id": "P07",
+      "query_id": "Q06",
+      "source_path": "/impactAssessment/severityOfHarm",
+      "expected": {
+        "state": "explicit_unknown",
+        "value": "not_sure"
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "not_sure",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P08A",
+      "pair_id": "P08",
+      "query_id": "Q06",
+      "source_path": "/impactAssessment/severityOfHarm",
+      "expected": {
+        "state": "supplied",
+        "value": "low"
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "low",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P08B",
+      "pair_id": "P08",
+      "query_id": "Q06",
+      "source_path": "/impactAssessment/severityOfHarm",
+      "expected": {
+        "state": "supplied",
+        "value": "high"
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "high",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P09A",
+      "pair_id": "P09",
+      "query_id": "Q07",
+      "source_path": "/impactAssessment/prevalence",
+      "expected": {
+        "state": "missing"
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P09B",
+      "pair_id": "P09",
+      "query_id": "Q07",
+      "source_path": "/impactAssessment/prevalence",
+      "expected": {
+        "state": "explicit_unknown",
+        "value": "not_sure"
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "not_sure",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P10A",
+      "pair_id": "P10",
+      "query_id": "Q07",
+      "source_path": "/impactAssessment/prevalence",
+      "expected": {
+        "state": "supplied",
+        "value": "rare"
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P10B",
+      "pair_id": "P10",
+      "query_id": "Q07",
+      "source_path": "/impactAssessment/prevalence",
+      "expected": {
+        "state": "supplied",
+        "value": "common"
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "common",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P11A",
+      "pair_id": "P11",
+      "query_id": "Q08",
+      "source_path": "/impactAssessment/documentedHarmCwe",
+      "expected": {
+        "state": "supplied",
+        "value": "cwe-20"
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-20",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P11B",
+      "pair_id": "P11",
+      "query_id": "Q08",
+      "source_path": "/impactAssessment/documentedHarmCwe",
+      "expected": {
+        "state": "supplied",
+        "value": "cwe-200"
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P12A",
+      "pair_id": "P12",
+      "query_id": "Q09",
+      "source_path": "/securityDetails/detectionMethod",
+      "expected": {
+        "state": "supplied",
+        "value": "Flag unauthorized synthetic account entries during an audit."
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P12B",
+      "pair_id": "P12",
+      "query_id": "Q09",
+      "source_path": "/securityDetails/detectionMethod",
+      "expected": {
+        "state": "explicit_unknown",
+        "value": "No reliable detection method is known to the reporter."
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "No reliable detection method is known to the reporter.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P13A",
+      "pair_id": "P13",
+      "query_id": "Q10",
+      "source_path": "/disclosurePlan/publicDisclosureIntent",
+      "expected": {
+        "state": "explicit_negative",
+        "value": "no"
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "no"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P13B",
+      "pair_id": "P13",
+      "query_id": "Q10",
+      "source_path": "/disclosurePlan/publicDisclosureIntent",
+      "expected": {
+        "state": "explicit_unknown",
+        "value": "undecided"
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "undecided"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P14A",
+      "pair_id": "P14",
+      "query_id": "Q11",
+      "source_path": "/disclosurePlan/disclosureDatepicker",
+      "expected": {
+        "state": "supplied",
+        "value": "2026-11-01"
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P14B",
+      "pair_id": "P14",
+      "query_id": "Q11",
+      "source_path": "/disclosurePlan/disclosureDatepicker",
+      "expected": {
+        "state": "supplied",
+        "value": "2026-11-08"
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-08",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P15A",
+      "pair_id": "P15",
+      "query_id": "Q12",
+      "source_path": "/disclosurePlan/embargoDetails",
+      "expected": {
+        "state": "supplied",
+        "value": "Initial plan: hold all details until the planned fictional disclosure date."
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Initial plan: hold all details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P15B",
+      "pair_id": "P15",
+      "query_id": "Q12",
+      "source_path": "/disclosurePlan/embargoDetails",
+      "expected": {
+        "state": "updated",
+        "value": "Updated plan: allow a summary before the planned date; hold technical details until that date."
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordinate any release through Fictional Team Alpha.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Updated plan: allow a summary before the planned date; hold technical details until that date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P16A",
+      "pair_id": "P16",
+      "query_id": "Q13",
+      "source_path": "/impactAssessment/mitigationNotes",
+      "expected": {
+        "state": "supplied",
+        "value": "Fictional Team Alpha is the coordination contact."
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Fictional Team Alpha is the coordination contact.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    },
+    {
+      "id": "P16B",
+      "pair_id": "P16",
+      "query_id": "Q13",
+      "source_path": "/impactAssessment/mitigationNotes",
+      "expected": {
+        "state": "disputed",
+        "value": "Coordination contact disputed: Fictional Teams Alpha and Beta each decline responsibility."
+      },
+      "record": {
+        "step": "REVIEW_AND_SUBMIT_REPORT",
+        "classifyReport": {
+          "real_world_harm": true,
+          "malicious_use": false,
+          "csam_involved": false
+        },
+        "reporterDetails": {
+          "reporter": {
+            "email": "synthetic-reporter@example.invalid",
+            "org": "Fictional Evaluation Group",
+            "country": "US"
+          },
+          "systems": [
+            {
+              "platform": "Other",
+              "model": "SyntheticLedgerModel",
+              "accessMethod": "Web App",
+              "version": "build-2026-08-01"
+            }
+          ]
+        },
+        "incidentDescription": {
+          "issueDescription": "Entirely synthetic scenario for an offline conversion test. A fictional financial assistant generated an account summary; behavior and harm details are supplied in dedicated fields. No real person, system, or incident is represented.",
+          "expectedBehavior": "The summary should include only authorized synthetic account entries.",
+          "actualBehavior": "The summary included one unauthorized synthetic account entry.",
+          "policyViolation": {
+            "urls": [
+              "https://example.invalid/synthetic-policy"
+            ],
+            "reason": "A fictional access policy may have been violated; this is an unverified assessment in a synthetic scenario."
+          }
+        },
+        "evidence": {
+          "stepsToReproduce": "Offline synthetic description only: supply the fictional account fixture and inspect the generated summary. No service is contacted.",
+          "proofOfConcept": "No executable exploit is supplied.",
+          "attachments": []
+        },
+        "impactAssessment": {
+          "severityOfHarm": "medium",
+          "prevalence": "rare",
+          "harmType": "documented",
+          "documentedHarmCwe": "cwe-200",
+          "harmTypes": [
+            "financial_harm"
+          ],
+          "specificImpactTypes": [],
+          "affectedStakeholders": [
+            "end_users"
+          ],
+          "mitigationNotes": "Coordination contact disputed: Fictional Teams Alpha and Beta each decline responsibility.",
+          "discoveryContext": "testing",
+          "responsibleFactors": [
+            "system_design"
+          ]
+        },
+        "securityDetails": {
+          "substrateRelationship": "Independent evaluator of a wholly synthetic scenario",
+          "incidentLocation": "Fictional jurisdiction",
+          "harmNarrative": "In this synthetic scenario, a fictional customer lost 10 fictional credits. A review found no privacy impact.",
+          "attackerResources": "Not applicable to the synthetic non-malicious scenario.",
+          "attackerObjectives": "Not applicable to the synthetic non-malicious scenario.",
+          "detectionMethod": "Flag unauthorized synthetic account entries during an audit.",
+          "discoveryNarrative": "A repeated fictional input reproduced the same summary behavior in the synthetic scenario."
+        },
+        "disclosurePlan": {
+          "publicDisclosureIntent": "yes",
+          "embargoDetails": "Hold technical details until the planned fictional disclosure date.",
+          "disclosureTimeline": "After the fictional coordination review.",
+          "disclosureDatepicker": "2026-11-01",
+          "disclosureLink": "https://example.invalid/synthetic-disclosure"
+        },
+        "reviewReport": {
+          "selectedStakeholders": [
+            "CERT"
+          ]
+        }
+      }
+    }
+  ]
+}
