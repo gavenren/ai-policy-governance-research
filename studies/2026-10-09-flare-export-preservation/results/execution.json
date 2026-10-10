@@ -1,0 +1,24 @@
+{
+  "started_utc": "2026-10-09T23:55:36.720Z",
+  "completed_utc": "2026-10-09T23:55:37.351Z",
+  "timestamp_source": "Host wall clock outside the synchronous synthetic Date override",
+  "result_sha256": "02dbf4679217e6956d361718f72df6f57011c7b99699e31e7e1c4207f215e999",
+  "fixture_sha256": "6e355a22a4513e167ebe7168c81084647c767bdf1e9048436a9a47ff2d65b79d",
+  "harness_sha256": "e1e46d3c8c0cf4a134b3feecc339e086e5c5294552fa5bc0696afbe40b287c30",
+  "node": "v24.14.1",
+  "summary": {
+    "case_count": 32,
+    "valid_static": 32,
+    "valid_classification_dependent": 32,
+    "converted_cases": 32,
+    "raw_round_trip_equal_cases": 32,
+    "pair_count": 16,
+    "executed_pairs": 16,
+    "distinguished_pair_counts": {
+      "jsonld": 16,
+      "jsonld_named_projection": 6,
+      "jsonld_raw": 16,
+      "cert": 8
+    }
+  }
+}

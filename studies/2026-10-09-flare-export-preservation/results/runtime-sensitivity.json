@@ -1,0 +1,88 @@
+{
+  "status": "completed_equal_outputs",
+  "comparison_recorded_utc": "2026-10-09T23:58:52.288935+00:00",
+  "runtime_acquisition": {
+    "version": "v22.23.3",
+    "architecture": "darwin-arm64",
+    "archive_url": "https://nodejs.org/dist/v22.23.3/node-v22.23.3-darwin-arm64.tar.gz",
+    "checksum_url": "https://nodejs.org/dist/v22.23.3/SHASUMS256.txt",
+    "discovery_url": "https://nodejs.org/dist/latest-v22.x/SHASUMS256.txt",
+    "retrieved_and_verified_utc": "2026-10-09T23:57:29.252343+00:00",
+    "archive_sha256": "23b25245dcfb9af7262f8ff142e9e2e0af025368117329e7a7458a51e5922f53",
+    "checksum_manifest_sha256": "4fe99a2ba9d552a6f51c13ed68fb11104cfa5df601aec616be689253a8139e7a",
+    "checksum_matched_official_manifest": true,
+    "verification_scope": "SHA-256 checksum from official HTTPS Node.js release manifest; no release-signature verification performed",
+    "installation": "Portable extracted archive in ignored .local-tools; no system install or account/settings change"
+  },
+  "execution": {
+    "started_utc": "2026-10-09T23:57:48.547Z",
+    "completed_utc": "2026-10-09T23:57:49.151Z",
+    "timestamp_source": "Host wall clock outside the synchronous synthetic Date override",
+    "result_sha256": "b7e204da653ac806f1487229a8be080cd8aa3f5029d2d0f6cb9980ed878640f8",
+    "fixture_sha256": "6e355a22a4513e167ebe7168c81084647c767bdf1e9048436a9a47ff2d65b79d",
+    "harness_sha256": "e1e46d3c8c0cf4a134b3feecc339e086e5c5294552fa5bc0696afbe40b287c30",
+    "node": "v22.23.3",
+    "summary": {
+      "case_count": 32,
+      "valid_static": 32,
+      "valid_classification_dependent": 32,
+      "converted_cases": 32,
+      "raw_round_trip_equal_cases": 32,
+      "pair_count": 16,
+      "executed_pairs": 16,
+      "distinguished_pair_counts": {
+        "jsonld": 16,
+        "jsonld_named_projection": 6,
+        "jsonld_raw": 16,
+        "cert": 8
+      }
+    }
+  },
+  "tests": {
+    "tests": 8,
+    "pass": 8,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0,
+    "todo": 0,
+    "tap_log_sha256": "86a86fbd7155c9b96c3c5863d209203c9db97e73f476cea4b93ac7a28549c3d1",
+    "runtime": "v22.23.3"
+  },
+  "comparison": {
+    "baseline_result_sha256": "02dbf4679217e6956d361718f72df6f57011c7b99699e31e7e1c4207f215e999",
+    "candidate_result_sha256": "b7e204da653ac806f1487229a8be080cd8aa3f5029d2d0f6cb9980ed878640f8",
+    "baseline_runtime": {
+      "node": "v24.14.1",
+      "upstream_node_engine": ">=20.0.0 <=22.x.x",
+      "in_declared_range": false,
+      "type_execution": "Node native TypeScript stripping; runtime alias and extension resolution only"
+    },
+    "candidate_runtime": {
+      "node": "v22.23.3",
+      "upstream_node_engine": ">=20.0.0 <=22.x.x",
+      "in_declared_range": true,
+      "type_execution": "Node native TypeScript stripping; runtime alias and extension resolution only"
+    },
+    "allowed_difference_pointers": [
+      "/metadata/runtime/in_declared_range",
+      "/metadata/runtime/node"
+    ],
+    "actual_differences": [
+      {
+        "pointer": "/metadata/runtime/in_declared_range",
+        "baseline": false,
+        "candidate": true
+      },
+      {
+        "pointer": "/metadata/runtime/node",
+        "baseline": "v24.14.1",
+        "candidate": "v22.23.3"
+      }
+    ],
+    "unexpected_differences": [],
+    "all_other_result_data_equal": true,
+    "normalized_result_sha256": "15162854af70ef4efd834ec3c7900dfbab5f777506ef5e7d92f1d24590436e14",
+    "scope": "Complete result objects compared, retaining all fixture/source/harness/dependency hashes, validation results, converter outputs and pair/query results. Execution timestamps are stored in a separate ledger and not present in these result objects."
+  },
+  "limitations": "Two local runtimes on the same macOS arm64 host; no full-application/UI, binary-attachment, downstream acceptance or deployment test. Primary results file was read only."
+}

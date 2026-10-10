@@ -1,0 +1,24 @@
+{
+  "repository": "https://github.com/ai-flaw-reporting/ai-flaw-reporting",
+  "commit": "f51514d4b999fa7988e05d44b9bf18ea0aa98031",
+  "verification": "All listed source bytes verified against pinned Git commit.",
+  "source_sha256": {
+    "LICENSE": "0bce2d2b902ebff7dcecb779909794d56738b1af84e9de74dda0872888384a0e",
+    "client/package.json": "ea9ed6a0acaa8aadb73ece9c0e0f5c21a806e4b2b1e2cd4305175cd9bacb1a2f",
+    "client/src/entities/ai-flaw-report/lib/cert-converter.ts": "fe1a7130baa1e20cac188fbc739d915f540f293cf03e4fda57fbdb54035582f3",
+    "client/src/entities/ai-flaw-report/lib/jsonld-converter.ts": "7225ef69951f20d73be64cd3b0eabed9146d5add0741651c68896b3a505198b3",
+    "client/src/entities/ai-flaw-report/model/constants.ts": "acaaf473bd35792c7aef2fd026144ab9e4e606743583c1d9ddfa3ef9135bb5f2",
+    "client/src/entities/ai-flaw-report/model/form-data/disclosure-plan-fields-config.ts": "0e624468c16ed2550a753fdc7e8bd225f094331cf64deed486b3210b2a46949e",
+    "client/src/entities/ai-flaw-report/model/form-data/impact-assessment-fields-config.ts": "b8d3c0b7e59d19a78c8897af8fc48420149d15b729d97149d1e0a8e692d8b5ae",
+    "client/src/entities/ai-flaw-report/model/form-data/incident-description-fields-config.ts": "f82a1de13f5ff4ad1fdb7acd694327260798d07e154311f45e44d55db7dcb593",
+    "client/src/entities/ai-flaw-report/model/form-data/reporter-details-data.ts": "b7c619e1ea4eb45ade0e22923bab473b2c3571ec7f5d4e6eeeb1d801211a8633",
+    "client/src/entities/ai-flaw-report/model/form-data/security-details-fields-config.ts": "1db8a21b3098847730492ed5c510a16f131cbb29fa4509758c4500775e4f0ad5",
+    "client/src/entities/ai-flaw-report/model/hooks/useDownloadReport.ts": "ebcdc2e42d2f819911c98187f03cf84bcd15bcc7160bc95bf51e9abe9b5f398d",
+    "client/src/entities/ai-flaw-report/model/schema.ts": "b22411d1fad1b05ece56f52ce16b576fabee432b3c7c3fb88a332b90262a2392",
+    "client/src/entities/ai-flaw-report/model/step-config.ts": "ae09b83a7b6bfd4237d92b75249358072a0034afb246ea6d7221e7d8d3635c56",
+    "client/src/lib/hash.ts": "c6db0ea997450b32589026ab401899b757a36ce8a950d7fbd9f3993357bc62c0",
+    "client/src/lib/url.ts": "d7dc8601cb7572c3955b70c586af285c2f9b370c379c22a7c2531a9b70977aed",
+    "client/src/widgets/ai-flaw-report/reporter-details-step/ai-system-info.tsx": "4efa05bd3631ecfa68297c3ff4068ee41fb0bef3f6bbaed8f82913a5d0bcf2b0",
+    "yarn.lock": "cd6bb69b95b5fa8d0dfba8e67b04b12ee1681bb0cfa0a25daa42780bf807e3d8"
+  }
+}
