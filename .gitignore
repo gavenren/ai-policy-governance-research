@@ -1,0 +1,10 @@
+# Retained source bytes with unverified or restrictive redistribution terms.
+.local-sources/
+.local-verification/
+.local-tools/
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+*.tmp

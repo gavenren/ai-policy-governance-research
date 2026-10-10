@@ -2,13 +2,21 @@
 
 Reproducible studies of AI policy and governance, using dated public primary sources, executed analyses, and explicit evidence limits.
 
-**Programme status:** setup and research protocols; no completed paper is claimed by this initial commit.
+**Programme status:** paused after the first complete-study draft at the user's request. No further study will begin without a new instruction. Updated 2026-10-10 UTC.
+
+## Studies
+
+| Study | State and evidence | Materials |
+| --- | --- | --- |
+| Preserved in the raw record, absent from the export projection | Complete-study draft. A pinned FLARE-AI audit of 32 synthetic records in 16 selected pairs; all raw records recover exactly, while particular export views collapse selected distinctions. Separate AI review and same-host reruns completed; no human or external peer review. | [Paper](studies/2026-10-09-flare-export-preservation/paper.md), [PDF](studies/2026-10-09-flare-export-preservation/output/pdf/paper.pdf), [code, data and review](studies/2026-10-09-flare-export-preservation/) |
+
+The [study queue](docs/STUDY_QUEUE.md) records candidate questions. Subsequent studies are paused and are not completed papers.
 
 ## Research standard
 
 Each study will include its question, closest prior research, bounded contribution, legal-status table, evidence cutoff, source retrieval records and hashes, reproducible methods, results including negative findings, and independent critical review by another AI agent. AI review is not human or external peer review. Publication quality is a target, not a certification.
 
-## Planned structure
+## Structure
 
 - `docs/` — programme protocol, study queue, and publication checks.
 - `templates/` — reusable study protocol and report structure.
