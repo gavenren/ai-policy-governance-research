@@ -1,0 +1,240 @@
+{
+  "artifact_type": "PDF build and layout QA record",
+  "status": "passed_final_local_artifact_checks",
+  "recorded_utc": "2026-10-10T00:07:20.226326+00:00",
+  "source": {
+    "path": "studies/2026-10-09-flare-export-preservation/paper.md",
+    "sha256": "372f205d7f4a343f701496199f4a8783837dc6dcf953f3283063c983bec08a13"
+  },
+  "renderer": {
+    "path": "scripts/render_paper.py",
+    "sha256": "8fa51c0941fbdc3042565a7a4091d245f01735f3d10e69f54753e2a35f94ce32",
+    "deterministic_mode": "reportlab.rl_config.invariant = True"
+  },
+  "pdf": {
+    "path": "studies/2026-10-09-flare-export-preservation/output/pdf/paper.pdf",
+    "sha256": "e87ce93650bacc3f6bb5ee974430d0db3049d74a1c01964522c7c485befb9ae3",
+    "bytes": 87157,
+    "pages": 6,
+    "page_size_points": [
+      612,
+      792
+    ]
+  },
+  "environment": {
+    "python": "3.13.7",
+    "platform": "Darwin",
+    "machine": "arm64",
+    "dependencies": {
+      "reportlab": "5.0.1",
+      "pypdf": "6.20.0",
+      "pypdfium2": "5.14.0",
+      "pillow": "12.3.0"
+    },
+    "pdfium_version": "156.0.8076.0",
+    "reportlab_font_sha256": {
+      "Vera.ttf": "c4c45690b345435b2cba52ecabe275f05e49b389b39fe68ad03afbb551288d3d",
+      "VeraBd.ttf": "cc037385e4d55bfde89b13e03091ee93bf40c0c52ddd391ff031ab276f13b8e9",
+      "VeraIt.ttf": "2adc684d518f45232c4ad1f56522f5a82a6904c31940373e1b7030beee20fb3a"
+    }
+  },
+  "build": {
+    "verification_render_started_utc": "2026-10-10T00:07:19.972068+00:00",
+    "verification_render_completed_utc": "2026-10-10T00:07:20.224879+00:00",
+    "command_argv": [
+      ".local-tools/pdf-render/bin/python",
+      "scripts/render_paper.py",
+      "studies/2026-10-09-flare-export-preservation/paper.md",
+      ".local-verification/pdf-qa/rerender.pdf",
+      "--link-base",
+      "https://github.com/gavenren/ai-policy-governance-research/blob/main/studies/2026-10-09-flare-export-preservation/paper.md"
+    ],
+    "exit_code": 0,
+    "rerender_sha256": "e87ce93650bacc3f6bb5ee974430d0db3049d74a1c01964522c7c485befb9ae3",
+    "byte_equal_to_final_pdf": true,
+    "public_render_command_argv": [
+      ".local-tools/pdf-render/bin/python",
+      "scripts/render_paper.py",
+      "studies/2026-10-09-flare-export-preservation/paper.md",
+      "studies/2026-10-09-flare-export-preservation/output/pdf/paper.pdf",
+      "--link-base",
+      "https://github.com/gavenren/ai-policy-governance-research/blob/main/studies/2026-10-09-flare-export-preservation/paper.md"
+    ]
+  },
+  "automated_qa": {
+    "completed_utc": "2026-10-10T00:06:27.808503+00:00",
+    "page_count": 6,
+    "text_extraction_library": "pypdf.PdfReader; page.extract_text()",
+    "full_source_text_represented": true,
+    "extracted_body_characters": 19899,
+    "normalization": "Remove page footer/page number, Markdown heading/emphasis/code/link markup and table rule rows; apply renderer hyphen substitutions; compare body content with layout whitespace removed.",
+    "replacement_glyphs_found": false,
+    "characters_checked": [
+      "U+FFFD REPLACEMENT CHARACTER",
+      "U+25A0 BLACK SQUARE",
+      "U+0000 NULL"
+    ],
+    "link_annotation_count": 22,
+    "unique_https_destinations": 19,
+    "all_annotation_targets_https": true,
+    "targets_equal_resolved_markdown_link_targets": true,
+    "link_check_scope": "PDF /URI annotation values and HTTPS resolution of source-relative links; external network reachability and destination content were not rechecked during artifact QA.",
+    "links": [
+      {
+        "page": 2,
+        "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/main/docs/SCHEMA_FEASIBILITY.md"
+      },
+      {
+        "page": 2,
+        "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/main/docs/PRIOR_ART_GATE.md"
+      },
+      {
+        "page": 2,
+        "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/main/docs/PRIOR_ART_SOURCE_MANIFEST.json"
+      },
+      {
+        "page": 6,
+        "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/main/studies/2026-10-09-flare-export-preservation/README.md"
+      },
+      {
+        "page": 6,
+        "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/main/studies/2026-10-09-flare-export-preservation/code/README.md"
+      },
+      {
+        "page": 6,
+        "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/main/studies/2026-10-09-flare-export-preservation/reviews/critical-review.md"
+      },
+      {
+        "page": 6,
+        "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/main/studies/2026-10-09-flare-export-preservation/reviews/review-evidence.json"
+      },
+      {
+        "page": 6,
+        "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/main/studies/2026-10-09-flare-export-preservation/reviews/author-response.md"
+      },
+      {
+        "page": 6,
+        "uri": "https://arxiv.org/html/2606.31567v1"
+      },
+      {
+        "page": 6,
+        "uri": "https://proceedings.mlr.press/v306/longpre26a.html"
+      },
+      {
+        "page": 6,
+        "uri": "https://airisk.mit.edu/blog/preliminary-findings-on-how-ai-incident-databases-are-used"
+      },
+      {
+        "page": 6,
+        "uri": "https://arxiv.org/html/2605.05531v1"
+      },
+      {
+        "page": 6,
+        "uri": "https://arxiv.org/html/2605.05531v1"
+      },
+      {
+        "page": 6,
+        "uri": "https://arxiv.org/html/2609.11030v1"
+      },
+      {
+        "page": 6,
+        "uri": "https://arxiv.org/html/2609.11030v1"
+      },
+      {
+        "page": 6,
+        "uri": "https://arxiv.org/html/1202.3667v1"
+      },
+      {
+        "page": 6,
+        "uri": "https://arxiv.org/html/1202.3667v1"
+      },
+      {
+        "page": 6,
+        "uri": "https://arxiv.org/html/2502.18954v2"
+      },
+      {
+        "page": 6,
+        "uri": "https://github.com/ai-flaw-reporting/ai-flaw-reporting/tree/f51514d4b999fa7988e05d44b9bf18ea0aa98031"
+      },
+      {
+        "page": 6,
+        "uri": "https://www.oecd.org/en/publications/towards-a-common-reporting-framework-for-ai-incidents_f326d4ac-en.html"
+      },
+      {
+        "page": 6,
+        "uri": "https://www.etsi.org/deliver/etsi_ts/104100_104199/10415802/01.01.01_60/ts_10415802v010101p.pdf"
+      },
+      {
+        "page": 6,
+        "uri": "https://portal.etsi.org/webapp/WorkProgram/Report_WorkItem.asp?WKI_ID=75426"
+      }
+    ]
+  },
+  "visual_qa": {
+    "completed_utc": "2026-10-10T00:07:19.971896+00:00",
+    "reviewer": "Codex AI agent; no human layout review claimed",
+    "method": "Rendered each final PDF page with pypdfium2 at 1.6 pixels/point and inspected all six PNGs with view_image.",
+    "pages_inspected": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "checks": [
+      "Text readable",
+      "No visible clipping or overlapping content",
+      "Tables and column wraps legible",
+      "Page numbering and footers consistent",
+      "No broken or replacement glyphs visible",
+      "Final evidence-cutoff text present on page 1",
+      "References and hyperlink styling readable"
+    ],
+    "issues_found": [],
+    "page_image_dimensions_and_sha256": [
+      {
+        "page": 1,
+        "width": 980,
+        "height": 1268,
+        "sha256": "cf5ef038c87804a673b833cb74fb86c7bbd0fa768c92762c7e2eca7f6d38d02a"
+      },
+      {
+        "page": 2,
+        "width": 980,
+        "height": 1268,
+        "sha256": "2065197535fefd81ec2cb3b201baa93d77d7b71825fb503fd89e1f99ef25cae2"
+      },
+      {
+        "page": 3,
+        "width": 980,
+        "height": 1268,
+        "sha256": "daad4e100497f213c97c8e67c396c8d93cd1a8d673760db50ddd3fac2898b775"
+      },
+      {
+        "page": 4,
+        "width": 980,
+        "height": 1268,
+        "sha256": "19f84ed5d87b099091eb0779a92d6188d81e8eea7ab92043053b3da16b7d5a67"
+      },
+      {
+        "page": 5,
+        "width": 980,
+        "height": 1268,
+        "sha256": "b5ee0386fc81f45e1c554cdd43ac4846d215b145c3a01894dea60c5c0ad1703d"
+      },
+      {
+        "page": 6,
+        "width": 980,
+        "height": 1268,
+        "sha256": "61f25cfa39542abb1d8d0d356c019c2e32d6bcfedd557c5148fe02759701ff79"
+      }
+    ],
+    "local_qa_files": ".local-verification/pdf-qa (ignored; not redistributed)"
+  },
+  "scope_limits": [
+    "Artifact fidelity and layout only; not scientific validation or publication-quality certification",
+    "All PDF pages inspected by an AI agent, not a human reviewer",
+    "Primary manuscript, renderer, scientific data and reviewed PDF bytes were not modified by this QA pass"
+  ]
+}
