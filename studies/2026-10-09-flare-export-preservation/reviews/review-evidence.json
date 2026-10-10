@@ -1,0 +1,322 @@
+{
+  "review_type": "Separate AI critical review and independent rerun; same host and dependency installation; no human or external peer review",
+  "recorded_utc": "2026-10-09T23:57:50.688892+00:00",
+  "reviewed_file_sha256": {
+    "docs/BENCHMARK_DESIGN_GATE.md": "bcf78f611bf989dc330219bf28d0cbd3faae365496143b0e2a321d73ca9eed45",
+    "docs/PRIOR_ART_GATE.md": "e963206fb97ed60da97278af52745fa81b60e745601800aedcf5c9971b23d52b",
+    "docs/PRIOR_ART_SOURCE_MANIFEST.json": "e1e5e0d866b0442df7fbea8ccc826adb493cfcf06ca414cde943f4c1e1119e24",
+    "studies/2026-10-09-flare-export-preservation/protocol.md": "bcdc808915b9ff528a96c22896228e2dec455f348a74a5ac291529662b7e1b74",
+    "studies/2026-10-09-flare-export-preservation/data/design-freeze.json": "3550867cb5c00837a7f41dfd2c914e6d338363a244e4506eef11bbae3264af35",
+    "studies/2026-10-09-flare-export-preservation/data/fixtures.json": "6e355a22a4513e167ebe7168c81084647c767bdf1e9048436a9a47ff2d65b79d",
+    "studies/2026-10-09-flare-export-preservation/mapping.csv": "cd4682f7a5c372080fa2a0faebb46e889880b27fd5beefbcc753902e6a0e7549",
+    "studies/2026-10-09-flare-export-preservation/paper.md": "9b362960e62d5ac8d8349861da60c1fb34597c208fc80fdf0f17e38ed542fcd1",
+    "studies/2026-10-09-flare-export-preservation/README.md": "b72484f5db658aa2f7c70c9a74e28e1620bf83f718e4051a9458a34184fdb8e3",
+    "studies/2026-10-09-flare-export-preservation/code/README.md": "7cd0b4f1637af3543ebba84a9584f9b4ed6c235a6adeec0d1980d38b9a0f2a63",
+    "studies/2026-10-09-flare-export-preservation/code/run.mjs": "e1e46d3c8c0cf4a134b3feecc339e086e5c5294552fa5bc0696afbe40b287c30",
+    "studies/2026-10-09-flare-export-preservation/code/package.json": "6cc13941fee8411f90a836be893ee38ffa854503e01620d0d07703d4c132575a",
+    "studies/2026-10-09-flare-export-preservation/code/package-lock.json": "fc88ac34fbe67aa09cc1c65dae5fa8a5063816f369c574e90252705988d5512e",
+    "studies/2026-10-09-flare-export-preservation/tests/harness.test.mjs": "8498c1fda6e4037fab5c18e34e0e93f7de1ae84122bf82479db9e1926f3da979",
+    "studies/2026-10-09-flare-export-preservation/results/results.json": "02dbf4679217e6956d361718f72df6f57011c7b99699e31e7e1c4207f215e999",
+    "studies/2026-10-09-flare-export-preservation/results/execution.json": "3413b3457753747c23471f3bf76cfeac5341baa866d520462d77fd46782ac857",
+    "studies/2026-10-09-flare-export-preservation/results/summary.csv": "253fb77f58971152d12fa3ade007f5536d02055ea779a8db37afd2de26a0e99e",
+    "studies/2026-10-09-flare-export-preservation/results/source-manifest.json": "0c21a099f32e59f09cae61231e2d69c42e19f03bde24ce17b496af778a5b542d"
+  },
+  "independent_execution": {
+    "started_utc": "2026-10-09T23:56:37.469Z",
+    "completed_utc": "2026-10-09T23:56:38.064Z",
+    "timestamp_source": "Host wall clock outside the synchronous synthetic Date override",
+    "result_sha256": "02dbf4679217e6956d361718f72df6f57011c7b99699e31e7e1c4207f215e999",
+    "fixture_sha256": "6e355a22a4513e167ebe7168c81084647c767bdf1e9048436a9a47ff2d65b79d",
+    "harness_sha256": "e1e46d3c8c0cf4a134b3feecc339e086e5c5294552fa5bc0696afbe40b287c30",
+    "node": "v24.14.1",
+    "summary": {
+      "case_count": 32,
+      "valid_static": 32,
+      "valid_classification_dependent": 32,
+      "converted_cases": 32,
+      "raw_round_trip_equal_cases": 32,
+      "pair_count": 16,
+      "executed_pairs": 16,
+      "distinguished_pair_counts": {
+        "jsonld": 16,
+        "jsonld_named_projection": 6,
+        "jsonld_raw": 16,
+        "cert": 8
+      }
+    }
+  },
+  "focused_test_outcome": {
+    "command": "node --test studies/2026-10-09-flare-export-preservation/tests/harness.test.mjs",
+    "pass": 8,
+    "fail": 0,
+    "exit_code": 0
+  },
+  "rerun_byte_identity": {
+    "results.json": true,
+    "summary.csv": true,
+    "source-manifest.json": true
+  },
+  "independent_python_recalculation": {
+    "input": "Saved JSON fixtures and authentic saved converter outputs; did not import harness comparison functions",
+    "raw_records_exact": 32,
+    "pair_count": 16,
+    "counts": {
+      "jsonld": 16,
+      "jsonld_named_projection": 6,
+      "jsonld_raw": 16,
+      "cert": 8
+    },
+    "pairs": [
+      {
+        "pair": "P01",
+        "single_changed_leaf": "/reporterDetails/systems/0/version",
+        "independent_distinguishability": {
+          "jsonld": true,
+          "jsonld_named_projection": false,
+          "jsonld_raw": true,
+          "cert": false
+        }
+      },
+      {
+        "pair": "P02",
+        "single_changed_leaf": "/reporterDetails/systems/0/version",
+        "independent_distinguishability": {
+          "jsonld": true,
+          "jsonld_named_projection": false,
+          "jsonld_raw": true,
+          "cert": false
+        }
+      },
+      {
+        "pair": "P03",
+        "single_changed_leaf": "/reporterDetails/systems/0/accessMethod",
+        "independent_distinguishability": {
+          "jsonld": true,
+          "jsonld_named_projection": false,
+          "jsonld_raw": true,
+          "cert": false
+        }
+      },
+      {
+        "pair": "P04",
+        "single_changed_leaf": "/incidentDescription/expectedBehavior",
+        "independent_distinguishability": {
+          "jsonld": true,
+          "jsonld_named_projection": false,
+          "jsonld_raw": true,
+          "cert": false
+        }
+      },
+      {
+        "pair": "P05",
+        "single_changed_leaf": "/incidentDescription/actualBehavior",
+        "independent_distinguishability": {
+          "jsonld": true,
+          "jsonld_named_projection": false,
+          "jsonld_raw": true,
+          "cert": false
+        }
+      },
+      {
+        "pair": "P06",
+        "single_changed_leaf": "/securityDetails/harmNarrative",
+        "independent_distinguishability": {
+          "jsonld": true,
+          "jsonld_named_projection": false,
+          "jsonld_raw": true,
+          "cert": false
+        }
+      },
+      {
+        "pair": "P07",
+        "single_changed_leaf": "/impactAssessment/severityOfHarm",
+        "independent_distinguishability": {
+          "jsonld": true,
+          "jsonld_named_projection": true,
+          "jsonld_raw": true,
+          "cert": true
+        }
+      },
+      {
+        "pair": "P08",
+        "single_changed_leaf": "/impactAssessment/severityOfHarm",
+        "independent_distinguishability": {
+          "jsonld": true,
+          "jsonld_named_projection": true,
+          "jsonld_raw": true,
+          "cert": true
+        }
+      },
+      {
+        "pair": "P09",
+        "single_changed_leaf": "/impactAssessment/prevalence",
+        "independent_distinguishability": {
+          "jsonld": true,
+          "jsonld_named_projection": true,
+          "jsonld_raw": true,
+          "cert": true
+        }
+      },
+      {
+        "pair": "P10",
+        "single_changed_leaf": "/impactAssessment/prevalence",
+        "independent_distinguishability": {
+          "jsonld": true,
+          "jsonld_named_projection": true,
+          "jsonld_raw": true,
+          "cert": true
+        }
+      },
+      {
+        "pair": "P11",
+        "single_changed_leaf": "/impactAssessment/documentedHarmCwe",
+        "independent_distinguishability": {
+          "jsonld": true,
+          "jsonld_named_projection": false,
+          "jsonld_raw": true,
+          "cert": true
+        }
+      },
+      {
+        "pair": "P12",
+        "single_changed_leaf": "/securityDetails/detectionMethod",
+        "independent_distinguishability": {
+          "jsonld": true,
+          "jsonld_named_projection": true,
+          "jsonld_raw": true,
+          "cert": false
+        }
+      },
+      {
+        "pair": "P13",
+        "single_changed_leaf": "/disclosurePlan/publicDisclosureIntent",
+        "independent_distinguishability": {
+          "jsonld": true,
+          "jsonld_named_projection": true,
+          "jsonld_raw": true,
+          "cert": true
+        }
+      },
+      {
+        "pair": "P14",
+        "single_changed_leaf": "/disclosurePlan/disclosureDatepicker",
+        "independent_distinguishability": {
+          "jsonld": true,
+          "jsonld_named_projection": false,
+          "jsonld_raw": true,
+          "cert": true
+        }
+      },
+      {
+        "pair": "P15",
+        "single_changed_leaf": "/disclosurePlan/embargoDetails",
+        "independent_distinguishability": {
+          "jsonld": true,
+          "jsonld_named_projection": false,
+          "jsonld_raw": true,
+          "cert": true
+        }
+      },
+      {
+        "pair": "P16",
+        "single_changed_leaf": "/impactAssessment/mitigationNotes",
+        "independent_distinguishability": {
+          "jsonld": true,
+          "jsonld_named_projection": false,
+          "jsonld_raw": true,
+          "cert": false
+        }
+      }
+    ]
+  },
+  "scope_limit": "The reviewer had performed prior-art/source inspection and supplied review challenges. The reviewer did not author central fixture, harness, or manuscript. Rerun is independent execution by a separate AI agent, not an independent machine/dependency rebuild.",
+  "supported_runtime_review": {
+    "recorded_utc": "2026-10-10T00:00:04.044018+00:00",
+    "independent_execution": {
+      "started_utc": "2026-10-09T23:59:31.327Z",
+      "completed_utc": "2026-10-09T23:59:31.992Z",
+      "timestamp_source": "Host wall clock outside the synchronous synthetic Date override",
+      "result_sha256": "b7e204da653ac806f1487229a8be080cd8aa3f5029d2d0f6cb9980ed878640f8",
+      "fixture_sha256": "6e355a22a4513e167ebe7168c81084647c767bdf1e9048436a9a47ff2d65b79d",
+      "harness_sha256": "e1e46d3c8c0cf4a134b3feecc339e086e5c5294552fa5bc0696afbe40b287c30",
+      "node": "v22.23.3",
+      "summary": {
+        "case_count": 32,
+        "valid_static": 32,
+        "valid_classification_dependent": 32,
+        "converted_cases": 32,
+        "raw_round_trip_equal_cases": 32,
+        "pair_count": 16,
+        "executed_pairs": 16,
+        "distinguished_pair_counts": {
+          "jsonld": 16,
+          "jsonld_named_projection": 6,
+          "jsonld_raw": 16,
+          "cert": 8
+        }
+      }
+    },
+    "tests": {
+      "pass": 8,
+      "fail": 0,
+      "exit_code": 0
+    },
+    "same_bytes_as_author_node22": true,
+    "whole_object_comparison": "After replacing only /metadata/runtime/node and /metadata/runtime/in_declared_range, complete parsed result equals primary result. Independent Python comparison did not call author comparison helper.",
+    "archive_sha256": "23b25245dcfb9af7262f8ff142e9e2e0af025368117329e7a7458a51e5922f53",
+    "archive_matches_saved_official_manifest": true,
+    "verification_limit": "Reviewer inspected saved official HTTPS checksum manifest; did not verify a release signature or independently download the archive again.",
+    "reviewed_file_sha256": {
+      "studies/2026-10-09-flare-export-preservation/results/runtime-sensitivity.json": "d08808f322c0bbc5a0628684e39c78f06ffafdf43dd1bb4393b10adfef303115",
+      "studies/2026-10-09-flare-export-preservation/code/compare-runtime.py": "c733eda0b5e82ef32b28b0959de938506194aceb3fa6cad2823bf3512a814edb",
+      "studies/2026-10-09-flare-export-preservation/README.md": "d1f8327984da54bcb1dbad17021ef9299e7a3fa715564a28e2109fbe5decc15a",
+      "studies/2026-10-09-flare-export-preservation/code/README.md": "6230ac75ac4e7a511a6ae7892adc764ccc1783828154d470f4ec63fe9178928c"
+    }
+  },
+  "final_review_closure": {
+    "recorded_utc": "2026-10-10T00:03:35.162196+00:00",
+    "disposition": "Research critical review closed; no unresolved blocker within the reviewed empirical, interpretive and documentation scope. Complete-study publication remains conditional on the separate PDF and repository publication gates.",
+    "review_items": {
+      "R1": "Resolved: authentic transmission template disclosed as boilerplate; no actual report sent.",
+      "R2": "Resolved within scope: Node22.23.3 sensitivity independently reproduced; only two runtime metadata fields differ; same-host/dependency and checksum limits retained.",
+      "R3": "Resolved: frozen revised manuscript and author response accurately state completed executions, separate AI review and remaining limitations."
+    },
+    "reviewed_file_sha256": {
+      "studies/2026-10-09-flare-export-preservation/paper.md": "372f205d7f4a343f701496199f4a8783837dc6dcf953f3283063c983bec08a13",
+      "studies/2026-10-09-flare-export-preservation/reviews/author-response.md": "496f197c1c6d09f173baa48cda169139cab3e3c9f63c6704d64c8e03afb1541c",
+      "studies/2026-10-09-flare-export-preservation/README.md": "25509b0a7946943bbc7d3f3507c09c76dcaa62514e66c7842800fc26f36fe1d7",
+      "studies/2026-10-09-flare-export-preservation/code/README.md": "6230ac75ac4e7a511a6ae7892adc764ccc1783828154d470f4ec63fe9178928c",
+      "studies/2026-10-09-flare-export-preservation/results/runtime-sensitivity.json": "d08808f322c0bbc5a0628684e39c78f06ffafdf43dd1bb4393b10adfef303115",
+      "studies/2026-10-09-flare-export-preservation/code/compare-runtime.py": "c733eda0b5e82ef32b28b0959de938506194aceb3fa6cad2823bf3512a814edb"
+    },
+    "unchanged_since_initial_review": {
+      "studies/2026-10-09-flare-export-preservation/protocol.md": true,
+      "studies/2026-10-09-flare-export-preservation/data/fixtures.json": true,
+      "studies/2026-10-09-flare-export-preservation/mapping.csv": true,
+      "studies/2026-10-09-flare-export-preservation/code/run.mjs": true,
+      "studies/2026-10-09-flare-export-preservation/code/package.json": true,
+      "studies/2026-10-09-flare-export-preservation/code/package-lock.json": true,
+      "studies/2026-10-09-flare-export-preservation/tests/harness.test.mjs": true,
+      "studies/2026-10-09-flare-export-preservation/results/results.json": true,
+      "studies/2026-10-09-flare-export-preservation/results/execution.json": true,
+      "studies/2026-10-09-flare-export-preservation/results/summary.csv": true,
+      "studies/2026-10-09-flare-export-preservation/results/source-manifest.json": true
+    },
+    "scope_exclusions": "No PDF rendering/layout or final staged-publication audit performed by this reviewer. Those gates remain the coordinating author responsibility. No human or external peer review, new-machine rebuild, deployment or recipient acceptance is claimed.",
+    "last_metadata_verification_utc": "2026-10-10T00:05:36.905922+00:00"
+  },
+  "post_closure_metadata_revision": {
+    "recorded_utc": "2026-10-10T00:05:36.905922+00:00",
+    "type": "Non-result disclosure precision revision",
+    "previous_paper_sha256": "464f096cae1df9e06daf6071ad00962673acac5eeee188cfae2abcccf4619c79",
+    "latest_paper_sha256": "372f205d7f4a343f701496199f4a8783837dc6dcf953f3283063c983bec08a13",
+    "latest_readme_sha256": "25509b0a7946943bbc7d3f3507c09c76dcaa62514e66c7842800fc26f36fe1d7",
+    "verification": "Replacing only the revised evidence-cutoff paragraph with its prior text reproduces the prior manuscript SHA-256 exactly. Empirical file hashes remain unchanged. No numerical rerun needed.",
+    "evidence_cutoff_utc": "2026-10-09T23:59:59Z",
+    "retrieval_timestamps_checked": 26,
+    "latest_checked_retrieval_utc": "2026-10-09T23:57:29.252343+00:00",
+    "cutoff_scope": "Public sources/runtime retrieved by the cutoff; expressly nonexhaustive. AI review continues on 2026-10-10.",
+    "pdf_or_publication_gate_reviewed": false,
+    "retrieval_check_scope": "Prior-art retrievals, standards snapshots and selected web-extraction record, and runtime archive acquisition; all precede cutoff."
+  }
+}
