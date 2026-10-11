@@ -1,0 +1,13 @@
+family,receipt_period,income_loss_start,sale_exact,reserve_exact,reserve_sale100
+joint_allowed,2,1,700/39,280/39,8.000000000
+joint_allowed,2,2,700/39,7,7.000000000
+joint_allowed,4,1,0,21,24.000000000
+joint_allowed,4,4,0,21,21.000000000
+no_overlap,2,1,1200/67,261/67,8.000000000
+no_overlap,2,2,400/21,3,3.000000000
+no_overlap,4,1,600/77,783/77,24.000000000
+no_overlap,4,4,120/13,9,9.000000000
+common_only,2,1,700/39,280/39,8.000000000
+common_only,2,2,700/39,7,7.000000000
+common_only,4,1,0,21,24.000000000
+common_only,4,4,0,21,21.000000000

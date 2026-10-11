@@ -1,0 +1,142 @@
+{
+  "base": {
+    "name": "base",
+    "A": 14.0,
+    "c": 4.0,
+    "b": 1.0,
+    "d": 0.25,
+    "theta": 0.25,
+    "efficiency": 1.0,
+    "fixed_cost": 0.0,
+    "recipients": 0.8
+  },
+  "named": [
+    {
+      "name": "base_zero",
+      "tax": 0.0
+    },
+    {
+      "name": "moderate_levy",
+      "tax": 2.0
+    },
+    {
+      "name": "high_levy",
+      "tax": 4.0
+    },
+    {
+      "name": "full_pass_through",
+      "tax": 2.0,
+      "d": 0.0
+    },
+    {
+      "name": "collection_cost",
+      "tax": 2.0,
+      "efficiency": 0.75
+    },
+    {
+      "name": "higher_public_share",
+      "tax": 2.0,
+      "theta": 0.8
+    },
+    {
+      "name": "fixed_cost",
+      "tax": 2.0,
+      "fixed_cost": 0.5
+    },
+    {
+      "name": "low_demand",
+      "tax": 2.0,
+      "A": 10.0
+    },
+    {
+      "name": "flatter_foreign_supply",
+      "tax": 2.0,
+      "d": 0.1
+    }
+  ],
+  "grid": {
+    "A": [
+      10.0,
+      14.0,
+      18.0
+    ],
+    "d": [
+      0.0,
+      0.1,
+      0.25,
+      1.0
+    ],
+    "theta": [
+      0.0,
+      0.25,
+      0.8
+    ],
+    "efficiency": [
+      0.75,
+      0.9,
+      1.0
+    ],
+    "fixed_cost": [
+      0.0,
+      0.5
+    ],
+    "tax": [
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0
+    ]
+  },
+  "robust_sets": {
+    "base_only": [
+      {}
+    ],
+    "higher_pass_through": [
+      {},
+      {
+        "d": 0.1
+      }
+    ],
+    "low_demand": [
+      {},
+      {
+        "A": 10.0
+      }
+    ],
+    "small_country_included": [
+      {},
+      {
+        "d": 0.0
+      }
+    ],
+    "collection_loss_included": [
+      {},
+      {
+        "efficiency": 0.75
+      }
+    ],
+    "fixed_cost_included": [
+      {},
+      {
+        "fixed_cost": 0.5
+      }
+    ]
+  },
+  "funding_targets": [
+    0.0,
+    4.0,
+    8.0,
+    12.0,
+    14.0
+  ],
+  "withdrawal_tax_caps": [
+    1.0,
+    2.0,
+    3.0,
+    10.0
+  ],
+  "robust_search_iterations": 80,
+  "tolerance": 1e-09
+}

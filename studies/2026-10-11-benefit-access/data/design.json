@@ -1,0 +1,28 @@
+{
+  "horizon": 12,
+  "benefit": 1,
+  "deadline": 2,
+  "reserve": 30,
+  "scenarios": [
+    {"name":"stable_fast_review", "base_denials":10,"ineligible_per_period":2,"capacity":15,"recovery":0.5},
+    {"name":"stable_positive_backlog", "base_denials":10,"ineligible_per_period":2,"capacity":12,"recovery":0.5,"capacity_path":[0,12,12,12,12,12,12,12,12,12,12,12]},
+    {"name":"slow_review", "base_denials":10,"ineligible_per_period":2,"capacity":10,"recovery":0.5},
+    {"name":"common_outage", "base_denials":10,"ineligible_per_period":2,"capacity":15,"recovery":0.5,"shock_length":3,"shock_denials":60},
+    {"name":"outage_full_recovery", "base_denials":10,"ineligible_per_period":2,"capacity":15,"recovery":1,"shock_length":3,"shock_denials":60},
+    {"name":"outage_no_recovery", "base_denials":10,"ineligible_per_period":2,"capacity":15,"recovery":0,"shock_length":3,"shock_denials":60},
+    {"name":"outage_no_ineligible", "base_denials":10,"ineligible_per_period":0,"capacity":15,"recovery":0.5,"shock_length":3,"shock_denials":60},
+    {"name":"outage_extra_capacity", "base_denials":10,"ineligible_per_period":2,"capacity":40,"recovery":0.5,"shock_length":3,"shock_denials":60},
+    {"name":"same_totals_smooth", "base_denials":22.5,"ineligible_per_period":2,"capacity":11.25,"recovery":0.5},
+    {"name":"same_totals_separate_shocks", "base_denials":10,"ineligible_per_period":2,"capacity":15,"recovery":0.5,"denial_path":[60,60,60,10,10,10,10,10,10,10,10,10],"capacity_path":[15,15,15,0,0,0,15,15,15,15,15,15]},
+    {"name":"no_denials", "base_denials":0,"ineligible_per_period":0,"capacity":0,"recovery":0.5},
+    {"name":"no_review", "base_denials":10,"ineligible_per_period":2,"capacity":0,"recovery":0.5}
+  ],
+  "grid": {
+    "base_denials": [5,10,20],
+    "shock_denials": [20,60,100],
+    "shock_length": [0,1,3],
+    "capacity": [5,15,40],
+    "ineligible_per_period": [0,2,10],
+    "recovery": [0,0.5,1]
+  }
+}

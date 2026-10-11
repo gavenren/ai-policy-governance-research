@@ -2,12 +2,15 @@
 
 Reproducible studies of AI policy and governance, using dated public primary sources, executed analyses, and explicit evidence limits.
 
-**Programme status:** the user authorized one new paper on economic governance after full labor displacement on 2026-10-11. S004 records that work. Other queued studies remain paused. This does not restart the continuing research programme.
+**Programme status:** on 2026-10-11 the user authorized further papers on economic governance after labor displacement, using the remaining core usage allowance. See the [continuation record](docs/RESEARCH_CONTINUATION_2026-10-11.md). Other research fields remain paused.
 
 ## Studies
 
 | Study | State and evidence | Materials |
 | --- | --- | --- |
+| Cash Before Capital | Complete-study draft. Exact cash-reserve test with delayed asset sales and joint revenue shocks; 11,979 path rows and 10 tests. | [Paper](studies/2026-10-11-dividend-reserves/paper.md), [results and review](studies/2026-10-11-dividend-reserves/) |
+| Funding a Post-Labor Floor When AI Is Imported | Complete-study draft. Transfer funding, domestic consumption, and foreign incidence; 1,296 cases and 8 tests. | [Paper](studies/2026-10-11-automation-imports/paper.md), [results and review](studies/2026-10-11-automation-imports/) |
+| When a Funded Benefit Still Does Not Arrive | Complete-study draft. Review queues, payment timing, and additional cash cover; 567 stress cases and 12 tests. | [Paper](studies/2026-10-11-benefit-access/paper.md), [results and review](studies/2026-10-11-benefit-access/) |
 | A Consumption Floor After Human Labor | Complete-study draft. A two-good model links public revenue to essential access and the cost of supply investment. All numerical values are synthetic; separate AI review and reproduction complete. No human peer review. | [Paper](studies/2026-10-11-post-labor-floor/paper.md), [code, results and review](studies/2026-10-11-post-labor-floor/) |
 | Preserved in the raw record, absent from the export projection | Complete-study draft. A pinned FLARE-AI audit of 32 synthetic records in 16 selected pairs; all raw records recover exactly, while particular export views collapse selected distinctions. Separate AI review and same-host reruns completed; no human or external peer review. | [Paper](studies/2026-10-09-flare-export-preservation/paper.md), [PDF](studies/2026-10-09-flare-export-preservation/output/pdf/paper.pdf), [code, data and review](studies/2026-10-09-flare-export-preservation/) |
 

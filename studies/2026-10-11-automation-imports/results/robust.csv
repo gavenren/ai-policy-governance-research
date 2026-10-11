@@ -1,0 +1,7 @@
+set,states,tax,net_funding
+base_only,1,3.333333333333332,13.333333333333332
+higher_pass_through,2,1.6666666671666672,8.666666668666668
+low_demand,2,1.9999999999999991,4.799999999999999
+small_country_included,2,0.0,0.0
+collection_loss_included,2,0.0,0.0
+fixed_cost_included,2,2.9842823584034894,12.187129433613961

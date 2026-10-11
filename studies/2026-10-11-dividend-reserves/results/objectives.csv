@@ -1,0 +1,10 @@
+family,loss_weight,sale_exact,reserve_exact,objective
+joint_allowed,0,700/39,280/39,7.179487179
+joint_allowed,1/5,700/39,280/39,10.769230769
+joint_allowed,1,0,21,21.000000000
+no_overlap,0,1200/67,261/67,3.895522388
+no_overlap,1/5,1200/67,261/67,7.477611940
+no_overlap,1,0,15,15.000000000
+common_only,0,700/39,280/39,7.179487179
+common_only,1/5,700/39,280/39,10.769230769
+common_only,1,0,21,21.000000000

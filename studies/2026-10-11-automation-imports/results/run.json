@@ -1,0 +1,21 @@
+{
+  "run_utc": "2026-10-11T21:06:54Z",
+  "python": "3.13.7",
+  "platform": "Darwin",
+  "inputs": {
+    "data/design.json": "6191f314ee2377e7e29c8c3248467dd6b6bfd87dff03d3becd7108174401c72d",
+    "code/model.py": "7febf6d7b3440c2ed2ae6a7bf0ab7ceddd77e4417c178f8669410e7d77b9474c",
+    "code/test_model.py": "12140fa5822e53950196fc37d2550cb2913f63a835723104d805cebfb92b594c"
+  },
+  "outputs": {
+    "results/feasible_intervals.csv": "5ec3ab1656abea863621dc751fee9e1bdddbed59f2243946f890fa90d57d4a56",
+    "results/grid.csv": "1774fe90bd96e3a3f8773bee5add3c917f1e4fdf67d9cd798f5870fc3e1288ab",
+    "results/robust.csv": "1e509c2ec98ad6d1ed76e0a8cbf77b733ed8af311556475ee0caec3b51b67982",
+    "results/scenarios.csv": "8e7f9c264826e033bf2416d415937fefbac00bb1d654b1ad958de903691290b6",
+    "results/state_boundaries.csv": "87a3711c49611e491d440b2d672b3f90c18f4458d28c382c7ecccd299f5a0b88",
+    "results/withdrawal_caps.csv": "ed462362c27329906ec0f96f9e4b93aedb944c4442c9a08f545fc4bfae097889",
+    "results/summary.json": "b99315df3bbc88b0f6323c77a37b9c7491da1a17a7a5133209df50499dc9af22"
+  },
+  "exit_status": 0,
+  "network_used": false
+}

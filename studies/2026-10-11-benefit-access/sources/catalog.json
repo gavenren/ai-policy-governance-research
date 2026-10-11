@@ -1,0 +1,79 @@
+[
+  {
+    "source_id": "B01",
+    "title": "Due Process on Hold: A Queueing Framework for Improving Access in SNAP",
+    "authors": "Andrew Daw; Chloe Pache; Angela Zhou",
+    "url": "https://arxiv.org/html/2605.15165v1",
+    "publication_date": "2026-05-14",
+    "version": "arXiv:2605.15165v1",
+    "media_type": "text/html",
+    "source_type": "original research preprint",
+    "language": "en"
+  },
+  {
+    "source_id": "B02",
+    "title": "Administrative Burden and Procedural Denials: Experimental Evidence from SNAP",
+    "authors": "Eric Giannella; Tatiana Homonoff; Gwen Rino; Jason Somerville",
+    "url": "https://www.nber.org/papers/w31239",
+    "publication_date": "2023-05; exact day unknown",
+    "version": "NBER Working Paper 31239 landing page",
+    "media_type": "text/html",
+    "source_type": "original research author abstract",
+    "language": "en"
+  },
+  {
+    "source_id": "B03",
+    "title": "Universal Credit: administrative burdens of automated welfare",
+    "authors": "Hayley Bennett; Morgan Currie; Lena Podoletz",
+    "url": "https://www.cambridge.org/core/journals/journal-of-social-policy/article/universal-credit-administrative-burdens-of-automated-welfare/6304AF71E445EF4A97ED47C0413331B8",
+    "publication_date": "2024-09-18 online; 2026-01 journal issue",
+    "version": "doi:10.1017/S0047279424000175 publisher HTML",
+    "media_type": "text/html",
+    "source_type": "original qualitative research",
+    "language": "en"
+  },
+  {
+    "source_id": "B04",
+    "title": "Delivery Systems for Social Protection",
+    "authors": "World Bank",
+    "url": "https://www.worldbank.org/en/brief/2025/09/19/digital-delivery-systems",
+    "publication_date": "unknown; URL contains 2025-09-19, no visible date verified",
+    "version": "public brief captured 2026-10-11",
+    "media_type": "text/html",
+    "source_type": "official programme brief",
+    "language": "en"
+  },
+  {
+    "source_id": "B05",
+    "title": "Information Design for Congested Social Services: Optimal Need-Based Persuasion",
+    "authors": "Jerry Anunrojwong; Krishnamurthy Iyer; Vahideh Manshadi",
+    "url": "https://arxiv.org/html/2005.07253v3",
+    "publication_date": "2022-10-21",
+    "version": "arXiv:2005.07253v3",
+    "media_type": "text/html",
+    "source_type": "original theoretical research preprint",
+    "language": "en"
+  },
+  {
+    "source_id": "B06",
+    "title": "Effectiveness Assessment of Universal Credit Advances Model",
+    "authors": "Department for Work and Pensions",
+    "url": "https://www.gov.uk/government/publications/effectiveness-assessment-including-statistical-analysis-of-the-universal-credit-advances-machine-learning-model-1-april-2025-to-31-march-2026/effectiveness-assessment-of-universal-credit-advances-model",
+    "publication_date": "2026-07-09",
+    "version": "assessment for 1 April 2025 to 31 March 2026",
+    "media_type": "text/html",
+    "source_type": "official self-assessment",
+    "language": "en"
+  },
+  {
+    "source_id": "B07",
+    "title": "Deter and Deteriorate: The Effects of Application Processing Times on Welfare Receipt and Employment",
+    "authors": "Heike Vethaak; Ernst-Jan de Bruijn; Marike Knoef; Pierre Koning",
+    "url": "https://docs.iza.org/dp17839.pdf",
+    "publication_date": "2025-04; exact day unknown",
+    "version": "IZA Discussion Paper 17839",
+    "media_type": "application/pdf",
+    "source_type": "original empirical research working paper",
+    "language": "en"
+  }
+]

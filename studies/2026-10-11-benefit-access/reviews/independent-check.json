@@ -1,0 +1,67 @@
+{
+  "reviewed_utc": "2026-10-11T21:07:13.983718+00:00",
+  "method": "Separate FIFO cohort ledger; no study model functions imported",
+  "scenarios": 12,
+  "trajectory_rows": 144,
+  "numeric_comparisons": 1440,
+  "maximum_absolute_difference": 1.1368683772161603e-13,
+  "end_period_advance_dominance": "passed every named trajectory row",
+  "limits": "Named scenarios only; stress grid and unit tests checked separately",
+  "source_checks": [
+    {
+      "study": "benefit-access",
+      "source": "B01",
+      "hashes": 3,
+      "quote_words": 13,
+      "quote_in_extracted_text": true
+    },
+    {
+      "study": "benefit-access",
+      "source": "B02",
+      "hashes": 3,
+      "quote_words": 9,
+      "quote_in_extracted_text": true
+    },
+    {
+      "study": "benefit-access",
+      "source": "B03",
+      "hashes": 3,
+      "quote_words": 10,
+      "quote_in_extracted_text": true
+    },
+    {
+      "study": "benefit-access",
+      "source": "B04",
+      "hashes": 3,
+      "quote_words": 10,
+      "quote_in_extracted_text": true
+    },
+    {
+      "study": "benefit-access",
+      "source": "B05",
+      "hashes": 3,
+      "quote_words": 7,
+      "quote_in_extracted_text": true
+    },
+    {
+      "study": "benefit-access",
+      "source": "B06",
+      "hashes": 3,
+      "quote_words": 8,
+      "quote_in_extracted_text": true
+    },
+    {
+      "study": "benefit-access",
+      "source": "B07",
+      "hashes": 3,
+      "quote_words": 17,
+      "quote_in_extracted_text": true
+    }
+  ],
+  "temporary_copy_reproduction": {
+    "study": "benefit-access",
+    "result": "pass",
+    "matching_result_files": 4,
+    "reproduced_utc": "2026-10-11T21:08:15.034560+00:00"
+  }
+}

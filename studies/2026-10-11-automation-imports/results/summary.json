@@ -1,0 +1,15 @@
+{
+  "states": 216,
+  "policy_state_rows": 1296,
+  "positive_tax_rows": 1080,
+  "gross_positive_net_negative": 168,
+  "net_positive_domestic_negative": 597,
+  "net_positive_domestic_nonnegative": 312,
+  "states_with_positive_safe_funding": 93,
+  "base_safe_maximum": {
+    "tax": 3.3333333333333326,
+    "net_funding": 13.333333333333332,
+    "domestic_change": 0.0
+  },
+  "max_accounting_residual": 2.842170943040401e-14
+}

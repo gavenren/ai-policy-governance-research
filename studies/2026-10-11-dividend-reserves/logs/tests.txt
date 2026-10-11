@@ -1,0 +1,15 @@
+test_all_paths_via_independent_cash_loop (test_model.ModelTests.test_all_paths_via_independent_cash_loop) ... ok
+test_complete_enumeration_counts (test_model.ModelTests.test_complete_enumeration_counts) ... ok
+test_envelope_agrees_with_direct_paths_and_grid (test_model.ModelTests.test_envelope_agrees_with_direct_paths_and_grid) ... ok
+test_income_rights_timing_is_material (test_model.ModelTests.test_income_rights_timing_is_material) ... ok
+test_known_interior_optimum (test_model.ModelTests.test_known_interior_optimum) ... ok
+test_late_sale_can_worsen_reserve (test_model.ModelTests.test_late_sale_can_worsen_reserve) ... ok
+test_no_overlap_certificate_fails_joint_path (test_model.ModelTests.test_no_overlap_certificate_fails_joint_path) ... ok
+test_sale_stock_and_receipt_accounting (test_model.ModelTests.test_sale_stock_and_receipt_accounting) ... ok
+test_sale_with_no_net_proceeds_is_never_needed (test_model.ModelTests.test_sale_with_no_net_proceeds_is_never_needed) ... ok
+test_same_terminal_total_different_bridge (test_model.ModelTests.test_same_terminal_total_different_bridge) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 2.659s
+
+OK

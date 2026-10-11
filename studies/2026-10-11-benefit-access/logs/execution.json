@@ -1,0 +1,26 @@
+{
+  "recorded_utc": "2026-10-11T21:09:36Z",
+  "analysis_command": "python3 studies/2026-10-11-benefit-access/code/model.py",
+  "analysis_exit_status": 0,
+  "analysis_run_metadata": "results/run.json",
+  "tests_command": "python3 -m unittest discover -s studies/2026-10-11-benefit-access/code -p 'test_*.py' -v",
+  "author_tests_observed": 12,
+  "author_tests_status": "all passed",
+  "author_tests_exit_status": 0,
+  "test_elapsed_seconds_reported": 0.06,
+  "python": "3.13.7",
+  "evidence_builder_command": "python3 studies/2026-10-11-benefit-access/code/build_evidence.py",
+  "evidence_builder_status": "7 verified extracts; exit 0",
+  "warnings": [
+    "The optional IZA PDF read repaired ten object-offset warnings. See logs/search.md."
+  ],
+  "content_hashes": {
+    "paper.md": "96a1a932d0b357a5e9d868351d42abbb0ec472a4f2dd9e7fb412c609db829883",
+    "protocol.md": "0f2faebcc1086fa2d60ee5749c6c37f5e120d2d6c7f6db56828d1681460106f9",
+    "code/model.py": "fc4197cdccdb59829b95d48d557fd75b3c2881c740ae45c8fcae1d403d305134",
+    "code/test_model.py": "2ba0862d1bbc3dd812372c81a60cd5655f844abb359b442ca9aba160e0165ce2",
+    "data/design.json": "b6a8a512b6bcd6ec1039360b4049b44cef8e2475ee8d74940d725c854f2e31f3",
+    "sources/manifest.csv": "2df204b4815dec7c5b3f6eb01a64f1360b67e9e4d4bca0e3b417dbf7ace72418"
+  },
+  "independent_check": "Separate lead agent reported independent reconstruction; see reviewer record. Not counted as author execution."
+}

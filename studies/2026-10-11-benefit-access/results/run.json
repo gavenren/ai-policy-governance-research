@@ -1,0 +1,16 @@
+{
+  "run_utc": "2026-10-11T21:04:36Z",
+  "python": "3.13.7",
+  "platform": "Darwin",
+  "design_sha256": "b6a8a512b6bcd6ec1039360b4049b44cef8e2475ee8d74940d725c854f2e31f3",
+  "model_sha256": "fc4197cdccdb59829b95d48d557fd75b3c2881c740ae45c8fcae1d403d305134",
+  "deterministic_outputs": {
+    "scenarios.csv": "f0886696d54ad62b3417dba10d15735616240b43e352334b5e5df3cb221692d0",
+    "trajectories.csv": "8d225bce398821b67edf7dfcd6a72cfbf04903039af95412501ae5e4ce20b377",
+    "stress.csv": "897b33a9a9236ebe9f7ce5b87e21b8b0c7478731462388e2c7963a4e87b09e11",
+    "summary.json": "575fa93386faa89c2e8e886edbe20ba4c7fc7b316d1d757177b092a925162b35"
+  },
+  "random_seed": null,
+  "random_sampling": false,
+  "exit_status": 0
+}

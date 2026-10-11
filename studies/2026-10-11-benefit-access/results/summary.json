@@ -1,0 +1,12 @@
+{
+  "cases": 567,
+  "reserve": 30,
+  "net_reserve_pass": 396,
+  "gross_reserve_pass": 389,
+  "appeal_all_timely": 45,
+  "deadline_net_reserve_pass": 413,
+  "deadline_gross_reserve_pass": 406,
+  "max_delay_claim_periods": 3300.0,
+  "max_peak_extra_cash_net": 120.0,
+  "max_peak_extra_cash_gross": 120.0
+}

@@ -1,0 +1,23 @@
+joint_allowed 8649 paths
+no_overlap 3237 paths
+common_only 93 paths
+{
+  "utc": "2026-10-11T21:02:59Z",
+  "python": "3.13.7",
+  "platform": "Darwin",
+  "method": "complete deterministic enumeration; exact rational calculations; no random sampling",
+  "seed": null,
+  "input_sha256": "e36d9a663ee1e843a6e10fca8bdbc590389a078160b126feb9f28e517fb67fb3",
+  "code_sha256": "f9bceefd226f9466b75d048f9e20997b974ea844947f1656ceca5ed7f692a9e8",
+  "outputs": {
+    "timing.csv": "5340aefb76b5e3be385a4a7dc023b73ab09612d38b1f61fc359018cf6a510bfb",
+    "summary.csv": "88bbb55b7fff4380578011d21c8855a002dcdd6e40c13ae7a626fb69defb85f4",
+    "path_cases.csv": "b5dbc756b8a991bf7440d8f599fb765bb982ccc27b0196181d81bbca715f16e1",
+    "frontiers.csv": "f601f78a6a87d0cabda2251a881f10bfccc59a6410c611c658057f727815ccb5",
+    "objectives.csv": "f18e3085bbafdcd1c200398c5c34fe4e06372ccefad718137e70d32400b81a0c",
+    "witnesses.csv": "a007990083fbc1ab05a6d8cb285e9c1f5940366cbc15a0ac1a8d708d2cad0fe5"
+  },
+  "path_case_rows": 11979,
+  "summary_rows": 45,
+  "exit_status": 0
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "command": "python3 studies/2026-10-11-automation-imports/code/model.py",
+    "executed_utc": "2026-10-11T21:06:54Z",
+    "exit_status": 0,
+    "stdout": "{\n  \"states\": 216,\n  \"policy_state_rows\": 1296,\n  \"positive_tax_rows\": 1080,\n  \"gross_positive_net_negative\": 168,\n  \"net_positive_domestic_negative\": 597,\n  \"net_positive_domestic_nonnegative\": 312,\n  \"states_with_positive_safe_funding\": 93,\n  \"base_safe_maximum\": {\n    \"tax\": 3.3333333333333326,\n    \"net_funding\": 13.333333333333332,\n    \"domestic_change\": 0.0\n  },\n  \"max_accounting_residual\": 2.842170943040401e-14\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": "python3 -m unittest discover -s studies/2026-10-11-automation-imports/code -p test_*.py -v",
+    "executed_utc": "2026-10-11T21:06:54Z",
+    "exit_status": 0,
+    "stdout": "",
+    "stderr": "test_caps_and_invalid_inputs (test_model.ModelTests.test_caps_and_invalid_inputs) ... ok\ntest_common_policy_and_target_failure (test_model.ModelTests.test_common_policy_and_target_failure) ... ok\ntest_global_loss_identity (test_model.ModelTests.test_global_loss_identity) ... ok\ntest_polynomials_match_independent_allocation (test_model.ModelTests.test_polynomials_match_independent_allocation) ... ok\ntest_resource_accounting_and_direct_production (test_model.ModelTests.test_resource_accounting_and_direct_production) ... ok\ntest_roots_and_activation_cost (test_model.ModelTests.test_roots_and_activation_cost) ... ok\ntest_safe_optimum_against_dense_direct_search (test_model.ModelTests.test_safe_optimum_against_dense_direct_search) ... ok\ntest_small_country_and_collection_failure (test_model.ModelTests.test_small_country_and_collection_failure) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.515s\n\nOK\n"
+  }
+]

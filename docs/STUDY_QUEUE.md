@@ -2,7 +2,7 @@
 
 State: working programme record. Established 2026-10-09 UTC.
 
-S001 reached complete-study draft after executed analysis and separate AI review on 2026-10-10 UTC; its completion record provides the release checks. The user then instructed the programme to stop after S001. The user authorized the separate S004 paper on 2026-10-11. S002 and S003 remain paused; further work requires a new instruction. Related analyses remain in one study.
+S001 reached complete-study draft after executed analysis and separate AI review on 2026-10-10 UTC; its completion record provides the release checks. The user then instructed the programme to stop after S001. The user authorized S004 on 2026-10-11, then authorized further papers in the same economic-governance field using the remaining core allowance. S005–S007 follow that instruction. S002 and S003 remain paused. Related analyses remain in one study.
 
 | ID | Question / unit | Proposed contribution | Distinctness and gate | Status |
 | --- | --- | --- | --- | --- |
@@ -10,6 +10,10 @@ S001 reached complete-study draft after executed analysis and separate AI review
 | S002 | Does public model-deprecation evidence establish usable evaluation time before old access ends? Unit: traceable text-model lifecycle event and policy guarantee. | Candidate temporal audit separates actionable notice, successor access, documentation, and retirement; uncertainty yields bounds or indeterminate status. | Distinct corpus and method from S001. Requires historical evidence rather than retrospective replacement labels. Notice duration alone is not a compliance test. | Paused by user instruction. Earlier source-pilot notes were already public; subsequent preliminary research/design notes are retained locally without publication. No event corpus, executed study or completed paper. |
 | S003 | Can a dated public authority inventory reliably distinguish applicable obligations, proposals, guidance, and announced changes? Unit: instrument/provision and source version. | Candidate provenance-aware policy-status audit with contradiction handling. | Different object and method from S001; not merely a generic checklist. Needs a bounded jurisdictional corpus, latest authoritative texts, nearest prior work, and an answerable empirical question before selection. | Paused candidate; no completed analysis. |
 | S004 | Can public revenue and essential supply support a consumption floor after labor income ends? Unit: synthetic policy-state case. | Explicit joint capture threshold, supply-investment condition, and complete failure grid. | Extends close fiscal and scarcity models; no claim to invent basic income or public equity. | [Complete-study draft](../studies/2026-10-11-post-labor-floor/): two propositions, 576 stress cases, 36 investment cases, and separate AI review. No human peer review. |
+
+| S005 | What cash protects a dividend when taxes and fund payouts fall together? Unit: policy and finite revenue path. | Exact reserve envelope, settlement timing, and foregone income. | Dynamic liquidity question; established cash-buffer methods are prior work. | [Complete-study draft](../studies/2026-10-11-dividend-reserves/): 11,979 path rows, 10 tests, and separate AI review. |
+| S006 | Can imported-AI levies increase transfers without reducing domestic consumption? Unit: synthetic policy-state pair. | Joint funding limit and common-policy interval across states. | International production and tax incidence; no claim to invent digital taxation. | [Complete-study draft](../studies/2026-10-11-automation-imports/): 1,296 cases, 8 tests, and separate AI review. |
+| S007 | Can funded benefits reach eligible claimants through a review backlog? Unit: benefit claim-period. | Matched payment rules, exact extra cash, and the stable-queue loss counterexample. | Administrative access; queueing and advances are prior work. | [Complete-study draft](../studies/2026-10-11-benefit-access/): 567 distinct stress cases, 12 tests, and separate AI review. |
 
 ## Duplicate check
 
@@ -19,4 +23,4 @@ The separate public `gavenren/ai-safety-research` README was read on 2026-10-09 
 
 The initial broad procurement candidate was narrowed to S002's temporal-evidence question on 2026-10-09. The policy-status candidate is retained as S003. This queue revision does not create an extra paper from the incident-export study.
 
-The earlier stop instruction still applies to continuing work. The 2026-10-11 instruction authorizes only S004. New dates, jurisdictions, metrics, redaction variants, or notification-clock variants do not by themselves justify separate papers. Any resumed work must follow `RESEARCH_PROTOCOL.md` and a new user instruction.
+The later 2026-10-11 instruction authorizes more papers in this field under the remaining core allowance. See the [continuation record](RESEARCH_CONTINUATION_2026-10-11.md). It does not authorize unrelated S002 or S003 work. New dates, jurisdictions, metrics, redaction variants, or notification-clock variants do not by themselves justify separate papers. All work must follow `RESEARCH_PROTOCOL.md`. No human peer review is claimed.

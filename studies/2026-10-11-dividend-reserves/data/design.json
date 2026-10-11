@@ -1,0 +1,20 @@
+{
+  "study_id": "S005",
+  "units": "synthetic currency units per period; no country calibration",
+  "horizon": 8,
+  "tax_normal": 7,
+  "tax_shock": 2,
+  "fund_income_normal": 5,
+  "fund_income_shock": 1,
+  "obligation": 10,
+  "initial_asset_value": 100,
+  "max_tax_shocks": 3,
+  "max_fund_shocks": 3,
+  "base_receipt_period": 2,
+  "base_haircut": "1/5",
+  "families": ["joint_allowed", "no_overlap", "common_only"],
+  "receipt_periods": [1, 2, 3, 4, 5],
+  "haircuts": ["0", "1/5", "1/2"],
+  "sale_grid": [0, 10, 20, 25, 40, 60, 80, 100],
+  "loss_weights": ["0", "1/5", "1"]
+}

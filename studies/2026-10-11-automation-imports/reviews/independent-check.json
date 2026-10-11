@@ -1,0 +1,55 @@
+{
+  "reviewed_utc": "2026-10-11T21:04:19.926599+00:00",
+  "method": "Independent production-minus-foreign-payments-minus-resource-cost ledger for every grid row; no model imports",
+  "rows": 1296,
+  "positive_levy_rows": 1080,
+  "funding_gain_domestic_loss": 597,
+  "max_resource_difference": 2.842170943040401e-14,
+  "base_manual_safe_upper_tax": "10/3",
+  "base_manual_safe_funding": "40/3",
+  "proof_note": "No-safe-tax case e<=lambda follows because derivative is linear and nonpositive at both endpoints of feasible tax interval; does not require concavity.",
+  "limit": "Full manuscript and sources not yet reviewed.",
+  "source_checks": [
+    {
+      "study": "automation-imports",
+      "source": "A1",
+      "hashes": 3,
+      "quote_words": 9,
+      "quote_in_extracted_text": true
+    },
+    {
+      "study": "automation-imports",
+      "source": "A2",
+      "hashes": 3,
+      "quote_words": 13,
+      "quote_in_extracted_text": true
+    },
+    {
+      "study": "automation-imports",
+      "source": "A3",
+      "hashes": 3,
+      "quote_words": 14,
+      "quote_in_extracted_text": true
+    },
+    {
+      "study": "automation-imports",
+      "source": "A5",
+      "hashes": 3,
+      "quote_words": 9,
+      "quote_in_extracted_text": true
+    },
+    {
+      "study": "automation-imports",
+      "source": "A6",
+      "hashes": 3,
+      "quote_words": 7,
+      "quote_in_extracted_text": true
+    }
+  ],
+  "temporary_copy_reproduction": {
+    "study": "automation-imports",
+    "result": "pass",
+    "matching_result_files": 7,
+    "reproduced_utc": "2026-10-11T21:08:14.918767+00:00"
+  }
+}
