@@ -1,0 +1,43 @@
+[
+  {
+    "source_id": "S2",
+    "requested_url": "https://pau-belda.eu/wp-content/uploads/Belda_Rojas_Zoi_SWF.pdf",
+    "final_url": "https://pau-belda.eu/wp-content/uploads/Belda_Rojas_Zoi_SWF.pdf",
+    "http_status": "200",
+    "media_type": "application/pdf",
+    "retrieved_utc": "2026-10-11T21:12:57Z",
+    "method": "curl HTTPS with TLS verification",
+    "exit_status": 0,
+    "bytes": 770297,
+    "sha256": "e74409cb9309fa6030d22ff665032f3468175a45c9df25e5603c2c414dedc54d",
+    "local_file": "S2-20261011T211257Z.pdf"
+  },
+  {
+    "source_id": "D1",
+    "requested_url": "https://www.aeaweb.org/articles?id=10.1257/jep.20251452",
+    "final_url": "https://www.aeaweb.org/articles?id=10.1257/jep.20251452",
+    "http_status": "200",
+    "media_type": "text/html; charset=UTF-8",
+    "retrieved_utc": "2026-10-11T21:12:58Z",
+    "method": "curl HTTPS with TLS verification",
+    "exit_status": 0,
+    "bytes": 30021,
+    "sha256": "91c847c3a2e440918fa1a9f1cc71c677727a4474babbbd36d8a8215f658714ea",
+    "local_file": "S3-20261011T211257Z.html",
+    "role": "Discovery attempt only: Chien, Du, and Lustig; not manuscript reference S3"
+  },
+  {
+    "source_id": "D1",
+    "requested_url": "https://www.aeaweb.org/articles/pdf/doi/10.1257/jep.20251452",
+    "final_url": "https://pubs.aeaweb.org/doi/pdfplus/10.1257/jep.20251452",
+    "http_status": "403",
+    "media_type": "text/html; charset=UTF-8",
+    "retrieved_utc": "2026-10-11T21:14:00Z",
+    "method": "curl HTTPS with TLS verification",
+    "exit_status": 0,
+    "bytes": 5523,
+    "sha256": "c5397d981b0aaf7cc16a007e782b581c95b3cb6a52e39caa55a468c0f3c64532",
+    "local_file": "S3-full.pdf",
+    "role": "Discovery attempt only: Chien, Du, and Lustig; not manuscript reference S3"
+  }
+]

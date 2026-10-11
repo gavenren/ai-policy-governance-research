@@ -1,0 +1,32 @@
+{
+  "checked_utc": "2026-10-11T21:17:14.129713+00:00",
+  "sha256": {
+    "README.md": "06154bace66896bdb9bd18a530a0e8d037457a64b9c23d04959621da972737d1",
+    "code/acquire_sources.py": "8f88dc25a982fd33b43dd578b6e17957982398ac4e576ad51d49aa88ec9cf6df",
+    "code/model.py": "a7f118749380b1366e9c4d94836df9500fe49945110c01a536110c33d4e52962",
+    "code/test_model.py": "6f5785bf7a6fd135e8825a7106423b0eee1c433df2c83f6b8e4c67f85e5140f7",
+    "completion-gates.md": "a866af63b5ef31c9054d64b2d4172d44f815780d32e986531773a2bb8eb1c16b",
+    "data/README.md": "34c3e6faefcdb2e3c7b16488b0e268f5ac1ab0918b8d0d4ba932c971483b22cc",
+    "data/design.json": "850d0b4ae560768059b6d355c8fe3de44fa9ae583def5873a8fc174bf15d1af0",
+    "logs/acquisition.json": "9c8cde3a50dbc822de532fa9ea630db42bf7c60f269c8e94103427b32a7f57a9",
+    "logs/execution.txt": "ea32d3da98bac0cb36e566443d4116510235d2459ebc3b0328ed0b5c666c69ad",
+    "logs/searches.md": "36afe76cc53f2dcb40b981748d43014c7d032b6a20877a7e052e5af9209a8e7c",
+    "logs/tests.txt": "9eaf7c3887fe6f9d93ead532860684dfdfccce60d22a7323053b81c7cacad9dc",
+    "paper.md": "32ff6ad9ef173d592e172cf7ce88f3aa0ada339bb75c5f87017570decd607c72",
+    "protocol.md": "e001d08c99c1af4e62ad5797ac148ab472e2857808aadad57611ce0fd04dfbcd",
+    "results/default.csv": "02c80136365acc2b03566911b0119d0859b1e8b1a4a16de385598ae4dada416c",
+    "results/policies.csv": "639c85ca5abc1f3f494966ccf8046e5bd0eb02fe92b5220cf1dfd4c62a0a6d69",
+    "results/probabilities.csv": "2f99fd13034f3892e2a34ad3a6e9e647b574f6f9d4ec1749ea8bd59d210e5c5a",
+    "results/run.json": "ea32d3da98bac0cb36e566443d4116510235d2459ebc3b0328ed0b5c666c69ad",
+    "results/states.csv": "298c45f67ed0517116c5a4af45f7787ed53a254bba6b06349d4db667e4853b67",
+    "results/summary.csv": "784f59ba91e10fb344d5d804016c57e699690c533a797b7616e9b45cfeea1e44",
+    "reviews/author-response.md": "44327ff280d282e12b4abf4d2ce774286aa42bfc6be15f81dfa6f8333f979347",
+    "reviews/critical-review.md": "68ff949584f103e4fe6d62b8fd2a1c3b60f9b2a7cabb1e424765fb6d52d12b66",
+    "reviews/independent-check.json": "b5d0631c39f74d4035f6258e4c7ff4bd65ea33d8472fda83171515f7a6d11d7a",
+    "sources/README.md": "d40a1fe9f35439e09ea53ac37f63e1dde6b50e5a10a996fac85932ab4dc243a5",
+    "sources/manifest.json": "cac491007ddfd3a24112e3a966134c48fecad9fcde199b99bb400957bc942133",
+    "sources/snapshots/S1.md": "70385a0502af8c25eec1ed2a3bbd4cfb7fb198d8c5cb91f9d6548f51d73127f2",
+    "sources/snapshots/S2.md": "8d0c036a735dd07d0dcf128127d43ebaa69b10e5eada8feb0ea351de5fd9d643",
+    "sources/snapshots/S3.md": "ed0ce756cfb1098b4d0aed0c2c6e56e04ce6212654d6fcd1ab0142d2abd83748"
+  }
+}

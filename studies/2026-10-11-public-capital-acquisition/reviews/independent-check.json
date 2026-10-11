@@ -1,0 +1,42 @@
+{
+  "reproduce_exit": 0,
+  "tests_exit": 0,
+  "tests_log": "test_common_loss (test_model.Tests.test_common_loss) ... ok\ntest_default_requires_repricing (test_model.Tests.test_default_requires_repricing) ... ok\ntest_fiscal_hedge (test_model.Tests.test_fiscal_hedge) ... ok\ntest_independent_accounting_and_minimality (test_model.Tests.test_independent_accounting_and_minimality) ... ok\ntest_independent_dense_share_search (test_model.Tests.test_independent_dense_share_search) ... ok\ntest_probability_does_not_change_guarantee (test_model.Tests.test_probability_does_not_change_guarantee) ... ok\ntest_risk_premium_does_not_fund_floor (test_model.Tests.test_risk_premium_does_not_fund_floor) ... ok\ntest_safe_asset_and_limits (test_model.Tests.test_safe_asset_and_limits) ... ok\ntest_three_state_interior (test_model.Tests.test_three_state_interior) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.217s\n\nOK\n",
+  "byte_identical_outputs": {
+    "summary.csv": true,
+    "policies.csv": true,
+    "states.csv": true,
+    "default.csv": true,
+    "probabilities.csv": true
+  },
+  "checked_utc": "2026-10-11T21:14:53Z",
+  "policy_rows_independently_checked": 31,
+  "independent_checks": [
+    "date-zero sources and uses",
+    "state payout and target",
+    "exact state-price budget",
+    "strict minimality when capital is positive",
+    "risk-premium price and full-share capital 55",
+    "hedging shares and payouts",
+    "common-loss zero guarantee"
+  ],
+  "limitations": [
+    "No new literature search or independent full-source reading",
+    "Protocol and source ledger were not yet present at manuscript review; parent must check their consistency",
+    "No empirical calibration or country policy validation",
+    "Review does not establish novel priority, human peer review, or journal acceptance"
+  ],
+  "reviewed_files": {
+    "paper.md": "ee1d1a22df51656ff489b65719e98badd02ef1e9564d563db63740bbe44fd6b8",
+    "code/model.py": "a7f118749380b1366e9c4d94836df9500fe49945110c01a536110c33d4e52962",
+    "code/test_model.py": "6f5785bf7a6fd135e8825a7106423b0eee1c433df2c83f6b8e4c67f85e5140f7",
+    "data/design.json": "850d0b4ae560768059b6d355c8fe3de44fa9ae583def5873a8fc174bf15d1af0",
+    "results/default.csv": "02c80136365acc2b03566911b0119d0859b1e8b1a4a16de385598ae4dada416c",
+    "results/policies.csv": "639c85ca5abc1f3f494966ccf8046e5bd0eb02fe92b5220cf1dfd4c62a0a6d69",
+    "results/probabilities.csv": "2f99fd13034f3892e2a34ad3a6e9e647b574f6f9d4ec1749ea8bd59d210e5c5a",
+    "results/states.csv": "298c45f67ed0517116c5a4af45f7787ed53a254bba6b06349d4db667e4853b67",
+    "results/summary.csv": "784f59ba91e10fb344d5d804016c57e699690c533a797b7616e9b45cfeea1e44"
+  },
+  "manuscript_review_completed_utc": "2026-10-11T21:16:12Z",
+  "finding": "No blocking analytical or numerical issue in the reviewed manuscript and model. Final evidence and release gates remain with parent."
+}

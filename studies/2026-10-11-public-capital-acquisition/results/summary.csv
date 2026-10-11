@@ -1,0 +1,7 @@
+scenario,fair_price,safe_return,physical_expected_payoff,outside_tax_value,best_hedge_share,max_floor_without_initial_capital,capital_for_target_at_best_hedge,target
+risk_premium,40,1,90,0,0,0,15,15
+fiscal_hedge,30,1,30,15,1/2,15,0,15
+common_loss,30,1,30,15,0,0,15,15
+three_states,42,1,72,18,1/3,16,0,16
+weak_tax_capacity,30,1,30,15/2,1/4,15/2,15/2,15
+safe_asset,2000/21,21/20,100,0,0,0,100/7,15

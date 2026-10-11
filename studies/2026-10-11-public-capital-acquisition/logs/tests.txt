@@ -1,0 +1,14 @@
+test_common_loss (test_model.Tests.test_common_loss) ... ok
+test_default_requires_repricing (test_model.Tests.test_default_requires_repricing) ... ok
+test_fiscal_hedge (test_model.Tests.test_fiscal_hedge) ... ok
+test_independent_accounting_and_minimality (test_model.Tests.test_independent_accounting_and_minimality) ... ok
+test_independent_dense_share_search (test_model.Tests.test_independent_dense_share_search) ... ok
+test_probability_does_not_change_guarantee (test_model.Tests.test_probability_does_not_change_guarantee) ... ok
+test_risk_premium_does_not_fund_floor (test_model.Tests.test_risk_premium_does_not_fund_floor) ... ok
+test_safe_asset_and_limits (test_model.Tests.test_safe_asset_and_limits) ... ok
+test_three_state_interior (test_model.Tests.test_three_state_interior) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.215s
+
+OK

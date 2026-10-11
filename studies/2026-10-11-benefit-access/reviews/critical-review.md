@@ -27,3 +27,5 @@ The [author response](author-response.md) records the author's disposition. All 
 ## Review tools and file state
 
 Used local file reads, independent Python calculations, the study tests, source hash checks, and temporary-copy execution. No central model file was edited by the reviewer. Final status text and release links are integration changes. The final release check records identify the reviewed model, data, manuscript, and source state by SHA-256. Any later substantive change needs a targeted review.
+
+Targeted presentation check, 2026-10-11T21:13:26.659216+00:00: changed 33 inline and 12 display math delimiter pairs to the [documented GitHub forms](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions). Equations, model code, inputs, and results did not change.

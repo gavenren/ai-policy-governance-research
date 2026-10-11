@@ -40,116 +40,116 @@ The bounded contribution is therefore a transparent accounting result. We separa
 
 ### 3. Model, funding, and measurement
 
-Time has periods \(t=1,\ldots,T\). Each eligible claim has amount \(b>0\). There are \(n_t\) eligible claims due in period \(t\). The initial system denies \(e_t\leq n_t\) of them. Another \(i_t\) claims are ineligible and initially denied. The other eligible claims receive payment without review. We exclude initially approved ineligible claims to isolate the effect of advancing denied claims.
+Time has periods $t=1,\ldots,T$. Each eligible claim has amount $b>0$. There are $n_t$ eligible claims due in period $t$. The initial system denies $e_t\leq n_t$ of them. Another $i_t$ claims are ineligible and initially denied. The other eligible claims receive payment without review. We exclude initially approved ineligible claims to isolate the effect of advancing denied claims.
 
-All denied claims enter review automatically. Capacity is \(m_t\) claims per period. Review serves earlier arrival cohorts first. Within a cohort, it serves eligible and ineligible mass in proportion to their shares. This is a fluid model. Fractional claims represent group mass, not a partially adjudicated named person. Correct review is assumed. The authority does not know each claim's true type before review; the analyst uses that type for accounting.
+All denied claims enter review automatically. Capacity is $m_t$ claims per period. Review serves earlier arrival cohorts first. Within a cohort, it serves eligible and ineligible mass in proportion to their shares. This is a fluid model. Fractional claims represent group mass, not a partially adjudicated named person. Correct review is assumed. The authority does not know each claim's true type before review; the analyst uses that type for accounting.
 
-Let \(Q^E_t\) and \(Q^I_t\) be eligible and ineligible claims still open after period \(t\). Let \(R^E_t,R^I_t\) be cumulative reviewed claims of each type. Let \(I_t=\sum_{s\leq t}i_s\). Conservation gives
+Let $Q^E_t$ and $Q^I_t$ be eligible and ineligible claims still open after period $t$. Let $R^E_t,R^I_t$ be cumulative reviewed claims of each type. Let $I_t=\sum_{s\leq t}i_s$. Conservation gives
 
-\[
+$$
 Q^E_t=\sum_{s\leq t}e_s-R^E_t,\qquad Q^I_t=I_t-R^I_t.
-\]
+$$
 
 The total queue follows
 
-\[
+$$
 Q_t=\max\{0,Q_{t-1}+e_t+i_t-m_t\}.
-\]
+$$
 
 An outage can increase denials and reduce capacity at the same time. No assumption of independent errors is needed. Capacity can represent computation, trusted evidence access, adjudication, or staff time. A post-labor setting does not require human reviewers to outperform AI. It still requires a process that can inspect disputed evidence and authorize changes.
 
-The public authority receives \(b n_t\) when eligible payments become due. Review spending is separately funded. The same capacity cost applies under all three rules, so it cancels in the main comparison. This is a conditional, fully funded benchmark. It does not give administrators knowledge of true individual or total eligibility. Actual aggregate funding uncertainty needs a separate test. If only approved claims receive budget authority, a further appropriation rule is necessary.
+The public authority receives $b n_t$ when eligible payments become due. Review spending is separately funded. The same capacity cost applies under all three rules, so it cancels in the main comparison. This is a conditional, fully funded benchmark. It does not give administrators knowledge of true individual or total eligibility. Actual aggregate funding uncertainty needs a separate test. If only approved claims receive budget authority, a further appropriation rule is necessary.
 
-Under Rules P and J, an eligible advance replaces the payment owed for that claim. It does not create a second payment or a deduction from a later, separate entitlement. A reviewed ineligible advance returns fraction \(r\in[0,1]\) of its amount immediately. The rest is a permanent public loss. Recovery cost, interest, collection delay, and hardship from recovery are absent. Thus the model does not select a socially optimal recovery rate.
+Under Rules P and J, an eligible advance replaces the payment owed for that claim. It does not create a second payment or a deduction from a later, separate entitlement. A reviewed ineligible advance returns fraction $r\in[0,1]$ of its amount immediately. The rest is a permanent public loss. Recovery cost, interest, collection delay, and hardship from recovery are absent. Thus the model does not select a socially optimal recovery rate.
 
 We measure delay as
 
-\[
+$$
 D_A=\sum_{t=1}^{T}Q^E_t.
-\]
+$$
 
-Its unit is **eligible claim-periods awaiting payment**. If each person has one claim, this also counts person-periods of exposure to an unpaid entitlement. With repeated claims, it can count the same person more than once. It is not a count of unique people without food. A linear delay cost \(hD_A\) is possible, but \(h\) is not estimated here.
+Its unit is **eligible claim-periods awaiting payment**. If each person has one claim, this also counts person-periods of exposure to an unpaid entitlement. With repeated claims, it can count the same person more than once. It is not a count of unique people without food. A linear delay cost $hD_A$ is possible, but $h$ is not estimated here.
 
 We also report claims first unpaid at their due date and claims still unpaid two periods later. The code parameter `deadline=2` controls this later measurement only. It does not defer Rule J payment for two periods: that payment occurs at the end of the arrival period. The latter outcome excludes late cohorts whose two-period deadline lies beyond the horizon. All terminal arrears remain in the accounts. A final payment can remove arrears without removing delay already experienced. Rules P and J have zero measured payment delay only when their required cash and payment routes are available.
 
 ### 4. Three payment rules and their cash accounts
 
-Write \(F_t=b\sum_{s\leq t}n_s\) for cumulative eligible funding. Omit the common review budget in this section. Under Rule A, cumulative outflow is
+Write $F_t=b\sum_{s\leq t}n_s$ for cumulative eligible funding. Omit the common review budget in this section. Under Rule A, cumulative outflow is
 
-\[
+$$
 C^A_t=F_t-bQ^E_t.
-\]
+$$
 
-Thus \(bQ^E_t\) remains earmarked cash. Calling this amount a saving would confuse nonpayment with a lower obligation.
+Thus $bQ^E_t$ remains earmarked cash. Calling this amount a saving would confuse nonpayment with a lower obligation.
 
 Under Rule P, cumulative net outflow is
 
-\[
+$$
 C^P_t=F_t+bI_t-rbR^I_t.
-\]
+$$
 
 **Proposition 1: exact additional cover.** Relative to fully funded eligible entitlements, Rule P requires
 
-\[
+$$
 L^P_t=C^P_t-F_t=bQ^I_t+b(1-r)R^I_t.\tag{1}
-\]
+$$
 
 Its spending difference from Rule A is
 
-\[
+$$
 C^P_t-C^A_t=bQ^E_t+L^P_t.\tag{2}
-\]
+$$
 
-**Proof.** Substitute \(I_t=Q^I_t+R^I_t\) in the Rule P outflow. Then subtract the Rule A outflow. No distributional or equilibrium assumption is needed. The result is an accounting identity. The important choice is the funding baseline. Equation (2) compares spending rules. Equation (1) measures additional cover beyond funding already owed to eligible claims.
+**Proof.** Substitute $I_t=Q^I_t+R^I_t$ in the Rule P outflow. Then subtract the Rule A outflow. No distributional or equilibrium assumption is needed. The result is an accounting identity. The important choice is the funding baseline. Equation (2) compares spending rules. Equation (1) measures additional cover beyond funding already owed to eligible claims.
 
-A reserve \(K\), without new contributions, covers end-period cash exactly when
+A reserve $K$, without new contributions, covers end-period cash exactly when
 
-\[
+$$
 K\geq\max_{t\leq T}L^P_t.\tag{3}
-\]
+$$
 
-With cumulative new contributions \(Z_t\), replace this with \(K+Z_t\geq L^P_t\) at each date. These are cash tests, not tests of sovereign solvency. They assume the authority can use the funds for their specified purpose.
+With cumulative new contributions $Z_t$, replace this with $K+Z_t\geq L^P_t$ at each date. These are cash tests, not tests of sovereign solvency. They assume the authority can use the funds for their specified purpose.
 
-For Rule J, let \(U_t\) be cumulative ineligible claims that were still open at their payment deadline and received advances. Let \(R^{I,J}_t\) count those advanced claims later reviewed. Ineligible claims resolved within their arrival period receive no advance. Every claim still open has an advance, so
+For Rule J, let $U_t$ be cumulative ineligible claims that were still open at their payment deadline and received advances. Let $R^{I,J}_t$ count those advanced claims later reviewed. Ineligible claims resolved within their arrival period receive no advance. Every claim still open has an advance, so
 
-\[
+$$
 Q^I_t=U_t-R^{I,J}_t,\qquad
 L^J_t=bQ^I_t+b(1-r)R^{I,J}_t.\tag{4}
-\]
+$$
 
 **Proposition 2: deadline timing weakly reduces cover.** Under reliable deadline payment and identical review paths,
 
-\[
+$$
 L^J_t\leq L^P_t
-\]
+$$
 
 at every period end. Both rules have zero measured eligible delay when funded.
 
-**Proof.** The two rules have the same \(Q^I_t\). Reviewed ineligible claims that previously received an end-of-period advance form a subset of all reviewed ineligible claims. Therefore \(R^{I,J}_t\leq R^I_t\). Multiply by nonnegative \(b(1-r)\) and apply equations (1) and (4). Both rules pay eligible claims no later than the defined deadline.
+**Proof.** The two rules have the same $Q^I_t$. Reviewed ineligible claims that previously received an end-of-period advance form a subset of all reviewed ineligible claims. Therefore $R^{I,J}_t\leq R^I_t$. Multiply by nonnegative $b(1-r)$ and apply equations (1) and (4). Both rules pay eligible claims no later than the defined deadline.
 
 This is a limited dominance result. It ignores welfare gains from receiving money before the period end. Equal payment by period end does not imply equal access within that period. It also assumes review results and payment instructions can be processed at that deadline. It does not recommend delaying emergency support until an arbitrary administrative date.
 
 Cash-flow order matters. If advances must leave before the period's recoveries arrive, Rule P needs gross cover
 
-\[
+$$
 G^P_t=b(I_t-rR^I_{t-1}).
-\]
+$$
 
-For Rule J, a conservative corresponding order gives \(G^J_t=b(U_t-rR^{I,J}_{t-1})\). The code reports both peak net and peak gross cover. Net cover alone is sufficient only when the assumed settlement order permits the offset.
+For Rule J, a conservative corresponding order gives $G^J_t=b(U_t-rR^{I,J}_{t-1})$. The code reports both peak net and peak gross cover. Net cover alone is sufficient only when the assumed settlement order permits the offset.
 
 ### 5. A stable queue can still exhaust a reserve
 
-Consider constant arrivals of ten eligible denied claims and two ineligible claims per period. Set \(b=1\), \(r=1/2\), and capacity to twelve. The first period has zero capacity; each later period reviews the previous cohort. The queue then stays at twelve claims forever. Eligible arrears stay at ten. There is no growing review backlog.
+Consider constant arrivals of ten eligible denied claims and two ineligible claims per period. Set $b=1$, $r=1/2$, and capacity to twelve. The first period has zero capacity; each later period reviews the previous cohort. The queue then stays at twelve claims forever. Eligible arrears stay at ten. There is no growing review backlog.
 
-Every current cohort remains open at its deadline. Both advance rules therefore pay its two ineligible claims. At the end of period \(t\), two ineligible claims remain open and \(2(t-1)\) advanced ineligible claims have completed review. Equations (1) and (4) yield
+Every current cohort remains open at its deadline. Both advance rules therefore pay its two ineligible claims. At the end of period $t$, two ineligible claims remain open and $2(t-1)$ advanced ineligible claims have completed review. Equations (1) and (4) yield
 
-\[
+$$
 L_t=2+\tfrac12[2(t-1)]=t+1.
-\]
+$$
 
 A reserve of thirty fails in period thirty, despite the constant queue. The required flow contribution is one benefit unit per period after the initial setup. A loan facility alone cannot absorb these losses indefinitely. General revenue, a loss budget, fewer ineligible advances, or a higher net recovery rate must change the arithmetic.
 
-The counterexample also separates speed from loss. Faster review can reduce open advances. It cannot recover the unrecoverable share of advances already paid under the fixed recovery assumption. Once all such cases close, cumulative loss equals \(b(1-r)\) times their count. Queue stability and review accuracy are therefore insufficient conditions for a permanent payment guarantee.
+The counterexample also separates speed from loss. Faster review can reduce open advances. It cannot recover the unrecoverable share of advances already paid under the fixed recovery assumption. Once all such cases close, cumulative loss equals $b(1-r)$ times their count. Queue stability and review accuracy are therefore insufficient conditions for a permanent payment guarantee.
 
 The opposite boundary is equally useful. If no ineligible claims exist, additional reserve is zero even during a severe eligible-denial outage. The authority releases earmarked benefit cash. A large difference from appeal-only spending does not imply a new fiscal cost. This result fails if the authority spent the earmarked money elsewhere or never funded the entitlement when due.
 

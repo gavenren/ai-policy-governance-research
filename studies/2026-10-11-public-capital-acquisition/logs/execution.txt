@@ -1,0 +1,18 @@
+{
+  "utc": "2026-10-11T21:14:00Z",
+  "python": "3.13.7",
+  "method": "complete specified finite-state enumeration; exact Fraction arithmetic",
+  "seed": null,
+  "policy_rows": 31,
+  "state_rows": 68,
+  "input_sha256": "850d0b4ae560768059b6d355c8fe3de44fa9ae583def5873a8fc174bf15d1af0",
+  "code_sha256": "a7f118749380b1366e9c4d94836df9500fe49945110c01a536110c33d4e52962",
+  "outputs": {
+    "summary.csv": "784f59ba91e10fb344d5d804016c57e699690c533a797b7616e9b45cfeea1e44",
+    "policies.csv": "639c85ca5abc1f3f494966ccf8046e5bd0eb02fe92b5220cf1dfd4c62a0a6d69",
+    "states.csv": "298c45f67ed0517116c5a4af45f7787ed53a254bba6b06349d4db667e4853b67",
+    "default.csv": "02c80136365acc2b03566911b0119d0859b1e8b1a4a16de385598ae4dada416c",
+    "probabilities.csv": "2f99fd13034f3892e2a34ad3a6e9e647b574f6f9d4ec1749ea8bd59d210e5c5a"
+  },
+  "exit_status": 0
+}

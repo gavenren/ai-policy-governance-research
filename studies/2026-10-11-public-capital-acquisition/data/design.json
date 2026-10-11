@@ -1,0 +1,13 @@
+{
+ "scenarios": [
+  {"name":"risk_premium","prices":["3/5","2/5"],"probabilities":["1/10","9/10"],"payoffs":[0,100],"taxes":[0,0],"floor":15},
+  {"name":"fiscal_hedge","prices":["1/2","1/2"],"probabilities":["1/2","1/2"],"payoffs":[0,60],"taxes":[30,0],"floor":15},
+  {"name":"common_loss","prices":["1/2","1/2"],"probabilities":["1/2","1/2"],"payoffs":[0,60],"taxes":[0,30],"floor":15},
+  {"name":"three_states","prices":["1/2","3/10","1/5"],"probabilities":["1/5","2/5","2/5"],"payoffs":[0,60,120],"taxes":[30,10,0],"floor":16},
+  {"name":"weak_tax_capacity","prices":["1/2","1/2"],"probabilities":["1/2","1/2"],"payoffs":[0,60],"taxes":[15,0],"floor":15},
+  {"name":"safe_asset","prices":["10/21","10/21"],"probabilities":["1/2","1/2"],"payoffs":[100,100],"taxes":[0,0],"floor":15}
+ ],
+ "ownership_grid":["0","1/4","1/2","3/4","1"],
+ "physical_probability_grid":["1/10","1/2","9/10"],
+ "default_faces":[0,20,40,60,80,100,120]
+}

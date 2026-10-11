@@ -1,5 +1,5 @@
 {
-  "checked_utc": "2026-10-11T21:10:40.606893+00:00",
+  "checked_utc": "2026-10-11T21:13:26.659806+00:00",
   "scope": "Final release state; this hash file excludes itself",
   "sha256": {
     "README.md": "1964e0568b8aa7e9cdede9af302653c7339bbc21c8842ccc9033195435e44dcd",
@@ -14,7 +14,7 @@
     "logs/execution.json": "80fc228ab6014aa969d49f371b737dab2fba4ff702af80175b713a03dac1bd73",
     "logs/gates.md": "18219c9249e3140084a93932b7d496052b0be1460417e89abc1797d3cf0d6ce3",
     "logs/search.md": "ff724839d3a15f9f8782a57824877dfba97fbb80be57680d1f279ff4408f94fc",
-    "paper.md": "9111aadaae465513162db8587c10be799f7a8c09bdfac8747d5d333fc8097579",
+    "paper.md": "553af9fd388d2c77dcc9e33827175bb5633fefb2a5f80c55fe90308903daa804",
     "protocol.md": "0f2faebcc1086fa2d60ee5749c6c37f5e120d2d6c7f6db56828d1681460106f9",
     "results/run.json": "16e43b14049b04da39c3eed9fe98876f906a47b867bf57daf056141c91859bba",
     "results/scenarios.csv": "f0886696d54ad62b3417dba10d15735616240b43e352334b5e5df3cb221692d0",
@@ -22,7 +22,7 @@
     "results/summary.json": "575fa93386faa89c2e8e886edbe20ba4c7fc7b316d1d757177b092a925162b35",
     "results/trajectories.csv": "8d225bce398821b67edf7dfcd6a72cfbf04903039af95412501ae5e4ce20b377",
     "reviews/author-response.md": "95b9e044a96f9336c56ac610ef337e69021a9aa9d96d325c323a71566a752cf3",
-    "reviews/critical-review.md": "c71bd9bd5af76009792bc0720a5c2e3b835724f448d2873ba7d80755fbe6df9c",
+    "reviews/critical-review.md": "023c73b5b3f98671ce880b5e1f78a7d65c193e9c2c0b1a3e266511abfd26dc19",
     "reviews/independent-check.json": "9f694654d6f02a243b684669d597549ae01ca95055dfb7b79dd53b4265079b73",
     "sources/catalog.json": "2751f260ba0b56224eea783c6032a42969cb4845c721406972010d0d625ee589",
     "sources/manifest.csv": "2df204b4815dec7c5b3f6eb01a64f1360b67e9e4d4bca0e3b417dbf7ace72418",
