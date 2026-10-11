@@ -1,0 +1,22 @@
+{
+  "executed_utc": "2026-10-11T21:34:23Z",
+  "method": "Exact two-state mean/contrast values and direct compliance-minus-default payoffs; finite roots and midpoints for affine constraints. No import of author model.",
+  "grid_rows_checked": 648,
+  "feasible_target_cases": 292,
+  "mismatches": [],
+  "exact_floor_boundaries": {
+    "independent_maximum_floor": "39/5",
+    "persistent_maximum_floor": "183/35",
+    "cheap_deposit_maximum_floor": "43/7"
+  },
+  "persistent_adverse_value": "15/7",
+  "persistent_adverse_payment_margin": "-27/7",
+  "floor_six_deposit_interval": [
+    "135/28",
+    "60/7"
+  ],
+  "deposit_12_participation_fails": true,
+  "loan_discount_break_even_checked": true,
+  "input_sha256": "cba35b248a97a91fe7c028ee6ff64f19fb780bc2dc78d57f8f6dca8e9641217e",
+  "script_sha256": "fed4bfd82edade63fff2200782b5725dd1683a1b148526d7d49af3df61c037e1"
+}

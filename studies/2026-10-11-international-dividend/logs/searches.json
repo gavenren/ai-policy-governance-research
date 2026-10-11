@@ -1,0 +1,33 @@
+{
+  "search_service": "web.run search_query",
+  "recorded_search_start_utc": "2026-10-11 21:27:47 UTC",
+  "queries": [
+    "international AI benefit sharing financial proceeds credible commitments",
+    "\"relational incentive contracts\" promised compensation outside option",
+    "\"Financial Transfers, Compliance Technology and Climate Cooperation\"",
+    "\"international AI dividend\" persistent states enforcement"
+  ],
+  "date_filters": "none",
+  "inclusion_rule": "Original research or institutional primary research on financial AI benefit sharing, self-enforcing transfers, or payment commitment",
+  "screened_and_retained": [
+    "Korinek and Stiglitz 2021, S1",
+    "Dennis et al. 2025, S2",
+    "Levin 2003, S3",
+    "Harack et al. 2025, S5",
+    "Kerr, Lippert and Lou 2018, S6"
+  ],
+  "screened_access_failures": [
+    "Harstad, Lancia and Russo 2015 PDF route returned HTML",
+    "Kocherlakota 1996 archive route had TLS failure"
+  ],
+  "earlier_discovery": "Initial varied queries and reference following took place during the preceding source-capture session. Per-query times for these earlier searches were not recorded. This final bounded search is time-stamped; it does not replace source retrieval times.",
+  "limitations": "English-language search; not a systematic review; search ranking may omit close work; five retained primary documents at this search stage; only relevant sections close-read; no universal novelty claim.",
+  "later_source_note": {
+    "id": "S8",
+    "title": "Safe Transformative AI via a Windfall Clause",
+    "capture_utc": "2026-10-11T21:28:20Z",
+    "reason": "This final search identified the windfall-clause study. Its full arXiv PDF was then captured and relevant model/implementation sections were read.",
+    "effect": "Final manuscript and evidence ledger contain six retained primary documents. Existing record preserves the earlier five-source stage.",
+    "timing_limit": "The additional query and reading steps were not each assigned a separate exact timestamp; the timestamp here is the actual byte acquisition recorded in manifest.json."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "checked_utc": "2026-10-11T21:39:57Z",
+  "scope": "Final release files except this self-referential file",
+  "sha256": {
+    "README.md": "9b64d61cb8262519d2630777660fcf253996452ecb1f82533f4afffcd408d766",
+    "code/acquire_sources.py": "f225cd8c020d13aba92cf9d3feb5e534f71223372d86460535b61176cfca498c",
+    "code/model.py": "5746a67467cf8a7c8fa61c2dfe988aece27c6d56dc455906ef824f79941ba555",
+    "code/test_model.py": "761b15dea1545573a222b7bf29f5fab5d284e0b341699d91e8f1cfc6e5b77f5e",
+    "completion-gates.json": "ef07897edac74fcef1686b450b6778c328d07dff4ddb1775ccb3f46e4f1fc7ce",
+    "data/DICTIONARY.md": "d817034eb3e4e2d33428c1bd7d015d17bc37b3345cad40c91d53b7dac9043538",
+    "data/design.json": "cba35b248a97a91fe7c028ee6ff64f19fb780bc2dc78d57f8f6dca8e9641217e",
+    "logs/decisions.md": "cadd32d8f922d60a4d1009684fccdb908124ee02bbdd87c76c46dcaa8c5bb365",
+    "logs/searches.json": "4b4754352c65761f5f71e6372c2918a30a57804d6d053c224a419c6cce8dae47",
+    "logs/tests.txt": "7ee578c14ff140b828bd7449d8546ee1b8551056d8b079a5e6ee07f97cbd4825",
+    "paper.md": "76e7244f112022ce661605c16da1a5bcd5abef28cce8acbc96b24019b7261bf7",
+    "protocol.md": "3c1fb8a26bb96a8f124efcfe7e38aedf4021d6a7198bb7cfa12aece0b103706a",
+    "results/grid.csv": "5281488e7637d7778f18d9991868ec1a456e479c9d69e8c1a5d97b7e63db482e",
+    "results/named.csv": "12ab5f7b4c331ad814ccb6462d190b7388f0589070618c0419267a98a61908f4",
+    "results/persistence.csv": "fff92b8f7c30c6afdb3c5d34810bdad4aa8dee34675d2d30c9eb358bbf53ce4f",
+    "results/run.json": "7b3e9b1cec50e5ea31003acfab8062befc629189ef1ae865321a4c0c0427a2cc",
+    "results/state_details.csv": "8e01449e2d96034bb5e6aa09466b6eebdd236062b988028c95910c3344f1d4e9",
+    "results/summary.json": "859088b63616e0c6196d244d9f59d580bce0b8ce6d7d70c2190e395189dfbc37",
+    "reviews/author-response.md": "bd6b9446d186e83a8c7238c260213bcc87e642098305abd5086791f6c7aff49f",
+    "reviews/critical-review.md": "0590cdc4f6a7c9741056a984060b920b0336c1fc44f902faf439e7270e8f61b0",
+    "reviews/independent-check.json": "8f4f67023cb475cf1d318aebcca2e3004a3f40a9c4b9a9817370cf3216f7ea1f",
+    "reviews/independent-check.py": "fed4bfd82edade63fff2200782b5725dd1683a1b148526d7d49af3df61c037e1",
+    "reviews/parent-release.md": "ac37ef0414cadc0a21a18cc8e16799facadec672af4feab3dc2ed7f8918a9999",
+    "reviews/reviewed-hashes.json": "4f093347a1841d04907e11cce4fc3c469d82df3c817d9b15738763ef17bc9671",
+    "sources/PRIOR_WORK.md": "59c46a2f30b19bb1ab66c5796b59a8a37fd40640d23c004b2d044b16cc446fd2",
+    "sources/evidence-extracts.md": "f6c1634030a20f076528f781171fc49454ca7974eac415490d75086a553c05ac",
+    "sources/manifest.json": "e754a77322bee57c762c70a91bb717c5327af811a14be3c804f5de16c4bebb27"
+  }
+}

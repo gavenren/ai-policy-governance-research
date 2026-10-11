@@ -1,0 +1,16 @@
+{
+  "executed_utc": "2026-10-11T21:33:16Z",
+  "python": "3.13.7",
+  "command": "python3 studies/2026-10-11-international-dividend/code/model.py",
+  "exit_status": 0,
+  "input_and_output_sha256": {
+    "data/design.json": "cba35b248a97a91fe7c028ee6ff64f19fb780bc2dc78d57f8f6dca8e9641217e",
+    "code/model.py": "5746a67467cf8a7c8fa61c2dfe988aece27c6d56dc455906ef824f79941ba555",
+    "results/grid.csv": "5281488e7637d7778f18d9991868ec1a456e479c9d69e8c1a5d97b7e63db482e",
+    "results/named.csv": "12ab5f7b4c331ad814ccb6462d190b7388f0589070618c0419267a98a61908f4",
+    "results/persistence.csv": "fff92b8f7c30c6afdb3c5d34810bdad4aa8dee34675d2d30c9eb358bbf53ce4f",
+    "results/state_details.csv": "8e01449e2d96034bb5e6aa09466b6eebdd236062b988028c95910c3344f1d4e9"
+  },
+  "randomness": "none",
+  "method": "linear system; affine deposit intervals; 75-step floor bisection"
+}

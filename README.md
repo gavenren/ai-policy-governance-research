@@ -8,6 +8,7 @@ Reproducible studies of AI policy and governance, using dated public primary sou
 
 | Study | State and evidence | Materials |
 | --- | --- | --- |
+| Who Can Rely on an International AI Dividend? | Complete-study draft. Payment incentives, persistent shocks, and financed deposits; 648 cases and 12 tests. | [Paper](studies/2026-10-11-international-dividend/paper.md), [results and review](studies/2026-10-11-international-dividend/) |
 | Buying a Public Stake Without Buying a Guarantee | Complete-study draft. Fair-price public acquisition, debt repayment, and fiscal risk; six cases and 9 tests. | [Paper](studies/2026-10-11-public-capital-acquisition/paper.md), [results and review](studies/2026-10-11-public-capital-acquisition/) |
 | Cash Before Capital | Complete-study draft. Exact cash-reserve test with delayed asset sales and joint revenue shocks; 11,979 path rows and 10 tests. | [Paper](studies/2026-10-11-dividend-reserves/paper.md), [results and review](studies/2026-10-11-dividend-reserves/) |
 | Funding a Post-Labor Floor When AI Is Imported | Complete-study draft. Transfer funding, domestic consumption, and foreign incidence; 1,296 cases and 8 tests. | [Paper](studies/2026-10-11-automation-imports/paper.md), [results and review](studies/2026-10-11-automation-imports/) |

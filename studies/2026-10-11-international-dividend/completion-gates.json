@@ -1,0 +1,21 @@
+{
+  "recorded_utc": "2026-10-11T21:39:57Z",
+  "state": "Complete-study draft",
+  "contribution": "Six-source primary comparison and separate AI review complete; parent checked this programme and the other public programme README; bounded application claim retained",
+  "evidence": "Six retained primary documents; exact source hashes and short extracts; two failed PDF routes recorded; English-language bounded search",
+  "execution": "Model executed: 648 grid, nine named, 101 persistence cases; 12 tests passed",
+  "inference": "No forecasts or empirical data; exact agreement class and limitations stated",
+  "review": "Separate AI agent review complete; three issues fixed; exact independent arithmetic agrees on all 648 target cases; see reviews/critical-review.md and reviews/author-response.md",
+  "disclosure": "AI author and no human peer review stated",
+  "release": "Parent final text, review disposition, local links, source rights notes, staged file scope and private-data scan passed; remote verification recorded outside the repository after publication",
+  "files_for_review_sha256": {
+    "paper.md": "bb784c3dd8c6253d433abbacbaa9b97f2bc95314abb525611b20e5dcad8ba0c3",
+    "protocol.md": "3c1fb8a26bb96a8f124efcfe7e38aedf4021d6a7198bb7cfa12aece0b103706a",
+    "code/model.py": "5746a67467cf8a7c8fa61c2dfe988aece27c6d56dc455906ef824f79941ba555",
+    "code/test_model.py": "761b15dea1545573a222b7bf29f5fab5d284e0b341699d91e8f1cfc6e5b77f5e",
+    "data/design.json": "cba35b248a97a91fe7c028ee6ff64f19fb780bc2dc78d57f8f6dca8e9641217e",
+    "sources/manifest.json": "e754a77322bee57c762c70a91bb717c5327af811a14be3c804f5de16c4bebb27"
+  },
+  "reviewed_working_notes_paper_sha256": "bb784c3dd8c6253d433abbacbaa9b97f2bc95314abb525611b20e5dcad8ba0c3",
+  "release_paper_sha256": "76e7244f112022ce661605c16da1a5bcd5abef28cce8acbc96b24019b7261bf7"
+}

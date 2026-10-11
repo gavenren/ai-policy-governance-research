@@ -1,0 +1,16 @@
+{
+  "units": "synthetic real resource units per period; population normalized to one",
+  "base": {"discount": 0.8, "persistence": 0.5, "gain": [12, 6], "cost": [1, 1], "own_income": [4, 0], "provider_resources": [20, 20], "domestic_minimum": [15, 15], "population": 1, "bond_cap": 0, "carry_cost": 0, "target_floor": 6},
+  "grid": {"discount": [0.5, 0.8, 0.95], "persistence": [0.1, 0.5, 0.9, 0.99], "adverse_gain": [2, 6, 10], "domestic_minimum": [15, 23], "bond_cap": [0, 4, 12], "carry_cost": [0, 0.05, 0.3]},
+  "named": [
+    {"name": "independent_states"},
+    {"name": "persistent_need", "persistence": 0.95},
+    {"name": "persistent_need_more_AI_wealth", "persistence": 0.95, "provider_resources": [200, 200]},
+    {"name": "persistent_need_low_cost_deposit", "persistence": 0.95, "bond_cap": 12, "carry_cost": 0.05},
+    {"name": "persistent_need_high_cost_deposit", "persistence": 0.95, "bond_cap": 12, "carry_cost": 0.3},
+    {"name": "more_cooperation_surplus", "persistence": 0.95, "gain": [15, 9]},
+    {"name": "domestic_spending_rule", "domestic_minimum": [26, 26]},
+    {"name": "no_cooperation_surplus", "gain": [0, 0], "cost": [0, 0]},
+    {"name": "patient_but_costly_bond", "discount": 0.95, "persistence": 0.99, "bond_cap": 12, "carry_cost": 0.1}
+  ]
+}

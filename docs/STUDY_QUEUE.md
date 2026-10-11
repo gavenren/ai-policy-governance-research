@@ -2,7 +2,7 @@
 
 State: working programme record. Established 2026-10-09 UTC.
 
-S001 reached complete-study draft after executed analysis and separate AI review on 2026-10-10 UTC; its completion record provides the release checks. The user then instructed the programme to stop after S001. The user authorized S004 on 2026-10-11, then authorized further papers in the same economic-governance field using the remaining core allowance. S005–S008 follow that instruction. S002 and S003 remain paused. Related analyses remain in one study.
+S001 reached complete-study draft after executed analysis and separate AI review on 2026-10-10 UTC; its completion record provides the release checks. The user then instructed the programme to stop after S001. The user authorized S004 on 2026-10-11, then authorized further papers in the same economic-governance field using the remaining core allowance. S005–S009 follow that instruction. S002 and S003 remain paused. Related analyses remain in one study.
 
 | ID | Question / unit | Proposed contribution | Distinctness and gate | Status |
 | --- | --- | --- | --- | --- |
@@ -16,6 +16,8 @@ S001 reached complete-study draft after executed analysis and separate AI review
 | S007 | Can funded benefits reach eligible claimants through a review backlog? Unit: benefit claim-period. | Matched payment rules, exact extra cash, and the stable-queue loss counterexample. | Administrative access; queueing and advances are prior work. | [Complete-study draft](../studies/2026-10-11-benefit-access/): 567 distinct stress cases, 12 tests, and separate AI review. |
 
 | S008 | How can public AI capital be acquired while protecting a social dividend? Unit: acquisition choice and terminal state. | Fair-price funding identity, required outside capital, and a fiscal-hedging comparison. | Acquisition finance is distinct from inherited public ownership; asset pricing and sovereign risk management are prior work. | [Complete-study draft](../studies/2026-10-11-public-capital-acquisition/): six cases, 31 policy rows, 9 tests, and separate AI review. |
+
+| S009 | Can an international AI dividend support a dependable floor? Unit: agreement and observable state. | Joint participation, payment and domestic-budget test with persistent states and financed deposits. | Bounded application of relational contracting; differs from unilateral import charges and acquisition finance. | [Complete-study draft](../studies/2026-10-11-international-dividend/): 648 cases, 12 tests, separate AI review and independent exact arithmetic. |
 
 ## Duplicate check
 

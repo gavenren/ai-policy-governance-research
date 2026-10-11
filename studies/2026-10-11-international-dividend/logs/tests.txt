@@ -1,0 +1,22 @@
+Execution started UTC: 2026-10-11T21:32:15Z
+Command: python3 -m unittest discover -s studies/2026-10-11-international-dividend/code -p test_*.py -v
+Python: 3.13.7
+Exit status: 0
+
+test_binding_domestic_rule_and_no_surplus (test_model.AgreementTests.test_binding_domestic_rule_and_no_surplus) ... ok
+test_expensive_deposit_reduces_margin (test_model.AgreementTests.test_expensive_deposit_reduces_margin) ... ok
+test_financed_deposit_accounting (test_model.AgreementTests.test_financed_deposit_accounting) ... ok
+test_higher_transfer_worsens_constraints (test_model.AgreementTests.test_higher_transfer_worsens_constraints) ... ok
+test_independent_state_hand_calculation (test_model.AgreementTests.test_independent_state_hand_calculation) ... ok
+test_interval_against_direct_constraints (test_model.AgreementTests.test_interval_against_direct_constraints) ... ok
+test_invalid_inputs (test_model.AgreementTests.test_invalid_inputs) ... ok
+test_linear_solver_against_iterated_value (test_model.AgreementTests.test_linear_solver_against_iterated_value) ... ok
+test_one_state_known_bound (test_model.AgreementTests.test_one_state_known_bound) ... ok
+test_persistence_closed_form (test_model.AgreementTests.test_persistence_closed_form) ... ok
+test_total_wealth_does_not_create_enforcement (test_model.AgreementTests.test_total_wealth_does_not_create_enforcement) ... ok
+test_zero_bond_effect_threshold (test_model.AgreementTests.test_zero_bond_effect_threshold) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.476s
+
+OK
