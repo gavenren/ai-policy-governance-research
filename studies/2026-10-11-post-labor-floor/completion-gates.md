@@ -25,3 +25,7 @@ Target: `gavenren/ai-policy-governance-research`, public, default branch `main`.
 The local Git client had no stored push credential. The authorized GitHub connector is used for one atomic tree and commit, then a non-forced branch update with an expected parent. No new credential or account change is needed. Publication is complete only after the remote branch and file bytes are verified. The enclosing Git commit identifies this release; the chat reports its exact verified SHA. This pre-publication record does not itself assert a successful push.
 
 Other studies remain paused. This release does not authorize a continuing research loop.
+
+## Editorial revision: 2026-10-11T21:34:40Z
+
+The paper was revised for clearer reading. The separate [editorial review](reviews/editorial-independent-review.md) found no blocking change in the analysis, equations, numerical results, or source claims. Model inputs, code, and outputs are unchanged. No new model run is claimed for this editorial release. Final manuscript SHA-256: `5e55d48bc9588854cf585995dad771b3eaa9f52eab01d377503e765ca4e9c6d9`. Earlier substantive reviews retain their historical hashes.

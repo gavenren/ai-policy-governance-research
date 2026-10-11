@@ -22,3 +22,7 @@ This status records completed analysis and internal AI review. It does not certi
 Target: `gavenren/ai-policy-governance-research`, public branch `main`. Base commit: `ceb8b499a567b00013f2c5c4788381e79c900ec4`. The release uses the authorized GitHub connector to create an atomic tree and commit, then a non-forced update that requires this expected parent. Full source captures and caches are excluded.
 
 This pre-publication record does not assert a successful upload. The enclosing commit identifies the release. The coordinator checks the remote commit and every changed file byte before reporting success. [Final file hashes](reviews/release-hashes.json) identify the reviewed manuscript, methods, inputs, outputs, and source records after status integration. Earlier logs are development records and can show the prior Working notes state.
+
+## Editorial revision: 2026-10-11T21:34:40Z
+
+The paper was revised for clearer reading. The separate [editorial review](reviews/editorial-independent-review.md) found no blocking change in the analysis, equations, numerical results, or source claims. Model inputs, code, and outputs are unchanged. No new model run is claimed for this editorial release. Final manuscript SHA-256: `2687a08df2c645b244ea5dec03f9447c30a1f5a9664ac9459dbc539fbea16d1a`. Earlier substantive reviews retain their historical hashes.

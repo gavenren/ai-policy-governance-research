@@ -24,3 +24,7 @@ The four studies have 39 passing model tests. Separate fresh runs reproduce all 
 After verified publication of S005–S007, the account report showed 3 percent of core allowance remaining. S008 uses this remainder for the separate acquisition-finance question. The prior studies assume that public capital already exists.
 
 S008 completed with six cases, 31 policy rows, nine tests, and separate AI review. The last account report before final publication showed about 1 percent of core allowance remaining. No further study was started.
+
+## Further continuation: 2026-10-11T21:34:40Z
+
+The user instructed Codex to continue until the available usage is used and to make the papers easier to understand. A fresh account check allowed ordinary usage and showed a new full core allowance. Codex did not use a reset credit or purchase additional usage. S004–S008 received editorial revisions with worked examples, connected argument, and technical appendices. Separate AI review found no blocking change to their substantive results. Research continues on international payment agreements, public-fund control, and household debt. Their study states will be listed when their release files are complete.
