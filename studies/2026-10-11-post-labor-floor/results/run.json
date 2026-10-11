@@ -1,0 +1,15 @@
+{
+  "run_utc": "2026-10-11T20:44:36.584756+00:00",
+  "python": "3.13.7",
+  "platform": "Darwin",
+  "input_sha256": "b1d5f6ce8605dea9ca1cd6443db94d491d53e3b6b5950b8e508b637b2e2a2c39",
+  "code_sha256": "b9a3777240828ab70106881a57bd2207866f6a3bf1d0a2d6446e868feebb6c4c",
+  "output_sha256": {
+    "investment.csv": "ac0314c31ea358836e485d5c1b1287b635d1824598737afbba33e017e57bfa8b",
+    "policies.csv": "80691e590d58756512169b4427efe30ce0956e4e3a4f9318ad378c36b296c2e2",
+    "scenarios.csv": "7ea36ec03216c4bb16703a61ea775230a86292901e4a0ba5ef2e3d2c85f9182b",
+    "stress.csv": "e01a8a42014010101c76bccc6a90e83c0dd2e5c37991bedfb279141da5152b6b"
+  },
+  "stress_rows": 576,
+  "note": "All values are synthetic. Grid counts are not probabilities."
+}

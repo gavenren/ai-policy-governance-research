@@ -1,0 +1,11 @@
+test_both_goods_clear (test_model.ModelTests.test_both_goods_clear) ... ok
+test_capacity_and_full_capture_boundaries (test_model.ModelTests.test_capacity_and_full_capture_boundaries) ... ok
+test_equity_and_tax_equivalence_is_conditional (test_model.ModelTests.test_equity_and_tax_equivalence_is_conditional) ... ok
+test_investment_derivative_and_delay (test_model.ModelTests.test_investment_derivative_and_delay) ... ok
+test_no_spendable_surplus (test_model.ModelTests.test_no_spendable_surplus) ... ok
+test_threshold_against_direct_market_solution (test_model.ModelTests.test_threshold_against_direct_market_solution) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.016s
+
+OK

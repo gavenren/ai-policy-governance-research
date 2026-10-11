@@ -2,15 +2,16 @@
 
 Reproducible studies of AI policy and governance, using dated public primary sources, executed analyses, and explicit evidence limits.
 
-**Programme status:** paused after the first complete-study draft at the user's request. No further study will begin without a new instruction. Updated 2026-10-10 UTC.
+**Programme status:** the user authorized one new paper on economic governance after full labor displacement on 2026-10-11. S004 records that work. Other queued studies remain paused. This does not restart the continuing research programme.
 
 ## Studies
 
 | Study | State and evidence | Materials |
 | --- | --- | --- |
+| A Consumption Floor After Human Labor | Complete-study draft. A two-good model links public revenue to essential access and the cost of supply investment. All numerical values are synthetic; separate AI review and reproduction complete. No human peer review. | [Paper](studies/2026-10-11-post-labor-floor/paper.md), [code, results and review](studies/2026-10-11-post-labor-floor/) |
 | Preserved in the raw record, absent from the export projection | Complete-study draft. A pinned FLARE-AI audit of 32 synthetic records in 16 selected pairs; all raw records recover exactly, while particular export views collapse selected distinctions. Separate AI review and same-host reruns completed; no human or external peer review. | [Paper](studies/2026-10-09-flare-export-preservation/paper.md), [PDF](studies/2026-10-09-flare-export-preservation/output/pdf/paper.pdf), [code, data and review](studies/2026-10-09-flare-export-preservation/) |
 
-The [study queue](docs/STUDY_QUEUE.md) records candidate questions. Subsequent studies are paused and are not completed papers.
+The [study queue](docs/STUDY_QUEUE.md) records candidate questions. Other candidate studies are paused and are not completed papers.
 
 ## Research standard
 
