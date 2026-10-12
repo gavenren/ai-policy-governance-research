@@ -1,0 +1,50 @@
+--- a/studies/2026-10-11-household-debt/paper.md
++++ b/studies/2026-10-11-household-debt/paper.md
+@@ -1,7 +1,7 @@
+ # What Remains After the Payment?
+ ## Household debt and income guarantees after human labor
+ 
+-> **State:** Working notes — the published original analysis is retained; the benefit-unit extension awaits separate AI review.
++> **State:** Complete-study draft — the original analysis is retained; the benefit-unit extension passed separate AI review and release checks on 12 October 2026.
+ > **Study:** S011. **Date:** 12 October 2026. Original analysis dated 11 October; extension dated 12 October.
+ > **Evidence cutoff:** 2026-10-11T21:42:56Z for the original analysis; 2026-10-12T17:18:56.510864Z for the initial extension sources; an age-definition source was added at review on 2026-10-12T17:29:38Z.
+ > **Method:** A conditional accounting stress test using the 2025 U.S. Survey of Consumer Finances. It is not a forecast of AI displacement, household default, or consumption.
+@@ -267,7 +267,7 @@
+ 
+ The primary sample has 4,358 families per implicate. The capped-roster check has 4,360. The smallest prespecified subgroup has 1,167 first-implicate families, above the planned 100-family interpretation threshold. Every join and roster-size check passes. The maximum relative error in matching gross payment budgets is below 3.4 times 10^-16 across all estimates. Ten tests include hand-calculated weighted allocations, the age-18 boundary, top-code exclusion, missing and zero-adult failures, and the variance formula. The all-family fixed-rule bridge reproduces the original central estimates and their standard errors without changing the original results.
+ 
+-The [extension protocol](extensions/benefit-unit/protocol.md) was saved at 2026-10-12T17:19:59.808024Z. The first outcome run finished at 17:21:12.655146Z. Only schema, joins and member counts were examined before that plan. [The extension package](extensions/benefit-unit/README.md) retains the public roster, original-source hashes, methods extracts, all 192 estimands, and the five implicate and 999 replicate estimates. The revised manuscript awaits a separate review of this addition.
++The [extension protocol](extensions/benefit-unit/protocol.md) was saved at 2026-10-12T17:19:59.808024Z. The first outcome run finished at 17:21:12.655146Z. Only schema, joins and member counts were examined before that plan. [The extension package](extensions/benefit-unit/README.md) retains the public roster, original-source hashes, methods extracts, all 192 estimands, and the five implicate and 999 replicate estimates. A [separate AI review](extensions/benefit-unit/reviews/critical-review.md) independently reproduced the full extension and verified both requested repairs. The [author response](extensions/benefit-unit/reviews/author-response.md) records their disposition. No human review is claimed.
+ 
+ ### References
+ 
+--- a/studies/2026-10-11-household-debt/README.md
++++ b/studies/2026-10-11-household-debt/README.md
+@@ -1,8 +1,8 @@
+ # What Remains After the Payment?
+ 
+-**Extension in progress, 12 October 2026:** The [benefit-unit extension](extensions/benefit-unit/README.md) adds an equal-budget comparison of family, adult and size-based payments. The expanded manuscript is Working notes pending its separate review. Original analysis files and results below are unchanged; their prior complete-study review applies to that original version.
++**Extension complete, 12 October 2026:** The [benefit-unit extension](extensions/benefit-unit/README.md) adds an equal-budget comparison of family, adult and size-based payments. The expanded manuscript has passed separate AI review and release checks. Original analysis files and results below are unchanged; their prior complete-study review applies to that original version.
+ 
+-**S011. State: Working notes.** The expanded manuscript awaits separate review of its extension. The original version had passed separate AI review and release checks. Those prior records describe the original analysis. No human peer review is claimed.
++**S011. State: Complete-study draft.** The extension has a separate [critical review](extensions/benefit-unit/reviews/critical-review.md) and [release record](extensions/benefit-unit/logs/completion.md). The original version had passed separate AI review and release checks. Those prior records describe the original analysis. No human peer review is claimed.
+ 
+ The [paper](paper.md) compares an income floor with the same floor after debt service. It uses the public 2025 Survey of Consumer Finances. It removes wage income in a fixed accounting experiment and tests uniform transfers, payment changes, rent, asset buffers, and two targeted guarantees. It does not estimate future poverty, actual default, optimal benefits, or a future AI equilibrium.
+ 
+--- a/studies/2026-10-11-household-debt/extensions/benefit-unit/README.md
++++ b/studies/2026-10-11-household-debt/extensions/benefit-unit/README.md
+@@ -1,6 +1,6 @@
+ # S011 benefit-unit extension
+ 
+-State: **Working notes**. Analysis and source checks are complete. Separate review is pending. This is an addition to S011, not a separate paper. The original code, selected data and results are unchanged.
++State: **Complete-study draft extension**. Analysis, source checks, separate AI review and release checks are complete. This is an addition to S011, not a separate paper. The original code, selected data and results are unchanged.
+ 
+ The extension compares three payment rules with equal aggregate gross payments: equal per family, equal per adult, and proportional to square-root family size. All face the same size-adjusted threshold. The main result is that the choice of outcome matters: adult-based payments increase the family failure share but reduce the person-weighted failure share and the mean dollar shortfall. The original coverage gap is useful as a diagnostic; it is not a general policy objective.
+ 
+@@ -43,5 +43,5 @@
+ 
+ All 192 statistics, paired contrasts, group counts, original-case checks and run hashes are retained. The maximum relative budget discrepancy was below 3.4e-16. Ten tests passed. The source check confirmed 52 original files unchanged, apart from permitted manuscript/README integration. The original paper remains available in Git history; the original-file hashes were recorded before integration.
+ 
+-`section-draft.md` retains the inserted section as a drafting aid; the full manuscript is the controlling paper. `logs/design-freeze.json` records the prospective time and hash. `logs/original-file-hashes.json` preserves the starting state. `logs/searches.json` records the bounded methods screen. No completion or human-peer-review claim applies to this extension until review and release checks are recorded.
++`section-draft.md` retains the inserted section as a drafting aid; the full manuscript is the controlling paper. `logs/design-freeze.json` records the prospective time and hash. `logs/original-file-hashes.json` preserves the starting state. `logs/searches.json` records the bounded methods screen. The [separate review](reviews/critical-review.md), [author response](reviews/author-response.md), and [completion record](logs/completion.md) report their scope. No human peer review is claimed.
+ 

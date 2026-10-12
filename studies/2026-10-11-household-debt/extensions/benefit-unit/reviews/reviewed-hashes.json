@@ -1,0 +1,32 @@
+{
+  "recorded_utc": "2026-10-12T17:31:25.514843Z",
+  "paper_sha256": "b5ca8684984462a745ecf029c3382b3e29292a13cf9225d1086aec7052056e10",
+  "files": {
+    "section-draft.md": "74e9586116368863a6086ec3c42d24f5507c3828e096937480f114475c8499a7",
+    "README.md": "be7fddba743d136a61c11b6899c71442df4aeb84e69a8e92bce874efd34cc71e",
+    "protocol.md": "4d9fffec91f40c0e688d5b48213d78be1b00ba8199cb501b3a9fde516450c22e",
+    "code/test_extension.py": "626a5886637e89064019c2a47eead16d577ca99f114a873df1103d2571b15828",
+    "code/check.py": "ca9a82d50b16e6a6b0eebefcd2d5c35b0a434ab277a2f2425f9667d450d6630f",
+    "code/acquire.py": "5c2686127c04b0ff35991b76af82ef5831e23d7949848bb32ebbed0b9b7c6f01",
+    "code/check_feasibility.py": "8f12944e8949c14bba1cd713e837ce14f8299414609927784dd176a9cb539659",
+    "code/analyze.py": "ee1a44f068a6234228bb54a0db72be13a9e55e1ac29477a75810c7a435be3803",
+    "results/implicate-estimates.csv": "1565bce67f2d8cb110b0c55f8846dc6c8c3aec2048682955a9911e6cc982bcd5",
+    "results/allocation.csv": "ee769b1405fac6c6af9bda51643108b4442f46569df9aa49454c7d4a6ec6adfe",
+    "results/counts.csv": "e485d2f25030cd677de4fb825b4c70d3546d45ef3cbd7b0c8b7060d9eb2d6fab",
+    "results/replicate-estimates.csv": "8d3c12c851418997f7bfeefe305fc9617b7fbe38a59a141993de8de3c1ac35e4",
+    "results/contrasts.csv": "6f1f25dbffb9eb76fedce5d5f1b18c32c08908bb63b72aa5f0b1f599543dd112",
+    "results/outcomes.csv": "cbc9cca343d5d50ed82c1ba03b25eccfa37321d9b453f3c2e5cbe946b90484a2",
+    "results/run.json": "8976da30343f38d8f4c4ff6b05d12059fc0dccabf9cf8cfc0ed7244dea1a4ddf",
+    "logs/searches.json": "595e5db4c6ff08ef28c560f86672817835d12c33c4443fc6b0c731bbb566e3dd",
+    "logs/review-fixes.json": "5ade2f158f771226b6aea545550bd3abb4bc2f72e592e0111c41ac63e199c2f2",
+    "logs/original-file-hashes.json": "c02a93b881e55aeeb01c5012d400a07c8179442c043df313c2cb313c434ae773",
+    "logs/feasibility-check.json": "296bd505483f3a49f04a3f7f9247678f154461f8d57504c504c877ad6da3ab9f",
+    "logs/author-checkpoint.json": "7516e6db41e9ee47552375f4e952e110ddf9bdf7194ebcf0efa1a405aad81cb5",
+    "logs/design-freeze.json": "100aa1015a152333e11be2233bb00c9a6fc0535494afd8cb6ec4e73e3a189b3d",
+    "logs/execution.json": "3ab706b1b0726dab32e2e32e42417e974c0cd31693ccbe1f924782c02e29490b",
+    "sources/extracts.csv": "679fcc144c9b2de734f807befe3dd91a708982e98dae1a7c593077ccb9aa21f1",
+    "sources/manifest.json": "23561785bbea26423f67ee1cae379ce5a7c2cad021d73300aae57e16299fcaed",
+    "data/roster.csv": "4c6a411c5c2be699a19dbf3b1b139b2edc81bcfa3eeee61271de67e2f3adc890",
+    "data/DICTIONARY.md": "b43908a807a979844fd2ec412484c3710685210818b08daac5bc6526cef8cdf2"
+  }
+}

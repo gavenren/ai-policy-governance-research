@@ -1,0 +1,20 @@
+{
+  "family": {
+    "payments": [
+      "2000",
+      "2000"
+    ],
+    "total": "4000",
+    "failed_families": 1,
+    "members_in_failed_families": 4
+  },
+  "size": {
+    "payments": [
+      "4000/3",
+      "8000/3"
+    ],
+    "total": "4000",
+    "failed_families": 1,
+    "members_in_failed_families": 1
+  }
+}

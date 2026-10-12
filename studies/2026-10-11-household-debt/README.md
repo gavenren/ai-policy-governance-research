@@ -1,6 +1,8 @@
 # What Remains After the Payment?
 
-**S011. State: Complete-study draft.** The calculation, manuscript and evidence package have passed separate AI review. Release checks are complete. No human peer review is claimed.
+**Extension complete, 12 October 2026:** The [benefit-unit extension](extensions/benefit-unit/README.md) adds an equal-budget comparison of family, adult and size-based payments. The expanded manuscript has passed separate AI review and release checks. Original analysis files and results below are unchanged; their prior complete-study review applies to that original version.
+
+**S011. State: Complete-study draft.** The extension has a separate [critical review](extensions/benefit-unit/reviews/critical-review.md) and [release record](extensions/benefit-unit/logs/completion.md). The original version had passed separate AI review and release checks. Those prior records describe the original analysis. No human peer review is claimed.
 
 The [paper](paper.md) compares an income floor with the same floor after debt service. It uses the public 2025 Survey of Consumer Finances. It removes wage income in a fixed accounting experiment and tests uniform transfers, payment changes, rent, asset buffers, and two targeted guarantees. It does not estimate future poverty, actual default, optimal benefits, or a future AI equilibrium.
 
@@ -14,7 +16,7 @@ In the central experiment, all families pass the gross-resource test by construc
 - [Methods review](reviews/methods-review.md), [final source review](reviews/critical-review.md), [author response](reviews/author-response.md), and [reviewed hashes](reviews/methods-reviewed-hashes.json).
 - [All results](results/all-estimates.csv), [run metadata](results/run.json), and [official benchmarks](results/official-benchmarks.csv).
 
-The evidence cutoff is **2026-10-11T21:42:56Z**: the last source retrieval used in this version. Interpretation and review continued after retrieval. The package retains 14 source records, including six prior studies. Two prior papers were accessible only by abstract. Full third-party papers are not redistributed. Selected public SCF data are attributed to the Board of Governors under its stated public-domain policy. No licence for the study's original work is selected.
+The original analysis evidence cutoff is **2026-10-11T21:42:56Z**. The extension source ledger records its later cutoffs. Interpretation and review continued after retrieval. The package retains 14 source records, including six prior studies. Two prior papers were accessible only by abstract. Full third-party papers are not redistributed. Selected public SCF data are attributed to the Board of Governors under its stated public-domain policy. No licence for the study's original work is selected.
 
 ## Reproduce offline from saved replicate estimates
 

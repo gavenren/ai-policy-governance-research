@@ -1,0 +1,241 @@
+{
+  "evidence_cutoff_utc": "2026-10-12T17:29:38Z",
+  "cutoff_definition": "Initial sources at the earlier cutoff; E5 added at review for the age-14 definition. No outcome or design changed.",
+  "records": [
+    {
+      "source_id": "E1",
+      "title": "2025 Survey of Consumer Finances full public Stata data",
+      "authors_or_issuer": "Board of Governors of the Federal Reserve System",
+      "canonical_url": "https://www.federalreserve.gov/econres/files/scf2025s.zip",
+      "publication_date": "2026-10-09",
+      "source_type": "official public microdata",
+      "language": "English",
+      "retrieval": {
+        "url": "https://www.federalreserve.gov/econres/files/scf2025s.zip",
+        "started_utc": "2026-10-12T17:16:01.232294+00:00",
+        "completed_utc": "2026-10-12T17:16:01.811787+00:00",
+        "response": [
+          "200",
+          "https://www.federalreserve.gov/econres/files/scf2025s.zip"
+        ],
+        "stderr": "",
+        "returncode": 0,
+        "tool": "functions.exec tools.exec_command; curl with TLS verification; first urllib request returned HTTP 403; no file retained for failed request",
+        "sha256": "c4010bd5decaa13d5d027862ed4b6c41b4106925089290f879749f8f5a467741",
+        "bytes": 8497215,
+        "members": [
+          "p25i6.dta"
+        ],
+        "extracted": [
+          {
+            "path": ".local-sources/household-debt/benefit-unit/p25i6.dta",
+            "sha256": "38926275dfb8f00ea843b80ced7a9412ad4653d39c7fab8fe24c3bdf912902ad",
+            "bytes": 221016795
+          }
+        ]
+      },
+      "original": {
+        "local_path": ".local-sources/household-debt/benefit-unit/scf2025s.zip",
+        "bytes": 8497215,
+        "sha256": "c4010bd5decaa13d5d027862ed4b6c41b4106925089290f879749f8f5a467741",
+        "published": false
+      },
+      "claim_locator": "p25i6.dta fields listed in data/DICTIONARY.md",
+      "coverage": "Public PEU roster, not individual income or spending",
+      "read_scope": "p25i6.dta fields listed in data/DICTIONARY.md",
+      "rights": "E1: Board public-domain default checked by original S011 R1; selected de-identified public variables attributed. E3/E4: OECD copyright; full originals stay ignored; only narrow attributed extracts published.",
+      "public_evidence": {
+        "path": "sources/extracts.csv",
+        "bytes": 508,
+        "sha256": "679fcc144c9b2de734f807befe3dd91a708982e98dae1a7c593077ccb9aa21f1",
+        "kind": "Narrow attributed extract; not a full snapshot"
+      }
+    },
+    {
+      "source_id": "E2",
+      "title": "Codebook for the 2025 Survey of Consumer Finances",
+      "authors_or_issuer": "Board of Governors of the Federal Reserve System",
+      "canonical_url": "https://www.federalreserve.gov/econres/files/codebk2025.txt",
+      "publication_date": "2026-10-09",
+      "source_type": "official public data/documentation",
+      "language": "English",
+      "retrieval": {
+        "retrieved_utc": "2026-10-11T21:27:55Z",
+        "requested_url": "https://www.federalreserve.gov/econres/files/codebk2025.txt",
+        "final_url": "https://www.federalreserve.gov/econres/files/codebk2025.txt",
+        "method": "curl HTTPS with TLS verification"
+      },
+      "original": {
+        "local_path": ".local-sources/household-debt/D3.txt",
+        "local_file": "D3.txt",
+        "media_type": "text/plain",
+        "bytes": 2786334,
+        "sha256": "ad79528ce8a38d63e0869c3614ceec8572e0d46a601f1c4dc741ffe9a3679fcf",
+        "published": false
+      },
+      "claim_locator": "Original text lines 160\u2013197, 3277\u20133330, 3451\u20133543, 3690\u20133752; X7001, X7020, age and dependence roster",
+      "coverage": "PEU unit, size top-code, public age masking and dependence fields",
+      "read_scope": "Named codebook passages read in full",
+      "rights": "Board public-domain default under R1, absent a contrary notice; attribution retained. Selected data and narrow method extracts redistributed; no logos.",
+      "public_evidence": {
+        "path": "sources/extracts.csv",
+        "bytes": 508,
+        "sha256": "679fcc144c9b2de734f807befe3dd91a708982e98dae1a7c593077ccb9aa21f1",
+        "kind": "Narrow attributed extract; not a full snapshot"
+      },
+      "version_note": "Existing retained S011 capture reused; no new retrieval claimed"
+    },
+    {
+      "source_id": "E3",
+      "title": "OECD Framework for Statistics on the Distribution of Household Income, Consumption and Wealth",
+      "authors_or_issuer": "OECD",
+      "canonical_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2013/06/oecd-framework-for-statistics-on-the-distribution-of-household-income-consumption-and-wealth_g1g2c4b5/9789264194830-en.pdf",
+      "publication_date": "2013",
+      "source_type": "statistical framework",
+      "language": "English",
+      "retrieval": {
+        "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2013/06/oecd-framework-for-statistics-on-the-distribution-of-household-income-consumption-and-wealth_g1g2c4b5/9789264194830-en.pdf",
+        "started_utc": "2026-10-12T17:17:46.930089+00:00",
+        "completed_utc": "2026-10-12T17:17:47.721350+00:00",
+        "response": [
+          "200",
+          "https://www.oecd.org/content/dam/oecd/en/publications/reports/2013/06/oecd-framework-for-statistics-on-the-distribution-of-household-income-consumption-and-wealth_g1g2c4b5/9789264194830-en.pdf"
+        ],
+        "error": "",
+        "returncode": 0,
+        "tool": "functions.exec tools.exec_command; curl with HTTPS certificate verification",
+        "sha256": "3d2f1f5ef304aa4f9c7caa5012647a18b3317bab1dade4b88e6446a48ad69e8f",
+        "bytes": 3389472,
+        "text_sha256": "f8b6a611db0b587cc428259cb25a26e760c2b09b6a7a8972fdbfca1dfb6f722e",
+        "pages": 236,
+        "extraction": "pypdf 6.10.0 PdfReader page.extract_text"
+      },
+      "original": {
+        "local_path": ".local-sources/household-debt/benefit-unit/OECD2013.pdf",
+        "bytes": 3389472,
+        "sha256": "3d2f1f5ef304aa4f9c7caa5012647a18b3317bab1dade4b88e6446a48ad69e8f",
+        "published": false
+      },
+      "claim_locator": "Chapter 3 pp. 67\u201368; Chapter 8 pp. 173\u2013177, especially p. 175 unit warning",
+      "coverage": "Scale conventions and limits; no scale validates this PEU policy floor",
+      "read_scope": "Chapter 3 pp. 67\u201368; Chapter 8 pp. 173\u2013177, especially p. 175 unit warning",
+      "rights": "Copyright OECD 2013; terms on PDF page 4 read. Full originals remain ignored; one nine-word attributed evidence quote published.",
+      "public_evidence": {
+        "path": "sources/extracts.csv",
+        "bytes": 508,
+        "sha256": "679fcc144c9b2de734f807befe3dd91a708982e98dae1a7c593077ccb9aa21f1",
+        "kind": "Narrow attributed extract; not a full snapshot"
+      },
+      "extraction": {
+        "local_path": ".local-sources/household-debt/benefit-unit/OECD2013.txt",
+        "sha256": "f8b6a611db0b587cc428259cb25a26e760c2b09b6a7a8972fdbfca1dfb6f722e",
+        "bytes": 724364,
+        "method": "pypdf 6.10.0; PDF page labels inserted, no OCR"
+      },
+      "date_note": "Exact day not checked; citation year 2013. Search engine crawl/publication proxy is not the publication date."
+    },
+    {
+      "source_id": "E4",
+      "title": "Mechanics of replacing benefits systems with a basic income: Comparative results from a microsimulation approach",
+      "authors_or_issuer": "James Browne and Herwig Immervoll",
+      "canonical_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2018/03/mechanics-of-replacing-benefits-systems-with-a-basic-income_850fc0f3/ec38a279-en.pdf",
+      "publication_date": "2018-03-09",
+      "source_type": "original working paper",
+      "language": "English",
+      "retrieval": {
+        "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2018/03/mechanics-of-replacing-benefits-systems-with-a-basic-income_850fc0f3/ec38a279-en.pdf",
+        "started_utc": "2026-10-12T17:18:55.863436+00:00",
+        "completed_utc": "2026-10-12T17:18:56.510864+00:00",
+        "response": [
+          "200",
+          "https://www.oecd.org/content/dam/oecd/en/publications/reports/2018/03/mechanics-of-replacing-benefits-systems-with-a-basic-income_850fc0f3/ec38a279-en.pdf"
+        ],
+        "error": "",
+        "returncode": 0,
+        "tool": "functions.exec tools.exec_command; curl with HTTPS certificate verification",
+        "sha256": "f7d5ff43584b288d7d19286a1e63be54dc26117fe13b809fc9233f9ae78e97fc",
+        "bytes": 1201263,
+        "text_sha256": "68549171f51f99a1f9a684136fa5e00ed9482cb9097776a3a62d3ef07cee2a23",
+        "pages": 32,
+        "extraction": "pypdf 6.10.0 PdfReader page.extract_text"
+      },
+      "original": {
+        "local_path": ".local-sources/household-debt/benefit-unit/BrowneImmervoll2018.pdf",
+        "bytes": 1201263,
+        "sha256": "f7d5ff43584b288d7d19286a1e63be54dc26117fe13b809fc9233f9ae78e97fc",
+        "published": false
+      },
+      "claim_locator": "Printed pp. 11\u201316, Sections 3\u20134 and individual payments discussion",
+      "coverage": "Budget-neutral tax-benefit simulation and individual/family distinction; models not reproduced",
+      "read_scope": "Printed pp. 11\u201316, Sections 3\u20134 and individual payments discussion",
+      "rights": "Copyright OECD 2018; terms on PDF page 3 read. Full originals remain ignored; one short attributed evidence quote published.",
+      "public_evidence": {
+        "path": "sources/extracts.csv",
+        "bytes": 508,
+        "sha256": "679fcc144c9b2de734f807befe3dd91a708982e98dae1a7c593077ccb9aa21f1",
+        "kind": "Narrow attributed extract; not a full snapshot"
+      },
+      "extraction": {
+        "local_path": ".local-sources/household-debt/benefit-unit/BrowneImmervoll2018.txt",
+        "sha256": "68549171f51f99a1f9a684136fa5e00ed9482cb9097776a3a62d3ef07cee2a23",
+        "bytes": 75381,
+        "method": "pypdf 6.10.0; PDF page labels inserted, no OCR"
+      },
+      "date_note": "PDF cover dated 2018-03-05; OECD publication page dates release 2018-03-09. Read retained relevant sections beyond abstract."
+    },
+    {
+      "source_id": "E5",
+      "title": "OECD Handbook on the Compilation of Household Distributional Results on Income, Consumption and Saving in Line with National Accounts Totals: Chapter 13",
+      "authors_or_issuer": "OECD",
+      "canonical_url": "https://www.oecd.org/en/publications/oecd-handbook-on-the-compilation-of-household-distributional-results-on-income-consumption-and-saving-in-line-with-national-accounts-totals_5a3b9119-en/full-report/component-15.html",
+      "publication_date": "2024",
+      "date_note": "Citation year confirmed; exact publication day not verified.",
+      "source_type": "official statistical methods chapter",
+      "language": "English",
+      "retrieval": {
+        "started_utc": "2026-10-12T17:29:37Z",
+        "completed_utc": "2026-10-12T17:29:38Z",
+        "method": "functions.exec tools.web__run find, following open; direct original HTML request failed",
+        "original_request_failure": {
+          "url": "https://www.oecd.org/en/publications/oecd-handbook-on-the-compilation-of-household-distributional-results-on-income-consumption-and-saving-in-line-with-national-accounts-totals_5a3b9119-en/full-report/component-15.html",
+          "started_utc": "2026-10-12T17:29:38.161657+00:00",
+          "completed_utc": "2026-10-12T17:29:38.236519+00:00",
+          "response": [
+            "403",
+            "https://www.oecd.org/en/publications/oecd-handbook-on-the-compilation-of-household-distributional-results-on-income-consumption-and-saving-in-line-with-national-accounts-totals_5a3b9119-en/full-report/component-15.html"
+          ],
+          "returncode": 56,
+          "error": "curl: (56) The requested URL returned error: 403\n",
+          "tool": "functions.exec tools.exec_command; curl with HTTPS certificate verification"
+        }
+      },
+      "original": null,
+      "representation": {
+        "local_path": ".local-sources/household-debt/benefit-unit/age14-web.json",
+        "bytes": 16475,
+        "sha256": "eaf036c77b1cd49c1e32e38650adf5e166b6250c0f7c4faeb82d16856a8baeaf",
+        "published": false,
+        "kind": "Serialized web tool response, not original HTML"
+      },
+      "extraction": {
+        "local_path": ".local-sources/household-debt/benefit-unit/age14-web.txt",
+        "bytes": 16141,
+        "sha256": "14532f9394ef78238f4caaa3168deb263137910cb8a56f72962627075e1e5d01",
+        "published": false,
+        "method": "Tool-returned text saved verbatim; no original HTML bytes obtained"
+      },
+      "claim_locator": "Section 13.2, modified-OECD equivalence-scale paragraph",
+      "read_scope": "Section 13.2 paragraphs and surrounding displayed methods read",
+      "coverage": "Only the age-14 scale definition; no new result or scale used in analysis",
+      "rights": "OECD copyright; one short attributed evidence extract published, tool-returned text stays ignored.",
+      "version_note": "Added after analysis to resolve reviewer source gap. The source first appeared in the recorded pre-analysis search; that was discovery, not a full-source capture.",
+      "public_evidence": {
+        "path": "sources/extracts.csv",
+        "bytes": 508,
+        "sha256": "679fcc144c9b2de734f807befe3dd91a708982e98dae1a7c593077ccb9aa21f1",
+        "kind": "Narrow attributed extract; not a full snapshot"
+      }
+    }
+  ],
+  "initial_extension_cutoff_utc": "2026-10-12T17:18:56.510864Z"
+}

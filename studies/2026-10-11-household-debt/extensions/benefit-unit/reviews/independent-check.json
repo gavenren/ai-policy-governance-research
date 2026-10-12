@@ -1,0 +1,66 @@
+{
+  "checked_at_utc": "2026-10-12T17:32:03.403300Z",
+  "reviewer": "Separate AI agent; no author analysis imports",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "paper_sha256": "b5ca8684984462a745ecf029c3382b3e29292a13cf9225d1086aec7052056e10",
+  "author_checkpoint_sha256": "7516e6db41e9ee47552375f4e952e110ddf9bdf7194ebcf0efa1a405aad81cb5",
+  "code_sha256": "cba1644bbfb934d3fb57be84c4663fe70c8226d145fbbe247ba9568f6a59d2a3",
+  "full_data_sha256": "38926275dfb8f00ea843b80ced7a9412ad4653d39c7fab8fe24c3bdf912902ad",
+  "weights_sha256": "3b452c1728f5f565074745cf60f810e78f75262e533327f0d3d53ce62ecf4d2c",
+  "source_rows": 21800,
+  "full_to_public_roster_match": true,
+  "complete_joins": true,
+  "implicates": 5,
+  "replicates": 999,
+  "estimands_per_run": 192,
+  "statistic_comparisons": 192768,
+  "max_absolute_difference_scaled_by_max_1": 1.6495688477716614e-13,
+  "all_combined_estimates_and_paired_standard_errors_match": true,
+  "budget_checks": 6024,
+  "max_relative_budget_error": 4.884981308350689e-15,
+  "exclusions": [
+    {
+      "implicate": 1,
+      "count": 2,
+      "weighted_share": 0.0003314250605579086,
+      "covered_families": 4358,
+      "covered_members": 306340103.61921495
+    },
+    {
+      "implicate": 2,
+      "count": 2,
+      "weighted_share": 0.0003723061143155337,
+      "covered_families": 4358,
+      "covered_members": 307056146.6920762
+    },
+    {
+      "implicate": 3,
+      "count": 2,
+      "weighted_share": 0.00035559119043588564,
+      "covered_families": 4358,
+      "covered_members": 306500620.9765204
+    },
+    {
+      "implicate": 4,
+      "count": 2,
+      "weighted_share": 0.0003908564834946467,
+      "covered_families": 4358,
+      "covered_members": 307046423.75405
+    },
+    {
+      "implicate": 5,
+      "count": 2,
+      "weighted_share": 0.0005092797724896328,
+      "covered_families": 4358,
+      "covered_members": 307075154.4937539
+    }
+  ],
+  "negative_checks": [
+    "fixed-rate replicate changes budget",
+    "separate-arm variance loses covariance",
+    "age-14 boundary not recoverable"
+  ],
+  "source_and_author_files_changed": false
+}

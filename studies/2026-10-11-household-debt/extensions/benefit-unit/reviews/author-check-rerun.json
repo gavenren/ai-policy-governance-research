@@ -1,0 +1,17 @@
+{
+  "checked_at_utc": "2026-10-12T17:32:29.851478Z",
+  "commands": [
+    {
+      "command": "python3 studies/2026-10-11-household-debt/extensions/benefit-unit/code/check.py --local-evidence",
+      "returncode": 0,
+      "stdout": "{\"original_files_preserved\": 52, \"estimands\": 192, \"replicates\": 999, \"source_records\": 5, \"short_quotes\": 4, \"local_files_checked\": 8, \"passed\": true}\n",
+      "stderr": ""
+    },
+    {
+      "command": "python3 -m unittest discover -s studies/2026-10-11-household-debt/extensions/benefit-unit/code -p test_*.py -v",
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_age18_is_adult_17_is_child (test_extension.ExtensionTests.test_age18_is_adult_17_is_child) ... ok\ntest_equal_weighted_budget (test_extension.ExtensionTests.test_equal_weighted_budget) ... ok\ntest_independent_resident_not_in_peu (test_extension.ExtensionTests.test_independent_resident_not_in_peu) ... ok\ntest_missing_member_age_stops (test_extension.ExtensionTests.test_missing_member_age_stops) ... ok\ntest_payment_resource_example (test_extension.ExtensionTests.test_payment_resource_example) ... ok\ntest_refit_with_replicate_weights (test_extension.ExtensionTests.test_refit_with_replicate_weights) ... ok\ntest_square_root_worked_example (test_extension.ExtensionTests.test_square_root_worked_example) ... ok\ntest_topcode_and_paired_identity (test_extension.ExtensionTests.test_topcode_and_paired_identity) ... ok\ntest_variance_hand_fixture (test_extension.ExtensionTests.test_variance_hand_fixture) ... ok\ntest_zero_adult_stops (test_extension.ExtensionTests.test_zero_adult_stops) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.032s\n\nOK\n"
+    }
+  ]
+}

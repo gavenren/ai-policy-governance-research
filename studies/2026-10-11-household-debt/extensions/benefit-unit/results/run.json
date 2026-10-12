@@ -1,0 +1,47 @@
+{
+  "recorded_utc": "2026-10-12T17:21:12.655146+00:00",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "selected_sha256": "11ec78618e8372bdedce64da5cc7f04a91f5f289ddddf8ee167769544cf1c9e0",
+  "roster_sha256": "4c6a411c5c2be699a19dbf3b1b139b2edc81bcfa3eeee61271de67e2f3adc890",
+  "weights_sha256": "3b452c1728f5f565074745cf60f810e78f75262e533327f0d3d53ce62ecf4d2c",
+  "analysis_sha256": "ee1a44f068a6234228bb54a0db72be13a9e55e1ac29477a75810c7a435be3803",
+  "protocol_sha256": "4d9fffec91f40c0e688d5b48213d78be1b00ba8199cb501b3a9fde516450c22e",
+  "public_families": 4360,
+  "records": 21800,
+  "replicates": 999,
+  "estimands": 192,
+  "max_relative_budget_error": 3.394419644693499e-16,
+  "bridge": {
+    "gross_pass": {
+      "estimate": 1.0,
+      "standard_error": 1.7251125571471455e-16,
+      "matched_original": true
+    },
+    "after_pass": {
+      "estimate": 0.7710257744300784,
+      "standard_error": 0.005755476044963043,
+      "matched_original": true
+    },
+    "classification_gap": {
+      "estimate": 0.22897422556992164,
+      "standard_error": 0.00575547604496305,
+      "matched_original": true
+    },
+    "shortfall": {
+      "estimate": 401.6683624045125,
+      "standard_error": 16.715181854794903,
+      "matched_original": true
+    }
+  },
+  "complete_joins": true,
+  "exact_count_exclusions_per_implicate": [
+    2,
+    2,
+    2,
+    2,
+    2
+  ],
+  "interpretation": "Gross payment budgets matched; no tax, behavior, needs measurement or individual access to money estimated."
+}

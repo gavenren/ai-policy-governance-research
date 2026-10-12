@@ -1,0 +1,6 @@
+{
+  "recorded_utc": "2026-10-12T17:19:59.808024+00:00",
+  "protocol_sha256": "4d9fffec91f40c0e688d5b48213d78be1b00ba8199cb501b3a9fde516450c22e",
+  "outcomes_calculated": false,
+  "preanalysis": "Full-file schema, joins and member counts only; prior methods read before this plan"
+}

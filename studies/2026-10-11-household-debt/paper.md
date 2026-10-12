@@ -1,15 +1,15 @@
 # What Remains After the Payment?
 ## Household debt and income guarantees after human labor
 
-> **State:** Complete-study draft — analysis and separate AI review complete.
-> **Study:** S011. **Date:** 11 October 2026.
-> **Evidence cutoff:** 2026-10-11T21:42:56Z for the sources retained for this draft.
+> **State:** Complete-study draft — the original analysis is retained; the benefit-unit extension passed separate AI review and release checks on 12 October 2026.
+> **Study:** S011. **Date:** 12 October 2026. Original analysis dated 11 October; extension dated 12 October.
+> **Evidence cutoff:** 2026-10-11T21:42:56Z for the original analysis; 2026-10-12T17:18:56.510864Z for the initial extension sources; an age-definition source was added at review on 2026-10-12T17:29:38Z.
 > **Method:** A conditional accounting stress test using the 2025 U.S. Survey of Consumer Finances. It is not a forecast of AI displacement, household default, or consumption.
 > **Disclosure:** Codex prepared the research, code, and manuscript. No human peer review, institutional endorsement, or author affiliation is claimed. Human funding and conflicts were not supplied. No reuse licence has been selected.
 
 ### Abstract
 
-An income guarantee can meet its stated payment target while leaving families unable to meet the same cash threshold after debt service. This paper measures that difference in a fixed-contract stress test using the 2025 Survey of Consumer Finances. The main experiment removes recorded wage income, retains other recorded income, and adds a monthly transfer of $2,000 per family. It then compares resources with an illustrative $1,000 threshold before and after the SCF debt-service estimate. Every family passes the first test by construction. An estimated 22.9 percent fail the second, with a survey standard error of 0.6 percentage points. The average remaining shortfall is $402 per month across all families. The result rises when more income sources are removed or rent is included, and falls when debt payments are reduced. A separate comparison of idealized targeted programmes shows how a guarantee defined after debt service can become a large commitment to support existing contracts. These are conditional calculations, not recommended benefit levels or estimates of future fiscal cost. Their implication is that post-labor policy must specify whether it protects an income amount, consumption, or contractual payments. Those promises require different institutions and distribute support differently.
+An income guarantee can meet its stated payment target while leaving families unable to meet the same cash threshold after debt service. This paper measures that difference in a fixed-contract stress test using the 2025 Survey of Consumer Finances. The main experiment removes recorded wage income, retains other recorded income, and adds a monthly transfer of $2,000 per family. It then compares resources with an illustrative $1,000 threshold before and after the SCF debt-service estimate. Every family passes the first test by construction. An estimated 22.9 percent fail the second, with a survey standard error of 0.6 percentage points. The average remaining shortfall is $402 per month across all families. The result rises when more income sources are removed or rent is included, and falls when debt payments are reduced. A separate comparison of idealized targeted programmes shows how a guarantee defined after debt service can become a large commitment to support existing contracts. These are conditional calculations, not recommended benefit levels or estimates of future fiscal cost. A later equal-budget extension shows that adult-based payments can increase the family failure rate while reducing the person-weighted failure rate and mean dollar shortfall. Their implication is that post-labor policy must specify whether it protects an income amount, consumption, or contractual payments, and how it counts families of different sizes. Those promises require different institutions and distribute support differently.
 
 ### 1. An income payment does not settle the debt question
 
@@ -47,7 +47,7 @@ This contribution is also distinct from the earlier studies in this repository. 
 
 The data come from the Federal Reserve's 2025 Survey of Consumer Finances public summary extract, released on 9 October 2026. The public file contains 4,360 families. Each appears in five completed versions of the data, called implicates, to represent uncertainty about imputed values. The resulting 21,800 records are not 21,800 independent families. The analysis uses all five versions and the survey's 999 replicate weights. [D1–D6]
 
-The unit is the SCF family, or primary economic unit. It is not necessarily every person living at one address. The paper uses a uniform amount per family because the selected summary data do not support a complete adult-level benefit calculation. It does not infer family size from marital status and the number of children. A $2,000 family transfer should therefore not be read as a proposal for a $2,000 payment to each adult.
+The unit is the SCF family, or primary economic unit. It is not necessarily every person living at one address. The paper uses a uniform amount per family because the selected summary data do not support a complete adult-level benefit calculation. It does not infer family size from marital status and the number of children. A $2,000 family transfer should therefore not be read as a proposal for a $2,000 payment to each adult. Section 8 adds a separately planned comparison using the full public roster; it does not alter the original calculations.
 
 Three definitions require particular care. First, income is before tax. The remaining amount after debt payments is still before tax and before most ordinary expenses. It is not disposable income or a measure of consumption. Second, the income questions refer principally to the previous calendar year, while debt payments describe obligations near the interview. The official extract places monetary variables in 2025 dollars, but inflation adjustment does not remove this timing difference. Third, reported total income and its components need not sum exactly. The official macro documents both this issue and the inclusion of pension-account withdrawals. [D4]
 
@@ -168,7 +168,40 @@ These totals are deliberately gross. Existing transfer income remains in N and a
 
 The result should instead be read as the scale of a conditional contractual promise in the current public data. If the state promises a fixed amount after the measured payment burden, the payment measure helps determine its liability. That link raises questions about verification and limits. Which debts qualify? Are new debts included after the programme starts? Can lenders increase payments because public support will rise? Are rent and other essential costs treated comparably? The accounting exercise cannot answer these questions, but it shows why the programme cannot omit them.
 
-### 8. Implications for a post-labor transition
+### 8. Extension: equal budgets can produce different answers
+
+The original experiment gives the same amount to every family. That is a useful starting point, but a family can contain one person or several. A later extension, planned on 12 October before its outcomes were calculated, examines this choice. It keeps the original financial records and asks how the result changes when the payment depends on adult count or family size. The original results above remain unchanged.
+
+Consider two families with no remaining income and $500 in monthly debt payments. One has one adult. The other has one adult and three children. Suppose that the combined transfer budget is $4,000. An equal family payment gives each $2,000. A size-adjusted threshold of $1,000 for the first family and $2,000 for the second leaves one family below its threshold after payment. If the budget is instead divided in proportion to the square root of family size, the payments are about $1,333 and $2,667. The first family now falls short and the second passes. One of two families still fails, but the number of people in failing families falls from four to one. The example does not choose a fair allocation. It shows why the payment rule, the needs assumption, and the unit counted in the outcome must be stated separately.
+
+These choices are established parts of distributional analysis. The OECD's statistical framework discusses square-root scaling and warns against treating one scale as universally correct. It also notes that shared costs can extend beyond a family economic unit. Browne and Immervoll's comparative microsimulation already sets benefit amounts under a common fiscal constraint and distinguishes individual payments from family-based support. This extension applies those familiar distinctions to S011's debt-payment diagnostic. It does not propose a new equivalence scale. [E3, E4]
+
+The full public SCF file supplies the fields omitted from the summary extract. Its financial-dependence flags identify PEU members, and its public ages preserve the boundary at 18. They do not preserve the age-14 boundary used in the modified OECD scale. Adult counts are therefore constructed directly from the roster, without treating marital status or the summary count of children as a substitute. Each of the 21,800 records joins to the original data. Two families in each implicate have size recorded as 12 or more. The primary comparison excludes them, leaving 4,358 families. Their weighted share ranges from 0.033 to 0.051 percent. An additional check includes them using the published, capped roster. [E1, E2, E5]
+
+Three programmes share the same aggregate gross payment budget: $2,000 times the weighted number of included families per month. The first pays equally per family. The second pays equally per adult aged 18 or above and sums those payments within the family. The third pays in proportion to the square root of PEU size. Their estimated payment coefficients are $2,000 per family, about $1,173 per adult, and about $1,379 per square-root unit. The annual added payment total is about $3.238 trillion in the primary population under every rule. No taxes or reductions in existing benefits finance this amount in the experiment. Equal gross payments do not establish fiscal feasibility.
+
+All three rules face the same threshold: $1,000 times the square root of PEU size. Thus a four-person family has a $2,000 threshold. This is an explicit policy assumption about size, not a measured cost-of-living budget. The PEU can exclude independent people at the same address, and the calculation does not measure shared housing costs across those units. It also does not measure each adult's control of the payment. Resources and payments are pooled within the PEU.
+
+| Payment rule, equal aggregate budget | Families passing the gross test (%) | Families below the after-payment threshold (%) | People in families below that threshold (%) | Mean monthly shortfall per family ($) |
+| --- | ---: | ---: | ---: | ---: |
+| Equal per family | 97.43 | 29.51 | 39.34 | 576.69 |
+| Equal per adult | 96.55 | 31.61 | 37.11 | 520.68 |
+| Proportional to square-root size | 100.00 | 28.83 | 33.49 | 502.03 |
+
+The table's person measure assigns the family's result to all its members. It does not measure individual consumption. All shortfall means include families with no shortfall. Full estimates and survey uncertainty are in [the extension results](extensions/benefit-unit/results/outcomes.csv).
+
+Equal adult payments perform worse than equal family payments on the family failure rate: the increase is 2.10 percentage points, with a paired standard error of 0.42 points. But they reduce the person-weighted failure rate by 2.23 points, with a standard error of 0.56 points. They also reduce the mean shortfall by $56.01, with a standard error of $4.38. There is no contradiction. Moving payments away from one-person families can create more failing families while reducing the number of people in failing families and the depth of their shortfalls.
+
+The size-based payment reduces the person-weighted failure rate by 5.85 points relative to the equal family payment, with a standard error of 0.52 points. Its reduction in the family failure rate is much smaller: 0.67 points, with a standard error of 0.34 points. The difference between those measures matters more than a claim that one rule is best. At the common size-adjusted threshold, the family failure rate for one-person families rises from 12.42 percent under equal family payments to 20.48 percent under size-based payments. For families with three or more members, it falls from 53.47 to 41.97 percent. Equal aggregate spending redistributes protection.
+
+A second calculation retains the original fixed $1,000 threshold for every family. Under that test, family failure rates are 22.90, 23.66 and 22.30 percent for the family, adult and size-based rules. This bridge separates a change in the payment rule from a change in the threshold. Including the two top-coded families under the capped-roster assumption leaves the substantive ordering of these measures unchanged. The all-family fixed-rule bridge also reproduces the original 22.8974 percent result and its standard error.
+
+The extension also limits how the paper's central diagnostic should be used. The gross-pass/after-payment gap is 26.94 percent under equal family payments, 28.16 percent under equal adult payments, and 28.83 percent under size-based payments at the common size threshold. The largest gap belongs to the rule with the lowest person-weighted failure rate and the lowest mean shortfall. That rule brings everyone above the gross threshold, so its remaining failures all enter the gap. A government should use the gap to check the meaning of a coverage claim. Minimizing it alone is not a sound objective for allocating support.
+
+These results do not settle the treatment of children, disability, care costs, local prices, or control of money within a family. They show that a post-labor guarantee needs three explicit choices: who receives a payment, how needs enter the threshold, and whose outcomes receive weight in the assessment. The debt question remains under every rule.
+
+
+### 9. Implications for a post-labor transition
 
 The first implication concerns the policy objective. An income payment, a consumption guarantee, and debt-service support are distinct commitments. A government can choose a uniform dividend as a share of common returns without promising that every family's earlier contracts remain affordable. If it instead promises a minimum standard of living, it needs evidence on prices, family needs, taxes, and essential services. If it promises to preserve debt service, it needs rules for the contracts that receive public backing.
 
@@ -184,13 +217,13 @@ The fifth implication concerns timing. The survey combines earlier annual income
 
 These points do not imply that broad cash transfers are ineffective. Every larger transfer in the experiment weakly improves the family's immediate position. Cash also permits choices that a debt-specific subsidy does not. The argument is that the meaning of success must be stated accurately and that remaining contractual obligations require a deliberate decision.
 
-### 9. Limits and further research
+### 10. Limits and further research
 
 The main limitation is that the economy is held fixed except for specified income entries and transfers. An economy in which AI outcompetes human labor would also change output, prices, profits, asset values, interest rates, credit supply, fiscal capacity, and family behavior. The public 2025 survey cannot identify that equilibrium. It supplies a recent distribution of inherited claims for a conditional exercise.
 
 The experiment also retains some flows that may be linked to labor income or asset sales. The wider-flow case tests one alternative, but it does not separate every component perfectly. Before-tax income can overstate spendable resources. The zero bound removes negative remainders. The payment measure includes constructed amounts and can include mortgage escrow items. It also contains payments that borrowers would not maintain under stress. It cannot establish legal amounts due. These choices pull the comparison in different directions; the net error cannot be signed without a richer model.
 
-Family needs are not measured. A fixed amount per SCF family treats different family sizes alike, and the paper does not estimate a poverty threshold. Nor does it measure the quality of housing or services purchased by debt-financed assets. A policy that reduced all payments equally would have distributional consequences that this calculation does not value.
+Family needs are not measured. The original fixed amount per SCF family treats different sizes alike. The extension varies payments with adult count or size, but its square-root threshold remains an assumption. Neither calculation estimates a poverty threshold. Nor does it measure the quality of housing or services purchased by debt-financed assets. A policy that reduced all payments equally would have distributional consequences that this calculation does not value.
 
 Survey standard errors address sampling and imputation under the fixed experiment. They do not capture uncertainty about AI capabilities, the timing of displacement, the persistence of nonwage income, or the policy response. A narrow standard error cannot make the future scenario probable. Small differences across scenarios should not be read as precisely estimated policy rankings.
 
@@ -198,9 +231,9 @@ The source comparison also has limits. Several close primary papers were read be
 
 A useful extension would link household income and obligations to explicit creditor balance sheets and a dated transition path. It could compare capped payment support, restructuring, and a uniform dividend under a common fiscal budget. Such a study would need rules for default, essential consumption, asset prices, and new borrowing. It should allow its preferred policy to lose under plausible assumptions, rather than treat contractual payment continuity as an unquestioned objective.
 
-### 10. Conclusion
+### 11. Conclusion
 
-A government can deliver an income payment and still leave a large difference between gross resources and resources after debt service. In the specified wage-loss experiment, that difference affects 22.9 percent of families at the central transfer and threshold. The result becomes smaller with payment relief and larger when rent or further income loss is included. A guarantee expressly defined after debt service also creates a much larger gross payment commitment than an otherwise identical gross-resource guarantee. These findings do not select a benefit level. They show why a post-labor settlement must decide what it protects and how it treats the contracts inherited from the labor economy.
+A government can deliver an income payment and still leave a large difference between gross resources and resources after debt service. In the specified wage-loss experiment, that difference affects 22.9 percent of families at the central transfer and threshold. The result becomes smaller with payment relief and larger when rent or further income loss is included. A guarantee expressly defined after debt service also creates a much larger gross payment commitment than an otherwise identical gross-resource guarantee. The extension also shows why a family count, a person-weighted count, and a dollar shortfall can rank equal-budget payment rules differently. These findings do not select a benefit level. They show why a post-labor settlement must decide what it protects and how it treats the contracts inherited from the labor economy.
 
 ### Appendix A. Estimation and reproducibility
 
@@ -220,6 +253,22 @@ The release retains the selected public microdata, estimates from each implicate
 
 The internal analysis plan was saved before study outcomes were calculated. Source and schema checks occurred first. It was not registered with an outside service. The initial full run stopped because missing replicate cells were incorrectly treated as an incomplete join. The codebook's explicit zero-weight rule resolved that error. The failure and correction remain in the decision log. No family was dropped to make the run pass.
 
+### Appendix B. The benefit-unit extension
+
+Let n_i denote the number of PEU members and a_i the number aged 18 or above. For each payment rule, set v_i to 1, a_i, or the square root of n_i. Given weights w_i and the retained sample, the payment coefficient is
+
+$$
+c(w)=2{,}000\frac{\sum_i w_i}{\sum_i w_i v_i},\qquad U_i(w)=c(w)v_i.
+$$
+
+The sum of weighted payments is therefore exactly 2,000 times the weighted family count under each arm. The primary threshold is F_i=1,000 sqrt(n_i). The fixed-threshold bridge sets F_i=1,000. Both use the original wage-only N_i and TPAY. The target is an allocation rule whose rate adjusts to keep this aggregate budget, rather than a benefit amount fixed in dollars outside the sample.
+
+The coefficient is fitted anew in each of five implicates and each of 999 first-implicate replicates. Each paired contrast is also calculated within the same replicate. Equation (3) then combines sampling and imputation variance. This procedure accounts for estimation of the payment rate and covariance between arms. It does not model tax recapture, fiscal capacity, future needs or uncertainty about which scale is appropriate.
+
+The primary sample has 4,358 families per implicate. The capped-roster check has 4,360. The smallest prespecified subgroup has 1,167 first-implicate families, above the planned 100-family interpretation threshold. Every join and roster-size check passes. The maximum relative error in matching gross payment budgets is below 3.4 times 10^-16 across all estimates. Ten tests include hand-calculated weighted allocations, the age-18 boundary, top-code exclusion, missing and zero-adult failures, and the variance formula. The all-family fixed-rule bridge reproduces the original central estimates and their standard errors without changing the original results.
+
+The [extension protocol](extensions/benefit-unit/protocol.md) was saved at 2026-10-12T17:19:59.808024Z. The first outcome run finished at 17:21:12.655146Z. Only schema, joins and member counts were examined before that plan. [The extension package](extensions/benefit-unit/README.md) retains the public roster, original-source hashes, methods extracts, all 192 estimands, and the five implicate and 999 replicate estimates. A [separate AI review](extensions/benefit-unit/reviews/critical-review.md) independently reproduced the full extension and verified both requested repairs. The [author response](extensions/benefit-unit/reviews/author-response.md) records their disposition. No human review is claimed.
+
 ### References
 
 - **[D1–D6]** Board of Governors of the Federal Reserve System. 2026. [2025 Survey of Consumer Finances: public data, summary macro, codebook, and standard-error documentation](https://www.federalreserve.gov/econres/scfindex.htm). Release of 9 October 2026. Individual files and exact retained hashes are listed in [the source ledger](sources/manifest.json).
@@ -230,3 +279,9 @@ The internal analysis plan was saved before study outcomes were calculated. Sour
 - **[P4]** Bhutta, Neil, Jesse Bricker, Lisa Dettling, Jimmy Kelliher, and Steven Laufer. 2019. [Stress Testing Household Debt](https://www.federalreserve.gov/econres/feds/files/2019008pap.pdf). Finance and Economics Discussion Series 2019-008.
 - **[P5]** Bhutta, Neil, Jacqueline Blair, Lisa Dettling, and Kevin Moore. 2020. [COVID-19, the CARES Act, and Families' Financial Security](https://www.journals.uchicago.edu/doi/abs/10.17310/ntj.2020.3.02). *National Tax Journal* 73(3): 645–672. Abstract only inspected; full-text access failed.
 - **[P6]** Aylward, James, Elizabeth Laderman, Luiz E. Oliveira, and Gladys Teng. 2021. [How Much Did the CARES Act Help Households Stay Afloat?](https://www.frbsf.org/research-and-insights/publications/economic-letter/2021/07/how-much-did-cares-act-help-households-stay-afloat/). *FRBSF Economic Letter* 2021-18, July 6.
+
+- **[E1, E2]** Board of Governors of the Federal Reserve System. 2026. [2025 Survey of Consumer Finances full public data and codebook](https://www.federalreserve.gov/econres/scfindex.htm). PEU membership, public ages and size. See [the extension source ledger](extensions/benefit-unit/sources/manifest.json) for exact files and passages.
+- **[E3]** OECD. 2013. [OECD Framework for Statistics on the Distribution of Household Income, Consumption and Wealth](https://doi.org/10.1787/9789264194830-en). Chapters 3 and 8. Copyright OECD 2013.
+- **[E4]** Browne, James, and Herwig Immervoll. 2018. [Mechanics of replacing benefits systems with a basic income: Comparative results from a microsimulation approach](https://doi.org/10.1787/ec38a279-en). OECD Social, Employment and Migration Working Papers 201. Sections 3–4 and page 11. Copyright OECD 2018.
+
+- **[E5]** OECD. 2024. [Indicators to present distributional results](https://www.oecd.org/en/publications/oecd-handbook-on-the-compilation-of-household-distributional-results-on-income-consumption-and-saving-in-line-with-national-accounts-totals_5a3b9119-en/full-report/component-15.html), Section 13.2. *OECD Handbook on the Compilation of Household Distributional Results on Income, Consumption and Saving in Line with National Accounts Totals*. Age-14 definition; source added during review. Copyright OECD 2024.

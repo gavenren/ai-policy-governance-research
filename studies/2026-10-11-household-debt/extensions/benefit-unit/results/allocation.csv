@@ -1,0 +1,13 @@
+key,sample,table,arm,metric,estimate,standard_error,lower_95,upper_95
+exact/allocation/family/rate,exact,allocation,family,rate,2000,4.87130785496e-13,2000,2000
+exact/allocation/family/annual_total,exact,allocation,family,annual_total,3.23785918888e+12,799284129.146,3.23629259199e+12,3.23942578577e+12
+exact/allocation/adult/rate,exact,allocation,adult,rate,1172.52143402,7.38665473956,1158.04359073,1186.99927731
+exact/allocation/adult/annual_total,exact,allocation,adult,annual_total,3.23785918888e+12,799284129.146,3.23629259199e+12,3.23942578577e+12
+exact/allocation/size/rate,exact,allocation,size,rate,1379.35782637,5.78536249272,1368.01851589,1390.69713686
+exact/allocation/size/annual_total,exact,allocation,size,annual_total,3.23785918888e+12,799284129.146,3.23629259199e+12,3.23942578577e+12
+capped/allocation/family/rate,capped,allocation,family,rate,2000,3.49544166446e-13,2000,2000
+capped/allocation/family/annual_total,capped,allocation,family,annual_total,3.23912857656e+12,174627993.259,3.2387863057e+12,3.23947084743e+12
+capped/allocation/adult/rate,capped,allocation,adult,rate,1172.03349565,7.35361184399,1157.62041643,1186.44657486
+capped/allocation/adult/annual_total,capped,allocation,adult,annual_total,3.23912857656e+12,174627993.259,3.2387863057e+12,3.23947084743e+12
+capped/allocation/size/rate,capped,allocation,size,rate,1378.60748392,5.70727322682,1367.42122839,1389.79373944
+capped/allocation/size/annual_total,capped,allocation,size,annual_total,3.23912857656e+12,174627993.259,3.2387863057e+12,3.23947084743e+12

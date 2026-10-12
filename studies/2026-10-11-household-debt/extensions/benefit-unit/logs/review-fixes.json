@@ -1,0 +1,11 @@
+{
+  "recorded_utc": "2026-10-12T17:30:22.159806+00:00",
+  "issues": [
+    "R1: README original state made historical; expanded state Working notes",
+    "R2: E5 official age-14 rule added with explicit late-source date and direct HTML failure"
+  ],
+  "changed_analysis": false,
+  "changed_protocol": false,
+  "changed_results": false,
+  "paper_sha256": "b5ca8684984462a745ecf029c3382b3e29292a13cf9225d1086aec7052056e10"
+}

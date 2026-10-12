@@ -1,0 +1,69 @@
+{
+  "scope": "Bounded extension-methods screen; not a new novelty search or exhaustive literature review.",
+  "selection": "Official SCF metadata and data; original statistical framework and original comparative microsimulation. Existing S011 prior search retained. Bhutta et al. 2020 remained discovery-only here; no new full-text claim.",
+  "records": [
+    {
+      "record": "scf-full-link",
+      "service": "functions.exec tools.web__run",
+      "query_or_action": "Open/click original public source; exact arguments retained in tool response",
+      "date_filters": null,
+      "started_utc": "2026-10-12 17:15:34 UTC",
+      "completed_utc": "2026-10-12 17:15:35 UTC",
+      "private_tool_response": ".local-sources/household-debt/benefit-unit/scf-full-link.json",
+      "sha256": "1377ba658b0124629a7f053ae51a530e8698dbd6f4ae116462012090ea4ecd6c"
+    },
+    {
+      "record": "needs-search",
+      "service": "functions.exec tools.web__run",
+      "query_or_action": "site.oecd.org equivalence scales square root household size modified OECD scale 14",
+      "date_filters": null,
+      "started_utc": "2026-10-12 17:16:48 UTC",
+      "completed_utc": "2026-10-12 17:16:49 UTC",
+      "private_tool_response": ".local-sources/household-debt/benefit-unit/needs-search.json",
+      "sha256": "6c3e37b35fd5ba0dee1b4d9a571ebe48f8ef81469480c8c7eb818bd0dd164fea"
+    },
+    {
+      "record": "needs-read",
+      "service": "functions.exec tools.web__run",
+      "query_or_action": "Open/click original public source; exact arguments retained in tool response",
+      "date_filters": null,
+      "started_utc": "2026-10-12 17:17:07 UTC",
+      "completed_utc": "2026-10-12 17:17:08 UTC",
+      "private_tool_response": ".local-sources/household-debt/benefit-unit/needs-read.json",
+      "sha256": "3cbd6dcbd140b94c308aceb8371a0b1fd6788df3b117a710b6bdcee1f3b00a36"
+    },
+    {
+      "record": "microsim-search",
+      "service": "functions.exec tools.web__run",
+      "query_or_action": [
+        "site.federalreserve.gov Bhutta Blair Dettling Moore 2020 Covid 19 CARES Act family savings cash payments dependents SCF paper",
+        "site.oecd.org basic income simple powerful idea budget neutral microsimulation family children 2017"
+      ],
+      "date_filters": null,
+      "started_utc": "2026-10-12 17:18:19 UTC",
+      "completed_utc": "2026-10-12 17:18:21 UTC",
+      "private_tool_response": ".local-sources/household-debt/benefit-unit/microsim-search.json",
+      "sha256": "037774ce027f4ddba90425c7ee414511b12b12ec0adb515dad8312278924de9c"
+    },
+    {
+      "record": "microsim-page",
+      "service": "functions.exec tools.web__run",
+      "query_or_action": "Open/click original public source; exact arguments retained in tool response",
+      "date_filters": null,
+      "started_utc": "2026-10-12 17:18:26 UTC",
+      "completed_utc": "2026-10-12 17:18:27 UTC",
+      "private_tool_response": ".local-sources/household-debt/benefit-unit/microsim-page.json",
+      "sha256": "250a2f878656363b9a706fe098b6f06747768b4ee29ee10c90c61fc3c09b8b66"
+    },
+    {
+      "record": "microsim-pdf",
+      "service": "functions.exec tools.web__run",
+      "query_or_action": "Open/click original public source; exact arguments retained in tool response",
+      "date_filters": null,
+      "started_utc": "2026-10-12 17:18:36 UTC",
+      "completed_utc": "2026-10-12 17:18:37 UTC",
+      "private_tool_response": ".local-sources/household-debt/benefit-unit/microsim-pdf.json",
+      "sha256": "c21ef78ee05edf13387e07746749d849a940f19eb8fa7fd18bac9543759beb80"
+    }
+  ]
+}
