@@ -91,7 +91,7 @@ def full_loss(payment, pit_loss, gdp_multiple):
 
 def write_csv(name, rows):
     with (OUT / name).open("w", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=list(rows[0]))
+        writer = csv.DictWriter(f, fieldnames=list(rows[0]), lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 

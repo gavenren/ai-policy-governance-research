@@ -10,7 +10,7 @@ The paper applies an existing policy synthesis to Canada. It does not claim a ne
 
 ## Checks completed
 
-- The model ran successfully with Python 3 and the standard library. A second run produced byte-identical result files.
+- The model ran successfully with Python 3 and the standard library. A second run produced byte-identical result files. CSV output uses LF line endings so that published file checksums also match. This format adjustment leaves every numeric cell unchanged.
 - The result files contain three funding cases, 25 transition-year rows, and 27 severe-case rows.
 - The population extract has 14 selected rows. Its 2026 adults, children, and child age groups match the input file. Adult and child partitions reconcile to the total population.
 - The summary's input checksum matches the input file. All four built-in reconciliation checks pass.
@@ -32,10 +32,10 @@ SHA-256 checksums identify the checked contents. The source tables can later be 
 | data/inputs.json | `c2f1e82d94d91dcefe0826cfbbee26bb9202c2e229bf462fa99b900592bb555b` |
 | data/population-extract.csv | `8d68fb759bef980add1b44d58b98dafeca7e2de05b0cbac17acccb0bae2d6442` |
 | data/pt-income-tax-2024.csv | `684f537760139b597e8fb8519f484c4a0d9d8830ccfcc1dd379ea052d262af7d` |
-| code/analyze.py | `dde838cb2325fd890a8c2838c43250781848b452d2d8cd37c7e3897d78779d6b` |
-| results/funding.csv | `ff1945b43d1be127e0b0af3576df54529938624418fafeddedf8027b775be069` |
-| results/transition.csv | `fe4b3121771d1d3dd99d59ea7a23435ec9459b44e81e762b597359c776beae2a` |
-| results/full_loss.csv | `779f863364552385d6dd293fd08aaf6bb232d0f01de9362b0bee79b1fb77718f` |
+| code/analyze.py | `fc4f3f98de581dba810375f16bd12c623982de5dcf0c098e94bf6f7b05cae32a` |
+| results/funding.csv | `12c168307053efc0f9ca47fb2c6402175de2536b1abe86fa71218e5c47676f1d` |
+| results/transition.csv | `17bddc4723055be0147d1afa6cf3e59aab8075229d6fe022814f2459d3f649bf` |
+| results/full_loss.csv | `054271675b174400c55ada65a316f112dc50fe8af27b9e6cc2a3f0b91dcdfe7a` |
 
 Original combined paper SHA-256: `536518d8ceafaf05c18a76ab4c206f204bedf28399afdd2bf9f2e50bb3e59498`.
 
