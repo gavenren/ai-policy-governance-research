@@ -1,0 +1,22 @@
+{
+  "rows": {
+    "affine.csv": 72,
+    "consumption.csv": 120,
+    "random_checks.csv": 200,
+    "ces.csv": 2187,
+    "local_approximation.csv": 4,
+    "input_paths.csv": 24,
+    "income_covariance.csv": 4,
+    "log_index.csv": 1,
+    "worked_examples.csv": 8
+  },
+  "max_affine_cv2_error": 4.440892098500626e-16,
+  "max_affine_gini_error": 2.220446049250313e-16,
+  "max_common_rebate_cv2_error": 8.881784197001252e-16,
+  "max_common_rebate_budget_residual": 2.2737367544323206e-13,
+  "max_ces_elasticity_error": 5.298333993764004e-11,
+  "max_ces_log_residual": 0.38833346876189623,
+  "ces_nonzero_residuals_above_1e_10": 1944,
+  "max_income_covariance_error": 5.551115123125783e-17,
+  "all_input_data_synthetic": true
+}

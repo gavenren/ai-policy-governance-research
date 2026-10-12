@@ -1,0 +1,17 @@
+{
+  "retrieved_utc": "2026-10-12T16:54:37Z",
+  "requested_url": "https://arxiv.org/abs/2609.14750",
+  "response": "200\nhttps://arxiv.org/abs/2609.14750\ntext/html; charset=utf-8",
+  "original_bytes": 40549,
+  "original_sha256": "ea468992b1db1182bf4867f0a92df87be14b32e4a41ae0a0616e96392f62988b",
+  "extracted_bytes": 4316,
+  "extracted_sha256": "ea415d63eef512beeef6a36b1543f0c7aa92a93f6331e7210d33f153aa273ea3",
+  "retained_original": ".local-sources/redistribution-audit/history-2026-10-12T165437Z.html",
+  "extraction": "Python HTMLParser; script/style omitted; text nodes joined with newlines",
+  "observed_versions": [
+    "v1"
+  ],
+  "observed_v1_submission": "Sun, 13 Sep 2026 19:32:23 UTC",
+  "scope": "Observed arXiv submission history only; not proof of no external correction",
+  "cover_date_separate": "2026-09-15"
+}

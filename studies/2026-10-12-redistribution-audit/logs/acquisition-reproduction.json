@@ -1,0 +1,26 @@
+[
+  {
+    "capture_id": "A1P",
+    "retrieved_utc": "2026-10-12T16:53:01Z",
+    "status": "download_hash_match",
+    "response": "200\nhttps://arxiv.org/pdf/2609.14750v1\napplication/pdf",
+    "sha256": "da862941daf8ccd7a1c3809ad55e02824a5e2c18733ceeb198cacd1108520b6d",
+    "bytes": 385861
+  },
+  {
+    "capture_id": "G1",
+    "retrieved_utc": "2026-10-12T16:53:02Z",
+    "status": "download_hash_match",
+    "response": "200\nhttps://e-web.sgh.waw.pl/jg23234/Growiec%20SNDE.pdf\napplication/pdf",
+    "sha256": "8557f48153eab670bd1ab59a3e6beb07ad2df725cd10949f77da8889a2ec2732",
+    "bytes": 741845
+  },
+  {
+    "capture_id": "A1T",
+    "retrieved_utc": "2026-10-12T16:53:04Z",
+    "status": "download_hash_match",
+    "response": "200\nhttps://arxiv.org/src/2609.14750v1\napplication/gzip",
+    "sha256": "22b80c7b465fd515f815199e180b025d11a0dbe659b274cd3437ad134760ea44",
+    "bytes": 95568
+  }
+]

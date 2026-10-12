@@ -1,0 +1,21 @@
+# Inputs, outputs and numerical scope
+
+All values are synthetic. Incomes have arbitrary common currency units. Individuals have equal weights. Variance divides by population size n, not n−1. Relative variance (`cv2`) is variance divided by the square of the current mean. Gini uses all ordered pairs and denominator 2n² times the current mean. Negative or nonfinite incomes, empty populations and zero mean are rejected. Zero individual incomes are allowed. No missing values or empirical imputations occur.
+
+`design.json` fixes six named income vectors, affine scales/additions, common saving and tax grids, seeded random-check count, CES parameters, input path times, factor-income arrays and a log-index array. `components` rows are individuals and columns are capital, human-input and AI-service income components for accounting purposes; they are not observed data or estimated shares. Multipliers 0.6,0.8,0.4 stand for fixed net coefficients. The equal transfer is 1.25. `log_weights` fixes (2/3,1/6,1/6), rounded to machine floats. It defines an index and is not fitted.
+
+| Output | Rows and unit | Main fields and interpretation |
+|---|---|---|
+| `affine.csv` | 72 vector × scale × addition cases | `a`,`b` define y=a x+b. Before/after measures use their own means. Formula errors are calculated minus analytic values. |
+| `consumption.csv` | 120 vector × common saving × tax cases | `d=1+tax*(1-saving)`; rebate is per person, revenue is total. Budget residual is revenue−n×rebate. Final mean equals initial mean with full rebate. `no_rebate_cv2` is a separate scaling control. |
+| `random_checks.csv` | 200 seeded cases, each eight people | `income_json` retains the drawn vector. The standard-library Random seed is 20261012; draws are lognormal(0,1). The implemented uniform ranges are a in [0.1,2], b in [0,10], saving in [0,0.99], and tax in [0,3]. These bounds were implementation choices not specified in the earlier protocol; see the dated decision log. These are software checks, not a sampled economic population. |
+| `ces.csv` | 2,187 parameter/input cases | `alpha`,`beta`,`theta`,`omega` specify the nested CES. `log_residual=log(Y)−sum(share*log(input))`. `elasticity_max_error` compares shares with centered log-input finite differences, step 1e−5. `euler_level_error` reconstructs marginal products from shares and is an accounting control, not an independent derivative estimate. |
+| `local_approximation.csv` | Four step sizes | Move from inputs (1,2,2) in log-input direction (0.2,−0.1,0.3). Compare actual log change with the baseline gradient. `error_over_step_squared` shows local remainder scaling for this path. |
+| `input_paths.csv` | Three paths × eight times = 24 points | K=exp(t),H=1,AI=2S−1. S/K is 1,1+t,or exp(t). Dimensionless t is an illustration parameter, not years. These are production input paths, not solved household equilibria. |
+| `income_covariance.csv` | Four component arrays | Direct income variance and the covariance sum divided by the same mean squared. A zero component is treated in levels; no undefined component normalization is used. |
+| `log_index.csv` | One four-person defined index | Variance of a fixed weighted log index versus its full covariance expansion. This is not actual household CES output or factor income. |
+| `worked_examples.csv` | Eight named cases | Full before/after income vectors and measures. Equal additions and indexation do not specify funding. Consumption cases balance revenue and rebates. Different saving rates are an extension outside the audited common-saving assumption. |
+| `summary.json` | One run summary | Counts and maxima across complete planned tables. A nonzero CES residual uses absolute threshold 1e−10. This threshold is not a statistical significance level. |
+| `run.json` | One execution record | UTC time, Python version, seed, design/code hashes and output hashes. Timing metadata is expected to differ across reruns. |
+
+Validation tolerances are absolute: 1e−12 for formula identities and shares, 1e−9 for budget residuals, and 1e−8 for the finite-difference derivative check. No statistical tests, p-values, confidence intervals or population estimates are produced. Fifteen unit tests use hand-solvable benchmarks and boundary cases. Rounding in the manuscript is for display; CSV values retain Python's float representation.

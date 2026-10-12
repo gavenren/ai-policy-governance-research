@@ -8,6 +8,7 @@ Reproducible studies of AI policy and governance, using dated public primary sou
 
 | Study | State and evidence | Materials |
 | --- | --- | --- |
+| Measuring the AI Dividend | Complete-study draft. Four-claim consistency audit of a pinned redistribution preprint; corrections, positive controls, 15 tests and separate exact arithmetic. | [Paper](studies/2026-10-12-redistribution-audit/paper.md), [sources, results and review](studies/2026-10-12-redistribution-audit/) |
 | What Remains After the Payment? | Complete-study draft. Public household-data stress test of income floors and debt service; 4,360 families, survey uncertainty and separate AI review. | [Paper](studies/2026-10-11-household-debt/paper.md), [data, results and review](studies/2026-10-11-household-debt/) |
 | Who Governs the People's Capital? | Complete-study draft. Income rights, investment votes and remedies in three public funds; 18 coded relations and separate AI review. | [Paper](studies/2026-10-11-public-ownership-control/paper.md), [evidence and review](studies/2026-10-11-public-ownership-control/) |
 | Who Can Rely on an International AI Dividend? | Complete-study draft. Payment incentives, persistent shocks, and financed deposits; 648 cases and 12 tests. | [Paper](studies/2026-10-11-international-dividend/paper.md), [results and review](studies/2026-10-11-international-dividend/) |

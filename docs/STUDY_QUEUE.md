@@ -2,7 +2,7 @@
 
 State: working programme record. Established 2026-10-09 UTC.
 
-S001 reached complete-study draft after executed analysis and separate AI review on 2026-10-10 UTC; its completion record provides the release checks. The user then instructed the programme to stop after S001. The user authorized S004 on 2026-10-11, then authorized further papers in the same economic-governance field using the remaining core allowance. S005–S011 follow that instruction. S002 and S003 remain paused. Related analyses remain in one study.
+S001 reached complete-study draft after executed analysis and separate AI review on 2026-10-10 UTC; its completion record provides the release checks. The user then instructed the programme to stop after S001. The user authorized S004 on 2026-10-11, then authorized further papers in the same economic-governance field using the remaining core allowance. S005–S012 follow that instruction. S002 and S003 remain paused. Related analyses remain in one study.
 
 | ID | Question / unit | Proposed contribution | Distinctness and gate | Status |
 | --- | --- | --- | --- | --- |
@@ -22,6 +22,8 @@ S001 reached complete-study draft after executed analysis and separate AI review
 | S010 | Who controls payment, portfolio votes and remedies in a public AI fund? Unit: documented authority relation. | Audit whether a requested correction reaches the responsible body. | Known governance distinctions applied to three unlike public funds; no legal completeness or performance claim. | [Complete-study draft](../studies/2026-10-11-public-ownership-control/): 18 relations, nine routes and separate AI review. |
 
 | S011 | How do gross-resource and after-payment guarantees differ after wage income ends? Unit: public SCF family and implicate. | Paired success measures and conditional targeted top-ups. | Family debt-service distribution differs from general fiscal and fund questions; broad cash-support simulation is prior work. | [Complete-study draft](../studies/2026-10-11-household-debt/): 4,360 families, 999 replicates, ten tests and separate AI review. |
+
+| S012 | Do selected AI redistribution claims follow from their stated equations? Unit: four source claims and synthetic checks. | Version-specific consistency audit with corrections, constructive repairs and retained positive results. | Established inequality and CES methods; no new theorem or forecast. Distinct from the source abstract cited in S004 and the household-data analysis in S011. | [Complete-study draft](../studies/2026-10-12-redistribution-audit/): 2,620 planned rows, 15 tests, separate reproduction and independent arithmetic. |
 
 ## Duplicate check
 

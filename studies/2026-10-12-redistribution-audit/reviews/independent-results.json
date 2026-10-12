@@ -1,0 +1,59 @@
+{
+  "review_calculation_utc": "2026-10-12T16:55:13.797431+00:00",
+  "status": "pass",
+  "analysis_module_imported": false,
+  "methods": [
+    "Fraction second-moment income measures",
+    "Fraction Gaussian elimination of tax budgets",
+    "60-digit Decimal CES levels and separate marginal products",
+    "closed-form relative-input path shares"
+  ],
+  "counts": {
+    "fraction_affine_rows": 72,
+    "fraction_tax_linear_systems": 120,
+    "decimal_ces_rows": 2187,
+    "decimal_nonzero_ces_residuals": 1944,
+    "decimal_path_rows": 24,
+    "fraction_covariance_rows": 4
+  },
+  "exact_worked_examples": {
+    "high_income_saves": {
+      "incomes": [
+        "2/3",
+        "28/3"
+      ],
+      "rebate": "1/3",
+      "cv2": "169/225"
+    },
+    "low_income_saves": {
+      "incomes": [
+        "4",
+        "6"
+      ],
+      "rebate": "3",
+      "cv2": "1/25"
+    },
+    "indexed_equal_cv2": "9/64"
+  },
+  "max_absolute_difference_from_retained_float_results": {
+    "affine_mean": 5.684341886080802e-14,
+    "affine_variance": 1.1641532182693481e-10,
+    "affine_cv2": 4.440892098500626e-16,
+    "affine_gini": 1.1102230246251565e-16,
+    "tax_rebate": 5.684341886080802e-14,
+    "tax_mean": 5.684341886080802e-14,
+    "tax_cv2": 1.3322676295501878e-15,
+    "tax_gini": 1.1102230246251565e-16,
+    "heterogeneous_cv2": 1.1102230246251565e-16,
+    "heterogeneous_rebate": 0,
+    "indexed_equal": 0,
+    "ces_output": 1.1102230246251565e-15,
+    "ces_shares": 3.3306690738754696e-16,
+    "ces_log_residual": 7.632783294297951e-16,
+    "path_capital_share": 1.1102230246251565e-16,
+    "path_labor_share": 6.938893903907228e-18,
+    "path_ai_share": 1.1102230246251565e-16,
+    "income_covariance_cv2": 1.5612511283791264e-17
+  },
+  "limits": "Does not independently recalculate the random draw generator, local finite-difference grid or fixed log-index row; the separate full rerun covers their reproduction."
+}

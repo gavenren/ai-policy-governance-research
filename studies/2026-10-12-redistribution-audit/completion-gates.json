@@ -1,0 +1,72 @@
+{
+  "study": "S012",
+  "state": "Complete-study draft",
+  "recorded_utc": "2026-10-12T17:00:30Z",
+  "human_peer_review": false,
+  "initial_evidence_cutoff_utc": "2026-10-12T09:54:33Z",
+  "version_recheck": "logs/version-recheck.json",
+  "gates": {
+    "contribution": {
+      "status": "pass within bounded scope",
+      "evidence": [
+        "protocol.md",
+        "logs/searches.md",
+        "reviews/feasibility.md"
+      ],
+      "limit": "Selected consistency audit; exploratory choice; no new inequality theorem or exhaustive priority claim"
+    },
+    "evidence": {
+      "status": "pass",
+      "evidence": [
+        "sources/evidence.md",
+        "sources/manifest.csv",
+        "logs/acquisition-reproduction.json"
+      ],
+      "checks": "Six original/derived source representations; 12 local hashes; pinned PDF, TeX and growth-paper downloads match; public narrow evidence record"
+    },
+    "execution": {
+      "status": "pass",
+      "evidence": [
+        "results/run.json",
+        "logs/execution.md",
+        "reviews/reproduction.json",
+        "reviews/independent-results.json"
+      ],
+      "checks": "2620 planned rows,15 tests,10 numerical hashes reproduced; exact fractions and60-digit CES checks"
+    },
+    "inference": {
+      "status": "pass",
+      "evidence": [
+        "paper.md",
+        "data/DICTIONARY.md"
+      ],
+      "limit": "Synthetic arithmetic; no empirical forecast, equilibrium solution, general policy ranking or model of behavior"
+    },
+    "review": {
+      "status": "pass",
+      "evidence": [
+        "reviews/critical-review.md",
+        "reviews/author-response.md",
+        "reviews/reviewed-hashes.json"
+      ],
+      "checks": "Five source/text issues resolved; reviewer interpreter prose corrected; no central code or numerical output changed"
+    },
+    "disclosure": {
+      "status": "pass",
+      "evidence": [
+        "paper.md",
+        "README.md",
+        "logs/decisions.md"
+      ],
+      "checks": "AI roles, exploratory design, source dates, implementation choices and absence of human review explicit"
+    },
+    "release_hygiene": {
+      "status": "pass pending remote receipt",
+      "evidence": [
+        "reviews/parent-release.md",
+        "reviews/release-hashes.json"
+      ],
+      "checks": "UTF-8 files inspected; no account paths, email addresses, secret patterns or restricted full texts; public target verified; staged whitespace check still recorded in parent release"
+    }
+  }
+}

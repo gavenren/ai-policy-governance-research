@@ -1,0 +1,22 @@
+{
+  "run_utc": "2026-10-12T13:56:51Z",
+  "python": "3.13.7",
+  "dependencies": "Python standard library only",
+  "seed": 20261012,
+  "command": "python3 code/analyze.py",
+  "exit_status": 0,
+  "input_sha256": "7aa6ee47723db5676d14e055e1ca4a8f84b254796138669a3d5b5b2d44c12c45",
+  "code_sha256": "099b791a7bb6d4950b4a251d545968552a911e8a6f2ac805e0e3c33dd2c0ed01",
+  "output_sha256": {
+    "affine.csv": "a11054d10d0349588df4efbdf31b70940048df9c252a6d4fce7a813212154439",
+    "consumption.csv": "97125af025780947fc0d281e8ebc64956f29bc2efb01292129642e42eb9c776f",
+    "random_checks.csv": "cb81fa799f21fb74f743123cfe29373334c57ff5ccb0edb0e41b7693befad4f9",
+    "ces.csv": "63a0580af8863ced59a1de40463b7dd7dfd5c341940e4baa9ca7f1ef79738bc7",
+    "local_approximation.csv": "63e58fbb2612142d7d2620363a05c5b96ffd85e9e8bfdc25c5ec83862213a90b",
+    "input_paths.csv": "64a00e56a66100cfed563b93e1d4d225b5b2d00274307579840c6e526090fd15",
+    "income_covariance.csv": "32623774fc0bcd44e8c5d535b9ded70c1d572b9b4e2200251c3b4672d5fdae8c",
+    "log_index.csv": "f54f68355e6740ad291ab4956c8938714ffbd9ad2e6fd87c8fb3a75a20aac00c",
+    "worked_examples.csv": "30c521711647e7737b3796978b930c2cfc1314e4ece51bee3e192fb803503447",
+    "summary.json": "7b93690196f59e1e18d6da907ae78a828dcd2e4bfb24b08f2d7f0b22b53530d7"
+  }
+}
