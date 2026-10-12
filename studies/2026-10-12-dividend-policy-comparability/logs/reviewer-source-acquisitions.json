@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://www.oecd.org/els/soc/Basic-Income-Policy-Option-2017-Brackground-Technical-Note.pdf",
+    "start_utc": "2026-10-12T18:58:26.859942+00:00",
+    "method": "urllib HTTPS with normal certificate checks",
+    "final_url": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/income-support-redistribution-and-work-incentives/basic-income-policy-option-2017-brackground-technical-note.pdf",
+    "status": 200,
+    "path": ".local-sources/four-pillars-review/OECD-technical.pdf",
+    "bytes": 1244743,
+    "sha256": "52f1df3db0438af15fa6171ecf7a1b2676d3d472162f921555b29b43c4893fb8",
+    "pages": 26,
+    "extractor": "pypdf6.10.0 default extraction with page markers",
+    "text_path": ".local-sources/four-pillars-review/OECD-technical.txt",
+    "text_sha256": "d8952f6a8dd37263d57fec8152aff177b77a0075ff16312fa4d802a818ebbb3c",
+    "text_bytes": 54538,
+    "end_utc": "2026-10-12T18:58:28.434641+00:00"
+  },
+  {
+    "url": "https://api.github.com/repos/saccasolutions/fourpillarsproject/commits/main",
+    "start_utc": "2026-10-12T18:58:28.434654+00:00",
+    "method": "urllib HTTPS with normal certificate checks",
+    "final_url": "https://api.github.com/repos/saccasolutions/fourpillarsproject/commits/main",
+    "status": 200,
+    "path": ".local-sources/four-pillars-review/source-current-commit.json",
+    "bytes": 20710,
+    "sha256": "b24a4b80a1c0492ec69c9bedf75668f1bb33c18d0dbb7fcbd0d1329007d2e758",
+    "commit_sha": "d0e84f01f7970c6161da874051aafffaefe77f1f",
+    "end_utc": "2026-10-12T18:58:28.657581+00:00"
+  }
+]

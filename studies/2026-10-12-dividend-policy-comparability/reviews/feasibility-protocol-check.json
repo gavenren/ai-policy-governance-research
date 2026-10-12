@@ -1,0 +1,13 @@
+{
+  "recorded_utc": "2026-10-12T19:00:15.527260+00:00",
+  "protocol_sha256": "cb4c64b0be1e6da7c453fb329c30161b9ae6b4645dac971ea0db09980eab0fda",
+  "scope": "Static design check before reviewer execution; no central code authored.",
+  "decision": "No blocking design error found.",
+  "denominator_check": "Total outflows less actual source floor and grown pillar/admin yields healthcare plus federal operations. The trigger then adds current floor plus base pillar/admin, matching the source. Direct ten-year components and source-floor reproduction guard against reconstruction errors.",
+  "other_checks": [
+    "60 aggregate policy-year rows,30 paired-year summaries,60000 source path-years and120000 policy outcomes are consistent with design.",
+    "Source seeds alone do not pair cohorts; within-cohort paired policies are correctly specified.",
+    "Annual reset, sequential strict tests, upper-middle percentile and annual positive-gap probability preserved."
+  ],
+  "limit": "This is protocol feasibility, not result validation."
+}

@@ -1,0 +1,167 @@
+[
+  {
+    "path": ".local-sources/four-pillars-screen/LICENSE",
+    "bytes": 1071,
+    "sha256": "86b79076556abee744cd76ee07bd5b36c5a7a9217e1175a297c43fc21e5d86ea"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/LICENSE-CODE.md",
+    "bytes": 1172,
+    "sha256": "c80852cede38e870f73d41b6188076f6c12b0073ac0fe3b766ff63c00c2de347"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/LICENSE-DOCS.md",
+    "bytes": 923,
+    "sha256": "cf3f8beacb980f9f9cbab8197b148df730f8b02aabe30e21bad69cb230f8fab6"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/P1-Hoynes-Rothstein.pdf",
+    "bytes": 1275953,
+    "sha256": "b82803c4ded5e88fa9e83304c85867a42ee3ae750ddf20aeb4e09711e89e73a0"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/P1-Hoynes-Rothstein.txt",
+    "bytes": 102304,
+    "sha256": "fe1906ed218bd2fe71104ca080bf7c741621d7f8595214d476415f9459d0f643"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/P2-README.md",
+    "bytes": 20313,
+    "sha256": "be18d010c047364676ac945468ca0d8438b4effec7e8bb305124bc15f6dce42d"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/P2-commit.json",
+    "bytes": 6821,
+    "sha256": "0b49b8078e6e44f5cc2eeaa4b71c30311236b354f9e019121ca0d6955d36963d"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/README.md",
+    "bytes": 6702,
+    "sha256": "13ef1d4e8c3f9575a0a474b5954ec484f7254769cf9697efa19adcd61766d4c2"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/acquisitions.json",
+    "bytes": 12836,
+    "sha256": "db004852dcb349aae87153806f82d49d3b5cef216b2af4900eeaaa281b2499ed"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/commit.json",
+    "bytes": 21580,
+    "sha256": "07ea8f715ffa43fc4dea696d01f6fb2f1563318d0c662867ce39aee1550cc637"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/docs/Economic_Model_Research.md",
+    "bytes": 21990,
+    "sha256": "654dc89658bc0b4bae02ea2a32e683a066a801fd3aac467f1976e930a51958d9"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/docs/Transition_Plan.md",
+    "bytes": 10387,
+    "sha256": "04408fefa0644d643e2b6e56fd49c54a0bd96bc65fbf222a5a286eb613104e87"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/extraction.json",
+    "bytes": 405,
+    "sha256": "3f4c8f09850bf2f6ef66ed37c6c2a2b7d2b3700827de3d75d9f4d5244ae3a602"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/four-oecd-section.json",
+    "bytes": 534,
+    "sha256": "b8934f7ba621f9ebf0dd41343b872bd4067e68c8bec1c48e64fc8768aaf6930e"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/four-pillars-1.json",
+    "bytes": 33662,
+    "sha256": "b9114171d29168480d2f8aa19ebd12ab4749eab7b12ad5303360665687b191fe"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/four-prior-find.json",
+    "bytes": 549,
+    "sha256": "364de5e2bb514e3742f107dc23ca2167780c504a1c8cf61f1a7deceac32124c4"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/four-prior-read1.json",
+    "bytes": 31792,
+    "sha256": "f9518974b41c3fa62bfb9b5cb21b404faa231f074b88a03e783baa2d5909003f"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/four-prior-search1.json",
+    "bytes": 37582,
+    "sha256": "fe2b9feeafdee9148b6fba6f2b07c890974c5a7246c706128ebb9d40e9e078b1"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/four-prior-search2.json",
+    "bytes": 38209,
+    "sha256": "63a12c111a31b1e03a7a754bcae7d46b89fe57f04db0d6dc03335cc60fd86fb2"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/launch/post_launch_findings.md",
+    "bytes": 4536,
+    "sha256": "0f5bbc963420393be36c71c549319fc36d7e4a04cc4c384f8e45eeb164496c0a"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/models/extended_monte_carlo.py",
+    "bytes": 7980,
+    "sha256": "67e0a276749642fd07cf6587aeff6bb0e805f0e775e112fc701c8eb96a5ddd29"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/models/feedback_models.py",
+    "bytes": 10841,
+    "sha256": "d1f6f49ca0edbfe2cac190a685cba2573f57004a37d8cbe8420f2b2cf0ff85fd"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/models/floor_optimization.py",
+    "bytes": 9482,
+    "sha256": "b23460a7e722f5b77fbc60e36e9d61603c6daf53e91acdf3af19250d23e1265c"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/models/monte_carlo_tax.py",
+    "bytes": 13735,
+    "sha256": "69e335a95d206bc6fe32560a70988b10a2fa07e41dd3669ff8055aa68b1aee76"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/models/pillar1_calibration.py",
+    "bytes": 23203,
+    "sha256": "78ef3fffe6694d06d048479de753be65b6a5ebf296d78f1dc790249314aa858d"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/models/pillar234_calibration.py",
+    "bytes": 13363,
+    "sha256": "1f3bfc6033cae00748cad86abda8f53305f5ed708cc2798064e073c825295fc3"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/models/retirement_transition.py",
+    "bytes": 15878,
+    "sha256": "cdcad0619952df3c62bcde1e32cd1a430d11327814f24017ca367d7eee4a64c8"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/tree.json",
+    "bytes": 2485451,
+    "sha256": "06daa2621f0cc5cb552c4c931921907880451b65d5831652d732e8694c5c7f3e"
+  },
+  {
+    "path": ".local-sources/four-pillars-screen/whitepaper.md",
+    "bytes": 42292,
+    "sha256": "c75332763be8a37527c912d6f96dfaf61b63e13febcbd731b54380589734b2fc"
+  },
+  {
+    "path": ".local-sources/four-pillars-review/OECD-technical.pdf",
+    "bytes": 1244743,
+    "sha256": "52f1df3db0438af15fa6171ecf7a1b2676d3d472162f921555b29b43c4893fb8"
+  },
+  {
+    "path": ".local-sources/four-pillars-review/OECD-technical.txt",
+    "bytes": 54538,
+    "sha256": "d8952f6a8dd37263d57fec8152aff177b77a0075ff16312fa4d802a818ebbb3c"
+  },
+  {
+    "path": ".local-sources/four-pillars-review/acquisitions.json",
+    "bytes": 1564,
+    "sha256": "5455ce8b9d78d92c3e5b800a9e227037fdf2965845387e9f73bb52912ba9d9b3"
+  },
+  {
+    "path": ".local-sources/four-pillars-review/source-current-commit.json",
+    "bytes": 20710,
+    "sha256": "b24a4b80a1c0492ec69c9bedf75668f1bb33c18d0dbb7fcbd0d1329007d2e758"
+  }
+]

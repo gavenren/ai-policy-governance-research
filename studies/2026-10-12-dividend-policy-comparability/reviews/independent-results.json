@@ -1,0 +1,40 @@
+{
+  "start_utc": "2026-10-12T19:07:57.312855+00:00",
+  "end_utc": "2026-10-12T19:07:58.557060+00:00",
+  "method": "Decimal cross-products and independent reducers; no author or source model import.",
+  "decimal_precision": 40,
+  "tolerance_billion": "1E-8",
+  "scalar_checks": 496859,
+  "maximum_absolute_error_billion": "1.5E-11",
+  "minimum_trigger_margin_billion": "0.01389052241444",
+  "path_year_rows": 60000,
+  "aggregate_rows": 60,
+  "paired_rows": 30,
+  "independent_full_precision_summary_fields_per_row": 11,
+  "source_component_median_display_checks": 60,
+  "printed_targets_checked": 28,
+  "printed_matches": 27,
+  "printed_failure": [
+    {
+      "claim_id": "6.2-ten-trigger-10-surplus_fraction",
+      "source_id": "F1",
+      "locator": "Whitepaper section 6.2",
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": "10",
+      "field": "surplus_fraction",
+      "scale": "100",
+      "format": ".1f",
+      "printed": "55.7",
+      "source_printed_text": "55.7%",
+      "expected_relation_before_execution": "mismatch expected from source screen",
+      "computed": "0.3435",
+      "rendered": "34.4",
+      "matches": "False"
+    }
+  ],
+  "manuscript_numeric_table_rows_checked": 6,
+  "cross_cohort_equal_revenue_cells": 10,
+  "scope_limit": "Automation-tax and VAT medians checked at original stdout precision, not reconstructed at full precision from paired CSV, which omits those components.",
+  "passed": true
+}

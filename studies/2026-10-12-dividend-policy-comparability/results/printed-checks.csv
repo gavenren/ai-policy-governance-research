@@ -1,0 +1,29 @@
+claim_id,source_id,locator,cohort,policy,year,field,scale,format,printed,source_printed_text,expected_relation_before_execution,computed,rendered,matches
+6.2-ten-trigger-1-revenue_p50_billion,F1,Whitepaper section 6.2,ten,trigger,1,revenue_p50_billion,0.001,.2f,8.00,$8.00 trillion,match,8002.739473124154,8.00,True
+6.2-ten-trigger-1-outflow_p50_billion,F1,Whitepaper section 6.2,ten,trigger,1,outflow_p50_billion,0.001,.2f,9.97,$9.97 trillion,match,9968.810216964092,9.97,True
+6.2-ten-trigger-1-gap_p50_billion,F1,Whitepaper section 6.2,ten,trigger,1,gap_p50_billion,0.001,.2f,-1.97,−$1.97 trillion,match,-1968.3299062053484,-1.97,True
+6.2-ten-trigger-1-surplus_fraction,F1,Whitepaper section 6.2,ten,trigger,1,surplus_fraction,100,.0f,0,0%,match,0.0,0,True
+6.2-ten-trigger-10-revenue_p50_billion,F1,Whitepaper section 6.2,ten,trigger,10,revenue_p50_billion,0.001,.2f,11.82,$11.82 trillion,match,11820.162418703174,11.82,True
+6.2-ten-trigger-10-outflow_p50_billion,F1,Whitepaper section 6.2,ten,trigger,10,outflow_p50_billion,0.001,.2f,12.17,$12.17 trillion,match,12174.23964925035,12.17,True
+6.2-ten-trigger-10-gap_p50_billion,F1,Whitepaper section 6.2,ten,trigger,10,gap_p50_billion,0.001,.2f,-0.55,−$0.55 trillion,match,-553.9133116502799,-0.55,True
+6.2-ten-trigger-10-surplus_fraction,F1,Whitepaper section 6.2,ten,trigger,10,surplus_fraction,100,.1f,55.7,55.7%,mismatch expected from source screen,0.3435,34.4,False
+6.4-twenty-fixed-1-gap_p50_billion,F1,Whitepaper section 6.4,twenty,fixed,1,gap_p50_billion,0.001,+.2f,-1.97,−$1.97T,match,-1974.9230476246303,-1.97,True
+6.4-twenty-fixed-1-surplus_fraction,F1,Whitepaper section 6.4,twenty,fixed,1,surplus_fraction,100,.1f,0.0,0.0%,match,0.0,0.0,True
+6.4-twenty-fixed-1-auto_tax_p50_billion,F1,Whitepaper section 6.4,twenty,fixed,1,auto_tax_p50_billion,0.001,.2f,0.57,$0.57T,match,568.3081367480955,0.57,True
+6.4-twenty-fixed-1-vat_p50_billion,F1,Whitepaper section 6.4,twenty,fixed,1,vat_p50_billion,0.001,.2f,4.12,$4.12T,match,4115.874804805892,4.12,True
+6.4-twenty-fixed-5-gap_p50_billion,F1,Whitepaper section 6.4,twenty,fixed,5,gap_p50_billion,0.001,+.2f,-0.94,−$0.94T,match,-942.9024960174247,-0.94,True
+6.4-twenty-fixed-5-surplus_fraction,F1,Whitepaper section 6.4,twenty,fixed,5,surplus_fraction,100,.1f,13.3,13.3%,match,0.133,13.3,True
+6.4-twenty-fixed-5-auto_tax_p50_billion,F1,Whitepaper section 6.4,twenty,fixed,5,auto_tax_p50_billion,0.001,.2f,1.02,$1.02T,match,1022.2948465119913,1.02,True
+6.4-twenty-fixed-5-vat_p50_billion,F1,Whitepaper section 6.4,twenty,fixed,5,vat_p50_billion,0.001,.2f,4.86,$4.86T,match,4859.683831240385,4.86,True
+6.4-twenty-fixed-10-gap_p50_billion,F1,Whitepaper section 6.4,twenty,fixed,10,gap_p50_billion,0.001,+.2f,+0.21,+$0.21T,match,213.6198998415075,+0.21,True
+6.4-twenty-fixed-10-surplus_fraction,F1,Whitepaper section 6.4,twenty,fixed,10,surplus_fraction,100,.1f,55.7,55.7%,match,0.557,55.7,True
+6.4-twenty-fixed-10-auto_tax_p50_billion,F1,Whitepaper section 6.4,twenty,fixed,10,auto_tax_p50_billion,0.001,.2f,1.71,$1.71T,match,1710.5967418395023,1.71,True
+6.4-twenty-fixed-10-vat_p50_billion,F1,Whitepaper section 6.4,twenty,fixed,10,vat_p50_billion,0.001,.2f,5.44,$5.44T,match,5436.5343683832225,5.44,True
+6.4-twenty-fixed-14-gap_p50_billion,F1,Whitepaper section 6.4,twenty,fixed,14,gap_p50_billion,0.001,+.2f,+1.34,+$1.34T,match,1342.4878836760363,+1.34,True
+6.4-twenty-fixed-14-surplus_fraction,F1,Whitepaper section 6.4,twenty,fixed,14,surplus_fraction,100,.1f,70.9,70.9%,match,0.709,70.9,True
+6.4-twenty-fixed-14-auto_tax_p50_billion,F1,Whitepaper section 6.4,twenty,fixed,14,auto_tax_p50_billion,0.001,.2f,2.32,$2.32T,match,2320.305383890219,2.32,True
+6.4-twenty-fixed-14-vat_p50_billion,F1,Whitepaper section 6.4,twenty,fixed,14,vat_p50_billion,0.001,.2f,5.94,$5.94T,match,5939.228559240204,5.94,True
+6.4-twenty-fixed-20-gap_p50_billion,F1,Whitepaper section 6.4,twenty,fixed,20,gap_p50_billion,0.001,+.2f,+3.73,+$3.73T,match,3728.5906222729936,+3.73,True
+6.4-twenty-fixed-20-surplus_fraction,F1,Whitepaper section 6.4,twenty,fixed,20,surplus_fraction,100,.1f,80.5,80.5%,match,0.8055,80.5,True
+6.4-twenty-fixed-20-auto_tax_p50_billion,F1,Whitepaper section 6.4,twenty,fixed,20,auto_tax_p50_billion,0.001,.2f,3.42,$3.42T,match,3422.216600137806,3.42,True
+6.4-twenty-fixed-20-vat_p50_billion,F1,Whitepaper section 6.4,twenty,fixed,20,vat_p50_billion,0.001,.2f,6.77,$6.77T,match,6769.404868700623,6.77,True

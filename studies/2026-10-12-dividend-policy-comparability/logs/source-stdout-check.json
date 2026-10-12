@@ -1,0 +1,1809 @@
+{
+  "checked_at_utc": "2026-10-12T19:03:45.050042+00:00",
+  "checks": 200,
+  "all_match": true,
+  "code_sha256": "5b744036cb0987e26fd3404e158477cbf98dc894fc9b11b6b834c740aa06259a",
+  "scope": "Retained baseline summary tables only. Existing LVT and other auxiliary stdout are preserved but not audited.",
+  "rows": [
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 1,
+      "field": "revenue_p50_billion",
+      "source_stdout": "8.00",
+      "reconstruction": "8.00",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 1,
+      "field": "outflow_p50_billion",
+      "source_stdout": "9.97",
+      "reconstruction": "9.97",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 1,
+      "field": "gap_p50_billion",
+      "source_stdout": "-1.97",
+      "reconstruction": "-1.97",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 1,
+      "field": "surplus_fraction",
+      "source_stdout": "0.0%",
+      "reconstruction": "0.0%",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 2,
+      "field": "revenue_p50_billion",
+      "source_stdout": "8.39",
+      "reconstruction": "8.39",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 2,
+      "field": "outflow_p50_billion",
+      "source_stdout": "10.12",
+      "reconstruction": "10.12",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 2,
+      "field": "gap_p50_billion",
+      "source_stdout": "-1.73",
+      "reconstruction": "-1.73",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 2,
+      "field": "surplus_fraction",
+      "source_stdout": "0.0%",
+      "reconstruction": "0.0%",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 3,
+      "field": "revenue_p50_billion",
+      "source_stdout": "8.78",
+      "reconstruction": "8.78",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 3,
+      "field": "outflow_p50_billion",
+      "source_stdout": "10.28",
+      "reconstruction": "10.28",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 3,
+      "field": "gap_p50_billion",
+      "source_stdout": "-1.49",
+      "reconstruction": "-1.49",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 3,
+      "field": "surplus_fraction",
+      "source_stdout": "0.7%",
+      "reconstruction": "0.7%",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 4,
+      "field": "revenue_p50_billion",
+      "source_stdout": "9.22",
+      "reconstruction": "9.22",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 4,
+      "field": "outflow_p50_billion",
+      "source_stdout": "10.44",
+      "reconstruction": "10.44",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 4,
+      "field": "gap_p50_billion",
+      "source_stdout": "-1.23",
+      "reconstruction": "-1.23",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 4,
+      "field": "surplus_fraction",
+      "source_stdout": "4.2%",
+      "reconstruction": "4.2%",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 5,
+      "field": "revenue_p50_billion",
+      "source_stdout": "9.68",
+      "reconstruction": "9.68",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 5,
+      "field": "outflow_p50_billion",
+      "source_stdout": "10.77",
+      "reconstruction": "10.77",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 5,
+      "field": "gap_p50_billion",
+      "source_stdout": "-1.05",
+      "reconstruction": "-1.05",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 5,
+      "field": "surplus_fraction",
+      "source_stdout": "4.0%",
+      "reconstruction": "4.0%",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 6,
+      "field": "revenue_p50_billion",
+      "source_stdout": "10.01",
+      "reconstruction": "10.01",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 6,
+      "field": "outflow_p50_billion",
+      "source_stdout": "11.03",
+      "reconstruction": "11.03",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 6,
+      "field": "gap_p50_billion",
+      "source_stdout": "-0.98",
+      "reconstruction": "-0.98",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 6,
+      "field": "surplus_fraction",
+      "source_stdout": "10.1%",
+      "reconstruction": "10.1%",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 7,
+      "field": "revenue_p50_billion",
+      "source_stdout": "10.44",
+      "reconstruction": "10.44",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 7,
+      "field": "outflow_p50_billion",
+      "source_stdout": "11.30",
+      "reconstruction": "11.30",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 7,
+      "field": "gap_p50_billion",
+      "source_stdout": "-0.87",
+      "reconstruction": "-0.87",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 7,
+      "field": "surplus_fraction",
+      "source_stdout": "17.4%",
+      "reconstruction": "17.4%",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 8,
+      "field": "revenue_p50_billion",
+      "source_stdout": "10.85",
+      "reconstruction": "10.85",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 8,
+      "field": "outflow_p50_billion",
+      "source_stdout": "11.66",
+      "reconstruction": "11.66",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 8,
+      "field": "gap_p50_billion",
+      "source_stdout": "-0.79",
+      "reconstruction": "-0.79",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 8,
+      "field": "surplus_fraction",
+      "source_stdout": "17.8%",
+      "reconstruction": "17.8%",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 9,
+      "field": "revenue_p50_billion",
+      "source_stdout": "11.29",
+      "reconstruction": "11.29",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 9,
+      "field": "outflow_p50_billion",
+      "source_stdout": "11.95",
+      "reconstruction": "11.95",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 9,
+      "field": "gap_p50_billion",
+      "source_stdout": "-0.70",
+      "reconstruction": "-0.70",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 9,
+      "field": "surplus_fraction",
+      "source_stdout": "25.4%",
+      "reconstruction": "25.4%",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 10,
+      "field": "revenue_p50_billion",
+      "source_stdout": "11.82",
+      "reconstruction": "11.82",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 10,
+      "field": "outflow_p50_billion",
+      "source_stdout": "12.17",
+      "reconstruction": "12.17",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 10,
+      "field": "gap_p50_billion",
+      "source_stdout": "-0.55",
+      "reconstruction": "-0.55",
+      "matches": true
+    },
+    {
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": 10,
+      "field": "surplus_fraction",
+      "source_stdout": "34.4%",
+      "reconstruction": "34.4%",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 1,
+      "field": "revenue_p50_billion",
+      "source_stdout": "8.00",
+      "reconstruction": "8.00",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 1,
+      "field": "outflow_p50_billion",
+      "source_stdout": "9.97",
+      "reconstruction": "9.97",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 1,
+      "field": "gap_p50_billion",
+      "source_stdout": "-1.97",
+      "reconstruction": "-1.97",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 1,
+      "field": "gap_p10_billion",
+      "source_stdout": "-2.52",
+      "reconstruction": "-2.52",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 1,
+      "field": "gap_p90_billion",
+      "source_stdout": "-1.41",
+      "reconstruction": "-1.41",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 1,
+      "field": "auto_tax_p50_billion",
+      "source_stdout": "0.57",
+      "reconstruction": "0.57",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 1,
+      "field": "vat_p50_billion",
+      "source_stdout": "4.12",
+      "reconstruction": "4.12",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 1,
+      "field": "surplus_fraction",
+      "source_stdout": "0.0%",
+      "reconstruction": "0.0%",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 2,
+      "field": "revenue_p50_billion",
+      "source_stdout": "8.38",
+      "reconstruction": "8.38",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 2,
+      "field": "outflow_p50_billion",
+      "source_stdout": "10.12",
+      "reconstruction": "10.12",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 2,
+      "field": "gap_p50_billion",
+      "source_stdout": "-1.75",
+      "reconstruction": "-1.75",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 2,
+      "field": "gap_p10_billion",
+      "source_stdout": "-2.37",
+      "reconstruction": "-2.37",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 2,
+      "field": "gap_p90_billion",
+      "source_stdout": "-1.08",
+      "reconstruction": "-1.08",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 2,
+      "field": "auto_tax_p50_billion",
+      "source_stdout": "0.68",
+      "reconstruction": "0.68",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 2,
+      "field": "vat_p50_billion",
+      "source_stdout": "4.29",
+      "reconstruction": "4.29",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 2,
+      "field": "surplus_fraction",
+      "source_stdout": "0.1%",
+      "reconstruction": "0.1%",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 3,
+      "field": "revenue_p50_billion",
+      "source_stdout": "8.79",
+      "reconstruction": "8.79",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 3,
+      "field": "outflow_p50_billion",
+      "source_stdout": "10.28",
+      "reconstruction": "10.28",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 3,
+      "field": "gap_p50_billion",
+      "source_stdout": "-1.50",
+      "reconstruction": "-1.50",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 3,
+      "field": "gap_p10_billion",
+      "source_stdout": "-2.21",
+      "reconstruction": "-2.21",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 3,
+      "field": "gap_p90_billion",
+      "source_stdout": "-0.73",
+      "reconstruction": "-0.73",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 3,
+      "field": "auto_tax_p50_billion",
+      "source_stdout": "0.79",
+      "reconstruction": "0.79",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 3,
+      "field": "vat_p50_billion",
+      "source_stdout": "4.48",
+      "reconstruction": "4.48",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 3,
+      "field": "surplus_fraction",
+      "source_stdout": "0.9%",
+      "reconstruction": "0.9%",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 4,
+      "field": "revenue_p50_billion",
+      "source_stdout": "9.20",
+      "reconstruction": "9.20",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 4,
+      "field": "outflow_p50_billion",
+      "source_stdout": "10.45",
+      "reconstruction": "10.45",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 4,
+      "field": "gap_p50_billion",
+      "source_stdout": "-1.25",
+      "reconstruction": "-1.25",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 4,
+      "field": "gap_p10_billion",
+      "source_stdout": "-2.12",
+      "reconstruction": "-2.12",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 4,
+      "field": "gap_p90_billion",
+      "source_stdout": "-0.31",
+      "reconstruction": "-0.31",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 4,
+      "field": "auto_tax_p50_billion",
+      "source_stdout": "0.90",
+      "reconstruction": "0.90",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 4,
+      "field": "vat_p50_billion",
+      "source_stdout": "4.66",
+      "reconstruction": "4.66",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 4,
+      "field": "surplus_fraction",
+      "source_stdout": "4.5%",
+      "reconstruction": "4.5%",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 5,
+      "field": "revenue_p50_billion",
+      "source_stdout": "9.70",
+      "reconstruction": "9.70",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 5,
+      "field": "outflow_p50_billion",
+      "source_stdout": "10.62",
+      "reconstruction": "10.62",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 5,
+      "field": "gap_p50_billion",
+      "source_stdout": "-0.94",
+      "reconstruction": "-0.94",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 5,
+      "field": "gap_p10_billion",
+      "source_stdout": "-1.98",
+      "reconstruction": "-1.98",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 5,
+      "field": "gap_p90_billion",
+      "source_stdout": "+0.14",
+      "reconstruction": "+0.14",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 5,
+      "field": "auto_tax_p50_billion",
+      "source_stdout": "1.02",
+      "reconstruction": "1.02",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 5,
+      "field": "vat_p50_billion",
+      "source_stdout": "4.86",
+      "reconstruction": "4.86",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 5,
+      "field": "surplus_fraction",
+      "source_stdout": "13.3%",
+      "reconstruction": "13.3%",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 6,
+      "field": "revenue_p50_billion",
+      "source_stdout": "10.02",
+      "reconstruction": "10.02",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 6,
+      "field": "outflow_p50_billion",
+      "source_stdout": "10.79",
+      "reconstruction": "10.79",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 6,
+      "field": "gap_p50_billion",
+      "source_stdout": "-0.75",
+      "reconstruction": "-0.75",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 6,
+      "field": "gap_p10_billion",
+      "source_stdout": "-1.94",
+      "reconstruction": "-1.94",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 6,
+      "field": "gap_p90_billion",
+      "source_stdout": "+0.56",
+      "reconstruction": "+0.56",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 6,
+      "field": "auto_tax_p50_billion",
+      "source_stdout": "1.15",
+      "reconstruction": "1.15",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 6,
+      "field": "vat_p50_billion",
+      "source_stdout": "4.98",
+      "reconstruction": "4.98",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 6,
+      "field": "surplus_fraction",
+      "source_stdout": "23.2%",
+      "reconstruction": "23.2%",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 7,
+      "field": "revenue_p50_billion",
+      "source_stdout": "10.48",
+      "reconstruction": "10.48",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 7,
+      "field": "outflow_p50_billion",
+      "source_stdout": "10.98",
+      "reconstruction": "10.98",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 7,
+      "field": "gap_p50_billion",
+      "source_stdout": "-0.51",
+      "reconstruction": "-0.51",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 7,
+      "field": "gap_p10_billion",
+      "source_stdout": "-1.95",
+      "reconstruction": "-1.95",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 7,
+      "field": "gap_p90_billion",
+      "source_stdout": "+1.02",
+      "reconstruction": "+1.02",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 7,
+      "field": "auto_tax_p50_billion",
+      "source_stdout": "1.28",
+      "reconstruction": "1.28",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 7,
+      "field": "vat_p50_billion",
+      "source_stdout": "5.08",
+      "reconstruction": "5.08",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 7,
+      "field": "surplus_fraction",
+      "source_stdout": "32.8%",
+      "reconstruction": "32.8%",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 8,
+      "field": "revenue_p50_billion",
+      "source_stdout": "10.88",
+      "reconstruction": "10.88",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 8,
+      "field": "outflow_p50_billion",
+      "source_stdout": "11.16",
+      "reconstruction": "11.16",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 8,
+      "field": "gap_p50_billion",
+      "source_stdout": "-0.31",
+      "reconstruction": "-0.31",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 8,
+      "field": "gap_p10_billion",
+      "source_stdout": "-1.90",
+      "reconstruction": "-1.90",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 8,
+      "field": "gap_p90_billion",
+      "source_stdout": "+1.59",
+      "reconstruction": "+1.59",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 8,
+      "field": "auto_tax_p50_billion",
+      "source_stdout": "1.42",
+      "reconstruction": "1.42",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 8,
+      "field": "vat_p50_billion",
+      "source_stdout": "5.20",
+      "reconstruction": "5.20",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 8,
+      "field": "surplus_fraction",
+      "source_stdout": "41.6%",
+      "reconstruction": "41.6%",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 9,
+      "field": "revenue_p50_billion",
+      "source_stdout": "11.35",
+      "reconstruction": "11.35",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 9,
+      "field": "outflow_p50_billion",
+      "source_stdout": "11.36",
+      "reconstruction": "11.36",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 9,
+      "field": "gap_p50_billion",
+      "source_stdout": "-0.02",
+      "reconstruction": "-0.02",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 9,
+      "field": "gap_p10_billion",
+      "source_stdout": "-1.85",
+      "reconstruction": "-1.85",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 9,
+      "field": "gap_p90_billion",
+      "source_stdout": "+2.10",
+      "reconstruction": "+2.10",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 9,
+      "field": "auto_tax_p50_billion",
+      "source_stdout": "1.56",
+      "reconstruction": "1.56",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 9,
+      "field": "vat_p50_billion",
+      "source_stdout": "5.31",
+      "reconstruction": "5.31",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 9,
+      "field": "surplus_fraction",
+      "source_stdout": "49.5%",
+      "reconstruction": "49.5%",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 10,
+      "field": "revenue_p50_billion",
+      "source_stdout": "11.82",
+      "reconstruction": "11.82",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 10,
+      "field": "outflow_p50_billion",
+      "source_stdout": "11.56",
+      "reconstruction": "11.56",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 10,
+      "field": "gap_p50_billion",
+      "source_stdout": "+0.21",
+      "reconstruction": "+0.21",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 10,
+      "field": "gap_p10_billion",
+      "source_stdout": "-1.82",
+      "reconstruction": "-1.82",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 10,
+      "field": "gap_p90_billion",
+      "source_stdout": "+2.73",
+      "reconstruction": "+2.73",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 10,
+      "field": "auto_tax_p50_billion",
+      "source_stdout": "1.71",
+      "reconstruction": "1.71",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 10,
+      "field": "vat_p50_billion",
+      "source_stdout": "5.44",
+      "reconstruction": "5.44",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 10,
+      "field": "surplus_fraction",
+      "source_stdout": "55.7%",
+      "reconstruction": "55.7%",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 11,
+      "field": "revenue_p50_billion",
+      "source_stdout": "12.25",
+      "reconstruction": "12.25",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 11,
+      "field": "outflow_p50_billion",
+      "source_stdout": "11.76",
+      "reconstruction": "11.76",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 11,
+      "field": "gap_p50_billion",
+      "source_stdout": "+0.52",
+      "reconstruction": "+0.52",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 11,
+      "field": "gap_p10_billion",
+      "source_stdout": "-1.77",
+      "reconstruction": "-1.77",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 11,
+      "field": "gap_p90_billion",
+      "source_stdout": "+3.40",
+      "reconstruction": "+3.40",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 11,
+      "field": "auto_tax_p50_billion",
+      "source_stdout": "1.86",
+      "reconstruction": "1.86",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 11,
+      "field": "vat_p50_billion",
+      "source_stdout": "5.55",
+      "reconstruction": "5.55",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 11,
+      "field": "surplus_fraction",
+      "source_stdout": "60.4%",
+      "reconstruction": "60.4%",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 12,
+      "field": "revenue_p50_billion",
+      "source_stdout": "12.77",
+      "reconstruction": "12.77",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 12,
+      "field": "outflow_p50_billion",
+      "source_stdout": "11.98",
+      "reconstruction": "11.98",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 12,
+      "field": "gap_p50_billion",
+      "source_stdout": "+0.79",
+      "reconstruction": "+0.79",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 12,
+      "field": "gap_p10_billion",
+      "source_stdout": "-1.79",
+      "reconstruction": "-1.79",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 12,
+      "field": "gap_p90_billion",
+      "source_stdout": "+4.10",
+      "reconstruction": "+4.10",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 12,
+      "field": "auto_tax_p50_billion",
+      "source_stdout": "2.01",
+      "reconstruction": "2.01",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 12,
+      "field": "vat_p50_billion",
+      "source_stdout": "5.69",
+      "reconstruction": "5.69",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 12,
+      "field": "surplus_fraction",
+      "source_stdout": "64.9%",
+      "reconstruction": "64.9%",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 13,
+      "field": "revenue_p50_billion",
+      "source_stdout": "13.30",
+      "reconstruction": "13.30",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 13,
+      "field": "outflow_p50_billion",
+      "source_stdout": "12.20",
+      "reconstruction": "12.20",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 13,
+      "field": "gap_p50_billion",
+      "source_stdout": "+1.11",
+      "reconstruction": "+1.11",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 13,
+      "field": "gap_p10_billion",
+      "source_stdout": "-1.70",
+      "reconstruction": "-1.70",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 13,
+      "field": "gap_p90_billion",
+      "source_stdout": "+4.90",
+      "reconstruction": "+4.90",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 13,
+      "field": "auto_tax_p50_billion",
+      "source_stdout": "2.16",
+      "reconstruction": "2.16",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 13,
+      "field": "vat_p50_billion",
+      "source_stdout": "5.81",
+      "reconstruction": "5.81",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 13,
+      "field": "surplus_fraction",
+      "source_stdout": "67.6%",
+      "reconstruction": "67.6%",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 14,
+      "field": "revenue_p50_billion",
+      "source_stdout": "13.77",
+      "reconstruction": "13.77",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 14,
+      "field": "outflow_p50_billion",
+      "source_stdout": "12.42",
+      "reconstruction": "12.42",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 14,
+      "field": "gap_p50_billion",
+      "source_stdout": "+1.34",
+      "reconstruction": "+1.34",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 14,
+      "field": "gap_p10_billion",
+      "source_stdout": "-1.58",
+      "reconstruction": "-1.58",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 14,
+      "field": "gap_p90_billion",
+      "source_stdout": "+5.82",
+      "reconstruction": "+5.82",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 14,
+      "field": "auto_tax_p50_billion",
+      "source_stdout": "2.32",
+      "reconstruction": "2.32",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 14,
+      "field": "vat_p50_billion",
+      "source_stdout": "5.94",
+      "reconstruction": "5.94",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 14,
+      "field": "surplus_fraction",
+      "source_stdout": "70.9%",
+      "reconstruction": "70.9%",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 15,
+      "field": "revenue_p50_billion",
+      "source_stdout": "14.47",
+      "reconstruction": "14.47",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 15,
+      "field": "outflow_p50_billion",
+      "source_stdout": "12.66",
+      "reconstruction": "12.66",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 15,
+      "field": "gap_p50_billion",
+      "source_stdout": "+1.82",
+      "reconstruction": "+1.82",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 15,
+      "field": "gap_p10_billion",
+      "source_stdout": "-1.70",
+      "reconstruction": "-1.70",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 15,
+      "field": "gap_p90_billion",
+      "source_stdout": "+6.94",
+      "reconstruction": "+6.94",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 15,
+      "field": "auto_tax_p50_billion",
+      "source_stdout": "2.49",
+      "reconstruction": "2.49",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 15,
+      "field": "vat_p50_billion",
+      "source_stdout": "6.10",
+      "reconstruction": "6.10",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 15,
+      "field": "surplus_fraction",
+      "source_stdout": "73.0%",
+      "reconstruction": "73.0%",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 16,
+      "field": "revenue_p50_billion",
+      "source_stdout": "15.09",
+      "reconstruction": "15.09",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 16,
+      "field": "outflow_p50_billion",
+      "source_stdout": "12.90",
+      "reconstruction": "12.90",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 16,
+      "field": "gap_p50_billion",
+      "source_stdout": "+2.21",
+      "reconstruction": "+2.21",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 16,
+      "field": "gap_p10_billion",
+      "source_stdout": "-1.71",
+      "reconstruction": "-1.71",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 16,
+      "field": "gap_p90_billion",
+      "source_stdout": "+8.11",
+      "reconstruction": "+8.11",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 16,
+      "field": "auto_tax_p50_billion",
+      "source_stdout": "2.66",
+      "reconstruction": "2.66",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 16,
+      "field": "vat_p50_billion",
+      "source_stdout": "6.21",
+      "reconstruction": "6.21",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 16,
+      "field": "surplus_fraction",
+      "source_stdout": "75.1%",
+      "reconstruction": "75.1%",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 17,
+      "field": "revenue_p50_billion",
+      "source_stdout": "15.74",
+      "reconstruction": "15.74",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 17,
+      "field": "outflow_p50_billion",
+      "source_stdout": "13.15",
+      "reconstruction": "13.15",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 17,
+      "field": "gap_p50_billion",
+      "source_stdout": "+2.51",
+      "reconstruction": "+2.51",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 17,
+      "field": "gap_p10_billion",
+      "source_stdout": "-1.63",
+      "reconstruction": "-1.63",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 17,
+      "field": "gap_p90_billion",
+      "source_stdout": "+9.49",
+      "reconstruction": "+9.49",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 17,
+      "field": "auto_tax_p50_billion",
+      "source_stdout": "2.83",
+      "reconstruction": "2.83",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 17,
+      "field": "vat_p50_billion",
+      "source_stdout": "6.33",
+      "reconstruction": "6.33",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 17,
+      "field": "surplus_fraction",
+      "source_stdout": "76.5%",
+      "reconstruction": "76.5%",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 18,
+      "field": "revenue_p50_billion",
+      "source_stdout": "16.46",
+      "reconstruction": "16.46",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 18,
+      "field": "outflow_p50_billion",
+      "source_stdout": "13.42",
+      "reconstruction": "13.42",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 18,
+      "field": "gap_p50_billion",
+      "source_stdout": "+3.01",
+      "reconstruction": "+3.01",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 18,
+      "field": "gap_p10_billion",
+      "source_stdout": "-1.53",
+      "reconstruction": "-1.53",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 18,
+      "field": "gap_p90_billion",
+      "source_stdout": "+10.59",
+      "reconstruction": "+10.59",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 18,
+      "field": "auto_tax_p50_billion",
+      "source_stdout": "3.03",
+      "reconstruction": "3.03",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 18,
+      "field": "vat_p50_billion",
+      "source_stdout": "6.47",
+      "reconstruction": "6.47",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 18,
+      "field": "surplus_fraction",
+      "source_stdout": "78.5%",
+      "reconstruction": "78.5%",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 19,
+      "field": "revenue_p50_billion",
+      "source_stdout": "16.99",
+      "reconstruction": "16.99",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 19,
+      "field": "outflow_p50_billion",
+      "source_stdout": "13.69",
+      "reconstruction": "13.69",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 19,
+      "field": "gap_p50_billion",
+      "source_stdout": "+3.21",
+      "reconstruction": "+3.21",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 19,
+      "field": "gap_p10_billion",
+      "source_stdout": "-1.68",
+      "reconstruction": "-1.68",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 19,
+      "field": "gap_p90_billion",
+      "source_stdout": "+12.16",
+      "reconstruction": "+12.16",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 19,
+      "field": "auto_tax_p50_billion",
+      "source_stdout": "3.22",
+      "reconstruction": "3.22",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 19,
+      "field": "vat_p50_billion",
+      "source_stdout": "6.62",
+      "reconstruction": "6.62",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 19,
+      "field": "surplus_fraction",
+      "source_stdout": "79.6%",
+      "reconstruction": "79.6%",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 20,
+      "field": "revenue_p50_billion",
+      "source_stdout": "17.75",
+      "reconstruction": "17.75",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 20,
+      "field": "outflow_p50_billion",
+      "source_stdout": "13.97",
+      "reconstruction": "13.97",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 20,
+      "field": "gap_p50_billion",
+      "source_stdout": "+3.73",
+      "reconstruction": "+3.73",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 20,
+      "field": "gap_p10_billion",
+      "source_stdout": "-1.47",
+      "reconstruction": "-1.47",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 20,
+      "field": "gap_p90_billion",
+      "source_stdout": "+13.64",
+      "reconstruction": "+13.64",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 20,
+      "field": "auto_tax_p50_billion",
+      "source_stdout": "3.42",
+      "reconstruction": "3.42",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 20,
+      "field": "vat_p50_billion",
+      "source_stdout": "6.77",
+      "reconstruction": "6.77",
+      "matches": true
+    },
+    {
+      "cohort": "twenty",
+      "policy": "fixed",
+      "year": 20,
+      "field": "surplus_fraction",
+      "source_stdout": "80.5%",
+      "reconstruction": "80.5%",
+      "matches": true
+    }
+  ]
+}

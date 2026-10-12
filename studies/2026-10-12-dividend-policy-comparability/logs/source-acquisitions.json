@@ -1,0 +1,231 @@
+[
+  {
+    "url": "https://api.github.com/repos/saccasolutions/fourpillarsproject/commits/main",
+    "path": ".local-sources/four-pillars-screen/commit.json",
+    "start_utc": "2026-10-12T18:56:22.474146+00:00",
+    "end_utc": "2026-10-12T18:56:22.786820+00:00",
+    "exit_code": 0,
+    "response": "200\nhttps://api.github.com/repos/saccasolutions/fourpillarsproject/commits/main",
+    "error": "",
+    "bytes": 21580,
+    "sha256": "07ea8f715ffa43fc4dea696d01f6fb2f1563318d0c662867ce39aee1550cc637"
+  },
+  {
+    "url": "https://api.github.com/repos/saccasolutions/fourpillarsproject/git/trees/d0e84f01f7970c6161da874051aafffaefe77f1f?recursive=1",
+    "path": ".local-sources/four-pillars-screen/tree.json",
+    "start_utc": "2026-10-12T18:56:22.787798+00:00",
+    "end_utc": "2026-10-12T18:56:23.336631+00:00",
+    "exit_code": 0,
+    "response": "200\nhttps://api.github.com/repos/saccasolutions/fourpillarsproject/git/trees/d0e84f01f7970c6161da874051aafffaefe77f1f?recursive=1",
+    "error": "",
+    "bytes": 2485451,
+    "sha256": "06daa2621f0cc5cb552c4c931921907880451b65d5831652d732e8694c5c7f3e"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/docs/Four_Pillars_Whitepaper.md",
+    "path": ".local-sources/four-pillars-screen/whitepaper.md",
+    "start_utc": "2026-10-12T18:56:23.350470+00:00",
+    "end_utc": "2026-10-12T18:56:23.668282+00:00",
+    "exit_code": 0,
+    "response": "200\nhttps://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/docs/Four_Pillars_Whitepaper.md",
+    "error": "",
+    "bytes": 42292,
+    "sha256": "c75332763be8a37527c912d6f96dfaf61b63e13febcbd731b54380589734b2fc"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/README.md",
+    "path": ".local-sources/four-pillars-screen/README.md",
+    "start_utc": "2026-10-12T18:56:33.556131+00:00",
+    "end_utc": "2026-10-12T18:56:33.693777+00:00",
+    "exit_code": 0,
+    "response": "200\nhttps://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/README.md",
+    "error": "",
+    "bytes": 6702,
+    "sha256": "13ef1d4e8c3f9575a0a474b5954ec484f7254769cf9697efa19adcd61766d4c2"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/LICENSE",
+    "path": ".local-sources/four-pillars-screen/LICENSE",
+    "start_utc": "2026-10-12T18:56:33.694386+00:00",
+    "end_utc": "2026-10-12T18:56:33.798829+00:00",
+    "exit_code": 0,
+    "response": "200\nhttps://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/LICENSE",
+    "error": "",
+    "bytes": 1071,
+    "sha256": "86b79076556abee744cd76ee07bd5b36c5a7a9217e1175a297c43fc21e5d86ea"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/LICENSE-CODE.md",
+    "path": ".local-sources/four-pillars-screen/LICENSE-CODE.md",
+    "start_utc": "2026-10-12T18:56:33.799391+00:00",
+    "end_utc": "2026-10-12T18:56:33.963808+00:00",
+    "exit_code": 0,
+    "response": "200\nhttps://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/LICENSE-CODE.md",
+    "error": "",
+    "bytes": 1172,
+    "sha256": "c80852cede38e870f73d41b6188076f6c12b0073ac0fe3b766ff63c00c2de347"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/LICENSE-DOCS.md",
+    "path": ".local-sources/four-pillars-screen/LICENSE-DOCS.md",
+    "start_utc": "2026-10-12T18:56:33.964651+00:00",
+    "end_utc": "2026-10-12T18:56:34.083284+00:00",
+    "exit_code": 0,
+    "response": "200\nhttps://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/LICENSE-DOCS.md",
+    "error": "",
+    "bytes": 923,
+    "sha256": "cf3f8beacb980f9f9cbab8197b148df730f8b02aabe30e21bad69cb230f8fab6"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/models/monte_carlo_tax.py",
+    "path": ".local-sources/four-pillars-screen/models/monte_carlo_tax.py",
+    "start_utc": "2026-10-12T18:56:34.084561+00:00",
+    "end_utc": "2026-10-12T18:56:34.220685+00:00",
+    "exit_code": 0,
+    "response": "200\nhttps://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/models/monte_carlo_tax.py",
+    "error": "",
+    "bytes": 13735,
+    "sha256": "69e335a95d206bc6fe32560a70988b10a2fa07e41dd3669ff8055aa68b1aee76"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/models/extended_monte_carlo.py",
+    "path": ".local-sources/four-pillars-screen/models/extended_monte_carlo.py",
+    "start_utc": "2026-10-12T18:56:34.221623+00:00",
+    "end_utc": "2026-10-12T18:56:34.348452+00:00",
+    "exit_code": 0,
+    "response": "200\nhttps://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/models/extended_monte_carlo.py",
+    "error": "",
+    "bytes": 7980,
+    "sha256": "67e0a276749642fd07cf6587aeff6bb0e805f0e775e112fc701c8eb96a5ddd29"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/models/feedback_models.py",
+    "path": ".local-sources/four-pillars-screen/models/feedback_models.py",
+    "start_utc": "2026-10-12T18:56:34.349349+00:00",
+    "end_utc": "2026-10-12T18:56:34.468872+00:00",
+    "exit_code": 0,
+    "response": "200\nhttps://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/models/feedback_models.py",
+    "error": "",
+    "bytes": 10841,
+    "sha256": "d1f6f49ca0edbfe2cac190a685cba2573f57004a37d8cbe8420f2b2cf0ff85fd"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/models/pillar1_calibration.py",
+    "path": ".local-sources/four-pillars-screen/models/pillar1_calibration.py",
+    "start_utc": "2026-10-12T18:56:34.469831+00:00",
+    "end_utc": "2026-10-12T18:56:34.590359+00:00",
+    "exit_code": 0,
+    "response": "200\nhttps://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/models/pillar1_calibration.py",
+    "error": "",
+    "bytes": 23203,
+    "sha256": "78ef3fffe6694d06d048479de753be65b6a5ebf296d78f1dc790249314aa858d"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/models/pillar234_calibration.py",
+    "path": ".local-sources/four-pillars-screen/models/pillar234_calibration.py",
+    "start_utc": "2026-10-12T18:56:34.591287+00:00",
+    "end_utc": "2026-10-12T18:56:34.709231+00:00",
+    "exit_code": 0,
+    "response": "200\nhttps://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/models/pillar234_calibration.py",
+    "error": "",
+    "bytes": 13363,
+    "sha256": "1f3bfc6033cae00748cad86abda8f53305f5ed708cc2798064e073c825295fc3"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/models/retirement_transition.py",
+    "path": ".local-sources/four-pillars-screen/models/retirement_transition.py",
+    "start_utc": "2026-10-12T18:56:34.710321+00:00",
+    "end_utc": "2026-10-12T18:56:34.834710+00:00",
+    "exit_code": 0,
+    "response": "200\nhttps://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/models/retirement_transition.py",
+    "error": "",
+    "bytes": 15878,
+    "sha256": "cdcad0619952df3c62bcde1e32cd1a430d11327814f24017ca367d7eee4a64c8"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/models/floor_optimization.py",
+    "path": ".local-sources/four-pillars-screen/models/floor_optimization.py",
+    "start_utc": "2026-10-12T18:56:34.835720+00:00",
+    "end_utc": "2026-10-12T18:56:34.963547+00:00",
+    "exit_code": 0,
+    "response": "200\nhttps://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/models/floor_optimization.py",
+    "error": "",
+    "bytes": 9482,
+    "sha256": "b23460a7e722f5b77fbc60e36e9d61603c6daf53e91acdf3af19250d23e1265c"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/docs/Economic_Model_Research.md",
+    "path": ".local-sources/four-pillars-screen/docs/Economic_Model_Research.md",
+    "start_utc": "2026-10-12T18:56:34.964635+00:00",
+    "end_utc": "2026-10-12T18:56:35.086243+00:00",
+    "exit_code": 0,
+    "response": "200\nhttps://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/docs/Economic_Model_Research.md",
+    "error": "",
+    "bytes": 21990,
+    "sha256": "654dc89658bc0b4bae02ea2a32e683a066a801fd3aac467f1976e930a51958d9"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/docs/Transition_Plan.md",
+    "path": ".local-sources/four-pillars-screen/docs/Transition_Plan.md",
+    "start_utc": "2026-10-12T18:56:35.087258+00:00",
+    "end_utc": "2026-10-12T18:56:35.199854+00:00",
+    "exit_code": 0,
+    "response": "200\nhttps://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/docs/Transition_Plan.md",
+    "error": "",
+    "bytes": 10387,
+    "sha256": "04408fefa0644d643e2b6e56fd49c54a0bd96bc65fbf222a5a286eb613104e87"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/launch/post_launch_findings.md",
+    "path": ".local-sources/four-pillars-screen/launch/post_launch_findings.md",
+    "start_utc": "2026-10-12T18:56:35.201006+00:00",
+    "end_utc": "2026-10-12T18:56:35.327122+00:00",
+    "exit_code": 0,
+    "response": "200\nhttps://raw.githubusercontent.com/saccasolutions/fourpillarsproject/d0e84f01f7970c6161da874051aafffaefe77f1f/launch/post_launch_findings.md",
+    "error": "",
+    "bytes": 4536,
+    "sha256": "0f5bbc963420393be36c71c549319fc36d7e4a04cc4c384f8e45eeb164496c0a"
+  },
+  {
+    "url": "https://www.nber.org/system/files/working_papers/w25538/w25538.pdf",
+    "path": ".local-sources/four-pillars-screen/P1-Hoynes-Rothstein.pdf",
+    "start_utc": "2026-10-12T18:57:38.990410+00:00",
+    "end_utc": "2026-10-12T18:57:41.154617+00:00",
+    "exit_code": 0,
+    "response": "200\nhttps://www.nber.org/system/files/working_papers/w25538/w25538.pdf",
+    "error": "",
+    "bytes": 1275953,
+    "sha256": "b82803c4ded5e88fa9e83304c85867a42ee3ae750ddf20aeb4e09711e89e73a0"
+  },
+  {
+    "url": "https://api.github.com/repos/albertwenger/agi_economy/commits/main",
+    "path": ".local-sources/four-pillars-screen/P2-commit.json",
+    "start_utc": "2026-10-12T18:58:12.764877+00:00",
+    "end_utc": "2026-10-12T18:58:13.037837+00:00",
+    "exit_code": 0,
+    "response": "200\nhttps://api.github.com/repos/albertwenger/agi_economy/commits/main",
+    "error": "",
+    "bytes": 6821,
+    "sha256": "0b49b8078e6e44f5cc2eeaa4b71c30311236b354f9e019121ca0d6955d36963d"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/albertwenger/agi_economy/d71e1756773a9ca9334e1c62f40fa605f5d4d510/README.md",
+    "path": ".local-sources/four-pillars-screen/P2-README.md",
+    "start_utc": "2026-10-12T18:58:13.038915+00:00",
+    "end_utc": "2026-10-12T18:58:13.189251+00:00",
+    "exit_code": 0,
+    "response": "200\nhttps://raw.githubusercontent.com/albertwenger/agi_economy/d71e1756773a9ca9334e1c62f40fa605f5d4d510/README.md",
+    "error": "",
+    "bytes": 20313,
+    "sha256": "be18d010c047364676ac945468ca0d8438b4effec7e8bb305124bc15f6dce42d"
+  },
+  {
+    "url": "https://www.oecd.org/en/publications/securing-the-livelihoods-of-informal-economy-workers-in-times-of-global-changes_7b0d17a9-en/full-report/addressing-the-challenge-of-ageing-with-informality_b5aebd92.html",
+    "path": ".local-sources/four-pillars-screen/P3-OECD.html",
+    "start_utc": "2026-10-12T18:58:13.189960+00:00",
+    "end_utc": "2026-10-12T18:58:13.266880+00:00",
+    "exit_code": 56,
+    "response": "403\nhttps://www.oecd.org/en/publications/securing-the-livelihoods-of-informal-economy-workers-in-times-of-global-changes_7b0d17a9-en/full-report/addressing-the-challenge-of-ageing-with-informality_b5aebd92.html",
+    "error": "curl: (56) The requested URL returned error: 403\n"
+  }
+]

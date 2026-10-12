@@ -1,0 +1,22 @@
+{
+  "recorded_at_utc": "2026-10-12T19:02:23.810633Z",
+  "before_first_execution": true,
+  "protocol_sha256": "cb4c64b0be1e6da7c453fb329c30161b9ae6b4645dac971ea0db09980eab0fda",
+  "scope": "Two source cohorts and two protocol policies only. All 28 printed targets fixed before execution.",
+  "pre_execution_code_completion": [
+    "Added automation-tax and VAT medians from unchanged paths to complete the Section 6.4 four-metric checks, as root authorized.",
+    "Added a finite-value check across numeric source-row fields."
+  ],
+  "source_code_changed": false,
+  "unreviewed_source_stdout": "The unchanged extended script prints an existing LVT scenario. Its stdout is retained, but that scenario is outside this audit.",
+  "files": {
+    "protocol.md": "cb4c64b0be1e6da7c453fb329c30161b9ae6b4645dac971ea0db09980eab0fda",
+    "code/analyze.py": "ad7cb7e45a6cc196606f05b087a64272bebde35bd78ad5835cdb91e81c5caa8e",
+    "code/test_analysis.py": "ee4c87d187fe1a90c91af61a10c4677b0a55b1cc972d91fc34911d3256f01968",
+    "data/source-hashes.json": "33d8223af1d026a57decddd9294b17c0d903b4b437e9adf498b0440c0d151dfa",
+    "data/printed-targets.json": "e72ac141a08c8c72a8437304e8810b0840d232b719dcdbcca2eada614aa758c8",
+    "sources/snapshots/whitepaper.md": "c75332763be8a37527c912d6f96dfaf61b63e13febcbd731b54380589734b2fc",
+    "vendor/four-pillars/monte_carlo_tax.py": "69e335a95d206bc6fe32560a70988b10a2fa07e41dd3669ff8055aa68b1aee76",
+    "vendor/four-pillars/extended_monte_carlo.py": "67e0a276749642fd07cf6587aeff6bb0e805f0e775e112fc701c8eb96a5ddd29"
+  }
+}

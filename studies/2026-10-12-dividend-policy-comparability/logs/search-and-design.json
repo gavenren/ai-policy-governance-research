@@ -1,0 +1,103 @@
+{
+  "recorded_utc": "2026-10-12T19:02:31.351983+00:00",
+  "scope": "Bounded feasibility search and source reading. No model import or execution by source lead.",
+  "searches": [
+    {
+      "id": "four-pillars-1",
+      "service": "web.run",
+      "start_utc": "2026-10-12 18:54:49 UTC",
+      "end_utc": "2026-10-12 18:54:50 UTC",
+      "queries": [],
+      "private_response_path": ".local-sources/four-pillars-screen/four-pillars-1.json",
+      "bytes": 33662,
+      "sha256": "b9114171d29168480d2f8aa19ebd12ab4749eab7b12ad5303360665687b191fe"
+    },
+    {
+      "id": "four-prior-search1",
+      "service": "web.run",
+      "start_utc": "2026-10-12 18:56:56 UTC",
+      "end_utc": "2026-10-12 18:56:57 UTC",
+      "queries": [
+        "\"Four Pillars\" \"DeMaria\" economic critique",
+        "\"Sacca Solutions\" \"automation\" tax model",
+        "universal basic income fiscal sustainability nominal benefit indexation automation tax Hoynes Rothstein"
+      ],
+      "private_response_path": ".local-sources/four-pillars-screen/four-prior-search1.json",
+      "bytes": 37582,
+      "sha256": "fe2b9feeafdee9148b6fba6f2b07c890974c5a7246c706128ebb9d40e9e078b1"
+    },
+    {
+      "id": "four-prior-search2",
+      "service": "web.run",
+      "start_utc": "2026-10-12 18:57:10 UTC",
+      "end_utc": "2026-10-12 18:57:12 UTC",
+      "queries": [
+        "\"universal basic income\" \"indexation\" fiscal model",
+        "\"Four Pillars\" \"Sacca\" Monte Carlo",
+        "\"Universal Basic Income in the US and Advanced Countries\" filetype:pdf"
+      ],
+      "private_response_path": ".local-sources/four-pillars-screen/four-prior-search2.json",
+      "bytes": 38209,
+      "sha256": "63a12c111a31b1e03a7a754bcae7d46b89fe57f04db0d6dc03335cc60fd86fb2"
+    },
+    {
+      "id": "four-prior-read1",
+      "service": "web.run",
+      "start_utc": "2026-10-12 18:57:41 UTC",
+      "end_utc": "2026-10-12 18:57:43 UTC",
+      "queries": [],
+      "private_response_path": ".local-sources/four-pillars-screen/four-prior-read1.json",
+      "bytes": 31792,
+      "sha256": "f9518974b41c3fa62bfb9b5cb21b404faa231f074b88a03e783baa2d5909003f"
+    },
+    {
+      "id": "four-oecd-section",
+      "service": "web.run",
+      "start_utc": "2026-10-12 18:58:35 UTC",
+      "end_utc": "2026-10-12 18:58:36 UTC",
+      "queries": [],
+      "private_response_path": ".local-sources/four-pillars-screen/four-oecd-section.json",
+      "bytes": 534,
+      "sha256": "b8934f7ba621f9ebf0dd41343b872bd4067e68c8bec1c48e64fc8768aaf6930e"
+    }
+  ],
+  "date_filters": "None.",
+  "selection_rule": "Exact proposal and model comparison first; original UBI fiscal-comparison methods and AI transfer-indexation documentation next. No broad survey or general UBI judgement.",
+  "negative_result": "No returned result established an earlier audit of these two Four Pillars scripts. Author post-launch disclosure is retained. This is not proof of novelty.",
+  "excluded_discovery": [
+    {
+      "source": "OECD current ageing/informality chapter",
+      "reason": "Search result suggested benefit indexation discussion. Web opening mostly returned navigation. Focused section retrieval failed; direct curl exited 56. Not used as a source of substantive claims."
+    },
+    {
+      "source": "Other search results including social posts and unrelated four-pillar reports",
+      "reason": "Not primary evidence of the exact model-policy claim; not close-read."
+    }
+  ],
+  "access_limits": [
+    {
+      "action": "First local GitHub API request with system Python urllib",
+      "result": "Certificate verification failed before any file was saved. Exact call time was not retained; occurred before the actual 18:56:13 UTC clock reading. Subsequent curl used normal TLS."
+    },
+    {
+      "action": "First full recursive GitHub tree printed to tool",
+      "result": "Output was much too long because the source repository includes node_modules. The saved tree is complete and reports truncated=false. Only relevant top-level documents and models were selected; website dependencies were not downloaded or run."
+    },
+    {
+      "action": "PDF text reading",
+      "result": "Hoynes\u2013Rothstein text has long lines and tab spacing. One large display truncated parts of PDF pages 9\u201310. Read scope records that limit. OCR was not used."
+    },
+    {
+      "action": "OECD section web fetch",
+      "result": "Find returned no match; focused open timed out. Official 2017 PDF separately acquired by reviewer is the actual OECD prior used."
+    }
+  ],
+  "source_cutoff_utc": "2026-10-12T19:00:03Z",
+  "prospective_plan": {
+    "path": "protocol.md",
+    "recorded_utc": "2026-10-12T18:59:28.032901Z",
+    "sha256": "cb4c64b0be1e6da7c453fb329c30161b9ae6b4645dac971ea0db09980eab0fda",
+    "qualification": "Plan followed exploratory code reading and the visible rule/table discrepancy; no retrospective discovery claim."
+  },
+  "separate_review": "reviews/feasibility-independent.md; this is a feasibility review, not a formal review of numerical results."
+}

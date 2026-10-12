@@ -4,12 +4,13 @@ Reproducible studies of AI policy and governance, using dated public primary sou
 
 **Programme status:** on 2026-10-11 the user authorized further papers on economic governance after labor displacement, using the remaining core usage allowance. See the [continuation record](docs/RESEARCH_CONTINUATION_2026-10-11.md). Other research fields remain paused.
 
-Start with the [reading guide](docs/READING_GUIDE.md) for a connected account of the economic questions and the limits of each paper. The guide has a [separate AI review](docs/reviews/reading-guide-review.md) and a [review of its later additions](docs/reviews/reading-guide-update-review.md) and [review of S016–S017 additions](docs/reviews/reading-guide-s016-s017-review.md).
+Start with the [reading guide](docs/READING_GUIDE.md) for a connected account of the economic questions and the limits of each paper. The guide has a [separate AI review](docs/reviews/reading-guide-review.md) and a [review of its later additions](docs/reviews/reading-guide-update-review.md) and [review of S016–S017 additions](docs/reviews/reading-guide-s016-s017-review.md) and [S018 addition](docs/reviews/reading-guide-s018-review.md).
 
 ## Studies
 
 | Study | State and evidence | Materials |
 | --- | --- | --- |
+| A Smaller Deficit for Which Dividend? | Complete-study draft. Matched payment rules in a public automation-finance model; 60,000 paired rows, eleven tests and separate AI review. Conditional fiscal results, not forecasts. | [Paper](studies/2026-10-12-dividend-policy-comparability/paper.md), [source models, results and review](studies/2026-10-12-dividend-policy-comparability/) |
 | Two Income Tests for a Post-Labor Dividend | Complete-study draft. A proposed benefit disregard and a Medicaid income route; 40 constructed case rows, ten tests and separate AI review. Legal uncertainty is explicit. | [Paper](studies/2026-10-12-dividend-health-coverage/paper.md), [PDF](studies/2026-10-12-dividend-health-coverage/output/pdf/paper.pdf), [sources, cases and review](studies/2026-10-12-dividend-health-coverage/) |
 | What Does AI Output Growth Measure? | Complete-study draft. Four-case audit of training quantity definitions and annual electricity totals; reproduced source outputs, 21 tests and separate AI review. | [Paper](studies/2026-10-12-ai-output-reconciliation/paper.md), [PDF](studies/2026-10-12-ai-output-reconciliation/output/pdf/paper.pdf), [sources, results and review](studies/2026-10-12-ai-output-reconciliation/) |
 | How Much Would an AI Equity Levy Collect? | Complete-study draft. Firm-level collection ranges compatible with a public group model; 384 configurations, constructive proofs and separate AI review. Conditional assumptions are explicit. | [Paper](studies/2026-10-12-equity-levy-aggregation/paper.md), [PDF](studies/2026-10-12-equity-levy-aggregation/output/pdf/paper.pdf), [source model, results and review](studies/2026-10-12-equity-levy-aggregation/) |

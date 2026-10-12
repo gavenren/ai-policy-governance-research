@@ -1,0 +1,7 @@
+# S018 — A Smaller Deficit for Which Dividend?
+
+**State: Complete-study draft.** This short research comment compares the fixed and revenue-triggered floor rules in the pinned Four Pillars model. Read the [paper](paper.md), [protocol](protocol.md), [source record](sources/README.md) and [reproduction guide](REPRODUCTION.md).
+
+Two unchanged source cohorts each have 2,000 paths. The same-path comparison retains 60,000 paired path-year rows and 60 policy-year summaries. In year 10 of the ten-year cohort, a fixed floor gives 55.65% annual surpluses and the original increase rule gives 34.35%; the difference comes with $604.11 billion of mean additional modeled floor expense. These are conditional model results, not observed outcomes or calibrated fiscal probabilities. The source already reports a number mismatch and permits discretionary increases.
+
+The price-basis convention, broader revenue calibration, retirement obligations and behavioral responses are outside the audit. The case does not model complete displacement of all human work. No human or journal peer review, institutional affiliation or endorsement is claimed. [Separate AI critical review](reviews/critical-review.md) and a full reproduction are complete. The [author response](reviews/author-response.md) records the dictionary wording correction; no numerical result changed. Original source licences are retained and apply only to those materials; no licence has been selected for this original study.

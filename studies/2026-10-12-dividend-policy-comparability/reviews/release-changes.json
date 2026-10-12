@@ -1,0 +1,27 @@
+{
+  "recorded_at_utc": "2026-10-12T19:10:42.515955+00:00",
+  "changes": [
+    {
+      "path": "paper.md",
+      "old_sha256": "a4ebdd280e919296604007fefe95d8b16db8b9df2a6287028c832e0af1d5ec27",
+      "new_sha256": "a70db0b196f6e9782b0f2987f395c223fa18829d22924eacd14aef8b59ad2ef5"
+    },
+    {
+      "path": "data/DICTIONARY.md",
+      "old_sha256": "01973f8e04e0fa1e1afb013601a7634b7c4452ee6ea78cfd0d137e2d3e3c5958",
+      "new_sha256": "2d931c921698d3aee4655b81be7414e28c162fca641baceb0ae048bffc0d30c7"
+    },
+    {
+      "path": "README.md",
+      "old_sha256": "d2944106d4ac4e7d76c1d6f17b981350c772842fd3d4cbfbb1eee8fc87bee45a",
+      "new_sha256": "21282686bd98b95ea6f1b563469c66d66c599c866e92cfaea96e80d90f772227"
+    },
+    {
+      "path": "REPRODUCTION.md",
+      "old_sha256": "a17ddaf972e269ee64053333258a266ebbe7bdb710ee767db468fc8692d651a1",
+      "new_sha256": "7a5d6ef0217f531a4c925bc7328d04573071b252743abe5dadc1afcffce48882"
+    }
+  ],
+  "numerical_manifest_preserved": true,
+  "numeric_files_changed": false
+}

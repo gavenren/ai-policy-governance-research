@@ -1,0 +1,82 @@
+{
+  "recorded_utc": "2026-10-12T19:06:59.647442+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "studies/2026-10-12-dividend-policy-comparability/code/analyze.py",
+        "--output",
+        ".local-sources/s018-critical-review/study/results",
+        "--logs",
+        ".local-sources/s018-critical-review/study/logs"
+      ],
+      "start_utc": "2026-10-12T19:06:56.431018+00:00",
+      "end_utc": "2026-10-12T19:06:59.419540+00:00",
+      "exit_code": 0,
+      "stdout": "{\n  \"started_at_utc\": \"2026-10-12T19:06:56.477808+00:00\",\n  \"completed_at_utc\": \"2026-10-12T19:06:59.373000+00:00\",\n  \"python\": \"3.12.14\",\n  \"code_sha256\": \"ad7cb7e45a6cc196606f05b087a64272bebde35bd78ad5835cdb91e81c5caa8e\",\n  \"protocol_sha256\": \"cb4c64b0be1e6da7c453fb329c30161b9ae6b4645dac971ea0db09980eab0fda\",\n  \"source_hashes\": {\n    \"monte_carlo_tax.py\": \"69e335a95d206bc6fe32560a70988b10a2fa07e41dd3669ff8055aa68b1aee76\",\n    \"extended_monte_carlo.py\": \"67e0a276749642fd07cf6587aeff6bb0e805f0e775e112fc701c8eb96a5ddd29\"\n  },\n  \"source_cohort_paths\": {\n    \"ten\": 2000,\n    \"twenty\": 2000\n  },\n  \"paired_path_year_rows\": 60000,\n  \"policy_outcomes\": 120000,\n  \"summary_rows\": 60,\n  \"paired_summary_rows\": 30,\n  \"same_seed_cross_cohort_equal_revenue_cells\": 10,\n  \"compared_revenue_cells\": 20000,\n  \"first_path_first_ten_revenues_match\": true,\n  \"printed_targets\": 28,\n  \"printed_target_matches\": 27,\n  \"source_stdout_hashes\": {\n    \"source-ten-stdout.txt\": \"f7de052c270e1d2489d57848383a9406fc8701d7077aa10a955cbab43aeb19f4\",\n    \"source-twenty-stdout.txt\": \"24823fc7983643fd838ad0ca9baa420e2a08d28ab933b0e46b9ea863efd04bbb\"\n  },\n  \"exclusions\": [],\n  \"scope\": \"Conditional accounting comparison; no probability calibration or policy feedback.\"\n}\n{\"cohort\": \"ten\", \"policy\": \"trigger\", \"year\": 10, \"paths\": 2000, \"revenue_p50_billion\": 11820.162418703174, \"outflow_p50_billion\": 12174.23964925035, \"auto_tax_p50_billion\": 1698.2863226205588, \"vat_p50_billion\": 5438.477491533638, \"gap_p10_billion\": -1745.9480253566417, \"gap_p50_billion\": -553.9133116502799, \"gap_p90_billion\": 1855.381783359504, \"surplus_fraction\": 0.3435, \"mean_floor_billion\": 5224.1112, \"base_count\": 522, \"level28_count\": 426, \"level30_count\": 1052}\n{\"cohort\": \"ten\", \"policy\": \"fixed\", \"year\": 10, \"paths\": 2000, \"revenue_p50_billion\": 11820.162418703174, \"outflow_p50_billion\": 11541.188528355378, \"auto_tax_p50_billion\": 1698.2863226205588, \"vat_p50_billion\": 5438.477491533638, \"gap_p10_billion\": -1745.9480253566417, \"gap_p50_billion\": 252.97630487068454, \"gap_p90_billion\": 2779.381783359504, \"surplus_fraction\": 0.5565, \"mean_floor_billion\": 4620.0, \"base_count\": 2000, \"level28_count\": 0, \"level30_count\": 0}\n{\"cohort\": \"twenty\", \"policy\": \"fixed\", \"year\": 10, \"paths\": 2000, \"revenue_p50_billion\": 11816.847067185197, \"outflow_p50_billion\": 11556.748518054635, \"auto_tax_p50_billion\": 1710.5967418395023, \"vat_p50_billion\": 5436.5343683832225, \"gap_p10_billion\": -1819.409920900056, \"gap_p50_billion\": 213.6198998415075, \"gap_p90_billion\": 2729.989284054027, \"surplus_fraction\": 0.557, \"mean_floor_billion\": 4620.0, \"base_count\": 2000, \"level28_count\": 0, \"level30_count\": 0}\n{\"cohort\": \"twenty\", \"policy\": \"trigger\", \"year\": 10, \"paths\": 2000, \"revenue_p50_billion\": 11816.847067185197, \"outflow_p50_billion\": 12183.216490808802, \"auto_tax_p50_billion\": 1710.5967418395023, \"vat_p50_billion\": 5436.5343683832225, \"gap_p10_billion\": -1819.409920900056, \"gap_p50_billion\": -566.896290300916, \"gap_p90_billion\": 1805.989284054027, \"surplus_fraction\": 0.355, \"mean_floor_billion\": 5214.963600000001, \"base_count\": 557, \"level28_count\": 388, \"level30_count\": 1055}\n{\"cohort\": \"twenty\", \"policy\": \"fixed\", \"year\": 20, \"paths\": 2000, \"revenue_p50_billion\": 17748.160137377483, \"outflow_p50_billion\": 13969.956512007357, \"auto_tax_p50_billion\": 3422.216600137806, \"vat_p50_billion\": 6769.404868700623, \"gap_p10_billion\": -1473.4716920580267, \"gap_p50_billion\": 3728.5906222729936, \"gap_p90_billion\": 13636.101052978647, \"surplus_fraction\": 0.8055, \"mean_floor_billion\": 4620.0, \"base_count\": 2000, \"level28_count\": 0, \"level30_count\": 0}\n{\"cohort\": \"twenty\", \"policy\": \"trigger\", \"year\": 20, \"paths\": 2000, \"revenue_p50_billion\": 17748.160137377483, \"outflow_p50_billion\": 14754.352927527303, \"auto_tax_p50_billion\": 3422.216600137806, \"vat_p50_billion\": 6769.404868700623, \"gap_p10_billion\": -1607.4237450206456, \"gap_p50_billion\": 2804.5906222729936, \"gap_p90_billion\": 12712.101052978647, \"surplus_fraction\": 0.7405, \"mean_floor_billion\": 5410.944, \"base_count\": 234, \"level28_count\": 135, \"level30_count\": 1631}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "studies/2026-10-12-dividend-policy-comparability/code",
+        "-p",
+        "test_analysis.py",
+        "-v"
+      ],
+      "start_utc": "2026-10-12T19:06:59.419698+00:00",
+      "end_utc": "2026-10-12T19:06:59.485927+00:00",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_annual_reset (test_analysis.PolicyTests.test_annual_reset) ... ok\ntest_before_activation (test_analysis.PolicyTests.test_before_activation) ... ok\ntest_first_above_boundary (test_analysis.PolicyTests.test_first_above_boundary) ... ok\ntest_first_strict_boundary (test_analysis.PolicyTests.test_first_strict_boundary) ... ok\ntest_median_sign_implication (test_analysis.PolicyTests.test_median_sign_implication) ... ok\ntest_no_second_before_eight (test_analysis.PolicyTests.test_no_second_before_eight) ... ok\ntest_second_above_boundary (test_analysis.PolicyTests.test_second_above_boundary) ... ok\ntest_second_strict_boundary (test_analysis.PolicyTests.test_second_strict_boundary) ... ok\ntest_second_uses_increased_floor (test_analysis.PolicyTests.test_second_uses_increased_floor) ... ok\ntest_strict_surplus (test_analysis.PolicyTests.test_strict_surplus) ... ok\ntest_upper_middle (test_analysis.PolicyTests.test_upper_middle) ... ok\n\n----------------------------------------------------------------------\nRan 11 tests in 0.000s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "studies/2026-10-12-dividend-policy-comparability/code/check_sources.py"
+      ],
+      "start_utc": "2026-10-12T19:06:59.485985+00:00",
+      "end_utc": "2026-10-12T19:06:59.529709+00:00",
+      "exit_code": 0,
+      "stdout": "{\"mode\": \"public\", \"private_files\": 0, \"public_source_files\": 6, \"short_quotes\": 7, \"source_entries\": 18, \"source_models_imported_or_executed\": false, \"status\": \"pass\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "studies/2026-10-12-dividend-policy-comparability/code/check_sources.py",
+        "--local"
+      ],
+      "start_utc": "2026-10-12T19:06:59.529761+00:00",
+      "end_utc": "2026-10-12T19:06:59.596231+00:00",
+      "exit_code": 0,
+      "stdout": "{\"mode\": \"local\", \"private_files\": 33, \"public_source_files\": 6, \"short_quotes\": 7, \"source_entries\": 18, \"source_models_imported_or_executed\": false, \"status\": \"pass\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        ".local-sources/s018-critical-review/study/code/check_source_stdout.py"
+      ],
+      "start_utc": "2026-10-12T19:06:59.596292+00:00",
+      "end_utc": "2026-10-12T19:06:59.637465+00:00",
+      "exit_code": 0,
+      "stdout": "All 200 source-stdout summary checks match.\n",
+      "stderr": ""
+    }
+  ],
+  "all_result_files_byte_identical": {
+    "results/summary.csv": "94bf667619cdcee832c7a313a20a52d6c9438cdb6fb6bc5accd1ecb6b82d96c1",
+    "results/paired-paths.csv.gz": "68d55e88e2f9467c4d4e5da23e6340e89128dd4f3e045bac6c430cf760faafd9",
+    "results/printed-checks.csv": "6059208b0c1472f054180f08e8707ef07f8d5a1082626e26faff53e1602e070c",
+    "results/paired-summary.csv": "90ff79423cded3dcd668a236cca8e8496ba445a68816ce78fe9d00a69b47d2c2"
+  },
+  "both_source_stdout_files_byte_identical": true,
+  "frozen_files_unchanged": 55,
+  "scope": "Author reconstruction, original source executions, tests and source checks. Separate independent arithmetic is recorded elsewhere."
+}

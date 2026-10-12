@@ -1,0 +1,8 @@
+{
+  "recorded_at_utc": "2026-10-12T19:04:45.389104+00:00",
+  "scope": "Read prior programme comparison and current study index. Reuse is explicit; no fresh separate-repository read is claimed.",
+  "prior_record_path": "studies/2026-10-12-ai-output-reconciliation/logs/duplicate-check.json",
+  "prior_record_sha256": "544a330d3cf387c45ce154272d08c8c0652cb2727604f97e2f97a3e060835841",
+  "comparison": "S004 covers scarcity and real support; S005 cash buffers; S015 equity-levy aggregation; S016 output quantity and annual electricity accounts; S017 income definitions and benefit access. S018 concerns attribution of a fiscal probability to an executed payment rule. Methods overlap does not establish a new theorem. Separate programme studies in the cited prior check concern AI-safety audits, not these named fiscal scripts.",
+  "unrelated_repository_modified": false
+}

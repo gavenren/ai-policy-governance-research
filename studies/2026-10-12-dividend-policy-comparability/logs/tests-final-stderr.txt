@@ -1,0 +1,16 @@
+test_annual_reset (test_analysis.PolicyTests.test_annual_reset) ... ok
+test_before_activation (test_analysis.PolicyTests.test_before_activation) ... ok
+test_first_above_boundary (test_analysis.PolicyTests.test_first_above_boundary) ... ok
+test_first_strict_boundary (test_analysis.PolicyTests.test_first_strict_boundary) ... ok
+test_median_sign_implication (test_analysis.PolicyTests.test_median_sign_implication) ... ok
+test_no_second_before_eight (test_analysis.PolicyTests.test_no_second_before_eight) ... ok
+test_second_above_boundary (test_analysis.PolicyTests.test_second_above_boundary) ... ok
+test_second_strict_boundary (test_analysis.PolicyTests.test_second_strict_boundary) ... ok
+test_second_uses_increased_floor (test_analysis.PolicyTests.test_second_uses_increased_floor) ... ok
+test_strict_surplus (test_analysis.PolicyTests.test_strict_surplus) ... ok
+test_upper_middle (test_analysis.PolicyTests.test_upper_middle) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.001s
+
+OK

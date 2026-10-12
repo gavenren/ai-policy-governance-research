@@ -1,0 +1,23 @@
+{
+  "migration_utc": "2026-10-12T19:00:14.199714+00:00",
+  "source_commit": "d0e84f01f7970c6161da874051aafffaefe77f1f",
+  "models_executed_by_source_agent": false,
+  "note": "Byte-for-byte copy after root protocol freeze. Original retrieval dates remain in source ledger. Source scripts are not rewritten.",
+  "files": [
+    {
+      "path": "vendor/four-pillars/LICENSE-CODE.md",
+      "sha256": "c80852cede38e870f73d41b6188076f6c12b0073ac0fe3b766ff63c00c2de347",
+      "bytes": 1172
+    },
+    {
+      "path": "vendor/four-pillars/extended_monte_carlo.py",
+      "sha256": "67e0a276749642fd07cf6587aeff6bb0e805f0e775e112fc701c8eb96a5ddd29",
+      "bytes": 7980
+    },
+    {
+      "path": "vendor/four-pillars/monte_carlo_tax.py",
+      "sha256": "69e335a95d206bc6fe32560a70988b10a2fa07e41dd3669ff8055aa68b1aee76",
+      "bytes": 13735
+    }
+  ]
+}

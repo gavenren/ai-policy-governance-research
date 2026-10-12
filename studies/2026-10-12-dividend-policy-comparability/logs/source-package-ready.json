@@ -1,0 +1,62 @@
+{
+  "recorded_utc": "2026-10-12T19:03:10.279473+00:00",
+  "state": "Working notes: source package ready; numerical study and formal review are separate",
+  "source_agent_executed_models": false,
+  "files": [
+    {
+      "path": "sources/manifest.json",
+      "bytes": 29031,
+      "sha256": "fc6d4952b489b48cbbec15079cdda82fd8500621070acb100756645264288394"
+    },
+    {
+      "path": "sources/manifest.csv",
+      "bytes": 20496,
+      "sha256": "210ed2b443ebdaeb05db33f524abca00d1238be9c72b01333d0cfd7ea9ac1430"
+    },
+    {
+      "path": "sources/README.md",
+      "bytes": 3737,
+      "sha256": "efeb1c16a9eb61ec7199f790df62da2b428b6a3f74776792ecdf3889d6516b0c"
+    },
+    {
+      "path": "evidence/short-quotes.csv",
+      "bytes": 1216,
+      "sha256": "e18df07ac6f6799cb26ba8d5dd6e09a923450a842bf8da8f9991dc9f6ec32394"
+    },
+    {
+      "path": "reviews/feasibility-source-lead.md",
+      "bytes": 7778,
+      "sha256": "5065c6510b38fb2ce3b1657aec36acd04a2bbe347754d91c8ad54d7791d530be"
+    },
+    {
+      "path": "logs/search-and-design.json",
+      "bytes": 5037,
+      "sha256": "d2430d42781e4608a1372a66368d10a88ba8173ebe6833e2a06f70f12445495c"
+    },
+    {
+      "path": "logs/source-checks.json",
+      "bytes": 1142,
+      "sha256": "1f6609b8bc0b28c9230950887e3f8b9811d9e1fb0de2915e55ba62de7512a50f"
+    },
+    {
+      "path": "code/check_sources.py",
+      "bytes": 3050,
+      "sha256": "541853344c3d94999b702dc86ea8e435d17d4baf8e48f86373a629e9033a7c44"
+    },
+    {
+      "path": "vendor/four-pillars/monte_carlo_tax.py",
+      "bytes": 13735,
+      "sha256": "69e335a95d206bc6fe32560a70988b10a2fa07e41dd3669ff8055aa68b1aee76"
+    },
+    {
+      "path": "vendor/four-pillars/extended_monte_carlo.py",
+      "bytes": 7980,
+      "sha256": "67e0a276749642fd07cf6587aeff6bb0e805f0e775e112fc701c8eb96a5ddd29"
+    },
+    {
+      "path": "vendor/four-pillars/LICENSE-CODE.md",
+      "bytes": 1172,
+      "sha256": "c80852cede38e870f73d41b6188076f6c12b0073ac0fe3b766ff63c00c2de347"
+    }
+  ]
+}

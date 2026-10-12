@@ -1,0 +1,942 @@
+{
+  "recorded_at_utc": "2026-10-12T19:11:46.428549+00:00",
+  "scope": "Release-only document diff, frozen core hashes, current index and guide changes, local link existence. No numerical rerun or remote publication check.",
+  "role": "Separate AI reviewer, shared context and earlier feasibility role; no central manuscript or implementation authorship.",
+  "git_head_at_check": "19839ec96e2d42ea61aa441427b2812858af17b9",
+  "decision": "R1 resolved; no remaining review blocker for complete-study draft release.",
+  "frozen_files_checked": 55,
+  "unchanged_frozen_files": 51,
+  "approved_document_changes": [
+    {
+      "path": "paper.md",
+      "old_sha256": "a4ebdd280e919296604007fefe95d8b16db8b9df2a6287028c832e0af1d5ec27",
+      "new_sha256": "a70db0b196f6e9782b0f2987f395c223fa18829d22924eacd14aef8b59ad2ef5"
+    },
+    {
+      "path": "data/DICTIONARY.md",
+      "old_sha256": "01973f8e04e0fa1e1afb013601a7634b7c4452ee6ea78cfd0d137e2d3e3c5958",
+      "new_sha256": "2d931c921698d3aee4655b81be7414e28c162fca641baceb0ae048bffc0d30c7"
+    },
+    {
+      "path": "README.md",
+      "old_sha256": "d2944106d4ac4e7d76c1d6f17b981350c772842fd3d4cbfbb1eee8fc87bee45a",
+      "new_sha256": "21282686bd98b95ea6f1b563469c66d66c599c866e92cfaea96e80d90f772227"
+    },
+    {
+      "path": "REPRODUCTION.md",
+      "old_sha256": "a17ddaf972e269ee64053333258a266ebbe7bdb710ee767db468fc8692d651a1",
+      "new_sha256": "7a5d6ef0217f531a4c925bc7328d04573071b252743abe5dadc1afcffce48882"
+    }
+  ],
+  "exact_patch_matches_private_frozen_document_diff": true,
+  "historical_numerical_manifest_sha256": "6252db55043a203d3f5c77d19c436ec445ddcf325d1582b07707f176a40d6967",
+  "numerical_manifest_entries_checked": 31,
+  "numerical_manifest_live_matches": 30,
+  "historical_manifest_exception": "data/DICTIONARY.md only, explained and mapped in release-changes.json; no numeric file changed.",
+  "source_manifest_sha256": "fc6d4952b489b48cbbec15079cdda82fd8500621070acb100756645264288394",
+  "frozen_file_checks": [
+    {
+      "path": "README.md",
+      "frozen_sha256": "d2944106d4ac4e7d76c1d6f17b981350c772842fd3d4cbfbb1eee8fc87bee45a",
+      "release_sha256": "21282686bd98b95ea6f1b563469c66d66c599c866e92cfaea96e80d90f772227",
+      "status": "approved_document_change"
+    },
+    {
+      "path": "REPRODUCTION.md",
+      "frozen_sha256": "a17ddaf972e269ee64053333258a266ebbe7bdb710ee767db468fc8692d651a1",
+      "release_sha256": "7a5d6ef0217f531a4c925bc7328d04573071b252743abe5dadc1afcffce48882",
+      "status": "approved_document_change"
+    },
+    {
+      "path": "code/README.md",
+      "frozen_sha256": "00d00a22dd4ea7b1ff3b37ba52b90b2566dc34151d4cce21fe73f2f850a75053",
+      "release_sha256": "00d00a22dd4ea7b1ff3b37ba52b90b2566dc34151d4cce21fe73f2f850a75053",
+      "status": "unchanged"
+    },
+    {
+      "path": "code/analyze.py",
+      "frozen_sha256": "ad7cb7e45a6cc196606f05b087a64272bebde35bd78ad5835cdb91e81c5caa8e",
+      "release_sha256": "ad7cb7e45a6cc196606f05b087a64272bebde35bd78ad5835cdb91e81c5caa8e",
+      "status": "unchanged"
+    },
+    {
+      "path": "code/check_source_stdout.py",
+      "frozen_sha256": "5b744036cb0987e26fd3404e158477cbf98dc894fc9b11b6b834c740aa06259a",
+      "release_sha256": "5b744036cb0987e26fd3404e158477cbf98dc894fc9b11b6b834c740aa06259a",
+      "status": "unchanged"
+    },
+    {
+      "path": "code/check_sources.py",
+      "frozen_sha256": "541853344c3d94999b702dc86ea8e435d17d4baf8e48f86373a629e9033a7c44",
+      "release_sha256": "541853344c3d94999b702dc86ea8e435d17d4baf8e48f86373a629e9033a7c44",
+      "status": "unchanged"
+    },
+    {
+      "path": "code/test_analysis.py",
+      "frozen_sha256": "bd0285999204dbc7901168a4a0007d9fb5bf591892f38d26c67398399da7f703",
+      "release_sha256": "bd0285999204dbc7901168a4a0007d9fb5bf591892f38d26c67398399da7f703",
+      "status": "unchanged"
+    },
+    {
+      "path": "data/DICTIONARY.md",
+      "frozen_sha256": "01973f8e04e0fa1e1afb013601a7634b7c4452ee6ea78cfd0d137e2d3e3c5958",
+      "release_sha256": "2d931c921698d3aee4655b81be7414e28c162fca641baceb0ae048bffc0d30c7",
+      "status": "approved_document_change"
+    },
+    {
+      "path": "data/printed-targets.json",
+      "frozen_sha256": "e72ac141a08c8c72a8437304e8810b0840d232b719dcdbcca2eada614aa758c8",
+      "release_sha256": "e72ac141a08c8c72a8437304e8810b0840d232b719dcdbcca2eada614aa758c8",
+      "status": "unchanged"
+    },
+    {
+      "path": "data/source-hashes.json",
+      "frozen_sha256": "33d8223af1d026a57decddd9294b17c0d903b4b437e9adf498b0440c0d151dfa",
+      "release_sha256": "33d8223af1d026a57decddd9294b17c0d903b4b437e9adf498b0440c0d151dfa",
+      "status": "unchanged"
+    },
+    {
+      "path": "evidence/short-quotes.csv",
+      "frozen_sha256": "e18df07ac6f6799cb26ba8d5dd6e09a923450a842bf8da8f9991dc9f6ec32394",
+      "release_sha256": "e18df07ac6f6799cb26ba8d5dd6e09a923450a842bf8da8f9991dc9f6ec32394",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/P1-extraction.json",
+      "frozen_sha256": "3f4c8f09850bf2f6ef66ed37c6c2a2b7d2b3700827de3d75d9f4d5244ae3a602",
+      "release_sha256": "3f4c8f09850bf2f6ef66ed37c6c2a2b7d2b3700827de3d75d9f4d5244ae3a602",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/analysis-stderr.txt",
+      "frozen_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/analysis-stdout.txt",
+      "frozen_sha256": "a91e2bebd18a7e831548bd56bb3cbfa1f9bdd05f327b13633fc112094067a3a5",
+      "release_sha256": "a91e2bebd18a7e831548bd56bb3cbfa1f9bdd05f327b13633fc112094067a3a5",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/duplicate-check.json",
+      "frozen_sha256": "d619160a95ca47ef8447ab5cd5856c981e95d5491f0945d949cbc31227ece738",
+      "release_sha256": "d619160a95ca47ef8447ab5cd5856c981e95d5491f0945d949cbc31227ece738",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/execution.json",
+      "frozen_sha256": "886f4daf986e249f8765b5f38b93e2806f460a48862c929c98179f4d552e5120",
+      "release_sha256": "886f4daf986e249f8765b5f38b93e2806f460a48862c929c98179f4d552e5120",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/numerical-manifest.json",
+      "frozen_sha256": "6252db55043a203d3f5c77d19c436ec445ddcf325d1582b07707f176a40d6967",
+      "release_sha256": "6252db55043a203d3f5c77d19c436ec445ddcf325d1582b07707f176a40d6967",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/numerical-pre-execution.json",
+      "frozen_sha256": "6484b0d963f5e0ed1dffede6fc6f7594a0265b02ce5ba0db93c61dd717865f00",
+      "release_sha256": "6484b0d963f5e0ed1dffede6fc6f7594a0265b02ce5ba0db93c61dd717865f00",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/numerical-run-log.json",
+      "frozen_sha256": "e58cc215874f2df716483182b9326584c0f79092b59af784388aaea5df77c293",
+      "release_sha256": "e58cc215874f2df716483182b9326584c0f79092b59af784388aaea5df77c293",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/private-file-inventory.json",
+      "frozen_sha256": "fdbb2084c78bf3f7cb745b1816931e604f058675eb8d779c823f29eff3bbc8c1",
+      "release_sha256": "fdbb2084c78bf3f7cb745b1816931e604f058675eb8d779c823f29eff3bbc8c1",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/protocol-freeze.json",
+      "frozen_sha256": "b6c0bc47a828d1a5c18d6d6b3d5778bcb28cf42af9a7190be29915a32e249baa",
+      "release_sha256": "b6c0bc47a828d1a5c18d6d6b3d5778bcb28cf42af9a7190be29915a32e249baa",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/repository-check.json",
+      "frozen_sha256": "3cd678f0ce93b90104c5b3468a26cfdf567fc5cff6c1930910e8586678bac96f",
+      "release_sha256": "3cd678f0ce93b90104c5b3468a26cfdf567fc5cff6c1930910e8586678bac96f",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/reviewer-source-acquisitions.json",
+      "frozen_sha256": "5455ce8b9d78d92c3e5b800a9e227037fdf2965845387e9f73bb52912ba9d9b3",
+      "release_sha256": "5455ce8b9d78d92c3e5b800a9e227037fdf2965845387e9f73bb52912ba9d9b3",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/search-and-design.json",
+      "frozen_sha256": "d2430d42781e4608a1372a66368d10a88ba8173ebe6833e2a06f70f12445495c",
+      "release_sha256": "d2430d42781e4608a1372a66368d10a88ba8173ebe6833e2a06f70f12445495c",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/source-acquisitions.json",
+      "frozen_sha256": "db004852dcb349aae87153806f82d49d3b5cef216b2af4900eeaaa281b2499ed",
+      "release_sha256": "db004852dcb349aae87153806f82d49d3b5cef216b2af4900eeaaa281b2499ed",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/source-checks.json",
+      "frozen_sha256": "1f6609b8bc0b28c9230950887e3f8b9811d9e1fb0de2915e55ba62de7512a50f",
+      "release_sha256": "1f6609b8bc0b28c9230950887e3f8b9811d9e1fb0de2915e55ba62de7512a50f",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/source-package-ready.json",
+      "frozen_sha256": "300d4a03d9483be958b1d89a7f203244345f702aa56f997c0b019b2bf63dda18",
+      "release_sha256": "300d4a03d9483be958b1d89a7f203244345f702aa56f997c0b019b2bf63dda18",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/source-stdout-check.json",
+      "frozen_sha256": "739fa17c8d33c0457f2f83cb6df164d5bb236de740676ab18d7655eccc4c93cf",
+      "release_sha256": "739fa17c8d33c0457f2f83cb6df164d5bb236de740676ab18d7655eccc4c93cf",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/source-ten-stdout.txt",
+      "frozen_sha256": "f7de052c270e1d2489d57848383a9406fc8701d7077aa10a955cbab43aeb19f4",
+      "release_sha256": "f7de052c270e1d2489d57848383a9406fc8701d7077aa10a955cbab43aeb19f4",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/source-twenty-stdout.txt",
+      "frozen_sha256": "24823fc7983643fd838ad0ca9baa420e2a08d28ab933b0e46b9ea863efd04bbb",
+      "release_sha256": "24823fc7983643fd838ad0ca9baa420e2a08d28ab933b0e46b9ea863efd04bbb",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/test-fixture-repair.json",
+      "frozen_sha256": "8256f3a5b60026e9d6171e8338c4e3e9f2d4463d29fd4f179ca4386294363317",
+      "release_sha256": "8256f3a5b60026e9d6171e8338c4e3e9f2d4463d29fd4f179ca4386294363317",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/test-fixture-repair.patch",
+      "frozen_sha256": "8b9e62dfd8d09b969c0d494b9193f72fd2b393c50e4ad1496dc184002e205b8a",
+      "release_sha256": "8b9e62dfd8d09b969c0d494b9193f72fd2b393c50e4ad1496dc184002e205b8a",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/tests-final-stderr.txt",
+      "frozen_sha256": "ea3372ac2a3c182abc793cd47425ab59ef506e66bf6b7970c39eaaf34eee7a7b",
+      "release_sha256": "ea3372ac2a3c182abc793cd47425ab59ef506e66bf6b7970c39eaaf34eee7a7b",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/tests-final-stdout.txt",
+      "frozen_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/tests-final.json",
+      "frozen_sha256": "3b6853fb41f78d52d789360ef4a72a884d1c27d543e6b6c5676d0eb28bb12450",
+      "release_sha256": "3b6853fb41f78d52d789360ef4a72a884d1c27d543e6b6c5676d0eb28bb12450",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/tests-stderr.txt",
+      "frozen_sha256": "d824877a2dd9544d342c18e5c445879d54f12833cd763215cbfb3c1f3f23b967",
+      "release_sha256": "d824877a2dd9544d342c18e5c445879d54f12833cd763215cbfb3c1f3f23b967",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/tests-stdout.txt",
+      "frozen_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "release_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "status": "unchanged"
+    },
+    {
+      "path": "logs/vendor-migration.json",
+      "frozen_sha256": "7e4e79fd591cf5ebaa02530d1c837dc7807da6dccc0bb601cb5e93f2bd6cc13e",
+      "release_sha256": "7e4e79fd591cf5ebaa02530d1c837dc7807da6dccc0bb601cb5e93f2bd6cc13e",
+      "status": "unchanged"
+    },
+    {
+      "path": "paper.md",
+      "frozen_sha256": "a4ebdd280e919296604007fefe95d8b16db8b9df2a6287028c832e0af1d5ec27",
+      "release_sha256": "a70db0b196f6e9782b0f2987f395c223fa18829d22924eacd14aef8b59ad2ef5",
+      "status": "approved_document_change"
+    },
+    {
+      "path": "protocol.md",
+      "frozen_sha256": "cb4c64b0be1e6da7c453fb329c30161b9ae6b4645dac971ea0db09980eab0fda",
+      "release_sha256": "cb4c64b0be1e6da7c453fb329c30161b9ae6b4645dac971ea0db09980eab0fda",
+      "status": "unchanged"
+    },
+    {
+      "path": "results/paired-paths.csv.gz",
+      "frozen_sha256": "68d55e88e2f9467c4d4e5da23e6340e89128dd4f3e045bac6c430cf760faafd9",
+      "release_sha256": "68d55e88e2f9467c4d4e5da23e6340e89128dd4f3e045bac6c430cf760faafd9",
+      "status": "unchanged"
+    },
+    {
+      "path": "results/paired-summary.csv",
+      "frozen_sha256": "90ff79423cded3dcd668a236cca8e8496ba445a68816ce78fe9d00a69b47d2c2",
+      "release_sha256": "90ff79423cded3dcd668a236cca8e8496ba445a68816ce78fe9d00a69b47d2c2",
+      "status": "unchanged"
+    },
+    {
+      "path": "results/printed-checks.csv",
+      "frozen_sha256": "6059208b0c1472f054180f08e8707ef07f8d5a1082626e26faff53e1602e070c",
+      "release_sha256": "6059208b0c1472f054180f08e8707ef07f8d5a1082626e26faff53e1602e070c",
+      "status": "unchanged"
+    },
+    {
+      "path": "results/summary.csv",
+      "frozen_sha256": "94bf667619cdcee832c7a313a20a52d6c9438cdb6fb6bc5accd1ecb6b82d96c1",
+      "release_sha256": "94bf667619cdcee832c7a313a20a52d6c9438cdb6fb6bc5accd1ecb6b82d96c1",
+      "status": "unchanged"
+    },
+    {
+      "path": "sources/README.md",
+      "frozen_sha256": "efeb1c16a9eb61ec7199f790df62da2b428b6a3f74776792ecdf3889d6516b0c",
+      "release_sha256": "efeb1c16a9eb61ec7199f790df62da2b428b6a3f74776792ecdf3889d6516b0c",
+      "status": "unchanged"
+    },
+    {
+      "path": "sources/manifest.csv",
+      "frozen_sha256": "210ed2b443ebdaeb05db33f524abca00d1238be9c72b01333d0cfd7ea9ac1430",
+      "release_sha256": "210ed2b443ebdaeb05db33f524abca00d1238be9c72b01333d0cfd7ea9ac1430",
+      "status": "unchanged"
+    },
+    {
+      "path": "sources/manifest.json",
+      "frozen_sha256": "fc6d4952b489b48cbbec15079cdda82fd8500621070acb100756645264288394",
+      "release_sha256": "fc6d4952b489b48cbbec15079cdda82fd8500621070acb100756645264288394",
+      "status": "unchanged"
+    },
+    {
+      "path": "sources/snapshots/LICENSE",
+      "frozen_sha256": "86b79076556abee744cd76ee07bd5b36c5a7a9217e1175a297c43fc21e5d86ea",
+      "release_sha256": "86b79076556abee744cd76ee07bd5b36c5a7a9217e1175a297c43fc21e5d86ea",
+      "status": "unchanged"
+    },
+    {
+      "path": "sources/snapshots/LICENSE-CODE.md",
+      "frozen_sha256": "c80852cede38e870f73d41b6188076f6c12b0073ac0fe3b766ff63c00c2de347",
+      "release_sha256": "c80852cede38e870f73d41b6188076f6c12b0073ac0fe3b766ff63c00c2de347",
+      "status": "unchanged"
+    },
+    {
+      "path": "sources/snapshots/LICENSE-DOCS.md",
+      "frozen_sha256": "cf3f8beacb980f9f9cbab8197b148df730f8b02aabe30e21bad69cb230f8fab6",
+      "release_sha256": "cf3f8beacb980f9f9cbab8197b148df730f8b02aabe30e21bad69cb230f8fab6",
+      "status": "unchanged"
+    },
+    {
+      "path": "sources/snapshots/whitepaper.md",
+      "frozen_sha256": "c75332763be8a37527c912d6f96dfaf61b63e13febcbd731b54380589734b2fc",
+      "release_sha256": "c75332763be8a37527c912d6f96dfaf61b63e13febcbd731b54380589734b2fc",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/four-pillars/LICENSE-CODE.md",
+      "frozen_sha256": "c80852cede38e870f73d41b6188076f6c12b0073ac0fe3b766ff63c00c2de347",
+      "release_sha256": "c80852cede38e870f73d41b6188076f6c12b0073ac0fe3b766ff63c00c2de347",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/four-pillars/README.md",
+      "frozen_sha256": "e66138d8c9f90114f0f7f2d71a4570a92e457a90a604282d3769a5fd185fc670",
+      "release_sha256": "e66138d8c9f90114f0f7f2d71a4570a92e457a90a604282d3769a5fd185fc670",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/four-pillars/extended_monte_carlo.py",
+      "frozen_sha256": "67e0a276749642fd07cf6587aeff6bb0e805f0e775e112fc701c8eb96a5ddd29",
+      "release_sha256": "67e0a276749642fd07cf6587aeff6bb0e805f0e775e112fc701c8eb96a5ddd29",
+      "status": "unchanged"
+    },
+    {
+      "path": "vendor/four-pillars/monte_carlo_tax.py",
+      "frozen_sha256": "69e335a95d206bc6fe32560a70988b10a2fa07e41dd3669ff8055aa68b1aee76",
+      "release_sha256": "69e335a95d206bc6fe32560a70988b10a2fa07e41dd3669ff8055aa68b1aee76",
+      "status": "unchanged"
+    }
+  ],
+  "numerical_manifest_checks": [
+    {
+      "path": "protocol.md",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "data/source-hashes.json",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "data/printed-targets.json",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "data/DICTIONARY.md",
+      "matches_historical_manifest": false
+    },
+    {
+      "path": "code/analyze.py",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "code/test_analysis.py",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "code/check_source_stdout.py",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "code/README.md",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "vendor/four-pillars/monte_carlo_tax.py",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "vendor/four-pillars/extended_monte_carlo.py",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "vendor/four-pillars/LICENSE-CODE.md",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "sources/snapshots/whitepaper.md",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "results/summary.csv",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "results/paired-summary.csv",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "results/paired-paths.csv.gz",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "results/printed-checks.csv",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "logs/numerical-pre-execution.json",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "logs/execution.json",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "logs/analysis-stdout.txt",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "logs/analysis-stderr.txt",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "logs/source-ten-stdout.txt",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "logs/source-twenty-stdout.txt",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "logs/numerical-run-log.json",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "logs/tests-stdout.txt",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "logs/tests-stderr.txt",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "logs/test-fixture-repair.patch",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "logs/test-fixture-repair.json",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "logs/tests-final-stdout.txt",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "logs/tests-final-stderr.txt",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "logs/tests-final.json",
+      "matches_historical_manifest": true
+    },
+    {
+      "path": "logs/source-stdout-check.json",
+      "matches_historical_manifest": true
+    }
+  ],
+  "release_record_sha256": {
+    "studies/2026-10-12-dividend-policy-comparability/reviews/release-only.patch": "a38511502d3ac17bb97ccb53511923e37e7264db88859e58c4957a4277d0eb47",
+    "studies/2026-10-12-dividend-policy-comparability/reviews/release-changes.json": "5b4dab9d6192946751714eef18e5e2dcf163baab5a7953a77de5d9b58197de3a",
+    "studies/2026-10-12-dividend-policy-comparability/reviews/author-response.md": "026abab4229b7baa78e334cf20ec2542518dde5a7315b8dc2feab8e87a3c197f",
+    "studies/2026-10-12-dividend-policy-comparability/logs/completion.md": "10bcfcda5398c85bb505e0b717f10537e4e7f0886cef73a095566a177c5a9339",
+    "README.md": "228edba906863877d6f9a0ea9d9b368e06cf9392a3e873c95d3715668d86b9fc",
+    "docs/STUDY_QUEUE.md": "a7202940bf086b24f432035407ad877b2f390925e123254fbe2dc2a43f776859",
+    "docs/READING_GUIDE.md": "c503f99c3a8b76f2c9c149a7b200a5e97cf444b947de2e847202b15ec2258d8a",
+    "docs/reviews/reading-guide-s018-review.md": "29a1d4d8edf89044871c75962d937b663d91a94857c6ab4d9cd5d4ac3c3df183"
+  },
+  "local_links_checked": 108,
+  "link_check_scope": "Existing relative path targets only; URL status and heading fragments not checked.",
+  "local_links": [
+    {
+      "from": "README.md",
+      "target": "docs/RESEARCH_CONTINUATION_2026-10-11.md"
+    },
+    {
+      "from": "README.md",
+      "target": "docs/READING_GUIDE.md"
+    },
+    {
+      "from": "README.md",
+      "target": "docs/reviews/reading-guide-review.md"
+    },
+    {
+      "from": "README.md",
+      "target": "docs/reviews/reading-guide-update-review.md"
+    },
+    {
+      "from": "README.md",
+      "target": "docs/reviews/reading-guide-s016-s017-review.md"
+    },
+    {
+      "from": "README.md",
+      "target": "docs/reviews/reading-guide-s018-review.md"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-12-dividend-policy-comparability/paper.md"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-12-dividend-policy-comparability/"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-12-dividend-health-coverage/paper.md"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-12-dividend-health-coverage/output/pdf/paper.pdf"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-12-dividend-health-coverage/"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-12-ai-output-reconciliation/paper.md"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-12-ai-output-reconciliation/output/pdf/paper.pdf"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-12-ai-output-reconciliation/"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-12-equity-levy-aggregation/paper.md"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-12-equity-levy-aggregation/output/pdf/paper.pdf"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-12-equity-levy-aggregation/"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-12-compute-allocation/paper.md"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-12-compute-allocation/output/pdf/paper.pdf"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-12-compute-allocation/"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-12-supplier-continuity/paper.md"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-12-supplier-continuity/output/pdf/paper.pdf"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-12-supplier-continuity/"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-12-redistribution-audit/paper.md"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-12-redistribution-audit/"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-11-household-debt/paper.md"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-11-household-debt/extensions/benefit-unit/output/figures/equal-budget-outcomes.png"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-11-household-debt/"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-11-public-ownership-control/paper.md"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-11-public-ownership-control/output/pdf/paper.pdf"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-11-public-ownership-control/"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-11-international-dividend/paper.md"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-11-international-dividend/"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-11-public-capital-acquisition/paper.md"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-11-public-capital-acquisition/"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-11-dividend-reserves/paper.md"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-11-dividend-reserves/"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-11-automation-imports/paper.md"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-11-automation-imports/"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-11-benefit-access/paper.md"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-11-benefit-access/"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-11-post-labor-floor/paper.md"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-11-post-labor-floor/"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-09-flare-export-preservation/paper.md"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-09-flare-export-preservation/output/pdf/paper.pdf"
+    },
+    {
+      "from": "README.md",
+      "target": "studies/2026-10-09-flare-export-preservation/"
+    },
+    {
+      "from": "README.md",
+      "target": "docs/STUDY_QUEUE.md"
+    },
+    {
+      "from": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-09-flare-export-preservation/"
+    },
+    {
+      "from": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-11-post-labor-floor/"
+    },
+    {
+      "from": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-11-dividend-reserves/"
+    },
+    {
+      "from": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-11-automation-imports/"
+    },
+    {
+      "from": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-11-benefit-access/"
+    },
+    {
+      "from": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-11-public-capital-acquisition/"
+    },
+    {
+      "from": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-11-international-dividend/"
+    },
+    {
+      "from": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-11-public-ownership-control/"
+    },
+    {
+      "from": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-11-household-debt/"
+    },
+    {
+      "from": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-12-redistribution-audit/"
+    },
+    {
+      "from": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-12-supplier-continuity/"
+    },
+    {
+      "from": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-12-compute-allocation/"
+    },
+    {
+      "from": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-12-equity-levy-aggregation/"
+    },
+    {
+      "from": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-12-ai-output-reconciliation/"
+    },
+    {
+      "from": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-12-dividend-health-coverage/"
+    },
+    {
+      "from": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-12-dividend-policy-comparability/"
+    },
+    {
+      "from": "docs/STUDY_QUEUE.md",
+      "target": "RESEARCH_CONTINUATION_2026-10-11.md"
+    },
+    {
+      "from": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-11-post-labor-floor/paper.md"
+    },
+    {
+      "from": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-12-compute-allocation/paper.md"
+    },
+    {
+      "from": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-11-household-debt/paper.md"
+    },
+    {
+      "from": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-11-household-debt/paper.md"
+    },
+    {
+      "from": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-11-public-capital-acquisition/paper.md"
+    },
+    {
+      "from": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-11-automation-imports/paper.md"
+    },
+    {
+      "from": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-12-equity-levy-aggregation/paper.md"
+    },
+    {
+      "from": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-11-international-dividend/paper.md"
+    },
+    {
+      "from": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-11-dividend-reserves/paper.md"
+    },
+    {
+      "from": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-11-benefit-access/paper.md"
+    },
+    {
+      "from": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-12-supplier-continuity/paper.md"
+    },
+    {
+      "from": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-12-dividend-health-coverage/paper.md"
+    },
+    {
+      "from": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-11-public-ownership-control/paper.md"
+    },
+    {
+      "from": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-12-redistribution-audit/paper.md"
+    },
+    {
+      "from": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-12-ai-output-reconciliation/paper.md"
+    },
+    {
+      "from": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-12-dividend-policy-comparability/paper.md"
+    },
+    {
+      "from": "docs/READING_GUIDE.md",
+      "target": "STUDY_QUEUE.md"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/paper.md",
+      "target": "reviews/feasibility-independent.md"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/paper.md",
+      "target": "sources/README.md"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/paper.md",
+      "target": "protocol.md"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/paper.md",
+      "target": "results/printed-checks.csv"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/paper.md",
+      "target": "results/summary.csv"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/paper.md",
+      "target": "results/paired-summary.csv"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/paper.md",
+      "target": "results/paired-paths.csv.gz"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/paper.md",
+      "target": "REPRODUCTION.md"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/paper.md",
+      "target": "reviews/critical-review.md"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/paper.md",
+      "target": "reviews/author-response.md"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/paper.md",
+      "target": "sources/snapshots/whitepaper.md"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/paper.md",
+      "target": "vendor/four-pillars/"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/paper.md",
+      "target": "sources/README.md"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/paper.md",
+      "target": "REPRODUCTION.md"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/README.md",
+      "target": "paper.md"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/README.md",
+      "target": "protocol.md"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/README.md",
+      "target": "sources/README.md"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/README.md",
+      "target": "REPRODUCTION.md"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/README.md",
+      "target": "reviews/critical-review.md"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/README.md",
+      "target": "reviews/author-response.md"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/REPRODUCTION.md",
+      "target": "code/README.md"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/REPRODUCTION.md",
+      "target": "data/DICTIONARY.md"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/REPRODUCTION.md",
+      "target": "logs/numerical-manifest.json"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/REPRODUCTION.md",
+      "target": "sources/README.md"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/REPRODUCTION.md",
+      "target": "reviews/release-changes.json"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/reviews/author-response.md",
+      "target": "release-changes.json"
+    },
+    {
+      "from": "studies/2026-10-12-dividend-policy-comparability/reviews/author-response.md",
+      "target": "release-only.patch"
+    }
+  ],
+  "not_checked": "Later release-hygiene record, GitHub publication, or any later file edits."
+}

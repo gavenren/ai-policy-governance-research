@@ -1,0 +1,438 @@
+{
+  "started_at_utc": "2026-10-12T19:02:33.529969+00:00",
+  "completed_at_utc": "2026-10-12T19:02:36.386333+00:00",
+  "python": "3.12.14",
+  "code_sha256": "ad7cb7e45a6cc196606f05b087a64272bebde35bd78ad5835cdb91e81c5caa8e",
+  "protocol_sha256": "cb4c64b0be1e6da7c453fb329c30161b9ae6b4645dac971ea0db09980eab0fda",
+  "source_hashes": {
+    "monte_carlo_tax.py": "69e335a95d206bc6fe32560a70988b10a2fa07e41dd3669ff8055aa68b1aee76",
+    "extended_monte_carlo.py": "67e0a276749642fd07cf6587aeff6bb0e805f0e775e112fc701c8eb96a5ddd29"
+  },
+  "source_cohort_paths": {
+    "ten": 2000,
+    "twenty": 2000
+  },
+  "paired_path_year_rows": 60000,
+  "policy_outcomes": 120000,
+  "summary_rows": 60,
+  "paired_summary_rows": 30,
+  "original_source_summary_matches": [
+    {
+      "year": 1,
+      "field": "gap_p10_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 1,
+      "field": "gap_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 1,
+      "field": "gap_p90_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 1,
+      "field": "surplus_fraction",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 1,
+      "field": "revenue_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 1,
+      "field": "outflow_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 1,
+      "field": "auto_tax_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 1,
+      "field": "vat_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 2,
+      "field": "gap_p10_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 2,
+      "field": "gap_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 2,
+      "field": "gap_p90_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 2,
+      "field": "surplus_fraction",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 2,
+      "field": "revenue_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 2,
+      "field": "outflow_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 2,
+      "field": "auto_tax_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 2,
+      "field": "vat_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 3,
+      "field": "gap_p10_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 3,
+      "field": "gap_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 3,
+      "field": "gap_p90_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 3,
+      "field": "surplus_fraction",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 3,
+      "field": "revenue_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 3,
+      "field": "outflow_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 3,
+      "field": "auto_tax_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 3,
+      "field": "vat_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 4,
+      "field": "gap_p10_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 4,
+      "field": "gap_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 4,
+      "field": "gap_p90_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 4,
+      "field": "surplus_fraction",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 4,
+      "field": "revenue_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 4,
+      "field": "outflow_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 4,
+      "field": "auto_tax_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 4,
+      "field": "vat_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 5,
+      "field": "gap_p10_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 5,
+      "field": "gap_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 5,
+      "field": "gap_p90_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 5,
+      "field": "surplus_fraction",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 5,
+      "field": "revenue_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 5,
+      "field": "outflow_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 5,
+      "field": "auto_tax_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 5,
+      "field": "vat_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 6,
+      "field": "gap_p10_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 6,
+      "field": "gap_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 6,
+      "field": "gap_p90_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 6,
+      "field": "surplus_fraction",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 6,
+      "field": "revenue_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 6,
+      "field": "outflow_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 6,
+      "field": "auto_tax_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 6,
+      "field": "vat_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 7,
+      "field": "gap_p10_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 7,
+      "field": "gap_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 7,
+      "field": "gap_p90_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 7,
+      "field": "surplus_fraction",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 7,
+      "field": "revenue_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 7,
+      "field": "outflow_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 7,
+      "field": "auto_tax_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 7,
+      "field": "vat_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 8,
+      "field": "gap_p10_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 8,
+      "field": "gap_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 8,
+      "field": "gap_p90_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 8,
+      "field": "surplus_fraction",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 8,
+      "field": "revenue_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 8,
+      "field": "outflow_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 8,
+      "field": "auto_tax_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 8,
+      "field": "vat_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 9,
+      "field": "gap_p10_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 9,
+      "field": "gap_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 9,
+      "field": "gap_p90_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 9,
+      "field": "surplus_fraction",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 9,
+      "field": "revenue_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 9,
+      "field": "outflow_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 9,
+      "field": "auto_tax_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 9,
+      "field": "vat_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 10,
+      "field": "gap_p10_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 10,
+      "field": "gap_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 10,
+      "field": "gap_p90_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 10,
+      "field": "surplus_fraction",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 10,
+      "field": "revenue_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 10,
+      "field": "outflow_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 10,
+      "field": "auto_tax_p50_billion",
+      "absolute_difference": 0.0
+    },
+    {
+      "year": 10,
+      "field": "vat_p50_billion",
+      "absolute_difference": 0.0
+    }
+  ],
+  "same_seed_cross_cohort_equal_revenue_cells": 10,
+  "compared_revenue_cells": 20000,
+  "first_path_first_ten_revenues_match": true,
+  "printed_targets": 28,
+  "printed_target_matches": 27,
+  "outputs": {
+    "summary.csv": "94bf667619cdcee832c7a313a20a52d6c9438cdb6fb6bc5accd1ecb6b82d96c1",
+    "paired-paths.csv.gz": "68d55e88e2f9467c4d4e5da23e6340e89128dd4f3e045bac6c430cf760faafd9",
+    "printed-checks.csv": "6059208b0c1472f054180f08e8707ef07f8d5a1082626e26faff53e1602e070c",
+    "paired-summary.csv": "90ff79423cded3dcd668a236cca8e8496ba445a68816ce78fe9d00a69b47d2c2"
+  },
+  "source_stdout_hashes": {
+    "source-ten-stdout.txt": "f7de052c270e1d2489d57848383a9406fc8701d7077aa10a955cbab43aeb19f4",
+    "source-twenty-stdout.txt": "24823fc7983643fd838ad0ca9baa420e2a08d28ab933b0e46b9ea863efd04bbb"
+  },
+  "exclusions": [],
+  "scope": "Conditional accounting comparison; no probability calibration or policy feedback."
+}

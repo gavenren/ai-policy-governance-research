@@ -1,0 +1,29 @@
+{
+  "check_type": "Evidence only; does not import or execute numerical source scripts",
+  "python": "3.13.7",
+  "runs": [
+    {
+      "command": [
+        "python3",
+        "studies/2026-10-12-dividend-policy-comparability/code/check_sources.py"
+      ],
+      "start_utc": "2026-10-12T19:03:10.123789+00:00",
+      "end_utc": "2026-10-12T19:03:10.190903+00:00",
+      "exit_code": 0,
+      "stdout": "{\"mode\": \"public\", \"private_files\": 0, \"public_source_files\": 6, \"short_quotes\": 7, \"source_entries\": 18, \"source_models_imported_or_executed\": false, \"status\": \"pass\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "studies/2026-10-12-dividend-policy-comparability/code/check_sources.py",
+        "--local"
+      ],
+      "start_utc": "2026-10-12T19:03:10.191039+00:00",
+      "end_utc": "2026-10-12T19:03:10.278038+00:00",
+      "exit_code": 0,
+      "stdout": "{\"mode\": \"local\", \"private_files\": 33, \"public_source_files\": 6, \"short_quotes\": 7, \"source_entries\": 18, \"source_models_imported_or_executed\": false, \"status\": \"pass\"}\n",
+      "stderr": ""
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "recorded_utc": "2026-10-12T19:07:05.184551+00:00",
+  "review_type": "Source-lead check; not separate formal critical review",
+  "reviewer": "AI source agent; authored source package, not central numerical implementation",
+  "first_manuscript_read_completed_by_utc": "2026-10-12T19:04:38Z",
+  "initial_manuscript_sha256": "bef5e05ba40ff26e64fc1d7c3864b01bd3c56622cce241c212ebd224b59a5a11",
+  "repaired_manuscript_sha256": "a4ebdd280e919296604007fefe95d8b16db8b9df2a6287028c832e0af1d5ec27",
+  "repair_verification_utc": "2026-10-12T19:06:01.760753Z",
+  "models_imported_or_executed": false,
+  "manuscript_edited_by_source_reviewer": false,
+  "new_network_sources": false,
+  "evidence_cutoff_utc": "2026-10-12T19:00:03Z",
+  "scope": "Read the full manuscript, compare source-facing clauses with retained read scope, inspect selected printed targets and execution metadata counts. No numerical rerun.",
+  "source_hashes": {
+    "F1": "c75332763be8a37527c912d6f96dfaf61b63e13febcbd731b54380589734b2fc",
+    "M1": "69e335a95d206bc6fe32560a70988b10a2fa07e41dd3669ff8055aa68b1aee76",
+    "M2": "67e0a276749642fd07cf6587aeff6bb0e805f0e775e112fc701c8eb96a5ddd29",
+    "F3": "0f5bbc963420393be36c71c549319fc36d7e4a04cc4c384f8e45eeb164496c0a",
+    "P1": "b82803c4ded5e88fa9e83304c85867a42ee3ae750ddf20aeb4e09711e89e73a0",
+    "P2": "be18d010c047364676ac945468ca0d8438b4effec7e8bb305124bc15f6dce42d",
+    "P3": "52f1df3db0438af15fa6171ecf7a1b2676d3d472162f921555b29b43c4893fb8"
+  },
+  "file_hashes": {
+    "paper.md": "a4ebdd280e919296604007fefe95d8b16db8b9df2a6287028c832e0af1d5ec27",
+    "sources/manifest.json": "fc6d4952b489b48cbbec15079cdda82fd8500621070acb100756645264288394",
+    "evidence/short-quotes.csv": "e18df07ac6f6799cb26ba8d5dd6e09a923450a842bf8da8f9991dc9f6ec32394",
+    "protocol.md": "cb4c64b0be1e6da7c453fb329c30161b9ae6b4645dac971ea0db09980eab0fda",
+    "results/printed-checks.csv": "6059208b0c1472f054180f08e8707ef07f8d5a1082626e26faff53e1602e070c",
+    "logs/execution.json": "886f4daf986e249f8765b5f38b93e2806f460a48862c929c98179f4d552e5120",
+    "logs/source-stdout-check.json": "739fa17c8d33c0457f2f83cb6df164d5bb236de740676ab18d7655eccc4c93cf",
+    "logs/protocol-freeze.json": "b6c0bc47a828d1a5c18d6d6b3d5778bcb28cf42af9a7190be29915a32e249baa",
+    "logs/numerical-run-log.json": "e58cc215874f2df716483182b9326584c0f79092b59af784388aaea5df77c293"
+  },
+  "findings": [
+    {
+      "id": "R1",
+      "severity": "minor, required",
+      "issue": "General nominal-dollar label exceeds verified source price convention.",
+      "status": "resolved in frozen manuscript",
+      "fix": "Model-dollar units; explicit unresolved source price basis."
+    },
+    {
+      "id": "R2",
+      "severity": "minor, required",
+      "issue": "Original summary-field count was 60 while saved record has 80.",
+      "status": "resolved in frozen manuscript",
+      "fix": "Count changed to 80."
+    },
+    {
+      "id": "R3",
+      "severity": "precision suggestion",
+      "issue": "Abstract could confuse fixed aggregate cost with fixed individual benefit.",
+      "status": "resolved in frozen manuscript",
+      "fix": "Abstract now states aggregate floor expenditure."
+    }
+  ],
+  "checks": [
+    {
+      "id": "C01",
+      "paper_location": "Sections 1 and 2.1",
+      "claim": "Identity, April 2026 version and proposed policy package",
+      "evidence": "F1 title, Sections 2\u20133",
+      "disposition": "pass",
+      "note": "The manuscript identifies a public working proposal. It does not claim enactment or verified national effects."
+    },
+    {
+      "id": "C02",
+      "paper_location": "Section 2.1 and abstract",
+      "claim": "Individual maximum and aggregate floor expense",
+      "evidence": "F1 Section 2.1 and 3.1; M1 constants; M2 constants",
+      "disposition": "pass after clarification",
+      "note": "The abstract now refers to aggregate floor expenditure. The main text separates $25,000 per person from the $4.62T aggregate assumption and does not validate coverage calibration."
+    },
+    {
+      "id": "C03",
+      "paper_location": "Section 2.1",
+      "claim": "Non-indexation and discretionary increases",
+      "evidence": "F1 Section 2.1",
+      "disposition": "pass",
+      "note": "The favorable fixed-payment interpretation is grounded in explicit source policy language. It is presented as an interpretation."
+    },
+    {
+      "id": "C04",
+      "paper_location": "Section 2.1 table and rule discussion",
+      "claim": "Annual reset and two-stage trigger",
+      "evidence": "M1 lines 154\u2013168; M2 lines 100\u2013108",
+      "disposition": "pass",
+      "note": "Each year starts from base. The second test uses the first-stage floor. It sets the aggregate to 120% of base, not a compounded second 20% increment."
+    },
+    {
+      "id": "C05",
+      "paper_location": "Section 2.1",
+      "claim": "Strict thresholds, start years, base supplementary/admin denominator and unused threshold parameter",
+      "evidence": "M1 lines 80\u201381 and 154\u2013168",
+      "disposition": "pass",
+      "note": "The manuscript describes the implemented rule and preserves its denominator choice."
+    },
+    {
+      "id": "C06",
+      "paper_location": "Sections 1\u20133",
+      "claim": "Common distributions, seed and path length",
+      "evidence": "M1 constants, GROWTH_PARAMS and run_simulation; M2 corresponding blocks",
+      "disposition": "pass",
+      "note": "Common distributions and seed agree. Different horizon lengths change random-stream consumption before the next path. No source-level paired-cohort claim is made."
+    },
+    {
+      "id": "C07",
+      "paper_location": "Section 2.2",
+      "claim": "Meaning of surplus and median consistency",
+      "evidence": "M1 reducer lines 207\u2013233; M2 reducer lines 131\u2013144",
+      "disposition": "pass",
+      "note": "Surplus means strictly positive annual gap. The middle order statistic cannot be negative when the positive share exceeds one-half. This is a definition check, not a source model run."
+    },
+    {
+      "id": "C08",
+      "paper_location": "Sections 1 and 2.2",
+      "claim": "Printed negative median / greater-than-half probability conflict",
+      "evidence": "F1 abstract, Sections 6.2 and 6.4",
+      "disposition": "pass",
+      "note": "The exact printed source statements support the manuscript. The difference between a median gap and a difference of medians is handled correctly."
+    },
+    {
+      "id": "C09",
+      "paper_location": "Sections 1, 2.2 and 4.1",
+      "claim": "Authors already requested reconciliation",
+      "evidence": "F3 Whitepaper Numbers That Need Updating, item 1",
+      "disposition": "pass",
+      "note": "Full note read. It names the older roughly 34% and later 55.7% values. No concealment or intent claim is made."
+    },
+    {
+      "id": "C10",
+      "paper_location": "Section 1",
+      "claim": "Bounded novelty statement",
+      "evidence": "logs/search-and-design.json and reviews/feasibility-source-lead.md",
+      "disposition": "pass",
+      "note": "The paper reports only what the bounded search found. It does not infer novelty from a lack of returned hits."
+    },
+    {
+      "id": "C11",
+      "paper_location": "Section 3",
+      "claim": "Source cutoff versus execution and later preparation",
+      "evidence": "sources/README.md; source-acquisitions.json; reviewer-source-acquisitions.json; protocol-freeze.json; numerical-run-log.json",
+      "disposition": "pass",
+      "note": "The cutoff concerns bytes acquired by 19:00:03 UTC. The plan was fixed at 18:59:28.032901 UTC. Numerical work began later at 19:02:33.488136 UTC. Preparation and reading can occur after a retrieval cutoff."
+    },
+    {
+      "id": "C12",
+      "paper_location": "Section 3 and references",
+      "claim": "Pinned source copies and rights",
+      "evidence": "source manifest; snapshots licence notices; vendor licence and migration record",
+      "disposition": "pass",
+      "note": "Whitepaper copy is unchanged under the stated CC BY 4.0 licence. The scripts are unchanged with MIT notice. No new licence for the original research is selected."
+    },
+    {
+      "id": "C13",
+      "paper_location": "Section 3",
+      "claim": "Cost reconstruction and revenue boost description",
+      "evidence": "M1 returned fields, expense and VAT blocks; M2 expense and VAT blocks",
+      "disposition": "pass at source level",
+      "note": "The ten-year source exposes the fields stated. The extended source uses a fixed floor and known supplementary/admin formulas. The VAT spending boost does not depend on the floor rule. Generated reconstruction correctness belongs to formal numerical review."
+    },
+    {
+      "id": "C14",
+      "paper_location": "Section 4.1",
+      "claim": "Twenty-eight selected printed targets",
+      "evidence": "results/printed-checks.csv versus F1 Sections 6.2 and 6.4",
+      "disposition": "pass for transcription",
+      "note": "All 28 source values and locations were checked against retained F1. The computed columns were not independently reproduced by this source check."
+    },
+    {
+      "id": "C15",
+      "paper_location": "Section 4.2",
+      "claim": "Unit label for model amounts",
+      "evidence": "F1 Section 2.1 and final line; M1\u2013M2 numerical input conventions",
+      "disposition": "pass after required clarification",
+      "note": "The paper now calls amounts model dollars and states that it does not resolve the source price basis. Non-indexed payment language alone does not verify that every modeled flow uses a consistent nominal-dollar basis."
+    },
+    {
+      "id": "C16",
+      "paper_location": "Section 4.3",
+      "claim": "Number of saved original summary comparisons",
+      "evidence": "logs/execution.json original_source_summary_matches",
+      "disposition": "pass after count repair",
+      "note": "Saved metadata has 80 entries, not 60. The frozen paper now says 80. This was a count of saved records, not a model rerun."
+    },
+    {
+      "id": "C17",
+      "paper_location": "Section 4.3",
+      "claim": "Two hundred printed output checks",
+      "evidence": "logs/source-stdout-check.json",
+      "disposition": "pass for metadata linkage",
+      "note": "The saved record declares 200 checks and has 200 rows. It limits its scope to baseline tables. This check did not reproduce those numerical comparisons."
+    },
+    {
+      "id": "C18",
+      "paper_location": "Section 6 and references",
+      "claim": "Hoynes\u2013Rothstein prior claims",
+      "evidence": "P1 PDF pages 11\u201316 and 24\u201326; selected earlier framework pages",
+      "disposition": "pass",
+      "note": "Guarantee, phase-out, financing and replacement scope are inside the read passages. No full-paper read or reproduction claim is made."
+    },
+    {
+      "id": "C19",
+      "paper_location": "Section 6 and references",
+      "claim": "Wenger prior claims",
+      "evidence": "P2 README, transfer indexation and limitations",
+      "disposition": "pass",
+      "note": "The README distinguishes fixed and indexed payments and calls its model uncalibrated. The manuscript does not claim to have tested its code."
+    },
+    {
+      "id": "C20",
+      "paper_location": "Section 6 and references",
+      "claim": "OECD prior claims",
+      "evidence": "P3 Sections 1 and 4, printed pages 3\u20136 and 11\u201312",
+      "disposition": "pass",
+      "note": "The retained note changes benefit amounts or tax rates under fiscal constraints. The manuscript does not claim to reproduce the estimates."
+    },
+    {
+      "id": "C21",
+      "paper_location": "Sections 5 and 6",
+      "claim": "Full work displacement and inference limits",
+      "evidence": "M1\u2013M2 wage-related revenue and displacement blocks; F1 scope",
+      "disposition": "pass",
+      "note": "The paper states that these scripts do not model complete loss of human competitiveness. It does not treat simulation frequencies as empirical national probabilities."
+    },
+    {
+      "id": "C22",
+      "paper_location": "Sections 5 and 6",
+      "claim": "Other tax, retirement, legal and welfare questions excluded",
+      "evidence": "F1 wider scope; acquired-files read-scope ledger",
+      "disposition": "pass",
+      "note": "The manuscript does not validate the separate models or infer welfare dominance from a smaller deficit. The word private identifies non-government authorship, not private access; the surrounding public-source description is clear."
+    },
+    {
+      "id": "C23",
+      "paper_location": "Section 4 numerical estimates, path counts and test outcomes",
+      "claim": "Generated analysis results",
+      "evidence": "Analysis code, generated result files and execution logs",
+      "disposition": "outside this check",
+      "note": "The source lead checked the source definitions and selected source transcriptions only. No analysis script was run and no central numerical result was independently recomputed. Separate formal review is still needed."
+    }
+  ],
+  "disposition": "No unresolved source-claim blocker within this scope at the repaired hash. This does not close the formal numerical or critical review."
+}

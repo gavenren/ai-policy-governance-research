@@ -1,0 +1,8 @@
+source_id,locator,quote,meaning,words
+F1,"Section 6.4, opening sentence",The baseline Monte Carlo was extended to a 20-year horizon using identical parameter distributions.,The sentence states a parameter-distribution comparison. It does not itself prove that the payment rule is identical.,14
+F3,"Whitepaper Numbers That Need Updating, item 1",Need to reconcile.,The authors already record the need to reconcile the two probabilities.,3
+M1,lines 154–155,Floor: fixed unless scaled (discretionary),Source comment; exact executable rule is in the preserved licensed source file.,5
+M2,line 101,"floor = BASE_OUTFLOWS[""Floor_Payments""]",The extended source resets the payment total to the base without a scaling branch.,3
+P1,PDF page 15 / printed page 13,Cost is a first-order concern for any UBI program,General fiscal-design trade-offs predate this audit.,9
+P2,"Negative Income Tax / UBI, Transfer indexation",The model offers two modes:,An existing AI-economy model already separates indexed and fixed nominal transfers.,5
+P3,"Section 4, printed page 11 / PDF page 13",To compare like with like across countries,The note holds a specified fiscal condition fixed while changing named policy components.,7

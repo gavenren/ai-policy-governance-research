@@ -1,0 +1,197 @@
+{
+  "saved_at_utc": "2026-10-12T19:05:05.982657Z",
+  "state": "Numerical package complete; independent review pending",
+  "protocol_sha256": "cb4c64b0be1e6da7c453fb329c30161b9ae6b4645dac971ea0db09980eab0fda",
+  "paths_per_cohort": 2000,
+  "paired_path_years": 60000,
+  "policy_outcomes": 120000,
+  "aggregate_rows": 60,
+  "paired_summary_rows": 30,
+  "printed_checks": 28,
+  "printed_matches": 27,
+  "retained_printed_mismatches": [
+    {
+      "claim_id": "6.2-ten-trigger-10-surplus_fraction",
+      "source_id": "F1",
+      "locator": "Whitepaper section 6.2",
+      "cohort": "ten",
+      "policy": "trigger",
+      "year": "10",
+      "field": "surplus_fraction",
+      "scale": "100",
+      "format": ".1f",
+      "printed": "55.7",
+      "source_printed_text": "55.7%",
+      "expected_relation_before_execution": "mismatch expected from source screen",
+      "computed": "0.3435",
+      "rendered": "34.4",
+      "matches": "False"
+    }
+  ],
+  "ten_source_reducer_comparisons": 80,
+  "source_stdout_checks": 200,
+  "tests_final_passed": 11,
+  "test_failure_retained": "One initial test fixture failed from floating-point boundary construction; fixture-only repair is recorded. Source code, analysis and results unchanged after first execution.",
+  "same_seed_revenue_comparison": {
+    "equal_cells": 10,
+    "total_cells": 20000,
+    "first_path_first_ten_match": true
+  },
+  "files": [
+    {
+      "path": "protocol.md",
+      "bytes": 5942,
+      "sha256": "cb4c64b0be1e6da7c453fb329c30161b9ae6b4645dac971ea0db09980eab0fda"
+    },
+    {
+      "path": "data/source-hashes.json",
+      "bytes": 192,
+      "sha256": "33d8223af1d026a57decddd9294b17c0d903b4b437e9adf498b0440c0d151dfa"
+    },
+    {
+      "path": "data/printed-targets.json",
+      "bytes": 10624,
+      "sha256": "e72ac141a08c8c72a8437304e8810b0840d232b719dcdbcca2eada614aa758c8"
+    },
+    {
+      "path": "data/DICTIONARY.md",
+      "bytes": 4825,
+      "sha256": "01973f8e04e0fa1e1afb013601a7634b7c4452ee6ea78cfd0d137e2d3e3c5958"
+    },
+    {
+      "path": "code/analyze.py",
+      "bytes": 8502,
+      "sha256": "ad7cb7e45a6cc196606f05b087a64272bebde35bd78ad5835cdb91e81c5caa8e"
+    },
+    {
+      "path": "code/test_analysis.py",
+      "bytes": 1472,
+      "sha256": "bd0285999204dbc7901168a4a0007d9fb5bf591892f38d26c67398399da7f703"
+    },
+    {
+      "path": "code/check_source_stdout.py",
+      "bytes": 2303,
+      "sha256": "5b744036cb0987e26fd3404e158477cbf98dc894fc9b11b6b834c740aa06259a"
+    },
+    {
+      "path": "code/README.md",
+      "bytes": 3864,
+      "sha256": "00d00a22dd4ea7b1ff3b37ba52b90b2566dc34151d4cce21fe73f2f850a75053"
+    },
+    {
+      "path": "vendor/four-pillars/monte_carlo_tax.py",
+      "bytes": 13735,
+      "sha256": "69e335a95d206bc6fe32560a70988b10a2fa07e41dd3669ff8055aa68b1aee76"
+    },
+    {
+      "path": "vendor/four-pillars/extended_monte_carlo.py",
+      "bytes": 7980,
+      "sha256": "67e0a276749642fd07cf6587aeff6bb0e805f0e775e112fc701c8eb96a5ddd29"
+    },
+    {
+      "path": "vendor/four-pillars/LICENSE-CODE.md",
+      "bytes": 1172,
+      "sha256": "c80852cede38e870f73d41b6188076f6c12b0073ac0fe3b766ff63c00c2de347"
+    },
+    {
+      "path": "sources/snapshots/whitepaper.md",
+      "bytes": 42292,
+      "sha256": "c75332763be8a37527c912d6f96dfaf61b63e13febcbd731b54380589734b2fc"
+    },
+    {
+      "path": "results/summary.csv",
+      "bytes": 10844,
+      "sha256": "94bf667619cdcee832c7a313a20a52d6c9438cdb6fb6bc5accd1ecb6b82d96c1"
+    },
+    {
+      "path": "results/paired-summary.csv",
+      "bytes": 1637,
+      "sha256": "90ff79423cded3dcd668a236cca8e8496ba445a68816ce78fe9d00a69b47d2c2"
+    },
+    {
+      "path": "results/paired-paths.csv.gz",
+      "bytes": 2815440,
+      "sha256": "68d55e88e2f9467c4d4e5da23e6340e89128dd4f3e045bac6c430cf760faafd9"
+    },
+    {
+      "path": "results/printed-checks.csv",
+      "bytes": 4423,
+      "sha256": "6059208b0c1472f054180f08e8707ef07f8d5a1082626e26faff53e1602e070c"
+    },
+    {
+      "path": "logs/numerical-pre-execution.json",
+      "bytes": 1557,
+      "sha256": "6484b0d963f5e0ed1dffede6fc6f7594a0265b02ce5ba0db93c61dd717865f00"
+    },
+    {
+      "path": "logs/execution.json",
+      "bytes": 9590,
+      "sha256": "886f4daf986e249f8765b5f38b93e2806f460a48862c929c98179f4d552e5120"
+    },
+    {
+      "path": "logs/analysis-stdout.txt",
+      "bytes": 4093,
+      "sha256": "a91e2bebd18a7e831548bd56bb3cbfa1f9bdd05f327b13633fc112094067a3a5"
+    },
+    {
+      "path": "logs/analysis-stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/source-ten-stdout.txt",
+      "bytes": 3730,
+      "sha256": "f7de052c270e1d2489d57848383a9406fc8701d7077aa10a955cbab43aeb19f4"
+    },
+    {
+      "path": "logs/source-twenty-stdout.txt",
+      "bytes": 3873,
+      "sha256": "24823fc7983643fd838ad0ca9baa420e2a08d28ab933b0e46b9ea863efd04bbb"
+    },
+    {
+      "path": "logs/numerical-run-log.json",
+      "bytes": 1616,
+      "sha256": "e58cc215874f2df716483182b9326584c0f79092b59af784388aaea5df77c293"
+    },
+    {
+      "path": "logs/tests-stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/tests-stderr.txt",
+      "bytes": 1727,
+      "sha256": "d824877a2dd9544d342c18e5c445879d54f12833cd763215cbfb3c1f3f23b967"
+    },
+    {
+      "path": "logs/test-fixture-repair.patch",
+      "bytes": 1132,
+      "sha256": "8b9e62dfd8d09b969c0d494b9193f72fd2b393c50e4ad1496dc184002e205b8a"
+    },
+    {
+      "path": "logs/test-fixture-repair.json",
+      "bytes": 675,
+      "sha256": "8256f3a5b60026e9d6171e8338c4e3e9f2d4463d29fd4f179ca4386294363317"
+    },
+    {
+      "path": "logs/tests-final-stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/tests-final-stderr.txt",
+      "bytes": 1038,
+      "sha256": "ea3372ac2a3c182abc793cd47425ab59ef506e66bf6b7970c39eaaf34eee7a7b"
+    },
+    {
+      "path": "logs/tests-final.json",
+      "bytes": 606,
+      "sha256": "3b6853fb41f78d52d789360ef4a72a884d1c27d543e6b6c5676d0eb28bb12450"
+    },
+    {
+      "path": "logs/source-stdout-check.json",
+      "bytes": 41028,
+      "sha256": "739fa17c8d33c0457f2f83cb6df164d5bb236de740676ab18d7655eccc4c93cf"
+    }
+  ]
+}

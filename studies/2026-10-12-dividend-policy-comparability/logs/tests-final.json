@@ -1,0 +1,20 @@
+{
+  "started_at_utc": "2026-10-12T19:03:44.816454+00:00",
+  "completed_at_utc": "2026-10-12T19:03:44.917756+00:00",
+  "command": [
+    "python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "studies/2026-10-12-dividend-policy-comparability/code",
+    "-p",
+    "test_analysis.py",
+    "-v"
+  ],
+  "exit_status": 0,
+  "tests": 11,
+  "test_code_sha256": "bd0285999204dbc7901168a4a0007d9fb5bf591892f38d26c67398399da7f703",
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "ea3372ac2a3c182abc793cd47425ab59ef506e66bf6b7970c39eaaf34eee7a7b"
+}

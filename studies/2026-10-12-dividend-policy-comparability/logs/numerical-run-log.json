@@ -1,0 +1,42 @@
+{
+  "runs": [
+    {
+      "name": "analysis",
+      "command": [
+        "python",
+        "studies/2026-10-12-dividend-policy-comparability/code/analyze.py"
+      ],
+      "started_at_utc": "2026-10-12T19:02:33.488136Z",
+      "completed_at_utc": "2026-10-12T19:02:36.422327Z",
+      "exit_status": 0,
+      "stdout": "logs/analysis-stdout.txt",
+      "stdout_sha256": "a91e2bebd18a7e831548bd56bb3cbfa1f9bdd05f327b13633fc112094067a3a5",
+      "stderr": "logs/analysis-stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "tests",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "studies/2026-10-12-dividend-policy-comparability/code",
+        "-p",
+        "test_analysis.py",
+        "-v"
+      ],
+      "started_at_utc": "2026-10-12T19:02:36.423383Z",
+      "completed_at_utc": "2026-10-12T19:02:36.490897Z",
+      "exit_status": 1,
+      "stdout": "logs/tests-stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": "logs/tests-stderr.txt",
+      "stderr_sha256": "d824877a2dd9544d342c18e5c445879d54f12833cd763215cbfb3c1f3f23b967",
+      "original_stderr_sha256": "27866b168f97f46f05e6bcb91e28860186534c4f7e6ea2e9e82b9137cbe55a26",
+      "sanitization": "Removed the absolute local checkout prefix from traceback file names; all error text retained. Original raw log retained in ignored storage.",
+      "original_raw_log": ".local-verification/s018-numerical-tests/first-tests-stderr.raw.txt"
+    }
+  ]
+}

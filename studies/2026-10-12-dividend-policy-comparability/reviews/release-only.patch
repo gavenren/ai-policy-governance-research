@@ -1,0 +1,50 @@
+--- frozen/paper.md
++++ release/paper.md
+@@ -1,7 +1,7 @@
+ # A Smaller Deficit for Which Dividend?
+ ## Payment commitments in a public model of automation finance
+ 
+-**State: Working notes.** Study S018. October 12, 2026. AI-assisted research comment. Source checks and numerical analysis are complete; separate critical review is pending. No human or journal peer review has occurred.
++**State: Complete-study draft.** Study S018. October 12, 2026. AI-assisted research comment. Source checks, numerical analysis and separate AI critical review are complete. No human or journal peer review has occurred.
+ 
+ ## Abstract
+ 
+@@ -122,7 +122,7 @@
+ 
+ ## Research record and disclosure
+ 
+-AI agents conducted source research, programming, drafting and checks. Separate AI critical review is pending. The source's own discrepancy note, the favorable interpretation of a fixed payment, unchanged positive results and failed reproduction targets must remain in the record. No human review, author contact, affiliation, funding claim or endorsement has been supplied. Third-party licences apply only to the identified source material; no reuse licence has been selected for this original comment.
++AI agents conducted source research, programming, drafting and checks. A separate AI agent reproduced the numerical package and checked the path and summary arithmetic without importing author functions. The [critical review](reviews/critical-review.md) and [author response](reviews/author-response.md) record its scope and the correction to the data dictionary's unit label. No numerical result changed. The reviewer had an earlier feasibility role and did not author the central analysis. The source's own discrepancy note, the favorable interpretation of a fixed payment, unchanged positive results and failed reproduction targets must remain in the record. No human review, author contact, affiliation, funding claim or endorsement has been supplied. Third-party licences apply only to the identified source material; no reuse licence has been selected for this original comment.
+ 
+ ## References and source map
+ 
+--- frozen/data/DICTIONARY.md
++++ release/data/DICTIONARY.md
+@@ -1,6 +1,6 @@
+ # S018 numerical data dictionary
+ 
+-All cash amounts are billions of nominal US dollars in the source model. These are generated model paths, not observed government revenue or claimant records. No source parameters are recalibrated. No confidence interval or probability calibration is supplied.
++All cash amounts are billions of model US dollars. The source describes its floor as not indexed but also gives a general 2026-dollar convention. This audit preserves the source values without resolving that price-basis convention; it does not establish real purchasing power. These are generated model paths, not observed government revenue or claimant records. No source parameters are recalibrated. No confidence interval or probability calibration is supplied.
+ 
+ ## Inputs
+ 
+--- frozen/README.md
++++ release/README.md
+@@ -1,7 +1,7 @@
+ # S018 — A Smaller Deficit for Which Dividend?
+ 
+-**State: Working notes.** This short research comment compares the fixed and revenue-triggered floor rules in the pinned Four Pillars model. Read the [paper](paper.md), [protocol](protocol.md), [source record](sources/README.md) and [reproduction guide](REPRODUCTION.md).
++**State: Complete-study draft.** This short research comment compares the fixed and revenue-triggered floor rules in the pinned Four Pillars model. Read the [paper](paper.md), [protocol](protocol.md), [source record](sources/README.md) and [reproduction guide](REPRODUCTION.md).
+ 
+ Two unchanged source cohorts each have 2,000 paths. The same-path comparison retains 60,000 paired path-year rows and 60 policy-year summaries. In year 10 of the ten-year cohort, a fixed floor gives 55.65% annual surpluses and the original increase rule gives 34.35%; the difference comes with $604.11 billion of mean additional modeled floor expense. These are conditional model results, not observed outcomes or calibrated fiscal probabilities. The source already reports a number mismatch and permits discretionary increases.
+ 
+-The price-basis convention, broader revenue calibration, retirement obligations and behavioral responses are outside the audit. The case does not model complete displacement of all human work. No human or journal peer review, institutional affiliation or endorsement is claimed. Separate AI critical review is pending. Original source licences are retained and apply only to those materials; no licence has been selected for this original study.
++The price-basis convention, broader revenue calibration, retirement obligations and behavioral responses are outside the audit. The case does not model complete displacement of all human work. No human or journal peer review, institutional affiliation or endorsement is claimed. [Separate AI critical review](reviews/critical-review.md) and a full reproduction are complete. The [author response](reviews/author-response.md) records the dictionary wording correction; no numerical result changed. Original source licences are retained and apply only to those materials; no licence has been selected for this original study.
+--- frozen/REPRODUCTION.md
++++ release/REPRODUCTION.md
+@@ -5,3 +5,5 @@
+ Read the [data dictionary](data/DICTIONARY.md) before interpreting the files. The 60,000 paired path-year rows are retained in a compressed CSV; two policies yield 120,000 policy outcomes. The aggregate files include every planned cohort-year-policy result. Source console output, all printed-target comparisons, the initial test failure and the fixture-only repair are retained.
+ 
+ The [numerical manifest](logs/numerical-manifest.json) pins the executed package. The [source guide](sources/README.md) gives separate public and local evidence checks. A successful run confirms the specified arithmetic and file checks; it does not validate the economic assumptions or forecast actual government receipts.
++
++The numerical manifest records the files at execution completion. A later source check required a wording correction to the data dictionary: its old general nominal-dollar label exceeded the verified source convention. The historical manifest is preserved. The [release hash record](reviews/release-changes.json) identifies the old and revised dictionary hashes. No numerical input, result or computational instruction changed.

@@ -1,0 +1,10 @@
+{
+  "recorded_at_utc": "2026-10-12T19:03:44.815902Z",
+  "failure": "The first second-stage boundary fixture computes a binary floating-point ratio above 0.98. The source therefore returns the higher floor.",
+  "repair": "Use a denominator of 10000 and revenue of 9800, and assert the quotient equals the floating-point threshold before testing strict exclusion.",
+  "initial_test_sha256": "ee4c87d187fe1a90c91af61a10c4677b0a55b1cc972d91fc34911d3256f01968",
+  "corrected_test_sha256": "bd0285999204dbc7901168a4a0007d9fb5bf591892f38d26c67398399da7f703",
+  "analysis_and_vendor_code_changed_after_run": false,
+  "numerical_results_changed": false,
+  "protocol_changed": false
+}

@@ -1,7 +1,7 @@
 # Governing an economy when wages no longer support most people
 ## A guide to the research papers
 
-Prepared on 12 October 2026. This guide connects studies S004–S017. It is an explanation of their results, not a new study or a combined economic model. The papers are AI-assisted complete-study drafts with separate AI reviews. They have not had human or journal peer review.
+Prepared on 12 October 2026. This guide connects studies S004–S018. It is an explanation of their results, not a new study or a combined economic model. The papers are AI-assisted complete-study drafts with separate AI reviews. They have not had human or journal peer review.
 
 ## Start with the promise to the household
 
@@ -51,11 +51,13 @@ The paper argues that an AI fund proposal should name the body responsible for e
 
 ## Use measures that match the claim
 
-Two technical comments make the measurement question concrete. [Measuring the AI Dividend (S012)](../studies/2026-10-12-redistribution-audit/paper.md) checks four claims in one version of an AI redistribution preprint. It reports both corrections and results that survive scrutiny.
+Three research comments make the measurement question concrete. [Measuring the AI Dividend (S012)](../studies/2026-10-12-redistribution-audit/paper.md) checks four claims in one version of an AI redistribution preprint. It reports both corrections and results that survive scrutiny.
 
 Its simplest example needs no advanced mathematics. Incomes of 1 and 3 become 2 and 4 after each person receives 1. The gap remains 2, while the ratio falls from three to two. An unchanged absolute gap therefore does not imply unchanged relative inequality. The paper also distinguishes an exact production identity from a local approximation, and identifies the assumptions under which two other results hold. These checks do not prove that a transfer is affordable or that one tax is best. They make the claims precise enough to assess.
 
 [What Does AI Output Growth Measure? (S016)](../studies/2026-10-12-ai-output-reconciliation/paper.md) then asks what an AI growth figure counts. Fixed-price chip services and physical operations can grow at different rates because they use different weights. The paper reconciles those conventions in one public account and checks a mismatch between its annual and monthly electricity quantities. Its four cases retain very large conditional growth rates. They do not identify the money available for a dividend. A government still needs evidence on receipts, ownership and essential-service costs before it can make that fiscal promise.
+
+[A Smaller Deficit for Which Dividend? (S018)](../studies/2026-10-12-dividend-policy-comparability/paper.md) connects a fiscal result to the payment it finances. In the inspected proposal, one simulation permits revenue-triggered increases and a later simulation fixes aggregate floor expenditure. The source already reports a number mismatch. The audit compares both rules on the same economic paths: the smaller fixed payment produces more annual surpluses, while the higher floor expense corresponds to a different payment promise. Both can be valid policy choices. The result does not estimate real-world fiscal probabilities or show that the cheaper commitment is a welfare improvement. A budget statistic must name the payment rule behind it.
 
 ## How to use the papers together
 

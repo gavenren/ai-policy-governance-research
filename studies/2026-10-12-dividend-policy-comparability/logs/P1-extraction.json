@@ -1,0 +1,10 @@
+{
+  "source": ".local-sources/four-pillars-screen/P1-Hoynes-Rothstein.pdf",
+  "text": ".local-sources/four-pillars-screen/P1-Hoynes-Rothstein.txt",
+  "sha256": "fe1906ed218bd2fe71104ca080bf7c741621d7f8595214d476415f9459d0f643",
+  "bytes": 102304,
+  "pages": 44,
+  "extraction_time_utc": "2026-10-12T18:57:53.446072+00:00",
+  "tool": "pypdf 6.10.0",
+  "method": "extract_text per page; PDF PAGE markers"
+}

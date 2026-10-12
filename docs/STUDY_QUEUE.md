@@ -2,7 +2,7 @@
 
 State: working programme record. Established 2026-10-09 UTC.
 
-S001 reached complete-study draft after executed analysis and separate AI review on 2026-10-10 UTC; its completion record provides the release checks. The user then instructed the programme to stop after S001. The user authorized S004 on 2026-10-11, then authorized further papers in the same economic-governance field using the remaining core allowance. S005–S017 follow that instruction. S002 and S003 remain paused. Related analyses remain in one study.
+S001 reached complete-study draft after executed analysis and separate AI review on 2026-10-10 UTC; its completion record provides the release checks. The user then instructed the programme to stop after S001. The user authorized S004 on 2026-10-11, then authorized further papers in the same economic-governance field using the remaining core allowance. S005–S018 follow that instruction. S002 and S003 remain paused. Related analyses remain in one study.
 
 | ID | Question / unit | Proposed contribution | Distinctness and gate | Status |
 | --- | --- | --- | --- | --- |
@@ -34,6 +34,8 @@ S001 reached complete-study draft after executed analysis and separate AI review
 | S016 | What do training quantity definitions and annual electricity accounting change in a public AI-output account? Unit: frozen implementation and four cases. | Reconciliation of two valid volume conventions and a specific annual-power mismatch. | Prior sensitivity audits and national-accounting identities are credited. Distinct measurement question; no claim that operations are uniquely correct or that an output index measures fiscal capacity. | [Complete-study draft](../studies/2026-10-12-ai-output-reconciliation/): 96 source-cell matches, 21 tests, 579 separate checks and separate AI review. |
 
 | S017 | Does a benefit disregard also exclude a payment from a lower income-compliance route? Unit: named bill clause, regulation and constructed case. | Text-specific policy comment separates protection of the pre-payment position from creation of a new route. | Closest benefit-interaction and Medicaid-income work is credited; no settled legal interpretation, coverage estimate or general novelty claim. | [Complete-study draft](../studies/2026-10-12-dividend-health-coverage/): 40 case rows, ten tests and separate AI review with independent arithmetic. |
+
+| S018 | Which payment promise does a fiscal probability describe? Unit: pinned source cohort, payment rule and year. | Reconciles a disclosed source mismatch and attributes the effect of payment increases on matched paths. | Established fiscal-comparison methods; source permits a fixed floor and already requests reconciliation. No new theory, welfare rank or calibrated probability. | [Complete-study draft](../studies/2026-10-12-dividend-policy-comparability/): 60,000 paired rows, 60 summaries, eleven tests and separate reproduction plus independent arithmetic. |
 
 ## Duplicate check
 
