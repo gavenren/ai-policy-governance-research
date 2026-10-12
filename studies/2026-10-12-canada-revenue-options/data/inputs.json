@@ -1,0 +1,80 @@
+{
+  "units": "C$ billion in a fixed 2026-price benchmark; shares and rates are fractions",
+  "source_commit": "f606abcaba65fc9d222fa2b0dc0318bbd20c17e6",
+  "source_summary_sha256": "2cfb61779ba4853a52ed9c156fe5f53d6b0c796d3b64730081d3b4623076bdf9",
+  "source_paper_sha256": "af4a481c547aec1bfa8d897bc437202407ba3971d8106e8340cc32f2af2e2af9",
+  "baseline": {
+    "gdp": 3392,
+    "new_revenue_target": 1100.12195433,
+    "remaining_revenue": 295.76,
+    "post_shock_expense": 1467.68195433,
+    "existing_deficit": 71.8,
+    "cit_replaced": 101.2,
+    "retained_pit_replaced": 49.66,
+    "nonresident_tax_replaced": 14.3,
+    "gst_replaced": 52.8
+  },
+  "scenario_assumptions": {
+    "capital_income_base_share": 0.4,
+    "tax_exclusive_consumption_base_share": 0.6,
+    "capital_collection_share": 0.9,
+    "consumption_collection_share": 0.9,
+    "new_tax_administration": 10,
+    "gdp_multiples": [
+      1,
+      1.5,
+      2,
+      3
+    ],
+    "no_population_growth": true,
+    "benefit_and_service_baseline_fixed": true,
+    "other_retained_revenue_fixed": true,
+    "retained_gst_credit_rebate_allowance": 20
+  },
+  "packages": [
+    {
+      "name": "capital_heavy",
+      "capital_rate": 0.45,
+      "gst_rate": 0.1,
+      "new_rebate": 100
+    },
+    {
+      "name": "mixed",
+      "capital_rate": 0.4,
+      "gst_rate": 0.15,
+      "new_rebate": 150
+    },
+    {
+      "name": "consumption_heavy",
+      "capital_rate": 0.3,
+      "gst_rate": 0.2,
+      "new_rebate": 200
+    }
+  ],
+  "dated_scale_comparisons": {
+    "pbo_wealth_tax_2026_27_from_2025_proposal": 23.042,
+    "household_net_worth_2026_q2_rounded": 19100,
+    "household_residential_property_2026_q2": 8523.3,
+    "local_property_taxes_2024": 84.417,
+    "household_consumption_2025": 1761.235
+  },
+  "comparison_assumptions": {
+    "fund_net_real_withdrawal_rates": [
+      0.02,
+      0.03,
+      0.04
+    ],
+    "debt_real_interest": 0.03,
+    "debt_years": 10
+  },
+  "limits": [
+    "Not an equilibrium or household model",
+    "Capital rates are average combined federal corporate and owner charges after tax credits on one base, before collection losses; they are not statutory rates",
+    "Capital income base excludes depreciation and untaxable or foreign-allocated amounts but is before federal and provincial tax",
+    "Provincial taxes and costs must be costed separately; no share of their receipts is assigned to Ottawa",
+    "Consumption is tax-exclusive; collection factor is before an explicit selected20bn retainedGSTcredit allowance and separate new rebates; no measured compliance rate or official relief cost is implied",
+    "Rebates are selected allowances, not proof of unchanged buying power",
+    "Net worth includes housing and pension claims; scale figures are not added to package yields",
+    "GDP multiples are scenarios for income valued at fixed prices, not AI or tax forecasts"
+  ]
+}

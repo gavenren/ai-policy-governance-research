@@ -1,0 +1,7 @@
+REF_DATE,GEO,DGUID,Prices,Seasonal adjustment,Estimates,UOM,UOM_ID,SCALAR_FACTOR,SCALAR_ID,VECTOR,COORDINATE,VALUE,STATUS,SYMBOL,TERMINATED,DECIMALS
+2025-01,Canada,2016A000011124,Current prices,Unadjusted,Household final consumption expenditure,Dollars,81,millions,6,v62700569,1.1.2.1,409636,,,,0
+2025-04,Canada,2016A000011124,Current prices,Unadjusted,Household final consumption expenditure,Dollars,81,millions,6,v62700569,1.1.2.1,447771,,,,0
+2025-07,Canada,2016A000011124,Current prices,Unadjusted,Household final consumption expenditure,Dollars,81,millions,6,v62700569,1.1.2.1,448267,,,,0
+2025-10,Canada,2016A000011124,Current prices,Unadjusted,Household final consumption expenditure,Dollars,81,millions,6,v62700569,1.1.2.1,455561,,,,0
+2026-01,Canada,2016A000011124,Current prices,Unadjusted,Household final consumption expenditure,Dollars,81,millions,6,v62700569,1.1.2.1,430502,,,,0
+2026-04,Canada,2016A000011124,Current prices,Unadjusted,Household final consumption expenditure,Dollars,81,millions,6,v62700569,1.1.2.1,469927,,,,0

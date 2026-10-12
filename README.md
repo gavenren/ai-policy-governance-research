@@ -10,6 +10,8 @@ Read **[A Secure Living After Wages](docs/POLICY_PAPER.md)** for the full policy
 
 Read the **[Canada policy application](studies/2026-10-12-canada-policy-application/paper.md)** for proposed costs, funding, and a 2027–32 action plan. It separates a limited transition programme from a severe wage-loss case and includes [reproducible calculations and checks](studies/2026-10-12-canada-policy-application/). The figures are conditional planning estimates, not official costings. For a short version, use the [one-page Canada brief](studies/2026-10-12-canada-policy-application/policy-brief.md) or its [PDF](studies/2026-10-12-canada-policy-application/output/pdf/canada-policy-brief.pdf).
 
+Read **[Can Canada Fund a Living After Wages?](studies/2026-10-12-canada-revenue-options/paper.md)** for a comparison of ways to raise the C$1.10 trillion annual revenue target. It tests tax packages, shows their funding gaps, and explains the limits of wealth taxes, public ownership, and borrowing. [Sources, calculations, and reviews](studies/2026-10-12-canada-revenue-options/) are included.
+
 Use the [reading guide](docs/READING_GUIDE.md) for a connected account of the economic questions and the limits of each paper. The guide has a [separate AI review](docs/reviews/reading-guide-review.md) and a [review of its later additions](docs/reviews/reading-guide-update-review.md) and [review of S016–S017 additions](docs/reviews/reading-guide-s016-s017-review.md) and [S018 addition](docs/reviews/reading-guide-s018-review.md).
 
 ## Studies

@@ -13,6 +13,8 @@ These are conditional calculations. They are not official costings, measured tax
 - [Funding cases](results/funding.csv), [five-year cases](results/transition.csv), [severe cases](results/full_loss.csv), and [summary](results/summary.json)
 - [Verification](verification.md) and [separate AI reviews](reviews/)
 
+For the next funding question, read [Can Canada Fund a Living After Wages?](../2026-10-12-canada-revenue-options/paper.md). It compares revenue options and tests the conditions needed to meet this study's severe-case target.
+
 ## Reproduce
 
 From this folder, run:

@@ -1,0 +1,138 @@
+{
+  "target": "1100.12195433",
+  "replaced_capital": "165.16",
+  "replaced_gst": "52.8",
+  "other_retained": "77.80",
+  "twice_gdp_packages": [
+    {
+      "package": "capital_heavy",
+      "case": "standard",
+      "gdp_multiple": "2",
+      "gdp": "6784",
+      "capital_base_share": "0.4",
+      "consumption_base_share": "0.6",
+      "capital_rate": "0.45",
+      "gst_rate": "0.1",
+      "capital_collection": "0.9",
+      "consumption_collection": "0.9",
+      "capital_receipts_total": "1099.0080",
+      "gst_before_retained_relief": "366.336",
+      "retained_gst_relief": "20",
+      "gst_receipts_total": "346.336",
+      "replaced_capital_receipts": "165.16",
+      "replaced_gst_receipts": "52.8",
+      "extra_rebate": "100",
+      "extra_tax_admin": "10",
+      "net_new_resources": "1117.3840",
+      "target": "1100.12195433",
+      "remaining_gap": "-17.26204567",
+      "total_federal_revenue": "1523.1440",
+      "total_federal_expense": "1577.68195433",
+      "federal_deficit": "54.53795433"
+    },
+    {
+      "package": "mixed",
+      "case": "standard",
+      "gdp_multiple": "2",
+      "gdp": "6784",
+      "capital_base_share": "0.4",
+      "consumption_base_share": "0.6",
+      "capital_rate": "0.4",
+      "gst_rate": "0.15",
+      "capital_collection": "0.9",
+      "consumption_collection": "0.9",
+      "capital_receipts_total": "976.896",
+      "gst_before_retained_relief": "549.5040",
+      "retained_gst_relief": "20",
+      "gst_receipts_total": "529.5040",
+      "replaced_capital_receipts": "165.16",
+      "replaced_gst_receipts": "52.8",
+      "extra_rebate": "150",
+      "extra_tax_admin": "10",
+      "net_new_resources": "1128.4400",
+      "target": "1100.12195433",
+      "remaining_gap": "-28.31804567",
+      "total_federal_revenue": "1584.2000",
+      "total_federal_expense": "1627.68195433",
+      "federal_deficit": "43.48195433"
+    },
+    {
+      "package": "consumption_heavy",
+      "case": "standard",
+      "gdp_multiple": "2",
+      "gdp": "6784",
+      "capital_base_share": "0.4",
+      "consumption_base_share": "0.6",
+      "capital_rate": "0.3",
+      "gst_rate": "0.2",
+      "capital_collection": "0.9",
+      "consumption_collection": "0.9",
+      "capital_receipts_total": "732.672",
+      "gst_before_retained_relief": "732.672",
+      "retained_gst_relief": "20",
+      "gst_receipts_total": "712.672",
+      "replaced_capital_receipts": "165.16",
+      "replaced_gst_receipts": "52.8",
+      "extra_rebate": "200",
+      "extra_tax_admin": "10",
+      "net_new_resources": "1017.384",
+      "target": "1100.12195433",
+      "remaining_gap": "82.73795433",
+      "total_federal_revenue": "1523.144",
+      "total_federal_expense": "1677.68195433",
+      "federal_deficit": "154.53795433"
+    }
+  ],
+  "break_even": [
+    {
+      "package": "capital_heavy",
+      "required_gdp": "6704.083121898148148148148148",
+      "required_gdp_multiple": "1.976439599616199336128581412",
+      "receipts_per_gdp": "0.2160"
+    },
+    {
+      "package": "mixed",
+      "required_gdp": "6658.142019244444444444444444",
+      "required_gdp_multiple": "1.962895642465932914046121593",
+      "receipts_per_gdp": "0.2250"
+    },
+    {
+      "package": "consumption_heavy",
+      "required_gdp": "7167.046084861111111111111111",
+      "required_gdp_multiple": "2.112926322187827568134171908",
+      "receipts_per_gdp": "0.216"
+    }
+  ],
+  "wealth_tax_target_share": "0.02094495061143754458537567762",
+  "target_share_of_household_wealth": "0.05759800808010471204188481675",
+  "fund_assets": [
+    {
+      "net_real_withdrawal_rate": "0.02",
+      "required_unlevered_assets": "55006.0977165"
+    },
+    {
+      "net_real_withdrawal_rate": "0.03",
+      "required_unlevered_assets": "36670.731811"
+    },
+    {
+      "net_real_withdrawal_rate": "0.04",
+      "required_unlevered_assets": "27503.04885825"
+    }
+  ],
+  "year10_debt": {
+    "year": 10,
+    "unfunded_primary_gap": "1100.12195433",
+    "interest_on_opening_new_debt": "335.2876706216049036575258943",
+    "closing_new_debt": "12611.66531233843502557505570"
+  },
+  "input_sha256": "8ebdad9873a4e9ef5c1645642677897902355dff5732328739f22004ce245ddb",
+  "checks": {
+    "source_account_reconciles": true,
+    "all_case_accounts_reconcile": true
+  },
+  "counts": {
+    "packages": 12,
+    "stress": 21,
+    "single_source": 4
+  }
+}
