@@ -3,6 +3,8 @@
 
 Prepared on 12 October 2026. This guide connects studies S004–S018. It is an explanation of their results, not a new study or a combined economic model. The papers are AI-assisted complete-study drafts with separate AI reviews. They have not had human or journal peer review.
 
+For an integrated government plan, read **[A Secure Living After Wages](POLICY_PAPER.md)**. It sets out the order of action, recurring funding, transition finance, and public duties. Its recommendations are distinct from the study findings. It has separate AI checks for [evidence and clarity](reviews/policy-paper-evidence-review.md) and [funding and sequence](reviews/policy-paper-funding-review.md). The [publication check](POLICY_PAPER_VERIFICATION.md) records the source set and file checks.
+
 ## Start with the promise to the household
 
 The programme asks a conditional question: suppose AI can perform economically useful work so cheaply that competitive wages no longer provide a dependable income. How could people still obtain what they need, and retain a say in the institutions on which they depend? None of these papers predicts when that condition will occur. None assumes that the loss of paid work makes human activity less valuable.

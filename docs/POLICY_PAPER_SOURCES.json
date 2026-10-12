@@ -1,0 +1,98 @@
+{
+  "base_commit": "80a287b26346b369b9316012ff839e0128e32d4a",
+  "paper_sha256": "536518d8ceafaf05c18a76ab4c206f204bedf28399afdd2bf9f2e50bb3e59498",
+  "source_files": [
+    {
+      "id": "S004",
+      "path": "studies/2026-10-11-post-labor-floor/paper.md",
+      "sha256": "5e55d48bc9588854cf585995dad771b3eaa9f52eab01d377503e765ca4e9c6d9"
+    },
+    {
+      "id": "S005",
+      "path": "studies/2026-10-11-dividend-reserves/paper.md",
+      "sha256": "b9887e5ff14b8710cc9fec182e759e739440a4da3e63092caa7f0dbd60c6ae4a"
+    },
+    {
+      "id": "S006",
+      "path": "studies/2026-10-11-automation-imports/paper.md",
+      "sha256": "2687a08df2c645b244ea5dec03f9447c30a1f5a9664ac9459dbc539fbea16d1a"
+    },
+    {
+      "id": "S007",
+      "path": "studies/2026-10-11-benefit-access/paper.md",
+      "sha256": "8680c230747010703faab708c633e12529e71f2de2a4c05e253dd0f4532e852a"
+    },
+    {
+      "id": "S008",
+      "path": "studies/2026-10-11-public-capital-acquisition/paper.md",
+      "sha256": "075e9e5526ac9a28512f30087f525130327b6226d36cd02fc52d6e348b51ef80"
+    },
+    {
+      "id": "S009",
+      "path": "studies/2026-10-11-international-dividend/paper.md",
+      "sha256": "76e7244f112022ce661605c16da1a5bcd5abef28cce8acbc96b24019b7261bf7"
+    },
+    {
+      "id": "S010",
+      "path": "studies/2026-10-11-public-ownership-control/paper.md",
+      "sha256": "758973b40876822fd759fa8a7adb40518d23cd574d55a30c279375357d5a735f"
+    },
+    {
+      "id": "S011",
+      "path": "studies/2026-10-11-household-debt/paper.md",
+      "sha256": "bd37d56ca09edfc28b053265666e794af0fd2587dd46da3830b5613b01256f15"
+    },
+    {
+      "id": "S012",
+      "path": "studies/2026-10-12-redistribution-audit/paper.md",
+      "sha256": "1bba0e97c549078a6e1c87f25e5d5f9b077757a223aea81c865aa55f51045bb9"
+    },
+    {
+      "id": "S013",
+      "path": "studies/2026-10-12-supplier-continuity/paper.md",
+      "sha256": "a6d2016d06fcfe7f271544f87cf301dd1f002acb007e447e476bacb268d3265d"
+    },
+    {
+      "id": "S014",
+      "path": "studies/2026-10-12-compute-allocation/paper.md",
+      "sha256": "46361e8733a4ed4a1ce7eb4a4d9ee331e89565dc221c62382067bed9db008b33"
+    },
+    {
+      "id": "S015",
+      "path": "studies/2026-10-12-equity-levy-aggregation/paper.md",
+      "sha256": "67b37a3c6ff3307f07116bbfef9da460a7296e083c0c55947217bac2c80ba163"
+    },
+    {
+      "id": "S016",
+      "path": "studies/2026-10-12-ai-output-reconciliation/paper.md",
+      "sha256": "e45fb9bdce6b0d5f4bd6796118ac0e09eeb0ea08c1266014d8916c73aeca20e8"
+    },
+    {
+      "id": "S017",
+      "path": "studies/2026-10-12-dividend-health-coverage/paper.md",
+      "sha256": "8585fd496381b90345db63d8b0e40bc67fbe063eb8c0f6456613a69a6b5158a5"
+    },
+    {
+      "id": "S018",
+      "path": "studies/2026-10-12-dividend-policy-comparability/paper.md",
+      "sha256": "a70db0b196f6e9782b0f2987f395c223fa18829d22924eacd14aef8b59ad2ef5"
+    }
+  ],
+  "checked_at_utc": "2026-10-12T19:30:59Z",
+  "scope": "Source manuscripts match the pinned repository commit; this is not a rerun of the original models.",
+  "background": [
+    {
+      "title": "Fiscal Policy Can Help Broaden the Gains of AI to Humanity",
+      "url": "https://www.imf.org/en/blogs/articles/2024/06/17/fiscal-policy-can-help-broaden-the-gains-of-ai-to-humanity",
+      "publication_date": "2024-06-17",
+      "checked_date": "2026-10-12",
+      "scope": "Author summary read through web tool; no third-party text republished."
+    },
+    {
+      "title": "Broadening the Gains from Generative AI: The Role of Fiscal Policies",
+      "url": "https://www.imf.org/en/Publications/Staff-Discussion-Notes/Issues/2024/06/11/Broadening-the-Gains-from-Generative-AI-The-Role-of-Fiscal-Policies-549639",
+      "checked_date": "2026-10-12",
+      "scope": "Landing page checked; not a full-text review of the note for this synthesis."
+    }
+  ]
+}
