@@ -1,0 +1,5 @@
+# Versions used for the two prose-only reading copies and their text checks.
+reportlab==4.4.9
+pypdf==6.10.0
+# Optional: used for layout bounds checks, not PDF generation.
+pdfplumber==0.11.9

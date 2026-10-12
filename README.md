@@ -4,14 +4,16 @@ Reproducible studies of AI policy and governance, using dated public primary sou
 
 **Programme status:** on 2026-10-11 the user authorized further papers on economic governance after labor displacement, using the remaining core usage allowance. See the [continuation record](docs/RESEARCH_CONTINUATION_2026-10-11.md). Other research fields remain paused.
 
+Start with the [reading guide](docs/READING_GUIDE.md) for a connected account of the economic questions and the limits of each paper. The guide has a [separate AI review](docs/reviews/reading-guide-review.md).
+
 ## Studies
 
 | Study | State and evidence | Materials |
 | --- | --- | --- |
-| Buying Backup AI for Essential Public Services | Complete-study draft. Four deployments, six pairs and documented access limits; all 36 scenario rows independently checked. Operational readiness remains unknown. | [Paper](studies/2026-10-12-supplier-continuity/paper.md), [evidence and review](studies/2026-10-12-supplier-continuity/) |
+| Buying Backup AI for Essential Public Services | Complete-study draft. Four deployments, six pairs and documented access limits; all 36 scenario rows independently checked. Operational readiness remains unknown. | [Paper](studies/2026-10-12-supplier-continuity/paper.md), [PDF](studies/2026-10-12-supplier-continuity/output/pdf/paper.pdf), [evidence and review](studies/2026-10-12-supplier-continuity/) |
 | Measuring the AI Dividend | Complete-study draft. Four-claim consistency audit of a pinned redistribution preprint; corrections, positive controls, 15 tests and separate exact arithmetic. | [Paper](studies/2026-10-12-redistribution-audit/paper.md), [sources, results and review](studies/2026-10-12-redistribution-audit/) |
 | What Remains After the Payment? | Complete-study draft. Public household-data stress test of income floors and debt service; 4,360 families, survey uncertainty and separate AI review. | [Paper](studies/2026-10-11-household-debt/paper.md), [data, results and review](studies/2026-10-11-household-debt/) |
-| Who Governs the People's Capital? | Complete-study draft. Income rights, investment votes and remedies in three public funds; 18 coded relations and separate AI review. | [Paper](studies/2026-10-11-public-ownership-control/paper.md), [evidence and review](studies/2026-10-11-public-ownership-control/) |
+| Who Governs the People's Capital? | Complete-study draft. Income rights, investment votes and remedies in three public funds; 18 coded relations and separate AI review. | [Paper](studies/2026-10-11-public-ownership-control/paper.md), [PDF](studies/2026-10-11-public-ownership-control/output/pdf/paper.pdf), [evidence and review](studies/2026-10-11-public-ownership-control/) |
 | Who Can Rely on an International AI Dividend? | Complete-study draft. Payment incentives, persistent shocks, and financed deposits; 648 cases and 12 tests. | [Paper](studies/2026-10-11-international-dividend/paper.md), [results and review](studies/2026-10-11-international-dividend/) |
 | Buying a Public Stake Without Buying a Guarantee | Complete-study draft. Fair-price public acquisition, debt repayment, and fiscal risk; six cases and 9 tests. | [Paper](studies/2026-10-11-public-capital-acquisition/paper.md), [results and review](studies/2026-10-11-public-capital-acquisition/) |
 | Cash Before Capital | Complete-study draft. Exact cash-reserve test with delayed asset sales and joint revenue shocks; 11,979 path rows and 10 tests. | [Paper](studies/2026-10-11-dividend-reserves/paper.md), [results and review](studies/2026-10-11-dividend-reserves/) |
