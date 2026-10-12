@@ -1,0 +1,9 @@
+key,table,metric,uncertainty,estimate,imputation_sd,first_implicate_cap,cap_rule
+influence/capped/gross_pass,influence,gross_pass,False,1,1.11022302463e-16,9190,weighted 99th percentile separately within each implicate
+influence/capped/after_pass,influence,after_pass,False,0.77157587754,0.00145269155888,9190,weighted 99th percentile separately within each implicate
+influence/capped/classification_gap,influence,classification_gap,False,0.22842412246,0.00145269155888,9190,weighted 99th percentile separately within each implicate
+influence/capped/shortfall,influence,shortfall,False,374.263177785,3.6757347218,9190,weighted 99th percentile separately within each implicate
+influence/capped/gap_shortfall,influence,gap_shortfall,False,374.263177785,3.6757347218,9190,weighted 99th percentile separately within each implicate
+influence/capped/negative_after,influence,negative_after,False,0.132051398365,0.00103030617136,9190,weighted 99th percentile separately within each implicate
+influence/capped/bridge_3,influence,bridge_3,False,0.167224209531,0.000785547218413,9190,weighted 99th percentile separately within each implicate
+influence/capped/bridge_12,influence,bridge_12,False,0.0998228513981,0.000962648505807,9190,weighted 99th percentile separately within each implicate

@@ -1,0 +1,35 @@
+{
+  "recorded_utc": "2026-10-11T21:39:21Z",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "rows": 21800,
+  "families": 4360,
+  "selected_data_sha256": "11ec78618e8372bdedce64da5cc7f04a91f5f289ddddf8ee167769544cf1c9e0",
+  "analysis_sha256": "7cd275b422de41bc7c111e9badbce806e860a7193ba0f5dac208b855d87d923b",
+  "weights": {
+    "path_name": "p25_rw1.dta",
+    "sha256": "3b452c1728f5f565074745cf60f810e78f75262e533327f0d3d53ce62ecf4d2c",
+    "replicates": 999,
+    "rows": 4360,
+    "replicate_population_min": 134963443.16450933,
+    "replicate_population_max": 135036863.93648058
+  },
+  "estimands": 1345,
+  "uncertainty_estimands": 225,
+  "cap99_by_implicate": [
+    9190.0,
+    9300.0,
+    9300.0,
+    9500.0,
+    9500.0
+  ],
+  "missing_values": 0,
+  "invariants": {
+    "monotone_in_transfer": true,
+    "gap_decomposition": true,
+    "unique_Y1": true,
+    "five_implicates": true,
+    "complete_weight_join": true
+  }
+}

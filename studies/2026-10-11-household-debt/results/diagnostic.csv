@@ -1,0 +1,4 @@
+key,table,shock,metric,uncertainty,estimate,standard_error,imputation_sd
+diagnostic/no_loss/clipped,diagnostic,no_loss,clipped,True,0,0,0
+diagnostic/wage_only/clipped,diagnostic,wage_only,clipped,True,0.0215405072242,0.00347402637239,0.0022418174588
+diagnostic/wider_flow/clipped,diagnostic,wider_flow,clipped,True,0.0651686412008,0.00659348964674,0.00516700195666

@@ -1,0 +1,8 @@
+key,table,metric,uncertainty,estimate,standard_error,imputation_sd
+descriptive/INCOME,descriptive,mean_INCOME,True,144630.111222,2425.44771726,1194.80988747
+descriptive/NETWORTH,descriptive,mean_NETWORTH,True,1231997.26343,31061.1603583,22600.6283405
+descriptive/TPAY,descriptive,mean_TPAY,True,1439.82650542,30.8440621433,13.3853556014
+descriptive/LIQ,descriptive,mean_LIQ,True,62000.9220887,2784.18885632,1624.1683652
+descriptive/DEBT,descriptive,mean_DEBT,True,137700.853127,3074.15310547,998.670863775
+descriptive/population,descriptive,families,True,134963690.69,7276.1663858,2.5690923058
+descriptive/has_debt,descriptive,has_debt,True,0.76987872455,0.00608101517083,0.00118082904274

@@ -8,6 +8,7 @@ Reproducible studies of AI policy and governance, using dated public primary sou
 
 | Study | State and evidence | Materials |
 | --- | --- | --- |
+| What Remains After the Payment? | Complete-study draft. Public household-data stress test of income floors and debt service; 4,360 families, survey uncertainty and separate AI review. | [Paper](studies/2026-10-11-household-debt/paper.md), [data, results and review](studies/2026-10-11-household-debt/) |
 | Who Governs the People's Capital? | Complete-study draft. Income rights, investment votes and remedies in three public funds; 18 coded relations and separate AI review. | [Paper](studies/2026-10-11-public-ownership-control/paper.md), [evidence and review](studies/2026-10-11-public-ownership-control/) |
 | Who Can Rely on an International AI Dividend? | Complete-study draft. Payment incentives, persistent shocks, and financed deposits; 648 cases and 12 tests. | [Paper](studies/2026-10-11-international-dividend/paper.md), [results and review](studies/2026-10-11-international-dividend/) |
 | Buying a Public Stake Without Buying a Guarantee | Complete-study draft. Fair-price public acquisition, debt repayment, and fiscal risk; six cases and 9 tests. | [Paper](studies/2026-10-11-public-capital-acquisition/paper.md), [results and review](studies/2026-10-11-public-capital-acquisition/) |

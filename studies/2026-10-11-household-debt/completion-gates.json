@@ -1,0 +1,75 @@
+{
+  "study": "S011",
+  "state": "Complete-study draft",
+  "recorded_utc": "2026-10-12T08:54:40Z",
+  "human_peer_review": false,
+  "evidence_cutoff_utc": "2026-10-11T21:42:56Z",
+  "gates": {
+    "contribution": {
+      "status": "pass within bounded search",
+      "evidence": [
+        "sources/PRIOR_WORK.md",
+        "logs/searches.md",
+        "protocol.md"
+      ],
+      "limits": "Established cash-support methods; two close full texts unavailable; no universal novelty proof."
+    },
+    "evidence": {
+      "status": "pass",
+      "evidence": [
+        "sources/manifest.json",
+        "sources/snapshots/",
+        "data/DICTIONARY.md",
+        "reviews/critical-review.md"
+      ],
+      "checks": "14 public extracts and 23 local representations verified; all quotes and source-line ranges checked."
+    },
+    "execution": {
+      "status": "pass",
+      "evidence": [
+        "results/run.json",
+        "logs/execution.txt",
+        "reviews/independent-methods-check.py",
+        "reviews/independent-methods-check.json",
+        "reviews/methods-review.md"
+      ],
+      "checks": "1,345 estimands; 225 with 999 sampling replicates; ten tests; independent central estimates; full-weight CSV reproduction; two official benchmarks."
+    },
+    "inference": {
+      "status": "pass",
+      "evidence": [
+        "paper.md sections 3\u20139",
+        "results/grid.csv",
+        "results/rent.csv",
+        "results/influence.csv"
+      ],
+      "limits": "Conditional gross-resource experiment; no forecast, causality, welfare or net fiscal claim."
+    },
+    "review": {
+      "status": "pass",
+      "evidence": [
+        "reviews/critical-review.md",
+        "reviews/methods-review.md",
+        "reviews/author-response.md",
+        "reviews/methods-reviewed-hashes.json"
+      ],
+      "result": "All method, wording and source findings resolved."
+    },
+    "disclosure": {
+      "status": "pass",
+      "evidence": [
+        "paper.md opening block",
+        "README.md",
+        "logs/design-freeze.json"
+      ]
+    },
+    "release_hygiene": {
+      "status": "pass",
+      "evidence": [
+        "reviews/parent-release.md",
+        "reviews/release-hashes.json"
+      ],
+      "remote_verification": "Requires subsequent verified exact-file commit receipt."
+    }
+  }
+}

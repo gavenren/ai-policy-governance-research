@@ -1,0 +1,47 @@
+{
+  "recorded_utc": "2026-10-12T06:52:22Z",
+  "command": "python3 code/acquire_sources.py --destination NEW_CAPTURE_DIRECTORY",
+  "capture_log_sha256": "22e0212b20b7bb741c00f6ac2b84ee1365d5f02b891b1b0fcbee82bdb634e4fc",
+  "records": [
+    {
+      "source_id": "D1",
+      "retrieved_utc": "2026-10-12T04:51:42Z",
+      "requested_url": "https://www.federalreserve.gov/econres/files/scfp2025excel.zip",
+      "response": [
+        "200",
+        "https://www.federalreserve.gov/econres/files/scfp2025excel.zip"
+      ],
+      "error": null,
+      "exit_status": 0,
+      "sha256": "7f1600daefd9caa6fef32e74977c4aa3e362172f3c5f91ba6d122c64c805e494",
+      "matches_retained_version": true
+    },
+    {
+      "source_id": "D2",
+      "retrieved_utc": "2026-10-12T04:51:42Z",
+      "requested_url": "https://www.federalreserve.gov/econres/files/scf2025rw1s.zip",
+      "response": [
+        "200",
+        "https://www.federalreserve.gov/econres/files/scf2025rw1s.zip"
+      ],
+      "error": null,
+      "exit_status": 0,
+      "sha256": "24a91e287a120e82fc1a1fa5521951dc173c72923ae5ed4d7e5c41d3ccc5c6e4",
+      "matches_retained_version": true
+    },
+    {
+      "source_id": "D8",
+      "retrieved_utc": "2026-10-12T04:51:43Z",
+      "requested_url": "https://www.federalreserve.gov/econres/files/scf2025_tables_public_real_historical.xlsx",
+      "response": [
+        "200",
+        "https://www.federalreserve.gov/econres/files/scf2025_tables_public_real_historical.xlsx"
+      ],
+      "error": null,
+      "exit_status": 0,
+      "sha256": "fd6813a7a9f7c54ac0f530c8dc7c61a476767c8d5dd5d65d174cde85dd7149e5",
+      "matches_retained_version": true
+    }
+  ],
+  "scope": "Pinned D1/D2/D8 download and selected extraction only; original full-weight analysis was separately reproduced."
+}

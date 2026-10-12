@@ -1,0 +1,74 @@
+{
+  "executed_utc": "2026-10-11T21:37:24Z",
+  "method": "Separate direct central formulas, five implicate estimates, 999 original replicate-weight calculations, explicit sample sums of squares. No import of author analysis.",
+  "source_used": "SCFP2025.csv",
+  "source_sha256": "8f6de8f528de484eeca6eb01a19566a0f084ba21452c1198e8eebf03fc43a8f8",
+  "selected_sha256": "11ec78618e8372bdedce64da5cc7f04a91f5f289ddddf8ee167769544cf1c9e0",
+  "weights_sha256": "3b452c1728f5f565074745cf60f810e78f75262e533327f0d3d53ce62ecf4d2c",
+  "script_sha256": "2f3fcc5cefceb256141106d69d737f08c5f2ac2048cc1a532923ca0b1a15b55b",
+  "source_to_selected_max_numeric_roundtrip_error": 1.862645149230957e-09,
+  "families": 4360,
+  "records": 21800,
+  "implicate_population": [
+    134963687.4764468,
+    134963691.91620216,
+    134963688.38376245,
+    134963692.96179903,
+    134963692.7125338
+  ],
+  "matching_missing_weight_and_multiplicity_cells": 1203591,
+  "wage_only_clipping_by_implicate": [
+    {
+      "implicate": 1,
+      "unweighted_families": 98,
+      "weighted_share": 0.024422346625593047
+    },
+    {
+      "implicate": 2,
+      "unweighted_families": 97,
+      "weighted_share": 0.020391468190202856
+    },
+    {
+      "implicate": 3,
+      "unweighted_families": 96,
+      "weighted_share": 0.02259499273201793
+    },
+    {
+      "implicate": 4,
+      "unweighted_families": 86,
+      "weighted_share": 0.01849137763970858
+    },
+    {
+      "implicate": 5,
+      "unweighted_families": 92,
+      "weighted_share": 0.021802350933369866
+    }
+  ],
+  "central_gross_pass_is_one_by_construction": true,
+  "checks": [
+    {
+      "key": "grid/wage_only/F1000/D1/U2000/classification_gap",
+      "estimate": 0.22897422556992164,
+      "standard_error": 0.005755476044963049,
+      "sampling_variance": 3.0300625329347444e-05,
+      "imputation_variance": 2.354065978996709e-06,
+      "matches_saved": true
+    },
+    {
+      "key": "grid/wage_only/F1000/D1/U2000/shortfall",
+      "estimate": 401.66836240451255,
+      "standard_error": 16.715181854794924,
+      "sampling_variance": 246.62184900180935,
+      "imputation_variance": 27.312879530880085,
+      "matches_saved": true
+    },
+    {
+      "key": "topup/wage_only/F1000/D1/extra_annual",
+      "estimate": 1336078529991.3462,
+      "standard_error": 34065426626.461254,
+      "sampling_variance": 1.0189641817191241e+21,
+      "imputation_variance": 1.1790759126974266e+20,
+      "matches_saved": true
+    }
+  ]
+}

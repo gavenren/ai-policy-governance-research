@@ -32,3 +32,5 @@ The user instructed Codex to continue until the available usage is used and to m
 S009 reached complete-study draft at 2026-10-11T21:39:57Z. The separate review reproduced all results and independently checked all 648 target cases. Twelve tests pass. The assumptions about permanent termination, independent deposit seizure, and loan repayment remain explicit.
 
 S010 reached complete-study draft at 2026-10-12T05:50:45Z. It retains 18 coded authority relations and nine decision routes across three funds. Separate AI review checked 13 higher-risk relations and resolved three minor findings. The legal-source limits remain explicit.
+
+S011 reached complete-study draft at 2026-10-12T08:54:40Z. The public SCF accounting experiment covers 4,360 families and five implicates. It retains 1,345 estimands, survey standard errors for 225 statistics, ten passing tests, and separate methods and source reviews. The central 22.9 percent classification gap is conditional on the specified income loss, transfer, threshold and constructed payment proxy; it is not a forecast.
