@@ -1,0 +1,84 @@
+{
+  "recorded_utc": "2026-10-12T18:46:46.769680+00:00",
+  "attempts": [
+    {
+      "id": "C1",
+      "url": "https://www.nyc.gov/assets/doh/downloads/pdf/public/comments/comment-07312026-community-engagement-requirement.pdf",
+      "start_utc": "2026-10-12T18:37:26.841140+00:00",
+      "method": "curl HTTPS GET; normal TLS",
+      "end_utc": "2026-10-12T18:37:26.930664+00:00",
+      "exit_code": 56,
+      "http_and_final_url": "403\nhttps://www.nyc.gov/assets/doh/downloads/pdf/public/comments/comment-07312026-community-engagement-requirement.pdf",
+      "stderr": "curl: (56) The requested URL returned error: 403\n",
+      "interpretation": "Access failure or challenge page; not usable original legal text. Web-reader access is recorded separately."
+    },
+    {
+      "id": "P1",
+      "url": "https://academic.oup.com/healthaffairsscholar/article/4/9/qxag219/8769032",
+      "start_utc": "2026-10-12T18:37:26.930921+00:00",
+      "method": "curl HTTPS GET; normal TLS",
+      "end_utc": "2026-10-12T18:37:27.005415+00:00",
+      "exit_code": 56,
+      "http_and_final_url": "403\nhttps://academic.oup.com/healthaffairsscholar/article/4/9/qxag219/8769032",
+      "stderr": "curl: (56) The requested URL returned error: 403\n",
+      "interpretation": "Access failure or challenge page; not usable original legal text. Web-reader access is recorded separately."
+    },
+    {
+      "id": "R4",
+      "url": "https://www.ecfr.gov/current/title-42/section-435.552",
+      "start_utc": "2026-10-12T18:40:02.461367+00:00",
+      "method": "curl HTTPS GET; normal TLS",
+      "end_utc": "2026-10-12T18:40:02.687985+00:00",
+      "exit_code": 0,
+      "http_and_final_url": "200\nhttps://unblock.federalregister.gov/",
+      "stderr": "",
+      "path": ".local-sources/dividend-health-coverage-screen/R4.html",
+      "bytes": 10596,
+      "sha256": "27cca968a5c375a2f85f5e63963b9b7a23f785e9d3441f0e8332171c39d3031d",
+      "extraction_start_utc": "2026-10-12T18:40:02.688477+00:00",
+      "extractor": "Python3.12.14 HTMLParser; omit script/style; UTF8 replace invalid bytes; text nodes",
+      "text_path": ".local-sources/dividend-health-coverage-screen/R4.txt",
+      "text_bytes": 1123,
+      "text_sha256": "e56cd775c526bba81803389fca942fe9bf7ce29c82e8c7302c3fd5f97e0c5f53",
+      "extraction_end_utc": "2026-10-12T18:40:02.690821+00:00",
+      "interpretation": "Access failure or challenge page; not usable original legal text. Web-reader access is recorded separately."
+    },
+    {
+      "id": "R5",
+      "url": "https://www.ecfr.gov/current/title-42/section-435.603",
+      "start_utc": "2026-10-12T18:40:02.690968+00:00",
+      "method": "curl HTTPS GET; normal TLS",
+      "end_utc": "2026-10-12T18:40:02.858223+00:00",
+      "exit_code": 0,
+      "http_and_final_url": "200\nhttps://unblock.federalregister.gov/",
+      "stderr": "",
+      "path": ".local-sources/dividend-health-coverage-screen/R5.html",
+      "bytes": 10596,
+      "sha256": "6b26f23ae060973020857308a954c72cc0cd4fbd6d53ce6a870bf1cdb20bdb35",
+      "extraction_start_utc": "2026-10-12T18:40:02.858690+00:00",
+      "extractor": "Python3.12.14 HTMLParser; omit script/style; UTF8 replace invalid bytes; text nodes",
+      "text_path": ".local-sources/dividend-health-coverage-screen/R5.txt",
+      "text_bytes": 1123,
+      "text_sha256": "e56cd775c526bba81803389fca942fe9bf7ce29c82e8c7302c3fd5f97e0c5f53",
+      "extraction_end_utc": "2026-10-12T18:40:02.860260+00:00",
+      "interpretation": "Access failure or challenge page; not usable original legal text. Web-reader access is recorded separately."
+    },
+    {
+      "id": "R6",
+      "url": "https://www.ssa.gov/OP_Home/ssact/title19/1902.htm",
+      "start_utc": "2026-10-12T18:43:49.353931+00:00",
+      "method": "curl HTTPS GET; normal TLS",
+      "end_utc": "2026-10-12T18:43:49.453635+00:00",
+      "exit_code": 56,
+      "http_and_final_url": "403\nhttps://www.ssa.gov/OP_Home/ssact/title19/1902.htm",
+      "stderr": "curl: (56) The requested URL returned error: 403\n",
+      "interpretation": "Access failure or challenge page; not usable original legal text. Web-reader access is recorded separately."
+    }
+  ],
+  "other_limits": [
+    "Congress all-actions web reader failed; official status XML was obtained by normal direct request.",
+    "PMC web reader presented a challenge; public Europe PMC API provided lawful full article and supplement. No access control was bypassed.",
+    "A guessed correction document URL failed before the exact C1-2026-11094 record was found.",
+    "Court material is from a public university mirror; no paid docket or exhaustive litigation search."
+  ]
+}

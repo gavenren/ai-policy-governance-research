@@ -1,0 +1,94 @@
+{
+  "saved_at_utc": "2026-10-12T18:45:53.050606Z",
+  "protocol_sha256": "4b753984475f33712d617925995ae3e76d8f3c5b1bdca2a9b6b0989418691566",
+  "state": "Working analysis package; separate review and source interpretation handled by root",
+  "fixed_cases": 10,
+  "treatments": 4,
+  "output_rows": 40,
+  "focused_tests_passed": 10,
+  "result_sha256": "3f720fb491584eae82c11923a5fbcabc787737402491d2c43b8e7ee88222e1e7",
+  "failures": [],
+  "files": [
+    {
+      "path": "protocol.md",
+      "bytes": 6464,
+      "sha256": "4b753984475f33712d617925995ae3e76d8f3c5b1bdca2a9b6b0989418691566"
+    },
+    {
+      "path": "code/check_cases.py",
+      "bytes": 5456,
+      "sha256": "d765aba5a203b89f6bfc28cd0d65edba545cbe92129d593ff0021732a1c467b5"
+    },
+    {
+      "path": "code/test_cases.py",
+      "bytes": 5209,
+      "sha256": "b5161428da725c02e68ac064c3a2f55801500681c14212e90962ea834b81fc8d"
+    },
+    {
+      "path": "code/README.md",
+      "bytes": 3102,
+      "sha256": "12312f4b27740c3cfa07dbde455df9240062c77139f0ca7b2fd0e8d6d2dbbb40"
+    },
+    {
+      "path": "data/raw/cases.csv",
+      "bytes": 774,
+      "sha256": "c1b0b940869d082c2bdaf8d6affd3fe69334ed66ff44159f554ef85b3460c043"
+    },
+    {
+      "path": "data/raw/settings.json",
+      "bytes": 797,
+      "sha256": "efca2b2432a67622b444cfbf005b52428985b7ad5e4431866aabbc4865cc4a8e"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 2801,
+      "sha256": "24222c149b93c0a93a067002545de51d6752f9f931f981290b20c3b6f8395997"
+    },
+    {
+      "path": "results/cases.csv",
+      "bytes": 5408,
+      "sha256": "3f720fb491584eae82c11923a5fbcabc787737402491d2c43b8e7ee88222e1e7"
+    },
+    {
+      "path": "logs/numerical-pre-execution.json",
+      "bytes": 839,
+      "sha256": "1887f6c8f9f4351a50d3282a8e3eda38436f2805695e58c2b1e699dd81fa4178"
+    },
+    {
+      "path": "logs/numerical-execution.json",
+      "bytes": 1149,
+      "sha256": "6c8a77a35ea96ed80b57b3843ac97cc8ad792c680b583faae15e3febb84ee6f8"
+    },
+    {
+      "path": "logs/execution.json",
+      "bytes": 1050,
+      "sha256": "8fc179d3c6464c5a8e2c2a1a072985456099e0445c88a56f781fc05de7e7f658"
+    },
+    {
+      "path": "logs/case-checker-stdout.txt",
+      "bytes": 1050,
+      "sha256": "8fc179d3c6464c5a8e2c2a1a072985456099e0445c88a56f781fc05de7e7f658"
+    },
+    {
+      "path": "logs/case-checker-stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/tests-stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "logs/tests-stderr.txt",
+      "bytes": 1313,
+      "sha256": "03d0dce80f51826558366cba43441606f4c650e20a526a0e8a28b578ce38e816"
+    },
+    {
+      "path": "logs/s016-pdf-stability-check.json",
+      "bytes": 2624,
+      "sha256": "564bcd8eefeb564ac2ca5c03441cbb6459e97396300355f5bd158d0927db97df"
+    }
+  ],
+  "scope": "Case analysis files only, plus the frozen protocol and requested S016 stability check. Source and manuscript records are maintained separately."
+}

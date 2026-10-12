@@ -1,0 +1,28 @@
+{
+  "started_at_utc": "2026-10-12T18:44:41.245607Z",
+  "completed_at_utc": "2026-10-12T18:44:41.246760Z",
+  "exit_status": 0,
+  "python_version": "3.12.14",
+  "dependencies": "Python standard library only",
+  "case_count": 10,
+  "treatments": [
+    "no_payment",
+    "counted_cash",
+    "shared_disregard",
+    "proposed_split"
+  ],
+  "output_count": 40,
+  "input_hashes": {
+    "protocol.md": "4b753984475f33712d617925995ae3e76d8f3c5b1bdca2a9b6b0989418691566",
+    "data/raw/cases.csv": "c1b0b940869d082c2bdaf8d6affd3fe69334ed66ff44159f554ef85b3460c043",
+    "data/raw/settings.json": "efca2b2432a67622b444cfbf005b52428985b7ad5e4431866aabbc4865cc4a8e",
+    "code/check_cases.py": "d765aba5a203b89f6bfc28cd0d65edba545cbe92129d593ff0021732a1c467b5"
+  },
+  "output": {
+    "filename": "cases.csv",
+    "sha256": "3f720fb491584eae82c11923a5fbcabc787737402491d2c43b8e7ee88222e1e7",
+    "bytes": 5408
+  },
+  "interpretation": "Fixed illustrative arithmetic cases. No prevalence, legal eligibility, enrollment or welfare inference.",
+  "diagnostics": []
+}

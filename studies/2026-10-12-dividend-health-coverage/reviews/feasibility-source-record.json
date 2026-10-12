@@ -1,0 +1,53 @@
+{
+  "recorded_utc": "2026-10-12T18:41:12.924741+00:00",
+  "role": "Separate feasibility reviewer; shared context with source lead; no central model or manuscript authored and no survey outcome calculation executed.",
+  "sources": [
+    {
+      "name": "Varcie et al. full XML",
+      "path": ".local-sources/health-coverage-review/HAS-qxag219.xml",
+      "sha256": "d856f38e3e2283db370000b9a48b2cebbe51038098c3f315d23dd326464270b2",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13564225/fullTextXML",
+      "read_scope": "Main introduction, methods, results, discussion and conclusion; no rerun of source analysis."
+    },
+    {
+      "name": "Varcie et al. supplements",
+      "path": ".local-sources/health-coverage-review/HAS-inner-supplement.zip",
+      "sha256": "3253e409aecff7bda3e3ff697601649662c604b61f679bf7893efc7c384b37bb",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13564225/supplementaryFiles",
+      "read_scope": "Archive inventory; appendix A1-A2, A4-A6; no analysis code is in this archive. A3 imputation and tables were inspected but not independently reproduced."
+    },
+    {
+      "name": "June 2026 interim final rule",
+      "path": ".local-sources/dividend-health-coverage-screen/R1.pdf",
+      "sha256": "a5e6cca778d0001b8c056fa11aaee5fcaacc0aac01cac4c34e12843a022deee0",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2026-06-03/pdf/2026-11094.pdf",
+      "read_scope": "Effective-date header; preamble pages 33361-33362; operative 435.552(f),(g); not all 135 pages."
+    },
+    {
+      "name": "H.R.5830 introduced",
+      "path": ".local-sources/dividend-health-coverage-screen/B1.pdf",
+      "sha256": "bd5b775fc466e21da8ef571fd9c5ecc35b248fbf773e9e3cd425fe4f8c4383eb",
+      "url": "https://www.govinfo.gov/content/pkg/BILLS-119hr5830ih/pdf/BILLS-119hr5830ih.pdf",
+      "read_scope": "All eight pages through web reader."
+    },
+    {
+      "name": "H.R.5830 official status",
+      "path": ".local-sources/dividend-health-coverage-screen/B2.xml",
+      "sha256": "764e6d0f73d60cd00f94ef42a5f7a2de3ececcafe59bbc59c08a381f8063906c",
+      "url": "https://www.govinfo.gov/bulkdata/BILLSTATUS/119/hr/BILLSTATUS-119hr5830.xml",
+      "read_scope": "Latest action, record update, available text versions in retained XML; current acquisition supplied by source lead."
+    },
+    {
+      "name": "New York City comment",
+      "url": "https://www.nyc.gov/assets/doh/downloads/pdf/public/comments/comment-07312026-community-engagement-requirement.pdf",
+      "read_scope": "Section IV, PDF pages 9-10, through web reader; no local byte capture by this reviewer."
+    }
+  ],
+  "acquisition_records": [
+    ".local-sources/health-coverage-review/acquisition.json",
+    ".local-sources/health-coverage-review/supplement-acquisition.json",
+    "studies/2026-10-12-dividend-health-coverage-screen/logs/acquisitions.json"
+  ],
+  "data_gate": "No CPS, ACS or SIPP population coverage-loss estimate approved. Timing, program units, legal category and actual recognition are not directly identified by simple annual household variables.",
+  "decision": "Conditional support for a short clause-specific policy comment; not a full empirical study or an error claim. Requires prospective scope and verified current source status before central drafting or calculation."
+}

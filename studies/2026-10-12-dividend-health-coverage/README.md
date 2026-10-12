@@ -1,0 +1,9 @@
+# S017 — Two income tests for a post-labor dividend
+
+**State: Complete-study draft.** A source-specific policy comment on guaranteed-income disregards and a Medicaid income-compliance route. Read the [paper](paper.md), [protocol](protocol.md), [source guide](sources/README.md) and [arithmetic reproduction guide](code/README.md). Source collection, the planned case comparison and [separate AI critical review](reviews/critical-review.md) are complete. The [author response](reviews/author-response.md) records a wording correction; no numerical result changed.
+
+The paper compares the introduced H.R. 5830 with the captured Medicaid income route. A shared disregard can preserve the position before a payment without letting the new payment open a lower-income route. The strongest contrary legal reading and the need for new federal authority are explicit. The paper does not determine any person's eligibility, claim actual coverage losses or treat the bill as enacted.
+
+Ten deliberately constructed cases produce 40 rows under four treatments. All ten focused tests pass. The illustrative upper ceiling is not an actual Medicaid threshold; the payments are not estimates of the bill's rent-linked amount. The case checker is not an eligibility engine. All outcomes, including the no-payment baseline and cases where the proposed split does not help, remain in [results/cases.csv](results/cases.csv).
+
+The evidence package has 15 source records, 20 retained web responses and six short quotations. Original captures stay in ignored local storage. Public material identifies rights, source versions, current-status limits and direct-access failures. The source and numerical records are separate. No human or journal peer review, affiliation, endorsement or reuse licence for original work is claimed.

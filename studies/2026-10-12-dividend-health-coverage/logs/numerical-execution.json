@@ -1,0 +1,32 @@
+{
+  "runs": [
+    {
+      "label": "case-checker",
+      "command": [
+        "python",
+        "studies/2026-10-12-dividend-health-coverage/code/check_cases.py"
+      ],
+      "started_at_utc": "2026-10-12T18:44:41.204320Z",
+      "finished_at_utc": "2026-10-12T18:44:41.253661Z",
+      "exit_status": 0,
+      "stdout": "logs/case-checker-stdout.txt",
+      "stdout_sha256": "8fc179d3c6464c5a8e2c2a1a072985456099e0445c88a56f781fc05de7e7f658",
+      "stderr": "logs/case-checker-stderr.txt",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "label": "tests",
+      "command": [
+        "python",
+        "studies/2026-10-12-dividend-health-coverage/code/test_cases.py"
+      ],
+      "started_at_utc": "2026-10-12T18:44:41.254528Z",
+      "finished_at_utc": "2026-10-12T18:44:41.323752Z",
+      "exit_status": 0,
+      "stdout": "logs/tests-stdout.txt",
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr": "logs/tests-stderr.txt",
+      "stderr_sha256": "03d0dce80f51826558366cba43441606f4c650e20a526a0e8a28b578ce38e816"
+    }
+  ]
+}

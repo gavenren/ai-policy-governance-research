@@ -1,0 +1,9 @@
+{
+  "recorded_utc": "2026-10-12T18:46:46.770292+00:00",
+  "original_screen": "studies/2026-10-12-dividend-health-coverage-screen",
+  "destination": "studies/2026-10-12-dividend-health-coverage",
+  "private_captures_remain_in_original_ignored_paths": true,
+  "source_cutoff_utc": "2026-10-12T18:44:08Z",
+  "later_rule": "Any later source recheck must have separate actual times; it must not overwrite earlier captures.",
+  "parent_time_correction": "Parent supplemental searches and readings were reported by 2026-10-12T18:41:28Z; exact tool-call times were not logged. Earlier approximate times are not provenance."
+}

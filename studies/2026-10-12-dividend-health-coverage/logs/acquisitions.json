@@ -1,0 +1,62 @@
+[
+  {
+    "id": "R1",
+    "url": "https://www.govinfo.gov/content/pkg/FR-2026-06-03/pdf/2026-11094.pdf",
+    "start_utc": "2026-10-12T18:37:24.517826+00:00",
+    "method": "curl HTTPS GET; normal TLS",
+    "end_utc": "2026-10-12T18:37:25.974803+00:00",
+    "exit_code": 0,
+    "http_and_final_url": "200\nhttps://www.govinfo.gov/content/pkg/FR-2026-06-03/pdf/2026-11094.pdf",
+    "stderr": "",
+    "path": ".local-sources/dividend-health-coverage-screen/R1.pdf",
+    "bytes": 3857195,
+    "sha256": "a5e6cca778d0001b8c056fa11aaee5fcaacc0aac01cac4c34e12843a022deee0",
+    "extraction_start_utc": "2026-10-12T18:37:25.979271+00:00",
+    "pages": 135,
+    "extractor": "pypdf6.10.0 default extract_text; page markers; Python3.12.14",
+    "text_path": ".local-sources/dividend-health-coverage-screen/R1.txt",
+    "text_bytes": 887251,
+    "text_sha256": "20077784d93fe8f5a1a6b2c30ed07ce347fa5ee430d8ed2366f20b6fcb15b149",
+    "extraction_end_utc": "2026-10-12T18:37:26.841036+00:00"
+  },
+  {
+    "id": "C1",
+    "url": "https://www.nyc.gov/assets/doh/downloads/pdf/public/comments/comment-07312026-community-engagement-requirement.pdf",
+    "start_utc": "2026-10-12T18:37:26.841140+00:00",
+    "method": "curl HTTPS GET; normal TLS",
+    "end_utc": "2026-10-12T18:37:26.930664+00:00",
+    "exit_code": 56,
+    "http_and_final_url": "403\nhttps://www.nyc.gov/assets/doh/downloads/pdf/public/comments/comment-07312026-community-engagement-requirement.pdf",
+    "stderr": "curl: (56) The requested URL returned error: 403\n"
+  },
+  {
+    "id": "P1",
+    "url": "https://academic.oup.com/healthaffairsscholar/article/4/9/qxag219/8769032",
+    "start_utc": "2026-10-12T18:37:26.930921+00:00",
+    "method": "curl HTTPS GET; normal TLS",
+    "end_utc": "2026-10-12T18:37:27.005415+00:00",
+    "exit_code": 56,
+    "http_and_final_url": "403\nhttps://academic.oup.com/healthaffairsscholar/article/4/9/qxag219/8769032",
+    "stderr": "curl: (56) The requested URL returned error: 403\n"
+  },
+  {
+    "id": "D1",
+    "url": "https://www2.census.gov/programs-surveys/sipp/tech-documentation/methodology/2024_SIPP_Users_Guide.pdf",
+    "start_utc": "2026-10-12T18:37:27.005658+00:00",
+    "method": "curl HTTPS GET; normal TLS",
+    "end_utc": "2026-10-12T18:37:27.250094+00:00",
+    "exit_code": 0,
+    "http_and_final_url": "200\nhttps://www2.census.gov/programs-surveys/sipp/tech-documentation/methodology/2024_SIPP_Users_Guide.pdf",
+    "stderr": "",
+    "path": ".local-sources/dividend-health-coverage-screen/D1.pdf",
+    "bytes": 2396257,
+    "sha256": "c2a3c966fd8e041dc469e59417f062328d5ddf30930ec847adc5ff7eea2fa8de",
+    "extraction_start_utc": "2026-10-12T18:37:27.252596+00:00",
+    "pages": 185,
+    "extractor": "pypdf6.10.0 default extract_text; page markers; Python3.12.14",
+    "text_path": ".local-sources/dividend-health-coverage-screen/D1.txt",
+    "text_bytes": 453306,
+    "text_sha256": "e0889c9b651f98ff4a826a00738b36c562c1c4e5c10c4f48e0405d8903375f9e",
+    "extraction_end_utc": "2026-10-12T18:37:31.489818+00:00"
+  }
+]

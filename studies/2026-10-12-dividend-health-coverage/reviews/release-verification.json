@@ -1,0 +1,404 @@
+{
+  "start_utc": "2026-10-12T18:56:33.097684+00:00",
+  "end_utc": "2026-10-12T18:56:33.121857+00:00",
+  "scope": "Release-only document and hash checks; no model or source rerun; no Git mutation or publication check.",
+  "changed_frozen_files": [
+    "README.md",
+    "paper.md"
+  ],
+  "unchanged_frozen_files": 34,
+  "numerical_manifest_entries_unchanged": 16,
+  "paper_reverse_patch": {
+    "command": "patch -R -p1 -d .local-sources/dividend-health-coverage-review/release",
+    "exit_code": 0,
+    "stdout": "patching file paper.md\n",
+    "stderr": "",
+    "restored_sha256": "e73447b018a38929bc294a9b6ec2c9b1ce61572accceeb26e39de2fb4fb0ad78"
+  },
+  "readme_metadata_only_reverse_hash_match": true,
+  "guide_matches_editorial_review": true,
+  "local_file_links_checked": 91,
+  "links": [
+    {
+      "file": "studies/2026-10-12-dividend-health-coverage/paper.md",
+      "target": "sources/README.md"
+    },
+    {
+      "file": "studies/2026-10-12-dividend-health-coverage/paper.md",
+      "target": "reviews/feasibility-independent.md"
+    },
+    {
+      "file": "studies/2026-10-12-dividend-health-coverage/paper.md",
+      "target": "results/cases.csv"
+    },
+    {
+      "file": "studies/2026-10-12-dividend-health-coverage/paper.md",
+      "target": "code/README.md"
+    },
+    {
+      "file": "studies/2026-10-12-dividend-health-coverage/paper.md",
+      "target": "protocol.md"
+    },
+    {
+      "file": "studies/2026-10-12-dividend-health-coverage/paper.md",
+      "target": "reviews/critical-review.md"
+    },
+    {
+      "file": "studies/2026-10-12-dividend-health-coverage/paper.md",
+      "target": "reviews/author-response.md"
+    },
+    {
+      "file": "studies/2026-10-12-dividend-health-coverage/paper.md",
+      "target": "sources/manifest.csv"
+    },
+    {
+      "file": "studies/2026-10-12-dividend-health-coverage/paper.md",
+      "target": "sources/README.md"
+    },
+    {
+      "file": "studies/2026-10-12-dividend-health-coverage/README.md",
+      "target": "paper.md"
+    },
+    {
+      "file": "studies/2026-10-12-dividend-health-coverage/README.md",
+      "target": "protocol.md"
+    },
+    {
+      "file": "studies/2026-10-12-dividend-health-coverage/README.md",
+      "target": "sources/README.md"
+    },
+    {
+      "file": "studies/2026-10-12-dividend-health-coverage/README.md",
+      "target": "code/README.md"
+    },
+    {
+      "file": "studies/2026-10-12-dividend-health-coverage/README.md",
+      "target": "reviews/critical-review.md"
+    },
+    {
+      "file": "studies/2026-10-12-dividend-health-coverage/README.md",
+      "target": "reviews/author-response.md"
+    },
+    {
+      "file": "studies/2026-10-12-dividend-health-coverage/README.md",
+      "target": "results/cases.csv"
+    },
+    {
+      "file": "README.md",
+      "target": "docs/RESEARCH_CONTINUATION_2026-10-11.md"
+    },
+    {
+      "file": "README.md",
+      "target": "docs/READING_GUIDE.md"
+    },
+    {
+      "file": "README.md",
+      "target": "docs/reviews/reading-guide-review.md"
+    },
+    {
+      "file": "README.md",
+      "target": "docs/reviews/reading-guide-update-review.md"
+    },
+    {
+      "file": "README.md",
+      "target": "docs/reviews/reading-guide-s016-s017-review.md"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-12-dividend-health-coverage/paper.md"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-12-dividend-health-coverage/"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-12-ai-output-reconciliation/paper.md"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-12-ai-output-reconciliation/output/pdf/paper.pdf"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-12-ai-output-reconciliation/"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-12-equity-levy-aggregation/paper.md"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-12-equity-levy-aggregation/output/pdf/paper.pdf"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-12-equity-levy-aggregation/"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-12-compute-allocation/paper.md"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-12-compute-allocation/output/pdf/paper.pdf"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-12-compute-allocation/"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-12-supplier-continuity/paper.md"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-12-supplier-continuity/output/pdf/paper.pdf"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-12-supplier-continuity/"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-12-redistribution-audit/paper.md"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-12-redistribution-audit/"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-11-household-debt/paper.md"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-11-household-debt/extensions/benefit-unit/output/figures/equal-budget-outcomes.png"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-11-household-debt/"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-11-public-ownership-control/paper.md"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-11-public-ownership-control/output/pdf/paper.pdf"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-11-public-ownership-control/"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-11-international-dividend/paper.md"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-11-international-dividend/"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-11-public-capital-acquisition/paper.md"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-11-public-capital-acquisition/"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-11-dividend-reserves/paper.md"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-11-dividend-reserves/"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-11-automation-imports/paper.md"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-11-automation-imports/"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-11-benefit-access/paper.md"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-11-benefit-access/"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-11-post-labor-floor/paper.md"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-11-post-labor-floor/"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-09-flare-export-preservation/paper.md"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-09-flare-export-preservation/output/pdf/paper.pdf"
+    },
+    {
+      "file": "README.md",
+      "target": "studies/2026-10-09-flare-export-preservation/"
+    },
+    {
+      "file": "README.md",
+      "target": "docs/STUDY_QUEUE.md"
+    },
+    {
+      "file": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-09-flare-export-preservation/"
+    },
+    {
+      "file": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-11-post-labor-floor/"
+    },
+    {
+      "file": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-11-dividend-reserves/"
+    },
+    {
+      "file": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-11-automation-imports/"
+    },
+    {
+      "file": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-11-benefit-access/"
+    },
+    {
+      "file": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-11-public-capital-acquisition/"
+    },
+    {
+      "file": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-11-international-dividend/"
+    },
+    {
+      "file": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-11-public-ownership-control/"
+    },
+    {
+      "file": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-11-household-debt/"
+    },
+    {
+      "file": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-12-redistribution-audit/"
+    },
+    {
+      "file": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-12-supplier-continuity/"
+    },
+    {
+      "file": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-12-compute-allocation/"
+    },
+    {
+      "file": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-12-equity-levy-aggregation/"
+    },
+    {
+      "file": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-12-ai-output-reconciliation/"
+    },
+    {
+      "file": "docs/STUDY_QUEUE.md",
+      "target": "../studies/2026-10-12-dividend-health-coverage/"
+    },
+    {
+      "file": "docs/STUDY_QUEUE.md",
+      "target": "RESEARCH_CONTINUATION_2026-10-11.md"
+    },
+    {
+      "file": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-11-post-labor-floor/paper.md"
+    },
+    {
+      "file": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-12-compute-allocation/paper.md"
+    },
+    {
+      "file": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-11-household-debt/paper.md"
+    },
+    {
+      "file": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-11-household-debt/paper.md#8-extension-equal-budgets-can-produce-different-answers"
+    },
+    {
+      "file": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-11-public-capital-acquisition/paper.md"
+    },
+    {
+      "file": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-11-automation-imports/paper.md"
+    },
+    {
+      "file": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-12-equity-levy-aggregation/paper.md"
+    },
+    {
+      "file": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-11-international-dividend/paper.md"
+    },
+    {
+      "file": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-11-dividend-reserves/paper.md"
+    },
+    {
+      "file": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-11-benefit-access/paper.md"
+    },
+    {
+      "file": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-12-supplier-continuity/paper.md"
+    },
+    {
+      "file": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-12-dividend-health-coverage/paper.md"
+    },
+    {
+      "file": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-11-public-ownership-control/paper.md"
+    },
+    {
+      "file": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-12-redistribution-audit/paper.md"
+    },
+    {
+      "file": "docs/READING_GUIDE.md",
+      "target": "../studies/2026-10-12-ai-output-reconciliation/paper.md"
+    },
+    {
+      "file": "docs/READING_GUIDE.md",
+      "target": "STUDY_QUEUE.md"
+    }
+  ],
+  "sha256": {
+    "studies/2026-10-12-dividend-health-coverage/paper.md": "8585fd496381b90345db63d8b0e40bc67fbe063eb8c0f6456613a69a6b5158a5",
+    "studies/2026-10-12-dividend-health-coverage/README.md": "8368f396c4c6743aa851da04bfece59b6351224ca4b1b4982e3f495982398f19",
+    "studies/2026-10-12-dividend-health-coverage/reviews/critical-review.md": "4e8dd8983b7e6acf64320803355c9ba720244f74a49c012622b886745d1944a3",
+    "studies/2026-10-12-dividend-health-coverage/reviews/verification-record.json": "2de77b13464c9f487a4c6a75f5e71cb858d009719932d141e2cd40d50840f505",
+    "studies/2026-10-12-dividend-health-coverage/reviews/release-only.patch": "9581afeb17e0e1a573a9b5502580a892b96acd85b0e4236c1194c27510356ce6",
+    "studies/2026-10-12-dividend-health-coverage/reviews/author-response.md": "d523f296f338154980d1fd014506e3e36f5dfa2a703c1bd13f14970fe862430c",
+    "studies/2026-10-12-dividend-health-coverage/logs/completion.md": "6f71a00c16eb6c1640a95e22c3c884a37adb1ac428979b7c37833743f33ee70c",
+    "studies/2026-10-12-dividend-health-coverage/sources/manifest.json": "82b23021ca6a164dfac1a0e59248837dc556826861c8257233149382e76e8774",
+    "studies/2026-10-12-dividend-health-coverage/logs/numerical-manifest.json": "d749ceed9c032cc719f06380261b32f855ec014842a9e365a7b71ba4734a2284",
+    "studies/2026-10-12-dividend-health-coverage/results/cases.csv": "3f720fb491584eae82c11923a5fbcabc787737402491d2c43b8e7ee88222e1e7",
+    "README.md": "782f4a02470cf15b7a6d7028cc3002b9575ac7dc956e394217ce373b8064ff0a",
+    "docs/STUDY_QUEUE.md": "9d10c8880085517f96e47ddffdeb579f077b05449bff1cd1005891bce656db6c",
+    "docs/READING_GUIDE.md": "e37f1586d152e514d4ec550becc6a758d9be43e3e660ba615b9f42a85de85b9d",
+    "docs/reviews/reading-guide-s016-s017-review.md": "f5f475b009d88889a76a49925a4489ff36ade6cfde82b3d2349296472b0d45b1"
+  },
+  "decision": "R1 resolved; no remaining blocker to complete-study draft status within the reviewed scope. Publication and final release hygiene are separate."
+}

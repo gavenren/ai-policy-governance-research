@@ -1,0 +1,67 @@
+{
+  "checked_at_utc": "2026-10-12T18:44:41.328733Z",
+  "manifest_sha256": "fad470b61186abb93f965c104048a8c31edf9674013bfe04f47ceabb811731a4",
+  "files": [
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/paper.md",
+      "sha256": "e45fb9bdce6b0d5f4bd6796118ac0e09eeb0ea08c1266014d8916c73aeca20e8",
+      "matches_manifest": true
+    },
+    {
+      "path": "scripts/render_s016_reading_copy.py",
+      "sha256": "598baf32672b719460429c05cd733c5574670594c0f064569d93fbdd926c54f3",
+      "matches_manifest": true
+    },
+    {
+      "path": "scripts/verify_s016_reading_copy.py",
+      "sha256": "c0b9848ad90629397a024e056639b3dd4514bb102717c83f67d3ceab1a8b098f",
+      "matches_manifest": true
+    },
+    {
+      "path": "scripts/render_reading_copy.py",
+      "sha256": "3ca8aa991c31fff407e010fe777697ecbc2fb5bfc931a8de02b80463cc472747",
+      "matches_manifest": true
+    },
+    {
+      "path": "scripts/verify_reading_copy.py",
+      "sha256": "754cb6a6b3f09825da99484d4edeb841e2ac0381ece25f44900765830c491ad5",
+      "matches_manifest": true
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/output/pdf/README.md",
+      "sha256": "5679d61dda17c0f013929052ff82eeb04dc249984ea90dcd82333f63dfdcb517",
+      "matches_manifest": true
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/output/pdf/authoring-log.json",
+      "sha256": "efc23334093b715b49d71d47b4fde841839f652bd24e75287399b643ed433687",
+      "matches_manifest": true
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/output/pdf/layout-verification.json",
+      "sha256": "d246efb30fa8bc83d2d5b21afd2dee4a29a5a6f9eca1d4d2cfe8494b76e11952",
+      "matches_manifest": true
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/output/pdf/notation-link-check.json",
+      "sha256": "7b22650eb08872becae5f1ca8046ec26cc2568c93e6d7e92a8abb0bd3fef25ba",
+      "matches_manifest": true
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/output/pdf/paper.pdf",
+      "sha256": "87d5f086e97eaa2f2c8fff4fae21344c333c98f9a24cc8563cadb243474a5f3d",
+      "matches_manifest": true
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/output/pdf/source-pin-check.json",
+      "sha256": "fcadad3e2698ec6606370aeacc80f179a6452614a377e535301c3bcce840d271",
+      "matches_manifest": true
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/output/pdf/text-check.json",
+      "sha256": "19ed5e2de007fcf14370a032d677008fcacf253bd15789342932e3adea5cb233",
+      "matches_manifest": true
+    }
+  ],
+  "all_unchanged": true
+}

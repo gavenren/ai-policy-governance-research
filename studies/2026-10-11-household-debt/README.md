@@ -45,3 +45,7 @@ The download script checks the original archive/workbook hashes before extractio
 Full original-weight recomputation was performed and separately repeated. The independent reviewer matched all generated CSV files exactly. This result applies to the retained input and environment versions. Network availability and future byte-for-byte source stability are not guaranteed.
 
 For an existing local source archive with the filenames in the manifest, `python3 code/validate_sources.py --local PATH` verifies retained original and extracted bytes as well. Short public evidence extracts permit inspection without that archive. PDF text was extracted with pypdf 6.10.0; HTML text was extracted with Python's standard HTML parser. No OCR was used for this study.
+
+## Figure for the equal-budget comparison
+
+The [three-panel figure](extensions/benefit-unit/output/figures/equal-budget-outcomes.png) shows the family, person and shortfall measures from Section 8 together. Read the [full caption](extensions/benefit-unit/output/figures/caption-draft.md) for denominators and interval limits. [Vector PDF](extensions/benefit-unit/output/figures/equal-budget-outcomes.pdf), [SVG](extensions/benefit-unit/output/figures/equal-budget-outcomes.svg), [plot data and reproduction](extensions/benefit-unit/output/figures/) are also available. The figure uses the existing results; it adds no new model estimate or inference from overlapping intervals.

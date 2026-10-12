@@ -1,0 +1,362 @@
+[
+  {
+    "call": 1,
+    "start_utc": "2026-10-12 18:35:33 UTC",
+    "end_utc": "2026-10-12 18:35:34 UTC",
+    "tool": "functions.exec tools.web__run",
+    "return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-01.json",
+      "bytes": 39886,
+      "sha256": "6174d3454618ef57f0d1f10bb29f086ab02bc048c7fd7a04c000e9e7079fefef"
+    },
+    "plain_return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-01.txt",
+      "bytes": 39545,
+      "sha256": "5b95edbc3dd391c8aec613560c039c063f59f449920c496417b714924a484a3b"
+    },
+    "phase": "initial source screen",
+    "limit": "Tool response, not original server bytes. Search snippets are discovery only."
+  },
+  {
+    "call": 2,
+    "start_utc": "2026-10-12 18:35:45 UTC",
+    "end_utc": "2026-10-12 18:35:47 UTC",
+    "tool": "functions.exec tools.web__run",
+    "return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-02.json",
+      "bytes": 38578,
+      "sha256": "5ff89b0d0f20d3331e30e050b20756a9f4f0453285d66443504c44f904519ca8"
+    },
+    "plain_return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-02.txt",
+      "bytes": 38123,
+      "sha256": "e08b17843af061decb87d8e83bcbc6e203f77e84637194935dbe566dd45ab34e"
+    },
+    "phase": "initial source screen",
+    "limit": "Tool response, not original server bytes. Search snippets are discovery only."
+  },
+  {
+    "call": 3,
+    "start_utc": "2026-10-12 18:35:57 UTC",
+    "end_utc": "2026-10-12 18:35:59 UTC",
+    "tool": "functions.exec tools.web__run",
+    "return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-03.json",
+      "bytes": 35643,
+      "sha256": "089e69295213235fa8a6357b2bbe35f8866470c2bed31609355956abbd873237"
+    },
+    "plain_return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-03.txt",
+      "bytes": 35225,
+      "sha256": "566ea25cd91f55f20719e5dcb4d03009b3140c3d90aaaa0aef1f4aff4e4f4dfd"
+    },
+    "phase": "initial source screen",
+    "limit": "Tool response, not original server bytes. Search snippets are discovery only."
+  },
+  {
+    "call": 4,
+    "start_utc": "2026-10-12 18:36:31 UTC",
+    "end_utc": "2026-10-12 18:36:32 UTC",
+    "tool": "functions.exec tools.web__run",
+    "return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-04.json",
+      "bytes": 26311,
+      "sha256": "d0bc849328f50581805212ccbeb2225d92118a870f804ff208a44e0681868c4b"
+    },
+    "plain_return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-04.txt",
+      "bytes": 25604,
+      "sha256": "58d004c864768776caf697aa308c722273dffcd57d973fec8000e4eb2c9759a5"
+    },
+    "phase": "initial source screen",
+    "limit": "Tool response, not original server bytes. Search snippets are discovery only."
+  },
+  {
+    "call": 5,
+    "start_utc": "2026-10-12 18:36:49 UTC",
+    "end_utc": "2026-10-12 18:36:50 UTC",
+    "tool": "functions.exec tools.web__run",
+    "return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-05.json",
+      "bytes": 37998,
+      "sha256": "73ae939657b1ce58a35ec136432f7e55bf0dc9b1325f5c90eced531b02a0e74c"
+    },
+    "plain_return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-05.txt",
+      "bytes": 37667,
+      "sha256": "45c1e2dff6c26f573cd5272811e8e85564d8e841dea6d0d01c0f842c934e0354"
+    },
+    "phase": "initial source screen",
+    "limit": "Tool response, not original server bytes. Search snippets are discovery only."
+  },
+  {
+    "call": 6,
+    "start_utc": "2026-10-12 18:37:07 UTC",
+    "end_utc": "2026-10-12 18:37:08 UTC",
+    "tool": "functions.exec tools.web__run",
+    "return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-06.json",
+      "bytes": 33539,
+      "sha256": "a7740a636e5ebf2890827e2e870e100fd8affd4dd23a45cebff7670d6a4861c3"
+    },
+    "plain_return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-06.txt",
+      "bytes": 33039,
+      "sha256": "1f4a1a84a137e8c10aa5817907b8aa3b5ca9498313bcd251db630e27bebfd43b"
+    },
+    "phase": "initial source screen",
+    "limit": "Tool response, not original server bytes. Search snippets are discovery only."
+  },
+  {
+    "call": 7,
+    "start_utc": "2026-10-12 18:37:38 UTC",
+    "end_utc": "2026-10-12 18:37:40 UTC",
+    "tool": "functions.exec tools.web__run",
+    "return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-07.json",
+      "bytes": 38125,
+      "sha256": "4a77129821b20cd9fe4551197bdea85bca36dca04ca81817de64b953a9c86242"
+    },
+    "plain_return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-07.txt",
+      "bytes": 37510,
+      "sha256": "7d569c303014d42aa07d88f0ffe51b968a02a41176f2a526c962eb83aa42cf90"
+    },
+    "phase": "initial source screen",
+    "limit": "Tool response, not original server bytes. Search snippets are discovery only."
+  },
+  {
+    "call": 8,
+    "start_utc": "2026-10-12 18:37:57 UTC",
+    "end_utc": "2026-10-12 18:37:58 UTC",
+    "tool": "functions.exec tools.web__run",
+    "return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-08.json",
+      "bytes": 34519,
+      "sha256": "e9b9c2dc5270df7b37db0bc6f1ca7786c2c4c4e8e6300b53dc49151db708725e"
+    },
+    "plain_return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-08.txt",
+      "bytes": 34319,
+      "sha256": "eb9970665f14aa217f9bcbf2cc58ea8a20e3da62e58bbb5938cde116275f4664"
+    },
+    "phase": "initial source screen",
+    "limit": "Tool response, not original server bytes. Search snippets are discovery only."
+  },
+  {
+    "call": 9,
+    "start_utc": "2026-10-12 18:38:12 UTC",
+    "end_utc": "2026-10-12 18:38:13 UTC",
+    "tool": "functions.exec tools.web__run",
+    "return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-09.json",
+      "bytes": 35062,
+      "sha256": "e6f43c758e468e457bbb29cd5372c74cc67b700922d544491dc51445e0ce4589"
+    },
+    "plain_return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-09.txt",
+      "bytes": 34542,
+      "sha256": "6703a524eede1147dd1065c90acbc20ef8ad89a6250aad04a4df908818908f4e"
+    },
+    "phase": "initial source screen",
+    "limit": "Tool response, not original server bytes. Search snippets are discovery only."
+  },
+  {
+    "call": 10,
+    "start_utc": "2026-10-12 18:38:23 UTC",
+    "end_utc": "2026-10-12 18:38:24 UTC",
+    "tool": "functions.exec tools.web__run",
+    "return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-10.json",
+      "bytes": 32989,
+      "sha256": "fb5184b0656486f4d65f645827e7e4ea5d9331b865665f182bdd7b6ba4826bb0"
+    },
+    "plain_return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-10.txt",
+      "bytes": 32569,
+      "sha256": "d0d92d0d6ec46007fafab76117f7b270a57d4e5cc4e25645ffa5781679a7d0c4"
+    },
+    "phase": "initial source screen",
+    "limit": "Tool response, not original server bytes. Search snippets are discovery only."
+  },
+  {
+    "call": 11,
+    "start_utc": "2026-10-12 18:38:31 UTC",
+    "end_utc": "2026-10-12 18:38:32 UTC",
+    "tool": "functions.exec tools.web__run",
+    "return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-11.json",
+      "bytes": 25993,
+      "sha256": "f5a843d5e97feb3c1e0695de5d6171aa5bc2d9a7c2fd274c7f6351c564bc5817"
+    },
+    "plain_return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-11.txt",
+      "bytes": 25102,
+      "sha256": "5ae84ba1b2c0133d4b7fc18ae4d2e2d1384c3b8013309f47ba926300f5694daa"
+    },
+    "phase": "initial source screen",
+    "limit": "Tool response, not original server bytes. Search snippets are discovery only."
+  },
+  {
+    "call": 12,
+    "start_utc": "2026-10-12 18:38:58 UTC",
+    "end_utc": "2026-10-12 18:38:59 UTC",
+    "tool": "functions.exec tools.web__run",
+    "return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-12.json",
+      "bytes": 32830,
+      "sha256": "84b0588d522318d0f9d8bdaa555b21c3026420881e68ed7a7defa3eb5a6e9d7e"
+    },
+    "plain_return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-12.txt",
+      "bytes": 32465,
+      "sha256": "2cef850044962fedcff963e790fd129dfe0f3e944617ad808137a708333c45ad"
+    },
+    "phase": "initial source screen",
+    "limit": "Tool response, not original server bytes. Search snippets are discovery only."
+  },
+  {
+    "call": 13,
+    "start_utc": "2026-10-12 18:39:26 UTC",
+    "end_utc": "2026-10-12 18:39:28 UTC",
+    "tool": "functions.exec tools.web__run",
+    "return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-13.json",
+      "bytes": 34035,
+      "sha256": "a5f6b98f11f2f23f5eb191464037395435ef3106313f307bd92294a76a1a0f63"
+    },
+    "plain_return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-13.txt",
+      "bytes": 33583,
+      "sha256": "d91d72ac038433b5d43109501555708d441916847ef7dc1da9811374d4e828f2"
+    },
+    "phase": "initial source screen",
+    "limit": "Tool response, not original server bytes. Search snippets are discovery only."
+  },
+  {
+    "call": 14,
+    "start_utc": "2026-10-12 18:39:46 UTC",
+    "end_utc": "2026-10-12 18:39:47 UTC",
+    "tool": "functions.exec tools.web__run",
+    "return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-14.json",
+      "bytes": 36497,
+      "sha256": "659e76f41a76fe039453b430ad9c3e293b97ce267be8baae61b2264acb72c065"
+    },
+    "plain_return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-14.txt",
+      "bytes": 36006,
+      "sha256": "3a9ac81066a19d01363f505e50547d9c43fcaff89fa32bcf1ad29915c7107e36"
+    },
+    "phase": "initial source screen",
+    "limit": "Tool response, not original server bytes. Search snippets are discovery only."
+  },
+  {
+    "call": 15,
+    "start_utc": "2026-10-12 18:40:24 UTC",
+    "end_utc": "2026-10-12 18:40:25 UTC",
+    "tool": "functions.exec tools.web__run",
+    "return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-15.json",
+      "bytes": 6656,
+      "sha256": "2504c19ea9058a7042cb60ff189f7955158abe32ad51a483471d6c0348f24c91"
+    },
+    "plain_return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-15.txt",
+      "bytes": 6414,
+      "sha256": "1ce892ed2f307861e4bdf81874f809aad00a3feb8781d2679d89c2cac7e5f702"
+    },
+    "phase": "initial source screen",
+    "limit": "Tool response, not original server bytes. Search snippets are discovery only."
+  },
+  {
+    "call": 16,
+    "start_utc": "2026-10-12 18:41:05 UTC",
+    "end_utc": "2026-10-12 18:41:06 UTC",
+    "tool": "functions.exec tools.web__run",
+    "return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-16.json",
+      "bytes": 10321,
+      "sha256": "c34b60af78ee3a0fe375d9693cd72536352721b27019546d682a591485d75978"
+    },
+    "plain_return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-16.txt",
+      "bytes": 10028,
+      "sha256": "fb3789c65b05d79a67acc50714c138f29b6163160dc1a514b7bd6cee6fff028c"
+    },
+    "phase": "initial source screen",
+    "limit": "Tool response, not original server bytes. Search snippets are discovery only."
+  },
+  {
+    "call": 17,
+    "start_utc": "2026-10-12 18:43:33 UTC",
+    "end_utc": "2026-10-12 18:43:34 UTC",
+    "tool": "functions.exec tools.web__run",
+    "return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-17.json",
+      "bytes": 36945,
+      "sha256": "70dcb0b515d4e211217e960499b96edc1c25b21bdc5e8711d0b329e6cd348343"
+    },
+    "plain_return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-17.txt",
+      "bytes": 36641,
+      "sha256": "f144895b54df4fb866c10353043f67520ce8ada0eb69b2b2e5c6ad34bdbea3c1"
+    },
+    "phase": "initial source screen",
+    "limit": "Tool response, not original server bytes. Search snippets are discovery only."
+  },
+  {
+    "call": 18,
+    "start_utc": "2026-10-12 18:43:39 UTC",
+    "end_utc": "2026-10-12 18:43:40 UTC",
+    "tool": "functions.exec tools.web__run",
+    "return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-18.json",
+      "bytes": 31255,
+      "sha256": "498272cd7f213de73a5f188948be7010a39472636ad0103f58cbe28eeb745658"
+    },
+    "plain_return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-18.txt",
+      "bytes": 30891,
+      "sha256": "935a0685a1866588b47d5fccbbcdff753341271e84544859ee8b3945f70858a2"
+    },
+    "phase": "initial source screen",
+    "limit": "Tool response, not original server bytes. Search snippets are discovery only."
+  },
+  {
+    "call": 19,
+    "start_utc": "2026-10-12 18:43:54 UTC",
+    "end_utc": "2026-10-12 18:43:55 UTC",
+    "tool": "functions.exec tools.web__run",
+    "return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-19.json",
+      "bytes": 38752,
+      "sha256": "282dd56f3c510be87a242b0603c689d28a6d6bc6a2b427bfc2d028479b28724e"
+    },
+    "plain_return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-19.txt",
+      "bytes": 38422,
+      "sha256": "4e29b8b8ab6f8b4aa82da2c653a43a0a9c124eaa3ae7b4444d21eee05b6b24c2"
+    },
+    "phase": "initial source screen",
+    "limit": "Tool response, not original server bytes. Search snippets are discovery only."
+  },
+  {
+    "call": 20,
+    "start_utc": "2026-10-12 18:45:52 UTC",
+    "end_utc": "2026-10-12 18:45:54 UTC",
+    "tool": "functions.exec tools.web__run",
+    "return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-20.json",
+      "bytes": 33305,
+      "sha256": "3bb6717b9ce67dafe54583469f3d91556514c0bc1b63e222122dca0306ad0adb"
+    },
+    "plain_return": {
+      "path": ".local-sources/dividend-health-coverage-screen/web-20.txt",
+      "bytes": 32826,
+      "sha256": "cb06341f972a67d71de8196450c344aaa1e5edf42a03631de5a691dea84417de"
+    },
+    "phase": "later evidence recheck",
+    "limit": "Tool response, not original server bytes. Search snippets are discovery only."
+  }
+]

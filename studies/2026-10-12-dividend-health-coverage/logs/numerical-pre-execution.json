@@ -1,0 +1,13 @@
+{
+  "recorded_at_utc": "2026-10-12T18:44:41.202839Z",
+  "scope": "Input and hand-coded test freeze before the first formal case-checker execution. The underlying question and protocol examples were exploratory.",
+  "protocol_sha256": "4b753984475f33712d617925995ae3e76d8f3c5b1bdca2a9b6b0989418691566",
+  "case_rows_exactly_match_protocol": true,
+  "input_hashes": {
+    "protocol.md": "4b753984475f33712d617925995ae3e76d8f3c5b1bdca2a9b6b0989418691566",
+    "data/raw/cases.csv": "c1b0b940869d082c2bdaf8d6affd3fe69334ed66ff44159f554ef85b3460c043",
+    "data/raw/settings.json": "efca2b2432a67622b444cfbf005b52428985b7ad5e4431866aabbc4865cc4a8e",
+    "code/check_cases.py": "d765aba5a203b89f6bfc28cd0d65edba545cbe92129d593ff0021732a1c467b5",
+    "code/test_cases.py": "b5161428da725c02e68ac064c3a2f55801500681c14212e90962ea834b81fc8d"
+  }
+}

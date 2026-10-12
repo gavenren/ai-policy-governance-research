@@ -1,0 +1,400 @@
+{
+  "created_at_utc": "2026-10-12T18:50:10.159997Z",
+  "source_files": {
+    "results/outcomes.csv": "cbc9cca343d5d50ed82c1ba03b25eccfa37321d9b453f3c2e5cbe946b90484a2",
+    "../../paper.md": "bd37d56ca09edfc28b053265666e794af0fd2587dd46da3830b5613b01256f15",
+    "data/DICTIONARY.md": "b43908a807a979844fd2ec412484c3710685210818b08daac5bc6526cef8cdf2"
+  },
+  "source_selection": "sample=exact; floor=sqrt; group=all; three arms; after_pass, person_failure, shortfall",
+  "code_sha256": "67354421981405e99ae4c5dbc7b14981b907cb81c6aa14221217bc68654c1f84",
+  "model_recalculated": false,
+  "uncertainty": "Only saved normal 95% endpoints; complement reverses family-pass endpoints. No interval for a paired difference is inferred.",
+  "number_label_checks": [
+    {
+      "key": "exact/sqrt/family/all/after_pass",
+      "figure_label": "29.51",
+      "paper_table_label": "29.51",
+      "matches": true
+    },
+    {
+      "key": "exact/sqrt/adult/all/after_pass",
+      "figure_label": "31.61",
+      "paper_table_label": "31.61",
+      "matches": true
+    },
+    {
+      "key": "exact/sqrt/size/all/after_pass",
+      "figure_label": "28.83",
+      "paper_table_label": "28.83",
+      "matches": true
+    },
+    {
+      "key": "exact/sqrt/family/all/person_failure",
+      "figure_label": "39.34",
+      "paper_table_label": "39.34",
+      "matches": true
+    },
+    {
+      "key": "exact/sqrt/adult/all/person_failure",
+      "figure_label": "37.11",
+      "paper_table_label": "37.11",
+      "matches": true
+    },
+    {
+      "key": "exact/sqrt/size/all/person_failure",
+      "figure_label": "33.49",
+      "paper_table_label": "33.49",
+      "matches": true
+    },
+    {
+      "key": "exact/sqrt/family/all/shortfall",
+      "figure_label": "576.69",
+      "paper_table_label": "576.69",
+      "matches": true
+    },
+    {
+      "key": "exact/sqrt/adult/all/shortfall",
+      "figure_label": "520.68",
+      "paper_table_label": "520.68",
+      "matches": true
+    },
+    {
+      "key": "exact/sqrt/size/all/shortfall",
+      "figure_label": "502.03",
+      "paper_table_label": "502.03",
+      "matches": true
+    }
+  ],
+  "all_text_inside_canvas": true,
+  "text_boxes": [
+    {
+      "text": "29.51",
+      "bounds_at_100_dpi": [
+        227.81748044427673,
+        314.21688888888895,
+        264.1924804442767,
+        327.21688888888895
+      ]
+    },
+    {
+      "text": "31.61",
+      "bounds_at_100_dpi": [
+        265.3192526056929,
+        256.8668888888889,
+        301.8192526056929,
+        269.8668888888889
+      ]
+    },
+    {
+      "text": "28.83",
+      "bounds_at_100_dpi": [
+        215.70114205629932,
+        199.5168888888889,
+        252.20114205629932,
+        212.5168888888889
+      ]
+    },
+    {
+      "text": "Percent of families",
+      "bounds_at_100_dpi": [
+        203.59872881355926,
+        111.96111111111114,
+        323.84872881355926,
+        124.96111111111114
+      ]
+    },
+    {
+      "text": "26",
+      "bounds_at_100_dpi": [
+        175.4249999999999,
+        136.07222222222225,
+        191.1749999999999,
+        149.07222222222225
+      ]
+    },
+    {
+      "text": "29",
+      "bounds_at_100_dpi": [
+        229.04081920903946,
+        136.07222222222225,
+        244.79081920903946,
+        149.07222222222225
+      ]
+    },
+    {
+      "text": "32",
+      "bounds_at_100_dpi": [
+        282.65663841807896,
+        136.07222222222225,
+        298.40663841807896,
+        149.07222222222225
+      ]
+    },
+    {
+      "text": "35",
+      "bounds_at_100_dpi": [
+        336.20995762711846,
+        136.07222222222225,
+        352.08495762711846,
+        149.07222222222225
+      ]
+    },
+    {
+      "text": "Equal per family",
+      "bounds_at_100_dpi": [
+        62.6611111111111,
+        292.32800000000003,
+        169.4111111111111,
+        305.32800000000003
+      ]
+    },
+    {
+      "text": "Equal per adult",
+      "bounds_at_100_dpi": [
+        69.7861111111111,
+        234.978,
+        169.4111111111111,
+        247.978
+      ]
+    },
+    {
+      "text": "Square-root family size",
+      "bounds_at_100_dpi": [
+        18.286111111111097,
+        177.62800000000001,
+        169.4111111111111,
+        190.62800000000001
+      ]
+    },
+    {
+      "text": "a  Families below\nthe floor",
+      "bounds_at_100_dpi": [
+        183.29999999999998,
+        350.7611111111112,
+        318.17499999999995,
+        382.0611111111112
+      ]
+    },
+    {
+      "text": "39.34",
+      "bounds_at_100_dpi": [
+        484.93143155313555,
+        314.21688888888895,
+        521.3064315531356,
+        327.21688888888895
+      ]
+    },
+    {
+      "text": "37.11",
+      "bounds_at_100_dpi": [
+        457.25359027455926,
+        256.8668888888889,
+        493.87859027455926,
+        269.8668888888889
+      ]
+    },
+    {
+      "text": "33.49",
+      "bounds_at_100_dpi": [
+        412.58713332608477,
+        199.5168888888889,
+        448.96213332608477,
+        212.5168888888889
+      ]
+    },
+    {
+      "text": "Percent of people",
+      "bounds_at_100_dpi": [
+        411.31249999999994,
+        111.96111111111114,
+        524.6875,
+        124.96111111111114
+      ]
+    },
+    {
+      "text": "30",
+      "bounds_at_100_dpi": [
+        379.63877118644064,
+        136.07222222222225,
+        395.51377118644064,
+        149.07222222222225
+      ]
+    },
+    {
+      "text": "34",
+      "bounds_at_100_dpi": [
+        429.19279661016947,
+        136.07222222222225,
+        444.94279661016947,
+        149.07222222222225
+      ]
+    },
+    {
+      "text": "38",
+      "bounds_at_100_dpi": [
+        478.62182203389824,
+        136.07222222222225,
+        494.49682203389824,
+        149.07222222222225
+      ]
+    },
+    {
+      "text": "42",
+      "bounds_at_100_dpi": [
+        528.1758474576271,
+        136.07222222222225,
+        543.9258474576271,
+        149.07222222222225
+      ]
+    },
+    {
+      "text": "b  People in families\nbelow the floor",
+      "bounds_at_100_dpi": [
+        387.57627118644064,
+        350.7611111111112,
+        546.3262711864406,
+        382.0611111111112
+      ]
+    },
+    {
+      "text": "576.69",
+      "bounds_at_100_dpi": [
+        674.3600875970815,
+        314.21688888888895,
+        718.7350875970815,
+        327.21688888888895
+      ]
+    },
+    {
+      "text": "520.68",
+      "bounds_at_100_dpi": [
+        631.3952640928223,
+        256.8668888888889,
+        675.8952640928223,
+        269.8668888888889
+      ]
+    },
+    {
+      "text": "502.03",
+      "bounds_at_100_dpi": [
+        617.0490751874922,
+        199.5168888888889,
+        661.6740751874922,
+        212.5168888888889
+      ]
+    },
+    {
+      "text": "US$ per family per month",
+      "bounds_at_100_dpi": [
+        588.7762711864407,
+        111.96111111111114,
+        755.7762711864407,
+        124.96111111111114
+      ]
+    },
+    {
+      "text": "450",
+      "bounds_at_100_dpi": [
+        587.5744451170299,
+        136.07222222222225,
+        611.4494451170299,
+        149.07222222222225
+      ]
+    },
+    {
+      "text": "550",
+      "bounds_at_100_dpi": [
+        664.1059725585148,
+        136.07222222222225,
+        688.1059725585148,
+        149.07222222222225
+      ]
+    },
+    {
+      "text": "650",
+      "bounds_at_100_dpi": [
+        740.7624999999999,
+        136.07222222222225,
+        764.6374999999999,
+        149.07222222222225
+      ]
+    },
+    {
+      "text": "c  Mean shortfall\nacross all families",
+      "bounds_at_100_dpi": [
+        591.8525423728813,
+        350.7611111111112,
+        732.6025423728813,
+        382.0611111111112
+      ]
+    },
+    {
+      "text": "Equal budgets, different outcomes",
+      "bounds_at_100_dpi": [
+        35.1,
+        425.47,
+        471.35,
+        445.47
+      ]
+    },
+    {
+      "text": "Three payment rules in the same wage-loss stress test",
+      "bounds_at_100_dpi": [
+        35.1,
+        399.78000000000003,
+        438.6,
+        414.78000000000003
+      ]
+    },
+    {
+      "text": "Same gross budget: $2,000 \u00d7 weighted family count per month. Debt payments stay fixed.",
+      "bounds_at_100_dpi": [
+        35.1,
+        86.97500000000001,
+        562.725,
+        99.97500000000001
+      ]
+    },
+    {
+      "text": "Floor: $1,000 \u00d7 square root of SCF family size. Primary sample: 4,358 families per implicate.",
+      "bounds_at_100_dpi": [
+        35.1,
+        66.05000000000001,
+        569.225,
+        79.05000000000001
+      ]
+    },
+    {
+      "text": "Points show estimates; bars show saved normal 95% intervals. Different horizontal scales.",
+      "bounds_at_100_dpi": [
+        35.1,
+        45.12500000000001,
+        556.725,
+        58.12500000000001
+      ]
+    },
+    {
+      "text": "Source: S011, Section 8; 2025 Survey of Consumer Finances. Conditional results, not a forecast.",
+      "bounds_at_100_dpi": [
+        35.1,
+        24.200000000000003,
+        588.975,
+        37.2
+      ]
+    }
+  ],
+  "font": {
+    "name": "DejaVu Sans",
+    "sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "matplotlib": "3.10.7"
+  },
+  "files": {
+    "equal-budget-outcomes.png": "173a1e2400621073b71754b8612384ba487974850cec52652ffac11c9a6d4a2e",
+    "equal-budget-outcomes.pdf": "1c68c3ddefbbb2d3dfcc8ed2b7d773d88a2e35b08b4b96d769eefc84d51a3e49",
+    "equal-budget-outcomes.svg": "89bb0229966162b449df78fc86298a99e3733aa72a6ef2eafb24765d2d5440ae",
+    "plotted-data.csv": "13097a99ecf6168da3f8c65e8003452153e39693903efef7739462dfe38fa45d"
+  }
+}

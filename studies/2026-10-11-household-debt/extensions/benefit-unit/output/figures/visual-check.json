@@ -1,0 +1,75 @@
+{
+  "checked_at_utc": "2026-10-12T18:51:38.974556Z",
+  "reviewer": "Authoring AI agent; not human review",
+  "png_visually_inspected": true,
+  "pdf_render_visually_inspected": true,
+  "observations": "All nine points, interval bars, numerical labels, payment-rule labels, panel titles, units and notes are visible. No text clipping or overlap was observed. Distinct marker shapes preserve the rule mapping without color. Horizontal scales are explicitly different.",
+  "observed_defects": [],
+  "png_sha256": "173a1e2400621073b71754b8612384ba487974850cec52652ffac11c9a6d4a2e",
+  "pdf_sha256": "1c68c3ddefbbb2d3dfcc8ed2b7d773d88a2e35b08b4b96d769eefc84d51a3e49",
+  "pdf_render": {
+    "path": ".local-verification/s011-equal-budget-figure/vector-pdf.png",
+    "dpi": 180,
+    "sha256": "3363c91e8908ef4ac885691716aeffc6a3cb302188028478e7da0c75b4b8132b"
+  },
+  "source_value_checks": [
+    {
+      "source_key": "exact/sqrt/family/all/after_pass",
+      "estimate_and_two_endpoints_match": true,
+      "display_label": "29.51"
+    },
+    {
+      "source_key": "exact/sqrt/adult/all/after_pass",
+      "estimate_and_two_endpoints_match": true,
+      "display_label": "31.61"
+    },
+    {
+      "source_key": "exact/sqrt/size/all/after_pass",
+      "estimate_and_two_endpoints_match": true,
+      "display_label": "28.83"
+    },
+    {
+      "source_key": "exact/sqrt/family/all/person_failure",
+      "estimate_and_two_endpoints_match": true,
+      "display_label": "39.34"
+    },
+    {
+      "source_key": "exact/sqrt/adult/all/person_failure",
+      "estimate_and_two_endpoints_match": true,
+      "display_label": "37.11"
+    },
+    {
+      "source_key": "exact/sqrt/size/all/person_failure",
+      "estimate_and_two_endpoints_match": true,
+      "display_label": "33.49"
+    },
+    {
+      "source_key": "exact/sqrt/family/all/shortfall",
+      "estimate_and_two_endpoints_match": true,
+      "display_label": "576.69"
+    },
+    {
+      "source_key": "exact/sqrt/adult/all/shortfall",
+      "estimate_and_two_endpoints_match": true,
+      "display_label": "520.68"
+    },
+    {
+      "source_key": "exact/sqrt/size/all/shortfall",
+      "estimate_and_two_endpoints_match": true,
+      "display_label": "502.03"
+    }
+  ],
+  "pdf_labels_checked": 9,
+  "pdf_fonts": [
+    {
+      "font": "/EVICAO+DejaVuSans-Bold",
+      "embedded": true
+    },
+    {
+      "font": "/BMQQDV+DejaVuSans",
+      "embedded": true
+    }
+  ],
+  "svg_contains_no_raster_images": true,
+  "scope": "The figure shows saved normal survey intervals for levels. It does not estimate new intervals, infer paired significance from overlap, or quantify uncertainty about future policy assumptions."
+}

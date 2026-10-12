@@ -1,0 +1,11 @@
+{
+  "upper_ceiling": 1800,
+  "lower_threshold": 580,
+  "amount_unit": "illustrative monthly US dollars",
+  "upper_ceiling_note": "Deliberately illustrative; not a current Medicaid threshold.",
+  "lower_threshold_note": "Protocol value: 7.25 dollars times 80 under the captured rule. This arithmetic input does not determine its legal application to a person.",
+  "cash_note": "Illustrative amounts; not estimates of the bill's actual rent-linked payments.",
+  "source": "The ten cases and amounts are specified in protocol.md; no person-level data are used.",
+  "protocol_sha256": "4b753984475f33712d617925995ae3e76d8f3c5b1bdca2a9b6b0989418691566",
+  "scope": "Two simplified arithmetic checks only. Other legal conditions, enrollment, verification and access to care are outside this checker."
+}

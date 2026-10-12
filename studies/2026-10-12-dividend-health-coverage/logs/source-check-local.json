@@ -1,0 +1,10 @@
+{
+  "recorded_utc": "2026-10-12T18:47:54.275873+00:00",
+  "mode": "local",
+  "source_count": 15,
+  "web_response_count": 20,
+  "quote_count": 6,
+  "private_files_checked": 64,
+  "passed": true,
+  "scope": "Evidence schema, quote budgets, and optionally exact private hashes and normalized quote matches; not legal truth or code outcomes."
+}

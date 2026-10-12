@@ -1,0 +1,9 @@
+{
+  "recorded_utc": "2026-10-12T18:50:54.316767+00:00",
+  "programme_comparison": "S017 examines a named bill disregard and a dual income route. S007 studies review queues, S011 family resources and debt, S010 authority routes; no prior programme study makes this legal-text comparison. The earlier dividend-benefit screen was deferred and its closest prior work is retained here as P2.",
+  "separate_programme_read": "Reuse of the recent read-only duplicate record at ../2026-10-12-ai-output-reconciliation/logs/duplicate-check.json; no new read asserted",
+  "referenced_record_sha256": "544a330d3cf387c45ce154272d08c8c0652cb2727604f97e2f97a3e060835841",
+  "separate_repository": "gavenren/ai-safety-research",
+  "separate_repository_modified": false,
+  "limit": "Comparison with the selected programme records, not a proof of global novelty"
+}

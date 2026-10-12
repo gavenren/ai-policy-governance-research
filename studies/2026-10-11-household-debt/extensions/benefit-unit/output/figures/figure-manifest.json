@@ -1,0 +1,63 @@
+{
+  "saved_at_utc": "2026-10-12T18:51:38.974556Z",
+  "source_publication_commit": "a3b7399ed0764f712d7de19b922f037670684b57",
+  "source_outcomes_sha256": "cbc9cca343d5d50ed82c1ba03b25eccfa37321d9b453f3c2e5cbe946b90484a2",
+  "source_paper_sha256": "bd37d56ca09edfc28b053265666e794af0fd2587dd46da3830b5613b01256f15",
+  "files": [
+    {
+      "path": "code/plot_equal_budget.py",
+      "bytes": 9498,
+      "sha256": "67354421981405e99ae4c5dbc7b14981b907cb81c6aa14221217bc68654c1f84"
+    },
+    {
+      "path": "output/figures/README.md",
+      "bytes": 2228,
+      "sha256": "e77e2d06ce102b6e1314061ae1f96df8bc3f2721ebf3cb96e727068c9bdb27d6"
+    },
+    {
+      "path": "output/figures/authoring-log.json",
+      "bytes": 553,
+      "sha256": "99337d5a962fc6e731814aaeb3e9d3aee75cd9676f18a1c24e240c032e3cad43"
+    },
+    {
+      "path": "output/figures/caption-draft.md",
+      "bytes": 2107,
+      "sha256": "eb39c7b8a1488e7bb5c8f4aa2c7fb5aae26e673da428be87859e514071f5a724"
+    },
+    {
+      "path": "output/figures/equal-budget-outcomes.pdf",
+      "bytes": 24935,
+      "sha256": "1c68c3ddefbbb2d3dfcc8ed2b7d773d88a2e35b08b4b96d769eefc84d51a3e49"
+    },
+    {
+      "path": "output/figures/equal-budget-outcomes.png",
+      "bytes": 325198,
+      "sha256": "173a1e2400621073b71754b8612384ba487974850cec52652ffac11c9a6d4a2e"
+    },
+    {
+      "path": "output/figures/equal-budget-outcomes.svg",
+      "bytes": 107267,
+      "sha256": "89bb0229966162b449df78fc86298a99e3733aa72a6ef2eafb24765d2d5440ae"
+    },
+    {
+      "path": "output/figures/figure-check.json",
+      "bytes": 9529,
+      "sha256": "137229c3ce3cd793ba19c3fc57249088d0e573d130394398ed391a26e8f27536"
+    },
+    {
+      "path": "output/figures/plotted-data.csv",
+      "bytes": 2989,
+      "sha256": "13097a99ecf6168da3f8c65e8003452153e39693903efef7739462dfe38fa45d"
+    },
+    {
+      "path": "output/figures/published-source-check.json",
+      "bytes": 1628,
+      "sha256": "c01514aab015b4886a7fbad06b99976a0207a2cf847cb7f252aa7c5333e65b2d"
+    },
+    {
+      "path": "output/figures/visual-check.json",
+      "bytes": 2667,
+      "sha256": "99134dd22922389896f59ad16936477316278d733e50e9ee9adde5c36d834e5d"
+    }
+  ]
+}

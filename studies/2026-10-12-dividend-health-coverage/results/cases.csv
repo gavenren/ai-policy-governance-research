@@ -1,0 +1,41 @@
+case_id,y,d,A,E,purpose,treatment,upper_ceiling,lower_threshold,cash_received,income_for_upper,income_for_lower,upper_pass,lower_income_route_pass,lower_requirement_pass,combined_pass
+low-income opening,0,1000,true,false,New cash can open the lower route,no_payment,1800,580,0,0,0,true,false,false,false
+low-income opening,0,1000,true,false,New cash can open the lower route,counted_cash,1800,580,1000,1000,1000,true,true,true,true
+low-income opening,0,1000,true,false,New cash can open the lower route,shared_disregard,1800,580,1000,0,0,true,false,false,false
+low-income opening,0,1000,true,false,New cash can open the lower route,proposed_split,1800,580,1000,0,1000,true,true,true,true
+upper-ceiling crossing,1000,1000,true,false,Counted cash can exceed upper ceiling,no_payment,1800,580,0,1000,1000,true,true,true,true
+upper-ceiling crossing,1000,1000,true,false,Counted cash can exceed upper ceiling,counted_cash,1800,580,1000,2000,2000,false,true,true,false
+upper-ceiling crossing,1000,1000,true,false,Counted cash can exceed upper ceiling,shared_disregard,1800,580,1000,1000,1000,true,true,true,true
+upper-ceiling crossing,1000,1000,true,false,Counted cash can exceed upper ceiling,proposed_split,1800,580,1000,1000,2000,true,true,true,true
+prior income route,600,1000,true,false,Preserve the no-payment comparison,no_payment,1800,580,0,600,600,true,true,true,true
+prior income route,600,1000,true,false,Preserve the no-payment comparison,counted_cash,1800,580,1000,1600,1600,true,true,true,true
+prior income route,600,1000,true,false,Preserve the no-payment comparison,shared_disregard,1800,580,1000,600,600,true,true,true,true
+prior income route,600,1000,true,false,Preserve the no-payment comparison,proposed_split,1800,580,1000,600,1600,true,true,true,true
+other route,0,1000,true,true,Income route is not the only route,no_payment,1800,580,0,0,0,true,false,true,true
+other route,0,1000,true,true,Income route is not the only route,counted_cash,1800,580,1000,1000,1000,true,true,true,true
+other route,0,1000,true,true,Income route is not the only route,shared_disregard,1800,580,1000,0,0,true,false,true,true
+other route,0,1000,true,true,Income route is not the only route,proposed_split,1800,580,1000,0,1000,true,true,true,true
+insufficient added cash,0,400,true,false,Split treatment is not universal protection,no_payment,1800,580,0,0,0,true,false,false,false
+insufficient added cash,0,400,true,false,Split treatment is not universal protection,counted_cash,1800,580,400,400,400,true,false,false,false
+insufficient added cash,0,400,true,false,Split treatment is not universal protection,shared_disregard,1800,580,400,0,0,true,false,false,false
+insufficient added cash,0,400,true,false,Split treatment is not universal protection,proposed_split,1800,580,400,0,400,true,false,false,false
+requirement inapplicable,0,1000,false,false,No lower test when inapplicable,no_payment,1800,580,0,0,0,true,false,true,true
+requirement inapplicable,0,1000,false,false,No lower test when inapplicable,counted_cash,1800,580,1000,1000,1000,true,true,true,true
+requirement inapplicable,0,1000,false,false,No lower test when inapplicable,shared_disregard,1800,580,1000,0,0,true,false,true,true
+requirement inapplicable,0,1000,false,false,No lower test when inapplicable,proposed_split,1800,580,1000,0,1000,true,true,true,true
+upper test already fails,2000,1000,true,true,Another route does not remove the upper test,no_payment,1800,580,0,2000,2000,false,true,true,false
+upper test already fails,2000,1000,true,true,Another route does not remove the upper test,counted_cash,1800,580,1000,3000,3000,false,true,true,false
+upper test already fails,2000,1000,true,true,Another route does not remove the upper test,shared_disregard,1800,580,1000,2000,2000,false,true,true,false
+upper test already fails,2000,1000,true,true,Another route does not remove the upper test,proposed_split,1800,580,1000,2000,3000,false,true,true,false
+exact lower boundary,580,0,true,false,Inclusive lower inequality,no_payment,1800,580,0,580,580,true,true,true,true
+exact lower boundary,580,0,true,false,Inclusive lower inequality,counted_cash,1800,580,0,580,580,true,true,true,true
+exact lower boundary,580,0,true,false,Inclusive lower inequality,shared_disregard,1800,580,0,580,580,true,true,true,true
+exact lower boundary,580,0,true,false,Inclusive lower inequality,proposed_split,1800,580,0,580,580,true,true,true,true
+exact upper boundary,1800,0,true,false,Inclusive illustrative upper inequality,no_payment,1800,580,0,1800,1800,true,true,true,true
+exact upper boundary,1800,0,true,false,Inclusive illustrative upper inequality,counted_cash,1800,580,0,1800,1800,true,true,true,true
+exact upper boundary,1800,0,true,false,Inclusive illustrative upper inequality,shared_disregard,1800,580,0,1800,1800,true,true,true,true
+exact upper boundary,1800,0,true,false,Inclusive illustrative upper inequality,proposed_split,1800,580,0,1800,1800,true,true,true,true
+above upper boundary,1801,0,true,false,Upper inequality control,no_payment,1800,580,0,1801,1801,false,true,true,false
+above upper boundary,1801,0,true,false,Upper inequality control,counted_cash,1800,580,0,1801,1801,false,true,true,false
+above upper boundary,1801,0,true,false,Upper inequality control,shared_disregard,1800,580,0,1801,1801,false,true,true,false
+above upper boundary,1801,0,true,false,Upper inequality control,proposed_split,1800,580,0,1801,1801,false,true,true,false

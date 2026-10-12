@@ -1,0 +1,15 @@
+{
+  "saved_at_utc": "2026-10-12T18:51:38.974556Z",
+  "model_recalculated": false,
+  "failed_attempts": [
+    {
+      "stage": "First plotting attempt, before file export",
+      "error": "Canvas-bound check failed for tick label 650 at the right edge.",
+      "resolution": "Changed subplot right margin from 0.985 to 0.965. All text bounds passed on the next render."
+    }
+  ],
+  "source_files_changed": false,
+  "manuscript_changed": false,
+  "git_actions": false,
+  "pdf_skill_marker": "Not repeated, as instructed for this continuing user task."
+}

@@ -1,0 +1,83 @@
+{
+  "recorded_utc": "2026-10-12T18:48:09.500555+00:00",
+  "state": "Evidence package ready for separate critical review; study not complete",
+  "scope": "Source lead files only; central manuscript, protocol, case code and outputs belong to other agents",
+  "case_code_executed_by_source_lead": false,
+  "files": [
+    {
+      "path": "studies/2026-10-12-dividend-health-coverage/sources/manifest.json",
+      "sha256": "82b23021ca6a164dfac1a0e59248837dc556826861c8257233149382e76e8774",
+      "bytes": 26708
+    },
+    {
+      "path": "studies/2026-10-12-dividend-health-coverage/sources/manifest.csv",
+      "sha256": "1b8bf19a30eb2ddb83f6565f4f199bf81161f0c16e221b4c9c77d7cb01e2aedc",
+      "bytes": 10874
+    },
+    {
+      "path": "studies/2026-10-12-dividend-health-coverage/sources/README.md",
+      "sha256": "e56bdcf41e16f5e53452412f6398bdcc552c2e8b735c14ee76656b24730e87a5",
+      "bytes": 1780
+    },
+    {
+      "path": "studies/2026-10-12-dividend-health-coverage/evidence/short-quotes.json",
+      "sha256": "6201549a96c55cc645a29a4816d8e313936cc805081ed88483cf70de71ba2331",
+      "bytes": 1826
+    },
+    {
+      "path": "studies/2026-10-12-dividend-health-coverage/evidence/short-quotes.csv",
+      "sha256": "d1ebb99ef8c5a286d525283cf74cdc57d80ff819c42f79ee5df8a20f445bcdba",
+      "bytes": 1014
+    },
+    {
+      "path": "studies/2026-10-12-dividend-health-coverage/code/check_sources.py",
+      "sha256": "0336d629519af2c1d11cdea7063d3c4545611892b693e8c49a0d1b44689b9dd9",
+      "bytes": 2790
+    },
+    {
+      "path": "studies/2026-10-12-dividend-health-coverage/reviews/feasibility-source-lead.md",
+      "sha256": "bc506af13ac2b1bedfa0d9062d36fa46f0533442888bae6ccc374cd0aec7e5ba",
+      "bytes": 7883
+    },
+    {
+      "path": "studies/2026-10-12-dividend-health-coverage/reviews/feasibility-independent.md",
+      "sha256": "9f72a31b99a3ef3de60b2128e3455e658b54435964109b301adcdc1370e8f47f",
+      "bytes": 6370
+    },
+    {
+      "path": "studies/2026-10-12-dividend-health-coverage/reviews/feasibility-source-record.json",
+      "sha256": "801205b9460258175d159f827457e68bc71893aadf7dada35422b163d016b20b",
+      "bytes": 3334
+    },
+    {
+      "path": "studies/2026-10-12-dividend-health-coverage/logs/search-and-design.md",
+      "sha256": "862f37416c9151dc0ee689e0d3553a9b511ae84c4bb214d7e100923ebc7ee62d",
+      "bytes": 5057
+    },
+    {
+      "path": "studies/2026-10-12-dividend-health-coverage/logs/web-captures.json",
+      "sha256": "0ff00858cbe09c7c186fb57160202c52a27dc7761560386834d4e5e098be7db2",
+      "bytes": 13993
+    },
+    {
+      "path": "studies/2026-10-12-dividend-health-coverage/logs/access-limits.json",
+      "sha256": "81e66627d7d1fcc767ac32ec07a27d24fa8d52d41c083ac58a7aa4ebc0cd708c",
+      "bytes": 4644
+    },
+    {
+      "path": "studies/2026-10-12-dividend-health-coverage/logs/evidence-migration.json",
+      "sha256": "f515dacd5e788c7a829d9090be51aa480497278edf018fc0b50589d971f9d255",
+      "bytes": 618
+    },
+    {
+      "path": "studies/2026-10-12-dividend-health-coverage/logs/source-check-local.json",
+      "sha256": "0cfc1804c34156275b2b14452c55c1e4274b154056b9f2b979b4b84a8694f63c",
+      "bytes": 341
+    },
+    {
+      "path": "studies/2026-10-12-dividend-health-coverage/logs/source-check-public.json",
+      "sha256": "794cdda0d3d670ad6f9411ea7e800edcf0374eba231b05686abbf550e2a691d7",
+      "bytes": 341
+    }
+  ]
+}

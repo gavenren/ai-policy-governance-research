@@ -1,0 +1,52 @@
+[
+  {
+    "id": "R6",
+    "url": "https://www.ssa.gov/OP_Home/ssact/title19/1902.htm",
+    "start_utc": "2026-10-12T18:43:49.353931+00:00",
+    "method": "curl HTTPS GET; normal TLS",
+    "end_utc": "2026-10-12T18:43:49.453635+00:00",
+    "exit_code": 56,
+    "http_and_final_url": "403\nhttps://www.ssa.gov/OP_Home/ssact/title19/1902.htm",
+    "stderr": "curl: (56) The requested URL returned error: 403\n"
+  },
+  {
+    "id": "J1",
+    "url": "https://litigationtracker.law.georgetown.edu/wp-content/uploads/2026/06/Commonwealth-of-Massachusetts_2026.07.29_ORDER-ON-MOTION-FOR-PRELIMINARY-INJUNCTION.pdf",
+    "start_utc": "2026-10-12T18:43:49.453956+00:00",
+    "method": "curl HTTPS GET; normal TLS",
+    "end_utc": "2026-10-12T18:43:49.711843+00:00",
+    "exit_code": 0,
+    "http_and_final_url": "200\nhttps://litigationtracker.law.georgetown.edu/wp-content/uploads/2026/06/Commonwealth-of-Massachusetts_2026.07.29_ORDER-ON-MOTION-FOR-PRELIMINARY-INJUNCTION.pdf",
+    "stderr": "",
+    "path": ".local-sources/dividend-health-coverage-screen/J1.pdf",
+    "bytes": 98002,
+    "sha256": "4943caa6621cb6ab9bf9ab4b7c27f1975b6eebbd0add7a52dbe369e2e6697e29",
+    "extraction_start_utc": "2026-10-12T18:43:49.712835+00:00",
+    "pages": 6,
+    "extractor": "pypdf6.10.0 default extract_text; page markers; Python3.12.14",
+    "text_path": ".local-sources/dividend-health-coverage-screen/J1.txt",
+    "text_bytes": 8304,
+    "text_sha256": "7f5fe280a294441d0a2134b72c5e075f2414656e2803225539ffa060354a3a00",
+    "extraction_end_utc": "2026-10-12T18:43:49.778669+00:00"
+  },
+  {
+    "id": "J2",
+    "url": "https://litigationtracker.law.georgetown.edu/wp-content/uploads/2026/06/Commonwealth-of-Massachusetts-et-al.-v.-Oz-et-al._2026.10.08_SCHEDULING-ORDER.pdf",
+    "start_utc": "2026-10-12T18:43:49.778777+00:00",
+    "method": "curl HTTPS GET; normal TLS",
+    "end_utc": "2026-10-12T18:43:49.956449+00:00",
+    "exit_code": 0,
+    "http_and_final_url": "200\nhttps://litigationtracker.law.georgetown.edu/wp-content/uploads/2026/06/Commonwealth-of-Massachusetts-et-al.-v.-Oz-et-al._2026.10.08_SCHEDULING-ORDER.pdf",
+    "stderr": "",
+    "path": ".local-sources/dividend-health-coverage-screen/J2.pdf",
+    "bytes": 20361,
+    "sha256": "0ca8b977a19263f389f6f6589c7fe8f0170cd5d2d6514ef873e5087d71ffffdc",
+    "extraction_start_utc": "2026-10-12T18:43:49.956911+00:00",
+    "pages": 1,
+    "extractor": "pypdf6.10.0 default extract_text; page markers; Python3.12.14",
+    "text_path": ".local-sources/dividend-health-coverage-screen/J2.txt",
+    "text_bytes": 404,
+    "text_sha256": "92fb7d0fe57b4de6337950a2dcb6ab17be55063228afaf97507ccf67329a8b3f",
+    "extraction_end_utc": "2026-10-12T18:43:49.963773+00:00"
+  }
+]

@@ -1,7 +1,7 @@
 # Governing an economy when wages no longer support most people
 ## A guide to the research papers
 
-Prepared on 12 October 2026. This guide connects studies S004–S015. It is an explanation of their results, not a new study or a combined economic model. The papers are AI-assisted complete-study drafts with separate AI reviews. They have not had human or journal peer review.
+Prepared on 12 October 2026. This guide connects studies S004–S017. It is an explanation of their results, not a new study or a combined economic model. The papers are AI-assisted complete-study drafts with separate AI reviews. They have not had human or journal peer review.
 
 ## Start with the promise to the household
 
@@ -39,6 +39,8 @@ Even cash ready for payment does not establish that an eligible person receives 
 
 [Buying Backup AI for Essential Public Services (S013)](../studies/2026-10-12-supplier-continuity/paper.md) asks what happens when delivery depends on an AI service. Two different sellers need not provide two independent ways to complete a task. Named models, platforms, access rules and support dates can eliminate a proposed alternative. The four-record case audit identifies candidate pairs under explicit exclusions, but all of its operational-readiness conditions remain unknown. Its central practical distinction is between an alternative listed in a plan and an alternative demonstrated to work for the required service.
 
+[Two Income Tests for a Post-Labor Dividend (S017)](../studies/2026-10-12-dividend-health-coverage/paper.md) examines how cash support interacts with health-coverage rules. A proposed income disregard can protect a recipient from an upper income ceiling while leaving the payment unable to help meet a separate lower-income route. The paper compares a named bill with a captured Medicaid rule and keeps the strongest contrary legal reading. The baseline matters: with other conditions fixed, the disregard does not take away a route already met before the payment. An express federal change could pursue a different goal. The examples do not measure actual coverage losses, and the proposed bill is not treated as enacted.
+
 ## Give people a route to the right decision-maker
 
 Financial backing and administrative delivery leave another question: who can change the promise, and who can correct a failure?
@@ -49,9 +51,11 @@ The paper argues that an AI fund proposal should name the body responsible for e
 
 ## Use measures that match the claim
 
-A technical comment makes the measurement question concrete. [Measuring the AI Dividend (S012)](../studies/2026-10-12-redistribution-audit/paper.md) checks four claims in one version of an AI redistribution preprint. It reports both corrections and results that survive scrutiny.
+Two technical comments make the measurement question concrete. [Measuring the AI Dividend (S012)](../studies/2026-10-12-redistribution-audit/paper.md) checks four claims in one version of an AI redistribution preprint. It reports both corrections and results that survive scrutiny.
 
 Its simplest example needs no advanced mathematics. Incomes of 1 and 3 become 2 and 4 after each person receives 1. The gap remains 2, while the ratio falls from three to two. An unchanged absolute gap therefore does not imply unchanged relative inequality. The paper also distinguishes an exact production identity from a local approximation, and identifies the assumptions under which two other results hold. These checks do not prove that a transfer is affordable or that one tax is best. They make the claims precise enough to assess.
+
+[What Does AI Output Growth Measure? (S016)](../studies/2026-10-12-ai-output-reconciliation/paper.md) then asks what an AI growth figure counts. Fixed-price chip services and physical operations can grow at different rates because they use different weights. The paper reconciles those conventions in one public account and checks a mismatch between its annual and monthly electricity quantities. Its four cases retain very large conditional growth rates. They do not identify the money available for a dividend. A government still needs evidence on receipts, ownership and essential-service costs before it can make that fiscal promise.
 
 ## How to use the papers together
 

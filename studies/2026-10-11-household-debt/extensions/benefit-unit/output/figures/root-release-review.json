@@ -1,0 +1,46 @@
+{
+  "checked_at_utc": "2026-10-12T18:56:22.852566+00:00",
+  "reviewer": "Root AI agent; separate from figure author; authored programme text",
+  "scope": "Read plotting code and caption; inspected complete PNG at tool-displayed size; manually matched nine labels to Section 8; separate Decimal extraction checked 27 plotted estimate/endpoint fields; checked all 11 manifest entries. Did not rerun microdata or infer differences from overlapping intervals.",
+  "checks": [
+    {
+      "key": "exact/sqrt/family/all/after_pass",
+      "estimate_and_both_endpoints_match": true
+    },
+    {
+      "key": "exact/sqrt/adult/all/after_pass",
+      "estimate_and_both_endpoints_match": true
+    },
+    {
+      "key": "exact/sqrt/size/all/after_pass",
+      "estimate_and_both_endpoints_match": true
+    },
+    {
+      "key": "exact/sqrt/family/all/person_failure",
+      "estimate_and_both_endpoints_match": true
+    },
+    {
+      "key": "exact/sqrt/adult/all/person_failure",
+      "estimate_and_both_endpoints_match": true
+    },
+    {
+      "key": "exact/sqrt/size/all/person_failure",
+      "estimate_and_both_endpoints_match": true
+    },
+    {
+      "key": "exact/sqrt/family/all/shortfall",
+      "estimate_and_both_endpoints_match": true
+    },
+    {
+      "key": "exact/sqrt/adult/all/shortfall",
+      "estimate_and_both_endpoints_match": true
+    },
+    {
+      "key": "exact/sqrt/size/all/shortfall",
+      "estimate_and_both_endpoints_match": true
+    }
+  ],
+  "manifest_entries_matched": 11,
+  "visual_findings": "All three panels, labels, markers, bars, differing scales and source notes readable without clipping.",
+  "decision": "Presentation release accepted. Main paper remains unchanged, preserving the plot source guard. README adds links only."
+}

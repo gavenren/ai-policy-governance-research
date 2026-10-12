@@ -1,0 +1,11 @@
+case_id,y,d,A,E,purpose
+low-income opening,0,1000,true,false,New cash can open the lower route
+upper-ceiling crossing,1000,1000,true,false,Counted cash can exceed upper ceiling
+prior income route,600,1000,true,false,Preserve the no-payment comparison
+other route,0,1000,true,true,Income route is not the only route
+insufficient added cash,0,400,true,false,Split treatment is not universal protection
+requirement inapplicable,0,1000,false,false,No lower test when inapplicable
+upper test already fails,2000,1000,true,true,Another route does not remove the upper test
+exact lower boundary,580,0,true,false,Inclusive lower inequality
+exact upper boundary,1800,0,true,false,Inclusive illustrative upper inequality
+above upper boundary,1801,0,true,false,Upper inequality control

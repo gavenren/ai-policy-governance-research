@@ -1,0 +1,29 @@
+--- frozen/paper.md
++++ release/paper.md
+@@ -1,7 +1,7 @@
+ # Two Income Tests for a Post-Labor Dividend
+ ## Guaranteed income, benefit disregards and a Medicaid qualification route
+ 
+-**State: Working notes.** Study S017. October 12, 2026. This is an AI-assisted policy comment. Source checks and the fixed case comparison are complete; separate critical review is pending. No human or journal peer review has occurred.
++**State: Complete-study draft.** Study S017. October 12, 2026. This is an AI-assisted policy comment. Source checks, the fixed case comparison and separate AI critical review are complete. No human or journal peer review has occurred.
+ 
+ The initial evidence capture cutoff is **2026-10-12T18:44:08Z**. A later read of the New York City comment ended at **2026-10-12T18:45:54Z** and is recorded separately. Evidence checks completed at **2026-10-12T18:47:54Z**. These times do not turn exploratory source reading into a prospective design.
+ 
+@@ -84,7 +84,7 @@
+ 
+ If lawmakers want both protections, they can state both purposes. One approach would preserve the payment's exclusion from the upper financial test and benefit-amount calculations, while expressly allowing the designated payment to count toward the specified monthly-income compliance route. A federal provision would need to identify the payment, the relevant household calculation, the applicable months, and the statutory or regulatory income route it changes. It should also make clear that this credit does not reintroduce the payment into the upper test.
+ 
+-This is a proposal for federal authority. The shared-methodology rule does not establish a general state discretion to split the two calculations. This paper does not infer such authority from the fact that the comparison is easy to implement in software. Nor does an income credit prove hours actually worked, excuse every other condition, or extend the seasonal-worker route to people who do not meet its definition. A separate state option can convert sub-threshold income into estimated hours for combination with other qualifying activity when work-hour information is unavailable, with reasonable allocation of income among household members. That regulatory equivalency option must not be confused with observed work hours. The examples above assume no other activity to combine. [R1, pp. 33398–33399; R4, section 435.552(e)(2).]
++This is a proposal for federal authority. The shared-methodology rule does not establish a general state discretion to split the two calculations. This paper does not infer such authority from the fact that the comparison is easy to implement in software. Nor does an income credit prove hours actually worked, excuse every other condition, or extend the seasonal-worker route to people who do not meet its definition. A separate state option can convert sub-threshold income into estimated hours for combination with other qualifying activity when work-hour information is unavailable, with reasonable allocation of the resulting hours among household members. That regulatory equivalency option must not be confused with observed work hours. The examples above assume no other activity to combine. [R1, pp. 33398–33399; R4, section 435.552(e)(2).]
+ 
+ A different federal choice would address the community-engagement condition directly for a defined group, or would provide health coverage through another entitlement. Those choices require their own distributional, fiscal and administrative analysis. The paper does not rank them against a dividend credit, repeal of a condition, or broader health-system reform. Its point is that a cash clause cannot silently make these decisions.
+ 
+@@ -106,7 +106,7 @@
+ 
+ The [protocol](protocol.md) was written after exploratory source reading and discussion of the mechanism, before formal execution of the fixed cases. The arithmetic examples are deliberately constructed. They have no population frequency or probability. The evidence ledger records exact source versions, capture dates, read scope, rights and access failures. Its public checks passed for 15 sources, 20 retained web responses and six short quotations; the local check matched 64 retained files by hash. The source checker does not validate legal meaning. Direct-access failures and the use of web-reader captures for some official pages remain explicit.
+ 
+-AI agents conducted research, drafting and case checks. Separate AI critical review remains in progress. No human review, funding disclosure, affiliation, endorsement or legal opinion has been supplied. The study makes no recommendation about an individual's eligibility or actions.
++AI agents conducted research, drafting and case checks. A separate AI agent reviewed the frozen paper, reproduced all 40 case rows and checked the printed examples with independent arithmetic. The [review](reviews/critical-review.md) and [author response](reviews/author-response.md) record one wording correction about allocation of hours; the case results did not change. The reviewer had an earlier feasibility role and did not author the central analysis. No human review, funding disclosure, affiliation, endorsement or legal opinion has been supplied. The study makes no recommendation about an individual's eligibility or actions.
+ 
+ ## References and source map
+ 

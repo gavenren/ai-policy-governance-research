@@ -1,0 +1,32 @@
+{
+  "publication_commit": "a3b7399ed0764f712d7de19b922f037670684b57",
+  "files": [
+    {
+      "path": "studies/2026-10-11-household-debt/paper.md",
+      "url": "https://raw.githubusercontent.com/gavenren/ai-policy-governance-research/a3b7399ed0764f712d7de19b922f037670684b57/studies/2026-10-11-household-debt/paper.md",
+      "retrieved_at_utc": "2026-10-12T18:50:09.920992Z",
+      "http_status": 200,
+      "bytes": 50683,
+      "sha256": "bd37d56ca09edfc28b053265666e794af0fd2587dd46da3830b5613b01256f15",
+      "exact_local_match": true
+    },
+    {
+      "path": "studies/2026-10-11-household-debt/extensions/benefit-unit/results/outcomes.csv",
+      "url": "https://raw.githubusercontent.com/gavenren/ai-policy-governance-research/a3b7399ed0764f712d7de19b922f037670684b57/studies/2026-10-11-household-debt/extensions/benefit-unit/results/outcomes.csv",
+      "retrieved_at_utc": "2026-10-12T18:50:10.049695Z",
+      "http_status": 200,
+      "bytes": 16870,
+      "sha256": "cbc9cca343d5d50ed82c1ba03b25eccfa37321d9b453f3c2e5cbe946b90484a2",
+      "exact_local_match": true
+    },
+    {
+      "path": "studies/2026-10-11-household-debt/extensions/benefit-unit/data/DICTIONARY.md",
+      "url": "https://raw.githubusercontent.com/gavenren/ai-policy-governance-research/a3b7399ed0764f712d7de19b922f037670684b57/studies/2026-10-11-household-debt/extensions/benefit-unit/data/DICTIONARY.md",
+      "retrieved_at_utc": "2026-10-12T18:50:10.168169Z",
+      "http_status": 200,
+      "bytes": 4191,
+      "sha256": "b43908a807a979844fd2ec412484c3710685210818b08daac5bc6526cef8cdf2",
+      "exact_local_match": true
+    }
+  ]
+}

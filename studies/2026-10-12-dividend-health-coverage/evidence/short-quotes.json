@@ -1,0 +1,56 @@
+[
+  {
+    "id": "Q1",
+    "source_id": "B1",
+    "copyright_group": "B1",
+    "locator": "\u00a73(e), PDF page 5",
+    "quote": "shall not be taken into account as income",
+    "private_text_path": ".local-sources/dividend-health-coverage-screen/B1.txt",
+    "word_count": 8
+  },
+  {
+    "id": "Q2",
+    "source_id": "R1",
+    "copyright_group": "R1",
+    "locator": "91 FR 33361, preamble",
+    "quote": "includes earned income as well as countable unearned income",
+    "private_text_path": ".local-sources/dividend-health-coverage-screen/R1.txt",
+    "word_count": 9
+  },
+  {
+    "id": "Q3",
+    "source_id": "R6",
+    "copyright_group": "R6",
+    "locator": "\u00a71902(e)(14)(B)",
+    "quote": "no type of expense, block, or other income disregard shall be applied by a State",
+    "private_text_path": ".local-sources/dividend-health-coverage-screen/web-19.txt",
+    "word_count": 15
+  },
+  {
+    "id": "Q4",
+    "source_id": "D1",
+    "copyright_group": "D1",
+    "locator": "\u00a74.7, PDF page 136, printed page 135",
+    "quote": "reported income is allocated evenly across the months of the reference year by dividing by 12.",
+    "private_text_path": ".local-sources/dividend-health-coverage-screen/D1.txt",
+    "word_count": 16
+  },
+  {
+    "id": "Q5",
+    "source_id": "P1A",
+    "copyright_group": "P1",
+    "locator": "Appendix A2, compliance through income or hours",
+    "quote": "it proxies monthly income by dividing annual income by 12",
+    "private_text_path": ".local-sources/health-coverage-review/HAS-appendix.txt",
+    "word_count": 10
+  },
+  {
+    "id": "Q6",
+    "source_id": "J1",
+    "copyright_group": "J1",
+    "locator": "PDF page 6, order",
+    "quote": "DENIED without prejudice.",
+    "private_text_path": ".local-sources/dividend-health-coverage-screen/J1.txt",
+    "word_count": 3
+  }
+]

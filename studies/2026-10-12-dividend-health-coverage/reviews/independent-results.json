@@ -1,0 +1,103 @@
+{
+  "start_utc": "2026-10-12T18:53:21.801925+00:00",
+  "end_utc": "2026-10-12T18:53:21.803094+00:00",
+  "scope": "Independent fixed-input and arithmetic checks; no author import; no legal eligibility inference.",
+  "case_count": 10,
+  "row_count": 40,
+  "checked_output_fields": 520,
+  "manuscript_case_rows_checked": 3,
+  "combined_results": [
+    {
+      "case_id": "low-income opening",
+      "combined_pass": [
+        false,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "case_id": "upper-ceiling crossing",
+      "combined_pass": [
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "case_id": "prior income route",
+      "combined_pass": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "case_id": "other route",
+      "combined_pass": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "case_id": "insufficient added cash",
+      "combined_pass": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "case_id": "requirement inapplicable",
+      "combined_pass": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "case_id": "upper test already fails",
+      "combined_pass": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "case_id": "exact lower boundary",
+      "combined_pass": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "case_id": "exact upper boundary",
+      "combined_pass": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "case_id": "above upper boundary",
+      "combined_pass": [
+        false,
+        false,
+        false,
+        false
+      ]
+    }
+  ],
+  "result_sha256": "3f720fb491584eae82c11923a5fbcabc787737402491d2c43b8e7ee88222e1e7",
+  "passed": true
+}
