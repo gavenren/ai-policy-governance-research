@@ -1,0 +1,27 @@
+{
+  "utc": "2026-10-11T21:41:46Z",
+  "state": "Working notes pending release checks",
+  "changes": [
+    {
+      "file": "paper.md",
+      "reviewed_sha256": "d062a655f875ddf3ca8eb181efdb83cc6639f1311a0c151f580dee3a73e5d62a",
+      "current_sha256": "c8f789cd0f347b7a418d622cc0170b6a83e54b88a62f931e747ae169c5eaa957",
+      "only_change": "Review-status sentence updated; substantive text unchanged.",
+      "reverse_status_edit_matches_reviewed_hash": true
+    },
+    {
+      "file": "codebook.md",
+      "reviewed_sha256": "e9e2698f2f27296446d9ca85c5e455df9da851ac8c40ac5365252a410815bfbc",
+      "current_sha256": "29b8c0cbc587ab44cf5afa79b38ce402801635528416eb9399988a8ad003c48b",
+      "only_change": "Review-status sentence updated; substantive text unchanged.",
+      "reverse_status_edit_matches_reviewed_hash": true
+    }
+  ],
+  "other_metadata_changes": [
+    "README now links completed review and author response.",
+    "Review README and completion/execution logs now record completed review.",
+    "Author response records reviewer acceptance.",
+    "results/run.json regenerated after metadata edits; both commands passed."
+  ],
+  "analysis_change": false
+}

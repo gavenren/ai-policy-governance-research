@@ -1,0 +1,28 @@
+{
+  "type": "logical boundary test; not an empirical or legal power estimate",
+  "baseline": "Additional unsearched remedies unknown; only documented scope stated.",
+  "permissive_assumption": "Every unknown additional challenge route may exist.",
+  "affected_routes": [
+    "AK-payment",
+    "AK-vote",
+    "AK-complaint",
+    "NO-payment",
+    "NO-vote",
+    "NO-complaint",
+    "NZ-payment",
+    "NZ-vote",
+    "NZ-complaint"
+  ],
+  "positive_separation_evidence_retained": [
+    "AK-spending",
+    "AK-voting",
+    "AK-challenge",
+    "NO-spending",
+    "NO-voting",
+    "NZ-spending",
+    "NZ-voting",
+    "NZ-challenge"
+  ],
+  "conclusion_withheld_under_both": "No general conclusion that citizens lack court access or a binding remedy.",
+  "limited_conclusion": "The remedy must reach the documented authority for that decision; an additional route could supply that connection."
+}

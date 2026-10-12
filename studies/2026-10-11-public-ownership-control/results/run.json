@@ -1,0 +1,30 @@
+{
+  "run_utc": "2026-10-11T21:41:46Z",
+  "python": "3.13.7",
+  "dependencies": "Python standard library only",
+  "command": "python3 code/validate.py --write --with-local",
+  "exit_status": 0,
+  "source_entries": 22,
+  "coded_relations": 18,
+  "decision_routes": 9,
+  "local_representations_verified": 22,
+  "manual_transcription_not_machine_verified": [
+    "AK12"
+  ],
+  "input_sha256": {
+    "paper.md": "c8f789cd0f347b7a418d622cc0170b6a83e54b88a62f931e747ae169c5eaa957",
+    "protocol.md": "eb6ed19a7beaeb236ea4581ed39d1f27744f7852076c0123a7fc94486bd1cd0d",
+    "codebook.md": "29b8c0cbc587ab44cf5afa79b38ce402801635528416eb9399988a8ad003c48b",
+    "data/coding.csv": "af356ab0e63b9d4d2392d05e0790c5647c28680108bf12da95bf8f6beb89b132",
+    "data/decision_routes.csv": "f93bf17e29a18821def8cdaea0ade97d2f3cfbeee4b6fe6c53da792c63ea6b59",
+    "sources/manifest.json": "cc173b196d6266e25822b825088b78ab6f03d19f7232444879f0f63142052a99",
+    "sources/instruments.csv": "f9b98dc6d3f5e20d54860a34a93f2536a31cc9090357f5dee82c692fb697a980",
+    "sources/extracts.csv": "d805c81a6299c0a70be0e928b85e85fcdde71eace24b5108b7ace4eec26891ac",
+    "code/validate.py": "75d68c19e1fc63550b54631da94304c2af256898521dce94a9f34253a3fee73e"
+  },
+  "limits": [
+    "Checks do not establish legal correctness or completeness.",
+    "Permissive remedy sensitivity is logical, not empirical.",
+    "No human or independent double coding is claimed."
+  ]
+}

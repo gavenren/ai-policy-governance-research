@@ -8,6 +8,7 @@ Reproducible studies of AI policy and governance, using dated public primary sou
 
 | Study | State and evidence | Materials |
 | --- | --- | --- |
+| Who Governs the People's Capital? | Complete-study draft. Income rights, investment votes and remedies in three public funds; 18 coded relations and separate AI review. | [Paper](studies/2026-10-11-public-ownership-control/paper.md), [evidence and review](studies/2026-10-11-public-ownership-control/) |
 | Who Can Rely on an International AI Dividend? | Complete-study draft. Payment incentives, persistent shocks, and financed deposits; 648 cases and 12 tests. | [Paper](studies/2026-10-11-international-dividend/paper.md), [results and review](studies/2026-10-11-international-dividend/) |
 | Buying a Public Stake Without Buying a Guarantee | Complete-study draft. Fair-price public acquisition, debt repayment, and fiscal risk; six cases and 9 tests. | [Paper](studies/2026-10-11-public-capital-acquisition/paper.md), [results and review](studies/2026-10-11-public-capital-acquisition/) |
 | Cash Before Capital | Complete-study draft. Exact cash-reserve test with delayed asset sales and joint revenue shocks; 11,979 path rows and 10 tests. | [Paper](studies/2026-10-11-dividend-reserves/paper.md), [results and review](studies/2026-10-11-dividend-reserves/) |

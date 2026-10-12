@@ -1,0 +1,32 @@
+{
+  "recorded_utc": "2026-10-12T05:50:45Z",
+  "files": {
+    "README.md": "a14799ad8ae69800a72f2d8cb7521f926cca3ea8c17bf584cf15186e465c03b4",
+    "code/acquire.py": "4e20bfeaace74bf4fbdaf7736eeae80715cba33411f254a635a06d9e6b9432bd",
+    "code/validate.py": "75d68c19e1fc63550b54631da94304c2af256898521dce94a9f34253a3fee73e",
+    "codebook.md": "29b8c0cbc587ab44cf5afa79b38ce402801635528416eb9399988a8ad003c48b",
+    "completion-gates.json": "866013701f84012c08bedc119dc27b344eb2a56566e080daaf2d60b4fbda07c5",
+    "data/coding.csv": "af356ab0e63b9d4d2392d05e0790c5647c28680108bf12da95bf8f6beb89b132",
+    "data/decision_routes.csv": "f93bf17e29a18821def8cdaea0ade97d2f3cfbeee4b6fe6c53da792c63ea6b59",
+    "logs/access-and-decisions.md": "228e8e01ca0998a5a4eea539d347883ee229c345eba65eda342cbd33c2a3ae14",
+    "logs/completion-gates.md": "e6ef7b107497ec2ae331170b55e68f044ad154ee07745cf49fc99d8633bccc78",
+    "logs/execution.md": "3898ca1757db0546e57a5521265f6ea80e06291aceeb0bc96240c77988b5c2a0",
+    "logs/review-status-update.json": "1dbe8500e025600b48d51442b0188cc8af1cae76a50c4870bfdf7bf8bde1ceb3",
+    "logs/searches.md": "0c300a93d81be25ffb8741833d9503e774ed69156c37f19fbfd7450f41f289a1",
+    "paper.md": "758973b40876822fd759fa8a7adb40518d23cd574d55a30c279375357d5a735f",
+    "protocol.md": "eb6ed19a7beaeb236ea4581ed39d1f27744f7852076c0123a7fc94486bd1cd0d",
+    "results/case-matrix.md": "fdc846f97193cdb021f11f7bc1252bae4e69f67a3e25a0bd16b9f13542dd8eda",
+    "results/decision-routes.md": "709385b8858d3d295c8280e84d29f29236393e173aa1ee46329ba023067b43a0",
+    "results/run.json": "1533c2d95c82bdf2a807c51d355fc000e3412c4a1429481269d1da22d8ba761b",
+    "results/sensitivity.json": "b161e29de9bbf6b4f7cfd962274974d7026bd5e2d56d633a3d9bbb5efe7239b3",
+    "reviews/README.md": "4f69aaea5dbff56bc393987f85079ac122e5f8b4497378551d6a2097cd68f22f",
+    "reviews/author-response.md": "5da630b484df317888e7ca624bab4f6cd8285a696a2b0c70cc421d0d3ba76733",
+    "reviews/critical-review.md": "e9279c2024fbd9a56e9feeba8675b5346919cac9d717609d3923dd39fd9b27a6",
+    "reviews/parent-release.md": "fa7f61c83804f88e1c6714d1e4650c7c1b91a61f715b2f877a65975a55d5f287",
+    "sources/acquisition.json": "080e01176683302fc87e8bb61700d4c1b9b40eba89afeb4e0c468408c5d0317e",
+    "sources/captures.jsonl": "716a64e65264b020d7b7b9c5610ed59e37a634b9e552e7d3ec0d5975b4e9f7af",
+    "sources/extracts.csv": "d805c81a6299c0a70be0e928b85e85fcdde71eace24b5108b7ace4eec26891ac",
+    "sources/instruments.csv": "f9b98dc6d3f5e20d54860a34a93f2536a31cc9090357f5dee82c692fb697a980",
+    "sources/manifest.json": "cc173b196d6266e25822b825088b78ab6f03d19f7232444879f0f63142052a99"
+  }
+}

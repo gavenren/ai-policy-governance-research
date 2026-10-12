@@ -1,0 +1,64 @@
+{
+  "study": "S010",
+  "state": "Complete-study draft",
+  "recorded_utc": "2026-10-12T05:50:45Z",
+  "evidence_cutoff_utc": "2026-10-11T21:35:44Z",
+  "human_peer_review": false,
+  "gates": {
+    "contribution": {
+      "status": "pass",
+      "evidence": [
+        "paper.md sections 2\u20133",
+        "logs/searches.md",
+        "protocol.md"
+      ],
+      "limit": "Targeted institutional application; no exhaustive novelty proof."
+    },
+    "evidence": {
+      "status": "pass within stated scope",
+      "evidence": [
+        "sources/manifest.json",
+        "sources/extracts.csv",
+        "sources/instruments.csv",
+        "reviews/parent-release.md"
+      ],
+      "limit": "New Zealand statute and authentic Norwegian text gaps remain; positive official allocations only."
+    },
+    "execution": {
+      "status": "pass",
+      "command": "python3 code/validate.py --with-local",
+      "result": "22 source records; 18 relations; 9 routes; all checks pass at 2026-10-12T04:50:10Z"
+    },
+    "inference": {
+      "status": "pass",
+      "evidence": [
+        "paper.md sections 3 and 5",
+        "results/sensitivity.json"
+      ],
+      "limit": "Three selected institutions; no effectiveness, prevalence or absence-of-all-remedies claim."
+    },
+    "review": {
+      "status": "pass",
+      "evidence": [
+        "reviews/critical-review.md",
+        "reviews/author-response.md"
+      ],
+      "result": "Separate AI review; 13 independent source decisions; three minor findings resolved; no blocker."
+    },
+    "disclosure": {
+      "status": "pass",
+      "evidence": [
+        "paper.md opening block",
+        "README.md"
+      ]
+    },
+    "release_hygiene": {
+      "status": "pass",
+      "evidence": [
+        "reviews/parent-release.md",
+        "reviews/release-hashes.json"
+      ],
+      "remote_verification": "Must be established by the subsequent exact-file commit receipt."
+    }
+  }
+}
