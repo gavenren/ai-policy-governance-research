@@ -1,0 +1,12 @@
+
+==============================================================================
+INTERNAL CHECKS
+==============================================================================
+  [mktcap/broad] rows=1:True  collect<=charge:True  conserv:True  bucket-conserv:True  cap-logic:True   OK
+  [mktcap/tech ] rows=1:True  collect<=charge:True  conserv:True  bucket-conserv:True  cap-logic:True   OK
+  [payout/broad] rows=1:True  collect<=charge:True  conserv:True  bucket-conserv:True  cap-logic:True   OK
+  [payout/tech ] rows=1:True  collect<=charge:True  conserv:True  bucket-conserv:True  cap-logic:True   OK
+  [subset sweep] 2^6 states, per-bucket conservation & no-overcharge (broad+tech): True   OK
+  [china cap] binds when China out, releases when in: True   OK
+
+  ALL CHECKS PASS

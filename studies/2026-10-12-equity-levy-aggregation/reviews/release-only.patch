@@ -1,0 +1,59 @@
+--- a/studies/2026-10-12-equity-levy-aggregation/paper.md
++++ b/studies/2026-10-12-equity-levy-aggregation/paper.md
+@@ -1,10 +1,13 @@
+ # How Much Would an AI Equity Levy Collect?
+ ## Firm-level caps and the limits of group averages
+ 
+-**Study S015 · Working notes · 12 October 2026**  
+-**Research type:** Quantitative robustness note on a pinned public policy model.  
+-**Evidence:** Public sources and constructed scenarios; no observed levy collections. Source-capture cutoff: 2026-10-12T17:46:29.147619Z; the separate feasibility search ended at 17:48:45Z.  
+-**Disclosure:** Codex prepared the analysis and manuscript. Separate AI critical review is pending. No human peer review or external submission is claimed.
++**Study S015 · Complete-study draft · 12 October 2026**
++
++**Research type:** Quantitative robustness note on a pinned public policy model.
++
++**Evidence:** Public sources and constructed scenarios; no observed levy collections. Source-capture cutoff: 2026-10-12T17:46:29.147619Z; the separate feasibility search ended at 17:48:45Z.
++
++**Disclosure:** Codex prepared the analysis and manuscript. Separate AI critical review and reproduction are complete; see the review and author response. No human peer review or external submission is claimed.
+ 
+ ## Abstract
+ 
+@@ -128,7 +131,7 @@
+ 
+ Two equally revenue-weighted firms, one selling wholly inside the coalition and one wholly outside it, have average exposure one half. If the inside firm has three times the other's value per dollar of revenue, value-weighted exposure is three quarters. Reversing those ratios makes it one quarter. Thus a revenue mean of one half does not identify the relevant value mean. A positive-equity firm with zero revenue requires separate treatment; it cannot be included by dividing its value by zero. The source's constructed rows also involve judgment and mismatched geographical coverage, so they are not all direct estimates of one uniform revenue-weighted object. [V6–V7]
+ 
+-For a public dividend plan, the practical implication is to separate a useful illustration from a funding commitment. Publish the valuation date, covered firm set, weighting convention and destination definition. Show how firm caps are applied and which firm data remain unavailable. If only group means are known, present the resulting conditional range. A full global coalition removes one problem—the cap's nonlinear aggregation effect on total collection—but leaves valuation, compliance, conversion of shares into cash and the allocation across recipients to be resolved.
++For a public dividend plan, the practical implication is to separate a useful illustration from a funding commitment. Publish the valuation date, covered firm set, weighting convention and destination definition. Show how firm caps are applied and which firm data remain unavailable. If only group means are known, present the resulting conditional range. Under the fixed value-weighted means, a full global coalition fixes both total collection and each member's receipt: every member receives its mean sales share of each group's full charge. For an actual payment plan, valuation, compliance, conversion of shares into cash and measurement of those recipient shares still need to be resolved.
+ 
+ The lower endpoint is not automatically the right budget. It is deliberately permissive about unknown firms and may be too low once their actual values and exposures are known. Conversely, an empirical weighting mismatch can invalidate even that conditional floor. These bounds are most useful as a test of what extra information a stronger fiscal claim requires.
+ 
+@@ -138,7 +141,7 @@
+ 
+ The central limits are substantial. We do not estimate the actual distribution of firms, independently validate the underlying financial sources, or solve for prices and behavior after a levy. A tax may change company value, sales, incorporation, avoidance and investment. We hold these channels fixed. We also do not establish enforceability, optimality, cash liquidity or a stable international agreement. The source itself discloses important input limits; our analysis makes a particular additional information requirement explicit.
+ 
+-The contribution claim rests on a bounded search and the portions of the nearest work actually read, listed in the source ledger. We found no prior calculation of this exact receipt set for the pinned Figure 3 model. That is not proof of global novelty. Separate AI review is pending. No affiliation, funding source, conflict declaration or human endorsement is invented.
++The contribution claim rests on a bounded search and the portions of the nearest work actually read, listed in the source ledger. We found no prior calculation of this exact receipt set for the pinned Figure 3 model. That is not proof of global novelty. Separate AI review reproduced all seven deterministic outputs and independently checked all four tables. Its two text findings were resolved; see [the review](reviews/critical-review.md) and [response](reviews/author-response.md). No affiliation, funding source, conflict declaration or human endorsement is invented.
+ 
+ ## References and evidence
+ 
+--- a/studies/2026-10-12-equity-levy-aggregation/README.md
++++ b/studies/2026-10-12-equity-levy-aggregation/README.md
+@@ -1,6 +1,6 @@
+ # S015 — How Much Would an AI Equity Levy Collect?
+ 
+-**State: Working notes.** Numerical analysis is complete; separate AI critical review is pending. This is a short robustness note about the information in one public scenario model, not an empirical revenue forecast.
++**State: Complete-study draft.** Numerical analysis, separate AI critical review and reproduction are complete. See the [review](reviews/critical-review.md), [response](reviews/author-response.md) and [completion record](logs/completion.md). This is a short robustness note about the information in one public scenario model, not an empirical revenue forecast.
+ 
+ Read the [paper](paper.md), [prospective numerical protocol](protocol.md), [separate feasibility review](reviews/feasibility.md), and [source guide](sources/README.md).
+ 
+@@ -41,8 +41,8 @@
+ 
+ ## Evidence, rights and limits
+ 
+-Source-capture cutoff: **2026-10-12T17:46:29.147619Z**. The separate bounded feasibility search ended at 17:48:45Z. Later review and publication checks will be dated separately. Source citations and actual read scope appear in the [manifest](sources/manifest.json). Financial anchors, company filings and legal enforceability were not independently validated. The sales weighting condition is explicit and materially limits interpretation.
++Source-capture cutoff: **2026-10-12T17:46:29.147619Z**. The separate bounded feasibility search ended at 17:48:45Z. The separate review ran at 18:02:32–47Z. A later source check at 18:03:24–25Z confirmed the same pinned repository revision and identical essay bytes; API metadata bytes differed. See `logs/prepublication-source-check.json`. Source citations and actual read scope appear in the [manifest](sources/manifest.json). Financial anchors, company filings and legal enforceability were not independently validated. The sales weighting condition is explicit and materially limits interpretation.
+ 
+ The eight unchanged files in `sources/vendor/` retain Copyright (c) 2026 Silviu Pitis and their upstream MIT licence. This does not select a licence for new study material. Full nonlicensed originals remain in ignored storage; only metadata and narrow evidence are published. No raw private or personal data were used.
+ 
+-Codex authored the central analysis and manuscript. A separate AI agent prepared the source package and feasibility assessment, but did not author or execute the central model. Its later critical review, if completed, will report the exact material and checks it covered. No human review, journal acceptance, institutional endorsement, actual collection or paid research is claimed.
++Codex authored the central analysis and manuscript. A separate AI agent prepared the source package and feasibility assessment, but did not author the central model or execute it before critical review. During critical review it reproduced the analysis and wrote a separate check that imports neither the author nor vendor model. The review had shared context and was not blind; its exact scope and content hashes are public. No human review, journal acceptance, institutional endorsement, actual collection or paid research is claimed.

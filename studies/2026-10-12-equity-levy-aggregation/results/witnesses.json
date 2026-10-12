@@ -1,0 +1,99 @@
+{
+  "interpretation": "Different feasible populations, not simultaneous upper endpoints.",
+  "universe": "broad",
+  "group": "US",
+  "members": [
+    "US",
+    "EU"
+  ],
+  "cap": 3,
+  "mean_sales": [
+    ".58",
+    ".13",
+    ".02",
+    ".08",
+    ".06",
+    ".13"
+  ],
+  "witnesses": {
+    "US_upper": {
+      "target_receipts": [
+        "87/100",
+        "13/100",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "firms": [
+        {
+          "value_weight": "87/100",
+          "sales": [
+            "2/3",
+            "0",
+            "2/87",
+            "8/87",
+            "2/29",
+            "13/87"
+          ]
+        },
+        {
+          "value_weight": "13/100",
+          "sales": [
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      ]
+    },
+    "EU_upper": {
+      "target_receipts": [
+        "29/50",
+        "39/100",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "firms": [
+        {
+          "value_weight": "29/50",
+          "sales": [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "value_weight": "39/100",
+          "sales": [
+            "0",
+            "1/3",
+            "4/87",
+            "16/87",
+            "4/29",
+            "26/87"
+          ]
+        },
+        {
+          "value_weight": "3/100",
+          "sales": [
+            "0",
+            "0",
+            "2/29",
+            "8/29",
+            "6/29",
+            "13/29"
+          ]
+        }
+      ]
+    }
+  }
+}

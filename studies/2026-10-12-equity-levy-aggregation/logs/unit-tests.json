@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-10-12T17:58:10.936405+00:00",
+  "completed_utc": "2026-10-12T17:58:11.013718+00:00",
+  "command": [
+    "python3",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "studies/2026-10-12-equity-levy-aggregation/code",
+    "-p",
+    "test_model.py",
+    "-v"
+  ],
+  "exit_status": 0,
+  "transcript_sha256": "108d5000da972e9bcb1b2d8d86bd229b9fca3a2884a3e79026c6c5188e7f12cd",
+  "tests": 15
+}

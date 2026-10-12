@@ -1,0 +1,25 @@
+{
+  "recorded_utc": "2026-10-12T17:56:33.966599Z",
+  "scope": "Factual evidence package only. No central model, manuscript, protocol, index or Git state edited. Source model not executed by the evidence preparer.",
+  "sha256": {
+    "sources/manifest.json": "48ac48a5e54cf2c6e50eab3f4f7146100cd187c16eaec887c353e115cb4703f8",
+    "sources/manifest.csv": "82331e33ed7335d37522a93604cfff98c073e8c94d46b8ffcd3edd4bb74a7d82",
+    "sources/README.md": "5d3c59c8412d83d8b31c73a50ad8f9b7c69974975d8d536b81289b349d797fa2",
+    "sources/evidence.md": "26d69517cf37c6d9514bf6a37782b693633ef2a0b4f2e55a516d7a4552a1f3d3",
+    "sources/quotations.json": "12081c215ab09cfb51b7b6b88c27050bb9b16acb9f2846fc5c73545bf11fa084",
+    "code/check_sources.py": "fe74f7508e2f76b4750a5b8b3edab2c98456c6a1e18c174b07c405af40f01517",
+    "logs/source-acquisition.json": "c5014f2b01b6c34a8a5d0a121d65c97d3ad7f373dc84561b67d222f9fd3a10f0",
+    "logs/source-checks.json": "7c85a043b9f99ceccb2c5f9f31ad491729735d014a814eebd01626770c1b5cac",
+    "sources/vendor/LICENSE": "cd4e3a61bb91cae32738aa815dcd95802b2c0dcb28c5135d9dff64d751b909f6",
+    "sources/vendor/README.md": "1f2513586caf51d46f4cf367ad32f94779490a2494945c118d49e7f8655be6de",
+    "sources/vendor/figure3-club/BURDEN.md": "e455d03cc5ac9a9995a89f0538d4e1dd9af39a35c0280f7cefd638a60d51c247",
+    "sources/vendor/figure3-club/DATA.md": "25bb9e527f3fdafefa9dd2470fcae6b27fbd682169407e8f7ed400bc8bfba890",
+    "sources/vendor/figure3-club/README.md": "616ad031d62c01c21654294df3d8bce972691bfd71192b02f3eaa08f365fa168",
+    "sources/vendor/figure3-club/SOURCES.md": "74cf9015ececd7de3cc3ef2a8fc5bc6ec62c3c679ebeefdbab5cb55daf535bc9",
+    "sources/vendor/figure3-club/figure3.py": "78fb6801ed2d93ed44a20aa07302acf154d47e13670afe1f34fbd6b9d1ee8e01",
+    "sources/vendor/requirements.txt": "b8ba9ee8a9c93e8c4be8441dfa8fca1f4410ed69ce76c87b4d52ffe03f4de06f"
+  },
+  "package_markdown_links_checked": 7,
+  "unmodified_vendor_links": "Not rewritten; the partial-copy limitation is explicit in sources/README.md.",
+  "excluded_runtime_files": "An untracked Python bytecode cache appeared in vendor/ during parallel author work. It is not a copied source file and is excluded from this package hash list."
+}

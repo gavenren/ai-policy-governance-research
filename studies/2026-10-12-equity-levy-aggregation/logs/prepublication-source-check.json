@@ -1,0 +1,27 @@
+[
+  {
+    "id": "main",
+    "url": "https://api.github.com/repos/spitis/who-owns-ai-economy/commits/main",
+    "started_utc": "2026-10-12T18:03:24.129717+00:00",
+    "completed_utc": "2026-10-12T18:03:24.364610+00:00",
+    "exit_status": 0,
+    "stderr": "",
+    "retained_path": ".local-sources/equity-levy-aggregation/main-recheck-20261012T180324Z.json",
+    "sha256": "03f756ee898972ec950fd263aa73996ed0ea4ec6d3ae155f257e6cbc978eea56",
+    "bytes": 7033,
+    "byte_equal_initial": false,
+    "revision": "1573447e94b21f0da8fbaa1e9cf78823a5e2663e"
+  },
+  {
+    "id": "essay",
+    "url": "https://silviupitis.com/blog/2026/who-owns-the-ai-economy/",
+    "started_utc": "2026-10-12T18:03:24.365478+00:00",
+    "completed_utc": "2026-10-12T18:03:25.276838+00:00",
+    "exit_status": 0,
+    "stderr": "",
+    "retained_path": ".local-sources/equity-levy-aggregation/essay-recheck-20261012T180324Z.html",
+    "sha256": "66bfd38cd85a3189e52b72c6f7e4129b3033596acf57774af4f2af132edbcfb5",
+    "bytes": 154257,
+    "byte_equal_initial": true
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "started_utc": "2026-10-12T17:54:49.324860+00:00",
+  "completed_utc": "2026-10-12T17:54:53.291455+00:00",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "source_commit": "1573447e94b21f0da8fbaa1e9cf78823a5e2663e",
+  "input_sha256": "848e8ccb2a756165f085f2b6c023dc20d376b1dac6a04e21d99d52c73a1414c5",
+  "code_sha256": {
+    "analyze.py": "6ddc131d7680b43f9e9bd938215ccd5d35735a535202194223f326e75ea1b328",
+    "model.py": "2b75565d45a3b39529d5da0c1460ea7c61ba7cb379316078bc20a07e2343b1b0",
+    "test_model.py": "f310b0f308eb50902064dff5841f42b0c27bb8d836468a7ffc116891cd312811"
+  },
+  "source_code_sha256": "78fb6801ed2d93ed44a20aa07302acf154d47e13670afe1f34fbd6b9d1ee8e01",
+  "output_sha256": {
+    "configurations.csv": "affd641fee60e4dd68b7d7f774eebe726cb4fef4186b6ba346a4f3b863eaf89e",
+    "entry.csv": "d648dd80d2792eec720410205bd45ef7e24bc80d18585918c799bfabc5cbc37c",
+    "groups.csv": "f3caf2a642ded8f5e16ec91f9516790209f675cefc874eeba1b475e7f41f0206",
+    "members.csv": "758ab31c49a912d7c3de48c6085723f87c5c3392e4f5d31eade60814261c8297",
+    "source-checks.txt": "1c713bc02231cec02b078565b355362d20f5dc640f6a967f36ee24f06b3dad34",
+    "summary.json": "814637aeef33b13bfbffb49378b3429094495bb0ad496d531b119167914cbb33",
+    "witnesses.json": "4dc0a6318782f9e41791d20b861afe35d9223cc67a9a2ee69c631b36b24faf01"
+  },
+  "exit_status": 0,
+  "network_used_by_analysis": false
+}

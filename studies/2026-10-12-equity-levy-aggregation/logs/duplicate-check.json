@@ -1,0 +1,11 @@
+{
+  "requested_url": "https://raw.githubusercontent.com/gavenren/ai-safety-research/main/README.md",
+  "started_utc": "2026-10-12T17:55:16.780007+00:00",
+  "completed_utc": "2026-10-12T17:55:16.895113+00:00",
+  "exit_status": 0,
+  "purpose": "read-only programme distinctness check",
+  "stderr": "",
+  "retained_path": ".local-sources/equity-levy-aggregation/separate-programme-readme.md",
+  "sha256": "987b1592bd4763ad75ea5afb411056bca4e00cddea345810d82123c335862ff9",
+  "bytes": 2734
+}

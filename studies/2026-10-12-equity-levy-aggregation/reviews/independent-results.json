@@ -1,0 +1,66 @@
+{
+  "started_utc": "2026-10-12T18:02:36.378021+00:00",
+  "completed_utc": "2026-10-12T18:02:47.091302+00:00",
+  "python": "3.12.14",
+  "author_or_vendor_model_imported": false,
+  "network_used": false,
+  "all_checks_passed": true,
+  "csv_row_counts": {
+    "configurations": 384,
+    "groups": 2304,
+    "members": 1152,
+    "entry": 2304
+  },
+  "exact_and_decimal_quantity_pairs_checked": 21120,
+  "stored_witnesses_checked": 2,
+  "proof_construction_edge_and_interior_checks": 384,
+  "single_firm_necessity_checks": 1584,
+  "weighting_examples": 2,
+  "selected_totals": {
+    "broad:1": {
+      "lower_B": "236713/500",
+      "upper_B": "120009/125"
+    },
+    "broad:3": {
+      "lower_B": "130729/200",
+      "upper_B": "28327/25"
+    },
+    "broad:15": {
+      "lower_B": "808101/1000",
+      "upper_B": "290679/250"
+    },
+    "broad:47": {
+      "lower_B": "1049509/1000",
+      "upper_B": "235479/200"
+    },
+    "broad:63": {
+      "lower_B": "12671/10",
+      "upper_B": "12671/10"
+    },
+    "mag7:1": {
+      "lower_B": "121",
+      "upper_B": "220"
+    },
+    "mag7:3": {
+      "lower_B": "792/5",
+      "upper_B": "220"
+    },
+    "mag7:15": {
+      "lower_B": "902/5",
+      "upper_B": "220"
+    },
+    "mag7:47": {
+      "lower_B": "1034/5",
+      "upper_B": "220"
+    },
+    "mag7:63": {
+      "lower_B": "220",
+      "upper_B": "220"
+    }
+  },
+  "script_sha256": "0a91d6b136227f25af28d0bdd007b954c944164c3afc9e2076538d410aa39c34",
+  "limitations": [
+    "Finite checks are not a proof of the theorem.",
+    "No source financial anchors or real firm population were validated."
+  ]
+}

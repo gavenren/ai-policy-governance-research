@@ -1,0 +1,20 @@
+test_EU_endpoint_has_unused_charge (test_model.ReceiptTests.test_EU_endpoint_has_unused_charge) ... ok
+test_US_endpoint_preserves_all_means (test_model.ReceiptTests.test_US_endpoint_preserves_all_means) ... ok
+test_cap_one (test_model.ReceiptTests.test_cap_one) ... ok
+test_empty_club (test_model.ReceiptTests.test_empty_club) ... ok
+test_entry_same_population (test_model.ReceiptTests.test_entry_same_population) ... ok
+test_global_membership (test_model.ReceiptTests.test_global_membership) ... ok
+test_incompatible_upper_endpoints_rejected (test_model.ReceiptTests.test_incompatible_upper_endpoints_rejected) ... ok
+test_interior_receipt_set (test_model.ReceiptTests.test_interior_receipt_set) ... ok
+test_invalid_profiles_and_members (test_model.ReceiptTests.test_invalid_profiles_and_members) ... ok
+test_invalid_weights_and_receipts (test_model.ReceiptTests.test_invalid_weights_and_receipts) ... ok
+test_ratio_boundary_and_invalid_values (test_model.ReceiptTests.test_ratio_boundary_and_invalid_values) ... ok
+test_ratio_endpoints (test_model.ReceiptTests.test_ratio_endpoints) ... ok
+test_same_mean_different_totals (test_model.ReceiptTests.test_same_mean_different_totals) ... ok
+test_source_point_not_country_upper (test_model.ReceiptTests.test_source_point_not_country_upper) ... ok
+test_zero_exposure (test_model.ReceiptTests.test_zero_exposure) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.002s
+
+OK

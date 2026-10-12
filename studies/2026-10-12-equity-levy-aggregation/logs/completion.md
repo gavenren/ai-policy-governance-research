@@ -1,0 +1,18 @@
+# S015 completion and release record
+
+Recorded 2026-10-12T18:05:56.877386Z. Base programme commit: `b5adf467eb27bd37d1d9f265b63c2178308d6657`. This record closes the study gates before publication. The subsequent GitHub commit and exact-byte publication receipt are recorded by the release process; this prepublication file does not itself prove a remote upload.
+
+| Gate | Evidence and actual result |
+| --- | --- |
+| Contribution | `reviews/feasibility.md` and `reviews/search.md` record closest primary work, actual read scope, bounded search and limited novelty. `logs/duplicate-check.json` records a fresh read-only separate-programme index check. The source explicitly states its group scope. |
+| Plan | `protocol.md` recorded the numerical design at 17:52:34.808667Z after exploratory hand derivation and before the first numerical execution. Its dated addendum fixed the optional example before testing. No numerical outcome-driven expansion occurred. |
+| Evidence | `sources/manifest.json` and `.csv` contain 13 records, source-capture cutoff 17:46:29.147619Z and actual clone timing limits. Eight unchanged licensed vendor files and 19 local byte files matched. Full nonlicensed originals are excluded. Nine quoted essay words; no prose quote from the three prior papers. |
+| Execution | `results/run.json`: first analysis 17:54:49–53Z, Python3.12.14/NumPy2.3.5, exit zero. All 384 planned configurations and all related rows retained. `logs/unit-tests.*`: 15 tests pass. No network or paid computation in analysis. |
+| Inference | The paper states conditional value weighting, unrestricted latent firms, marginal versus joint bounds, non-additive universes and unverified underlying financial anchors. Source points, global and cap-one positive controls are retained. No forecast, fiscal cash, legal-validity or welfare claim. |
+| Separate review | `reviews/critical-review.md` and `verification-record.json`: all seven deterministic files reproduced exactly; separate script imports neither model, checks all four tables and 21,120 quantity pairs plus witnesses and extra cases. Review is AI, nonblind, with prior source/feasibility role disclosed. |
+| Disposition | Both minor text findings accepted in `reviews/author-response.md`; exact release-only patch supplied. Only paper/README differ from the frozen central package. No numerical or proof blocker. |
+| Source recheck | `prepublication-source-check.json`, 18:03:24–25Z: same pinned source main revision and byte-identical essay. API response metadata bytes changed; no source revision change was inferred. |
+| Hygiene | Selected study files and two programme index files only. No private-path or credential-pattern finding. Upstream MIT licence applies only to copied source files. Bytecode caches and ignored source captures excluded. Whitespace check with `core.whitespace=cr-at-eol` passes, excluding only the intentional context spaces in the release patch. Initial default check flagged CRLF ledger endings and three Markdown hard breaks; hard breaks were replaced by blank paragraphs in the release diff. |
+| Authority | Fresh GitHub metadata confirmed public `gavenren/ai-policy-governance-research`, repository ID1412560822, main branch, push rights. Fresh read-only remote-head check returned the base commit. Expected-head non-force update will be used. |
+
+Complete-study draft means the programme's local gates and separate AI review are complete. It does not mean human peer review, acceptance, a validated revenue estimate, an operating levy or an external publication judgment. No author contact or journal submission occurred.

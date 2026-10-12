@@ -1,0 +1,28 @@
+[
+  {
+    "command": [
+      "python3",
+      "studies/2026-10-12-equity-levy-aggregation/code/check_sources.py"
+    ],
+    "python": "3.12.14",
+    "started_utc": "2026-10-12T17:56:10.558521Z",
+    "completed_utc": "2026-10-12T17:56:10.604705Z",
+    "exit_code": 0,
+    "stdout": "{\n  \"source_records\": 13,\n  \"public_vendor_files_checked\": 8,\n  \"local_byte_files_checked\": 0,\n  \"json_csv_match\": true,\n  \"evidence_quotation_words\": {\n    \"P1\": 9\n  },\n  \"local_mode\": false,\n  \"source_code_executed\": false\n}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "studies/2026-10-12-equity-levy-aggregation/code/check_sources.py",
+      "--repository",
+      "."
+    ],
+    "python": "3.12.14",
+    "started_utc": "2026-10-12T17:56:10.604780Z",
+    "completed_utc": "2026-10-12T17:56:10.660479Z",
+    "exit_code": 0,
+    "stdout": "{\n  \"source_records\": 13,\n  \"public_vendor_files_checked\": 8,\n  \"local_byte_files_checked\": 19,\n  \"json_csv_match\": true,\n  \"evidence_quotation_words\": {\n    \"P1\": 9\n  },\n  \"local_mode\": true,\n  \"source_code_executed\": false\n}\n",
+    "stderr": ""
+  }
+]

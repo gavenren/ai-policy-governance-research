@@ -1,0 +1,11 @@
+[
+  {
+    "source_id": "P1",
+    "locator": "Assumptions behind Figure 3 footnote",
+    "quote": "The cap is applied to each group's sales pattern.",
+    "word_count": 9,
+    "public_location": "sources/evidence.md",
+    "normalization": "Whitespace only",
+    "maximum_across_extract_and_paper": 25
+  }
+]

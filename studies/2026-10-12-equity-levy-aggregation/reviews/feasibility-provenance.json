@@ -1,0 +1,102 @@
+{
+  "recorded_utc": "2026-10-12T17:51:03.561045+00:00",
+  "model_scripts_executed": false,
+  "outcome_grid_executed": false,
+  "source_checkout_head": "1573447e94b21f0da8fbaa1e9cf78823a5e2663e",
+  "current_main_api_sha": "1573447e94b21f0da8fbaa1e9cf78823a5e2663e",
+  "source_files_read_sha256": {
+    ".local-sources/ownership-simulation/repository/README.md": "1f2513586caf51d46f4cf367ad32f94779490a2494945c118d49e7f8655be6de",
+    ".local-sources/ownership-simulation/repository/LICENSE": "cd4e3a61bb91cae32738aa815dcd95802b2c0dcb28c5135d9dff64d751b909f6",
+    ".local-sources/ownership-simulation/repository/figure3-club/figure3.py": "78fb6801ed2d93ed44a20aa07302acf154d47e13670afe1f34fbd6b9d1ee8e01",
+    ".local-sources/ownership-simulation/repository/figure3-club/README.md": "616ad031d62c01c21654294df3d8bce972691bfd71192b02f3eaa08f365fa168",
+    ".local-sources/ownership-simulation/repository/figure3-club/DATA.md": "25bb9e527f3fdafefa9dd2470fcae6b27fbd682169407e8f7ed400bc8bfba890",
+    ".local-sources/ownership-simulation/repository/figure3-club/SOURCES.md": "74cf9015ececd7de3cc3ef2a8fc5bc6ec62c3c679ebeefdbab5cb55daf535bc9",
+    ".local-sources/ownership-simulation/repository/figure3-club/BURDEN.md": "e455d03cc5ac9a9995a89f0538d4e1dd9af39a35c0280f7cefd638a60d51c247"
+  },
+  "acquisitions": [
+    {
+      "id": "F1",
+      "requested_url": "https://www.wifo.ac.at/wp-content/uploads/upload-6465/s_2025_unitary_taxation_53209586.pdf",
+      "started_utc": "2026-10-12T17:46:20.464053+00:00",
+      "final_url": "https://www.wifo.ac.at/wp-content/uploads/upload-6465/s_2025_unitary_taxation_53209586.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "path": ".local-sources/equity-levy-aggregation/F1.pdf",
+      "bytes": 2766776,
+      "sha256": "d111763881faebead7b3e8aaae8b99d448e0858da64cfce1824368223f2265fb",
+      "pages": 120,
+      "extracted_path": ".local-sources/equity-levy-aggregation/F1.txt",
+      "extracted_sha256": "28d71a9a71b6573b6fc7857bb044dad87c14f6d412bcffc70e6b9964955c7165",
+      "extraction": "pypdf 6.10.0; no OCR",
+      "completed_utc": "2026-10-12T17:46:29.147619+00:00"
+    },
+    {
+      "id": "M1",
+      "requested_url": "https://web.mit.edu/dbertsim/www/papers/MomentProblems/Optimal-inequalities-in-probability-theory-A-convex-optimization-approach-SIAM15.pdf",
+      "started_utc": "2026-10-12T17:46:20.464514+00:00",
+      "final_url": "https://web.mit.edu/dbertsim/www/papers/MomentProblems/Optimal-inequalities-in-probability-theory-A-convex-optimization-approach-SIAM15.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "path": ".local-sources/equity-levy-aggregation/M1.pdf",
+      "bytes": 254804,
+      "sha256": "1eceb8733ef9d56e45cda38b55afcb0d624a6eff9d1949e6801d402065d3063a",
+      "pages": 25,
+      "extracted_path": ".local-sources/equity-levy-aggregation/M1.txt",
+      "extracted_sha256": "3bd4206a6521d23c431e54f295564845547bce39bab4715f1d24e6dc7c082184",
+      "extraction": "pypdf 6.10.0; no OCR",
+      "completed_utc": "2026-10-12T17:46:21.207550+00:00"
+    },
+    {
+      "id": "H1",
+      "requested_url": "https://www.nber.org/system/files/working_papers/w15185/w15185.pdf",
+      "started_utc": "2026-10-12T17:46:20.464631+00:00",
+      "final_url": "https://www.nber.org/system/files/working_papers/w15185/w15185.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "path": ".local-sources/equity-levy-aggregation/H1.pdf",
+      "bytes": 284593,
+      "sha256": "10ef40b26fba4d5cee91fbb341b182b48b2b331ab74ac481584722ed15ae6574",
+      "pages": 33,
+      "extracted_path": ".local-sources/equity-levy-aggregation/H1.txt",
+      "extracted_sha256": "a269030178a66dd101fe6c8a65ba7074015e06bba751af30c68641290760884f",
+      "extraction": "pypdf 6.10.0; no OCR",
+      "completed_utc": "2026-10-12T17:46:25.455388+00:00"
+    },
+    {
+      "id": "P1",
+      "requested_url": "https://silviupitis.com/blog/2026/who-owns-the-ai-economy/",
+      "started_utc": "2026-10-12T17:46:20.464830+00:00",
+      "final_url": "https://silviupitis.com/blog/2026/who-owns-the-ai-economy/",
+      "status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "path": ".local-sources/equity-levy-aggregation/P1.html",
+      "bytes": 154257,
+      "sha256": "66bfd38cd85a3189e52b72c6f7e4129b3033596acf57774af4f2af132edbcfb5",
+      "extracted_path": ".local-sources/equity-levy-aggregation/P1.txt",
+      "extracted_sha256": "e56839d24bacd27864307948de12f9f43296ffd5db7b8ab4ca12dd86bb94f810",
+      "extraction": "html.parser text nodes excluding script and style",
+      "completed_utc": "2026-10-12T17:46:21.024512+00:00"
+    },
+    {
+      "id": "G1",
+      "requested_url": "https://api.github.com/repos/spitis/who-owns-ai-economy/commits/main",
+      "started_utc": "2026-10-12T17:46:20.464925+00:00",
+      "final_url": "https://api.github.com/repos/spitis/who-owns-ai-economy/commits/main",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "path": ".local-sources/equity-levy-aggregation/G1.json",
+      "bytes": 6343,
+      "sha256": "29c0801227ba9a531e6f5d2fca26552264fa13104e3f89bbe8d6de362a10abec",
+      "completed_utc": "2026-10-12T17:46:20.856667+00:00"
+    }
+  ],
+  "read_scope": {
+    "F1": "Cover; relevant literature and methods; PDF pp28-32; conclusion pp56-57. Not full120pp.",
+    "H1": "Cover, abstract and introduction PDF pp1-5; formal distortion discussion pp8-11. Not full33pp.",
+    "M1": "PDF pp1-5. Later proofs not audited.",
+    "P1": "Relevant levy, market-access, Figure3 and ownership sections. Legal and DCF claims not audited."
+  },
+  "rights": "Repository MIT licence read. Other source originals kept in ignored local storage; no full third-party text included in this public note.",
+  "bounded_search_sha256": "a5833c7843996a3f60c7e54c15891b6a43bae8dca1b395d0317e861ec664bf44",
+  "feasibility_md_sha256": "dc2756b57c14a53785c543e7e79214200bb23df86171c29b4de23fab2c7ac007"
+}
