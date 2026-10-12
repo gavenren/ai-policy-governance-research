@@ -1,0 +1,39 @@
+--- a/studies/2026-10-12-compute-allocation/paper.md
++++ b/studies/2026-10-12-compute-allocation/paper.md
+@@ -1,9 +1,11 @@
+ # Allocating a Universal Compute Floor
+ ## Demand limits, budget changes, and the meaning of priority
+ 
+-**State:** Working notes. **Study:** S014. **Date:** 12 October 2026. This technical comment is under separate AI review. It has not received human or journal peer review. The analysis concerns a pinned proposal, not an operating public compute system.
++**State:** Complete-study draft. **Study:** S014. **Date:** 12 October 2026. This technical comment passed separate AI critical review and release checks. It has not received human or journal peer review. The analysis concerns a pinned proposal, not an operating public compute system.
+ 
+ **Evidence cutoff:** 2026-10-12T17:32:18.596817Z. This is the completion time of the retained source and version-context captures, not a claim to all literature published by that time.
++
++**Release source check:** On 12 October 2026 at 17:44:39 UTC, the target PDF still matched the retained v2 bytes. The latest-version endpoint returned the same record. This later check does not extend the literature search cutoff.
+ 
+ ## Abstract
+ 
+@@ -112,7 +114,7 @@
+ 
+ The [protocol](protocol.md) fixes the finite grid and separates exploratory discovery from prospective software checks. The [inputs](data/raw/cases.json), [exact named results](results/named-cases.json), [full grid](results/grid.csv), and [run metadata](results/run-metadata.json) permit inspection without obtaining third-party PDFs. The [source ledger](sources/manifest.json) and [evidence extracts](sources/extracts/evidence.md) identify the actual documents and distinguish their wording from our interpretation. Reproduction commands are in the [README](README.md).
+ 
+-Codex performed source collection, analysis, and drafting. No human participation, institutional affiliation, funding, endorsement, or conflict declaration is invented. A separate AI review is in progress. This manuscript remains working notes until that review and the release checks are complete.
++Codex performed source collection, analysis, and drafting. No human participation, institutional affiliation, funding, endorsement, or conflict declaration is invented. The [separate AI review](reviews/critical-review.md) reproduced the outputs and independently checked all 486 cases. Both requested text corrections were verified; the [author response](reviews/author-response.md) records their disposition. The [release record](logs/completion.md) states the completed gates and remaining limits.
+ 
+ ## References
+ 
+--- a/studies/2026-10-12-compute-allocation/README.md
++++ b/studies/2026-10-12-compute-allocation/README.md
+@@ -1,10 +1,11 @@
+ # S014 — Allocating a Universal Compute Floor
+ 
+-**State:** Working notes; separate critical review and release checks are pending.
++**State:** Complete-study draft. Separate AI critical review, independent calculations and release checks are complete. No human or journal peer review.
+ 
+ This short comment audits a pinned compute-allocation proposal. It preserves its correct budget identities and worked example, qualifies a zero-residual boundary, distinguishes composition from consistency, and applies an existing capped alternative. It does not introduce a new fairness algorithm or assess a deployed service.
+ 
+ - [Manuscript](paper.md)
++- [Separate critical review](reviews/critical-review.md), [author response](reviews/author-response.md) and [completion gates](logs/completion.md)
+ - [Protocol and prior exploratory choices](protocol.md)
+ - [Source ledger](sources/manifest.json) and [inspectable evidence](sources/extracts/evidence.md)
+ - [Bounded search](logs/search.md) and [independent feasibility review](reviews/feasibility.md)

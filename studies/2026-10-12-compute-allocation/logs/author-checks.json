@@ -1,0 +1,31 @@
+[
+  {
+    "command": [
+      "python3",
+      "studies/2026-10-12-compute-allocation/code/check_sources.py",
+      "--repository",
+      "."
+    ],
+    "checked_at_utc": "2026-10-12T17:36:57.058053Z",
+    "exit_code": 0,
+    "stdout": "{\"source_files_checked\": 14, \"source_records\": 9, \"quoted_prose_checks\": 3, \"latest_record_in_retained_capture\": 21305645}\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "python3",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "studies/2026-10-12-compute-allocation/code",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "checked_at_utc": "2026-10-12T17:36:57.147545Z",
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "test_composition_failures_with_inactive_caps (test_analysis.AllocationChecks.test_composition_failures_with_inactive_caps) ... ok\ntest_equal_weights_restore_standard_composition (test_analysis.AllocationChecks.test_equal_weights_restore_standard_composition) ... ok\ntest_fixed_claim_additivity_and_scale (test_analysis.AllocationChecks.test_fixed_claim_additivity_and_scale) ... ok\ntest_floor_can_exceed_own_use (test_analysis.AllocationChecks.test_floor_can_exceed_own_use) ... ok\ntest_fulfillment_ratios_change_after_caps (test_analysis.AllocationChecks.test_fulfillment_ratios_change_after_caps) ... ok\ntest_impossible_floor_rejected (test_analysis.AllocationChecks.test_impossible_floor_rejected) ... ok\ntest_invalid_domain (test_analysis.AllocationChecks.test_invalid_domain) ... ok\ntest_no_residual_capacity (test_analysis.AllocationChecks.test_no_residual_capacity) ... ok\ntest_raw_over_fulfillment_and_cap (test_analysis.AllocationChecks.test_raw_over_fulfillment_and_cap) ... ok\ntest_source_shock (test_analysis.AllocationChecks.test_source_shock) ... ok\ntest_source_table (test_analysis.AllocationChecks.test_source_table) ... ok\ntest_subset_consistency (test_analysis.AllocationChecks.test_subset_consistency) ... ok\ntest_surplus_is_recorded (test_analysis.AllocationChecks.test_surplus_is_recorded) ... ok\ntest_zero_claim_and_zero_budget (test_analysis.AllocationChecks.test_zero_claim_and_zero_budget) ... ok\ntest_zero_residual_breaks_exhaustion (test_analysis.AllocationChecks.test_zero_residual_breaks_exhaustion) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 0.001s\n\nOK\n"
+  }
+]

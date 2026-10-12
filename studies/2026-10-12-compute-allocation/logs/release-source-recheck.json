@@ -1,0 +1,26 @@
+[
+  {
+    "requested_url": "https://zenodo.org/api/records/21305645/versions/latest",
+    "started_utc": "2026-10-12T17:44:34.884613Z",
+    "completed_utc": "2026-10-12T17:44:37.606033Z",
+    "exit_code": 0,
+    "http_result": "https://zenodo.org/api/records/21305645\n200",
+    "stderr": "",
+    "retained_path": ".local-sources/compute-allocation/C4-release.json",
+    "bytes": 9755,
+    "sha256": "6c1e9e7680a7194d513292a09dc13c8f05d592debfb08d45cc9bafc3e81329a6",
+    "latest_record": 21305645
+  },
+  {
+    "requested_url": "https://zenodo.org/records/21305645/files/Universal_Basic_Compute_Joule_Ceiling_Galipeau_v2.pdf?download=1",
+    "started_utc": "2026-10-12T17:44:37.606908Z",
+    "completed_utc": "2026-10-12T17:44:39.499135Z",
+    "exit_code": 0,
+    "http_result": "https://zenodo.org/records/21305645/files/Universal_Basic_Compute_Joule_Ceiling_Galipeau_v2.pdf?download=1\n200",
+    "stderr": "",
+    "retained_path": ".local-sources/compute-allocation/C1-release.pdf",
+    "bytes": 199409,
+    "sha256": "196ec57786c4f46b536634a8c988a384c5731ea71ec9baa40d122becdc5c5788",
+    "matches_original": true
+  }
+]

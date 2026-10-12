@@ -1,0 +1,33 @@
+{
+  "recorded_utc": "2026-10-12T17:26:59.093110+00:00",
+  "files": [
+    {
+      "path": ".local-sources/compute-allocation/C0.json",
+      "sha256": "6c1e9e7680a7194d513292a09dc13c8f05d592debfb08d45cc9bafc3e81329a6"
+    },
+    {
+      "path": ".local-sources/compute-allocation/C1.pdf",
+      "sha256": "196ec57786c4f46b536634a8c988a384c5731ea71ec9baa40d122becdc5c5788"
+    },
+    {
+      "path": ".local-sources/compute-allocation/C1.txt",
+      "sha256": "7715f3333691041f11336441b3677e35b852208ca54756f9eb461a63e71086d2"
+    },
+    {
+      "path": ".local-sources/compute-allocation/C3.pdf",
+      "sha256": "4fc4099df375172e961db2243546dee88627814287efabf9d096d87016fbc4f2"
+    },
+    {
+      "path": ".local-sources/compute-allocation/C3.txt",
+      "sha256": "108ae8b73203ae5195b3dba59663f9894185898c225009dfa93e4299350b4b2e"
+    },
+    {
+      "path": ".local-sources/compute-allocation/review-latest.json",
+      "sha256": "6c1e9e7680a7194d513292a09dc13c8f05d592debfb08d45cc9bafc3e81329a6"
+    },
+    {
+      "path": ".local-sources/compute-allocation/review-latest-acquisition.json",
+      "sha256": "de94f441d6bb7d188b2710f6d6715686c0cb40bdae373cb2edb47b2bd702aaba"
+    }
+  ]
+}

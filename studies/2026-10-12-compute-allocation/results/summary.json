@@ -1,0 +1,9 @@
+{
+  "rows": 486,
+  "raw_within_claims": 323,
+  "raw_exceeds_a_claim": 163,
+  "shortage_or_equal_exceedances": 82,
+  "surplus_rows": 81,
+  "all_capped_bounds_and_budget_checks_pass": true,
+  "interpretation": "Selected finite grid; counts are not real-world prevalence."
+}

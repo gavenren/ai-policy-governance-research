@@ -1,0 +1,61 @@
+{
+  "completed_utc": "2026-10-12T17:42:39.930603+00:00",
+  "first_review_frozen_at_utc": "2026-10-12T17:36:57.149459Z",
+  "first_frozen_sha256": {
+    "README.md": "b2799108e4fcad97516fd07157a60d2163f5bfa4574206c01c2085d1cdf3deef",
+    "paper.md": "b920642a57ff7de635f8b4b2eb6bd126f882e0af2d51f60fc88be7cfc55d37db",
+    "protocol.md": "387144f5c9da68ed36b3a0d3f79ce797340f7fda5355275fabd8f56c1792b7f7",
+    "code/check_sources.py": "c8eed3e74a647f92c2d1695568fa5c652884e4faedcdbf8aca8a3774283883cb",
+    "code/test_analysis.py": "ce25f7f3df3ade2e4327ff0c2f172f0ca4ed8bc5839388627dae92bfae82af2b",
+    "code/analyze.py": "cc04f06d7e902ecda1bca618e57887895312269ad3988474fc8c25da7cca0cce",
+    "results/run-metadata.json": "bf129c4a7767e3a90f359a69eaacdb5254b12b99d405ec51c7a470452fea7355",
+    "results/summary.json": "88e8f1a74f6f10979d4794070042efe5662182dd213b70805839dea6ae89d3aa",
+    "results/named-cases.json": "5ec420803dfda9418a588572c28c009fb2621b3219e04ebe19ce3940ad3aedc3",
+    "results/grid.csv": "29cb52ad573941b7ab0b91e4faa0793e6f08ba37fa21c42c81c85460edf01b64",
+    "logs/search.md": "a1a50b9b715eb062cfba52780aad4bad9dd49eec8e8147d580b9ff7fd7dcc3c6",
+    "logs/author-checks.json": "ff8ee1c70d3de5c33a9b88f3409e51e922a76235b875c51f5fc7c8cef3f20f5e",
+    "logs/discovery.md": "40a7af16beb5a75a71637d508cb41132a39bbd2b257de0dd58bd9173428030d5",
+    "sources/README.md": "f4d6f3a19adece80cc4551a5ddece15e0767d0bf8a3fd38dfe5ab75ba07ea0db",
+    "sources/manifest.json": "791948f154221c7557d16f10db91be3ab52a0fa29ddf9d662db72962d8eb7c86",
+    "data/README.md": "7e15d87e50e3f5d16d865c75fb3abdeb14730d6c76c1054a573eaefd61194219",
+    "data/raw/cases.json": "2529f832e991366eeb5e35f9d72d0f6db069fd81169b7024e87a9d154f59fac6",
+    "sources/extracts/evidence.md": "1e91ada75f83cf37bd9b3c87ee31cf19eed9aa33143370899a75dbc6fc0058bc"
+  },
+  "final_reviewed_sha256": {
+    "README.md": "b2799108e4fcad97516fd07157a60d2163f5bfa4574206c01c2085d1cdf3deef",
+    "paper.md": "e148f45b10dec13e4a22659a5e2f2347019820b6640525e02c25395b426ed61b",
+    "protocol.md": "387144f5c9da68ed36b3a0d3f79ce797340f7fda5355275fabd8f56c1792b7f7",
+    "code/check_sources.py": "c8eed3e74a647f92c2d1695568fa5c652884e4faedcdbf8aca8a3774283883cb",
+    "code/test_analysis.py": "ce25f7f3df3ade2e4327ff0c2f172f0ca4ed8bc5839388627dae92bfae82af2b",
+    "code/analyze.py": "cc04f06d7e902ecda1bca618e57887895312269ad3988474fc8c25da7cca0cce",
+    "results/run-metadata.json": "bf129c4a7767e3a90f359a69eaacdb5254b12b99d405ec51c7a470452fea7355",
+    "results/summary.json": "88e8f1a74f6f10979d4794070042efe5662182dd213b70805839dea6ae89d3aa",
+    "results/named-cases.json": "5ec420803dfda9418a588572c28c009fb2621b3219e04ebe19ce3940ad3aedc3",
+    "results/grid.csv": "29cb52ad573941b7ab0b91e4faa0793e6f08ba37fa21c42c81c85460edf01b64",
+    "logs/search.md": "a1a50b9b715eb062cfba52780aad4bad9dd49eec8e8147d580b9ff7fd7dcc3c6",
+    "logs/author-checks.json": "ff8ee1c70d3de5c33a9b88f3409e51e922a76235b875c51f5fc7c8cef3f20f5e",
+    "logs/discovery.md": "40a7af16beb5a75a71637d508cb41132a39bbd2b257de0dd58bd9173428030d5",
+    "sources/README.md": "f4d6f3a19adece80cc4551a5ddece15e0767d0bf8a3fd38dfe5ab75ba07ea0db",
+    "sources/manifest.json": "791948f154221c7557d16f10db91be3ab52a0fa29ddf9d662db72962d8eb7c86",
+    "data/README.md": "7e15d87e50e3f5d16d865c75fb3abdeb14730d6c76c1054a573eaefd61194219",
+    "data/raw/cases.json": "2529f832e991366eeb5e35f9d72d0f6db069fd81169b7024e87a9d154f59fac6",
+    "sources/extracts/evidence.md": "ba9be3156c3da703c14a104688d31cc038bbf2937d36b895feb47c3fa53556f0"
+  },
+  "changed_during_review": {
+    "paper.md": {
+      "first_reviewed": "b920642a57ff7de635f8b4b2eb6bd126f882e0af2d51f60fc88be7cfc55d37db",
+      "final_reviewed": "e148f45b10dec13e4a22659a5e2f2347019820b6640525e02c25395b426ed61b"
+    },
+    "sources/extracts/evidence.md": {
+      "first_reviewed": "1e91ada75f83cf37bd9b3c87ee31cf19eed9aa33143370899a75dbc6fc0058bc",
+      "final_reviewed": "ba9be3156c3da703c14a104688d31cc038bbf2937d36b895feb47c3fa53556f0"
+    }
+  },
+  "review_execution_python": "3.12.14",
+  "author_original_run_python": "3.13.7",
+  "separate_check_files": {
+    "reviews/independent_checks.py": "424452c7a89b90aa85c6c1289c2658cdcaea0cc0efc8f517b11bf1413dc8ecc2",
+    "reviews/independent-checks.json": "50f94345dffe6f41793e5c5915d4fdcf22fc1dd2f59a29b0b3e2a772e24b72bf",
+    "reviews/reproduction.json": "b4569517968c5401e7a6ec55e3f83b23d4e0f303b3218f48368db936ada00db4"
+  }
+}

@@ -10,6 +10,7 @@ Start with the [reading guide](docs/READING_GUIDE.md) for a connected account of
 
 | Study | State and evidence | Materials |
 | --- | --- | --- |
+| Allocating a Universal Compute Floor | Complete-study draft. Short comment on demand limits, budget changes and priority; valid source results retained, 486 exact cases and separate AI review. | [Paper](studies/2026-10-12-compute-allocation/paper.md), [sources, code and review](studies/2026-10-12-compute-allocation/) |
 | Buying Backup AI for Essential Public Services | Complete-study draft. Four deployments, six pairs and documented access limits; all 36 scenario rows independently checked. Operational readiness remains unknown. | [Paper](studies/2026-10-12-supplier-continuity/paper.md), [PDF](studies/2026-10-12-supplier-continuity/output/pdf/paper.pdf), [evidence and review](studies/2026-10-12-supplier-continuity/) |
 | Measuring the AI Dividend | Complete-study draft. Four-claim consistency audit of a pinned redistribution preprint; corrections, positive controls, 15 tests and separate exact arithmetic. | [Paper](studies/2026-10-12-redistribution-audit/paper.md), [sources, results and review](studies/2026-10-12-redistribution-audit/) |
 | What Remains After the Payment? | Complete-study draft. Public household-data stress test; the equal-budget extension shows why family, person and shortfall outcomes can rank payment rules differently. Separate AI reviews complete. | [Paper](studies/2026-10-11-household-debt/paper.md), [data, results and review](studies/2026-10-11-household-debt/) |

@@ -1,0 +1,7 @@
+# Inputs and output schema
+
+`raw/cases.json` contains six selected residual-allocation cases and four floor cases. Demands, capacity and awards use an arbitrary common divisible compute unit, except the source illustration which uses its own accelerator-hour label. We do not equate that label to uniform useful task performance. Weights and exact budgets can be integers or rational strings. Cases are illustrative, not observations.
+
+`results/grid.csv` has one row for each of 9 claim pairs, 9 weight pairs and 6 budget fractions (486 total). Vector fields use `|` separators; rational numbers use `numerator/denominator` when nonintegral. Weights are normalized. `raw_within_claims` checks every raw award against its claim. `threshold` is sum(weight*claim)/max(weight). `unused_capacity` belongs to the capped allocation. `domain` distinguishes surplus from shortage-or-equality. Zero capacity is a software boundary case; strict positivity claims require positive capacity. Repeated normalized weight ratios are deliberately retained because the protocol varies the unnormalized inputs. Rows are not independent empirical observations.
+
+`named-cases.json` reports the selected raw/capped awards, floor-case awards and unassigned capacity, composition calculations, and subset consistency. A floor result is `[award_vector,unused_capacity]`. The source supplies only its aggregate floor, so the source-table input contains residual claims and residual capacity, not fabricated person-level floors.

@@ -1,0 +1,3 @@
+# Discovery and deviations
+
+Recorded 2026-10-12T17:30:10.083514Z. Before this protocol, root read all 16 pages of Galipeau v2 and relevant definitions and passages in Thomson (2006) and Harless's accepted manuscript. Hand calculations suggested three issues: demand bounds, composition after claims are updated, and exhaustion when all residual demands vanish. These findings informed selection; the study is not a blind confirmatory test. The independent feasibility review supplies further hand counterexamples and preserves favorable results. No broad numerical enumeration or outcome-fitting preceded this protocol. Earlier web searches aided discovery but their exact timestamps were not retained; a separately timed search log will cover the final bounded comparison.

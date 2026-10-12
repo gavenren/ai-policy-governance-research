@@ -1,0 +1,16 @@
+{
+  "run_at_utc": "2026-10-12T17:31:40.209798Z",
+  "python": "3.13.7",
+  "arithmetic": "fractions.Fraction, exact rational numbers",
+  "network_used": false,
+  "command": "python3 studies/2026-10-12-compute-allocation/code/analyze.py",
+  "sha256": {
+    "protocol.md": "387144f5c9da68ed36b3a0d3f79ce797340f7fda5355275fabd8f56c1792b7f7",
+    "data/raw/cases.json": "2529f832e991366eeb5e35f9d72d0f6db069fd81169b7024e87a9d154f59fac6",
+    "code/analyze.py": "cc04f06d7e902ecda1bca618e57887895312269ad3988474fc8c25da7cca0cce",
+    "code/test_analysis.py": "ce25f7f3df3ade2e4327ff0c2f172f0ca4ed8bc5839388627dae92bfae82af2b",
+    "results/named-cases.json": "5ec420803dfda9418a588572c28c009fb2621b3219e04ebe19ce3940ad3aedc3",
+    "results/grid.csv": "29cb52ad573941b7ab0b91e4faa0793e6f08ba37fa21c42c81c85460edf01b64",
+    "results/summary.json": "88e8f1a74f6f10979d4794070042efe5662182dd213b70805839dea6ae89d3aa"
+  }
+}
