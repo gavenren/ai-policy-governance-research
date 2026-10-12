@@ -1,0 +1,9 @@
+{
+  "recorded_at_utc": "2026-10-12T19:13:43.403931Z",
+  "commit": "215576a4132b214aeb3e51e1f84168cf354cf8b9",
+  "tree": "e69fec440fd32324697e9e362a06fe99b582beba",
+  "source_path": "studies/2026-10-12-dividend-policy-comparability/paper.md",
+  "source_sha256": "a70db0b196f6e9782b0f2987f395c223fa18829d22924eacd14aef8b59ad2ef5",
+  "source_url": "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/paper.md",
+  "verification": "Root supplied this publication commit after exact-byte remote, pack and local verification of 78 selected files. The renderer independently checked the current manuscript SHA-256 before and after the build."
+}

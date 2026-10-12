@@ -1,0 +1,1302 @@
+{
+  "checked_at_utc": "2026-10-12T19:12:50.809132Z",
+  "source": "studies/2026-10-12-dividend-policy-comparability/paper.md",
+  "source_sha256": "a70db0b196f6e9782b0f2987f395c223fa18829d22924eacd14aef8b59ad2ef5",
+  "pdf": "studies/2026-10-12-dividend-policy-comparability/output/pdf/paper.pdf",
+  "pdf_sha256": "2e4f355a0c2ad264dd43c22fbd2804da0cafe488700bfaee55b10781a171797f",
+  "source_url": "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/paper.md",
+  "pages": 7,
+  "strict_ordered_text_match": true,
+  "normalization": "Remove whitespace and apply Unicode NFC. Markdown list markers are rendered as bullets; all source words and other punctuation are preserved.",
+  "blocks_checked": 64,
+  "units_checked": 118,
+  "unit_types": {
+    "heading": 16,
+    "paragraph": 40,
+    "table_cell": 56,
+    "list_item": 6
+  },
+  "normalized_source_characters": 18886,
+  "source_link_occurrences": 22,
+  "unique_clickable_urls": 20,
+  "link_annotations": 24,
+  "bookmarks": 15,
+  "fonts": {
+    "/Helvetica": false,
+    "/AAAAAA+TimesNewRomanPSMT": true,
+    "/AAAAAA+TimesNewRomanPS-BoldMT": true,
+    "/AAAAAA+TimesNewRomanPS-ItalicMT": true
+  },
+  "all_characters_within_page_and_horizontal_margins": true,
+  "page_bounds": [
+    {
+      "page": 1,
+      "characters": 3734,
+      "minimum_x": 56.16,
+      "maximum_x": 555.84
+    },
+    {
+      "page": 2,
+      "characters": 2918,
+      "minimum_x": 56.16,
+      "maximum_x": 555.84
+    },
+    {
+      "page": 3,
+      "characters": 3914,
+      "minimum_x": 56.16,
+      "maximum_x": 555.84
+    },
+    {
+      "page": 4,
+      "characters": 3330,
+      "minimum_x": 56.16,
+      "maximum_x": 555.84
+    },
+    {
+      "page": 5,
+      "characters": 3952,
+      "minimum_x": 56.16,
+      "maximum_x": 555.84
+    },
+    {
+      "page": 6,
+      "characters": 3612,
+      "minimum_x": 56.16,
+      "maximum_x": 555.84
+    },
+    {
+      "page": 7,
+      "characters": 1203,
+      "minimum_x": 56.16,
+      "maximum_x": 555.84
+    }
+  ],
+  "expected_link_occurrences": {
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/reviews/feasibility-independent.md": 1,
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/sources/README.md": 2,
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/protocol.md": 1,
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/results/printed-checks.csv": 1,
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/results/summary.csv": 1,
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/results/paired-summary.csv": 1,
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/results/paired-paths.csv.gz": 1,
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/REPRODUCTION.md": 2,
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/reviews/critical-review.md": 1,
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/reviews/author-response.md": 1,
+    "https://github.com/saccasolutions/fourpillarsproject/blob/d0e84f01f7970c6161da874051aafffaefe77f1f/docs/Four_Pillars_Whitepaper.md": 1,
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/sources/snapshots/whitepaper.md": 1,
+    "https://github.com/saccasolutions/fourpillarsproject/blob/d0e84f01f7970c6161da874051aafffaefe77f1f/models/monte_carlo_tax.py": 1,
+    "https://github.com/saccasolutions/fourpillarsproject/blob/d0e84f01f7970c6161da874051aafffaefe77f1f/models/extended_monte_carlo.py": 1,
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/vendor/four-pillars/": 1,
+    "https://github.com/saccasolutions/fourpillarsproject/blob/d0e84f01f7970c6161da874051aafffaefe77f1f/launch/post_launch_findings.md": 1,
+    "https://www.nber.org/system/files/working_papers/w25538/w25538.pdf": 1,
+    "https://github.com/albertwenger/agi_economy/blob/d71e1756773a9ca9334e1c62f40fa605f5d4d510/README.md": 1,
+    "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/income-support-redistribution-and-work-incentives/basic-income-policy-option-2017-brackground-technical-note.pdf": 1,
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/paper.md": 1
+  },
+  "found_link_annotations": {
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/paper.md": 1,
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/reviews/feasibility-independent.md": 1,
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/sources/README.md": 3,
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/protocol.md": 1,
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/results/printed-checks.csv": 1,
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/results/summary.csv": 1,
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/results/paired-summary.csv": 2,
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/results/paired-paths.csv.gz": 1,
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/REPRODUCTION.md": 2,
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/reviews/critical-review.md": 1,
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/reviews/author-response.md": 1,
+    "https://github.com/saccasolutions/fourpillarsproject/blob/d0e84f01f7970c6161da874051aafffaefe77f1f/docs/Four_Pillars_Whitepaper.md": 1,
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/sources/snapshots/whitepaper.md": 1,
+    "https://github.com/saccasolutions/fourpillarsproject/blob/d0e84f01f7970c6161da874051aafffaefe77f1f/models/monte_carlo_tax.py": 1,
+    "https://github.com/saccasolutions/fourpillarsproject/blob/d0e84f01f7970c6161da874051aafffaefe77f1f/models/extended_monte_carlo.py": 1,
+    "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/vendor/four-pillars/": 1,
+    "https://github.com/saccasolutions/fourpillarsproject/blob/d0e84f01f7970c6161da874051aafffaefe77f1f/launch/post_launch_findings.md": 1,
+    "https://www.nber.org/system/files/working_papers/w25538/w25538.pdf": 1,
+    "https://github.com/albertwenger/agi_economy/blob/d71e1756773a9ca9334e1c62f40fa605f5d4d510/README.md": 1,
+    "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/income-support-redistribution-and-work-incentives/basic-income-policy-option-2017-brackground-technical-note.pdf": 1
+  },
+  "annotation_rectangles": [
+    {
+      "page": 1,
+      "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/paper.md",
+      "rectangle": [
+        131.0938,
+        663.4,
+        230.2301,
+        673.6
+      ]
+    },
+    {
+      "page": 1,
+      "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/reviews/feasibility-independent.md",
+      "rectangle": [
+        285.4632,
+        75.8,
+        364.5741,
+        89.0
+      ]
+    },
+    {
+      "page": 1,
+      "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/sources/README.md",
+      "rectangle": [
+        385.9564,
+        75.8,
+        441.8534,
+        89.0
+      ]
+    },
+    {
+      "page": 3,
+      "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/protocol.md",
+      "rectangle": [
+        477.8451,
+        414.3,
+        514.5028,
+        427.5
+      ]
+    },
+    {
+      "page": 4,
+      "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/results/printed-checks.csv",
+      "rectangle": [
+        254.8963,
+        527.9,
+        346.2157,
+        541.1
+      ]
+    },
+    {
+      "page": 5,
+      "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/results/summary.csv",
+      "rectangle": [
+        422.2972,
+        542.0,
+        496.515,
+        555.2
+      ]
+    },
+    {
+      "page": 5,
+      "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/results/paired-summary.csv",
+      "rectangle": [
+        502.015,
+        542.0,
+        529.4989,
+        555.2
+      ]
+    },
+    {
+      "page": 5,
+      "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/results/paired-summary.csv",
+      "rectangle": [
+        62.16,
+        527.6,
+        90.87924,
+        540.8
+      ]
+    },
+    {
+      "page": 5,
+      "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/results/paired-paths.csv.gz",
+      "rectangle": [
+        112.2616,
+        527.6,
+        233.2132,
+        540.8
+      ]
+    },
+    {
+      "page": 5,
+      "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/REPRODUCTION.md",
+      "rectangle": [
+        380.7303,
+        368.8,
+        467.7957,
+        382.0
+      ]
+    },
+    {
+      "page": 6,
+      "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/reviews/critical-review.md",
+      "rectangle": [
+        62.16,
+        233.0,
+        125.3724,
+        246.2
+      ]
+    },
+    {
+      "page": 6,
+      "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/reviews/author-response.md",
+      "rectangle": [
+        146.7547,
+        233.0,
+        216.0955,
+        246.2
+      ]
+    },
+    {
+      "page": 6,
+      "uri": "https://github.com/saccasolutions/fourpillarsproject/blob/d0e84f01f7970c6161da874051aafffaefe77f1f/docs/Four_Pillars_Whitepaper.md",
+      "rectangle": [
+        345.8817,
+        96.7,
+        428.054,
+        109.9
+      ]
+    },
+    {
+      "page": 6,
+      "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/sources/snapshots/whitepaper.md",
+      "rectangle": [
+        134.1854,
+        82.3,
+        208.4246,
+        95.5
+      ]
+    },
+    {
+      "page": 7,
+      "uri": "https://github.com/saccasolutions/fourpillarsproject/blob/d0e84f01f7970c6161da874051aafffaefe77f1f/models/monte_carlo_tax.py",
+      "rectangle": [
+        270.075,
+        722.4,
+        341.2259,
+        735.6
+      ]
+    },
+    {
+      "page": 7,
+      "uri": "https://github.com/saccasolutions/fourpillarsproject/blob/d0e84f01f7970c6161da874051aafffaefe77f1f/models/extended_monte_carlo.py",
+      "rectangle": [
+        362.6082,
+        722.4,
+        446.596,
+        735.6
+      ]
+    },
+    {
+      "page": 7,
+      "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/vendor/four-pillars/",
+      "rectangle": [
+        152.1839,
+        708.0,
+        241.3709,
+        721.2
+      ]
+    },
+    {
+      "page": 7,
+      "uri": "https://github.com/saccasolutions/fourpillarsproject/blob/d0e84f01f7970c6161da874051aafffaefe77f1f/launch/post_launch_findings.md",
+      "rectangle": [
+        224.8827,
+        687.1,
+        315.6273,
+        700.3
+      ]
+    },
+    {
+      "page": 7,
+      "uri": "https://www.nber.org/system/files/working_papers/w25538/w25538.pdf",
+      "rectangle": [
+        72.16,
+        637.4,
+        201.3939,
+        650.6
+      ]
+    },
+    {
+      "page": 7,
+      "uri": "https://github.com/albertwenger/agi_economy/blob/d71e1756773a9ca9334e1c62f40fa605f5d4d510/README.md",
+      "rectangle": [
+        105.7616,
+        602.1,
+        222.1585,
+        615.3
+      ]
+    },
+    {
+      "page": 7,
+      "uri": "https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/income-support-redistribution-and-work-incentives/basic-income-policy-option-2017-brackground-technical-note.pdf",
+      "rectangle": [
+        292.1439,
+        566.8,
+        348.0355,
+        580.0
+      ]
+    },
+    {
+      "page": 7,
+      "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/sources/README.md",
+      "rectangle": [
+        516.3504,
+        531.5,
+        545.0589,
+        544.7
+      ]
+    },
+    {
+      "page": 7,
+      "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/sources/README.md",
+      "rectangle": [
+        62.16,
+        517.1,
+        86.59848,
+        530.3
+      ]
+    },
+    {
+      "page": 7,
+      "uri": "https://github.com/gavenren/ai-policy-governance-research/blob/215576a4132b214aeb3e51e1f84168cf354cf8b9/studies/2026-10-12-dividend-policy-comparability/REPRODUCTION.md",
+      "rectangle": [
+        267.1317,
+        517.1,
+        350.5233,
+        530.3
+      ]
+    }
+  ],
+  "unit_order_checks": [
+    {
+      "block": 0,
+      "kind": "heading",
+      "normalized_sha256": "2ea6d5ca089c07bd79c6fb79f03876bd981a9d356848a4ca836933749f293aba",
+      "start": 0,
+      "end": 32
+    },
+    {
+      "block": 1,
+      "kind": "heading",
+      "normalized_sha256": "90b6a3de01def7ad711553e5fe5d16087fae5ac490ee9bfd4e5248db07074f5c",
+      "start": 32,
+      "end": 83
+    },
+    {
+      "block": 2,
+      "kind": "paragraph",
+      "normalized_sha256": "f4419760f01b163b1096fd587c71f5539f730bd0e171fd663852962e2e9c2323",
+      "start": 83,
+      "end": 268
+    },
+    {
+      "block": 3,
+      "kind": "heading",
+      "normalized_sha256": "d21b4a64a2d8656a0fdf7ab2e89a49164ac504686cfa2a3d442e87c209286330",
+      "start": 268,
+      "end": 276
+    },
+    {
+      "block": 4,
+      "kind": "paragraph",
+      "normalized_sha256": "69fbe2e3d13bbe94871decbb70c855ab7ff365c56d8436084ad2914d94d53c65",
+      "start": 276,
+      "end": 1363
+    },
+    {
+      "block": 5,
+      "kind": "heading",
+      "normalized_sha256": "8f116235390ffc5cbac5201b5be13bede09de08cb41a3af21b78773fdd3c84e2",
+      "start": 1363,
+      "end": 1394
+    },
+    {
+      "block": 6,
+      "kind": "paragraph",
+      "normalized_sha256": "bbaaca5b9f6ba1523f1226629cf9c10aa0d962c6757d2d6608eb3e90d1708d62",
+      "start": 1394,
+      "end": 1801
+    },
+    {
+      "block": 7,
+      "kind": "paragraph",
+      "normalized_sha256": "e84612cc1773df44a817a774eebb51c33aadde28e41ccd2f5274013a1c827ab2",
+      "start": 1801,
+      "end": 2133
+    },
+    {
+      "block": 8,
+      "kind": "paragraph",
+      "normalized_sha256": "28099fe9988cc7f440e23038b5cf81dcd2091dec98be678d9269afcde8605984",
+      "start": 2133,
+      "end": 2764
+    },
+    {
+      "block": 9,
+      "kind": "paragraph",
+      "normalized_sha256": "443a28fd5025432093c35ea629050478c942a99ee529ca75ad859e9456f5172c",
+      "start": 2764,
+      "end": 3255
+    },
+    {
+      "block": 10,
+      "kind": "heading",
+      "normalized_sha256": "77664d6beab9e58ac13104abb7a351fdf565eb675a65e94ad144ea38b98f72bb",
+      "start": 3255,
+      "end": 3297
+    },
+    {
+      "block": 11,
+      "kind": "heading",
+      "normalized_sha256": "3b467fc94c235b871c85dd99c57244e9898cdcf0148ea1be3f9a7f96c9ce2a99",
+      "start": 3297,
+      "end": 3324
+    },
+    {
+      "block": 12,
+      "kind": "paragraph",
+      "normalized_sha256": "ed4890d8fcfba30be4a1001746c12668ba67dc6a28b2c2ce5134accb0a43e0c0",
+      "start": 3324,
+      "end": 3769
+    },
+    {
+      "block": 13,
+      "kind": "paragraph",
+      "normalized_sha256": "65192cb03e0dc175861c45c956e250bfb897aa7448061f140aee8e63d6de1f0c",
+      "start": 3769,
+      "end": 4174
+    },
+    {
+      "block": 14,
+      "kind": "paragraph",
+      "normalized_sha256": "9fb94c75052e2d6879f0e042857063e2c0bb4273bacdbc1f356a969a54697c0b",
+      "start": 4174,
+      "end": 4221
+    },
+    {
+      "block": 15,
+      "kind": "table_cell",
+      "row": 0,
+      "column": 0,
+      "normalized_sha256": "3d377ae910dce03ac324d1f4391c0d4d175825e630baf9c5b93d414d7106cfd8",
+      "start": 4221,
+      "end": 4228
+    },
+    {
+      "block": 15,
+      "kind": "table_cell",
+      "row": 0,
+      "column": 1,
+      "normalized_sha256": "7b81c9b28f48bf807179ad6ee245c148d6b166292ed90c20d9305d1d44ddf763",
+      "start": 4228,
+      "end": 4250
+    },
+    {
+      "block": 15,
+      "kind": "table_cell",
+      "row": 0,
+      "column": 2,
+      "normalized_sha256": "a348c7577b77f84ea85760c04bfd0f146790d195dc9e366c90d055ad5600374d",
+      "start": 4250,
+      "end": 4275
+    },
+    {
+      "block": 15,
+      "kind": "table_cell",
+      "row": 1,
+      "column": 0,
+      "normalized_sha256": "0a614a098221af6f45eb4a1c8179f05f18ef36c2705834cecc628089de0e91b4",
+      "start": 4275,
+      "end": 4306
+    },
+    {
+      "block": 15,
+      "kind": "table_cell",
+      "row": 1,
+      "column": 1,
+      "normalized_sha256": "5ff9a46f52b3539df791fcfaa4b64f3972f41d72d38a3bf2a0fa61531ae9225f",
+      "start": 4306,
+      "end": 4319
+    },
+    {
+      "block": 15,
+      "kind": "table_cell",
+      "row": 1,
+      "column": 2,
+      "normalized_sha256": "5ff9a46f52b3539df791fcfaa4b64f3972f41d72d38a3bf2a0fa61531ae9225f",
+      "start": 4319,
+      "end": 4332
+    },
+    {
+      "block": 15,
+      "kind": "table_cell",
+      "row": 2,
+      "column": 0,
+      "normalized_sha256": "2c0386277674ac5c1d4b7a43949370b496c31d5f95fa6871fad47bc0fed3af76",
+      "start": 4332,
+      "end": 4349
+    },
+    {
+      "block": 15,
+      "kind": "table_cell",
+      "row": 2,
+      "column": 1,
+      "normalized_sha256": "66b80edaace2c5175128ef462740e9e71b51e9fb0203e1a5820fe209dbbd6e51",
+      "start": 4349,
+      "end": 4386
+    },
+    {
+      "block": 15,
+      "kind": "table_cell",
+      "row": 2,
+      "column": 2,
+      "normalized_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+      "start": 4386,
+      "end": 4390
+    },
+    {
+      "block": 15,
+      "kind": "table_cell",
+      "row": 3,
+      "column": 0,
+      "normalized_sha256": "3d7e9b932fbc08263b3b9b5596e8de8d8394c2ec9e35f6ddc4ba0beead13dae2",
+      "start": 4390,
+      "end": 4407
+    },
+    {
+      "block": 15,
+      "kind": "table_cell",
+      "row": 3,
+      "column": 1,
+      "normalized_sha256": "1b08a81b8ad608ffd3f2154a4207bc2eea291d11f600878fa84db1897302e845",
+      "start": 4407,
+      "end": 4450
+    },
+    {
+      "block": 15,
+      "kind": "table_cell",
+      "row": 3,
+      "column": 2,
+      "normalized_sha256": "dc937b59892604f5a86ac96936cd7ff09e25f18ae6b758e8014a24c7fa039e91",
+      "start": 4450,
+      "end": 4454
+    },
+    {
+      "block": 15,
+      "kind": "table_cell",
+      "row": 4,
+      "column": 0,
+      "normalized_sha256": "a5fc7b9d2cd4cda78187cf9f8f3af27227aa02d4926a8ffb35f549e44126011c",
+      "start": 4454,
+      "end": 4497
+    },
+    {
+      "block": 15,
+      "kind": "table_cell",
+      "row": 4,
+      "column": 1,
+      "normalized_sha256": "dbcfe5a80d30c762872e1e309cfd6dea0d2179d4365b9edbdb392aa5bcc865c9",
+      "start": 4497,
+      "end": 4522
+    },
+    {
+      "block": 15,
+      "kind": "table_cell",
+      "row": 4,
+      "column": 2,
+      "normalized_sha256": "fc954e57d8ac7f2e57e8db3d12636518febc1d8c7fba8d38fc3d3f2bb8d23eab",
+      "start": 4522,
+      "end": 4535
+    },
+    {
+      "block": 15,
+      "kind": "table_cell",
+      "row": 5,
+      "column": 0,
+      "normalized_sha256": "9006927dd826f9bd89f16b3a5a68062c671bda3787658a707be36af00e559169",
+      "start": 4535,
+      "end": 4574
+    },
+    {
+      "block": 15,
+      "kind": "table_cell",
+      "row": 5,
+      "column": 1,
+      "normalized_sha256": "1c6fccd368a9c67b4f6cd0bc85bccfd1fee93a5f075324f005cd83cc6f7f9dd4",
+      "start": 4574,
+      "end": 4600
+    },
+    {
+      "block": 15,
+      "kind": "table_cell",
+      "row": 5,
+      "column": 2,
+      "normalized_sha256": "4a4efcdc69c19728d1c7f919ca50769ca3d453cbce0523c441247bbc49d470a5",
+      "start": 4600,
+      "end": 4635
+    },
+    {
+      "block": 15,
+      "kind": "table_cell",
+      "row": 6,
+      "column": 0,
+      "normalized_sha256": "066637728989435096a91b9b54970edd43c9889ad5228c7c2bd37cadf19ae401",
+      "start": 4635,
+      "end": 4657
+    },
+    {
+      "block": 15,
+      "kind": "table_cell",
+      "row": 6,
+      "column": 1,
+      "normalized_sha256": "85da4d399fee41075ce8a18861736b8c9f866c0a92d496d4071bf6ff316c8444",
+      "start": 4657,
+      "end": 4677
+    },
+    {
+      "block": 15,
+      "kind": "table_cell",
+      "row": 6,
+      "column": 2,
+      "normalized_sha256": "7bedc6c30293f1291b94479d176da3c2d04f0677fc01b97af8a761ae0b90406a",
+      "start": 4677,
+      "end": 4700
+    },
+    {
+      "block": 16,
+      "kind": "paragraph",
+      "normalized_sha256": "557b0907fc2ff80db3079bdfd4b7a2b581b7d84b1c3a030d294b69cd55168065",
+      "start": 4700,
+      "end": 5059
+    },
+    {
+      "block": 17,
+      "kind": "paragraph",
+      "normalized_sha256": "328bc7f0c6bb53dd74a3db97b6bc441c05eaaae8cf8f6da0ffee034a4e5f4dec",
+      "start": 5059,
+      "end": 5547
+    },
+    {
+      "block": 18,
+      "kind": "heading",
+      "normalized_sha256": "78dc5c557e51ae11a036dac13f327868b8fe41560325e9721cbca343808f8a81",
+      "start": 5547,
+      "end": 5581
+    },
+    {
+      "block": 19,
+      "kind": "paragraph",
+      "normalized_sha256": "6cba9b145796b98437cd6612fea45a8379cb80a0070b151281279fa8077b5ace",
+      "start": 5581,
+      "end": 5849
+    },
+    {
+      "block": 20,
+      "kind": "paragraph",
+      "normalized_sha256": "6f0536f0973ad17e9e01f3e2726e64b814ada7bf549106c8cd62db41ed445d80",
+      "start": 5849,
+      "end": 6213
+    },
+    {
+      "block": 21,
+      "kind": "paragraph",
+      "normalized_sha256": "0ac2ae8201ad88e247fcf9c80e549106ae256f2a60af654d89f289c5de64c3e5",
+      "start": 6213,
+      "end": 6568
+    },
+    {
+      "block": 22,
+      "kind": "heading",
+      "normalized_sha256": "c10f077bb6d56c6a0f3b2006bd0bb672f87c132d0fc8f3b04a02f7a152ebc78b",
+      "start": 6568,
+      "end": 6605
+    },
+    {
+      "block": 23,
+      "kind": "paragraph",
+      "normalized_sha256": "40805adb7daa11c8d1e36c39a0f7d9a394c32397b12d340df7cffef99f3e28d8",
+      "start": 6605,
+      "end": 7027
+    },
+    {
+      "block": 24,
+      "kind": "paragraph",
+      "normalized_sha256": "1d44981ccba43ef4b7c1fd49dcae990382bbf3a6039ca9a7e2f6284a01ef8031",
+      "start": 7027,
+      "end": 7424
+    },
+    {
+      "block": 25,
+      "kind": "paragraph",
+      "normalized_sha256": "6aeea7f52f7d1ab73870e2a51282426bbf9739c69c3a2d839f6b27b2d2b3193f",
+      "start": 7424,
+      "end": 7824
+    },
+    {
+      "block": 26,
+      "kind": "paragraph",
+      "normalized_sha256": "a2fa2d6c2712842d8ba4c0c53fb47f0ec726aca848e4b33ca122f75e5737fc98",
+      "start": 7824,
+      "end": 8250
+    },
+    {
+      "block": 27,
+      "kind": "paragraph",
+      "normalized_sha256": "cb38338df072aa2cc7217c4728f2d1a4c772ff40e08287948e919bdfbbb598bc",
+      "start": 8250,
+      "end": 8629
+    },
+    {
+      "block": 28,
+      "kind": "paragraph",
+      "normalized_sha256": "2aa050e2c223a80151b728e0470ce8e36285a01ec9d36ea5f985a6200e0217da",
+      "start": 8629,
+      "end": 8952
+    },
+    {
+      "block": 29,
+      "kind": "heading",
+      "normalized_sha256": "e3fc5e77109cb3759f793e550962d90346c984e1b620f2bac785f26e699b1ced",
+      "start": 8952,
+      "end": 8961
+    },
+    {
+      "block": 30,
+      "kind": "heading",
+      "normalized_sha256": "305e17abd00975cde0323a2b306383e6f8fd959fddab71b87879d0dc6dbf744c",
+      "start": 8961,
+      "end": 9009
+    },
+    {
+      "block": 31,
+      "kind": "paragraph",
+      "normalized_sha256": "e8002588e5935afbaec632c5d1d2e7e8d3c68a1800593d49af540b9f409379df",
+      "start": 9009,
+      "end": 9466
+    },
+    {
+      "block": 32,
+      "kind": "paragraph",
+      "normalized_sha256": "146ef31a9d01b37eee0a416f535fe82973b2d5a847848cd374c9b2506d064718",
+      "start": 9466,
+      "end": 9858
+    },
+    {
+      "block": 33,
+      "kind": "heading",
+      "normalized_sha256": "34827df2c627a606cc941ae81f6b7945ceda5f87ea86c9faf4fc60905a4ced2c",
+      "start": 9858,
+      "end": 9929
+    },
+    {
+      "block": 34,
+      "kind": "paragraph",
+      "normalized_sha256": "a70dab07f653bdfcfb07707312d1d876b706c8cf7a9f20b5b949d79593999b46",
+      "start": 9929,
+      "end": 10459
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 0,
+      "column": 0,
+      "normalized_sha256": "e9415e3f572a515d76824ccc9b3716a8f7ea02103e59229cce827391015673d8",
+      "start": 10459,
+      "end": 10478
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 0,
+      "column": 1,
+      "normalized_sha256": "8f596d0abace0a72e1150feb7f3e8f8b62c78ac0c29c4f0dbeb596cce1d87905",
+      "start": 10478,
+      "end": 10489
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 0,
+      "column": 2,
+      "normalized_sha256": "d6275962ff9a9833e1cf4072477503e2df95558a8eab5750b1052da54eb7cf50",
+      "start": 10489,
+      "end": 10508
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 0,
+      "column": 3,
+      "normalized_sha256": "65b2b52c19e9d37880f649d557c15ea34da2e6e86ced310e7f15fefd5a9fa9e6",
+      "start": 10508,
+      "end": 10533
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 0,
+      "column": 4,
+      "normalized_sha256": "6521492966636aca0b00b66dbd7891481d43aa892bd31a7d34944165e532165a",
+      "start": 10533,
+      "end": 10556
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 1,
+      "column": 0,
+      "normalized_sha256": "077c840c2d314dfe474bea1ed4357bc27030bd62304601dd084204851b91445c",
+      "start": 10556,
+      "end": 10577
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 1,
+      "column": 1,
+      "normalized_sha256": "34380601f1ca945143eaa2e7c9ef712ea9385121b65e4b623eee6ee6469d9d31",
+      "start": 10577,
+      "end": 10594
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 1,
+      "column": 2,
+      "normalized_sha256": "4da34ab1a53557edf421c5f1489b2c801b9b7133a655f164d4c0963795ba8e8e",
+      "start": 10594,
+      "end": 10600
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 1,
+      "column": 3,
+      "normalized_sha256": "221268a072b2e35e33216cf0ba279eab732b84ab9c5d89b242342999a205909e",
+      "start": 10600,
+      "end": 10605
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 1,
+      "column": 4,
+      "normalized_sha256": "e0391a967be4509badea14fdcd68bbae2b43117df4c1735514d21f138d398bac",
+      "start": 10605,
+      "end": 10610
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 2,
+      "column": 0,
+      "normalized_sha256": "077c840c2d314dfe474bea1ed4357bc27030bd62304601dd084204851b91445c",
+      "start": 10610,
+      "end": 10631
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 2,
+      "column": 1,
+      "normalized_sha256": "8835db8e5727b85696f10f041596b37f1cc8575ba8dec42ab7f2f0edfac2d44f",
+      "start": 10631,
+      "end": 10650
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 2,
+      "column": 2,
+      "normalized_sha256": "a9914baec0684fee572728de815bfa9416254b7e12bfdaa491018830f95ab701",
+      "start": 10650,
+      "end": 10656
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 2,
+      "column": 3,
+      "normalized_sha256": "fb31b00ee0801dcd5aa093614334cc3931daf9deaa84e14833e5e97fbd7b01dc",
+      "start": 10656,
+      "end": 10661
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 2,
+      "column": 4,
+      "normalized_sha256": "67dbeb13e28df52d7af76f6e515ba2f1757712e6782ff039dfa2342af0397b07",
+      "start": 10661,
+      "end": 10666
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 3,
+      "column": 0,
+      "normalized_sha256": "645115e79850387cc7579b0a14e4061265590062929905bbb72d2a870172451c",
+      "start": 10666,
+      "end": 10690
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 3,
+      "column": 1,
+      "normalized_sha256": "34380601f1ca945143eaa2e7c9ef712ea9385121b65e4b623eee6ee6469d9d31",
+      "start": 10690,
+      "end": 10707
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 3,
+      "column": 2,
+      "normalized_sha256": "2de604dd837f9d468fcb524c4ea0ff68f8e0f25846eaf0e2626c5de7e958c8c9",
+      "start": 10707,
+      "end": 10713
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 3,
+      "column": 3,
+      "normalized_sha256": "46ebbc3759e8bd10fa78f334184db088383b01e762449231204bc84e72f78484",
+      "start": 10713,
+      "end": 10718
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 3,
+      "column": 4,
+      "normalized_sha256": "e0391a967be4509badea14fdcd68bbae2b43117df4c1735514d21f138d398bac",
+      "start": 10718,
+      "end": 10723
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 4,
+      "column": 0,
+      "normalized_sha256": "645115e79850387cc7579b0a14e4061265590062929905bbb72d2a870172451c",
+      "start": 10723,
+      "end": 10747
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 4,
+      "column": 1,
+      "normalized_sha256": "8835db8e5727b85696f10f041596b37f1cc8575ba8dec42ab7f2f0edfac2d44f",
+      "start": 10747,
+      "end": 10766
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 4,
+      "column": 2,
+      "normalized_sha256": "b0a9f4483bafb38db1971e36aa27e078e4b019050e2ed271d111653323960d42",
+      "start": 10766,
+      "end": 10772
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 4,
+      "column": 3,
+      "normalized_sha256": "e77007a26a0b2c4221b79ca8e8705700d715d3ff0846d606e1862164b11ba339",
+      "start": 10772,
+      "end": 10777
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 4,
+      "column": 4,
+      "normalized_sha256": "91f75d74ea759b8c86e3b9ea1de69d9bb640c35c6269623ea8470e482325d567",
+      "start": 10777,
+      "end": 10782
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 5,
+      "column": 0,
+      "normalized_sha256": "41ded2f35c8164b83438c61553c84746a523acb4b605326b087ab40fc871ec07",
+      "start": 10782,
+      "end": 10806
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 5,
+      "column": 1,
+      "normalized_sha256": "34380601f1ca945143eaa2e7c9ef712ea9385121b65e4b623eee6ee6469d9d31",
+      "start": 10806,
+      "end": 10823
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 5,
+      "column": 2,
+      "normalized_sha256": "1463c1ccfa0c28d26ea695016cf43a27e1ab38c6f09d97afc3f421cba32c1311",
+      "start": 10823,
+      "end": 10829
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 5,
+      "column": 3,
+      "normalized_sha256": "2ab192afac8607ab4801263169c40559e47e5cb69963c42b3073522b9aca3986",
+      "start": 10829,
+      "end": 10834
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 5,
+      "column": 4,
+      "normalized_sha256": "e0391a967be4509badea14fdcd68bbae2b43117df4c1735514d21f138d398bac",
+      "start": 10834,
+      "end": 10839
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 6,
+      "column": 0,
+      "normalized_sha256": "41ded2f35c8164b83438c61553c84746a523acb4b605326b087ab40fc871ec07",
+      "start": 10839,
+      "end": 10863
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 6,
+      "column": 1,
+      "normalized_sha256": "8835db8e5727b85696f10f041596b37f1cc8575ba8dec42ab7f2f0edfac2d44f",
+      "start": 10863,
+      "end": 10882
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 6,
+      "column": 2,
+      "normalized_sha256": "fecfebbf9472a287f5321948e1dbf20cc3f6d20a24351ed7f8670409f6e6025f",
+      "start": 10882,
+      "end": 10888
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 6,
+      "column": 3,
+      "normalized_sha256": "a7660d078825f7afc91a5537f06501855c535ee64a399ac8e0783e089d5d8888",
+      "start": 10888,
+      "end": 10893
+    },
+    {
+      "block": 35,
+      "kind": "table_cell",
+      "row": 6,
+      "column": 4,
+      "normalized_sha256": "02577f1550ae502b170e2ac271fa1231cfde58cc11d33fe0214e6ad578a8c307",
+      "start": 10893,
+      "end": 10898
+    },
+    {
+      "block": 36,
+      "kind": "paragraph",
+      "normalized_sha256": "6d28aea62bb0c5ca215edf58f30d270563c67c5950168732de138e7adbe18046",
+      "start": 10898,
+      "end": 11322
+    },
+    {
+      "block": 37,
+      "kind": "paragraph",
+      "normalized_sha256": "1e846f025fd485c95e79171ad3d98466e881e2f5ca3349be249644d961185d2d",
+      "start": 11322,
+      "end": 11779
+    },
+    {
+      "block": 38,
+      "kind": "paragraph",
+      "normalized_sha256": "c56c03e4f14b530dec28aa796c599ecb869f1ee074bc92288a3103e118cecfc7",
+      "start": 11779,
+      "end": 12217
+    },
+    {
+      "block": 39,
+      "kind": "heading",
+      "normalized_sha256": "4c21c33eccac7b553878fc4e66e5902bfa7892aa1f1e84347584b8f0ebce06b6",
+      "start": 12217,
+      "end": 12250
+    },
+    {
+      "block": 40,
+      "kind": "paragraph",
+      "normalized_sha256": "989936e6b28f0fbaab60215c2ea4dac76f402d89dc5e024d52c17b38de218457",
+      "start": 12250,
+      "end": 12736
+    },
+    {
+      "block": 41,
+      "kind": "paragraph",
+      "normalized_sha256": "1a1c9c0b2362617f0fa879447dc61c97e6cc17e241c243af5f69da2887df6a83",
+      "start": 12736,
+      "end": 13155
+    },
+    {
+      "block": 42,
+      "kind": "paragraph",
+      "normalized_sha256": "00af3381bd4a2de17a764ff4aacbc22f93d0581af56f39cb2f7987325e46798d",
+      "start": 13155,
+      "end": 13515
+    },
+    {
+      "block": 43,
+      "kind": "heading",
+      "normalized_sha256": "7467d28dcb701a77e738b44038db18eadb8f59a9875a366b0e6a8eb97bb7614f",
+      "start": 13515,
+      "end": 13543
+    },
+    {
+      "block": 44,
+      "kind": "paragraph",
+      "normalized_sha256": "01a93656551992a897c1bf6a1c0a64d5fa45d33ce9643ebeb9457c62e80f4b2f",
+      "start": 13543,
+      "end": 13837
+    },
+    {
+      "block": 45,
+      "kind": "paragraph",
+      "normalized_sha256": "afc43d61b152c4b6dd6e7e192723155aeeac0c28152d79f61f7efe715660d31a",
+      "start": 13837,
+      "end": 14215
+    },
+    {
+      "block": 46,
+      "kind": "paragraph",
+      "normalized_sha256": "5a3b2b6e05195b7b2bc561a06f43963cce6a0d39251bc4a626f21dd922f622c7",
+      "start": 14215,
+      "end": 14618
+    },
+    {
+      "block": 47,
+      "kind": "paragraph",
+      "normalized_sha256": "0008f204291f4546d48988ebe52daf8785ff8534128a8a8c88fb023453a68af4",
+      "start": 14618,
+      "end": 15062
+    },
+    {
+      "block": 48,
+      "kind": "heading",
+      "normalized_sha256": "8e5f315b9ab1d07ac2023bee5c12f72e6eb85efa4f3a220dbdaa196d245760a7",
+      "start": 15062,
+      "end": 15082
+    },
+    {
+      "block": 49,
+      "kind": "paragraph",
+      "normalized_sha256": "eeb413157f1c842a8ed90a4c008c2545cb41e5bd1cf6b1d12e82f6fbdb7436f6",
+      "start": 15082,
+      "end": 15540
+    },
+    {
+      "block": 50,
+      "kind": "paragraph",
+      "normalized_sha256": "6c98d87470008fa5c3a839c3a9f417fa7961e1d6d75e31ca1be876888830734e",
+      "start": 15540,
+      "end": 15829
+    },
+    {
+      "block": 51,
+      "kind": "paragraph",
+      "normalized_sha256": "6e6828ed9e497847cac060251352c7fcb9423fe2711e7aeff32f79bfbc065c37",
+      "start": 15829,
+      "end": 16211
+    },
+    {
+      "block": 52,
+      "kind": "paragraph",
+      "normalized_sha256": "d2ef20f9a7b6e2dd3201acca5535efd7f817d07883ddaf9d314d56e3c41d859a",
+      "start": 16211,
+      "end": 16676
+    },
+    {
+      "block": 53,
+      "kind": "paragraph",
+      "normalized_sha256": "0af9ecae618d1157ceb6d84dfffa5116722ece78e479f815d61a0df8bdb6b997",
+      "start": 16676,
+      "end": 16986
+    },
+    {
+      "block": 54,
+      "kind": "heading",
+      "normalized_sha256": "a82e17dd8534f32210f15afc46689a15ae22e035048cd1f7e2467542ebf410d7",
+      "start": 16986,
+      "end": 17013
+    },
+    {
+      "block": 55,
+      "kind": "paragraph",
+      "normalized_sha256": "df0467d09fdd6f5099424d92ce920c0a00e10f6c6ffa6d08f666e59f8c92ad41",
+      "start": 17013,
+      "end": 17718
+    },
+    {
+      "block": 56,
+      "kind": "heading",
+      "normalized_sha256": "2586588fb6947e215cc823d000431e8f5088345b335d64ab08b403aaac9b464f",
+      "start": 17718,
+      "end": 17740
+    },
+    {
+      "block": 57,
+      "kind": "list_item",
+      "normalized_sha256": "a1596842e583fe500cef6ef24c1c7a501da0266be6b89aa140626688c8eeac36",
+      "start": 17740,
+      "end": 17937
+    },
+    {
+      "block": 58,
+      "kind": "list_item",
+      "normalized_sha256": "d44ea7c71fca0962df4e80f2b46d1fbc2993301f1e0a67c9fb79ba4f636fb1ae",
+      "start": 17937,
+      "end": 18060
+    },
+    {
+      "block": 59,
+      "kind": "list_item",
+      "normalized_sha256": "fa1d7c4fdb95783657d6fa43e6b72e64cd02e73679c71d31bf49bf0bf6b8ca0f",
+      "start": 18060,
+      "end": 18167
+    },
+    {
+      "block": 60,
+      "kind": "list_item",
+      "normalized_sha256": "80ec676bad3a6b95f899e646f5d4d097cfd7709fe62c90b4593d995be649b360",
+      "start": 18167,
+      "end": 18341
+    },
+    {
+      "block": 61,
+      "kind": "list_item",
+      "normalized_sha256": "57f599fb5675f913596a4e820e405a57dadb7498f3484e65ad9c5c3722c5e2bd",
+      "start": 18341,
+      "end": 18505
+    },
+    {
+      "block": 62,
+      "kind": "list_item",
+      "normalized_sha256": "64a2c82733adf3326b230847cd77867ea1facfe446615dd30776f9ddf1c902d1",
+      "start": 18505,
+      "end": 18700
+    },
+    {
+      "block": 63,
+      "kind": "paragraph",
+      "normalized_sha256": "f09a35394ffef633bca10548a2ec97ca5a6b823e6c6eb39801f93ec22d054c91",
+      "start": 18700,
+      "end": 18886
+    }
+  ],
+  "visual_review": "Separate visual review required."
+}

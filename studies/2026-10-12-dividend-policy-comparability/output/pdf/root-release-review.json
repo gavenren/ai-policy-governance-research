@@ -1,0 +1,8 @@
+{
+  "checked_at_utc": "2026-10-12T19:14:17.776290+00:00",
+  "reviewer": "Root AI agent; manuscript author, separate from PDF rendering agent",
+  "source_sha256": "a70db0b196f6e9782b0f2987f395c223fa18829d22924eacd14aef8b59ad2ef5",
+  "pdf_sha256": "2e4f355a0c2ad264dd43c22fbd2804da0cafe488700bfaee55b10781a171797f",
+  "scope": "Root invoked strict ordered-text/link verifier to private output .local-verification/s018-root-text-check.json; all118units,56tablecells,22linkoccurrences and15bookmarks passed. Root inspected both final contact sheets covering all7pages: clear tables, minus signs, percentages, references and margins. Rendering author inspected all7pages atfullsize and retained hashes.",
+  "limits": "No PDF/UA or every-viewer/printer claim. No manuscript or numeric change."
+}

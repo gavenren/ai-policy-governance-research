@@ -1,0 +1,59 @@
+{
+  "completed_at_utc": "2026-10-12T19:13:43.403931Z",
+  "source_commit": "215576a4132b214aeb3e51e1f84168cf354cf8b9",
+  "source_sha256": "a70db0b196f6e9782b0f2987f395c223fa18829d22924eacd14aef8b59ad2ef5",
+  "pdf_sha256": "2e4f355a0c2ad264dd43c22fbd2804da0cafe488700bfaee55b10781a171797f",
+  "readme_before_sha256": "21282686bd98b95ea6f1b563469c66d66c599c866e92cfaea96e80d90f772227",
+  "readme_change": "Add one PDF reading-copy link; no other README text changed.",
+  "files": {
+    "studies/2026-10-12-dividend-policy-comparability/paper.md": {
+      "sha256": "a70db0b196f6e9782b0f2987f395c223fa18829d22924eacd14aef8b59ad2ef5",
+      "bytes": 23851
+    },
+    "studies/2026-10-12-dividend-policy-comparability/README.md": {
+      "sha256": "3945d260f3ded1e0130bec100ec0c4d0b4b65060cf0eb401a28163a0421303d7",
+      "bytes": 1526
+    },
+    "scripts/render_reading_copy.py": {
+      "sha256": "3ca8aa991c31fff407e010fe777697ecbc2fb5bfc931a8de02b80463cc472747",
+      "bytes": 9884
+    },
+    "scripts/verify_reading_copy.py": {
+      "sha256": "754cb6a6b3f09825da99484d4edeb841e2ac0381ece25f44900765830c491ad5",
+      "bytes": 6130
+    },
+    "scripts/render_s018_reading_copy.py": {
+      "sha256": "2a983665f7686ae7b2c7d6d0e9da652623d752a0c0e1d8c105292efcca6e7571",
+      "bytes": 4121
+    },
+    "scripts/verify_s018_reading_copy.py": {
+      "sha256": "a132c606394ba0e3ff6a87e3f55f7a69effc8933102d30b9ec4faf0d02e7d7f2",
+      "bytes": 6000
+    },
+    "studies/2026-10-12-dividend-policy-comparability/output/pdf/README.md": {
+      "sha256": "857ee3d894357837535688617676f09048dd1aa1fde43e296e30f9ea2084e0b4",
+      "bytes": 3036
+    },
+    "studies/2026-10-12-dividend-policy-comparability/output/pdf/author-build-log.json": {
+      "sha256": "d4b006ea03ef2349ad5898adca01e8eaa7a4264440407c3dbeb85a078f62ac56",
+      "bytes": 1408
+    },
+    "studies/2026-10-12-dividend-policy-comparability/output/pdf/layout-check.json": {
+      "sha256": "fe21466d8475d303f9e094344c7ec5cac4da9209bc3005812f669335dee46ca6",
+      "bytes": 2219
+    },
+    "studies/2026-10-12-dividend-policy-comparability/output/pdf/paper.pdf": {
+      "sha256": "2e4f355a0c2ad264dd43c22fbd2804da0cafe488700bfaee55b10781a171797f",
+      "bytes": 149427
+    },
+    "studies/2026-10-12-dividend-policy-comparability/output/pdf/source-pin.json": {
+      "sha256": "b3064d0bab44c5b642a1015d5dd5275c972beb01576cefcd4fb01e4f4cf52afe",
+      "bytes": 739
+    },
+    "studies/2026-10-12-dividend-policy-comparability/output/pdf/text-check.json": {
+      "sha256": "697d7a994199e7c9f73da6b1bbe55558703f143f0493f474356bafdd97d2e33f",
+      "bytes": 41014
+    }
+  },
+  "publication": "Not performed by the PDF builder; root performs independent checks and publication."
+}

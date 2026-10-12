@@ -1,0 +1,19 @@
+{
+  "completed_at_utc": "2026-10-12T19:13:43.403931Z",
+  "source_sha256": "a70db0b196f6e9782b0f2987f395c223fa18829d22924eacd14aef8b59ad2ef5",
+  "pdf_sha256": "2e4f355a0c2ad264dd43c22fbd2804da0cafe488700bfaee55b10781a171797f",
+  "repeat_sha256": "2e4f355a0c2ad264dd43c22fbd2804da0cafe488700bfaee55b10781a171797f",
+  "byte_identical_repeat": true,
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "platform": "macOS-26.7.2-arm64-arm-64bit",
+    "reportlab": "4.4.9",
+    "pypdf": "6.10.0",
+    "pdfplumber": "0.11.9",
+    "pillow": "12.3.0"
+  },
+  "implementation": "Dedicated S018 wrapper uses the unchanged shared prose renderer, adds flat reference bullets, table widths and source-state footer. No math conversion or source changes.",
+  "history": "Working-notes preview, completed-review preview, then publication-pinned build. Before the second preview, the footer condition was adjusted to the exact Complete-study draft spelling in the approved source. No render or verification failure occurred.",
+  "checks": "118 ordered units, 56 table cells, 6 reference items, 22 link occurrences, 20 distinct targets, 24 annotations, 15 bookmarks; embedded fonts and character bounds; all-page visual review; byte-identical second build.",
+  "source_and_other_outputs": "Manuscript, numerical files, shared renderer and earlier PDFs were not changed by this task."
+}

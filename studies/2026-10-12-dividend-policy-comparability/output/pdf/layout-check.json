@@ -1,0 +1,40 @@
+{
+  "checked_at_utc": "2026-10-12T19:13:43.403931Z",
+  "pdf_sha256": "2e4f355a0c2ad264dd43c22fbd2804da0cafe488700bfaee55b10781a171797f",
+  "pages_visually_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "findings": "No clipping, overlap, missing glyph, detached heading, or split table. Tables on pages 2 and 4 fit and are readable. References continue on page 7. Complete-study status and no-human-review footer are visible.",
+  "true_minus_signs_preserved": 4,
+  "percentage_signs_preserved": 16,
+  "render_method": "Poppler pdftoppm; PNG; maximum dimension 1300 pixels. All seven pages were viewed separately.",
+  "font_files_sha256": {
+    "Times New Roman.ttf": "f3b4ffff71c2a0c7227d37497683b2498fb2d0a4e8beae26f022e3ccfcaabfa3",
+    "Times New Roman Bold.ttf": "50f5b1f27b7d34621090e437e8b1dd4510a22d2823fc876b3286bed327b64bbb",
+    "Times New Roman Italic.ttf": "7bb99c3a67697fbce15ab66d806d9a2151432ce1dab2eaba4156e1251da486c0",
+    "Times New Roman Bold Italic.ttf": "906157e8294fdf168d83002eaabde01c2d30fc3f44977be89e33fa22f262002a"
+  },
+  "used_fonts": [
+    "AAAAAA+TimesNewRomanPS-BoldMT",
+    "AAAAAA+TimesNewRomanPS-ItalicMT",
+    "AAAAAA+TimesNewRomanPSMT"
+  ],
+  "fonts": "All used Times New Roman fonts are embedded. The unused standard Helvetica resource is not embedded. Supplied font files are not redistributed.",
+  "limits": "Raster smoothing can differ across viewers. This is a faithful reading copy, not PDF/UA certification or human peer review.",
+  "page_render_sha256": {
+    "page-1": "104b4fecc23347b12e5a69f65e3cece6e346b38c625ca705b0c27dbdfd1ad906",
+    "page-2": "65e3fc85390852db15f804fd6be3b73e06809f23d1d1ece3a8075c79937a0189",
+    "page-3": "ba1c26128cca0f48ea419f1d75f9fc7dc1b328ff7333f6a698093570354c5ee0",
+    "page-4": "9417a6dc15df92e327c744d40badaa12e1be150ed38a9811001f83fd4994cc9e",
+    "page-5": "24fe52b4ff223ad48aba9b2ab7011399ead8cebbe79b727aedcba77fb8842fe0",
+    "page-6": "50b8bb59a0267adf82c5a19403a3a2855646c82c736c638620262ab746d14bf6",
+    "page-7": "c4d5800deed62295958bf7d978bd86a8e705292c618747dca4652343b6dc6c4f"
+  },
+  "independent_review": "Root will inspect the final contact sheets and rerun the text verifier before publication."
+}
