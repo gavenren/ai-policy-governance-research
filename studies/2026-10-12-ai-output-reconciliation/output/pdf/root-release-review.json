@@ -1,0 +1,26 @@
+{
+  "checked_utc": "2026-10-12T18:43:23.657632+00:00",
+  "reviewer": "Root AI agent, separate from the PDF builder; manuscript author",
+  "scope": "Faithful PDF reading copy and layout, not a new substantive or human peer review",
+  "execution": {
+    "started_utc": "2026-10-12T18:43:22.884275+00:00",
+    "command": "python scripts/verify_s016_reading_copy.py <unchanged manuscript> <PDF> --link-base <pinned source> --font-dir <local fonts> --output <private verification file>",
+    "exit_code": 0,
+    "summary": {
+      "pages": 7,
+      "units_checked": 115,
+      "strict_source_text_match": true,
+      "pdf_sha256": "87d5f086e97eaa2f2c8fff4fae21344c333c98f9a24cc8563cadb243474a5f3d",
+      "expected_link_occurrences_including_bare_urls": 19,
+      "link_annotations": 21,
+      "all_characters_inside_page_and_horizontal_margins": true
+    }
+  },
+  "visual_review": "All seven pages inspected via both 130-dpi contact sheets. Three tables, appendix and page breaks are readable; no clipping or missing glyphs found. PDF author additionally inspected full-size pages.",
+  "source_sha256": "e45fb9bdce6b0d5f4bd6796118ac0e09eeb0ea08c1266014d8916c73aeca20e8",
+  "manuscript_unchanged": true,
+  "new_pdf_sha256": "87d5f086e97eaa2f2c8fff4fae21344c333c98f9a24cc8563cadb243474a5f3d",
+  "public_records_unchanged_by_check": true,
+  "limits": "No accessibility certification or all-viewer guarantee. Plain appendix notation is retained exactly.",
+  "publication": "Not yet verified by this record"
+}

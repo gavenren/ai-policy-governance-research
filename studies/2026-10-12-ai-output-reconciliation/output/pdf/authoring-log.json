@@ -1,0 +1,55 @@
+{
+  "saved_at_utc": "2026-10-12T18:41:44.572553Z",
+  "source_commit": "49131a42f9c92820d2146701e31b3f348c39276e",
+  "source_sha256": "e45fb9bdce6b0d5f4bd6796118ac0e09eeb0ea08c1266014d8916c73aeca20e8",
+  "source_unchanged": true,
+  "pdf_sha256": "87d5f086e97eaa2f2c8fff4fae21344c333c98f9a24cc8563cadb243474a5f3d",
+  "renderer": "scripts/render_s016_reading_copy.py",
+  "base_renderer": "scripts/render_reading_copy.py",
+  "base_renderer_changed": false,
+  "changes": [
+    "Set S016 five-column table widths to 23%, 18%, 19%, 18%, 22%.",
+    "Make five bare reference URLs clickable without changing printed characters."
+  ],
+  "math_handling": "No math parser or substitutions. Appendix A stays in plain text.",
+  "build_failures": [],
+  "recording_failures": [
+    {
+      "issue": "The first prior-PDF check included an unrelated older PDF without a matching reading-copy check record and stopped before saving the log.",
+      "resolution": "Scope was corrected to the four prior reading copies from this user task. All four matched their saved hashes. No PDF changed."
+    }
+  ],
+  "byte_identical_second_build": true,
+  "rebuild_path": ".local-verification/s016-reading-copy/rebuild.pdf",
+  "versions": {
+    "python": "3.12.14",
+    "reportlab": "4.4.9",
+    "pypdf": "6.10.0",
+    "pdfplumber": "0.11.9",
+    "Pillow": "12.3.0"
+  },
+  "earlier_pdf_byte_checks": [
+    {
+      "path": "studies/2026-10-11-public-ownership-control/output/pdf/paper.pdf",
+      "sha256": "4461a42c1a44cfd0254048b842a59cf9c8f770a2937f7d9fe3bc4550a7d1122e",
+      "matches_prior_check_record": "studies/2026-10-11-public-ownership-control/output/pdf/text-check.json"
+    },
+    {
+      "path": "studies/2026-10-12-supplier-continuity/output/pdf/paper.pdf",
+      "sha256": "912777cbe8fb2743e0fb9a465ccd6dbd54829ccfa9d5d3052f4ea7c3eef5909e",
+      "matches_prior_check_record": "studies/2026-10-12-supplier-continuity/output/pdf/text-check.json"
+    },
+    {
+      "path": "studies/2026-10-12-compute-allocation/output/pdf/paper.pdf",
+      "sha256": "1ddccfaedd1269ebd21709c9471d7a0a6248b3266f2b70fa52a5ebef0fd28bb9",
+      "matches_prior_check_record": "studies/2026-10-12-compute-allocation/output/pdf/text-math-check.json"
+    },
+    {
+      "path": "studies/2026-10-12-equity-levy-aggregation/output/pdf/paper.pdf",
+      "sha256": "a0cdadf042330bfe87432b82a6986b3ce9f5e5f2d0acfde67fa4909687d84d0f",
+      "matches_prior_check_record": "studies/2026-10-12-equity-levy-aggregation/output/pdf/text-math-check.json"
+    }
+  ],
+  "git_or_publication_actions": false,
+  "skill_marker": "Not repeated. Root ran the create marker earlier in this same user task."
+}

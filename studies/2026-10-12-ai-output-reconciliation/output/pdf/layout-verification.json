@@ -1,0 +1,68 @@
+{
+  "checked_at_utc": "2026-10-12T18:41:44.572553Z",
+  "reviewer": "PDF authoring AI agent; not human review",
+  "pdf_sha256": "87d5f086e97eaa2f2c8fff4fae21344c333c98f9a24cc8563cadb243474a5f3d",
+  "pages": 7,
+  "render_method": "Poppler pdftoppm; all pages; 130 dpi; PNG",
+  "render_folder": ".local-verification/s016-reading-copy",
+  "all_pages_rendered": true,
+  "all_pages_visually_inspected_at_full_size": true,
+  "contact_sheets_also_inspected": true,
+  "observed_defects": [],
+  "page_inspections": [
+    {
+      "page": 1,
+      "image": ".local-verification/s016-reading-copy/page-1.png",
+      "image_sha256": "85f9696333b70fb28331675c4c7b10d8ea87ad357a48f1e35ec6990b752b3322",
+      "observations": "Title, subtitle, draft disclosure and source link are clear. The final paragraph continues on page 2."
+    },
+    {
+      "page": 2,
+      "image": ".local-verification/s016-reading-copy/page-2.png",
+      "image_sha256": "88b8cdaf03db6c41a42502c2d3225ab87cbf3e890dc0999ea419a0b21f92f414",
+      "observations": "Section 2 and its source links are clear. All lines fit inside the page."
+    },
+    {
+      "page": 3,
+      "image": ".local-verification/s016-reading-copy/page-3.png",
+      "image_sha256": "7afead2f1d7d2385779616f9c7ff1a61b9ec456fe9e7c04717006f80f85f96e5",
+      "observations": "Design text and section headings are clear. The first results table starts on page 4 as a complete table."
+    },
+    {
+      "page": 4,
+      "image": ".local-verification/s016-reading-copy/page-4.png",
+      "image_sha256": "be0735ffc00cbc973e2c21a26634bf98509c70739f1fdad992537435d2bcb088",
+      "observations": "Both four-column tables are clear, including all headers and numbers. No overlap or cut text. The five-column table follows on page 5."
+    },
+    {
+      "page": 5,
+      "image": ".local-verification/s016-reading-copy/page-5.png",
+      "image_sha256": "5d17ebdcc97a43745bbfc41a352786a2b5ae20b489178668fe6dc08414bb613e",
+      "observations": "The five-column results table is clear. Long first-column labels wrap within their cells. All rows and numerical columns are visible."
+    },
+    {
+      "page": 6,
+      "image": ".local-verification/s016-reading-copy/page-6.png",
+      "image_sha256": "aef6de8907f54b9d88bdc6867fa97d51e7d6267c23481e5f17b51020088f3bf6",
+      "observations": "The appendix uses the original plain notation. Underscores, carets, brackets and minus signs are visible. No math conversion was applied. The final paragraph continues on page 7."
+    },
+    {
+      "page": 7,
+      "image": ".local-verification/s016-reading-copy/page-7.png",
+      "image_sha256": "a2b5181d6b02b8961cd52b5350f27b3624c57da1140e4158348cee4c3f0e8d0a",
+      "observations": "The appendix continuation and all five references are clear. Reference URLs are clickable. Blank end-of-paper space is normal."
+    }
+  ],
+  "contact_sheets": [
+    {
+      "path": ".local-verification/s016-reading-copy/contact-1.png",
+      "sha256": "0446f264630599a9513b9d94ffc1f73db6e2219171e1c41c4830cae76de41e13"
+    },
+    {
+      "path": ".local-verification/s016-reading-copy/contact-2.png",
+      "sha256": "673b5a72573e1f20afd2f573123a43eddfd67af82feeed79ff24a86a7dcb8903"
+    }
+  ],
+  "limits": "Checks cover the saved Poppler renders, not all PDF viewers or printers. Plain source notation is preserved; no semantic math or PDF/UA compliance is claimed. URI targets and rectangles were checked; each remote site was not opened again.",
+  "separate_release_review": "Pending root agent review."
+}
