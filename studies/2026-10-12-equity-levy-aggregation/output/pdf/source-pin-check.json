@@ -1,0 +1,9 @@
+{
+  "request_started_utc": "2026-10-12T18:28:55.900747+00:00",
+  "completed_utc": "2026-10-12T18:28:56.023079+00:00",
+  "url": "https://raw.githubusercontent.com/gavenren/ai-policy-governance-research/46f3fc3882f5e7c0b1c77649cc4d0e719f4aa347/studies/2026-10-12-equity-levy-aggregation/paper.md",
+  "status": 200,
+  "remote_sha256": "67b37a3c6ff3307f07116bbfef9da460a7296e083c0c55947217bac2c80ba163",
+  "local_sha256": "67b37a3c6ff3307f07116bbfef9da460a7296e083c0c55947217bac2c80ba163",
+  "exact_bytes_match": true
+}

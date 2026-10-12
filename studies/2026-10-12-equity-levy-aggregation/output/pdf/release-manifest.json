@@ -1,0 +1,17 @@
+{
+  "frozen_utc": "2026-10-12T18:33:34.004159+00:00",
+  "files": {
+    "README.md": "45b2e03ed027e32a2982a93b4a70c56b479b7b4ddce78dec125392bcf10ff564",
+    "authoring-log.json": "f915522dba9a5ea74aafa0f7ed35a470032d2f79ebf6e3de3e433f3aeee2ffbc",
+    "layout-verification.json": "1aff959dd287f92a94fb1f012098f686986c48cea7fa12580e1910fc09541e78",
+    "math-layout.json": "a9a7508d3db4428ccf403712a87792e4777c5388e5ebb68437b8b8651a36c624",
+    "paper.pdf": "a0cdadf042330bfe87432b82a6986b3ce9f5e5f2d0acfde67fa4909687d84d0f",
+    "source-pin-check.json": "4496ba6446c9c3a53f50cedc55e8ed4f233824f3e25954f9631c120708bd3433",
+    "text-math-check.json": "986dc5458d103cc915156cefc7a268fae078d43e1409c5692c653efa5bf7d928"
+  },
+  "scripts": {
+    "render_math_reading_copy.py": "9ed9192a11a8bd00c8a4ef2748599dff3ae205d309a65cc51c30d1b381884241",
+    "verify_math_reading_copy.py": "84063e9baaf2eb45a6dfccdd93664b3169e44e436c8a4cfaa4c8161eb8573b73",
+    "requirements-math-reading-copy.txt": "0dd276cd6b970c8bcfe470a8e5a7f38573e0a8f759e2311ecc36078c2f046c47"
+  }
+}

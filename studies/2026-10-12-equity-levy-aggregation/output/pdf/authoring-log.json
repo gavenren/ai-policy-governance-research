@@ -1,0 +1,19 @@
+{
+  "recorded_utc": "2026-10-12T18:32:58.643995+00:00",
+  "status": "Ready for independent publication inspection",
+  "source_sha256": "67b37a3c6ff3307f07116bbfef9da460a7296e083c0c55947217bac2c80ba163",
+  "pdf_sha256": "a0cdadf042330bfe87432b82a6986b3ce9f5e5f2d0acfde67fa4909687d84d0f",
+  "builder_sha256": "9ed9192a11a8bd00c8a4ef2748599dff3ae205d309a65cc51c30d1b381884241",
+  "verifier_sha256": "84063e9baaf2eb45a6dfccdd93664b3169e44e436c8a4cfaa4c8161eb8573b73",
+  "resolved_checks": [
+    "An initial relative-path setup error stopped before PDF creation; resolved by absolute source-path normalization.",
+    "A first permissive dollar-sign screen counted currency pairs as math; strict delimiter rules now preserve all literal currency signs and check the final inventory.",
+    "The verifier initially used a 0.00001-point coordinate tolerance; ReportLab serializes some larger coordinates to 0.0001-point precision. The final declared tolerance is 0.0001 point.",
+    "Nested Markdown formatting required recursive plain-text removal in the verifier; no source wording changed.",
+    "S015 list bullets now use the embedded prose font instead of the default base font.",
+    "Visual review found a deep inline summation subscript too close to the next line. Paragraph-specific leading now provides its full height plus three points.",
+    "A display formula is kept with its lead paragraph."
+  ],
+  "marker_note": "No additional artifact marker was run; the parent reports that the create operation marker was already run for this continuing user task.",
+  "publication": "Not staged or published by this agent."
+}

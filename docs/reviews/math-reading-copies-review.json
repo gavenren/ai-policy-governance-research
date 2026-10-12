@@ -1,0 +1,80 @@
+{
+  "checked_utc": "2026-10-12T18:37:04.808490+00:00",
+  "reviewer": "Root AI agent, separate from the PDF builder; authored and reviewed portions of the manuscripts earlier",
+  "scope": "Reading-copy fidelity and layout, not a new research or human peer review",
+  "executions": [
+    {
+      "study": "S014",
+      "started_utc": "2026-10-12T18:37:03.656460+00:00",
+      "ended_utc": "2026-10-12T18:37:04.151903+00:00",
+      "method": "Existing verifier executed in a separate private copy; original records unchanged",
+      "exit_code": 0,
+      "summary": {
+        "checked_utc": "2026-10-12T18:37:04.107701+00:00",
+        "study": "S014",
+        "source_sha256": "46361e8733a4ed4a1ce7eb4a4d9ee331e89565dc221c62382067bed9db008b33",
+        "pdf_sha256": "1ddccfaedd1269ebd21709c9471d7a0a6248b3266f2b70fa52a5ebef0fd28bb9",
+        "verifier_sha256": "84063e9baaf2eb45a6dfccdd93664b3169e44e436c8a4cfaa4c8161eb8573b73",
+        "pages": 6,
+        "strict_prose_and_table_text_match": true,
+        "independent_source_coverage": true,
+        "prose_units_checked": 57,
+        "prose_characters_without_whitespace": 15269,
+        "literal_currency_dollars_preserved": 0,
+        "vector_coordinate_tolerance_points": 0.0001,
+        "vector_math_forms_checked": 32,
+        "math_glyphs_checked": 210,
+        "math_rules_checked": 2,
+        "equation_tags_checked": {},
+        "unique_links": 16,
+        "bookmarks": 11,
+        "limit": "Text and vector checks do not replace page and equation visual review. PDF math copying may not preserve LaTeX structure.",
+        "original_pdf_sha256": "1ddccfaedd1269ebd21709c9471d7a0a6248b3266f2b70fa52a5ebef0fd28bb9"
+      }
+    },
+    {
+      "study": "S015",
+      "started_utc": "2026-10-12T18:37:04.157274+00:00",
+      "ended_utc": "2026-10-12T18:37:04.808466+00:00",
+      "method": "Existing verifier executed in a separate private copy; original records unchanged",
+      "exit_code": 0,
+      "summary": {
+        "checked_utc": "2026-10-12T18:37:04.765534+00:00",
+        "study": "S015",
+        "source_sha256": "67b37a3c6ff3307f07116bbfef9da460a7296e083c0c55947217bac2c80ba163",
+        "pdf_sha256": "a0cdadf042330bfe87432b82a6986b3ce9f5e5f2d0acfde67fa4909687d84d0f",
+        "verifier_sha256": "84063e9baaf2eb45a6dfccdd93664b3169e44e436c8a4cfaa4c8161eb8573b73",
+        "pages": 8,
+        "strict_prose_and_table_text_match": true,
+        "independent_source_coverage": true,
+        "prose_units_checked": 125,
+        "prose_characters_without_whitespace": 18032,
+        "literal_currency_dollars_preserved": 17,
+        "vector_coordinate_tolerance_points": 0.0001,
+        "vector_math_forms_checked": 76,
+        "math_glyphs_checked": 545,
+        "math_rules_checked": 6,
+        "equation_tags_checked": {
+          "1": 1,
+          "2": 1,
+          "3": 1,
+          "4": 1
+        },
+        "unique_links": 13,
+        "bookmarks": 11,
+        "limit": "Text and vector checks do not replace page and equation visual review. PDF math copying may not preserve LaTeX structure.",
+        "original_pdf_sha256": "a0cdadf042330bfe87432b82a6986b3ce9f5e5f2d0acfde67fa4909687d84d0f"
+      }
+    }
+  ],
+  "initial_private_copy_failure": "First attempt omitted the existing render_reading_copy helper. Import stopped before verification. The helper was then copied and both verification commands passed. No study artifact changed.",
+  "visual_review": {
+    "page_contact_sheets": "All 14 pages inspected through S014 and S015 contact sheets",
+    "formula_crops": "S014 formulas 0-17; S015 formulas 0-17 and 54-75 inspected in rendered crops",
+    "finding": "No clipping, missing math or page-layout issue found in the inspected images. Tables and prose are readable. Tall math uses wider line spacing.",
+    "limits": "The PDF author checked all formula crops. Root checked the named subset, not every formula crop."
+  },
+  "source_manuscripts_changed": false,
+  "paid_services_used": false,
+  "publication": "Not yet verified by this record"
+}

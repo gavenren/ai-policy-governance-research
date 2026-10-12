@@ -1,0 +1,9 @@
+{
+  "request_started_utc": "2026-10-12T18:28:55.741620+00:00",
+  "completed_utc": "2026-10-12T18:28:55.900093+00:00",
+  "url": "https://raw.githubusercontent.com/gavenren/ai-policy-governance-research/b5adf467eb27bd37d1d9f265b63c2178308d6657/studies/2026-10-12-compute-allocation/paper.md",
+  "status": 200,
+  "remote_sha256": "46361e8733a4ed4a1ce7eb4a4d9ee331e89565dc221c62382067bed9db008b33",
+  "local_sha256": "46361e8733a4ed4a1ce7eb4a4d9ee331e89565dc221c62382067bed9db008b33",
+  "exact_bytes_match": true
+}

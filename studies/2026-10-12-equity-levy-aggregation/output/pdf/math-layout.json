@@ -1,0 +1,5572 @@
+{
+  "built_utc": "2026-10-12T18:31:20.140190+00:00",
+  "source_sha256": "67b37a3c6ff3307f07116bbfef9da460a7296e083c0c55947217bac2c80ba163",
+  "source_commit": "46f3fc3882f5e7c0b1c77649cc4d0e719f4aa347",
+  "source_url": "https://github.com/gavenren/ai-policy-governance-research/blob/46f3fc3882f5e7c0b1c77649cc4d0e719f4aa347/studies/2026-10-12-equity-levy-aggregation/paper.md",
+  "pdf_sha256": "a0cdadf042330bfe87432b82a6986b3ce9f5e5f2d0acfde67fa4909687d84d0f",
+  "builder_sha256": "9ed9192a11a8bd00c8a4ef2748599dff3ae205d309a65cc51c30d1b381884241",
+  "reportlab": "4.4.9",
+  "matplotlib": "3.10.7",
+  "study": "S015",
+  "math_fonts": {
+    "Math6cfcb333d22b7c3c": {
+      "file": "STIXGeneralItalic.ttf",
+      "sha256": "6cfcb333d22b7c3c623bdfd40174f14c85c3d6731ca6166c1edc80140eae8527"
+    },
+    "Math167378031e2dddc6": {
+      "file": "STIXGeneral.ttf",
+      "sha256": "167378031e2dddc6216d67819c9260e9a06ffc4c478e4e23cb98a6fd44b183c2"
+    }
+  },
+  "prose_fonts": {
+    "Regular": {
+      "file": "Times New Roman.ttf",
+      "sha256": "f3b4ffff71c2a0c7227d37497683b2498fb2d0a4e8beae26f022e3ccfcaabfa3"
+    },
+    "Bold": {
+      "file": "Times New Roman Bold.ttf",
+      "sha256": "50f5b1f27b7d34621090e437e8b1dd4510a22d2823fc876b3286bed327b64bbb"
+    },
+    "Italic": {
+      "file": "Times New Roman Italic.ttf",
+      "sha256": "7bb99c3a67697fbce15ab66d806d9a2151432ce1dab2eaba4156e1251da486c0"
+    },
+    "BoldItalic": {
+      "file": "Times New Roman Bold Italic.ttf",
+      "sha256": "906157e8294fdf168d83002eaabde01c2d30fc3f44977be89e33fa22f262002a"
+    }
+  },
+  "equations": [
+    {
+      "id": "Math000",
+      "raw_latex": "V",
+      "source_latex_sha256": "de5a6f78116eca62d7fc5ce159d23ae6b889b365a1739ad2cf36f925a140d0cc",
+      "display": false,
+      "tag": null,
+      "width": 7.0,
+      "height": 9.0,
+      "depth": 1.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 86,
+          "x": 0.0,
+          "y": 0.8125
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 2,
+          "x": 303.80550781249997,
+          "y": 572.6,
+          "width": 7.0,
+          "height": 9.0
+        }
+      ]
+    },
+    {
+      "id": "Math001",
+      "raw_latex": "f",
+      "source_latex_sha256": "252f10c83610ebca1a059c0bae8255eba2f95be4d1d7bcfa89d7248a82d9f111",
+      "display": false,
+      "tag": null,
+      "width": 4.0,
+      "height": 11.0,
+      "depth": 3.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 102,
+          "x": 0.0,
+          "y": 0.546875
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 2,
+          "x": 340.44857421874997,
+          "y": 570.6,
+          "width": 4.0,
+          "height": 11.0
+        }
+      ]
+    },
+    {
+      "id": "Math002",
+      "raw_latex": "x_f",
+      "source_latex_sha256": "91c50d828be3947df58d1c871b6d197f00ebb3aa5f3d39e0deb6b442594629b0",
+      "display": false,
+      "tag": null,
+      "width": 8.0,
+      "height": 9.0,
+      "depth": 4.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 120,
+          "x": 0.0,
+          "y": 0.15625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 102,
+          "x": 4.884002685546875,
+          "y": -1.296875
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 2,
+          "x": 426.61019531249997,
+          "y": 569.6,
+          "width": 8.0,
+          "height": 9.0
+        }
+      ]
+    },
+    {
+      "id": "Math003",
+      "raw_latex": "M",
+      "source_latex_sha256": "08f271887ce94707da822d5263bae19d5519cb3614e0daedc4c7ce5dab7473f1",
+      "display": false,
+      "tag": null,
+      "width": 10.0,
+      "height": 8.0,
+      "depth": 0.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 77,
+          "x": 0.0,
+          "y": 0.8125
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 2,
+          "x": 279.96322265624997,
+          "y": 559.1,
+          "width": 10.0,
+          "height": 8.0
+        }
+      ]
+    },
+    {
+      "id": "Math004",
+      "raw_latex": "q_f",
+      "source_latex_sha256": "345638a01538c367e0eac8c5ffbc4fa3f2bf3d4c42095469e8214661aef879ae",
+      "display": false,
+      "tag": null,
+      "width": 9.0,
+      "height": 9.0,
+      "depth": 4.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 113,
+          "x": 0.0,
+          "y": 0.15625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 102,
+          "x": 5.5,
+          "y": -1.296875
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 2,
+          "x": 486.99105468749997,
+          "y": 555.1,
+          "width": 9.0,
+          "height": 9.0
+        }
+      ]
+    },
+    {
+      "id": "Math005",
+      "raw_latex": "\\tau",
+      "source_latex_sha256": "55d1823545b5b4c3cbc42b784c5e84605ffbe8e59d1dee9782cd87741eef9dc3",
+      "display": false,
+      "tag": null,
+      "width": 5.0,
+      "height": 6.0,
+      "depth": 1.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 964,
+          "x": 0.0,
+          "y": 0.296875
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 2,
+          "x": 305.76595703124997,
+          "y": 543.6,
+          "width": 5.0,
+          "height": 6.0
+        }
+      ]
+    },
+    {
+      "id": "Math006",
+      "raw_latex": "k\\geq1",
+      "source_latex_sha256": "1f8e5cdaf55d178a76935b37860d6fef6e6386ff7a07bf5204b1383cd76fc6ce",
+      "display": false,
+      "tag": null,
+      "width": 22.0,
+      "height": 10.0,
+      "depth": 2.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 107,
+          "x": 0.0,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8805,
+          "x": 6.472402954101563,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 49,
+          "x": 15.595806884765626,
+          "y": 0.484375
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 2,
+          "x": 389.57601562499997,
+          "y": 542.6,
+          "width": 22.0,
+          "height": 10.0
+        }
+      ]
+    },
+    {
+      "id": "Math007",
+      "raw_latex": "\n\\tau V_f\\min(1,kq_f)\n",
+      "source_latex_sha256": "83446b7021ceb9fb2ea21a03f93d555353ac7ad8b35ec921f00fb3382222b760",
+      "display": true,
+      "tag": null,
+      "width": 67.0,
+      "height": 13.0,
+      "depth": 4.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 964,
+          "x": 0.0,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 86,
+          "x": 4.9199981689453125,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 102,
+          "x": 12.251983642578125,
+          "y": -0.7921875000000007
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 109,
+          "x": 15.1168701171875,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 105,
+          "x": 24.452853393554687,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 110,
+          "x": 27.788851928710937,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 40,
+          "x": 33.78883666992188,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 49,
+          "x": 37.78482360839844,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 44,
+          "x": 43.78480834960938,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 107,
+          "x": 48.517590332031254,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 113,
+          "x": 53.84557800292969,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 102,
+          "x": 59.84556274414063,
+          "y": -0.7921875000000007
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 41,
+          "x": 62.71044921875,
+          "y": 0.796875
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 2,
+          "x": 278.5,
+          "y": 512.9,
+          "width": 67.0,
+          "height": 13.0
+        }
+      ]
+    },
+    {
+      "id": "Math008",
+      "raw_latex": "i",
+      "source_latex_sha256": "de7d1b721a1e0632b7cf04edf5032c8ecffa9f9a08492152b926f1a5a7e765d7",
+      "display": false,
+      "tag": null,
+      "width": 4.0,
+      "height": 9.0,
+      "depth": 1.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 105,
+          "x": 0.0,
+          "y": 0.8125
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 2,
+          "x": 169.990078125,
+          "y": 492.9,
+          "width": 4.0,
+          "height": 9.0
+        }
+      ]
+    },
+    {
+      "id": "Math009",
+      "raw_latex": "\ng_i(x_f)=x_{fi}\\min(k,1/q_f)\n",
+      "source_latex_sha256": "5aa5ebbd4b7bc85a142203927f82e9289669d325c373459c12ded98e809d5cbd",
+      "display": true,
+      "tag": null,
+      "width": 103.0,
+      "height": 13.0,
+      "depth": 4.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 103,
+          "x": 0.0,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 105,
+          "x": 5.9999847412109375,
+          "y": -0.7921875000000007
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 40,
+          "x": 8.864871215820312,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 120,
+          "x": 12.860858154296874,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 102,
+          "x": 18.188845825195312,
+          "y": -0.7921875000000007
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 41,
+          "x": 21.053732299804686,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 61,
+          "x": 26.782516479492188,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 120,
+          "x": 36.73529968261718,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 102,
+          "x": 42.06328735351562,
+          "y": -0.7921875000000007
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 105,
+          "x": 44.398486328124996,
+          "y": -0.7921875000000007
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 109,
+          "x": 47.26337280273437,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 105,
+          "x": 56.599356079101554,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 110,
+          "x": 59.935354614257804,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 40,
+          "x": 65.93533935546874,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 107,
+          "x": 69.9313262939453,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 44,
+          "x": 75.25931396484374,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 49,
+          "x": 79.99209594726561,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 47,
+          "x": 85.99208068847655,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 113,
+          "x": 89.3280792236328,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 102,
+          "x": 95.32806396484374,
+          "y": -0.7921875000000007
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 41,
+          "x": 98.19295043945311,
+          "y": 0.796875
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 2,
+          "x": 260.5,
+          "y": 462.2,
+          "width": 103.0,
+          "height": 13.0
+        }
+      ]
+    },
+    {
+      "id": "Math010",
+      "raw_latex": "q_f>0",
+      "source_latex_sha256": "1de317e74f34e56357fd9dbcc1f9e6f92640438b40a6af05d6c40b282b90ba5a",
+      "display": false,
+      "tag": null,
+      "width": 25.0,
+      "height": 12.0,
+      "depth": 4.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 113,
+          "x": 0.0,
+          "y": 0.5625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 102,
+          "x": 5.5,
+          "y": -0.890625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 62,
+          "x": 9.713374328613282,
+          "y": 0.5625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 48,
+          "x": 18.836778259277345,
+          "y": 0.5625
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 2,
+          "x": 185.56624999999997,
+          "y": 439.2,
+          "width": 25.0,
+          "height": 12.0
+        }
+      ]
+    },
+    {
+      "id": "Math011",
+      "raw_latex": "q_f=0",
+      "source_latex_sha256": "0f08afadafa65069a6c4dd7b2c3baf75efac33b7b049c6f7ccca34d6a7a7be23",
+      "display": false,
+      "tag": null,
+      "width": 25.0,
+      "height": 12.0,
+      "depth": 4.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 113,
+          "x": 0.0,
+          "y": 0.5625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 102,
+          "x": 5.5,
+          "y": -0.890625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 61,
+          "x": 9.713374328613282,
+          "y": 0.5625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 48,
+          "x": 18.836778259277345,
+          "y": 0.5625
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 2,
+          "x": 282.95248046874997,
+          "y": 439.2,
+          "width": 25.0,
+          "height": 12.0
+        }
+      ]
+    },
+    {
+      "id": "Math012",
+      "raw_latex": "s",
+      "source_latex_sha256": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89",
+      "display": false,
+      "tag": null,
+      "width": 5.0,
+      "height": 6.0,
+      "depth": 1.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 115,
+          "x": 0.0,
+          "y": 0.140625
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 2,
+          "x": 414.94955078124997,
+          "y": 405.0,
+          "width": 5.0,
+          "height": 6.0
+        }
+      ]
+    },
+    {
+      "id": "Math013",
+      "raw_latex": "s",
+      "source_latex_sha256": "043a718774c572bd8a25adbeb1bfcd5c0256ae11cecf9f9c3f925d0e52beaf89",
+      "display": false,
+      "tag": null,
+      "width": 5.0,
+      "height": 6.0,
+      "depth": 1.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 115,
+          "x": 0.0,
+          "y": 0.140625
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 2,
+          "x": 382.92171874999997,
+          "y": 390.5,
+          "width": 5.0,
+          "height": 6.0
+        }
+      ]
+    },
+    {
+      "id": "Math014",
+      "raw_latex": "\ns_j=\\sum_f\\frac{V_f}{V}x_{fj}.\n",
+      "source_latex_sha256": "895314b70b91270c2b7e38136ac843ca76cbc4b99fe2a6cf2b4c6336fe4888f8",
+      "display": true,
+      "tag": null,
+      "width": 53.0,
+      "height": 26.0,
+      "depth": 13.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 115,
+          "x": 0.0,
+          "y": 0.6484374999999982
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 106,
+          "x": 4.6679840087890625,
+          "y": -0.9406250000000025
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 61,
+          "x": 9.265667724609374,
+          "y": 0.6484374999999982
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 8721,
+          "x": 19.218450927734374,
+          "y": 0.6484374999999982
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 102,
+          "x": 21.218450927734374,
+          "y": -10.409375000000004
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 86,
+          "x": 28.780950927734374,
+          "y": 7.509375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 5.879999999999999,
+          "codepoint": 102,
+          "x": 33.91334075927734,
+          "y": 6.39703125
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 86,
+          "x": 29.780950927734374,
+          "y": -4.060937500000001
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 120,
+          "x": 37.418761291503905,
+          "y": 0.6484374999999982
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 102,
+          "x": 42.74674896240234,
+          "y": -0.9406250000000025
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 106,
+          "x": 45.08194793701172,
+          "y": -0.9406250000000025
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 46,
+          "x": 47.94683441162109,
+          "y": 0.6484374999999982
+        }
+      ],
+      "rules": [
+        [
+          28.780950927734374,
+          2.1796875,
+          7.137810363769532,
+          0.75
+        ]
+      ],
+      "placements": [
+        {
+          "page": 2,
+          "x": 285.5,
+          "y": 332.3,
+          "width": 53.0,
+          "height": 26.0
+        }
+      ]
+    },
+    {
+      "id": "Math015",
+      "raw_latex": "S=\\sum_{i\\in M}s_i",
+      "source_latex_sha256": "1f9aedfb631d18f02bf8c32ce44adccec26322971a1db6c78d471e178e68f0cf",
+      "display": false,
+      "tag": null,
+      "width": 40.0,
+      "height": 20.0,
+      "depth": 11.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 83,
+          "x": 0.0,
+          "y": 0.609375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 61,
+          "x": 7.088400268554688,
+          "y": 0.609375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8721,
+          "x": 20.21180419921875,
+          "y": 0.609375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 16.21180419921875,
+          "y": -9.328125
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 7.699999999999999,
+          "codepoint": 8712,
+          "x": 19.464283447265625,
+          "y": -9.328125
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 77,
+          "x": 25.85066619873047,
+          "y": -9.328125
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 115,
+          "x": 32.264762268066406,
+          "y": 0.609375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 36.543753967285156,
+          "y": -0.84375
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 3,
+          "x": 89.9500390625,
+          "y": 690.6,
+          "width": 40.0,
+          "height": 20.0
+        }
+      ]
+    },
+    {
+      "id": "Math016",
+      "raw_latex": "h=1-S",
+      "source_latex_sha256": "348511d815393246d86f6c5755c4b7eb8b8177e366f36d7697d3bd97b8574766",
+      "display": false,
+      "tag": null,
+      "width": 38.0,
+      "height": 9.0,
+      "depth": 1.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 104,
+          "x": 0.0,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 61,
+          "x": 7.088400268554688,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 49,
+          "x": 16.21180419921875,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8722,
+          "x": 23.300204467773437,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 83,
+          "x": 32.4236083984375,
+          "y": 0.484375
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 3,
+          "x": 389.71761718749997,
+          "y": 700.6,
+          "width": 38.0,
+          "height": 9.0
+        }
+      ]
+    },
+    {
+      "id": "Math017",
+      "raw_latex": "\\tau V",
+      "source_latex_sha256": "f064ccda5f8347c17df727926716690a806d3b4d55d9d324f30960e8cfe244db",
+      "display": false,
+      "tag": null,
+      "width": 12.0,
+      "height": 9.0,
+      "depth": 1.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 964,
+          "x": 0.0,
+          "y": 0.8125
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 86,
+          "x": 4.5099945068359375,
+          "y": 0.8125
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 3,
+          "x": 329.88216796874997,
+          "y": 677.6,
+          "width": 12.0,
+          "height": 9.0
+        }
+      ]
+    },
+    {
+      "id": "Math018",
+      "raw_latex": "\nS\\ \\leq\\ r_M\\ \\leq\\ \\min(1,kS). \\tag{1}\n",
+      "source_latex_sha256": "4f4a7c3a6f5ba29489f5b9e2d5ff37164344ac4879b1bcd66c4e994064171f54",
+      "display": true,
+      "tag": "1",
+      "width": 107.0,
+      "height": 12.0,
+      "depth": 3.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 83,
+          "x": 0.0,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 8804,
+          "x": 10.620748504486084,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 114,
+          "x": 23.461498229675293,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 77,
+          "x": 28.129482238464355,
+          "y": -0.7921875000000007
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 8804,
+          "x": 40.2771243586731,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 109,
+          "x": 53.11787408386231,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 105,
+          "x": 62.4538573602295,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 110,
+          "x": 65.78985589538576,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 40,
+          "x": 71.7898406365967,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 49,
+          "x": 75.78582757507326,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 44,
+          "x": 81.7858123162842,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 107,
+          "x": 86.51859429870606,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 83,
+          "x": 91.8465819696045,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 41,
+          "x": 97.84656671081544,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 46,
+          "x": 101.842553649292,
+          "y": 0.796875
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 3,
+          "x": 258.5,
+          "y": 617.6999999999999,
+          "width": 107.0,
+          "height": 12.0
+        }
+      ]
+    },
+    {
+      "id": "Math019",
+      "raw_latex": "k\\geq1",
+      "source_latex_sha256": "1f8e5cdaf55d178a76935b37860d6fef6e6386ff7a07bf5204b1383cd76fc6ce",
+      "display": false,
+      "tag": null,
+      "width": 22.0,
+      "height": 10.0,
+      "depth": 2.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 107,
+          "x": 0.0,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8805,
+          "x": 6.472402954101563,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 49,
+          "x": 15.595806884765626,
+          "y": 0.484375
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 3,
+          "x": 494.97884765624997,
+          "y": 502.4999999999999,
+          "width": 22.0,
+          "height": 10.0
+        }
+      ]
+    },
+    {
+      "id": "Math020",
+      "raw_latex": "\ns_i\\leq r_i\\leq ks_i\\quad(i\\in M),\n\\qquad \\sum_{i\\in M}r_i\\leq1. \\tag{2}\n",
+      "source_latex_sha256": "f852f74d533bbc22153e48ac18a4f8bbff041fd2b61d0cf292301c5894722a3a",
+      "display": true,
+      "tag": "2",
+      "width": 163.0,
+      "height": 22.0,
+      "depth": 12.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 115,
+          "x": 0.0,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 105,
+          "x": 4.6679840087890625,
+          "y": -0.7453125000000025
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 8804,
+          "x": 9.265667724609374,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 114,
+          "x": 19.218450927734374,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 105,
+          "x": 23.886434936523436,
+          "y": -0.7453125000000025
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 8804,
+          "x": 28.48411865234375,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 107,
+          "x": 38.43690185546875,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 115,
+          "x": 43.764889526367185,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 105,
+          "x": 48.43287353515625,
+          "y": -0.7453125000000025
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 40,
+          "x": 59.96174621582031,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 105,
+          "x": 63.957733154296875,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 8712,
+          "x": 69.02652893066406,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 77,
+          "x": 78.97931213378907,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 41,
+          "x": 88.97529907226563,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 44,
+          "x": 92.97128601074219,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 8721,
+          "x": 119.03204040527343,
+          "y": 0.84375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 105,
+          "x": 115.03204040527343,
+          "y": -10.006250000000001
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 8712,
+          "x": 118.58019744873046,
+          "y": -10.006250000000001
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 77,
+          "x": 125.54714569091796,
+          "y": -10.006250000000001
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 114,
+          "x": 132.54433654785157,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 105,
+          "x": 137.21232055664063,
+          "y": -0.7453125000000025
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 8804,
+          "x": 141.81000427246093,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 49,
+          "x": 151.76278747558592,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 46,
+          "x": 157.76277221679686,
+          "y": 0.8437499999999982
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 3,
+          "x": 230.5,
+          "y": 413.0999999999999,
+          "width": 163.0,
+          "height": 22.0
+        }
+      ]
+    },
+    {
+      "id": "Math021",
+      "raw_latex": "\ns_i\\leq r_i\\leq\\min(ks_i,s_i+h). \\tag{3}\n",
+      "source_latex_sha256": "615efeec22bf995d761554d32356d76572ab8e12bd3e736fe0cef7b7e403d8dd",
+      "display": true,
+      "tag": "3",
+      "width": 113.0,
+      "height": 12.0,
+      "depth": 3.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 115,
+          "x": 0.0,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 105,
+          "x": 4.6679840087890625,
+          "y": -0.7921875000000007
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 8804,
+          "x": 9.265667724609374,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 114,
+          "x": 19.218450927734374,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 105,
+          "x": 23.886434936523436,
+          "y": -0.7921875000000007
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 8804,
+          "x": 28.48411865234375,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 109,
+          "x": 38.43690185546875,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 105,
+          "x": 47.772885131835935,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 110,
+          "x": 51.108883666992185,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 40,
+          "x": 57.10886840820312,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 107,
+          "x": 61.104855346679685,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 115,
+          "x": 66.43284301757812,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 105,
+          "x": 71.10082702636718,
+          "y": -0.7921875000000007
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 44,
+          "x": 73.96571350097656,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 115,
+          "x": 78.69849548339843,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 105,
+          "x": 83.3664794921875,
+          "y": -0.7921875000000007
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 43,
+          "x": 87.9641632080078,
+          "y": 0.796875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 104,
+          "x": 97.91694641113281,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 41,
+          "x": 103.91693115234375,
+          "y": 0.796875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 46,
+          "x": 107.91291809082031,
+          "y": 0.796875
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 3,
+          "x": 255.5,
+          "y": 363.3999999999999,
+          "width": 113.0,
+          "height": 12.0
+        }
+      ]
+    },
+    {
+      "id": "Math022",
+      "raw_latex": "t",
+      "source_latex_sha256": "e3b98a4da31a127d4bde6e43033f66ba274cab0eb7eb1c70ec41402bf6273dd8",
+      "display": false,
+      "tag": null,
+      "width": 4.0,
+      "height": 7.0,
+      "depth": 1.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 116,
+          "x": 0.0,
+          "y": 0.0
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 5,
+          "x": 398.14876953124997,
+          "y": 413.19999999999993,
+          "width": 4.0,
+          "height": 7.0
+        }
+      ]
+    },
+    {
+      "id": "Math023",
+      "raw_latex": "\\mu_R",
+      "source_latex_sha256": "b983ab242a8eaf550fd168168f63b536203290c67025e789d910254891fab659",
+      "display": false,
+      "tag": null,
+      "width": 11.0,
+      "height": 8.0,
+      "depth": 3.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 956,
+          "x": 0.0,
+          "y": 0.296875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 82,
+          "x": 5.7859954833984375,
+          "y": -1.15625
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 5,
+          "x": 263.73714843749997,
+          "y": 396.69999999999993,
+          "width": 11.0,
+          "height": 8.0
+        }
+      ]
+    },
+    {
+      "id": "Math024",
+      "raw_latex": "\\mu_V",
+      "source_latex_sha256": "bbf00ef7c81bdc83c51dc5959a7c5abd8ff7c9a0557f2bd59cc9a34beb870d13",
+      "display": false,
+      "tag": null,
+      "width": 11.0,
+      "height": 8.0,
+      "depth": 3.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 956,
+          "x": 0.0,
+          "y": 0.296875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 86,
+          "x": 5.7859954833984375,
+          "y": -1.15625
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 5,
+          "x": 452.50423828124997,
+          "y": 396.69999999999993,
+          "width": 11.0,
+          "height": 8.0
+        }
+      ]
+    },
+    {
+      "id": "Math025",
+      "raw_latex": "\n\\mu_V=\\mu_R+\\frac{\\operatorname{Cov}_R(t,x)}{E_R[t]}. \\tag{4}\n",
+      "source_latex_sha256": "4d674292b7f56cfb19672bb820dc844aa0ff1006ba9b8e102068856b20155a12",
+      "display": true,
+      "tag": "4",
+      "width": 88.0,
+      "height": 19.0,
+      "depth": 7.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 956,
+          "x": 0.0,
+          "y": 0.3046875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 86,
+          "x": 6.3119964599609375,
+          "y": -1.2843750000000007
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 61,
+          "x": 13.706871032714842,
+          "y": 0.3046875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 956,
+          "x": 23.65965423583984,
+          "y": 0.3046875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 82,
+          "x": 29.97165069580078,
+          "y": -1.2843750000000007
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 43,
+          "x": 37.36652526855469,
+          "y": 0.3046875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 67,
+          "x": 47.31930847167969,
+          "y": 6.323437500000001
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 111,
+          "x": 52.92209625244141,
+          "y": 6.323437500000001
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 118,
+          "x": 57.12208557128907,
+          "y": 6.323437500000001
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 5.879999999999999,
+          "codepoint": 82,
+          "x": 61.45184832763672,
+          "y": 5.211093750000001
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 40,
+          "x": 66.42612106639099,
+          "y": 6.323437500000001
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 116,
+          "x": 69.22331192332459,
+          "y": 6.323437500000001
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 44,
+          "x": 71.55851089793397,
+          "y": 6.323437500000001
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 120,
+          "x": 74.87145828562929,
+          "y": 6.323437500000001
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 41,
+          "x": 78.6010496552582,
+          "y": 6.323437500000001
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 69,
+          "x": 56.31930847167969,
+          "y": -4.470312499999999
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 5.879999999999999,
+          "codepoint": 82,
+          "x": 61.451698303222656,
+          "y": -5.582656249999999
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 91,
+          "x": 65.41515243530273,
+          "y": -4.470312499999999
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 116,
+          "x": 68.21234329223631,
+          "y": -4.470312499999999
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 93,
+          "x": 70.5475422668457,
+          "y": -4.470312499999999
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 46,
+          "x": 82.89824051219178,
+          "y": 0.3046875
+        }
+      ],
+      "rules": [
+        [
+          47.31930847167969,
+          1.8359375,
+          34.078932040512086,
+          0.75
+        ]
+      ],
+      "placements": [
+        {
+          "page": 5,
+          "x": 268.0,
+          "y": 361.99999999999994,
+          "width": 88.0,
+          "height": 19.0
+        }
+      ]
+    },
+    {
+      "id": "Math026",
+      "raw_latex": "1.12\\times10^{-16}",
+      "source_latex_sha256": "5291ad02908b996b5e1d6508616c164b385b7fb58bd4c90dfb80eb9966bebdda",
+      "display": false,
+      "tag": null,
+      "width": 55.0,
+      "height": 11.0,
+      "depth": 1.0,
+      "glyphs": [
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 49,
+          "x": 0.0,
+          "y": 0.8531250000000004
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 46,
+          "x": 5.5,
+          "y": 0.8531250000000004
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 49,
+          "x": 8.25,
+          "y": 0.8531250000000004
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 50,
+          "x": 13.75,
+          "y": 0.8531250000000004
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 215,
+          "x": 20.838400268554686,
+          "y": 0.8531250000000004
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 49,
+          "x": 29.466793823242188,
+          "y": 0.8531250000000004
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 48,
+          "x": 34.966793823242185,
+          "y": 0.8531250000000004
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 7.699999999999999,
+          "codepoint": 8722,
+          "x": 40.63632507324218,
+          "y": 4.728125
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 7.699999999999999,
+          "codepoint": 49,
+          "x": 45.91082763671875,
+          "y": 4.728125
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 7.699999999999999,
+          "codepoint": 54,
+          "x": 49.76082763671875,
+          "y": 4.728125
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 6,
+          "x": 450.54378906249997,
+          "y": 628.1,
+          "width": 55.0,
+          "height": 11.0
+        }
+      ]
+    },
+    {
+      "id": "Math027",
+      "raw_latex": "q\\leq1",
+      "source_latex_sha256": "e4c8f6a459bca6ba6a0326d3b04c4493af041305804dd36cf517844071f77e79",
+      "display": false,
+      "tag": null,
+      "width": 22.0,
+      "height": 11.0,
+      "depth": 3.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 113,
+          "x": 0.0,
+          "y": 0.5625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8804,
+          "x": 7.088400268554688,
+          "y": 0.5625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 49,
+          "x": 16.21180419921875,
+          "y": 0.5625
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 6,
+          "x": 442.76644531249997,
+          "y": 99.70000000000006,
+          "width": 22.0,
+          "height": 11.0
+        }
+      ]
+    },
+    {
+      "id": "Math028",
+      "raw_latex": "\\min(k,1/q)",
+      "source_latex_sha256": "1c8b0611d15ee34e1b59c679e0a61f89f13eac283377ba93b363de831b27a576",
+      "display": false,
+      "tag": null,
+      "width": 48.0,
+      "height": 11.0,
+      "depth": 3.0,
+      "glyphs": [
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 109,
+          "x": 0.0,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 105,
+          "x": 8.557998657226562,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 110,
+          "x": 11.615997314453125,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 40,
+          "x": 17.115997314453125,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 107,
+          "x": 20.77899169921875,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 44,
+          "x": 25.662994384765625,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 49,
+          "x": 30.00139465332031,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 47,
+          "x": 35.50139465332031,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 113,
+          "x": 38.559393310546874,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 41,
+          "x": 44.059393310546874,
+          "y": 0.484375
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 6,
+          "x": 62.16,
+          "y": 85.20000000000006,
+          "width": 48.0,
+          "height": 11.0
+        }
+      ]
+    },
+    {
+      "id": "Math029",
+      "raw_latex": "k",
+      "source_latex_sha256": "8254c329a92850f6d539dd376f4816ee2764517da5e0235514af433164480d7a",
+      "display": false,
+      "tag": null,
+      "width": 5.0,
+      "height": 9.0,
+      "depth": 1.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 107,
+          "x": 0.0,
+          "y": 0.484375
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 6,
+          "x": 207.59701171875,
+          "y": 87.20000000000006,
+          "width": 5.0,
+          "height": 9.0
+        }
+      ]
+    },
+    {
+      "id": "Math030",
+      "raw_latex": "q=0",
+      "source_latex_sha256": "e5fdc81ec9e003f6d05562253517a9bdac74f2c6e2a7912bb7766492c3967a94",
+      "display": false,
+      "tag": null,
+      "width": 22.0,
+      "height": 11.0,
+      "depth": 3.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 113,
+          "x": 0.0,
+          "y": 0.5625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 61,
+          "x": 7.088400268554688,
+          "y": 0.5625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 48,
+          "x": 16.21180419921875,
+          "y": 0.5625
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 6,
+          "x": 228.17318359375,
+          "y": 85.20000000000006,
+          "width": 22.0,
+          "height": 11.0
+        }
+      ]
+    },
+    {
+      "id": "Math031",
+      "raw_latex": "s_i\\leq E[g_i(x)]\\leq ks_i",
+      "source_latex_sha256": "66472ffaf179417b5eb9ac0352b6484d6e0fa67443f13e6efc271d847ae69895",
+      "display": false,
+      "tag": null,
+      "width": 75.0,
+      "height": 11.0,
+      "depth": 3.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 115,
+          "x": 0.0,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 4.27899169921875,
+          "y": -0.96875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8804,
+          "x": 8.49236602783203,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 69,
+          "x": 17.615769958496095,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 91,
+          "x": 24.336763000488283,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 103,
+          "x": 27.999757385253908,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 33.49975738525391,
+          "y": -0.96875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 40,
+          "x": 36.124731445312506,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 120,
+          "x": 39.78772583007813,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 41,
+          "x": 44.671728515625006,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 93,
+          "x": 48.33472290039063,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8804,
+          "x": 53.58611755371094,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 107,
+          "x": 62.709521484375,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 115,
+          "x": 67.59352416992188,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 71.87251586914063,
+          "y": -0.96875
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 6,
+          "x": 454.33382812499997,
+          "y": 85.20000000000006,
+          "width": 75.0,
+          "height": 11.0
+        }
+      ]
+    },
+    {
+      "id": "Math032",
+      "raw_latex": "\\min(1,kq)\\leq1",
+      "source_latex_sha256": "6eb434fc829b9db340bf6f72be0bfaf70feb7523cfb8af6edc22e06ad39f0ef3",
+      "display": false,
+      "tag": null,
+      "width": 61.0,
+      "height": 11.0,
+      "depth": 3.0,
+      "glyphs": [
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 109,
+          "x": 0.0,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 105,
+          "x": 8.557998657226562,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 110,
+          "x": 11.615997314453125,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 40,
+          "x": 17.115997314453125,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 49,
+          "x": 20.77899169921875,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 44,
+          "x": 26.27899169921875,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 107,
+          "x": 30.617391967773436,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 113,
+          "x": 35.50139465332031,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 41,
+          "x": 41.00139465332031,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8804,
+          "x": 46.25278930664062,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 49,
+          "x": 55.37619323730469,
+          "y": 0.484375
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 6,
+          "x": 192.30697265625,
+          "y": 70.70000000000006,
+          "width": 61.0,
+          "height": 11.0
+        }
+      ]
+    },
+    {
+      "id": "Math033",
+      "raw_latex": "r",
+      "source_latex_sha256": "454349e422f05297191ead13e21d3db520e5abef52055e4964b82fb213f593a1",
+      "display": false,
+      "tag": null,
+      "width": 5.0,
+      "height": 5.0,
+      "depth": 0.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 114,
+          "x": 0.0,
+          "y": 0.15625
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 303.46712890624997,
+          "y": 724.6,
+          "width": 5.0,
+          "height": 5.0
+        }
+      ]
+    },
+    {
+      "id": "Math034",
+      "raw_latex": "h>0",
+      "source_latex_sha256": "d6bcdf2bc2a46019f5fd8b0c8062c10fe92a67bb919d2552e3a25506fcefb72f",
+      "display": false,
+      "tag": null,
+      "width": 22.0,
+      "height": 9.0,
+      "depth": 1.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 104,
+          "x": 0.0,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 62,
+          "x": 7.088400268554688,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 48,
+          "x": 16.21180419921875,
+          "y": 0.484375
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 429.14486328124997,
+          "y": 723.6,
+          "width": 22.0,
+          "height": 9.0
+        }
+      ]
+    },
+    {
+      "id": "Math035",
+      "raw_latex": "r_i>0",
+      "source_latex_sha256": "56b960c581181e45594b69cb5d951a7a82438ddc712019b0d19940a95e21d0fa",
+      "display": false,
+      "tag": null,
+      "width": 24.0,
+      "height": 10.0,
+      "depth": 2.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 114,
+          "x": 0.0,
+          "y": 0.5625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 4.27899169921875,
+          "y": -0.890625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 62,
+          "x": 8.49236602783203,
+          "y": 0.5625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 48,
+          "x": 17.615769958496095,
+          "y": 0.5625
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 84.46615234375,
+          "y": 699.6,
+          "width": 24.0,
+          "height": 10.0
+        }
+      ]
+    },
+    {
+      "id": "Math036",
+      "raw_latex": "r_i",
+      "source_latex_sha256": "f23181257478707093d1e7abefc16e8f09b5f1c3148a22bdb4c00cfceb0ec6b3",
+      "display": false,
+      "tag": null,
+      "width": 7.0,
+      "height": 7.0,
+      "depth": 2.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 114,
+          "x": 0.0,
+          "y": 0.15625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 4.27899169921875,
+          "y": -1.296875
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 275.53939453124997,
+          "y": 699.6,
+          "width": 7.0,
+          "height": 7.0
+        }
+      ]
+    },
+    {
+      "id": "Math037",
+      "raw_latex": "s_i/r_i",
+      "source_latex_sha256": "1fa9657fdb91b3deb4a3a94b1c5e9ddd7f2501c817c93ec2142929ff64b2f5df",
+      "display": false,
+      "tag": null,
+      "width": 17.0,
+      "height": 10.0,
+      "depth": 2.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 115,
+          "x": 0.0,
+          "y": 0.5625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 4.27899169921875,
+          "y": -0.890625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 47,
+          "x": 6.903965759277344,
+          "y": 0.5625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 114,
+          "x": 9.961964416503907,
+          "y": 0.5625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 14.240956115722657,
+          "y": -0.890625
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 371.12484374999997,
+          "y": 699.6,
+          "width": 17.0,
+          "height": 10.0
+        }
+      ]
+    },
+    {
+      "id": "Math038",
+      "raw_latex": "i",
+      "source_latex_sha256": "de7d1b721a1e0632b7cf04edf5032c8ecffa9f9a08492152b926f1a5a7e765d7",
+      "display": false,
+      "tag": null,
+      "width": 4.0,
+      "height": 9.0,
+      "depth": 1.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 105,
+          "x": 0.0,
+          "y": 0.8125
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 440.97103515624997,
+          "y": 700.6,
+          "width": 4.0,
+          "height": 9.0
+        }
+      ]
+    },
+    {
+      "id": "Math039",
+      "raw_latex": "s_j/h",
+      "source_latex_sha256": "1d993a697547f8e2ab7514623f1ea7f49f42f3f235c93c185dad122df337e1a0",
+      "display": false,
+      "tag": null,
+      "width": 16.0,
+      "height": 12.0,
+      "depth": 4.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 115,
+          "x": 0.0,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 106,
+          "x": 4.27899169921875,
+          "y": -0.96875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 47,
+          "x": 6.903965759277344,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 104,
+          "x": 9.961964416503907,
+          "y": 0.484375
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 421.99642578124997,
+          "y": 674.6,
+          "width": 16.0,
+          "height": 12.0
+        }
+      ]
+    },
+    {
+      "id": "Math040",
+      "raw_latex": "1/k\\leq s_i/r_i\\leq1",
+      "source_latex_sha256": "278f7428991e785cf9a8c9c35ff46c5f580b19b604d60289cdd18c82713ea361",
+      "display": false,
+      "tag": null,
+      "width": 58.0,
+      "height": 10.0,
+      "depth": 2.0,
+      "glyphs": [
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 49,
+          "x": 0.0,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 47,
+          "x": 5.5,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 107,
+          "x": 8.557998657226562,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8804,
+          "x": 15.030401611328125,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 115,
+          "x": 24.153805541992188,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 28.432797241210938,
+          "y": -0.96875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 47,
+          "x": 31.057771301269533,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 114,
+          "x": 34.115769958496095,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 38.394761657714845,
+          "y": -0.96875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8804,
+          "x": 42.60813598632812,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 49,
+          "x": 51.73153991699219,
+          "y": 0.484375
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 482.89339843749997,
+          "y": 676.6,
+          "width": 58.0,
+          "height": 10.0
+        }
+      ]
+    },
+    {
+      "id": "Math041",
+      "raw_latex": "i",
+      "source_latex_sha256": "de7d1b721a1e0632b7cf04edf5032c8ecffa9f9a08492152b926f1a5a7e765d7",
+      "display": false,
+      "tag": null,
+      "width": 4.0,
+      "height": 9.0,
+      "depth": 1.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 105,
+          "x": 0.0,
+          "y": 0.8125
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 239.3308984375,
+          "y": 654.6,
+          "width": 4.0,
+          "height": 9.0
+        }
+      ]
+    },
+    {
+      "id": "Math042",
+      "raw_latex": "1-\\sum_i r_i",
+      "source_latex_sha256": "cfc352cc1445bfd13415564c1b9302618dc8a44772d02660c93923131925bbc6",
+      "display": false,
+      "tag": null,
+      "width": 32.0,
+      "height": 20.0,
+      "depth": 11.0,
+      "glyphs": [
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 49,
+          "x": 0.0,
+          "y": 0.609375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8722,
+          "x": 7.088400268554688,
+          "y": 0.609375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8721,
+          "x": 16.21180419921875,
+          "y": 0.609375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 20.21180419921875,
+          "y": -9.328125
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 114,
+          "x": 24.97742919921875,
+          "y": 0.609375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 29.2564208984375,
+          "y": -0.84375
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 395.75716796874997,
+          "y": 644.6,
+          "width": 32.0,
+          "height": 20.0
+        }
+      ]
+    },
+    {
+      "id": "Math043",
+      "raw_latex": "i",
+      "source_latex_sha256": "de7d1b721a1e0632b7cf04edf5032c8ecffa9f9a08492152b926f1a5a7e765d7",
+      "display": false,
+      "tag": null,
+      "width": 4.0,
+      "height": 9.0,
+      "depth": 1.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 105,
+          "x": 0.0,
+          "y": 0.8125
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 304.39095703124997,
+          "y": 601.4,
+          "width": 4.0,
+          "height": 9.0
+        }
+      ]
+    },
+    {
+      "id": "Math044",
+      "raw_latex": "r_i(s_i/r_i)=s_i",
+      "source_latex_sha256": "5b2692c5c105ef7ecbbff2cc98f5d97c7660de94e5f3becb257dbfabe3d807bf",
+      "display": false,
+      "tag": null,
+      "width": 49.0,
+      "height": 10.0,
+      "depth": 2.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 114,
+          "x": 0.0,
+          "y": 0.5625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 4.27899169921875,
+          "y": -0.890625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 40,
+          "x": 6.903965759277344,
+          "y": 0.5625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 115,
+          "x": 10.56696014404297,
+          "y": 0.5625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 14.84595184326172,
+          "y": -0.890625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 47,
+          "x": 17.470925903320314,
+          "y": 0.5625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 114,
+          "x": 20.528924560546876,
+          "y": 0.5625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 24.807916259765626,
+          "y": -0.890625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 41,
+          "x": 27.43289031982422,
+          "y": 0.5625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 61,
+          "x": 32.684284973144536,
+          "y": 0.5625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 115,
+          "x": 41.8076889038086,
+          "y": 0.5625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 46.08668060302735,
+          "y": -0.890625
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 379.25716796874997,
+          "y": 600.4,
+          "width": 49.0,
+          "height": 10.0
+        }
+      ]
+    },
+    {
+      "id": "Math045",
+      "raw_latex": "r_i",
+      "source_latex_sha256": "f23181257478707093d1e7abefc16e8f09b5f1c3148a22bdb4c00cfceb0ec6b3",
+      "display": false,
+      "tag": null,
+      "width": 7.0,
+      "height": 7.0,
+      "depth": 2.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 114,
+          "x": 0.0,
+          "y": 0.15625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 4.27899169921875,
+          "y": -1.296875
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 482.31185546874997,
+          "y": 600.4,
+          "width": 7.0,
+          "height": 7.0
+        }
+      ]
+    },
+    {
+      "id": "Math046",
+      "raw_latex": "\n\\sum_{i\\in M}(r_i-s_i)+1-\\sum_{i\\in M}r_i=1-S=h,\n",
+      "source_latex_sha256": "5276172438e99e7b9c5009371ad8cedf55043d02e093c3dbba69651808818c7b",
+      "display": true,
+      "tag": null,
+      "width": 165.0,
+      "height": 22.0,
+      "depth": 12.0,
+      "glyphs": [
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 8721,
+          "x": 4.0,
+          "y": 0.84375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 105,
+          "x": 0.0,
+          "y": -10.006250000000001
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 8712,
+          "x": 3.5481570434570306,
+          "y": -10.006250000000001
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 77,
+          "x": 10.51510528564453,
+          "y": -10.006250000000001
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 40,
+          "x": 17.512296142578123,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 114,
+          "x": 21.508283081054685,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 105,
+          "x": 26.176267089843748,
+          "y": -0.7453125000000025
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 8722,
+          "x": 30.77395080566406,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 115,
+          "x": 40.72673400878906,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 105,
+          "x": 45.39471801757812,
+          "y": -0.7453125000000025
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 41,
+          "x": 48.25960449218749,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 43,
+          "x": 53.98838867187499,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 49,
+          "x": 63.941171874999995,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 8722,
+          "x": 71.67395385742186,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 8721,
+          "x": 85.62673706054687,
+          "y": 0.84375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 105,
+          "x": 81.62673706054687,
+          "y": -10.006250000000001
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 8712,
+          "x": 85.1748941040039,
+          "y": -10.006250000000001
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 77,
+          "x": 92.1418423461914,
+          "y": -10.006250000000001
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 114,
+          "x": 99.139033203125,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 105,
+          "x": 103.80701721191406,
+          "y": -0.7453125000000025
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 61,
+          "x": 108.40470092773437,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 49,
+          "x": 118.35748413085938,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 8722,
+          "x": 126.09026611328125,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 83,
+          "x": 136.04304931640624,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 61,
+          "x": 143.7758312988281,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 104,
+          "x": 153.7286145019531,
+          "y": 0.8437499999999982
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 44,
+          "x": 159.72859924316404,
+          "y": 0.8437499999999982
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 229.5,
+          "y": 547.1999999999999,
+          "width": 165.0,
+          "height": 22.0
+        }
+      ]
+    },
+    {
+      "id": "Math047",
+      "raw_latex": "j",
+      "source_latex_sha256": "189f40034be7a199f1fa9891668ee3ab6049f82d38c68be70f596eab2e1857b7",
+      "display": false,
+      "tag": null,
+      "width": 4.0,
+      "height": 11.0,
+      "depth": 3.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 106,
+          "x": 0.0,
+          "y": 0.828125
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 129.98080078125,
+          "y": 525.1999999999999,
+          "width": 4.0,
+          "height": 11.0
+        }
+      ]
+    },
+    {
+      "id": "Math048",
+      "raw_latex": "s_j",
+      "source_latex_sha256": "86ceeed3000b96d62cdcd38b4a99bcb9793d0fc2aadb60221e671eba388d73c7",
+      "display": false,
+      "tag": null,
+      "width": 7.0,
+      "height": 9.0,
+      "depth": 4.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 115,
+          "x": 0.0,
+          "y": 0.140625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 106,
+          "x": 4.27899169921875,
+          "y": -1.3125
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 204.84701171875,
+          "y": 524.1999999999999,
+          "width": 7.0,
+          "height": 9.0
+        }
+      ]
+    },
+    {
+      "id": "Math049",
+      "raw_latex": "r_i=0",
+      "source_latex_sha256": "e0d9963c70a8366308eb6429da5d1c7180b8891b7c22d40e602dc3382ac1c036",
+      "display": false,
+      "tag": null,
+      "width": 24.0,
+      "height": 10.0,
+      "depth": 2.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 114,
+          "x": 0.0,
+          "y": 0.5625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 4.27899169921875,
+          "y": -0.890625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 61,
+          "x": 8.49236602783203,
+          "y": 0.5625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 48,
+          "x": 17.615769958496095,
+          "y": 0.5625
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 278.73324218749997,
+          "y": 526.1999999999999,
+          "width": 24.0,
+          "height": 10.0
+        }
+      ]
+    },
+    {
+      "id": "Math050",
+      "raw_latex": "s_i=0",
+      "source_latex_sha256": "54f56dec4204badcf33d5ca23ca1b409a9b96fbb789a4b13a503a10c8940e142",
+      "display": false,
+      "tag": null,
+      "width": 24.0,
+      "height": 10.0,
+      "depth": 2.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 115,
+          "x": 0.0,
+          "y": 0.5625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 4.27899169921875,
+          "y": -0.890625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 61,
+          "x": 8.49236602783203,
+          "y": 0.5625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 48,
+          "x": 17.615769958496095,
+          "y": 0.5625
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 329.92171874999997,
+          "y": 526.1999999999999,
+          "width": 24.0,
+          "height": 10.0
+        }
+      ]
+    },
+    {
+      "id": "Math051",
+      "raw_latex": "h=0",
+      "source_latex_sha256": "b97527925f36f2c2201943f3edf50b916c542295cd7f929bcdc7132b146847fb",
+      "display": false,
+      "tag": null,
+      "width": 22.0,
+      "height": 9.0,
+      "depth": 1.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 104,
+          "x": 0.0,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 61,
+          "x": 7.088400268554688,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 48,
+          "x": 16.21180419921875,
+          "y": 0.484375
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 475.50716796874997,
+          "y": 527.1999999999999,
+          "width": 22.0,
+          "height": 9.0
+        }
+      ]
+    },
+    {
+      "id": "Math052",
+      "raw_latex": "r_i=s_i",
+      "source_latex_sha256": "fb2cf3bcb6569a82b82de854b2fb6498ef2f5946842fc4581f92491ec0327b8c",
+      "display": false,
+      "tag": null,
+      "width": 25.0,
+      "height": 7.0,
+      "depth": 2.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 114,
+          "x": 0.0,
+          "y": 0.140625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 4.27899169921875,
+          "y": -1.3125
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 61,
+          "x": 8.49236602783203,
+          "y": 0.140625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 115,
+          "x": 17.615769958496095,
+          "y": 0.140625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 21.894761657714845,
+          "y": -1.3125
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 137.90853515625,
+          "y": 511.69999999999993,
+          "width": 25.0,
+          "height": 7.0
+        }
+      ]
+    },
+    {
+      "id": "Math053",
+      "raw_latex": "r_i\\leq ks_i",
+      "source_latex_sha256": "2e75348d5e58c41567b183c22e839f2c93200f84cc0edf5013c7d9c290773ab2",
+      "display": false,
+      "tag": null,
+      "width": 30.0,
+      "height": 10.0,
+      "depth": 2.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 114,
+          "x": 0.0,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 4.27899169921875,
+          "y": -0.96875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8804,
+          "x": 8.49236602783203,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 107,
+          "x": 17.615769958496095,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 115,
+          "x": 22.49977264404297,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 26.77876434326172,
+          "y": -0.96875
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 286.71468749999997,
+          "y": 460.99999999999994,
+          "width": 30.0,
+          "height": 10.0
+        }
+      ]
+    },
+    {
+      "id": "Math054",
+      "raw_latex": "r_i\\leq1-\\sum_{j\\in M,j\\ne i}s_j=s_i+h",
+      "source_latex_sha256": "93152577474c9712aa9b44bdf079bb62d5280a5caa85dc395fbf016a72208856",
+      "display": false,
+      "tag": null,
+      "width": 106.0,
+      "height": 21.0,
+      "depth": 12.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 114,
+          "x": 0.0,
+          "y": 0.609375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 4.27899169921875,
+          "y": -0.84375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8804,
+          "x": 8.49236602783203,
+          "y": 0.609375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 49,
+          "x": 17.615769958496095,
+          "y": 0.609375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8722,
+          "x": 24.70417022705078,
+          "y": 0.609375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8721,
+          "x": 44.82757415771485,
+          "y": 0.609375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 106,
+          "x": 33.82757415771485,
+          "y": -9.39375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 7.699999999999999,
+          "codepoint": 8712,
+          "x": 37.080053405761724,
+          "y": -9.39375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 77,
+          "x": 43.46643615722657,
+          "y": -9.39375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 7.699999999999999,
+          "codepoint": 44,
+          "x": 49.8805322265625,
+          "y": -9.39375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 106,
+          "x": 52.91741241455078,
+          "y": -9.39375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 7.699999999999999,
+          "codepoint": 8800,
+          "x": 56.16989166259766,
+          "y": -9.39375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 62.5562744140625,
+          "y": -9.39375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 115,
+          "x": 64.6968734741211,
+          "y": 0.609375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 106,
+          "x": 68.97586517333986,
+          "y": -0.84375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 61,
+          "x": 73.18923950195314,
+          "y": 0.609375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 115,
+          "x": 82.3126434326172,
+          "y": 0.609375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 86.59163513183594,
+          "y": -0.84375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 43,
+          "x": 90.80500946044923,
+          "y": 0.609375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 104,
+          "x": 99.92841339111328,
+          "y": 0.609375
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 341.77083984374997,
+          "y": 450.99999999999994,
+          "width": 106.0,
+          "height": 21.0
+        }
+      ]
+    },
+    {
+      "id": "Math055",
+      "raw_latex": "\\min(1,kq)\\geq q",
+      "source_latex_sha256": "5cece60dc6cb600585e999f2a19c8aa08042772210ae9d2b147ac8a2c6afb218",
+      "display": false,
+      "tag": null,
+      "width": 61.0,
+      "height": 11.0,
+      "depth": 3.0,
+      "glyphs": [
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 109,
+          "x": 0.0,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 105,
+          "x": 8.557998657226562,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 110,
+          "x": 11.615997314453125,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 40,
+          "x": 17.115997314453125,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 49,
+          "x": 20.77899169921875,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 44,
+          "x": 26.27899169921875,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 107,
+          "x": 30.617391967773436,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 113,
+          "x": 35.50139465332031,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 41,
+          "x": 41.00139465332031,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8805,
+          "x": 46.25278930664062,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 113,
+          "x": 55.37619323730469,
+          "y": 0.484375
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 467.54330078124997,
+          "y": 435.99999999999994,
+          "width": 61.0,
+          "height": 11.0
+        }
+      ]
+    },
+    {
+      "id": "Math056",
+      "raw_latex": "E[\\min(1,kq)]\\leq\\min(1,kE[q])",
+      "source_latex_sha256": "7087ea94978ba407ffc6c5ed2875c8eb5c9cf822d21fa9c03680139b1328a054",
+      "display": false,
+      "tag": null,
+      "width": 129.0,
+      "height": 11.0,
+      "depth": 3.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 69,
+          "x": 0.0,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 91,
+          "x": 6.7209930419921875,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 109,
+          "x": 10.383987426757812,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 105,
+          "x": 18.941986083984375,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 110,
+          "x": 21.999984741210938,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 40,
+          "x": 27.499984741210938,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 49,
+          "x": 31.162979125976562,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 44,
+          "x": 36.66297912597656,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 107,
+          "x": 41.00137939453125,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 113,
+          "x": 45.885382080078124,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 41,
+          "x": 51.385382080078124,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 93,
+          "x": 55.04837646484375,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8804,
+          "x": 60.29977111816406,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 109,
+          "x": 69.42317504882813,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 105,
+          "x": 77.98117370605469,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 110,
+          "x": 81.03917236328125,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 40,
+          "x": 86.53917236328125,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 49,
+          "x": 90.20216674804688,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 44,
+          "x": 95.70216674804688,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 107,
+          "x": 100.04056701660157,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 69,
+          "x": 104.92456970214845,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 91,
+          "x": 111.64556274414063,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 113,
+          "x": 115.30855712890626,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 93,
+          "x": 120.80855712890626,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 41,
+          "x": 124.47155151367188,
+          "y": 0.484375
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 338.01400390624997,
+          "y": 411.99999999999994,
+          "width": 129.0,
+          "height": 11.0
+        }
+      ]
+    },
+    {
+      "id": "Math057",
+      "raw_latex": "R_f>0",
+      "source_latex_sha256": "62be475c6c17b380b496082f4fe650c8c50c27c4a1a930eb7ead8e486f9f1c5e",
+      "display": false,
+      "tag": null,
+      "width": 26.0,
+      "height": 12.0,
+      "depth": 4.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 82,
+          "x": 0.0,
+          "y": 0.5625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 102,
+          "x": 6.7209930419921875,
+          "y": -0.890625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 62,
+          "x": 10.93436737060547,
+          "y": 0.5625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 48,
+          "x": 20.057771301269533,
+          "y": 0.5625
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 79.56771484375,
+          "y": 303.99999999999994,
+          "width": 26.0,
+          "height": 12.0
+        }
+      ]
+    },
+    {
+      "id": "Math058",
+      "raw_latex": "t_f=V_f/R_f",
+      "source_latex_sha256": "02c9a239f625284e7de05b797943a403b261ccf85b63056fb5562e00ad4fb506",
+      "display": false,
+      "tag": null,
+      "width": 39.0,
+      "height": 12.0,
+      "depth": 4.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 116,
+          "x": 0.0,
+          "y": 0.5625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 102,
+          "x": 3.0579986572265625,
+          "y": -0.890625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 61,
+          "x": 7.271372985839844,
+          "y": 0.5625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 86,
+          "x": 16.394776916503908,
+          "y": 0.5625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 102,
+          "x": 23.115769958496095,
+          "y": -0.890625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 47,
+          "x": 25.74074401855469,
+          "y": 0.5625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 82,
+          "x": 28.798742675781252,
+          "y": 0.5625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 102,
+          "x": 35.51973571777344,
+          "y": -0.890625
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 111.06771484375,
+          "y": 303.99999999999994,
+          "width": 39.0,
+          "height": 12.0
+        }
+      ]
+    },
+    {
+      "id": "Math059",
+      "raw_latex": "E_R",
+      "source_latex_sha256": "e4ec443725df52f01c49f817145b5095f8ee41f6e1a38c4c8939ad28ce3bd454",
+      "display": false,
+      "tag": null,
+      "width": 12.0,
+      "height": 10.0,
+      "depth": 2.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 69,
+          "x": 0.0,
+          "y": 0.8125
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 82,
+          "x": 6.7209930419921875,
+          "y": -0.640625
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 187.94466796875,
+          "y": 305.99999999999994,
+          "width": 12.0,
+          "height": 10.0
+        }
+      ]
+    },
+    {
+      "id": "Math060",
+      "raw_latex": "R_f/\\sum R_f",
+      "source_latex_sha256": "45b7d44cec3594dcab63342a4d2e31f426897736442fe0e0d520c343e5ebe81a",
+      "display": false,
+      "tag": null,
+      "width": 32.0,
+      "height": 13.0,
+      "depth": 4.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 82,
+          "x": 0.0,
+          "y": 0.609375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 102,
+          "x": 6.7209930419921875,
+          "y": -0.84375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 47,
+          "x": 9.345967102050782,
+          "y": 0.609375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8721,
+          "x": 12.403965759277344,
+          "y": 0.609375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 82,
+          "x": 22.457966613769532,
+          "y": 0.609375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 102,
+          "x": 29.17895965576172,
+          "y": -0.84375
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 275.10238281249997,
+          "y": 303.99999999999994,
+          "width": 32.0,
+          "height": 13.0
+        }
+      ]
+    },
+    {
+      "id": "Math061",
+      "raw_latex": "\nE_V[x]=\\frac{E_R[tx]}{E_R[t]}\n=E_R[x]+\\frac{\\operatorname{Cov}_R(t,x)}{E_R[t]},\n",
+      "source_latex_sha256": "cebb56c7735c4f064af0c66e087286d329d8f2efa81809601a6345777ff183ed",
+      "display": true,
+      "tag": null,
+      "width": 151.0,
+      "height": 19.0,
+      "depth": 7.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 69,
+          "x": 0.0,
+          "y": 0.3046875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 86,
+          "x": 7.3319854736328125,
+          "y": -1.2843750000000007
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 91,
+          "x": 12.99406280517578,
+          "y": 0.3046875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 120,
+          "x": 16.990049743652342,
+          "y": 0.3046875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 93,
+          "x": 22.31803741455078,
+          "y": 0.3046875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 61,
+          "x": 28.04682159423828,
+          "y": 0.3046875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 69,
+          "x": 37.999604797363276,
+          "y": 6.148437499999999
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 5.879999999999999,
+          "codepoint": 82,
+          "x": 43.13199462890624,
+          "y": 5.036093749999999
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 91,
+          "x": 47.09544876098632,
+          "y": 6.148437499999999
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 116,
+          "x": 49.89263961791992,
+          "y": 6.148437499999999
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 120,
+          "x": 52.227838592529295,
+          "y": 6.148437499999999
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 93,
+          "x": 55.9574299621582,
+          "y": 6.148437499999999
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 69,
+          "x": 39.999604797363276,
+          "y": -4.470312499999999
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 5.879999999999999,
+          "codepoint": 82,
+          "x": 45.13199462890624,
+          "y": -5.582656249999999
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 91,
+          "x": 49.09544876098632,
+          "y": -4.470312499999999
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 116,
+          "x": 51.89263961791992,
+          "y": -4.470312499999999
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 93,
+          "x": 54.227838592529295,
+          "y": -4.470312499999999
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 61,
+          "x": 61.98741806030272,
+          "y": 0.3046875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 69,
+          "x": 71.94020126342772,
+          "y": 0.3046875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 82,
+          "x": 79.27218673706054,
+          "y": -1.2843750000000007
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 91,
+          "x": 84.93426406860351,
+          "y": 0.3046875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 120,
+          "x": 88.93025100708007,
+          "y": 0.3046875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 93,
+          "x": 94.25823867797851,
+          "y": 0.3046875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 43,
+          "x": 99.987022857666,
+          "y": 0.3046875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 67,
+          "x": 109.93980606079101,
+          "y": 6.323437500000001
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 111,
+          "x": 115.54259384155273,
+          "y": 6.323437500000001
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 118,
+          "x": 119.74258316040039,
+          "y": 6.323437500000001
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 5.879999999999999,
+          "codepoint": 82,
+          "x": 124.07234591674805,
+          "y": 5.211093750000001
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 40,
+          "x": 129.04661865550233,
+          "y": 6.323437500000001
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 116,
+          "x": 131.84380951243594,
+          "y": 6.323437500000001
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 44,
+          "x": 134.1790084870453,
+          "y": 6.323437500000001
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 120,
+          "x": 137.49195587474063,
+          "y": 6.323437500000001
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 41,
+          "x": 141.22154724436953,
+          "y": 6.323437500000001
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 69,
+          "x": 118.93980606079101,
+          "y": -4.470312499999999
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 5.879999999999999,
+          "codepoint": 82,
+          "x": 124.07219589233398,
+          "y": -5.582656249999999
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 91,
+          "x": 128.03565002441405,
+          "y": -4.470312499999999
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 116,
+          "x": 130.83284088134764,
+          "y": -4.470312499999999
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 93,
+          "x": 133.168039855957,
+          "y": -4.470312499999999
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 44,
+          "x": 145.5187381013031,
+          "y": 0.3046875
+        }
+      ],
+      "rules": [
+        [
+          37.999604797363276,
+          1.8359375,
+          20.75501602172851,
+          0.75
+        ],
+        [
+          109.93980606079101,
+          1.8359375,
+          34.07893204051207,
+          0.75
+        ]
+      ],
+      "placements": [
+        {
+          "page": 7,
+          "x": 236.5,
+          "y": 268.79999999999995,
+          "width": 151.0,
+          "height": 19.0
+        }
+      ]
+    },
+    {
+      "id": "Math062",
+      "raw_latex": "0<\\ell\\leq t\\leq u",
+      "source_latex_sha256": "634b670e860672cbdfc51e3d2761d2e120981b23148f5de781c879112c9a2580",
+      "display": false,
+      "tag": null,
+      "width": 53.0,
+      "height": 10.0,
+      "depth": 2.0,
+      "glyphs": [
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 48,
+          "x": 0.0,
+          "y": 0.4375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 60,
+          "x": 7.088400268554688,
+          "y": 0.4375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 8467,
+          "x": 16.21180419921875,
+          "y": 0.4375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8804,
+          "x": 24.169207763671874,
+          "y": 0.4375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 116,
+          "x": 33.29261169433594,
+          "y": 0.4375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8804,
+          "x": 37.93901062011719,
+          "y": 0.4375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 117,
+          "x": 47.062414550781256,
+          "y": 0.4375
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 206.9754296875,
+          "y": 197.09999999999997,
+          "width": 53.0,
+          "height": 10.0
+        }
+      ]
+    },
+    {
+      "id": "Math063",
+      "raw_latex": "m",
+      "source_latex_sha256": "62c66a7a5dd70c3146618063c344e531e6d4b59e379808443ce962b3abd63c5a",
+      "display": false,
+      "tag": null,
+      "width": 8.0,
+      "height": 6.0,
+      "depth": 1.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 109,
+          "x": 0.0,
+          "y": 0.15625
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 446.59945312499997,
+          "y": 198.09999999999997,
+          "width": 8.0,
+          "height": 6.0
+        }
+      ]
+    },
+    {
+      "id": "Math064",
+      "raw_latex": "\n\\frac{\\ell m}{\\ell m+u(1-m)}\n\\leq \\mu_V \\leq\n\\frac{um}{um+\\ell(1-m)}.\n",
+      "source_latex_sha256": "95b3053287b9d74096fe3d4ed2776b450e816462c6dd6e37ba24e26a1a41b00d",
+      "display": true,
+      "tag": null,
+      "width": 138.0,
+      "height": 18.0,
+      "depth": 7.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 8467,
+          "x": 18.0,
+          "y": 5.2250000000000005
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 109,
+          "x": 22.863587951660158,
+          "y": 5.2250000000000005
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 8467,
+          "x": 0.0,
+          "y": -4.387499999999999
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 109,
+          "x": 4.863587951660156,
+          "y": -4.387499999999999
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 43,
+          "x": 12.141336364746094,
+          "y": -4.387499999999999
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 117,
+          "x": 19.108284606933594,
+          "y": -4.387499999999999
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 40,
+          "x": 23.30827392578125,
+          "y": -4.387499999999999
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 49,
+          "x": 26.105464782714844,
+          "y": -4.387499999999999
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 8722,
+          "x": 31.51841217041015,
+          "y": -4.387499999999999
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 109,
+          "x": 38.48536041259765,
+          "y": -4.387499999999999
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 41,
+          "x": 44.550150756835926,
+          "y": -4.387499999999999
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 8804,
+          "x": 50.58013885498047,
+          "y": 0.6062499999999993
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 12.0,
+          "codepoint": 956,
+          "x": 60.53292205810547,
+          "y": 0.6062499999999993
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 86,
+          "x": 66.84491851806641,
+          "y": -0.9828125000000014
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 8804,
+          "x": 74.23979309082031,
+          "y": 0.6062499999999993
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 117,
+          "x": 103.19257629394532,
+          "y": 5.225000000000001
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 109,
+          "x": 107.39256561279298,
+          "y": 5.225000000000001
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 117,
+          "x": 84.19257629394532,
+          "y": -4.387499999999999
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 109,
+          "x": 88.39256561279298,
+          "y": -4.387499999999999
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 43,
+          "x": 95.67031402587891,
+          "y": -4.387499999999999
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 8467,
+          "x": 102.63726226806641,
+          "y": -4.387499999999999
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 40,
+          "x": 107.50085021972656,
+          "y": -4.387499999999999
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 49,
+          "x": 110.29804107666016,
+          "y": -4.387499999999999
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 8722,
+          "x": 115.71098846435547,
+          "y": -4.387499999999999
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 8.399999999999999,
+          "codepoint": 109,
+          "x": 122.67793670654297,
+          "y": -4.387499999999999
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 8.399999999999999,
+          "codepoint": 41,
+          "x": 128.74272705078127,
+          "y": -4.387499999999999
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 12.0,
+          "codepoint": 46,
+          "x": 133.03991790771485,
+          "y": 0.6062499999999993
+        }
+      ],
+      "rules": [
+        [
+          0.0,
+          2.1374999999999993,
+          47.34734161376953,
+          0.75
+        ],
+        [
+          84.19257629394532,
+          2.137500000000001,
+          47.34734161376953,
+          0.75
+        ]
+      ],
+      "placements": [
+        {
+          "page": 7,
+          "x": 243.0,
+          "y": 147.89999999999998,
+          "width": 138.0,
+          "height": 18.0
+        }
+      ]
+    },
+    {
+      "id": "Math065",
+      "raw_latex": "E_R[tx]\\leq um",
+      "source_latex_sha256": "f418d22bee406e4e258f5e65e01ecdccd12444f0e8e3da606407c6572208ae7b",
+      "display": false,
+      "tag": null,
+      "width": 52.0,
+      "height": 10.0,
+      "depth": 2.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 69,
+          "x": 0.0,
+          "y": 0.71875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 82,
+          "x": 6.7209930419921875,
+          "y": -0.734375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 91,
+          "x": 11.910063171386717,
+          "y": 0.71875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 116,
+          "x": 15.573057556152342,
+          "y": 0.71875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 120,
+          "x": 18.631056213378905,
+          "y": 0.71875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 93,
+          "x": 23.51505889892578,
+          "y": 0.71875
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8804,
+          "x": 28.76645355224609,
+          "y": 0.71875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 117,
+          "x": 37.88985748291016,
+          "y": 0.71875
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 109,
+          "x": 43.38985748291016,
+          "y": 0.71875
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 157.1746484375,
+          "y": 126.89999999999998,
+          "width": 52.0,
+          "height": 10.0
+        }
+      ]
+    },
+    {
+      "id": "Math066",
+      "raw_latex": "E_R[t(1-x)]\\geq\\ell(1-m)",
+      "source_latex_sha256": "9f6599329564f42d31c104a3d711791d46c9175c958f9d847f8ca7d5149edc2a",
+      "display": false,
+      "tag": null,
+      "width": 100.0,
+      "height": 10.0,
+      "depth": 2.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 69,
+          "x": 0.0,
+          "y": 0.4375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 82,
+          "x": 6.7209930419921875,
+          "y": -1.015625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 91,
+          "x": 11.910063171386717,
+          "y": 0.4375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 116,
+          "x": 15.573057556152342,
+          "y": 0.4375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 40,
+          "x": 18.631056213378905,
+          "y": 0.4375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 49,
+          "x": 22.29405059814453,
+          "y": 0.4375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8722,
+          "x": 29.382450866699216,
+          "y": 0.4375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 120,
+          "x": 38.505854797363284,
+          "y": 0.4375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 41,
+          "x": 43.38985748291016,
+          "y": 0.4375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 93,
+          "x": 47.052851867675784,
+          "y": 0.4375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8805,
+          "x": 52.304246520996095,
+          "y": 0.4375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 8467,
+          "x": 61.427650451660156,
+          "y": 0.4375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 40,
+          "x": 67.7966537475586,
+          "y": 0.4375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 49,
+          "x": 71.45964813232422,
+          "y": 0.4375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 8722,
+          "x": 78.54804840087891,
+          "y": 0.4375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 109,
+          "x": 87.67145233154297,
+          "y": 0.4375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 41,
+          "x": 95.6134536743164,
+          "y": 0.4375
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 230.55697265625,
+          "y": 126.89999999999998,
+          "width": 100.0,
+          "height": 10.0
+        }
+      ]
+    },
+    {
+      "id": "Math067",
+      "raw_latex": "m=1/2",
+      "source_latex_sha256": "030bc6ac7b14cf178295153d2819a6cbfac892cc8333c42bf8543a8554c0151c",
+      "display": false,
+      "tag": null,
+      "width": 33.0,
+      "height": 9.0,
+      "depth": 1.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 109,
+          "x": 0.0,
+          "y": 0.5625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 61,
+          "x": 9.530401611328125,
+          "y": 0.5625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 49,
+          "x": 18.653805541992188,
+          "y": 0.5625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 47,
+          "x": 24.153805541992188,
+          "y": 0.5625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 50,
+          "x": 27.21180419921875,
+          "y": 0.5625
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 179.7547265625,
+          "y": 84.39999999999998,
+          "width": 33.0,
+          "height": 9.0
+        }
+      ]
+    },
+    {
+      "id": "Math068",
+      "raw_latex": "\\ell=1",
+      "source_latex_sha256": "3de0969d8a65c424380f96ce073c605282d16eeb74d118d1e7fb9b49b02bb17e",
+      "display": false,
+      "tag": null,
+      "width": 23.0,
+      "height": 9.0,
+      "depth": 1.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 8467,
+          "x": 0.0,
+          "y": 0.4375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 61,
+          "x": 7.957403564453125,
+          "y": 0.4375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 49,
+          "x": 17.080807495117188,
+          "y": 0.4375
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 218.2547265625,
+          "y": 84.39999999999998,
+          "width": 23.0,
+          "height": 9.0
+        }
+      ]
+    },
+    {
+      "id": "Math069",
+      "raw_latex": "u=3",
+      "source_latex_sha256": "7f2c5e6391cac27977a96aff960ac2eade448f7e63917bf5bc49f73511cfe0c3",
+      "display": false,
+      "tag": null,
+      "width": 22.0,
+      "height": 9.0,
+      "depth": 1.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 117,
+          "x": 0.0,
+          "y": 0.5625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 61,
+          "x": 7.088400268554688,
+          "y": 0.5625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 51,
+          "x": 16.21180419921875,
+          "y": 0.5625
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 7,
+          "x": 246.7547265625,
+          "y": 84.39999999999998,
+          "width": 22.0,
+          "height": 9.0
+        }
+      ]
+    },
+    {
+      "id": "Math070",
+      "raw_latex": "q",
+      "source_latex_sha256": "8e35c2cd3bf6641bdb0e2050b76932cbb2e6034a0ddacc1d9bea82a6ba57f7cf",
+      "display": false,
+      "tag": null,
+      "width": 6.0,
+      "height": 8.0,
+      "depth": 3.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 113,
+          "x": 0.0,
+          "y": 0.15625
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 8,
+          "x": 256.58285156249997,
+          "y": 721.6,
+          "width": 6.0,
+          "height": 8.0
+        }
+      ]
+    },
+    {
+      "id": "Math071",
+      "raw_latex": "\\min(1,kq)",
+      "source_latex_sha256": "add304d52e066e896d10720294c12cd8c54b4957f353cb155ed789dcd1d03cb8",
+      "display": false,
+      "tag": null,
+      "width": 45.0,
+      "height": 11.0,
+      "depth": 3.0,
+      "glyphs": [
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 109,
+          "x": 0.0,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 105,
+          "x": 8.557998657226562,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 110,
+          "x": 11.615997314453125,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 40,
+          "x": 17.115997314453125,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 49,
+          "x": 20.77899169921875,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 44,
+          "x": 26.27899169921875,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 107,
+          "x": 30.617391967773436,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 113,
+          "x": 35.50139465332031,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 41,
+          "x": 41.00139465332031,
+          "y": 0.484375
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 8,
+          "x": 280.61361328124997,
+          "y": 721.6,
+          "width": 45.0,
+          "height": 11.0
+        }
+      ]
+    },
+    {
+      "id": "Math072",
+      "raw_latex": "x_i",
+      "source_latex_sha256": "4f0f1e4a3167d257b86f9fc15335de88f7db74bebfb86a9758d289786cb3acd4",
+      "display": false,
+      "tag": null,
+      "width": 8.0,
+      "height": 7.0,
+      "depth": 2.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 120,
+          "x": 0.0,
+          "y": 0.15625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 4.884002685546875,
+          "y": -1.296875
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 8,
+          "x": 533.6414453125,
+          "y": 722.6,
+          "width": 8.0,
+          "height": 7.0
+        }
+      ]
+    },
+    {
+      "id": "Math073",
+      "raw_latex": "\\min(k,1/q)",
+      "source_latex_sha256": "1c8b0611d15ee34e1b59c679e0a61f89f13eac283377ba93b363de831b27a576",
+      "display": false,
+      "tag": null,
+      "width": 48.0,
+      "height": 11.0,
+      "depth": 3.0,
+      "glyphs": [
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 109,
+          "x": 0.0,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 105,
+          "x": 8.557998657226562,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 110,
+          "x": 11.615997314453125,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 40,
+          "x": 17.115997314453125,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 107,
+          "x": 20.77899169921875,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 44,
+          "x": 25.662994384765625,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 49,
+          "x": 30.00139465332031,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 47,
+          "x": 35.50139465332031,
+          "y": 0.484375
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 113,
+          "x": 38.559393310546874,
+          "y": 0.484375
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 41,
+          "x": 44.059393310546874,
+          "y": 0.484375
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 8,
+          "x": 121.435390625,
+          "y": 707.1,
+          "width": 48.0,
+          "height": 11.0
+        }
+      ]
+    },
+    {
+      "id": "Math074",
+      "raw_latex": "q=0",
+      "source_latex_sha256": "e5fdc81ec9e003f6d05562253517a9bdac74f2c6e2a7912bb7766492c3967a94",
+      "display": false,
+      "tag": null,
+      "width": 22.0,
+      "height": 11.0,
+      "depth": 3.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 113,
+          "x": 0.0,
+          "y": 0.5625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 61,
+          "x": 7.088400268554688,
+          "y": 0.5625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 48,
+          "x": 16.21180419921875,
+          "y": 0.5625
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 8,
+          "x": 302.63314453124997,
+          "y": 707.1,
+          "width": 22.0,
+          "height": 11.0
+        }
+      ]
+    },
+    {
+      "id": "Math075",
+      "raw_latex": "x_i=0",
+      "source_latex_sha256": "449167a0d297afe6f42ab5ead7ce993340a74b51a9c1c50744150617a501e0eb",
+      "display": false,
+      "tag": null,
+      "width": 24.0,
+      "height": 10.0,
+      "depth": 2.0,
+      "glyphs": [
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 11.0,
+          "codepoint": 120,
+          "x": 0.0,
+          "y": 0.5625
+        },
+        {
+          "font": "Math6cfcb333d22b7c3c",
+          "size": 7.699999999999999,
+          "codepoint": 105,
+          "x": 4.884002685546875,
+          "y": -0.890625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 61,
+          "x": 9.097377014160156,
+          "y": 0.5625
+        },
+        {
+          "font": "Math167378031e2dddc6",
+          "size": 11.0,
+          "codepoint": 48,
+          "x": 18.22078094482422,
+          "y": 0.5625
+        }
+      ],
+      "rules": [],
+      "placements": [
+        {
+          "page": 8,
+          "x": 371.36703124999997,
+          "y": 708.1,
+          "width": 24.0,
+          "height": 10.0
+        }
+      ]
+    }
+  ],
+  "inline_math_count": 66,
+  "display_math_count": 10,
+  "literal_dollar_count": 17,
+  "transformation": "No math command substitution. Strip math delimiters; TeX whitespace across display lines becomes a space. Four LaTeX tag commands in S015 are parsed and drawn as separate visible equation numbers. All source formula bytes are retained in this ledger."
+}

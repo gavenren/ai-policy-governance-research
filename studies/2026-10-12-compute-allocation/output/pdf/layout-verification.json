@@ -1,0 +1,28 @@
+{
+  "reviewed_utc": "2026-10-12T18:33:34.004159+00:00",
+  "reviewer": "Codex authoring agent; root independent visual review remains separate",
+  "pdf_sha256": "1ddccfaedd1269ebd21709c9471d7a0a6248b3266f2b70fa52a5ebef0fd28bb9",
+  "source_sha256": "46361e8733a4ed4a1ce7eb4a4d9ee331e89565dc221c62382067bed9db008b33",
+  "page_count": 6,
+  "all_pages_inspected_as_contact_sheets": true,
+  "all_math_expressions_inspected_as_final_page_crops": true,
+  "full_size_checks": [
+    "page 2, deep summation and display fraction"
+  ],
+  "render_dpi": 130,
+  "renderer": "Bundled Poppler pdftoppm",
+  "render_hashes": {
+    ".local-verification/math-reading-copies/S014/contact-1.png": "044e06c2d7ccb3b2bc877267a8b784ba94db8f7db0a60fa1ca626b5dea2cf38a",
+    ".local-verification/math-reading-copies/S014/contact-2.png": "ab87e071baa2b38f1ee32fbd15b80d986b4a91fdf3cecc08f40289369b790c43",
+    ".local-verification/math-reading-copies/S014/equations-1.png": "0cdbbb58e0d8168d1cd2b3719019da83514f30f32043d95a266d519e531f55eb",
+    ".local-verification/math-reading-copies/S014/equations-2.png": "5c888c5edcd2b42dc29314ef442539b70cf93f564dfd676178482d5fecdcb91a",
+    ".local-verification/math-reading-copies/S014/page-1.png": "077bd675a173ea5ecf20fe42dd1754acb7d217e7c98ea2e129f5fa9b5dd1be26",
+    ".local-verification/math-reading-copies/S014/page-2.png": "b33d6228506a2fe4a4eb275956abe9e596be422396288596e746f4dfa466783f",
+    ".local-verification/math-reading-copies/S014/page-3.png": "c6423a6cbd7d32b4da59fbf5ad7134f97fe4b757c9c70d1a85c8e742f298ddf5",
+    ".local-verification/math-reading-copies/S014/page-4.png": "3a41c9f1130a2647ec69e77ae7a83ba383353dcd618d910d3310d17910cb3d56",
+    ".local-verification/math-reading-copies/S014/page-5.png": "e1d53596132138ec6ef2b98b75166a7d0acd3b13448d7223e06d6de56f9ac1f3",
+    ".local-verification/math-reading-copies/S014/page-6.png": "a4dd50c703af6f34f56012b5d3f66c6d9aab3935aedfa39757591380b7fd1a10"
+  },
+  "visible_defects_remaining": [],
+  "font_and_copying_limits": "Embedded Times New Roman prose and STIX math subsets. Matplotlib mathtext layout is not a full TeX engine. Copying math from the PDF may not retain LaTeX structure; exact source equations and geometry are in math-layout.json."
+}
