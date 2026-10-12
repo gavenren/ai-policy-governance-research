@@ -1,0 +1,111 @@
+{
+  "completed_utc": "2026-10-12T18:17:38.043570+00:00",
+  "agent": "international_dividend",
+  "state": "Evidence package ready for manuscript and numerical review; not a completed-study claim",
+  "checks": {
+    "sources": 9,
+    "retained_raw_or_text_files": 16,
+    "archive_members": 40,
+    "short_quotes": 6,
+    "pivotal_fresh_source_matches": 4
+  },
+  "no_source_model_execution_by_evidence_agent": true,
+  "numerical_execution": "Separate agent; see numerical execution records",
+  "files": [
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/README.md",
+      "bytes": 1818,
+      "sha256": "8ad5457fd662b329df8b131ebe73f03caff527b566d5be9ea08c23fd35ac1b3b"
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/reviews/feasibility.md",
+      "bytes": 16240,
+      "sha256": "d2142b12d48c98f8b14fd41e9db48c029d592b69db6d77e195c860d09fe48648"
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/sources/README.md",
+      "bytes": 5905,
+      "sha256": "6f4b72636ecc4b998fb6c6c72ec05d6d507b9206ef31beec7f944e976c0b7e24"
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/sources/archive-members.json",
+      "bytes": 4737,
+      "sha256": "66e3b80c0544859c71ae3f66ed16f308cc382ddea0cc0b2ad2f12e2f62314701"
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/sources/bell-archive-members.json",
+      "bytes": 2625,
+      "sha256": "a5ad7ac190bf3673eee89cc5dade137052a738ba99cb3a0e609e72743c92da7d"
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/sources/manifest.csv",
+      "bytes": 8426,
+      "sha256": "39ae722b79e12ee074a1c8dd1af84949466167c4ed00e6992b82084a6e2a0dcb"
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/sources/manifest.json",
+      "bytes": 15621,
+      "sha256": "cc2e42c99303c57a81a950b87321de5af650b998bfb8225b1b0a5f09beee54c9"
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/evidence/shortquotes.csv",
+      "bytes": 728,
+      "sha256": "b3ec005d3873a7d9b6b2acb0ce92e9994c84d04de961d8e8d70e3b93808fd49f"
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/evidence/source-defaults.json",
+      "bytes": 1431,
+      "sha256": "5b3ff7f8a9ffb5c7ba55782dacf7ca9127874fa07750e396994dee167ebafa63"
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/code/source_check.py",
+      "bytes": 3072,
+      "sha256": "d1d35b77dcf16ba3db68d63e06b9c31508752cf568dd5804c3368f5b0c17cea2"
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/code/source_retrieve.py",
+      "bytes": 2132,
+      "sha256": "29fc066fba05d3402b27b062423c49f82d274192b1f154038d3797bae0a912fd"
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/logs/source-acquisitions.json",
+      "bytes": 14751,
+      "sha256": "31f3a11189951bbebe3d604ce5248e1b11ed191e3c8c5c7c5c8a67c69b318d69"
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/logs/source-bell-archive-check.json",
+      "bytes": 3936,
+      "sha256": "e1417792a401cd71e5cba5f1dbd6d8ceafd7c69177e23c53eee574cfa1fa0c84"
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/logs/source-check-local.json",
+      "bytes": 402,
+      "sha256": "e6a510f0e72fed17ad08a90ce0cfb87632b337f3de917d2518ebd1960aa81cf3"
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/logs/source-check-public.json",
+      "bytes": 398,
+      "sha256": "c1cf2e3383fe5039f28c763e2b84a5d5b89e326eb5205ad771b662ef5d335e28"
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/logs/source-fresh-recheck.json",
+      "bytes": 3165,
+      "sha256": "18e459e51de0f384396bc8589b822bb58d5e59a58fe90338f3dcc80feea03e67"
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/logs/source-metadata-captures.json",
+      "bytes": 1085,
+      "sha256": "44f27c68edd326056dabc7e7fd81b57bc476e3ed8a1dc9f10482acd2e528913c"
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/logs/source-migration.json",
+      "bytes": 767,
+      "sha256": "bbfe63a80a1265a054825ad1cb11d4377381826b7144b94c07b9c26a69e6f8bd"
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/logs/source-searches.json",
+      "bytes": 8625,
+      "sha256": "380dbbe4c82978060b836bccb3830d2726e9a3a3140fa7e0e09728934e4f7299"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "checked_utc": "2026-10-12T18:28:33.052176+00:00",
+  "runs": [
+    {
+      "run": "run-01",
+      "retained_source_members_checked_against_zip": {
+        "QAPI/data/min_price_fradkin.csv": "d521128cba3aaf1f55cdb0d9c8cf599335d00493f36fea4cad241016301c61ee",
+        "QAPI/fisher_index_analysis.ipynb": "9dd5cd292483948d9bdf77fc6e900b3f20b97f14d4ce07132fcc87e9d10ebc54",
+        "QAPI/fisher_price_index.py": "55f16b96e130c99cf314c39ae5549efe92146d4e602850164ff31549aca2ac2b",
+        "QAPI/price_index.py": "0e24990ea905301ec87ce300f48aa88d5eeaf0466b93f5ac6423264d361e3d3a",
+        "README.txt": "15394ed55f85c324c085f416e9a8b599df844b68891cc8acf3ecef5880c8148c",
+        "calculations.py": "875b37eff22e70f5e746876e72b864aa64f3e58b4c8cf5805875e82a8c706fdf",
+        "chip_sales_calculations.py": "2cf482efc48a37992a30c0879388bf6d187efdd5093068159f036203a7db4b47",
+        "chip_sales_loader.py": "f85322995de9f6623694ac79ca90adae90a7cfca69585a444dd4086f493ce796",
+        "config.py": "49188ccd76191f567f482d7fa24863e32b4425d197352832896c33da9995571e",
+        "data/epoch_downloads/chip_types.csv": "989d75211fddc541b8960d571bb8131b1f79c2f51b515e7fab9751c84ba618df",
+        "data/epoch_downloads/gpu_clusters_20260306.csv": "82143b9213db751d7e7869633adc7c0b71f5d9e71882abe230f4dd127f48abe3",
+        "data/epoch_downloads/ml_hardware_20260306.csv": "16b7ee63cab716d5a7ddf0901be91bea9941be228081015c224ab1cda02974db",
+        "data/epoch_downloads/timelines_by_chip.csv": "315644760db099bb98df72891aedc88717782187dcb337dbcb156f43e0adf55f",
+        "data/gpu_power_fraction.csv": "841afeb966e1a19525bf1caf0b8bb50dd7605e6423eabc25f7d09bb7a6699519",
+        "data/gpu_prices_validation_rackmerged_with_assumptions.csv": "31bc320ef9f1521515298c74962670bb4bb2ec2ccf131c967ae501de53cdfcb4",
+        "data_prep.py": "807e51a6fa6a7726cf3e8551cbe02c451a55fbcbc11e962ba84e0d7332dbbbe5",
+        "epoch_loader.py": "6ad9bb00cd9890ac1466c524b47c39ede6408bafeb0b089f693bb03581e0fea8",
+        "gpu_data.py": "5ada5c8cc264275cf3eac9888edbdebe56884a1dbcf779d764dd699ac0168a59",
+        "main.py": "4a86bc3004e1fb67e4fa60445245a1bbd36ea4c277cd9b16e5056757ec90fd32",
+        "main_fromsales.py": "cea92a04c3b5bba18c220ee0c5f747b645012a51f992d28dcd139c64a47b916c",
+        "requirements.txt": "95baa4cc365986edd6bc8ad323cfd698effa3641b8f11a16778bc425819cf6b1",
+        "results.py": "dd81eb628425844fcb6e6cb4ff5fc2a1497cae1603d5d9339e29507d73edcffa"
+      },
+      "aggregate_export_sha256": "ae2291a261c767c846d67b48e4bd00884e8899a6c80d60e5b5136a4a311da458"
+    },
+    {
+      "run": "run-02",
+      "retained_source_members_checked_against_zip": {
+        "QAPI/data/min_price_fradkin.csv": "d521128cba3aaf1f55cdb0d9c8cf599335d00493f36fea4cad241016301c61ee",
+        "QAPI/fisher_index_analysis.ipynb": "9dd5cd292483948d9bdf77fc6e900b3f20b97f14d4ce07132fcc87e9d10ebc54",
+        "QAPI/fisher_price_index.py": "55f16b96e130c99cf314c39ae5549efe92146d4e602850164ff31549aca2ac2b",
+        "QAPI/price_index.py": "0e24990ea905301ec87ce300f48aa88d5eeaf0466b93f5ac6423264d361e3d3a",
+        "README.txt": "15394ed55f85c324c085f416e9a8b599df844b68891cc8acf3ecef5880c8148c",
+        "calculations.py": "875b37eff22e70f5e746876e72b864aa64f3e58b4c8cf5805875e82a8c706fdf",
+        "chip_sales_calculations.py": "2cf482efc48a37992a30c0879388bf6d187efdd5093068159f036203a7db4b47",
+        "chip_sales_loader.py": "f85322995de9f6623694ac79ca90adae90a7cfca69585a444dd4086f493ce796",
+        "config.py": "49188ccd76191f567f482d7fa24863e32b4425d197352832896c33da9995571e",
+        "data/epoch_downloads/chip_types.csv": "989d75211fddc541b8960d571bb8131b1f79c2f51b515e7fab9751c84ba618df",
+        "data/epoch_downloads/gpu_clusters_20260306.csv": "82143b9213db751d7e7869633adc7c0b71f5d9e71882abe230f4dd127f48abe3",
+        "data/epoch_downloads/ml_hardware_20260306.csv": "16b7ee63cab716d5a7ddf0901be91bea9941be228081015c224ab1cda02974db",
+        "data/epoch_downloads/timelines_by_chip.csv": "315644760db099bb98df72891aedc88717782187dcb337dbcb156f43e0adf55f",
+        "data/gpu_power_fraction.csv": "841afeb966e1a19525bf1caf0b8bb50dd7605e6423eabc25f7d09bb7a6699519",
+        "data/gpu_prices_validation_rackmerged_with_assumptions.csv": "31bc320ef9f1521515298c74962670bb4bb2ec2ccf131c967ae501de53cdfcb4",
+        "data_prep.py": "807e51a6fa6a7726cf3e8551cbe02c451a55fbcbc11e962ba84e0d7332dbbbe5",
+        "epoch_loader.py": "6ad9bb00cd9890ac1466c524b47c39ede6408bafeb0b089f693bb03581e0fea8",
+        "gpu_data.py": "5ada5c8cc264275cf3eac9888edbdebe56884a1dbcf779d764dd699ac0168a59",
+        "main.py": "4a86bc3004e1fb67e4fa60445245a1bbd36ea4c277cd9b16e5056757ec90fd32",
+        "main_fromsales.py": "cea92a04c3b5bba18c220ee0c5f747b645012a51f992d28dcd139c64a47b916c",
+        "requirements.txt": "95baa4cc365986edd6bc8ad323cfd698effa3641b8f11a16778bc425819cf6b1",
+        "results.py": "dd81eb628425844fcb6e6cb4ff5fc2a1497cae1603d5d9339e29507d73edcffa"
+      },
+      "aggregate_export_sha256": "ae2291a261c767c846d67b48e4bd00884e8899a6c80d60e5b5136a4a311da458"
+    }
+  ],
+  "aggregate_exports_byte_identical": true
+}

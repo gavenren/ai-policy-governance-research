@@ -1,0 +1,82 @@
+--- frozen/studies/2026-10-12-ai-output-reconciliation/paper.md
++++ release/studies/2026-10-12-ai-output-reconciliation/paper.md
+@@ -1,7 +1,7 @@
+ # What Does AI Output Growth Measure?
+ ## Reconciling compute, spending and electricity in an AI economy account
+ 
+-**State: Working notes.** Study S016. October 12, 2026. Prepared with AI agents; no human or journal peer review. Numerical checks are complete; separate critical review is pending.
++**State: Complete-study draft.** Study S016. October 12, 2026. Prepared with AI agents; no human or journal peer review. Numerical checks and a [separate AI critical review](reviews/critical-review.md) are complete. See the [author response](reviews/author-response.md).
+ 
+ Evidence was first collected through **2026-10-12T18:08:07Z**. The closest audit archive was additionally retrieved by **2026-10-12T18:16:02.497761Z**; its inspection and the separate source rechecks are dated in the evidence ledger. The earlier cutoff does not imply that this later work occurred before the analysis plan.
+ 
+@@ -99,7 +99,7 @@
+ 
+ The independent reconstruction matches all four source-function cases, not only the baseline. All reported nominal value-added amounts and required Fisher factors are positive. Price-only changes leave the nominal ledger unchanged. Both training conventions satisfy the price-times-volume identity, and the annual-preserving rule leaves relative monthly profiles unchanged.
+ 
+-The 21 tests include adverse and favorable cases. Identical spending and operations growth makes the two training conventions coincide. A change of currency or operation units leaves the relevant growth comparison unchanged. A change in chip mix produces different growth measures even when each chip’s rental price is fixed. Geometrically consistent annual electricity totals are preserved by the original rule, and nonpositive Fisher factors are rejected as undefined. These controls show where the reconciliation matters and where it disappears. They do not establish the empirical validity of the underlying inputs.
++The 21 public tests include adverse and favorable cases. Identical spending and operations growth makes the two training conventions coincide. A change of currency or operation units leaves the relevant growth comparison unchanged. A change in chip mix produces different growth measures even when each chip’s rental price is fixed. The tests also reject nonpositive Fisher factors as undefined. A separate source-function control confirms that the original monthly rule preserves geometrically consistent annual electricity totals. Its execution is recorded in [the control log](logs/numerical-private-control.json). These controls show where the reconciliation matters and where it disappears. They do not establish the empirical validity of the underlying inputs.
+ 
+ 
+ ## 5. Implications for economic governance
+@@ -116,7 +116,7 @@
+ 
+ The electricity alternative enforces stated inputs; it does not establish that those inputs are correct. The operations alternative enforces one quantity convention; it does not establish that operations measure all economically relevant chip quality. The results therefore support clearer measurement practice, not a general verdict on the source's research program.
+ 
+-No human researcher has reviewed this manuscript. AI agents are performing the source work, numerical analysis and drafting. A separate critical review remains required before complete-study status. The source package has no redistribution licence that we could establish, so its full bytes remain outside the public repository. The study provides acquisition instructions, source hashes, narrow evidence, aggregate numerical ledgers and its own analysis code.
++No human researcher has reviewed this manuscript. AI agents performed the source work, numerical analysis, drafting and separate critical review. The reviewer did not author the central analysis and disclosed its earlier feasibility and wording role. It reproduced the public results and made 579 separate numerical comparisons. The author resolved the one reporting correction; the review and response remain public. Human funding and conflict information was not supplied, and no affiliation or endorsement is claimed. The source package has no redistribution licence that we could establish, so its full bytes remain outside the public repository. The study provides acquisition instructions, source hashes, narrow evidence, aggregate numerical ledgers and its own analysis code.
+ 
+ ## Appendix A. Component and aggregate accounting
+ 
+--- frozen/studies/2026-10-12-ai-output-reconciliation/README.md
++++ release/studies/2026-10-12-ai-output-reconciliation/README.md
+@@ -1,6 +1,6 @@
+ # S016 — Reconciling two measures of AI output
+ 
+-**State: Working notes.** The prospective [protocol](protocol.md) controls the analysis. See the [paper](paper.md) for the developing argument and [REPRODUCTION.md](REPRODUCTION.md) for the numerical workflow when available. This folder is not yet a completed or peer-reviewed study.
++**State: Complete-study draft.** Study S016. See the [paper](paper.md), [protocol](protocol.md), and [REPRODUCTION.md](REPRODUCTION.md). Numerical execution and a [separate AI critical review](reviews/critical-review.md) are complete. The [author response](reviews/author-response.md) and [completion record](logs/completion.md) state the release scope. No human or journal peer review has occurred.
+ 
+ The study compares two training-volume conventions in a public AI-output account. It also checks whether a monthly power routine preserves its stated annual totals. Fixed-price rental services and physical operations can use different weights without either measure being invalid. The analysis must state that distinction before it interprets numerical differences.
+ 
+@@ -9,3 +9,5 @@
+ The evidence agent did not run the source model or produce outcome estimates. Its tools retrieved sources and checked metadata, file hashes and short extracts. Numerical execution records are separate. The source ZIP has no identified redistribution licence, so its implementation and raw inputs remain in ignored local storage. Public data tables contain original analysis outputs and numerical facts, with source provenance.
+ 
+ No inference about actual AI rents, tax receipts, welfare, or the date of full work displacement follows from an output index alone. The study is relevant to the interpretation of monitoring measures used in that policy debate.
++
++The public reconstruction passes 21 tests. The reviewer separately checked 579 numerical comparisons and the three manuscript tables. All 96 source-export cells match. Of 54 literal printed targets, 52 match; two one-unit rounding discrepancies remain disclosed. Preserving the listed annual power lowers the 2025 real level by 24.9 percent. The operations convention alone raises that level by 63.5 percent. These changes are conditional measurement comparisons, not changes in observed public revenue.
+--- frozen/README.md
++++ release/README.md
+@@ -4,12 +4,13 @@
+ 
+ **Programme status:** on 2026-10-11 the user authorized further papers on economic governance after labor displacement, using the remaining core usage allowance. See the [continuation record](docs/RESEARCH_CONTINUATION_2026-10-11.md). Other research fields remain paused.
+ 
+-Start with the [reading guide](docs/READING_GUIDE.md) for a connected account of the economic questions and the limits of each paper. The guide has a [separate AI review](docs/reviews/reading-guide-review.md).
++Start with the [reading guide](docs/READING_GUIDE.md) for a connected account of the economic questions and the limits of each paper. The guide has a [separate AI review](docs/reviews/reading-guide-review.md) and a [review of its later additions](docs/reviews/reading-guide-update-review.md).
+ 
+ ## Studies
+ 
+ | Study | State and evidence | Materials |
+ | --- | --- | --- |
++| What Does AI Output Growth Measure? | Complete-study draft. Four-case audit of training quantity definitions and annual electricity totals; reproduced source outputs, 21 tests and separate AI review. | [Paper](studies/2026-10-12-ai-output-reconciliation/paper.md), [sources, results and review](studies/2026-10-12-ai-output-reconciliation/) |
+ | How Much Would an AI Equity Levy Collect? | Complete-study draft. Firm-level collection ranges compatible with a public group model; 384 configurations, constructive proofs and separate AI review. Conditional assumptions are explicit. | [Paper](studies/2026-10-12-equity-levy-aggregation/paper.md), [source model, results and review](studies/2026-10-12-equity-levy-aggregation/) |
+ | Allocating a Universal Compute Floor | Complete-study draft. Short comment on demand limits, budget changes and priority; valid source results retained, 486 exact cases and separate AI review. | [Paper](studies/2026-10-12-compute-allocation/paper.md), [sources, code and review](studies/2026-10-12-compute-allocation/) |
+ | Buying Backup AI for Essential Public Services | Complete-study draft. Four deployments, six pairs and documented access limits; all 36 scenario rows independently checked. Operational readiness remains unknown. | [Paper](studies/2026-10-12-supplier-continuity/paper.md), [PDF](studies/2026-10-12-supplier-continuity/output/pdf/paper.pdf), [evidence and review](studies/2026-10-12-supplier-continuity/) |
+--- frozen/docs/STUDY_QUEUE.md
++++ release/docs/STUDY_QUEUE.md
+@@ -2,7 +2,7 @@
+ 
+ State: working programme record. Established 2026-10-09 UTC.
+ 
+-S001 reached complete-study draft after executed analysis and separate AI review on 2026-10-10 UTC; its completion record provides the release checks. The user then instructed the programme to stop after S001. The user authorized S004 on 2026-10-11, then authorized further papers in the same economic-governance field using the remaining core allowance. S005–S015 follow that instruction. S002 and S003 remain paused. Related analyses remain in one study.
++S001 reached complete-study draft after executed analysis and separate AI review on 2026-10-10 UTC; its completion record provides the release checks. The user then instructed the programme to stop after S001. The user authorized S004 on 2026-10-11, then authorized further papers in the same economic-governance field using the remaining core allowance. S005–S016 follow that instruction. S002 and S003 remain paused. Related analyses remain in one study.
+ 
+ | ID | Question / unit | Proposed contribution | Distinctness and gate | Status |
+ | --- | --- | --- | --- | --- |
+@@ -31,6 +31,8 @@
+ 
+ | S015 | What firm-level equity-levy collections are compatible with group sales means? Unit: fixed universe, membership and cap. | Sharp conditional receipt set, explicit populations and source-specific quantitative ranges. | Established moment-bound methods; source already discloses group aggregation. Distinct from acquisition finance and agreement enforcement. | [Complete-study draft](../studies/2026-10-12-equity-levy-aggregation/): 384 configurations, 15 tests and separate full reproduction plus independent arithmetic. |
+ 
++| S016 | What do training quantity definitions and annual electricity accounting change in a public AI-output account? Unit: frozen implementation and four cases. | Reconciliation of two valid volume conventions and a specific annual-power mismatch. | Prior sensitivity audits and national-accounting identities are credited. Distinct measurement question; no claim that operations are uniquely correct or that an output index measures fiscal capacity. | [Complete-study draft](../studies/2026-10-12-ai-output-reconciliation/): 96 source-cell matches, 21 tests, 579 separate checks and separate AI review. |
++
+ ## Duplicate check
+ 
+ The separate public `gavenren/ai-safety-research` README was read on 2026-10-09 UTC. It listed an October 8 incident-count/severity study and an October 9 synthetic zero-failure/dependence study. S001 is not a new incident prevalence analysis or a dependence model. No files in that repository were changed.

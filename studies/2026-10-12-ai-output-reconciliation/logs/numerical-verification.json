@@ -1,0 +1,111 @@
+{
+  "commands": [
+    {
+      "completed_utc": "2026-10-12T18:20:32.033301+00:00",
+      "returncode": 0,
+      "script": "analyze.py",
+      "started_utc": "2026-10-12T18:20:31.990263+00:00",
+      "stderr": "",
+      "stdout": "{\n  \"case_rows\": 12,\n  \"source_cell_checks\": 96,\n  \"source_cell_checks_passed\": 96,\n  \"maximum_relative_source_difference\": 0.0,\n  \"interpretation\": \"Conditional accounting cases. The bridge is an alternative operations convention, not a unique correction. Whole-US GDP is outside this reconstruction.\"\n}\n"
+    },
+    {
+      "completed_utc": "2026-10-12T18:20:32.075621+00:00",
+      "returncode": 0,
+      "script": "check_printed.py",
+      "started_utc": "2026-10-12T18:20:32.033370+00:00",
+      "stderr": "",
+      "stdout": "{\n  \"checked_unique_cells\": 54,\n  \"passed\": 52,\n  \"failed\": 2,\n  \"failure_details\": [\n    {\n      \"metric\": \"fisher_chain_index\",\n      \"year\": \"2024\",\n      \"source_locators\": \"B1 Table 4 (PDF p15); B2 Table 14 (PDF p29); P2 Table 14 (PDF p29)\",\n      \"printed_value\": \"2700\",\n      \"direct_display\": \"2699\",\n      \"full_precision_value\": 2699.4875656890504,\n      \"difference_from_printed\": -0.5124343109496294\n    },\n    {\n      \"metric\": \"real_growth_pct\",\n      \"year\": \"2024\",\n      \"source_locators\": \"B1 Table 4 (PDF p15); B2 Table 14 (PDF p29); P2 Table 14 (PDF p29)\",\n      \"printed_value\": \"2600\",\n      \"direct_display\": \"2599\",\n      \"full_precision_value\": 2599.4875656890504,\n      \"difference_from_printed\": -0.5124343109496294\n    }\n  ],\n  \"rule\": \"Direct formatting from full precision, with no intermediate rounding. Multiple matching source versions share a row and locator list.\",\n  \"rounding_conjecture\": \"The two 2024 failures are consistent with first rounding the source result to one decimal and then to an integer. The paper tables do not state that rule, so it is not used to turn failures into passes.\"\n}\n"
+    },
+    {
+      "completed_utc": "2026-10-12T18:20:32.118102+00:00",
+      "returncode": 0,
+      "script": "analyze.py",
+      "started_utc": "2026-10-12T18:20:32.077515+00:00",
+      "stderr": "",
+      "stdout": "{\n  \"case_rows\": 12,\n  \"source_cell_checks\": 96,\n  \"source_cell_checks_passed\": 96,\n  \"maximum_relative_source_difference\": 0.0,\n  \"interpretation\": \"Conditional accounting cases. The bridge is an alternative operations convention, not a unique correction. Whole-US GDP is outside this reconstruction.\"\n}\n"
+    },
+    {
+      "completed_utc": "2026-10-12T18:20:32.155234+00:00",
+      "returncode": 0,
+      "script": "check_printed.py",
+      "started_utc": "2026-10-12T18:20:32.118145+00:00",
+      "stderr": "",
+      "stdout": "{\n  \"checked_unique_cells\": 54,\n  \"passed\": 52,\n  \"failed\": 2,\n  \"failure_details\": [\n    {\n      \"metric\": \"fisher_chain_index\",\n      \"year\": \"2024\",\n      \"source_locators\": \"B1 Table 4 (PDF p15); B2 Table 14 (PDF p29); P2 Table 14 (PDF p29)\",\n      \"printed_value\": \"2700\",\n      \"direct_display\": \"2699\",\n      \"full_precision_value\": 2699.4875656890504,\n      \"difference_from_printed\": -0.5124343109496294\n    },\n    {\n      \"metric\": \"real_growth_pct\",\n      \"year\": \"2024\",\n      \"source_locators\": \"B1 Table 4 (PDF p15); B2 Table 14 (PDF p29); P2 Table 14 (PDF p29)\",\n      \"printed_value\": \"2600\",\n      \"direct_display\": \"2599\",\n      \"full_precision_value\": 2599.4875656890504,\n      \"difference_from_printed\": -0.5124343109496294\n    }\n  ],\n  \"rule\": \"Direct formatting from full precision, with no intermediate rounding. Multiple matching source versions share a row and locator list.\",\n  \"rounding_conjecture\": \"The two 2024 failures are consistent with first rounding the source result to one decimal and then to an integer. The paper tables do not state that rule, so it is not used to turn failures into passes.\"\n}\n"
+    },
+    {
+      "completed_utc": "2026-10-12T18:20:32.225651+00:00",
+      "returncode": 0,
+      "script": "test_analysis.py",
+      "started_utc": "2026-10-12T18:20:32.156382+00:00",
+      "stderr": "test_all_generated_costs_separate_from_charged_costs (__main__.AccountingTests.test_all_generated_costs_separate_from_charged_costs) ... ok\ntest_all_source_gdp_cells (__main__.AccountingTests.test_all_source_gdp_cells) ... ok\ntest_annual_totals_match (__main__.AccountingTests.test_annual_totals_match) ... ok\ntest_currency_rescaling (__main__.AccountingTests.test_currency_rescaling) ... ok\ntest_first_two_years_preserved_with_roundoff (__main__.AccountingTests.test_first_two_years_preserved_with_roundoff) ... ok\ntest_fixed_gpu_prices_do_not_imply_fixed_average_spending_per_operation (__main__.AccountingTests.test_fixed_gpu_prices_do_not_imply_fixed_average_spending_per_operation) ... ok\ntest_four_cases_and_three_years_only (__main__.AccountingTests.test_four_cases_and_three_years_only) ... ok\ntest_independent_quality_adjusted_controls (__main__.AccountingTests.test_independent_quality_adjusted_controls) ... ok\ntest_level_growth_separation (__main__.AccountingTests.test_level_growth_separation) ... ok\ntest_monthly_profile_and_uniform_annual_scale (__main__.AccountingTests.test_monthly_profile_and_uniform_annual_scale) ... ok\ntest_null_spending_per_operation (__main__.AccountingTests.test_null_spending_per_operation) ... ok\ntest_operations_unit_rescaling (__main__.AccountingTests.test_operations_unit_rescaling) ... ok\ntest_positive_factors_and_fisher_geometric_mean (__main__.AccountingTests.test_positive_factors_and_fisher_geometric_mean) ... ok\ntest_power_change_does_not_change_bridge (__main__.AccountingTests.test_power_change_does_not_change_bridge) ... ok\ntest_price_only_nominal_null_and_direction (__main__.AccountingTests.test_price_only_nominal_null_and_direction) ... ok\ntest_price_times_volume_both_conventions (__main__.AccountingTests.test_price_times_volume_both_conventions) ... ok\ntest_reject_invalid_laspeyres_numerator (__main__.AccountingTests.test_reject_invalid_laspeyres_numerator) ... ok\ntest_reject_invalid_nominal (__main__.AccountingTests.test_reject_invalid_nominal) ... ok\ntest_reject_invalid_paasche_denominator (__main__.AccountingTests.test_reject_invalid_paasche_denominator) ... ok\ntest_reject_nonfinite_price (__main__.AccountingTests.test_reject_nonfinite_price) ... ok\ntest_signed_component_boundary (__main__.AccountingTests.test_signed_component_boundary) ... ok\n\n----------------------------------------------------------------------\nRan 21 tests in 0.004s\n\nOK\n",
+      "stdout": "{\n  \"case_rows\": 12,\n  \"source_cell_checks\": 96,\n  \"source_cell_checks_passed\": 96,\n  \"maximum_relative_source_difference\": 0.0,\n  \"interpretation\": \"Conditional accounting cases. The bridge is an alternative operations convention, not a unique correction. Whole-US GDP is outside this reconstruction.\"\n}\n"
+    }
+  ],
+  "completed_utc": "2026-10-12T18:20:32.229195+00:00",
+  "input_hashes": {
+    "data/raw/annual-inputs.csv": "cb2577ef91e1dde7555651fa7ce8313960ae4b4a81edc553ad00f2d97ec2bc9a",
+    "data/raw/monthly-power.csv": "8ce604eb44988918e172e39aba0b248787a4083ed7a1a6d6dd14081ebafe2159",
+    "data/raw/parameters.json": "b3d264ea5c2bca519241e184653b6a230699007fe50c512e1a1e0d58d6139ce0",
+    "data/raw/printed-targets.csv": "8efcdc96972d3f041ebd3ddce5c099f77b132a5f12d98776485950c31bbe8134",
+    "data/raw/source-case-outputs.json": "d537315e65631dc598306b4d1be094eedb5692c63e872104922ab75687c1c446",
+    "data/raw/source-control.json": "10500d516b3c17dfa7e2068006a6660b257b58e089db2f7f10e8813a41eb5879"
+  },
+  "output_bytes_unchanged_after_tests": true,
+  "output_hashes": {
+    "results/cases.csv": "6be1c4dfb3ee160a9fb7af26fd449eb5fe8b5dfcb8aa11ff5798505438bbd71f",
+    "results/component-prices.csv": "2d895d1f8a5818c1b733060a2a311f9f903f78b406aeac9c1c6991565208fddb",
+    "results/factorial-effects.csv": "c05a462f0421b923524d3a7a61b4af8ef8d0611d32083b73f978d05328c79415",
+    "results/power-ledger.csv": "c9ca2e584ce280dfe9826813494eda45bdb24752b0151662a93c09bac5d27e20",
+    "results/printed-cell-checks.csv": "8121a6b0be42c92221d785f7b3b711c64c9de5d09c6e0705db34bc9a289770fc",
+    "results/printed-check-summary.json": "5af30af6fe41202a74128d6e018aa8fd68dcd7f8e1ae846edc2afc02baafe972",
+    "results/source-comparison.csv": "ba745fc95df55056de3efc73ac8aed5f2efac4c3687cbd0f0ceb660117aa8c3b",
+    "results/summary.json": "c42f16ed25d4f38c73de445e06413e9d8d04505b9d4f0827fc840bc3336d3d92",
+    "results/training-reconciliation.csv": "5132ea33a8fef3b306dbfb273aaa30dfbfbdfda9d2458aa50943129fc8fb62cb"
+  },
+  "printed_presentation_comparison": {
+    "checked_unique_cells": 54,
+    "failed": 2,
+    "failure_details": [
+      {
+        "difference_from_printed": -0.5124343109496294,
+        "direct_display": "2699",
+        "full_precision_value": 2699.4875656890504,
+        "metric": "fisher_chain_index",
+        "printed_value": "2700",
+        "source_locators": "B1 Table 4 (PDF p15); B2 Table 14 (PDF p29); P2 Table 14 (PDF p29)",
+        "year": "2024"
+      },
+      {
+        "difference_from_printed": -0.5124343109496294,
+        "direct_display": "2599",
+        "full_precision_value": 2599.4875656890504,
+        "metric": "real_growth_pct",
+        "printed_value": "2600",
+        "source_locators": "B1 Table 4 (PDF p15); B2 Table 14 (PDF p29); P2 Table 14 (PDF p29)",
+        "year": "2024"
+      }
+    ],
+    "passed": 52,
+    "rounding_conjecture": "The two 2024 failures are consistent with first rounding the source result to one decimal and then to an integer. The paper tables do not state that rule, so it is not used to turn failures into passes.",
+    "rule": "Direct formatting from full precision, with no intermediate rounding. Multiple matching source versions share a row and locator list."
+  },
+  "private_repeat_available": true,
+  "private_repeat_bytes_identical": true,
+  "private_repeat_hashes": [
+    "ae2291a261c767c846d67b48e4bd00884e8899a6c80d60e5b5136a4a311da458",
+    "ae2291a261c767c846d67b48e4bd00884e8899a6c80d60e5b5136a4a311da458"
+  ],
+  "protocol_sha256": "f0d6c33785243a6220af8c9f4ee998b31a6a4eb7964006dc1d1f5c4ebdd6ce60",
+  "public_aggregate_verification_passed": true,
+  "public_output_bytes_identical": true,
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "script_hashes": {
+    "code/analyze.py": "bd87f0fb37f5aaaba8a84e5fb1ec2313c0d8e2a9c8a249c40c81afed3faa8b2b",
+    "code/check_printed.py": "f07ec8b29b26afccc25d18ec63c1718cbac34fd50c071a27b1847a7dd12ef2b5",
+    "code/check_private_controls.py": "c79175f2de46ff38245275ce2e5213e3ab25308c5d7baed33c53a6fe88959d7c",
+    "code/reproduce_private.py": "6a9068cfc52b997f96cc11e2ea93ee44f7bdcc3332022de85f982ab2e67cd1d7",
+    "code/test_analysis.py": "4cd1ebda8b3e9962a5d6e7c04e66ec8e8102185c8329c10381ad760b7bdd7262",
+    "code/verify.py": "6321bd802bacf751f504a363300654d0cb4e8fe55a0b0bbf205c5f14e9b367d4"
+  },
+  "started_utc": "2026-10-12T18:20:31.990031+00:00"
+}

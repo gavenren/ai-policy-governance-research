@@ -1,0 +1,32 @@
+[
+  {
+    "path": ".local-sources/next-design-screen/zenodo-20500501-attempt.json",
+    "bytes": 456,
+    "sha256": "517ff93c2a9ed70af154077d42419d194e5d2ae98df23c6e8b6445be86e27a5f"
+  },
+  {
+    "path": ".local-sources/next-design-screen/zenodo-20500501.json",
+    "bytes": 6067,
+    "sha256": "e363f76163ec7da06ac70e7862895264a39cf6ac335f9365ae6f2b10d719d549"
+  },
+  {
+    "path": ".local-sources/next-design-screen/zenodo-20501770.json",
+    "bytes": 6104,
+    "sha256": "5768111e6137e0f1af45eb15342ec017fbadc8dd69292224b2b5928fbca01d38"
+  },
+  {
+    "path": ".local-sources/next-design-screen/zenodo-attempt.json",
+    "bytes": 484,
+    "sha256": "00cb8164a703cfc37d1acf439f57ac9f8f7c82c88decee2d94e39a5305e1fe62"
+  },
+  {
+    "path": ".local-sources/next-design-screen/zenodo-latest-attempt.json",
+    "bytes": 495,
+    "sha256": "c2657948c5a9593dc4c231a77a1f4c3eab78a4c2116d52f3ad2b0bdd9b6086fa"
+  },
+  {
+    "path": ".local-sources/next-design-screen/zenodo-latest.json",
+    "bytes": 7323,
+    "sha256": "9960084450007c739a3e32d472aa502d4e6b3bcc1740cb986367ee6bb79a10a7"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "recorded_utc": "2026-10-12T18:17:46.532404+00:00",
+  "status": "failed_before_source_execution",
+  "attempted_run_id": "run-02",
+  "error": "AssertionError: Reviewed protocol snapshot has changed",
+  "expected_protocol_sha256": "1a33c0a6d692285da46cc23269729a30fbf283056f41d914285465788196f491",
+  "actual_protocol_sha256": "f0d6c33785243a6220af8c9f4ee998b31a6a4eb7964006dc1d1f5c4ebdd6ce60",
+  "reason": "Root added a dated terminology note that changes no input or case. No run directory or source/model execution occurred for this attempt. Current adapter is pinned to the new snapshot; original adapter and protocol snapshot retained privately."
+}

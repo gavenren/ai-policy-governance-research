@@ -2,7 +2,7 @@
 
 State: working programme record. Established 2026-10-09 UTC.
 
-S001 reached complete-study draft after executed analysis and separate AI review on 2026-10-10 UTC; its completion record provides the release checks. The user then instructed the programme to stop after S001. The user authorized S004 on 2026-10-11, then authorized further papers in the same economic-governance field using the remaining core allowance. S005–S015 follow that instruction. S002 and S003 remain paused. Related analyses remain in one study.
+S001 reached complete-study draft after executed analysis and separate AI review on 2026-10-10 UTC; its completion record provides the release checks. The user then instructed the programme to stop after S001. The user authorized S004 on 2026-10-11, then authorized further papers in the same economic-governance field using the remaining core allowance. S005–S016 follow that instruction. S002 and S003 remain paused. Related analyses remain in one study.
 
 | ID | Question / unit | Proposed contribution | Distinctness and gate | Status |
 | --- | --- | --- | --- | --- |
@@ -30,6 +30,8 @@ S001 reached complete-study draft after executed analysis and separate AI review
 | S014 | Does a proposed compute floor retain claims limits and allocation properties after budget changes? Unit: pinned formula/property/domain. | Version-specific correction, positive controls and an existing capped alternative. | Established weighted allocation theory; distinct compute entitlement and revision question. No new mechanism or general theorem. | [Complete-study draft](../studies/2026-10-12-compute-allocation/): 486 exact cases, 15 tests, separate reproduction and independent arithmetic. |
 
 | S015 | What firm-level equity-levy collections are compatible with group sales means? Unit: fixed universe, membership and cap. | Sharp conditional receipt set, explicit populations and source-specific quantitative ranges. | Established moment-bound methods; source already discloses group aggregation. Distinct from acquisition finance and agreement enforcement. | [Complete-study draft](../studies/2026-10-12-equity-levy-aggregation/): 384 configurations, 15 tests and separate full reproduction plus independent arithmetic. |
+
+| S016 | What do training quantity definitions and annual electricity accounting change in a public AI-output account? Unit: frozen implementation and four cases. | Reconciliation of two valid volume conventions and a specific annual-power mismatch. | Prior sensitivity audits and national-accounting identities are credited. Distinct measurement question; no claim that operations are uniquely correct or that an output index measures fiscal capacity. | [Complete-study draft](../studies/2026-10-12-ai-output-reconciliation/): 96 source-cell matches, 21 tests, 579 separate checks and separate AI review. |
 
 ## Duplicate check
 

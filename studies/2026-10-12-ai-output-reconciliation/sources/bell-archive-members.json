@@ -1,0 +1,57 @@
+[
+  {
+    "name": "PACKAGE_AI_GDP_SensitivityAudit_v02_DOI_METADATA_PATCH/DOI_METADATA_AI_GDP_SensitivityAudit_v02.json",
+    "bytes": 838,
+    "sha256": "01ce1467265392f8f874a98a135a8d6e1f7589436477158836e01c7fa3e3e9e2"
+  },
+  {
+    "name": "PACKAGE_AI_GDP_SensitivityAudit_v02_DOI_METADATA_PATCH/DOI_METADATA_PATCH_MANIFEST_AI_GDP_SensitivityAudit_v02.yaml",
+    "bytes": 714,
+    "sha256": "568a0992918528456a5a6e81850d9ef51df802a247c0ec310f8196ab0f9bd84a"
+  },
+  {
+    "name": "PACKAGE_AI_GDP_SensitivityAudit_v02_DOI_METADATA_PATCH/MANUSCRIPT_AI_GDP_SensitivityAudit_v02_DOI_METADATA_PATCH.docx",
+    "bytes": 17281,
+    "sha256": "18b3ca731513d24f93fcead72b0f642dde45490592d55962fd7bf8c30f677f4e"
+  },
+  {
+    "name": "PACKAGE_AI_GDP_SensitivityAudit_v02_DOI_METADATA_PATCH/MANUSCRIPT_AI_GDP_SensitivityAudit_v02_DOI_METADATA_PATCH.md",
+    "bytes": 18959,
+    "sha256": "380d1115e0ce65de66da7e357756560ab6c583220a8893706955ef810ab85b85"
+  },
+  {
+    "name": "PACKAGE_AI_GDP_SensitivityAudit_v02_DOI_METADATA_PATCH/MANUSCRIPT_AI_GDP_SensitivityAudit_v02_DOI_METADATA_PATCH.pdf",
+    "bytes": 97028,
+    "sha256": "8ef956e5524b8b40462b8a4b9c0d51a452bf1f9b3656495e1817ae4bff6ab977"
+  },
+  {
+    "name": "PACKAGE_AI_GDP_SensitivityAudit_v02_DOI_METADATA_PATCH/METADATA/DOI_METADATA_AI_GDP_SensitivityAudit_v02.yaml",
+    "bytes": 703,
+    "sha256": "1a62b484de759fcff0ace235dfd6ff2aa383cb3e6c465fbcd3df967d99bf61c5"
+  },
+  {
+    "name": "PACKAGE_AI_GDP_SensitivityAudit_v02_DOI_METADATA_PATCH/PACKAGE_MANIFEST_AI_GDP_SensitivityAudit_v02_DOI_METADATA_PATCH.yaml",
+    "bytes": 959,
+    "sha256": "55dd4e394c120de2a70e6beb1be63827631feb922e5c56d438e40160dd581fca"
+  },
+  {
+    "name": "PACKAGE_AI_GDP_SensitivityAudit_v02_DOI_METADATA_PATCH/README_AI_GDP_SensitivityAudit_v02_DOI_METADATA_PATCH.md",
+    "bytes": 1791,
+    "sha256": "2bec01e64ce042c324789c724356ef711ef0581781415cb7bd8adb1dcc9a5f6f"
+  },
+  {
+    "name": "PACKAGE_AI_GDP_SensitivityAudit_v02_DOI_METADATA_PATCH/SUPPORTING_DATA/REG_AI_GDP_SensitivityRunParameters_v01.csv",
+    "bytes": 1090,
+    "sha256": "12ab7fbfa4da5f109f55a8c9e65017b95256e11b740e4b162e1f8cbc838cb67f"
+  },
+  {
+    "name": "PACKAGE_AI_GDP_SensitivityAudit_v02_DOI_METADATA_PATCH/SUPPORTING_DATA/TAB_AI_GDP_SensitivityResults_v01.csv",
+    "bytes": 4367,
+    "sha256": "71715bf0e9c2b428586eb309a0af69315856786b88f1715ad84cbf655dfaf2bc"
+  },
+  {
+    "name": "PACKAGE_AI_GDP_SensitivityAudit_v02_DOI_METADATA_PATCH/SUPPORTING_DATA/TXT_AI_GDP_SensitivityAudit_Interpretation_v01.md",
+    "bytes": 2510,
+    "sha256": "c506282eecb4e187df95035a14e7d72444e639a327785118e5adfe027669efef"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "checked_utc": "2026-10-12T18:17:03.278136+00:00",
+  "pass": true,
+  "mode": "public metadata only",
+  "sources": 9,
+  "local_raw_or_text_files": 0,
+  "archive_members": 0,
+  "quotes": 6,
+  "quote_words": {
+    "O1": 15,
+    "P2": 13,
+    "Z1": 13,
+    "Z3": 10,
+    "C1": 7,
+    "B1": 12,
+    "appendix_all_versions": 13
+  },
+  "scope": "No source calculation code is imported or executed."
+}

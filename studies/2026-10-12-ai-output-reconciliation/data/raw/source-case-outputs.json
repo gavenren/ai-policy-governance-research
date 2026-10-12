@@ -1,0 +1,142 @@
+{
+  "annual_preserving__operations_bridge": [
+    {
+      "AI Services Labor": 1845930263.200319,
+      "AI Services Revenue": 27688953948.004784,
+      "DC Labor": 67140569.34929301,
+      "Fisher Index": 100.0,
+      "Nominal GDP": 41927705747.45836,
+      "Power Costs": 2307480000.0,
+      "Real GDP": 41927705747.45836,
+      "Training Compute": 18459302632.00319,
+      "Year": 2023
+    },
+    {
+      "AI Services Labor": 4522988066.887902,
+      "AI Services Revenue": 67844821003.31853,
+      "DC Labor": 164737269.19353116,
+      "Fisher Index": 3392.5180711940916,
+      "Nominal GDP": 102494526336.11612,
+      "Power Costs": 5892450000.0,
+      "Real GDP": 1422404994319.6086,
+      "Training Compute": 45229880668.87902,
+      "Year": 2024
+    },
+    {
+      "AI Services Labor": 8302923975.345136,
+      "AI Services Revenue": 124543859630.17703,
+      "DC Labor": 288527659.4875417,
+      "Fisher Index": 91470.97176783829,
+      "Nominal GDP": 187086047748.79572,
+      "Power Costs": 11895600000.0,
+      "Real GDP": 38351679887159.945,
+      "Training Compute": 83029239753.45135,
+      "Year": 2025
+    }
+  ],
+  "annual_preserving__released": [
+    {
+      "AI Services Labor": 1845930263.200319,
+      "AI Services Revenue": 27688953948.004784,
+      "DC Labor": 67140569.34929301,
+      "Fisher Index": 100.0,
+      "Nominal GDP": 41927705747.45836,
+      "Power Costs": 2307480000.0,
+      "Real GDP": 41927705747.45836,
+      "Training Compute": 18459302632.00319,
+      "Year": 2023
+    },
+    {
+      "AI Services Labor": 4522988066.887902,
+      "AI Services Revenue": 67844821003.31853,
+      "DC Labor": 164737269.19353116,
+      "Fisher Index": 2699.487565689048,
+      "Nominal GDP": 102494526336.11612,
+      "Power Costs": 5892450000.0,
+      "Real GDP": 1131833203231.3308,
+      "Training Compute": 45229880668.87902,
+      "Year": 2024
+    },
+    {
+      "AI Services Labor": 8302923975.345136,
+      "AI Services Revenue": 124543859630.17703,
+      "DC Labor": 288527659.4875417,
+      "Fisher Index": 55941.197654536045,
+      "Nominal GDP": 187086047748.79572,
+      "Power Costs": 11895600000.0,
+      "Real GDP": 23454860744197.95,
+      "Training Compute": 83029239753.45135,
+      "Year": 2025
+    }
+  ],
+  "released__operations_bridge": [
+    {
+      "AI Services Labor": 1845930263.2003186,
+      "AI Services Revenue": 27688953948.004776,
+      "DC Labor": 67140569.349293,
+      "Fisher Index": 100.0,
+      "Nominal GDP": 41927705747.45835,
+      "Power Costs": 2307480000.0,
+      "Real GDP": 41927705747.45835,
+      "Training Compute": 18459302632.003185,
+      "Year": 2023
+    },
+    {
+      "AI Services Labor": 4522988066.887905,
+      "AI Services Revenue": 67844821003.31857,
+      "DC Labor": 164737269.19353122,
+      "Fisher Index": 3392.518071194095,
+      "Nominal GDP": 102494526336.11618,
+      "Power Costs": 5892450000.0,
+      "Real GDP": 1422404994319.6096,
+      "Training Compute": 45229880668.87905,
+      "Year": 2024
+    },
+    {
+      "AI Services Labor": 10958387988.45678,
+      "AI Services Revenue": 164375819826.85168,
+      "DC Labor": 380805370.1870002,
+      "Fisher Index": 121725.11092022035,
+      "Nominal GDP": 250724906352.7757,
+      "Power Costs": 11895600000.0,
+      "Real GDP": 51036546327397.28,
+      "Training Compute": 109583879884.5678,
+      "Year": 2025
+    }
+  ],
+  "released__released": [
+    {
+      "AI Services Labor": 1845930263.2003186,
+      "AI Services Revenue": 27688953948.004776,
+      "DC Labor": 67140569.349293,
+      "Fisher Index": 100.0,
+      "Nominal GDP": 41927705747.45835,
+      "Power Costs": 2307480000.0,
+      "Real GDP": 41927705747.45835,
+      "Training Compute": 18459302632.003185,
+      "Year": 2023
+    },
+    {
+      "AI Services Labor": 4522988066.887905,
+      "AI Services Revenue": 67844821003.31857,
+      "DC Labor": 164737269.19353122,
+      "Fisher Index": 2699.4875656890504,
+      "Nominal GDP": 102494526336.11618,
+      "Power Costs": 5892450000.0,
+      "Real GDP": 1131833203231.3315,
+      "Training Compute": 45229880668.87905,
+      "Year": 2024
+    },
+    {
+      "AI Services Labor": 10958387988.45678,
+      "AI Services Revenue": 164375819826.85168,
+      "DC Labor": 380805370.1870002,
+      "Fisher Index": 74445.23177799903,
+      "Nominal GDP": 250724906352.7757,
+      "Power Costs": 11895600000.0,
+      "Real GDP": 31213177722892.79,
+      "Training Compute": 109583879884.5678,
+      "Year": 2025
+    }
+  ]
+}

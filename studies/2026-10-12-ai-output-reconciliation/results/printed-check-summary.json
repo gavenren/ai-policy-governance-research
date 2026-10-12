@@ -1,0 +1,27 @@
+{
+  "checked_unique_cells": 54,
+  "failed": 2,
+  "failure_details": [
+    {
+      "difference_from_printed": -0.5124343109496294,
+      "direct_display": "2699",
+      "full_precision_value": 2699.4875656890504,
+      "metric": "fisher_chain_index",
+      "printed_value": "2700",
+      "source_locators": "B1 Table 4 (PDF p15); B2 Table 14 (PDF p29); P2 Table 14 (PDF p29)",
+      "year": "2024"
+    },
+    {
+      "difference_from_printed": -0.5124343109496294,
+      "direct_display": "2599",
+      "full_precision_value": 2599.4875656890504,
+      "metric": "real_growth_pct",
+      "printed_value": "2600",
+      "source_locators": "B1 Table 4 (PDF p15); B2 Table 14 (PDF p29); P2 Table 14 (PDF p29)",
+      "year": "2024"
+    }
+  ],
+  "passed": 52,
+  "rounding_conjecture": "The two 2024 failures are consistent with first rounding the source result to one decimal and then to an integer. The paper tables do not state that rule, so it is not used to turn failures into passes.",
+  "rule": "Direct formatting from full precision, with no intermediate rounding. Multiple matching source versions share a row and locator list."
+}

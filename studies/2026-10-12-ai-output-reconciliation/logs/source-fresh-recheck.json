@@ -1,0 +1,66 @@
+{
+  "purpose": "Post-cutoff direct-source byte check; does not replace the original acquisition times or frozen sources",
+  "original_screen_cutoff_utc": "2026-10-12T18:08:07Z",
+  "records": [
+    {
+      "id": "P2",
+      "requested_url": "https://www.piie.com/sites/default/files/2026-05/wp26-9-appendix.pdf",
+      "start_utc": "2026-10-12T18:14:59.769877+00:00",
+      "end_utc": "2026-10-12T18:14:59.982154+00:00",
+      "method": "curl HTTPS GET; normal TLS",
+      "http_and_final_url": "200\nhttps://www.piie.com/sites/default/files/2026-05/wp26-9-appendix.pdf",
+      "exit_code": 0,
+      "stderr": "",
+      "path": ".local-sources/ai-output-reconciliation-evidence/recheck-20261012/P2.pdf",
+      "expected_sha256": "12386d959b601296bd147cb546f1f5ec893630da64349651aa9488325524ade5",
+      "bytes": 478503,
+      "sha256": "12386d959b601296bd147cb546f1f5ec893630da64349651aa9488325524ade5",
+      "matches_frozen_source": true
+    },
+    {
+      "id": "C1",
+      "requested_url": "https://www.piie.com/sites/default/files/2026-05/wp26-9.zip",
+      "start_utc": "2026-10-12T18:14:59.770217+00:00",
+      "end_utc": "2026-10-12T18:15:00.047731+00:00",
+      "method": "curl HTTPS GET; normal TLS",
+      "http_and_final_url": "200\nhttps://www.piie.com/sites/default/files/2026-05/wp26-9.zip",
+      "exit_code": 0,
+      "stderr": "",
+      "path": ".local-sources/ai-output-reconciliation-evidence/recheck-20261012/C1.zip",
+      "expected_sha256": "85bf1b23a99f606abf3ab87b39ed9d3bc69a6d53a27d50ee31ff20d1f974ff8c",
+      "bytes": 718528,
+      "sha256": "85bf1b23a99f606abf3ab87b39ed9d3bc69a6d53a27d50ee31ff20d1f974ff8c",
+      "matches_frozen_source": true
+    },
+    {
+      "id": "B1",
+      "requested_url": "https://www.bankofcanada.ca/wp-content/uploads/2026/06/swp2026-20.pdf",
+      "start_utc": "2026-10-12T18:14:59.770328+00:00",
+      "end_utc": "2026-10-12T18:15:00.195903+00:00",
+      "method": "curl HTTPS GET; normal TLS",
+      "http_and_final_url": "200\nhttps://www.bankofcanada.ca/wp-content/uploads/2026/06/swp2026-20.pdf",
+      "exit_code": 0,
+      "stderr": "",
+      "path": ".local-sources/ai-output-reconciliation-evidence/recheck-20261012/B1.pdf",
+      "expected_sha256": "c3d31bb0b0f44c7d17ebeca29ba0ff1b61ebc3f0ffd426c72c2942b666f296b6",
+      "bytes": 1403122,
+      "sha256": "c3d31bb0b0f44c7d17ebeca29ba0ff1b61ebc3f0ffd426c72c2942b666f296b6",
+      "matches_frozen_source": true
+    },
+    {
+      "id": "B2",
+      "requested_url": "https://pmckelveyboc.github.io/technical_appendix.pdf",
+      "start_utc": "2026-10-12T18:14:59.770423+00:00",
+      "end_utc": "2026-10-12T18:14:59.875493+00:00",
+      "method": "curl HTTPS GET; normal TLS",
+      "http_and_final_url": "200\nhttps://pmckelveyboc.github.io/technical_appendix.pdf",
+      "exit_code": 0,
+      "stderr": "",
+      "path": ".local-sources/ai-output-reconciliation-evidence/recheck-20261012/B2.pdf",
+      "expected_sha256": "034cdc719155df8470e19554a6d46503a1c8530909702c6aeb99d5f26579e488",
+      "bytes": 612263,
+      "sha256": "034cdc719155df8470e19554a6d46503a1c8530909702c6aeb99d5f26579e488",
+      "matches_frozen_source": true
+    }
+  ]
+}

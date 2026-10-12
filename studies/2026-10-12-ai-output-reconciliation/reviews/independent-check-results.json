@@ -1,0 +1,3953 @@
+{
+  "started_utc": "2026-10-12T18:27:54.434453+00:00",
+  "completed_utc": "2026-10-12T18:27:54.439786+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "method": "50-digit Decimal, explicit cumulative prices and quantities, signed cross-valuations; no author or original code imported",
+  "scope_limit": "Source-derived aggregate inputs are accepted for this check. Detailed GPU rows and the full source model are not executed.",
+  "relative_tolerance": "2E-12",
+  "pass": true,
+  "numeric_comparisons": 579,
+  "case_rows": 12,
+  "source_cells": 96,
+  "monthly_rows": 72,
+  "component_price_rows": 40,
+  "training_rows": 6,
+  "factorial_rows": 12,
+  "power_rows": 3,
+  "printed_cells": [
+    {
+      "metric": "compute_spending_B",
+      "year": 2023,
+      "independent_display": "36.92",
+      "printed_display": "36.92",
+      "pass": true
+    },
+    {
+      "metric": "compute_spending_B",
+      "year": 2024,
+      "independent_display": "90.46",
+      "printed_display": "90.46",
+      "pass": true
+    },
+    {
+      "metric": "compute_spending_B",
+      "year": 2025,
+      "independent_display": "219.17",
+      "printed_display": "219.17",
+      "pass": true
+    },
+    {
+      "metric": "spending_growth_pct",
+      "year": 2024,
+      "independent_display": "145.0",
+      "printed_display": "145.0",
+      "pass": true
+    },
+    {
+      "metric": "spending_growth_pct",
+      "year": 2025,
+      "independent_display": "142.3",
+      "printed_display": "142.3",
+      "pass": true
+    },
+    {
+      "metric": "h100_equivalent",
+      "year": 2023,
+      "independent_display": "1.09e+6",
+      "printed_display": "1.09e+6",
+      "pass": true
+    },
+    {
+      "metric": "h100_equivalent",
+      "year": 2024,
+      "independent_display": "3.41e+6",
+      "printed_display": "3.41e+6",
+      "pass": true
+    },
+    {
+      "metric": "h100_equivalent",
+      "year": 2025,
+      "independent_display": "1.07e+7",
+      "printed_display": "1.07e+7",
+      "pass": true
+    },
+    {
+      "metric": "compute_growth_pct",
+      "year": 2024,
+      "independent_display": "211.9",
+      "printed_display": "211.9",
+      "pass": true
+    },
+    {
+      "metric": "compute_growth_pct",
+      "year": 2025,
+      "independent_display": "213.9",
+      "printed_display": "213.9",
+      "pass": true
+    },
+    {
+      "metric": "qa_inference",
+      "year": 2024,
+      "independent_display": "3798",
+      "printed_display": "3798",
+      "pass": true
+    },
+    {
+      "metric": "qa_inference",
+      "year": 2025,
+      "independent_display": "3754",
+      "printed_display": "3754",
+      "pass": true
+    },
+    {
+      "metric": "qa_training",
+      "year": 2024,
+      "independent_display": "782",
+      "printed_display": "782",
+      "pass": true
+    },
+    {
+      "metric": "qa_training",
+      "year": 2025,
+      "independent_display": "788",
+      "printed_display": "788",
+      "pass": true
+    },
+    {
+      "metric": "qa_production",
+      "year": 2024,
+      "independent_display": "2290",
+      "printed_display": "2290",
+      "pass": true
+    },
+    {
+      "metric": "qa_production",
+      "year": 2025,
+      "independent_display": "2271",
+      "printed_display": "2271",
+      "pass": true
+    },
+    {
+      "metric": "training_usd_B",
+      "year": 2023,
+      "independent_display": "18.46",
+      "printed_display": "18.46",
+      "pass": true
+    },
+    {
+      "metric": "training_usd_B",
+      "year": 2024,
+      "independent_display": "45.23",
+      "printed_display": "45.23",
+      "pass": true
+    },
+    {
+      "metric": "training_usd_B",
+      "year": 2025,
+      "independent_display": "109.58",
+      "printed_display": "109.58",
+      "pass": true
+    },
+    {
+      "metric": "services_usd_B",
+      "year": 2023,
+      "independent_display": "27.69",
+      "printed_display": "27.69",
+      "pass": true
+    },
+    {
+      "metric": "services_usd_B",
+      "year": 2024,
+      "independent_display": "67.84",
+      "printed_display": "67.84",
+      "pass": true
+    },
+    {
+      "metric": "services_usd_B",
+      "year": 2025,
+      "independent_display": "164.38",
+      "printed_display": "164.38",
+      "pass": true
+    },
+    {
+      "metric": "dc_labor_usd_B",
+      "year": 2023,
+      "independent_display": "0.07",
+      "printed_display": "0.07",
+      "pass": true
+    },
+    {
+      "metric": "dc_labor_usd_B",
+      "year": 2024,
+      "independent_display": "0.16",
+      "printed_display": "0.16",
+      "pass": true
+    },
+    {
+      "metric": "dc_labor_usd_B",
+      "year": 2025,
+      "independent_display": "0.38",
+      "printed_display": "0.38",
+      "pass": true
+    },
+    {
+      "metric": "power_usd_B",
+      "year": 2023,
+      "independent_display": "2.31",
+      "printed_display": "2.31",
+      "pass": true
+    },
+    {
+      "metric": "power_usd_B",
+      "year": 2024,
+      "independent_display": "5.89",
+      "printed_display": "5.89",
+      "pass": true
+    },
+    {
+      "metric": "power_usd_B",
+      "year": 2025,
+      "independent_display": "11.90",
+      "printed_display": "11.90",
+      "pass": true
+    },
+    {
+      "metric": "services_labor_usd_B",
+      "year": 2023,
+      "independent_display": "1.85",
+      "printed_display": "1.85",
+      "pass": true
+    },
+    {
+      "metric": "services_labor_usd_B",
+      "year": 2024,
+      "independent_display": "4.52",
+      "printed_display": "4.52",
+      "pass": true
+    },
+    {
+      "metric": "services_labor_usd_B",
+      "year": 2025,
+      "independent_display": "10.96",
+      "printed_display": "10.96",
+      "pass": true
+    },
+    {
+      "metric": "nominal_ai_gdp_usd_B",
+      "year": 2023,
+      "independent_display": "41.93",
+      "printed_display": "41.93",
+      "pass": true
+    },
+    {
+      "metric": "nominal_ai_gdp_usd_B",
+      "year": 2024,
+      "independent_display": "102.49",
+      "printed_display": "102.49",
+      "pass": true
+    },
+    {
+      "metric": "nominal_ai_gdp_usd_B",
+      "year": 2025,
+      "independent_display": "250.72",
+      "printed_display": "250.72",
+      "pass": true
+    },
+    {
+      "metric": "nominal_growth_pct",
+      "year": 2024,
+      "independent_display": "144.5",
+      "printed_display": "144.5",
+      "pass": true
+    },
+    {
+      "metric": "nominal_growth_pct",
+      "year": 2025,
+      "independent_display": "144.6",
+      "printed_display": "144.6",
+      "pass": true
+    },
+    {
+      "metric": "fisher_chain_index",
+      "year": 2023,
+      "independent_display": "100",
+      "printed_display": "100",
+      "pass": true
+    },
+    {
+      "metric": "fisher_chain_index",
+      "year": 2024,
+      "independent_display": "2699",
+      "printed_display": "2700",
+      "pass": false
+    },
+    {
+      "metric": "fisher_chain_index",
+      "year": 2025,
+      "independent_display": "74445",
+      "printed_display": "74445",
+      "pass": true
+    },
+    {
+      "metric": "real_ai_gdp_2023_usd_B",
+      "year": 2023,
+      "independent_display": "41.93",
+      "printed_display": "41.93",
+      "pass": true
+    },
+    {
+      "metric": "real_ai_gdp_2023_usd_B",
+      "year": 2024,
+      "independent_display": "1131.83",
+      "printed_display": "1131.83",
+      "pass": true
+    },
+    {
+      "metric": "real_ai_gdp_2023_usd_B",
+      "year": 2025,
+      "independent_display": "31213.18",
+      "printed_display": "31213.18",
+      "pass": true
+    },
+    {
+      "metric": "real_growth_pct",
+      "year": 2024,
+      "independent_display": "2599",
+      "printed_display": "2600",
+      "pass": false
+    },
+    {
+      "metric": "real_growth_pct",
+      "year": 2025,
+      "independent_display": "2658",
+      "printed_display": "2658",
+      "pass": true
+    },
+    {
+      "metric": "listed_power_TWh",
+      "year": 2023,
+      "independent_display": "28.70",
+      "printed_display": "28.70",
+      "pass": true
+    },
+    {
+      "metric": "listed_power_TWh",
+      "year": 2024,
+      "independent_display": "72.30",
+      "printed_display": "72.30",
+      "pass": true
+    },
+    {
+      "metric": "listed_power_TWh",
+      "year": 2025,
+      "independent_display": "138.00",
+      "printed_display": "138.00",
+      "pass": true
+    },
+    {
+      "metric": "power_price",
+      "year": 2023,
+      "independent_display": "0.0804",
+      "printed_display": "0.0804",
+      "pass": true
+    },
+    {
+      "metric": "power_price",
+      "year": 2024,
+      "independent_display": "0.0815",
+      "printed_display": "0.0815",
+      "pass": true
+    },
+    {
+      "metric": "power_price",
+      "year": 2025,
+      "independent_display": "0.0862",
+      "printed_display": "0.0862",
+      "pass": true
+    },
+    {
+      "metric": "training_deflator",
+      "year": null,
+      "independent_display": "0.354",
+      "printed_display": "0.354",
+      "pass": true
+    },
+    {
+      "metric": "inference_deflator",
+      "year": null,
+      "independent_display": "0.063",
+      "printed_display": "0.063",
+      "pass": true
+    },
+    {
+      "metric": "dc_labor_deflator",
+      "year": null,
+      "independent_display": "1.0",
+      "printed_display": "1.0",
+      "pass": true
+    },
+    {
+      "metric": "services_labor_deflator",
+      "year": null,
+      "independent_display": "1.0",
+      "printed_display": "1.0",
+      "pass": true
+    }
+  ],
+  "manuscript_table_checks": [
+    {
+      "table": "power",
+      "cells": [
+        "2023",
+        "28.70",
+        "28.70",
+        "1.0000"
+      ]
+    },
+    {
+      "table": "power",
+      "cells": [
+        "2024",
+        "72.30",
+        "72.30",
+        "1.0000"
+      ]
+    },
+    {
+      "table": "power",
+      "cells": [
+        "2025",
+        "138.00",
+        "182.14",
+        "0.7577"
+      ]
+    },
+    {
+      "table": "training",
+      "cells": [
+        "2024",
+        "593.0",
+        "782.1",
+        "0.277787"
+      ]
+    },
+    {
+      "table": "training",
+      "cells": [
+        "2025",
+        "585.3",
+        "787.7",
+        "0.272926"
+      ]
+    },
+    {
+      "table": "four_cases",
+      "cells": [
+        "2,599.5",
+        "2,657.8",
+        "74,445.2"
+      ]
+    },
+    {
+      "table": "four_cases",
+      "cells": [
+        "3,292.5",
+        "3,488.0",
+        "121,725.1"
+      ]
+    },
+    {
+      "table": "four_cases",
+      "cells": [
+        "2,599.5",
+        "1,972.3",
+        "55,941.2"
+      ]
+    },
+    {
+      "table": "four_cases",
+      "cells": [
+        "3,292.5",
+        "2,596.3",
+        "91,471.0"
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "check": "cases/('released', 'released', 2023)/training_usd",
+      "actual": "18459302632.003185",
+      "independent": "18459302632.003185",
+      "absolute_error": "0.000000"
+    },
+    {
+      "check": "cases/('released', 'released', 2023)/services_usd",
+      "actual": "27688953948.004776",
+      "independent": "27688953948.0047775",
+      "absolute_error": "0.0000015"
+    },
+    {
+      "check": "cases/('released', 'released', 2023)/dc_labor_usd",
+      "actual": "67140569.349293",
+      "independent": "67140569.349293",
+      "absolute_error": "0.000000"
+    },
+    {
+      "check": "cases/('released', 'released', 2023)/power_usd",
+      "actual": "2307480000.0",
+      "independent": "2307480000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "cases/('released', 'released', 2023)/services_labor_usd",
+      "actual": "1845930263.2003186",
+      "independent": "1845930263.2003185",
+      "absolute_error": "1E-7"
+    },
+    {
+      "check": "cases/('released', 'released', 2023)/nominal_ai_gdp_usd",
+      "actual": "41927705747.45835",
+      "independent": "41927705747.4583510",
+      "absolute_error": "0.0000010"
+    },
+    {
+      "check": "cases/('released', 'released', 2023)/laspeyres_chain_index",
+      "actual": "100.0",
+      "independent": "100",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "cases/('released', 'released', 2023)/paasche_chain_index",
+      "actual": "100.0",
+      "independent": "100",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "cases/('released', 'released', 2023)/fisher_chain_index",
+      "actual": "100.0",
+      "independent": "100",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "cases/('released', 'released', 2023)/real_ai_gdp_2023_usd",
+      "actual": "41927705747.45835",
+      "independent": "41927705747.4583510",
+      "absolute_error": "0.0000010"
+    },
+    {
+      "check": "cases/('released', 'released', 2024)/training_usd",
+      "actual": "45229880668.87905",
+      "independent": "45229880668.87905",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "cases/('released', 'released', 2024)/services_usd",
+      "actual": "67844821003.31857",
+      "independent": "67844821003.318575",
+      "absolute_error": "0.000005"
+    },
+    {
+      "check": "cases/('released', 'released', 2024)/dc_labor_usd",
+      "actual": "164737269.19353122",
+      "independent": "164737269.19353122",
+      "absolute_error": "0E-8"
+    },
+    {
+      "check": "cases/('released', 'released', 2024)/power_usd",
+      "actual": "5892450000.0",
+      "independent": "5892450000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "cases/('released', 'released', 2024)/services_labor_usd",
+      "actual": "4522988066.887905",
+      "independent": "4522988066.887905",
+      "absolute_error": "0.000000"
+    },
+    {
+      "check": "cases/('released', 'released', 2024)/nominal_ai_gdp_usd",
+      "actual": "102494526336.11618",
+      "independent": "102494526336.11618878",
+      "absolute_error": "0.00000878"
+    },
+    {
+      "check": "cases/('released', 'released', 2024)/nominal_growth_pct",
+      "actual": "144.45536551288492",
+      "independent": "144.45536551288496421725766753688469427968773240905",
+      "absolute_error": "4.421725766753688469427968773240905E-14"
+    },
+    {
+      "check": "cases/('released', 'released', 2024)/training_price_ratio",
+      "actual": "0.3535533905932738",
+      "independent": "0.35355339059327376220042218105242451964241796884424",
+      "absolute_error": "3.779957781894757548035758203115576E-17"
+    },
+    {
+      "check": "cases/('released', 'released', 2024)/laspeyres_numerator_usd",
+      "actual": "1196778201049.6047",
+      "independent": "1196778201049.6049319098885368274334987136997279228",
+      "absolute_error": "0.0002319098885368274334987136997279228"
+    },
+    {
+      "check": "cases/('released', 'released', 2024)/laspeyres_denominator_usd",
+      "actual": "41927705747.45835",
+      "independent": "41927705747.4583510",
+      "absolute_error": "0.0000010"
+    },
+    {
+      "check": "cases/('released', 'released', 2024)/paasche_numerator_usd",
+      "actual": "102494526336.11618",
+      "independent": "102494526336.11618878",
+      "absolute_error": "0.00000878"
+    },
+    {
+      "check": "cases/('released', 'released', 2024)/paasche_denominator_usd",
+      "actual": "4014676734.8570437",
+      "independent": "4014676734.8570429819175491408590945243489879689399",
+      "absolute_error": "7.180824508591409054756510120310601E-7"
+    },
+    {
+      "check": "cases/('released', 'released', 2024)/laspeyres_factor",
+      "actual": "28.543851367831",
+      "independent": "28.543851367831004757399225027667355293010408370268",
+      "absolute_error": "4.757399225027667355293010408370268E-15"
+    },
+    {
+      "check": "cases/('released', 'released', 2024)/paasche_factor",
+      "actual": "25.52995747981832",
+      "independent": "25.529957479818328479462641056007778558263176220810",
+      "absolute_error": "8.479462641056007778558263176220810E-15"
+    },
+    {
+      "check": "cases/('released', 'released', 2024)/fisher_factor",
+      "actual": "26.994875656890503",
+      "independent": "26.994875656890508937288151304385782070379632956562",
+      "absolute_error": "5.937288151304385782070379632956562E-15"
+    },
+    {
+      "check": "cases/('released', 'released', 2024)/laspeyres_chain_index",
+      "actual": "2854.3851367831",
+      "independent": "2854.3851367831004757399225027667355293010408370268",
+      "absolute_error": "4.757399225027667355293010408370268E-13"
+    },
+    {
+      "check": "cases/('released', 'released', 2024)/paasche_chain_index",
+      "actual": "2552.995747981832",
+      "independent": "2552.9957479818328479462641056007778558263176220810",
+      "absolute_error": "8.479462641056007778558263176220810E-13"
+    },
+    {
+      "check": "cases/('released', 'released', 2024)/fisher_chain_index",
+      "actual": "2699.4875656890504",
+      "independent": "2699.4875656890508937288151304385782070379632956562",
+      "absolute_error": "4.937288151304385782070379632956562E-13"
+    },
+    {
+      "check": "cases/('released', 'released', 2024)/real_ai_gdp_2023_usd",
+      "actual": "1131833203231.3315",
+      "independent": "1131833203231.3317199719027057018162626558622227823",
+      "absolute_error": "0.0002199719027057018162626558622227823"
+    },
+    {
+      "check": "cases/('released', 'released', 2024)/real_growth_pct",
+      "actual": "2599.4875656890504",
+      "independent": "2599.4875656890508937288151304385782070379632956562",
+      "absolute_error": "4.937288151304385782070379632956562E-13"
+    },
+    {
+      "check": "cases/('released', 'released', 2025)/training_usd",
+      "actual": "109583879884.5678",
+      "independent": "109583879884.5678",
+      "absolute_error": "0.0000"
+    },
+    {
+      "check": "cases/('released', 'released', 2025)/services_usd",
+      "actual": "164375819826.85168",
+      "independent": "164375819826.851700",
+      "absolute_error": "0.000020"
+    },
+    {
+      "check": "cases/('released', 'released', 2025)/dc_labor_usd",
+      "actual": "380805370.1870002",
+      "independent": "380805370.1870002",
+      "absolute_error": "0E-7"
+    },
+    {
+      "check": "cases/('released', 'released', 2025)/power_usd",
+      "actual": "11895600000.0",
+      "independent": "11895600000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "cases/('released', 'released', 2025)/services_labor_usd",
+      "actual": "10958387988.45678",
+      "independent": "10958387988.456780",
+      "absolute_error": "0.000000"
+    },
+    {
+      "check": "cases/('released', 'released', 2025)/nominal_ai_gdp_usd",
+      "actual": "250724906352.7757",
+      "independent": "250724906352.7757198",
+      "absolute_error": "0.0000198"
+    },
+    {
+      "check": "cases/('released', 'released', 2025)/nominal_growth_pct",
+      "actual": "144.6227279792085",
+      "independent": "144.62272797920849902424806791130865475071634462664",
+      "absolute_error": "9.7575193208869134524928365537336E-16"
+    },
+    {
+      "check": "cases/('released', 'released', 2025)/training_price_ratio",
+      "actual": "0.3535533905932738",
+      "independent": "0.35355339059327376220042218105242451964241796884423",
+      "absolute_error": "3.779957781894757548035758203115577E-17"
+    },
+    {
+      "check": "cases/('released', 'released', 2025)/laspeyres_numerator_usd",
+      "actual": "2902433685823.5273",
+      "independent": "2902433685823.5277712729205464086338027640724768621",
+      "absolute_error": "0.0004712729205464086338027640724768621"
+    },
+    {
+      "check": "cases/('released', 'released', 2025)/laspeyres_denominator_usd",
+      "actual": "102494526336.11618",
+      "independent": "102494526336.11618878",
+      "absolute_error": "0.00000878"
+    },
+    {
+      "check": "cases/('released', 'released', 2025)/paasche_numerator_usd",
+      "actual": "250724906352.7757",
+      "independent": "250724906352.7757198",
+      "absolute_error": "0.0000198"
+    },
+    {
+      "check": "cases/('released', 'released', 2025)/paasche_denominator_usd",
+      "actual": "9335723936.452805",
+      "independent": "9335723936.452802732924378791740875650900777678652",
+      "absolute_error": "0.000002267075621208259124349099222321348"
+    },
+    {
+      "check": "cases/('released', 'released', 2025)/laspeyres_factor",
+      "actual": "28.317938426344934",
+      "independent": "28.317938426344937029155582089523140086243492295929",
+      "absolute_error": "3.029155582089523140086243492295929E-15"
+    },
+    {
+      "check": "cases/('released', 'released', 2025)/paasche_factor",
+      "actual": "26.856503904724605",
+      "independent": "26.856503904724611753466747483369189105425385670188",
+      "absolute_error": "6.753466747483369189105425385670188E-15"
+    },
+    {
+      "check": "cases/('released', 'released', 2025)/fisher_factor",
+      "actual": "27.577542021015645",
+      "independent": "27.577542021015649769478561752808817343736809167644",
+      "absolute_error": "4.769478561752808817343736809167644E-15"
+    },
+    {
+      "check": "cases/('released', 'released', 2025)/laspeyres_chain_index",
+      "actual": "80830.30254849799",
+      "independent": "80830.302548498010118522244722754955603109359974467",
+      "absolute_error": "2.0118522244722754955603109359974467E-11"
+    },
+    {
+      "check": "cases/('released', 'released', 2025)/paasche_chain_index",
+      "actual": "68564.54027441939",
+      "independent": "68564.540274419424727482546786808444661654471846814",
+      "absolute_error": "3.4727482546786808444661654471846814E-11"
+    },
+    {
+      "check": "cases/('released', 'released', 2025)/fisher_chain_index",
+      "actual": "74445.23177799903",
+      "independent": "74445.231777999045199527282111648345814770530221948",
+      "absolute_error": "1.5199527282111648345814770530221948E-11"
+    },
+    {
+      "check": "cases/('released', 'released', 2025)/real_ai_gdp_2023_usd",
+      "actual": "31213177722892.79",
+      "independent": "31213177722892.796420034104282420971737441538884256",
+      "absolute_error": "0.006420034104282420971737441538884256"
+    },
+    {
+      "check": "cases/('released', 'released', 2025)/real_growth_pct",
+      "actual": "2657.7542021015647",
+      "independent": "2657.7542021015649769478561752808817343736809167644",
+      "absolute_error": "2.769478561752808817343736809167644E-13"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2023)/training_usd",
+      "actual": "18459302632.003185",
+      "independent": "18459302632.003185",
+      "absolute_error": "0.000000"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2023)/services_usd",
+      "actual": "27688953948.004776",
+      "independent": "27688953948.0047775",
+      "absolute_error": "0.0000015"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2023)/dc_labor_usd",
+      "actual": "67140569.349293",
+      "independent": "67140569.349293",
+      "absolute_error": "0.000000"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2023)/power_usd",
+      "actual": "2307480000.0",
+      "independent": "2307480000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2023)/services_labor_usd",
+      "actual": "1845930263.2003186",
+      "independent": "1845930263.2003185",
+      "absolute_error": "1E-7"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2023)/nominal_ai_gdp_usd",
+      "actual": "41927705747.45835",
+      "independent": "41927705747.4583510",
+      "absolute_error": "0.0000010"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2023)/laspeyres_chain_index",
+      "actual": "100.0",
+      "independent": "100",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2023)/paasche_chain_index",
+      "actual": "100.0",
+      "independent": "100",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2023)/fisher_chain_index",
+      "actual": "100.0",
+      "independent": "100",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2023)/real_ai_gdp_2023_usd",
+      "actual": "41927705747.45835",
+      "independent": "41927705747.4583510",
+      "absolute_error": "0.0000010"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2024)/training_usd",
+      "actual": "45229880668.87905",
+      "independent": "45229880668.87905",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2024)/services_usd",
+      "actual": "67844821003.31857",
+      "independent": "67844821003.318575",
+      "absolute_error": "0.000005"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2024)/dc_labor_usd",
+      "actual": "164737269.19353122",
+      "independent": "164737269.19353122",
+      "absolute_error": "0E-8"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2024)/power_usd",
+      "actual": "5892450000.0",
+      "independent": "5892450000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2024)/services_labor_usd",
+      "actual": "4522988066.887905",
+      "independent": "4522988066.887905",
+      "absolute_error": "0.000000"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2024)/nominal_ai_gdp_usd",
+      "actual": "102494526336.11618",
+      "independent": "102494526336.11618878",
+      "absolute_error": "0.00000878"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2024)/nominal_growth_pct",
+      "actual": "144.45536551288492",
+      "independent": "144.45536551288496421725766753688469427968773240905",
+      "absolute_error": "4.421725766753688469427968773240905E-14"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2024)/training_price_ratio",
+      "actual": "0.2777865652788628",
+      "independent": "0.27778656527886280589158101830785677426081966593633",
+      "absolute_error": "5.89158101830785677426081966593633E-18"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2024)/laspeyres_numerator_usd",
+      "actual": "1231671199236.801",
+      "independent": "1231671199236.8011363396030932426632958694389465585",
+      "absolute_error": "0.0001363396030932426632958694389465585"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2024)/laspeyres_denominator_usd",
+      "actual": "41927705747.45835",
+      "independent": "41927705747.4583510",
+      "absolute_error": "0.0000010"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2024)/paasche_numerator_usd",
+      "actual": "102494526336.11618",
+      "independent": "102494526336.11618878",
+      "absolute_error": "0.00000878"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2024)/paasche_denominator_usd",
+      "actual": "2616073976.912211",
+      "independent": "2616073976.9122112712574940616425111392208031234362",
+      "absolute_error": "2.712574940616425111392208031234362E-7"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2024)/laspeyres_factor",
+      "actual": "29.37606952919108",
+      "independent": "29.376069529191083728267246819474018453320887134073",
+      "absolute_error": "3.728267246819474018453320887134073E-15"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2024)/paasche_factor",
+      "actual": "39.17875688557245",
+      "independent": "39.178756885572445736956354506063082025851149924573",
+      "absolute_error": "4.263043645493936917974148850075427E-15"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2024)/fisher_factor",
+      "actual": "33.925180711940946",
+      "independent": "33.925180711940947387899904993018922224683132756211",
+      "absolute_error": "1.387899904993018922224683132756211E-15"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2024)/laspeyres_chain_index",
+      "actual": "2937.606952919108",
+      "independent": "2937.6069529191083728267246819474018453320887134073",
+      "absolute_error": "3.728267246819474018453320887134073E-13"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2024)/paasche_chain_index",
+      "actual": "3917.8756885572448",
+      "independent": "3917.8756885572445736956354506063082025851149924573",
+      "absolute_error": "2.263043645493936917974148850075427E-13"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2024)/fisher_chain_index",
+      "actual": "3392.518071194095",
+      "independent": "3392.5180711940947387899904993018922224683132756211",
+      "absolute_error": "2.612100095006981077775316867243789E-13"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2024)/real_ai_gdp_2023_usd",
+      "actual": "1422404994319.6096",
+      "independent": "1422404994319.6096518247743300127447695930482265372",
+      "absolute_error": "0.0000518247743300127447695930482265372"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2024)/real_growth_pct",
+      "actual": "3292.518071194095",
+      "independent": "3292.5180711940947387899904993018922224683132756211",
+      "absolute_error": "2.612100095006981077775316867243789E-13"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2025)/training_usd",
+      "actual": "109583879884.5678",
+      "independent": "109583879884.5678",
+      "absolute_error": "0.0000"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2025)/services_usd",
+      "actual": "164375819826.85168",
+      "independent": "164375819826.851700",
+      "absolute_error": "0.000020"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2025)/dc_labor_usd",
+      "actual": "380805370.1870002",
+      "independent": "380805370.1870002",
+      "absolute_error": "0E-7"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2025)/power_usd",
+      "actual": "11895600000.0",
+      "independent": "11895600000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2025)/services_labor_usd",
+      "actual": "10958387988.45678",
+      "independent": "10958387988.456780",
+      "absolute_error": "0.000000"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2025)/nominal_ai_gdp_usd",
+      "actual": "250724906352.7757",
+      "independent": "250724906352.7757198",
+      "absolute_error": "0.0000198"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2025)/nominal_growth_pct",
+      "actual": "144.6227279792085",
+      "independent": "144.62272797920849902424806791130865475071634462664",
+      "absolute_error": "9.7575193208869134524928365537336E-16"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2025)/training_price_ratio",
+      "actual": "0.27292593476890514",
+      "independent": "0.27292593476890516497480433682716916374538865303585",
+      "absolute_error": "2.497480433682716916374538865303585E-17"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2025)/laspeyres_numerator_usd",
+      "actual": "2993998752475.9185",
+      "independent": "2993998752475.9189233598616304596143551744121632524",
+      "absolute_error": "0.0004233598616304596143551744121632524"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2025)/laspeyres_denominator_usd",
+      "actual": "102494526336.11618",
+      "independent": "102494526336.11618878",
+      "absolute_error": "0.00000878"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2025)/paasche_numerator_usd",
+      "actual": "250724906352.7757",
+      "independent": "250724906352.7757198",
+      "absolute_error": "0.0000198"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2025)/paasche_denominator_usd",
+      "actual": "5688953730.881295",
+      "independent": "5688953730.881293948920716609469983625884060908340",
+      "absolute_error": "0.000001051079283390530016374115939091660"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2025)/laspeyres_factor",
+      "actual": "29.211303856925262",
+      "independent": "29.211303856925264493399650627631238773000084195730",
+      "absolute_error": "2.493399650627631238773000084195730E-15"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2025)/paasche_factor",
+      "actual": "44.072235109202595",
+      "independent": "44.072235109202606519151384429934103433174774002076",
+      "absolute_error": "1.1519151384429934103433174774002076E-14"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2025)/fisher_factor",
+      "actual": "35.88046057994193",
+      "independent": "35.880460579941935232391056002803969525512321678576",
+      "absolute_error": "5.232391056002803969525512321678576E-15"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2025)/laspeyres_chain_index",
+      "actual": "85811.32931393641",
+      "independent": "85811.329313936424276335178462684100053421732008553",
+      "absolute_error": "1.4276335178462684100053421732008553E-11"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2025)/paasche_chain_index",
+      "actual": "172669.5384747239",
+      "independent": "172669.53847472393101285493941924940480202229605526",
+      "absolute_error": "3.101285493941924940480202229605526E-11"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2025)/fisher_chain_index",
+      "actual": "121725.11092022035",
+      "independent": "121725.11092022036403052662297115959520716907733621",
+      "absolute_error": "1.403052662297115959520716907733621E-11"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2025)/real_ai_gdp_2023_usd",
+      "actual": "51036546327397.28",
+      "independent": "51036546327397.286417845370974581462833872705510529",
+      "absolute_error": "0.006417845370974581462833872705510529"
+    },
+    {
+      "check": "cases/('released', 'operations_bridge', 2025)/real_growth_pct",
+      "actual": "3488.0460579941932",
+      "independent": "3488.0460579941935232391056002803969525512321678576",
+      "absolute_error": "3.232391056002803969525512321678576E-13"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2023)/training_usd",
+      "actual": "18459302632.00319",
+      "independent": "18459302632.00319",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2023)/services_usd",
+      "actual": "27688953948.004784",
+      "independent": "27688953948.0047850",
+      "absolute_error": "0.0000010"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2023)/dc_labor_usd",
+      "actual": "67140569.34929301",
+      "independent": "67140569.34929301",
+      "absolute_error": "0E-8"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2023)/power_usd",
+      "actual": "2307480000.0",
+      "independent": "2307480000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2023)/services_labor_usd",
+      "actual": "1845930263.200319",
+      "independent": "1845930263.2003190",
+      "absolute_error": "0E-7"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2023)/nominal_ai_gdp_usd",
+      "actual": "41927705747.45836",
+      "independent": "41927705747.45836299",
+      "absolute_error": "0.00000299"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2023)/laspeyres_chain_index",
+      "actual": "100.0",
+      "independent": "100",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2023)/paasche_chain_index",
+      "actual": "100.0",
+      "independent": "100",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2023)/fisher_chain_index",
+      "actual": "100.0",
+      "independent": "100",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2023)/real_ai_gdp_2023_usd",
+      "actual": "41927705747.45836",
+      "independent": "41927705747.45836299",
+      "absolute_error": "0.00000299"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2024)/training_usd",
+      "actual": "45229880668.87902",
+      "independent": "45229880668.87902",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2024)/services_usd",
+      "actual": "67844821003.31853",
+      "independent": "67844821003.3185300",
+      "absolute_error": "0E-7"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2024)/dc_labor_usd",
+      "actual": "164737269.19353116",
+      "independent": "164737269.19353116",
+      "absolute_error": "0E-8"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2024)/power_usd",
+      "actual": "5892450000.0",
+      "independent": "5892450000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2024)/services_labor_usd",
+      "actual": "4522988066.887902",
+      "independent": "4522988066.8879020",
+      "absolute_error": "0E-7"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2024)/nominal_ai_gdp_usd",
+      "actual": "102494526336.11612",
+      "independent": "102494526336.11611684",
+      "absolute_error": "0.00000316"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2024)/nominal_growth_pct",
+      "actual": "144.45536551288475",
+      "independent": "144.45536551288472272968633498753646959792405478458",
+      "absolute_error": "2.727031366501246353040207594521542E-14"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2024)/training_price_ratio",
+      "actual": "0.3535533905932738",
+      "independent": "0.35355339059327376220042218105242451964241796884424",
+      "absolute_error": "3.779957781894757548035758203115576E-17"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2024)/laspeyres_numerator_usd",
+      "actual": "1196778201049.604",
+      "independent": "1196778201049.6041342079838853508214797032853662500",
+      "absolute_error": "0.0001342079838853508214797032853662500"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2024)/laspeyres_denominator_usd",
+      "actual": "41927705747.45836",
+      "independent": "41927705747.45836299",
+      "absolute_error": "0.00000299"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2024)/paasche_numerator_usd",
+      "actual": "102494526336.11612",
+      "independent": "102494526336.11611684",
+      "absolute_error": "0.00000316"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2024)/paasche_denominator_usd",
+      "actual": "4014676734.8570447",
+      "independent": "4014676734.8570447111130735357993340978884646596339",
+      "absolute_error": "1.11130735357993340978884646596339E-8"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2024)/laspeyres_factor",
+      "actual": "28.543851367830978",
+      "independent": "28.543851367830977569107802216555712746019817707107",
+      "absolute_error": "4.30892197783444287253980182292893E-16"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2024)/paasche_factor",
+      "actual": "25.5299574798183",
+      "independent": "25.529957479818299563986781147550748558707430693276",
+      "absolute_error": "4.36013218852449251441292569306724E-16"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2024)/fisher_factor",
+      "actual": "26.994875656890482",
+      "independent": "26.994875656890480793521377539682281817572536153376",
+      "absolute_error": "1.206478622460317718182427463846624E-15"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2024)/laspeyres_chain_index",
+      "actual": "2854.385136783098",
+      "independent": "2854.3851367830977569107802216555712746019817707107",
+      "absolute_error": "2.430892197783444287253980182292893E-13"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2024)/paasche_chain_index",
+      "actual": "2552.99574798183",
+      "independent": "2552.9957479818299563986781147550748558707430693276",
+      "absolute_error": "4.36013218852449251441292569306724E-14"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2024)/fisher_chain_index",
+      "actual": "2699.487565689048",
+      "independent": "2699.4875656890480793521377539682281817572536153376",
+      "absolute_error": "7.93521377539682281817572536153376E-14"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2024)/real_ai_gdp_2023_usd",
+      "actual": "1131833203231.3308",
+      "independent": "1131833203231.3308636368899163169495591547172440112",
+      "absolute_error": "0.0000636368899163169495591547172440112"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2024)/real_growth_pct",
+      "actual": "2599.487565689048",
+      "independent": "2599.4875656890480793521377539682281817572536153376",
+      "absolute_error": "7.93521377539682281817572536153376E-14"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2025)/training_usd",
+      "actual": "83029239753.45135",
+      "independent": "83029239753.45135",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2025)/services_usd",
+      "actual": "124543859630.17703",
+      "independent": "124543859630.177025",
+      "absolute_error": "0.000005"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2025)/dc_labor_usd",
+      "actual": "288527659.4875417",
+      "independent": "288527659.4875417",
+      "absolute_error": "0E-7"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2025)/power_usd",
+      "actual": "11895600000.0",
+      "independent": "11895600000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2025)/services_labor_usd",
+      "actual": "8302923975.345136",
+      "independent": "8302923975.345135",
+      "absolute_error": "0.000001"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2025)/nominal_ai_gdp_usd",
+      "actual": "187086047748.79572",
+      "independent": "187086047748.7956983",
+      "absolute_error": "0.0000217"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2025)/nominal_growth_pct",
+      "actual": "82.53272095260367",
+      "independent": "82.532720952603658727799302577734969560340420411360",
+      "absolute_error": "1.1272200697422265030439659579588640E-14"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2025)/training_price_ratio",
+      "actual": "0.3535533905932738",
+      "independent": "0.35355339059327376220042218105242451964241796884423",
+      "absolute_error": "3.779957781894757548035758203115577E-17"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2025)/laspeyres_numerator_usd",
+      "actual": "2196383287256.4272",
+      "independent": "2196383287256.4273703154340352224661733834080748204",
+      "absolute_error": "0.0001703154340352224661733834080748204"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2025)/laspeyres_denominator_usd",
+      "actual": "102494526336.11612",
+      "independent": "102494526336.11611684",
+      "absolute_error": "0.00000316"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2025)/paasche_numerator_usd",
+      "actual": "187086047748.79572",
+      "independent": "187086047748.7956983",
+      "absolute_error": "0.0000217"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2025)/paasche_denominator_usd",
+      "actual": "9335723936.452793",
+      "independent": "9335723936.452792357751232422099438209663917534489",
+      "absolute_error": "6.42248767577900561790336082465511E-7"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2025)/laspeyres_factor",
+      "actual": "21.42927398926361",
+      "independent": "21.429273989263612091281176206317258409763741929552",
+      "absolute_error": "2.091281176206317258409763741929552E-15"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2025)/paasche_factor",
+      "actual": "20.039800771988233",
+      "independent": "20.039800771988233485355117950605262933263272557492",
+      "absolute_error": "4.85355117950605262933263272557492E-16"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2025)/fisher_factor",
+      "actual": "20.722895102595878",
+      "independent": "20.722895102595879941152686635733282999748711788429",
+      "absolute_error": "1.941152686635733282999748711788429E-15"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2025)/laspeyres_chain_index",
+      "actual": "61167.40116700669",
+      "independent": "61167.401167006694332241726194905088668000242960166",
+      "absolute_error": "4.332241726194905088668000242960166E-12"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2025)/paasche_chain_index",
+      "actual": "51161.52616128895",
+      "independent": "51161.526161288953540354006219866097081975901288083",
+      "absolute_error": "3.540354006219866097081975901288083E-12"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2025)/fisher_chain_index",
+      "actual": "55941.197654536045",
+      "independent": "55941.197654536048190434122063416882561956520757013",
+      "absolute_error": "3.190434122063416882561956520757013E-12"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2025)/real_ai_gdp_2023_usd",
+      "actual": "23454860744197.95",
+      "independent": "23454860744197.953629538478201745749990367812308155",
+      "absolute_error": "0.003629538478201745749990367812308155"
+    },
+    {
+      "check": "cases/('annual_preserving', 'released', 2025)/real_growth_pct",
+      "actual": "1972.2895102595878",
+      "independent": "1972.2895102595879941152686635733282999748711788429",
+      "absolute_error": "1.941152686635733282999748711788429E-13"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2023)/training_usd",
+      "actual": "18459302632.00319",
+      "independent": "18459302632.00319",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2023)/services_usd",
+      "actual": "27688953948.004784",
+      "independent": "27688953948.0047850",
+      "absolute_error": "0.0000010"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2023)/dc_labor_usd",
+      "actual": "67140569.34929301",
+      "independent": "67140569.34929301",
+      "absolute_error": "0E-8"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2023)/power_usd",
+      "actual": "2307480000.0",
+      "independent": "2307480000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2023)/services_labor_usd",
+      "actual": "1845930263.200319",
+      "independent": "1845930263.2003190",
+      "absolute_error": "0E-7"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2023)/nominal_ai_gdp_usd",
+      "actual": "41927705747.45836",
+      "independent": "41927705747.45836299",
+      "absolute_error": "0.00000299"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2023)/laspeyres_chain_index",
+      "actual": "100.0",
+      "independent": "100",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2023)/paasche_chain_index",
+      "actual": "100.0",
+      "independent": "100",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2023)/fisher_chain_index",
+      "actual": "100.0",
+      "independent": "100",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2023)/real_ai_gdp_2023_usd",
+      "actual": "41927705747.45836",
+      "independent": "41927705747.45836299",
+      "absolute_error": "0.00000299"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2024)/training_usd",
+      "actual": "45229880668.87902",
+      "independent": "45229880668.87902",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2024)/services_usd",
+      "actual": "67844821003.31853",
+      "independent": "67844821003.3185300",
+      "absolute_error": "0E-7"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2024)/dc_labor_usd",
+      "actual": "164737269.19353116",
+      "independent": "164737269.19353116",
+      "absolute_error": "0E-8"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2024)/power_usd",
+      "actual": "5892450000.0",
+      "independent": "5892450000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2024)/services_labor_usd",
+      "actual": "4522988066.887902",
+      "independent": "4522988066.8879020",
+      "absolute_error": "0E-7"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2024)/nominal_ai_gdp_usd",
+      "actual": "102494526336.11612",
+      "independent": "102494526336.11611684",
+      "absolute_error": "0.00000316"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2024)/nominal_growth_pct",
+      "actual": "144.45536551288475",
+      "independent": "144.45536551288472272968633498753646959792405478458",
+      "absolute_error": "2.727031366501246353040207594521542E-14"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2024)/training_price_ratio",
+      "actual": "0.27778656527886275",
+      "independent": "0.27778656527886272777286535869516808167915033933698",
+      "absolute_error": "2.222713464130483191832084966066302E-17"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2024)/laspeyres_numerator_usd",
+      "actual": "1231671199236.8003",
+      "independent": "1231671199236.8003612826019882332415660020282772434",
+      "absolute_error": "0.0000612826019882332415660020282772434"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2024)/laspeyres_denominator_usd",
+      "actual": "41927705747.45836",
+      "independent": "41927705747.45836299",
+      "absolute_error": "0.00000299"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2024)/paasche_numerator_usd",
+      "actual": "102494526336.11612",
+      "independent": "102494526336.11611684",
+      "absolute_error": "0.00000316"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2024)/paasche_denominator_usd",
+      "actual": "2616073976.912212",
+      "independent": "2616073976.9122111796018783003306499820308541389131",
+      "absolute_error": "8.203981216996693500179691458610869E-7"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2024)/laspeyres_factor",
+      "actual": "29.376069529191057",
+      "independent": "29.376069529191056842081736219590079340861523526719",
+      "absolute_error": "1.57918263780409920659138476473281E-16"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2024)/paasche_factor",
+      "actual": "39.17875688557241",
+      "independent": "39.178756885572419610383667305734138957889469179014",
+      "absolute_error": "9.610383667305734138957889469179014E-15"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2024)/fisher_factor",
+      "actual": "33.92518071194092",
+      "independent": "33.925180711940920551442393096118646692143403700179",
+      "absolute_error": "5.51442393096118646692143403700179E-16"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2024)/laspeyres_chain_index",
+      "actual": "2937.6069529191054",
+      "independent": "2937.6069529191056842081736219590079340861523526719",
+      "absolute_error": "2.842081736219590079340861523526719E-13"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2024)/paasche_chain_index",
+      "actual": "3917.875688557241",
+      "independent": "3917.8756885572419610383667305734138957889469179014",
+      "absolute_error": "9.610383667305734138957889469179014E-13"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2024)/fisher_chain_index",
+      "actual": "3392.5180711940916",
+      "independent": "3392.5180711940920551442393096118646692143403700179",
+      "absolute_error": "4.551442393096118646692143403700179E-13"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2024)/real_ai_gdp_2023_usd",
+      "actual": "1422404994319.6086",
+      "independent": "1422404994319.6089333965972032028784904203358273607",
+      "absolute_error": "0.0003333965972032028784904203358273607"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2024)/real_growth_pct",
+      "actual": "3292.5180711940916",
+      "independent": "3292.5180711940920551442393096118646692143403700179",
+      "absolute_error": "4.551442393096118646692143403700179E-13"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2025)/training_usd",
+      "actual": "83029239753.45135",
+      "independent": "83029239753.45135",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2025)/services_usd",
+      "actual": "124543859630.17703",
+      "independent": "124543859630.177025",
+      "absolute_error": "0.000005"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2025)/dc_labor_usd",
+      "actual": "288527659.4875417",
+      "independent": "288527659.4875417",
+      "absolute_error": "0E-7"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2025)/power_usd",
+      "actual": "11895600000.0",
+      "independent": "11895600000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2025)/services_labor_usd",
+      "actual": "8302923975.345136",
+      "independent": "8302923975.345135",
+      "absolute_error": "0.000001"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2025)/nominal_ai_gdp_usd",
+      "actual": "187086047748.79572",
+      "independent": "187086047748.7956983",
+      "absolute_error": "0.0000217"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2025)/nominal_growth_pct",
+      "actual": "82.53272095260367",
+      "independent": "82.532720952603658727799302577734969560340420411360",
+      "absolute_error": "1.1272200697422265030439659579588640E-14"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2025)/training_price_ratio",
+      "actual": "0.2729259347689052",
+      "independent": "0.27292593476890513992598106794896786152122278177555",
+      "absolute_error": "6.007401893205103213847877721822445E-17"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2025)/laspeyres_numerator_usd",
+      "actual": "2265760077712.564",
+      "independent": "2265760077712.5643183881162253485768602306499092694",
+      "absolute_error": "0.0003183881162253485768602306499092694"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2025)/laspeyres_denominator_usd",
+      "actual": "102494526336.11612",
+      "independent": "102494526336.11611684",
+      "absolute_error": "0.00000316"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2025)/paasche_numerator_usd",
+      "actual": "187086047748.79572",
+      "independent": "187086047748.7956983",
+      "absolute_error": "0.0000217"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2025)/paasche_denominator_usd",
+      "actual": "5688953730.8812895",
+      "independent": "5688953730.881284859615957623685323197291985670215",
+      "absolute_error": "0.000004640384042376314676802708014329785"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2025)/laspeyres_factor",
+      "actual": "22.10615687204923",
+      "independent": "22.106156872049232290698603108773090306281202362315",
+      "absolute_error": "2.290698603108773090306281202362315E-15"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2025)/paasche_factor",
+      "actual": "32.88584449777442",
+      "independent": "32.885844497774444273503809361249213455879768893706",
+      "absolute_error": "2.4273503809361249213455879768893706E-14"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2025)/fisher_factor",
+      "actual": "26.962559918109005",
+      "independent": "26.962559918109017814568568573061029850804399872078",
+      "absolute_error": "1.2814568568573061029850804399872078E-14"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2025)/laspeyres_chain_index",
+      "actual": "64939.20012965228",
+      "independent": "64939.200129652293700517130298886570931062073750449",
+      "absolute_error": "1.3700517130298886570931062073750449E-11"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2025)/paasche_chain_index",
+      "actual": "128842.65065550432",
+      "independent": "128842.65065550443780521401107000288369146639170474",
+      "absolute_error": "1.1780521401107000288369146639170474E-10"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2025)/fisher_chain_index",
+      "actual": "91470.97176783829",
+      "independent": "91470.971767838341750440267962330029089185860201094",
+      "absolute_error": "5.1750440267962330029089185860201094E-11"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2025)/real_ai_gdp_2023_usd",
+      "actual": "38351679887159.945",
+      "independent": "38351679887159.972992945964309857783751929499658047",
+      "absolute_error": "0.027992945964309857783751929499658047"
+    },
+    {
+      "check": "cases/('annual_preserving', 'operations_bridge', 2025)/real_growth_pct",
+      "actual": "2596.2559918109005",
+      "independent": "2596.2559918109017814568568573061029850804399872078",
+      "absolute_error": "1.2814568568573061029850804399872078E-12"
+    },
+    {
+      "check": "prices/('released', 'released', 2024, 'training')",
+      "actual": "0.3535533905932738",
+      "independent": "0.35355339059327376220042218105242451964241796884424",
+      "absolute_error": "3.779957781894757548035758203115576E-17"
+    },
+    {
+      "check": "prices/('released', 'released', 2024, 'services')",
+      "actual": "0.06285714285714286",
+      "independent": "0.062857142857142857142857142857142857142857142857143",
+      "absolute_error": "2.857142857142857142857142857142857E-18"
+    },
+    {
+      "check": "prices/('released', 'released', 2024, 'dc_labor')",
+      "actual": "1.0",
+      "independent": "1",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "prices/('released', 'released', 2024, 'power')",
+      "actual": "1.013681592039801",
+      "independent": "1.0136815920398009950248756218905472636815920398010",
+      "absolute_error": "4.9751243781094527363184079601990E-18"
+    },
+    {
+      "check": "prices/('released', 'released', 2024, 'services_labor')",
+      "actual": "1.0",
+      "independent": "1",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "prices/('released', 'released', 2025, 'training')",
+      "actual": "0.3535533905932738",
+      "independent": "0.35355339059327376220042218105242451964241796884423",
+      "absolute_error": "3.779957781894757548035758203115577E-17"
+    },
+    {
+      "check": "prices/('released', 'released', 2025, 'services')",
+      "actual": "0.06285714285714286",
+      "independent": "0.062857142857142857142857142857142857142857142857143",
+      "absolute_error": "2.857142857142857142857142857142857E-18"
+    },
+    {
+      "check": "prices/('released', 'released', 2025, 'dc_labor')",
+      "actual": "1.0",
+      "independent": "1",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "prices/('released', 'released', 2025, 'power')",
+      "actual": "1.0576687116564416",
+      "independent": "1.0576687116564417177914110429447852760736196319019",
+      "absolute_error": "1.177914110429447852760736196319019E-16"
+    },
+    {
+      "check": "prices/('released', 'released', 2025, 'services_labor')",
+      "actual": "1.0",
+      "independent": "1",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "prices/('released', 'operations_bridge', 2024, 'training')",
+      "actual": "0.2777865652788628",
+      "independent": "0.27778656527886280589158101830785677426081966593633",
+      "absolute_error": "5.89158101830785677426081966593633E-18"
+    },
+    {
+      "check": "prices/('released', 'operations_bridge', 2024, 'services')",
+      "actual": "0.06285714285714286",
+      "independent": "0.062857142857142857142857142857142857142857142857143",
+      "absolute_error": "2.857142857142857142857142857142857E-18"
+    },
+    {
+      "check": "prices/('released', 'operations_bridge', 2024, 'dc_labor')",
+      "actual": "1.0",
+      "independent": "1",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "prices/('released', 'operations_bridge', 2024, 'power')",
+      "actual": "1.013681592039801",
+      "independent": "1.0136815920398009950248756218905472636815920398010",
+      "absolute_error": "4.9751243781094527363184079601990E-18"
+    },
+    {
+      "check": "prices/('released', 'operations_bridge', 2024, 'services_labor')",
+      "actual": "1.0",
+      "independent": "1",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "prices/('released', 'operations_bridge', 2025, 'training')",
+      "actual": "0.27292593476890514",
+      "independent": "0.27292593476890516497480433682716916374538865303585",
+      "absolute_error": "2.497480433682716916374538865303585E-17"
+    },
+    {
+      "check": "prices/('released', 'operations_bridge', 2025, 'services')",
+      "actual": "0.06285714285714286",
+      "independent": "0.062857142857142857142857142857142857142857142857143",
+      "absolute_error": "2.857142857142857142857142857142857E-18"
+    },
+    {
+      "check": "prices/('released', 'operations_bridge', 2025, 'dc_labor')",
+      "actual": "1.0",
+      "independent": "1",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "prices/('released', 'operations_bridge', 2025, 'power')",
+      "actual": "1.0576687116564416",
+      "independent": "1.0576687116564417177914110429447852760736196319019",
+      "absolute_error": "1.177914110429447852760736196319019E-16"
+    },
+    {
+      "check": "prices/('released', 'operations_bridge', 2025, 'services_labor')",
+      "actual": "1.0",
+      "independent": "1",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "prices/('annual_preserving', 'released', 2024, 'training')",
+      "actual": "0.3535533905932738",
+      "independent": "0.35355339059327376220042218105242451964241796884424",
+      "absolute_error": "3.779957781894757548035758203115576E-17"
+    },
+    {
+      "check": "prices/('annual_preserving', 'released', 2024, 'services')",
+      "actual": "0.06285714285714286",
+      "independent": "0.062857142857142857142857142857142857142857142857143",
+      "absolute_error": "2.857142857142857142857142857142857E-18"
+    },
+    {
+      "check": "prices/('annual_preserving', 'released', 2024, 'dc_labor')",
+      "actual": "1.0",
+      "independent": "1",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "prices/('annual_preserving', 'released', 2024, 'power')",
+      "actual": "1.013681592039801",
+      "independent": "1.0136815920398009950248756218905472636815920398010",
+      "absolute_error": "4.9751243781094527363184079601990E-18"
+    },
+    {
+      "check": "prices/('annual_preserving', 'released', 2024, 'services_labor')",
+      "actual": "1.0",
+      "independent": "1",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "prices/('annual_preserving', 'released', 2025, 'training')",
+      "actual": "0.3535533905932738",
+      "independent": "0.35355339059327376220042218105242451964241796884423",
+      "absolute_error": "3.779957781894757548035758203115577E-17"
+    },
+    {
+      "check": "prices/('annual_preserving', 'released', 2025, 'services')",
+      "actual": "0.06285714285714286",
+      "independent": "0.062857142857142857142857142857142857142857142857143",
+      "absolute_error": "2.857142857142857142857142857142857E-18"
+    },
+    {
+      "check": "prices/('annual_preserving', 'released', 2025, 'dc_labor')",
+      "actual": "1.0",
+      "independent": "1",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "prices/('annual_preserving', 'released', 2025, 'power')",
+      "actual": "1.0576687116564416",
+      "independent": "1.0576687116564417177914110429447852760736196319019",
+      "absolute_error": "1.177914110429447852760736196319019E-16"
+    },
+    {
+      "check": "prices/('annual_preserving', 'released', 2025, 'services_labor')",
+      "actual": "1.0",
+      "independent": "1",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "prices/('annual_preserving', 'operations_bridge', 2024, 'training')",
+      "actual": "0.27778656527886275",
+      "independent": "0.27778656527886272777286535869516808167915033933698",
+      "absolute_error": "2.222713464130483191832084966066302E-17"
+    },
+    {
+      "check": "prices/('annual_preserving', 'operations_bridge', 2024, 'services')",
+      "actual": "0.06285714285714286",
+      "independent": "0.062857142857142857142857142857142857142857142857143",
+      "absolute_error": "2.857142857142857142857142857142857E-18"
+    },
+    {
+      "check": "prices/('annual_preserving', 'operations_bridge', 2024, 'dc_labor')",
+      "actual": "1.0",
+      "independent": "1",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "prices/('annual_preserving', 'operations_bridge', 2024, 'power')",
+      "actual": "1.013681592039801",
+      "independent": "1.0136815920398009950248756218905472636815920398010",
+      "absolute_error": "4.9751243781094527363184079601990E-18"
+    },
+    {
+      "check": "prices/('annual_preserving', 'operations_bridge', 2024, 'services_labor')",
+      "actual": "1.0",
+      "independent": "1",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "prices/('annual_preserving', 'operations_bridge', 2025, 'training')",
+      "actual": "0.2729259347689052",
+      "independent": "0.27292593476890513992598106794896786152122278177555",
+      "absolute_error": "6.007401893205103213847877721822445E-17"
+    },
+    {
+      "check": "prices/('annual_preserving', 'operations_bridge', 2025, 'services')",
+      "actual": "0.06285714285714286",
+      "independent": "0.062857142857142857142857142857142857142857142857143",
+      "absolute_error": "2.857142857142857142857142857142857E-18"
+    },
+    {
+      "check": "prices/('annual_preserving', 'operations_bridge', 2025, 'dc_labor')",
+      "actual": "1.0",
+      "independent": "1",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "prices/('annual_preserving', 'operations_bridge', 2025, 'power')",
+      "actual": "1.0576687116564416",
+      "independent": "1.0576687116564417177914110429447852760736196319019",
+      "absolute_error": "1.177914110429447852760736196319019E-16"
+    },
+    {
+      "check": "prices/('annual_preserving', 'operations_bridge', 2025, 'services_labor')",
+      "actual": "1.0",
+      "independent": "1",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "training/released/2023/nominal_training_usd",
+      "actual": "18459302632.003185",
+      "independent": "18459302632.003185",
+      "absolute_error": "0.000000"
+    },
+    {
+      "check": "training/released/2023/physical_training_bit_ops",
+      "actual": "2.730238696489207E+29",
+      "independent": "2.730238696489207E+29",
+      "absolute_error": "0E+14"
+    },
+    {
+      "check": "training/released/2023/rental_volume_index_2023_100",
+      "actual": "100.0",
+      "independent": "100",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "training/released/2023/operations_volume_index_2023_100",
+      "actual": "100.0",
+      "independent": "100",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "training/released/2023/operations_to_rental_level_ratio",
+      "actual": "1.0",
+      "independent": "1",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "training/released/2023/rental_price_index_2023_1",
+      "actual": "1.0",
+      "independent": "1",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "training/released/2023/operations_price_index_2023_1",
+      "actual": "1.0",
+      "independent": "1",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "training/released/2023/rental_price_times_volume_usd",
+      "actual": "18459302632.003185",
+      "independent": "18459302632.003185",
+      "absolute_error": "0.000000"
+    },
+    {
+      "check": "training/released/2023/operations_price_times_volume_usd",
+      "actual": "18459302632.003185",
+      "independent": "18459302632.003185",
+      "absolute_error": "0.000000"
+    },
+    {
+      "check": "training/released/2024/nominal_training_usd",
+      "actual": "45229880668.87905",
+      "independent": "45229880668.87905",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "training/released/2024/physical_training_bit_ops",
+      "actual": "8.514409590754632E+29",
+      "independent": "8.5144095907546315E+29",
+      "absolute_error": "5E+13"
+    },
+    {
+      "check": "training/released/2024/nominal_spending_growth_ratio",
+      "actual": "2.450248612884394",
+      "independent": "2.4502486128843941453057576809463514277892026203334",
+      "absolute_error": "1.453057576809463514277892026203334E-16"
+    },
+    {
+      "check": "training/released/2024/physical_operations_growth_ratio",
+      "actual": "3.1185586819581914",
+      "independent": "3.1185586819581912346008589209060926773562560039214",
+      "absolute_error": "1.653991410790939073226437439960786E-16"
+    },
+    {
+      "check": "training/released/2024/released_training_price_ratio",
+      "actual": "0.3535533905932738",
+      "independent": "0.35355339059327376220042218105242451964241796884424",
+      "absolute_error": "3.779957781894757548035758203115576E-17"
+    },
+    {
+      "check": "training/released/2024/bridge_training_price_ratio",
+      "actual": "0.2777865652788628",
+      "independent": "0.27778656527886280589158101830785677426081966593633",
+      "absolute_error": "5.89158101830785677426081966593633E-18"
+    },
+    {
+      "check": "training/released/2024/rental_volume_index_2023_100",
+      "actual": "693.0349639053946",
+      "independent": "693.03496390539475284903485712672842964994127404301",
+      "absolute_error": "1.5284903485712672842964994127404301E-13"
+    },
+    {
+      "check": "training/released/2024/operations_volume_index_2023_100",
+      "actual": "882.0615966163275",
+      "independent": "882.06159661632751291963595331456164568226855718437",
+      "absolute_error": "1.291963595331456164568226855718437E-14"
+    },
+    {
+      "check": "training/released/2024/rental_volume_growth_pct",
+      "actual": "593.0349639053948",
+      "independent": "593.03496390539475284903485712672842964994127404301",
+      "absolute_error": "4.715096514287327157035005872595699E-14"
+    },
+    {
+      "check": "training/released/2024/operations_volume_growth_pct",
+      "actual": "782.0615966163276",
+      "independent": "782.06159661632751291963595331456164568226855718437",
+      "absolute_error": "8.708036404668543835431773144281563E-14"
+    },
+    {
+      "check": "training/released/2024/operations_to_rental_growth_ratio",
+      "actual": "1.2727519426231093",
+      "independent": "1.2727519426231091639604004200563399578494511079103",
+      "absolute_error": "1.360395995799436600421505488920897E-16"
+    },
+    {
+      "check": "training/released/2024/operations_to_rental_level_ratio",
+      "actual": "1.2727519426231093",
+      "independent": "1.2727519426231091639604004200563399578494511079103",
+      "absolute_error": "1.360395995799436600421505488920897E-16"
+    },
+    {
+      "check": "training/released/2024/rental_price_index_2023_1",
+      "actual": "0.3535533905932738",
+      "independent": "0.35355339059327376220042218105242451964241796884424",
+      "absolute_error": "3.779957781894757548035758203115576E-17"
+    },
+    {
+      "check": "training/released/2024/operations_price_index_2023_1",
+      "actual": "0.2777865652788628",
+      "independent": "0.27778656527886280589158101830785677426081966593633",
+      "absolute_error": "5.89158101830785677426081966593633E-18"
+    },
+    {
+      "check": "training/released/2024/rental_price_times_volume_usd",
+      "actual": "45229880668.87905",
+      "independent": "45229880668.87905",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "training/released/2024/operations_price_times_volume_usd",
+      "actual": "45229880668.87904",
+      "independent": "45229880668.87905",
+      "absolute_error": "0.00001"
+    },
+    {
+      "check": "training/released/2025/nominal_training_usd",
+      "actual": "109583879884.5678",
+      "independent": "109583879884.5678",
+      "absolute_error": "0.0000"
+    },
+    {
+      "check": "training/released/2025/physical_training_bit_ops",
+      "actual": "2.672304661848808E+30",
+      "independent": "2.672304661848808E+30",
+      "absolute_error": "0E+15"
+    },
+    {
+      "check": "training/released/2025/nominal_spending_growth_ratio",
+      "actual": "2.422820451082204",
+      "independent": "2.4228204510822040288314693138481507191506389740080",
+      "absolute_error": "2.88314693138481507191506389740080E-17"
+    },
+    {
+      "check": "training/released/2025/physical_operations_growth_ratio",
+      "actual": "3.1385671940782944",
+      "independent": "3.1385671940782940805742827578177511825624839007159",
+      "absolute_error": "3.194257172421822488174375160992841E-16"
+    },
+    {
+      "check": "training/released/2025/released_training_price_ratio",
+      "actual": "0.3535533905932738",
+      "independent": "0.35355339059327376220042218105242451964241796884424",
+      "absolute_error": "3.779957781894757548035758203115576E-17"
+    },
+    {
+      "check": "training/released/2025/bridge_training_price_ratio",
+      "actual": "0.27292593476890514",
+      "independent": "0.27292593476890516497480433682716916374538865303585",
+      "absolute_error": "2.497480433682716916374538865303585E-17"
+    },
+    {
+      "check": "training/released/2025/rental_volume_index_2023_100",
+      "actual": "4749.209959625689",
+      "independent": "4749.2099596256900332874174299546192940646510192362",
+      "absolute_error": "1.0332874174299546192940646510192362E-12"
+    },
+    {
+      "check": "training/released/2025/operations_volume_index_2023_100",
+      "actual": "7830.244777601618",
+      "independent": "7830.2447776016186985739817238773463354381872812190",
+      "absolute_error": "6.985739817238773463354381872812190E-13"
+    },
+    {
+      "check": "training/released/2025/rental_volume_growth_pct",
+      "actual": "585.2771082230705",
+      "independent": "585.27710822307056577174946330616338869927866709282",
+      "absolute_error": "6.577174946330616338869927866709282E-14"
+    },
+    {
+      "check": "training/released/2025/operations_volume_growth_pct",
+      "actual": "787.7208584569587",
+      "independent": "787.72085845695869180289835998912851748547270770034",
+      "absolute_error": "8.19710164001087148251452729229966E-15"
+    },
+    {
+      "check": "training/released/2025/operations_to_rental_growth_ratio",
+      "actual": "1.295418813505717",
+      "independent": "1.2954188135057167036766238076207598053994601529797",
+      "absolute_error": "2.963233761923792401946005398470203E-16"
+    },
+    {
+      "check": "training/released/2025/operations_to_rental_level_ratio",
+      "actual": "1.6487468113999242",
+      "independent": "1.6487468113999240965683824947355923612324927529236",
+      "absolute_error": "1.034316175052644076387675072470764E-16"
+    },
+    {
+      "check": "training/released/2025/rental_price_index_2023_1",
+      "actual": "0.12500000000000003",
+      "independent": "0.12500000000000000000000000000000000000000000000000",
+      "absolute_error": "3.000000000000000000000000000000000E-17"
+    },
+    {
+      "check": "training/released/2025/operations_price_index_2023_1",
+      "actual": "0.07581515799497714",
+      "independent": "0.075815157994977126559348712202068171988311267440397",
+      "absolute_error": "1.3440651287797931828011688732559603E-17"
+    },
+    {
+      "check": "training/released/2025/rental_price_times_volume_usd",
+      "actual": "109583879884.56781",
+      "independent": "109583879884.5678",
+      "absolute_error": "0.00001"
+    },
+    {
+      "check": "training/released/2025/operations_price_times_volume_usd",
+      "actual": "109583879884.5678",
+      "independent": "109583879884.5678",
+      "absolute_error": "0.0000"
+    },
+    {
+      "check": "training/annual_preserving/2023/nominal_training_usd",
+      "actual": "18459302632.00319",
+      "independent": "18459302632.00319",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "training/annual_preserving/2023/physical_training_bit_ops",
+      "actual": "2.7302386964892074E+29",
+      "independent": "2.7302386964892075E+29",
+      "absolute_error": "1E+13"
+    },
+    {
+      "check": "training/annual_preserving/2023/rental_volume_index_2023_100",
+      "actual": "100.0",
+      "independent": "100",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "training/annual_preserving/2023/operations_volume_index_2023_100",
+      "actual": "100.0",
+      "independent": "100",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "training/annual_preserving/2023/operations_to_rental_level_ratio",
+      "actual": "1.0",
+      "independent": "1",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "training/annual_preserving/2023/rental_price_index_2023_1",
+      "actual": "1.0",
+      "independent": "1",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "training/annual_preserving/2023/operations_price_index_2023_1",
+      "actual": "1.0",
+      "independent": "1",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "training/annual_preserving/2023/rental_price_times_volume_usd",
+      "actual": "18459302632.00319",
+      "independent": "18459302632.00319",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "training/annual_preserving/2023/operations_price_times_volume_usd",
+      "actual": "18459302632.00319",
+      "independent": "18459302632.00319",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "training/annual_preserving/2024/nominal_training_usd",
+      "actual": "45229880668.87902",
+      "independent": "45229880668.87902",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "training/annual_preserving/2024/physical_training_bit_ops",
+      "actual": "8.514409590754627E+29",
+      "independent": "8.5144095907546275E+29",
+      "absolute_error": "5E+13"
+    },
+    {
+      "check": "training/annual_preserving/2024/nominal_spending_growth_ratio",
+      "actual": "2.450248612884392",
+      "independent": "2.4502486128843918564195572255558663627228665279679",
+      "absolute_error": "1.435804427744441336372771334720321E-16"
+    },
+    {
+      "check": "training/annual_preserving/2024/physical_operations_growth_ratio",
+      "actual": "3.118558681958189",
+      "independent": "3.1185586819581891984128332630289018039310613158028",
+      "absolute_error": "1.984128332630289018039310613158028E-16"
+    },
+    {
+      "check": "training/annual_preserving/2024/released_training_price_ratio",
+      "actual": "0.3535533905932738",
+      "independent": "0.35355339059327376220042218105242451964241796884424",
+      "absolute_error": "3.779957781894757548035758203115576E-17"
+    },
+    {
+      "check": "training/annual_preserving/2024/bridge_training_price_ratio",
+      "actual": "0.27778656527886275",
+      "independent": "0.27778656527886272777286535869516808167915033933698",
+      "absolute_error": "2.222713464130483191832084966066302E-17"
+    },
+    {
+      "check": "training/annual_preserving/2024/rental_volume_index_2023_100",
+      "actual": "693.0349639053941",
+      "independent": "693.03496390539410545425337459954670061172973007644",
+      "absolute_error": "5.45425337459954670061172973007644E-15"
+    },
+    {
+      "check": "training/annual_preserving/2024/operations_volume_index_2023_100",
+      "actual": "882.0615966163268",
+      "independent": "882.06159661632693699869166790144839250218088354818",
+      "absolute_error": "1.3699869166790144839250218088354818E-13"
+    },
+    {
+      "check": "training/annual_preserving/2024/rental_volume_growth_pct",
+      "actual": "593.0349639053941",
+      "independent": "593.03496390539410545425337459954670061172973007644",
+      "absolute_error": "5.45425337459954670061172973007644E-15"
+    },
+    {
+      "check": "training/annual_preserving/2024/operations_volume_growth_pct",
+      "actual": "782.0615966163268",
+      "independent": "782.06159661632693699869166790144839250218088354818",
+      "absolute_error": "1.3699869166790144839250218088354818E-13"
+    },
+    {
+      "check": "training/annual_preserving/2024/operations_to_rental_growth_ratio",
+      "actual": "1.2727519426231095",
+      "independent": "1.2727519426231095218817671758006987390137705964141",
+      "absolute_error": "2.18817671758006987390137705964141E-17"
+    },
+    {
+      "check": "training/annual_preserving/2024/operations_to_rental_level_ratio",
+      "actual": "1.2727519426231093",
+      "independent": "1.2727519426231095218817671758006987390137705964141",
+      "absolute_error": "2.218817671758006987390137705964141E-16"
+    },
+    {
+      "check": "training/annual_preserving/2024/rental_price_index_2023_1",
+      "actual": "0.3535533905932738",
+      "independent": "0.35355339059327376220042218105242451964241796884424",
+      "absolute_error": "3.779957781894757548035758203115576E-17"
+    },
+    {
+      "check": "training/annual_preserving/2024/operations_price_index_2023_1",
+      "actual": "0.27778656527886275",
+      "independent": "0.27778656527886272777286535869516808167915033933698",
+      "absolute_error": "2.222713464130483191832084966066302E-17"
+    },
+    {
+      "check": "training/annual_preserving/2024/rental_price_times_volume_usd",
+      "actual": "45229880668.87901",
+      "independent": "45229880668.87902",
+      "absolute_error": "0.00001"
+    },
+    {
+      "check": "training/annual_preserving/2024/operations_price_times_volume_usd",
+      "actual": "45229880668.87902",
+      "independent": "45229880668.87902",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "training/annual_preserving/2025/nominal_training_usd",
+      "actual": "83029239753.45135",
+      "independent": "83029239753.45135",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "training/annual_preserving/2025/physical_training_bit_ops",
+      "actual": "2.0247451057275144E+30",
+      "independent": "2.0247451057275145E+30",
+      "absolute_error": "1E+14"
+    },
+    {
+      "check": "training/annual_preserving/2025/nominal_spending_growth_ratio",
+      "actual": "1.8357165335300265",
+      "independent": "1.8357165335300264792795989723035200051959986711021",
+      "absolute_error": "2.07204010276964799948040013288979E-17"
+    },
+    {
+      "check": "training/annual_preserving/2025/physical_operations_growth_ratio",
+      "actual": "2.378021733798294",
+      "independent": "2.3780217337982943341204856979846670940978393350288",
+      "absolute_error": "3.341204856979846670940978393350288E-16"
+    },
+    {
+      "check": "training/annual_preserving/2025/released_training_price_ratio",
+      "actual": "0.3535533905932738",
+      "independent": "0.35355339059327376220042218105242451964241796884424",
+      "absolute_error": "3.779957781894757548035758203115576E-17"
+    },
+    {
+      "check": "training/annual_preserving/2025/bridge_training_price_ratio",
+      "actual": "0.2729259347689052",
+      "independent": "0.27292593476890513992598106794896786152122278177556",
+      "absolute_error": "6.007401893205103213847877721822444E-17"
+    },
+    {
+      "check": "training/annual_preserving/2025/rental_volume_index_2023_100",
+      "actual": "3598.3695119447125",
+      "independent": "3598.3695119447132753014229018059574798428516817677",
+      "absolute_error": "7.753014229018059574798428516817677E-13"
+    },
+    {
+      "check": "training/annual_preserving/2025/operations_volume_index_2023_100",
+      "actual": "5932.800259057549",
+      "independent": "5932.8002590575493100648310296663010793597377885524",
+      "absolute_error": "3.100648310296663010793597377885524E-13"
+    },
+    {
+      "check": "training/annual_preserving/2025/rental_volume_growth_pct",
+      "actual": "419.21904367813755",
+      "independent": "419.21904367813758617595458821146594588370471667248",
+      "absolute_error": "3.617595458821146594588370471667248E-14"
+    },
+    {
+      "check": "training/annual_preserving/2025/operations_volume_growth_pct",
+      "actual": "572.6061175111058",
+      "independent": "572.60611751110595092078025458709035365462026380643",
+      "absolute_error": "1.5092078025458709035365462026380643E-13"
+    },
+    {
+      "check": "training/annual_preserving/2025/operations_to_rental_growth_ratio",
+      "actual": "1.2954188135057167",
+      "independent": "1.2954188135057168225686482909661167386392716585501",
+      "absolute_error": "1.225686482909661167386392716585501E-16"
+    },
+    {
+      "check": "training/annual_preserving/2025/operations_to_rental_level_ratio",
+      "actual": "1.6487468113999248",
+      "independent": "1.6487468113999247115465098693785265409582806350125",
+      "absolute_error": "8.84534901306214734590417193649875E-17"
+    },
+    {
+      "check": "training/annual_preserving/2025/rental_price_index_2023_1",
+      "actual": "0.12500000000000003",
+      "independent": "0.12500000000000000000000000000000000000000000000000",
+      "absolute_error": "3.000000000000000000000000000000000E-17"
+    },
+    {
+      "check": "training/annual_preserving/2025/operations_price_index_2023_1",
+      "actual": "0.07581515799497711",
+      "independent": "0.075815157994977098280498637717034953056719783235487",
+      "absolute_error": "1.1719501362282965046943280216764513E-17"
+    },
+    {
+      "check": "training/annual_preserving/2025/rental_price_times_volume_usd",
+      "actual": "83029239753.45135",
+      "independent": "83029239753.45135",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "training/annual_preserving/2025/operations_price_times_volume_usd",
+      "actual": "83029239753.45135",
+      "independent": "83029239753.45135",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "effects/training_given_released_power/2023/real_level_difference_usd",
+      "actual": "0.0",
+      "independent": "0E-7",
+      "absolute_error": "0E-7"
+    },
+    {
+      "check": "effects/training_given_released_power/2023/real_level_difference_pct",
+      "actual": "0.0",
+      "independent": "0",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "effects/training_given_released_power/2023/nominal_level_difference_usd",
+      "actual": "0.0",
+      "independent": "0E-7",
+      "absolute_error": "0E-7"
+    },
+    {
+      "check": "effects/training_given_released_power/2023/nominal_level_difference_pct",
+      "actual": "0.0",
+      "independent": "0",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "effects/training_given_released_power/2024/real_level_difference_usd",
+      "actual": "290571791088.2781",
+      "independent": "290571791088.2779318528716243109285069371860037549",
+      "absolute_error": "0.0001681471283756890714930628139962451"
+    },
+    {
+      "check": "effects/training_given_released_power/2024/real_level_difference_pct",
+      "actual": "25.672668928487784",
+      "independent": "25.672668928487769876628068986656022238181302485300",
+      "absolute_error": "1.4123371931013343977761818697514700E-14"
+    },
+    {
+      "check": "effects/training_given_released_power/2024/real_growth_difference_pp",
+      "actual": "693.0305055050444",
+      "independent": "693.0305055050438450611753688633140154303499799649",
+      "absolute_error": "5.549388246311366859845696500200351E-13"
+    },
+    {
+      "check": "effects/training_given_released_power/2024/nominal_level_difference_usd",
+      "actual": "0.0",
+      "independent": "0E-8",
+      "absolute_error": "0E-8"
+    },
+    {
+      "check": "effects/training_given_released_power/2024/nominal_level_difference_pct",
+      "actual": "0.0",
+      "independent": "0",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "effects/training_given_released_power/2025/real_level_difference_usd",
+      "actual": "19823368604504.492",
+      "independent": "19823368604504.489997811266692160491096431166626273",
+      "absolute_error": "0.002002188733307839508903568833373727"
+    },
+    {
+      "check": "effects/training_given_released_power/2025/real_level_difference_pct",
+      "actual": "63.509613729477365",
+      "independent": "63.509613729477352828360014370238733443905515914890",
+      "absolute_error": "1.2171639985629761266556094484085110E-14"
+    },
+    {
+      "check": "effects/training_given_released_power/2025/real_growth_difference_pp",
+      "actual": "830.2918558926285",
+      "independent": "830.2918558926285462912494249995152181775512510932",
+      "absolute_error": "4.62912494249995152181775512510932E-14"
+    },
+    {
+      "check": "effects/training_given_released_power/2025/nominal_level_difference_usd",
+      "actual": "0.0",
+      "independent": "0E-7",
+      "absolute_error": "0E-7"
+    },
+    {
+      "check": "effects/training_given_released_power/2025/nominal_level_difference_pct",
+      "actual": "0.0",
+      "independent": "0",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "effects/training_given_annual_preserving_power/2023/real_level_difference_usd",
+      "actual": "0.0",
+      "independent": "0E-8",
+      "absolute_error": "0E-8"
+    },
+    {
+      "check": "effects/training_given_annual_preserving_power/2023/real_level_difference_pct",
+      "actual": "0.0",
+      "independent": "0",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "effects/training_given_annual_preserving_power/2023/nominal_level_difference_usd",
+      "actual": "0.0",
+      "independent": "0E-8",
+      "absolute_error": "0E-8"
+    },
+    {
+      "check": "effects/training_given_annual_preserving_power/2023/nominal_level_difference_pct",
+      "actual": "0.0",
+      "independent": "0",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "effects/training_given_annual_preserving_power/2024/real_level_difference_usd",
+      "actual": "290571791088.27783",
+      "independent": "290571791088.2780697597072868859289312656185833495",
+      "absolute_error": "0.0002397597072868859289312656185833495"
+    },
+    {
+      "check": "effects/training_given_annual_preserving_power/2024/real_level_difference_pct",
+      "actual": "25.672668928487784",
+      "independent": "25.672668928487801484720797964311356772939050165440",
+      "absolute_error": "1.7484720797964311356772939050165440E-14"
+    },
+    {
+      "check": "effects/training_given_annual_preserving_power/2024/real_growth_difference_pp",
+      "actual": "693.0305055050435",
+      "independent": "693.0305055050439757921015556436364874570867546803",
+      "absolute_error": "4.757921015556436364874570867546803E-13"
+    },
+    {
+      "check": "effects/training_given_annual_preserving_power/2024/nominal_level_difference_usd",
+      "actual": "0.0",
+      "independent": "0E-8",
+      "absolute_error": "0E-8"
+    },
+    {
+      "check": "effects/training_given_annual_preserving_power/2024/nominal_level_difference_pct",
+      "actual": "0.0",
+      "independent": "0",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "effects/training_given_annual_preserving_power/2025/real_level_difference_usd",
+      "actual": "14896819142961.996",
+      "independent": "14896819142962.019363407486108112033761561687349892",
+      "absolute_error": "0.023363407486108112033761561687349892"
+    },
+    {
+      "check": "effects/training_given_annual_preserving_power/2025/real_level_difference_pct",
+      "actual": "63.51271621447181",
+      "independent": "63.512716214471904759915403475152637613115664383980",
+      "absolute_error": "9.4759915403475152637613115664383980E-14"
+    },
+    {
+      "check": "effects/training_given_annual_preserving_power/2025/real_growth_difference_pp",
+      "actual": "623.9664815513127",
+      "independent": "623.9664815513137873415881937327746851055688083649",
+      "absolute_error": "1.0873415881937327746851055688083649E-12"
+    },
+    {
+      "check": "effects/training_given_annual_preserving_power/2025/nominal_level_difference_usd",
+      "actual": "0.0",
+      "independent": "0E-7",
+      "absolute_error": "0E-7"
+    },
+    {
+      "check": "effects/training_given_annual_preserving_power/2025/nominal_level_difference_pct",
+      "actual": "0.0",
+      "independent": "0",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "effects/power_given_released_price/2023/real_level_difference_usd",
+      "actual": "0.00000762939453125",
+      "independent": "0.00001199",
+      "absolute_error": "0.00000436060546875"
+    },
+    {
+      "check": "effects/power_given_released_price/2023/real_level_difference_pct",
+      "actual": "2.220446049250313E-14",
+      "independent": "2.85968425561344514130958995365407900E-14",
+      "absolute_error": "6.3923820636313214130958995365407900E-15"
+    },
+    {
+      "check": "effects/power_given_released_price/2023/nominal_level_difference_usd",
+      "actual": "0.00000762939453125",
+      "independent": "0.00001199",
+      "absolute_error": "0.00000436060546875"
+    },
+    {
+      "check": "effects/power_given_released_price/2023/nominal_level_difference_pct",
+      "actual": "2.220446049250313E-14",
+      "independent": "2.85968425561344514130958995365407900E-14",
+      "absolute_error": "6.3923820636313214130958995365407900E-15"
+    },
+    {
+      "check": "effects/power_given_released_price/2024/real_level_difference_usd",
+      "actual": "-0.000732421875",
+      "independent": "-0.0008563350127893848667035011449787711",
+      "absolute_error": "0.0001239131377893848667035011449787711"
+    },
+    {
+      "check": "effects/power_given_released_price/2024/real_level_difference_pct",
+      "actual": "-6.661338147750939E-14",
+      "independent": "-7.565911746930447038194874430681262900E-14",
+      "absolute_error": "9.04573599179508038194874430681262900E-15"
+    },
+    {
+      "check": "effects/power_given_released_price/2024/real_growth_difference_pp",
+      "actual": "-2.2737367544323206E-12",
+      "independent": "-2.8143766773764703500252807096803186E-12",
+      "absolute_error": "5.406399229441497500252807096803186E-13"
+    },
+    {
+      "check": "effects/power_given_released_price/2024/nominal_level_difference_usd",
+      "actual": "-0.00006103515625",
+      "independent": "-0.00007194",
+      "absolute_error": "0.00001090484375"
+    },
+    {
+      "check": "effects/power_given_released_price/2024/nominal_level_difference_pct",
+      "actual": "-5.551115123125783E-14",
+      "independent": "-7.018911406457260446056564395562205900E-14",
+      "absolute_error": "1.467796283331477446056564395562205900E-14"
+    },
+    {
+      "check": "effects/power_given_released_price/2025/real_level_difference_usd",
+      "actual": "-7758316978694.84",
+      "independent": "-7758316978694.842790495626080675221747073726576101",
+      "absolute_error": "0.002790495626080675221747073726576101"
+    },
+    {
+      "check": "effects/power_given_released_price/2025/real_level_difference_pct",
+      "actual": "-24.855902361407534",
+      "independent": "-24.855902361407539945976562287578345318694971346391",
+      "absolute_error": "5.945976562287578345318694971346391E-15"
+    },
+    {
+      "check": "effects/power_given_released_price/2025/real_growth_difference_pp",
+      "actual": "-685.4646918419769",
+      "independent": "-685.4646918419769828325875117075534343988097379215",
+      "absolute_error": "8.28325875117075534343988097379215E-14"
+    },
+    {
+      "check": "effects/power_given_released_price/2025/nominal_level_difference_usd",
+      "actual": "-63638858603.97998",
+      "independent": "-63638858603.9800215",
+      "absolute_error": "0.0000415"
+    },
+    {
+      "check": "effects/power_given_released_price/2025/nominal_level_difference_pct",
+      "actual": "-25.381945307993714",
+      "independent": "-25.381945307993726494998787403443962897020222594237",
+      "absolute_error": "1.2494998787403443962897020222594237E-14"
+    },
+    {
+      "check": "effects/power_given_bridge_price/2023/real_level_difference_usd",
+      "actual": "0.00000762939453125",
+      "independent": "0.00001199",
+      "absolute_error": "0.00000436060546875"
+    },
+    {
+      "check": "effects/power_given_bridge_price/2023/real_level_difference_pct",
+      "actual": "2.220446049250313E-14",
+      "independent": "2.85968425561344514130958995365407900E-14",
+      "absolute_error": "6.3923820636313214130958995365407900E-15"
+    },
+    {
+      "check": "effects/power_given_bridge_price/2023/nominal_level_difference_usd",
+      "actual": "0.00000762939453125",
+      "independent": "0.00001199",
+      "absolute_error": "0.00000436060546875"
+    },
+    {
+      "check": "effects/power_given_bridge_price/2023/nominal_level_difference_pct",
+      "actual": "2.220446049250313E-14",
+      "independent": "2.85968425561344514130958995365407900E-14",
+      "absolute_error": "6.3923820636313214130958995365407900E-15"
+    },
+    {
+      "check": "effects/power_given_bridge_price/2024/real_level_difference_usd",
+      "actual": "-0.0009765625",
+      "independent": "-0.0007184281771268098662791727123991765",
+      "absolute_error": "0.0002581343228731901337208272876008235"
+    },
+    {
+      "check": "effects/power_given_bridge_price/2024/real_level_difference_pct",
+      "actual": "-6.661338147750939E-14",
+      "independent": "-5.050799034001292702222941886400610400E-14",
+      "absolute_error": "1.610539113749646297777058113599389600E-14"
+    },
+    {
+      "check": "effects/power_given_bridge_price/2024/real_growth_difference_pp",
+      "actual": "-3.183231456205249E-12",
+      "independent": "-2.6836457511896900275532539729056032E-12",
+      "absolute_error": "4.995857050155589724467460270943968E-13"
+    },
+    {
+      "check": "effects/power_given_bridge_price/2024/nominal_level_difference_usd",
+      "actual": "-0.00006103515625",
+      "independent": "-0.00007194",
+      "absolute_error": "0.00001090484375"
+    },
+    {
+      "check": "effects/power_given_bridge_price/2024/nominal_level_difference_pct",
+      "actual": "-5.551115123125783E-14",
+      "independent": "-7.018911406457260446056564395562205900E-14",
+      "absolute_error": "1.467796283331477446056564395562205900E-14"
+    },
+    {
+      "check": "effects/power_given_bridge_price/2025/real_level_difference_usd",
+      "actual": "-12684866440237.336",
+      "independent": "-12684866440237.313424899406664723679081943205852482",
+      "absolute_error": "0.022575100593335276320918056794147518"
+    },
+    {
+      "check": "effects/power_given_bridge_price/2025/real_level_difference_pct",
+      "actual": "-24.854476552673553",
+      "independent": "-24.854476552673512894243833140276211377259043922769",
+      "absolute_error": "4.0105756166859723788622740956077231E-14"
+    },
+    {
+      "check": "effects/power_given_bridge_price/2025/real_growth_difference_pp",
+      "actual": "-891.7900661832928",
+      "independent": "-891.7900661832917417822487429742939674707921806498",
+      "absolute_error": "1.0582177512570257060325292078193502E-12"
+    },
+    {
+      "check": "effects/power_given_bridge_price/2025/nominal_level_difference_usd",
+      "actual": "-63638858603.97998",
+      "independent": "-63638858603.9800215",
+      "absolute_error": "0.0000415"
+    },
+    {
+      "check": "effects/power_given_bridge_price/2025/nominal_level_difference_pct",
+      "actual": "-25.381945307993714",
+      "independent": "-25.381945307993726494998787403443962897020222594237",
+      "absolute_error": "1.2494998787403443962897020222594237E-14"
+    },
+    {
+      "check": "monthly/released/2023-01",
+      "actual": "1512028590379.4475",
+      "independent": "1512028590379.4481795647863685828446904276095878744",
+      "absolute_error": "0.0006795647863685828446904276095878744"
+    },
+    {
+      "check": "monthly/released/2023-02",
+      "actual": "1633044564804.588",
+      "independent": "1633044564804.5886372745720710349311799920221098834",
+      "absolute_error": "0.0006372745720710349311799920221098834"
+    },
+    {
+      "check": "monthly/released/2023-03",
+      "actual": "1763746114065.5793",
+      "independent": "1763746114065.5799670861566839394621301181609961252",
+      "absolute_error": "0.0006670861566839394621301181609961252"
+    },
+    {
+      "check": "monthly/released/2023-04",
+      "actual": "1904908428052.405",
+      "independent": "1904908428052.4056439366598737971597601370018470253",
+      "absolute_error": "0.0006439366598737971597601370018470253"
+    },
+    {
+      "check": "monthly/released/2023-05",
+      "actual": "2057368739370.7075",
+      "independent": "2057368739370.7079291175967064750714472146756217085",
+      "absolute_error": "0.0004291175967064750714472146756217085"
+    },
+    {
+      "check": "monthly/released/2023-06",
+      "actual": "2222031288961.974",
+      "independent": "2222031288961.9746854959625248177004393705499949165",
+      "absolute_error": "0.0006854959625248177004393705499949165"
+    },
+    {
+      "check": "monthly/released/2023-07",
+      "actual": "2399872689149.654",
+      "independent": "2399872689149.6540859304007290599503037738920788937",
+      "absolute_error": "0.0000859304007290599503037738920788937"
+    },
+    {
+      "check": "monthly/released/2023-08",
+      "actual": "2591947715919.3823",
+      "independent": "2591947715919.3827424729428211189510477833873552597",
+      "absolute_error": "0.0004424729428211189510477833873552597"
+    },
+    {
+      "check": "monthly/released/2023-09",
+      "actual": "2799395564787.297",
+      "independent": "2799395564787.2970308908578045909946021378108777531",
+      "absolute_error": "0.0000308908578045909946021378108777531"
+    },
+    {
+      "check": "monthly/released/2023-10",
+      "actual": "3023446607359.935",
+      "independent": "3023446607359.9347642231362120833749276525646116095",
+      "absolute_error": "0.0002357768637879166250723474353883905"
+    },
+    {
+      "check": "monthly/released/2023-11",
+      "actual": "3265429688658.8325",
+      "independent": "3265429688658.8323656889128545041060469160669602905",
+      "absolute_error": "0.0001343110871454958939530839330397095"
+    },
+    {
+      "check": "monthly/released/2023-12",
+      "actual": "3526780008490.195",
+      "independent": "3526780008490.1939683180153499954534244762579586688",
+      "absolute_error": "0.0010316819846500045465755237420413312"
+    },
+    {
+      "check": "monthly/released/2024-01",
+      "actual": "3809047633603.9766",
+      "independent": "3809047633603.9757276144269842696749518437691011617",
+      "absolute_error": "0.0008723855730157303250481562308988383"
+    },
+    {
+      "check": "monthly/released/2024-02",
+      "actual": "4113906691127.937",
+      "independent": "4113906691127.9358353641658792970565962865225973725",
+      "absolute_error": "0.0011646358341207029434037134774026275"
+    },
+    {
+      "check": "monthly/released/2024-03",
+      "actual": "4443165297802.839",
+      "independent": "4443165297802.8373386874260713875648783116041818773",
+      "absolute_error": "0.0016613125739286124351216883958181227"
+    },
+    {
+      "check": "monthly/released/2024-04",
+      "actual": "4798776283909.023",
+      "independent": "4798776283909.0218835059410758026010682196945484306",
+      "absolute_error": "0.0011164940589241973989317803054515694"
+    },
+    {
+      "check": "monthly/released/2024-05",
+      "actual": "5182848775487.883",
+      "independent": "5182848775487.8809503554788110852845168509075766396",
+      "absolute_error": "0.0020496445211889147154831490924233604"
+    },
+    {
+      "check": "monthly/released/2024-06",
+      "actual": "5597660703552.294",
+      "independent": "5597660703552.2916293156129109519073786233715899824",
+      "absolute_error": "0.0023706843870890480926213766284100176"
+    },
+    {
+      "check": "monthly/released/2024-07",
+      "actual": "6045672314478.052",
+      "independent": "6045672314478.0484464379084568304671415628012997925",
+      "absolute_error": "0.0035535620915431695328584371987002075"
+    },
+    {
+      "check": "monthly/released/2024-08",
+      "actual": "6529540761706.322",
+      "independent": "6529540761706.3195916652880127839777266459549054116",
+      "absolute_error": "0.0024083347119872160222733540450945884"
+    },
+    {
+      "check": "monthly/released/2024-09",
+      "actual": "7052135865300.406",
+      "independent": "7052135865300.4033217215686157466519071276559742714",
+      "absolute_error": "0.0026782784313842533480928723440257286"
+    },
+    {
+      "check": "monthly/released/2024-10",
+      "actual": "7616557132826.6",
+      "independent": "7616557132826.5952422764023739940072219261470877844",
+      "absolute_error": "0.0047577235976260059927780738529122156"
+    },
+    {
+      "check": "monthly/released/2024-11",
+      "actual": "8226152142509.886",
+      "independent": "8226152142509.8808376065644383500650589558063146009",
+      "absolute_error": "0.0051623934355616499349410441936853991"
+    },
+    {
+      "check": "monthly/released/2024-12",
+      "actual": "8884536397694.814",
+      "independent": "8884536397694.8091954492163695007415536457648227111",
+      "absolute_error": "0.0048045507836304992584463542351772889"
+    },
+    {
+      "check": "monthly/released/2025-01",
+      "actual": "9595614770368.21",
+      "independent": "9595614770368.2036622481906258779616382684496869006",
+      "absolute_error": "0.0063377518093741220383617315503130994"
+    },
+    {
+      "check": "monthly/released/2025-02",
+      "actual": "10363604660925.088",
+      "independent": "10363604660925.078776893003242967846408066745079794",
+      "absolute_error": "0.009223106996757032153591933254920206"
+    },
+    {
+      "check": "monthly/released/2025-03",
+      "actual": "11193061011538.168",
+      "independent": "11193061011538.158173766582054401426505293692764801",
+      "absolute_error": "0.009826233417945598573494706307235199"
+    },
+    {
+      "check": "monthly/released/2025-04",
+      "actual": "12088903321485.107",
+      "independent": "12088903321485.096939981865497579374816455885569742",
+      "absolute_error": "0.010060018134502420625183544114430258"
+    },
+    {
+      "check": "monthly/released/2025-05",
+      "actual": "13056444824661.121",
+      "independent": "13056444824661.107759954742788901256814227199226171",
+      "absolute_error": "0.013240045257211098743185772800773829"
+    },
+    {
+      "check": "monthly/released/2025-06",
+      "actual": "14101424002328.611",
+      "independent": "14101424002328.595289181840190307418239528563273722",
+      "absolute_error": "0.015710818159809692581760471436726278"
+    },
+    {
+      "check": "monthly/released/2025-07",
+      "actual": "15230038618005.691",
+      "independent": "15230038618005.676051479469736196612346166917560108",
+      "absolute_error": "0.014948520530263803387653833082439892"
+    },
+    {
+      "check": "monthly/released/2025-08",
+      "actual": "16448982476354.268",
+      "independent": "16448982476354.247612452972938128278384547126817469",
+      "absolute_error": "0.020387547027061871721615452873182531"
+    },
+    {
+      "check": "monthly/released/2025-09",
+      "actual": "17765485124084.312",
+      "independent": "17765485124084.291294789874944894875710290227419510",
+      "absolute_error": "0.020705210125055105124289709772580490"
+    },
+    {
+      "check": "monthly/released/2025-10",
+      "actual": "19187354728340.19",
+      "independent": "19187354728340.168502319996224382115754190259039962",
+      "absolute_error": "0.021497680003775617884245809740960038"
+    },
+    {
+      "check": "monthly/released/2025-11",
+      "actual": "20723024386880.316",
+      "independent": "20723024386880.292144911310414380129050958355280340",
+      "absolute_error": "0.023855088689585619870949041644719660"
+    },
+    {
+      "check": "monthly/released/2025-12",
+      "actual": "22381602144715.523",
+      "independent": "22381602144715.494941845935314108139872076264692757",
+      "absolute_error": "0.028058154064685891860127923735307243"
+    },
+    {
+      "check": "monthly/annual_preserving/2023-01",
+      "actual": "1512028590379.4478",
+      "independent": "1512028590379.4481795647863685828446904276095878744",
+      "absolute_error": "0.0003795647863685828446904276095878744"
+    },
+    {
+      "check": "monthly/annual_preserving/2023-02",
+      "actual": "1633044564804.5881",
+      "independent": "1633044564804.5886372745720710349311799920221098834",
+      "absolute_error": "0.0005372745720710349311799920221098834"
+    },
+    {
+      "check": "monthly/annual_preserving/2023-03",
+      "actual": "1763746114065.5798",
+      "independent": "1763746114065.5799670861566839394621301181609961252",
+      "absolute_error": "0.0001670861566839394621301181609961252"
+    },
+    {
+      "check": "monthly/annual_preserving/2023-04",
+      "actual": "1904908428052.4055",
+      "independent": "1904908428052.4056439366598737971597601370018470253",
+      "absolute_error": "0.0001439366598737971597601370018470253"
+    },
+    {
+      "check": "monthly/annual_preserving/2023-05",
+      "actual": "2057368739370.708",
+      "independent": "2057368739370.7079291175967064750714472146756217085",
+      "absolute_error": "0.0000708824032935249285527853243782915"
+    },
+    {
+      "check": "monthly/annual_preserving/2023-06",
+      "actual": "2222031288961.9746",
+      "independent": "2222031288961.9746854959625248177004393705499949165",
+      "absolute_error": "0.0000854959625248177004393705499949165"
+    },
+    {
+      "check": "monthly/annual_preserving/2023-07",
+      "actual": "2399872689149.6543",
+      "independent": "2399872689149.6540859304007290599503037738920788937",
+      "absolute_error": "0.0002140695992709400496962261079211063"
+    },
+    {
+      "check": "monthly/annual_preserving/2023-08",
+      "actual": "2591947715919.383",
+      "independent": "2591947715919.3827424729428211189510477833873552597",
+      "absolute_error": "0.0002575270571788810489522166126447403"
+    },
+    {
+      "check": "monthly/annual_preserving/2023-09",
+      "actual": "2799395564787.2974",
+      "independent": "2799395564787.2970308908578045909946021378108777531",
+      "absolute_error": "0.0003691091421954090053978621891222469"
+    },
+    {
+      "check": "monthly/annual_preserving/2023-10",
+      "actual": "3023446607359.9355",
+      "independent": "3023446607359.9347642231362120833749276525646116095",
+      "absolute_error": "0.0007357768637879166250723474353883905"
+    },
+    {
+      "check": "monthly/annual_preserving/2023-11",
+      "actual": "3265429688658.833",
+      "independent": "3265429688658.8323656889128545041060469160669602905",
+      "absolute_error": "0.0006343110871454958939530839330397095"
+    },
+    {
+      "check": "monthly/annual_preserving/2023-12",
+      "actual": "3526780008490.196",
+      "independent": "3526780008490.1939683180153499954534244762579586688",
+      "absolute_error": "0.0020316819846500045465755237420413312"
+    },
+    {
+      "check": "monthly/annual_preserving/2024-01",
+      "actual": "3809047633603.975",
+      "independent": "3809047633603.9757276144269842696749518437691011617",
+      "absolute_error": "0.0007276144269842696749518437691011617"
+    },
+    {
+      "check": "monthly/annual_preserving/2024-02",
+      "actual": "4113906691127.935",
+      "independent": "4113906691127.9358353641658792970565962865225973725",
+      "absolute_error": "0.0008353641658792970565962865225973725"
+    },
+    {
+      "check": "monthly/annual_preserving/2024-03",
+      "actual": "4443165297802.837",
+      "independent": "4443165297802.8373386874260713875648783116041818773",
+      "absolute_error": "0.0003386874260713875648783116041818773"
+    },
+    {
+      "check": "monthly/annual_preserving/2024-04",
+      "actual": "4798776283909.021",
+      "independent": "4798776283909.0218835059410758026010682196945484306",
+      "absolute_error": "0.0008835059410758026010682196945484306"
+    },
+    {
+      "check": "monthly/annual_preserving/2024-05",
+      "actual": "5182848775487.881",
+      "independent": "5182848775487.8809503554788110852845168509075766396",
+      "absolute_error": "0.0000496445211889147154831490924233604"
+    },
+    {
+      "check": "monthly/annual_preserving/2024-06",
+      "actual": "5597660703552.291",
+      "independent": "5597660703552.2916293156129109519073786233715899824",
+      "absolute_error": "0.0006293156129109519073786233715899824"
+    },
+    {
+      "check": "monthly/annual_preserving/2024-07",
+      "actual": "6045672314478.049",
+      "independent": "6045672314478.0484464379084568304671415628012997925",
+      "absolute_error": "0.0005535620915431695328584371987002075"
+    },
+    {
+      "check": "monthly/annual_preserving/2024-08",
+      "actual": "6529540761706.319",
+      "independent": "6529540761706.3195916652880127839777266459549054116",
+      "absolute_error": "0.0005916652880127839777266459549054116"
+    },
+    {
+      "check": "monthly/annual_preserving/2024-09",
+      "actual": "7052135865300.403",
+      "independent": "7052135865300.4033217215686157466519071276559742714",
+      "absolute_error": "0.0003217215686157466519071276559742714"
+    },
+    {
+      "check": "monthly/annual_preserving/2024-10",
+      "actual": "7616557132826.597",
+      "independent": "7616557132826.5952422764023739940072219261470877844",
+      "absolute_error": "0.0017577235976260059927780738529122156"
+    },
+    {
+      "check": "monthly/annual_preserving/2024-11",
+      "actual": "8226152142509.882",
+      "independent": "8226152142509.8808376065644383500650589558063146009",
+      "absolute_error": "0.0011623934355616499349410441936853991"
+    },
+    {
+      "check": "monthly/annual_preserving/2024-12",
+      "actual": "8884536397694.81",
+      "independent": "8884536397694.8091954492163695007415536457648227111",
+      "absolute_error": "0.0008045507836304992584463542351772889"
+    },
+    {
+      "check": "monthly/annual_preserving/2025-01",
+      "actual": "7270381375343.686",
+      "independent": "7270381375343.6881107993212147885911943905966246255",
+      "absolute_error": "0.0021107993212147885911943905966246255"
+    },
+    {
+      "check": "monthly/annual_preserving/2025-02",
+      "actual": "7852270032858.299",
+      "independent": "7852270032858.3007645955033380773694368954373227872",
+      "absolute_error": "0.0017645955033380773694368954373227872"
+    },
+    {
+      "check": "monthly/annual_preserving/2025-03",
+      "actual": "8480730443939.023",
+      "independent": "8480730443939.0256257104398043082151204287880649956",
+      "absolute_error": "0.0026257104398043082151204287880649956"
+    },
+    {
+      "check": "monthly/annual_preserving/2025-04",
+      "actual": "9159490002481.947",
+      "independent": "9159490002481.9504830403854558887821219131099264667",
+      "absolute_error": "0.0034830403854558887821219131099264667"
+    },
+    {
+      "check": "monthly/annual_preserving/2025-05",
+      "actual": "9892574426242.428",
+      "independent": "9892574426242.4283699731130833992982479311928848740",
+      "absolute_error": "0.0003699731130833992982479311928848740"
+    },
+    {
+      "check": "monthly/annual_preserving/2025-06",
+      "actual": "10684331633336.324",
+      "independent": "10684331633336.324271722746635011939394882783947687",
+      "absolute_error": "0.000271722746635011939394882783947687"
+    },
+    {
+      "check": "monthly/annual_preserving/2025-07",
+      "actual": "11539457529709.137",
+      "independent": "11539457529709.138113532937303493837697588749368901",
+      "absolute_error": "0.001113532937303493837697588749368901"
+    },
+    {
+      "check": "monthly/annual_preserving/2025-08",
+      "actual": "12463023860518.287",
+      "independent": "12463023860518.286357535404505728754167042071603693",
+      "absolute_error": "0.000642464595494271245832957928396307"
+    },
+    {
+      "check": "monthly/annual_preserving/2025-09",
+      "actual": "13460508290614.879",
+      "independent": "13460508290614.877709510047980263318992857766589899",
+      "absolute_error": "0.001290489952019736681007142233410101"
+    },
+    {
+      "check": "monthly/annual_preserving/2025-10",
+      "actual": "14537826892532.092",
+      "independent": "14537826892532.090503930062622561175610315467470462",
+      "absolute_error": "0.001496069937377438824389684532529538"
+    },
+    {
+      "check": "monthly/annual_preserving/2025-11",
+      "actual": "15701369234666.164",
+      "independent": "15701369234666.162594601741251622530817923945662727",
+      "absolute_error": "0.001405398258748377469182076054337273"
+    },
+    {
+      "check": "monthly/annual_preserving/2025-12",
+      "actual": "16958036277757.73",
+      "independent": "16958036277757.727095048296804856187197830090532979",
+      "absolute_error": "0.002904951703195143812802169909467021"
+    },
+    {
+      "check": "power/2023/listed_power_TWh",
+      "actual": "28.7",
+      "independent": "28.7",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "power/2023/generated_power_TWh",
+      "actual": "28.699999999999996",
+      "independent": "28.7",
+      "absolute_error": "4E-15"
+    },
+    {
+      "check": "power/2023/generated_excess_TWh",
+      "actual": "-3.90625E-15",
+      "independent": "0.0",
+      "absolute_error": "3.90625E-15"
+    },
+    {
+      "check": "power/2023/generated_excess_pct",
+      "actual": "-1.1102230246251565E-14",
+      "independent": "0",
+      "absolute_error": "1.1102230246251565E-14"
+    },
+    {
+      "check": "power/2023/annual_preserving_scale",
+      "actual": "1.0000000000000002",
+      "independent": "1",
+      "absolute_error": "2E-16"
+    },
+    {
+      "check": "power/2023/listed_power_cost_usd",
+      "actual": "2307480000.0",
+      "independent": "2307480000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "power/2023/generated_power_cost_usd",
+      "actual": "2307479999.9999995",
+      "independent": "2307480000.00000",
+      "absolute_error": "5E-7"
+    },
+    {
+      "check": "power/2023/cost_difference_usd",
+      "actual": "-4.76837158203125E-7",
+      "independent": "0.00000",
+      "absolute_error": "4.76837158203125E-7"
+    },
+    {
+      "check": "annual-scaled/2023/compute_spending_usd",
+      "actual": "36918605264.00638",
+      "independent": "36918605264.00637",
+      "absolute_error": "0.00001"
+    },
+    {
+      "check": "annual-scaled/2023/physical_bit_ops",
+      "actual": "5.460477392978415E+29",
+      "independent": "5.460477392978414E+29",
+      "absolute_error": "1E+14"
+    },
+    {
+      "check": "annual-scaled/2023/data_center_labor_usd",
+      "actual": "67140569.34929301",
+      "independent": "67140569.349293",
+      "absolute_error": "1E-8"
+    },
+    {
+      "check": "power/2024/listed_power_TWh",
+      "actual": "72.3",
+      "independent": "72.3",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "power/2024/generated_power_TWh",
+      "actual": "72.30000000000003",
+      "independent": "72.3",
+      "absolute_error": "3E-14"
+    },
+    {
+      "check": "power/2024/generated_excess_TWh",
+      "actual": "3.125E-14",
+      "independent": "0.0",
+      "absolute_error": "3.125E-14"
+    },
+    {
+      "check": "power/2024/generated_excess_pct",
+      "actual": "4.440892098500626E-14",
+      "independent": "0",
+      "absolute_error": "4.440892098500626E-14"
+    },
+    {
+      "check": "power/2024/annual_preserving_scale",
+      "actual": "0.9999999999999996",
+      "independent": "1",
+      "absolute_error": "4E-16"
+    },
+    {
+      "check": "power/2024/listed_power_cost_usd",
+      "actual": "5892450000.0",
+      "independent": "5892450000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "power/2024/generated_power_cost_usd",
+      "actual": "5892450000.000003",
+      "independent": "5892450000.00000",
+      "absolute_error": "0.000003"
+    },
+    {
+      "check": "power/2024/cost_difference_usd",
+      "actual": "0.00000286102294921875",
+      "independent": "0.00000",
+      "absolute_error": "0.00000286102294921875"
+    },
+    {
+      "check": "annual-scaled/2024/compute_spending_usd",
+      "actual": "90459761337.75804",
+      "independent": "90459761337.7581",
+      "absolute_error": "0.00006"
+    },
+    {
+      "check": "annual-scaled/2024/physical_bit_ops",
+      "actual": "1.7028819181509255E+30",
+      "independent": "1.7028819181509263E+30",
+      "absolute_error": "8E+14"
+    },
+    {
+      "check": "annual-scaled/2024/data_center_labor_usd",
+      "actual": "164737269.19353116",
+      "independent": "164737269.19353122",
+      "absolute_error": "6E-8"
+    },
+    {
+      "check": "power/2025/listed_power_TWh",
+      "actual": "138.0",
+      "independent": "138",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "power/2025/generated_power_TWh",
+      "actual": "182.1355400696866",
+      "independent": "182.13554006968641114982578397212543554006968641115",
+      "absolute_error": "1.8885017421602787456445993031358885E-13"
+    },
+    {
+      "check": "power/2025/generated_excess_TWh",
+      "actual": "44.13554006968663",
+      "independent": "44.13554006968641114982578397212543554006968641115",
+      "absolute_error": "2.1885017421602787456445993031358885E-13"
+    },
+    {
+      "check": "power/2025/generated_excess_pct",
+      "actual": "31.982275412816396",
+      "independent": "31.982275412816239963641872443569156188456294500830",
+      "absolute_error": "1.56036358127556430843811543705499170E-13"
+    },
+    {
+      "check": "power/2025/annual_preserving_scale",
+      "actual": "0.7576774963700111",
+      "independent": "0.75767749637001199474297389278191950322251109083292",
+      "absolute_error": "8.9474297389278191950322251109083292E-16"
+    },
+    {
+      "check": "power/2025/listed_power_cost_usd",
+      "actual": "11895600000.0",
+      "independent": "11895600000.0000",
+      "absolute_error": "0.0000"
+    },
+    {
+      "check": "power/2025/generated_power_cost_usd",
+      "actual": "15700083554.006987",
+      "independent": "15700083554.006968641114982578397212543554006968641",
+      "absolute_error": "0.000018358885017421602787456445993031359"
+    },
+    {
+      "check": "power/2025/cost_difference_usd",
+      "actual": "3804483554.0069866",
+      "independent": "3804483554.0069686411149825783972125435540069686411",
+      "absolute_error": "0.0000179588850174216027874564459930313589"
+    },
+    {
+      "check": "annual-scaled/2025/compute_spending_usd",
+      "actual": "166058479506.9027",
+      "independent": "166058479506.90289946798436666035364404882836039324",
+      "absolute_error": "0.00019946798436666035364404882836039324"
+    },
+    {
+      "check": "annual-scaled/2025/physical_bit_ops",
+      "actual": "4.049490211455029E+30",
+      "independent": "4049490211455032709032787543832.4638579455128756966",
+      "absolute_error": "3709032787543832.4638579455128756966"
+    },
+    {
+      "check": "annual-scaled/2025/data_center_labor_usd",
+      "actual": "288527659.4875417",
+      "independent": "288527659.48754191791922774516049425227986203176024",
+      "absolute_error": "2.1791922774516049425227986203176024E-7"
+    },
+    {
+      "check": "source/annual_preserving__operations_bridge/2023/Training Compute",
+      "actual": "18459302632.00319",
+      "independent": "18459302632.00319",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "source/annual_preserving__operations_bridge/2023/AI Services Revenue",
+      "actual": "27688953948.004784",
+      "independent": "27688953948.0047850",
+      "absolute_error": "0.0000010"
+    },
+    {
+      "check": "source/annual_preserving__operations_bridge/2023/DC Labor",
+      "actual": "67140569.34929301",
+      "independent": "67140569.34929301",
+      "absolute_error": "0E-8"
+    },
+    {
+      "check": "source/annual_preserving__operations_bridge/2023/Power Costs",
+      "actual": "2307480000.0",
+      "independent": "2307480000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "source/annual_preserving__operations_bridge/2023/AI Services Labor",
+      "actual": "1845930263.200319",
+      "independent": "1845930263.2003190",
+      "absolute_error": "0E-7"
+    },
+    {
+      "check": "source/annual_preserving__operations_bridge/2023/Nominal GDP",
+      "actual": "41927705747.45836",
+      "independent": "41927705747.45836299",
+      "absolute_error": "0.00000299"
+    },
+    {
+      "check": "source/annual_preserving__operations_bridge/2023/Fisher Index",
+      "actual": "100.0",
+      "independent": "100",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "source/annual_preserving__operations_bridge/2023/Real GDP",
+      "actual": "41927705747.45836",
+      "independent": "41927705747.45836299",
+      "absolute_error": "0.00000299"
+    },
+    {
+      "check": "source/annual_preserving__operations_bridge/2024/Training Compute",
+      "actual": "45229880668.87902",
+      "independent": "45229880668.87902",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "source/annual_preserving__operations_bridge/2024/AI Services Revenue",
+      "actual": "67844821003.31853",
+      "independent": "67844821003.3185300",
+      "absolute_error": "0E-7"
+    },
+    {
+      "check": "source/annual_preserving__operations_bridge/2024/DC Labor",
+      "actual": "164737269.19353116",
+      "independent": "164737269.19353116",
+      "absolute_error": "0E-8"
+    },
+    {
+      "check": "source/annual_preserving__operations_bridge/2024/Power Costs",
+      "actual": "5892450000.0",
+      "independent": "5892450000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "source/annual_preserving__operations_bridge/2024/AI Services Labor",
+      "actual": "4522988066.887902",
+      "independent": "4522988066.8879020",
+      "absolute_error": "0E-7"
+    },
+    {
+      "check": "source/annual_preserving__operations_bridge/2024/Nominal GDP",
+      "actual": "102494526336.11612",
+      "independent": "102494526336.11611684",
+      "absolute_error": "0.00000316"
+    },
+    {
+      "check": "source/annual_preserving__operations_bridge/2024/Fisher Index",
+      "actual": "3392.5180711940916",
+      "independent": "3392.5180711940920551442393096118646692143403700179",
+      "absolute_error": "4.551442393096118646692143403700179E-13"
+    },
+    {
+      "check": "source/annual_preserving__operations_bridge/2024/Real GDP",
+      "actual": "1422404994319.6086",
+      "independent": "1422404994319.6089333965972032028784904203358273607",
+      "absolute_error": "0.0003333965972032028784904203358273607"
+    },
+    {
+      "check": "source/annual_preserving__operations_bridge/2025/Training Compute",
+      "actual": "83029239753.45135",
+      "independent": "83029239753.45135",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "source/annual_preserving__operations_bridge/2025/AI Services Revenue",
+      "actual": "124543859630.17703",
+      "independent": "124543859630.177025",
+      "absolute_error": "0.000005"
+    },
+    {
+      "check": "source/annual_preserving__operations_bridge/2025/DC Labor",
+      "actual": "288527659.4875417",
+      "independent": "288527659.4875417",
+      "absolute_error": "0E-7"
+    },
+    {
+      "check": "source/annual_preserving__operations_bridge/2025/Power Costs",
+      "actual": "11895600000.0",
+      "independent": "11895600000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "source/annual_preserving__operations_bridge/2025/AI Services Labor",
+      "actual": "8302923975.345136",
+      "independent": "8302923975.345135",
+      "absolute_error": "0.000001"
+    },
+    {
+      "check": "source/annual_preserving__operations_bridge/2025/Nominal GDP",
+      "actual": "187086047748.79572",
+      "independent": "187086047748.7956983",
+      "absolute_error": "0.0000217"
+    },
+    {
+      "check": "source/annual_preserving__operations_bridge/2025/Fisher Index",
+      "actual": "91470.97176783829",
+      "independent": "91470.971767838341750440267962330029089185860201094",
+      "absolute_error": "5.1750440267962330029089185860201094E-11"
+    },
+    {
+      "check": "source/annual_preserving__operations_bridge/2025/Real GDP",
+      "actual": "38351679887159.945",
+      "independent": "38351679887159.972992945964309857783751929499658047",
+      "absolute_error": "0.027992945964309857783751929499658047"
+    },
+    {
+      "check": "source/annual_preserving__released/2023/Training Compute",
+      "actual": "18459302632.00319",
+      "independent": "18459302632.00319",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "source/annual_preserving__released/2023/AI Services Revenue",
+      "actual": "27688953948.004784",
+      "independent": "27688953948.0047850",
+      "absolute_error": "0.0000010"
+    },
+    {
+      "check": "source/annual_preserving__released/2023/DC Labor",
+      "actual": "67140569.34929301",
+      "independent": "67140569.34929301",
+      "absolute_error": "0E-8"
+    },
+    {
+      "check": "source/annual_preserving__released/2023/Power Costs",
+      "actual": "2307480000.0",
+      "independent": "2307480000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "source/annual_preserving__released/2023/AI Services Labor",
+      "actual": "1845930263.200319",
+      "independent": "1845930263.2003190",
+      "absolute_error": "0E-7"
+    },
+    {
+      "check": "source/annual_preserving__released/2023/Nominal GDP",
+      "actual": "41927705747.45836",
+      "independent": "41927705747.45836299",
+      "absolute_error": "0.00000299"
+    },
+    {
+      "check": "source/annual_preserving__released/2023/Fisher Index",
+      "actual": "100.0",
+      "independent": "100",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "source/annual_preserving__released/2023/Real GDP",
+      "actual": "41927705747.45836",
+      "independent": "41927705747.45836299",
+      "absolute_error": "0.00000299"
+    },
+    {
+      "check": "source/annual_preserving__released/2024/Training Compute",
+      "actual": "45229880668.87902",
+      "independent": "45229880668.87902",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "source/annual_preserving__released/2024/AI Services Revenue",
+      "actual": "67844821003.31853",
+      "independent": "67844821003.3185300",
+      "absolute_error": "0E-7"
+    },
+    {
+      "check": "source/annual_preserving__released/2024/DC Labor",
+      "actual": "164737269.19353116",
+      "independent": "164737269.19353116",
+      "absolute_error": "0E-8"
+    },
+    {
+      "check": "source/annual_preserving__released/2024/Power Costs",
+      "actual": "5892450000.0",
+      "independent": "5892450000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "source/annual_preserving__released/2024/AI Services Labor",
+      "actual": "4522988066.887902",
+      "independent": "4522988066.8879020",
+      "absolute_error": "0E-7"
+    },
+    {
+      "check": "source/annual_preserving__released/2024/Nominal GDP",
+      "actual": "102494526336.11612",
+      "independent": "102494526336.11611684",
+      "absolute_error": "0.00000316"
+    },
+    {
+      "check": "source/annual_preserving__released/2024/Fisher Index",
+      "actual": "2699.487565689048",
+      "independent": "2699.4875656890480793521377539682281817572536153376",
+      "absolute_error": "7.93521377539682281817572536153376E-14"
+    },
+    {
+      "check": "source/annual_preserving__released/2024/Real GDP",
+      "actual": "1131833203231.3308",
+      "independent": "1131833203231.3308636368899163169495591547172440112",
+      "absolute_error": "0.0000636368899163169495591547172440112"
+    },
+    {
+      "check": "source/annual_preserving__released/2025/Training Compute",
+      "actual": "83029239753.45135",
+      "independent": "83029239753.45135",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "source/annual_preserving__released/2025/AI Services Revenue",
+      "actual": "124543859630.17703",
+      "independent": "124543859630.177025",
+      "absolute_error": "0.000005"
+    },
+    {
+      "check": "source/annual_preserving__released/2025/DC Labor",
+      "actual": "288527659.4875417",
+      "independent": "288527659.4875417",
+      "absolute_error": "0E-7"
+    },
+    {
+      "check": "source/annual_preserving__released/2025/Power Costs",
+      "actual": "11895600000.0",
+      "independent": "11895600000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "source/annual_preserving__released/2025/AI Services Labor",
+      "actual": "8302923975.345136",
+      "independent": "8302923975.345135",
+      "absolute_error": "0.000001"
+    },
+    {
+      "check": "source/annual_preserving__released/2025/Nominal GDP",
+      "actual": "187086047748.79572",
+      "independent": "187086047748.7956983",
+      "absolute_error": "0.0000217"
+    },
+    {
+      "check": "source/annual_preserving__released/2025/Fisher Index",
+      "actual": "55941.197654536045",
+      "independent": "55941.197654536048190434122063416882561956520757013",
+      "absolute_error": "3.190434122063416882561956520757013E-12"
+    },
+    {
+      "check": "source/annual_preserving__released/2025/Real GDP",
+      "actual": "23454860744197.95",
+      "independent": "23454860744197.953629538478201745749990367812308155",
+      "absolute_error": "0.003629538478201745749990367812308155"
+    },
+    {
+      "check": "source/released__operations_bridge/2023/Training Compute",
+      "actual": "18459302632.003185",
+      "independent": "18459302632.003185",
+      "absolute_error": "0.000000"
+    },
+    {
+      "check": "source/released__operations_bridge/2023/AI Services Revenue",
+      "actual": "27688953948.004776",
+      "independent": "27688953948.0047775",
+      "absolute_error": "0.0000015"
+    },
+    {
+      "check": "source/released__operations_bridge/2023/DC Labor",
+      "actual": "67140569.349293",
+      "independent": "67140569.349293",
+      "absolute_error": "0.000000"
+    },
+    {
+      "check": "source/released__operations_bridge/2023/Power Costs",
+      "actual": "2307480000.0",
+      "independent": "2307480000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "source/released__operations_bridge/2023/AI Services Labor",
+      "actual": "1845930263.2003186",
+      "independent": "1845930263.2003185",
+      "absolute_error": "1E-7"
+    },
+    {
+      "check": "source/released__operations_bridge/2023/Nominal GDP",
+      "actual": "41927705747.45835",
+      "independent": "41927705747.4583510",
+      "absolute_error": "0.0000010"
+    },
+    {
+      "check": "source/released__operations_bridge/2023/Fisher Index",
+      "actual": "100.0",
+      "independent": "100",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "source/released__operations_bridge/2023/Real GDP",
+      "actual": "41927705747.45835",
+      "independent": "41927705747.4583510",
+      "absolute_error": "0.0000010"
+    },
+    {
+      "check": "source/released__operations_bridge/2024/Training Compute",
+      "actual": "45229880668.87905",
+      "independent": "45229880668.87905",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "source/released__operations_bridge/2024/AI Services Revenue",
+      "actual": "67844821003.31857",
+      "independent": "67844821003.318575",
+      "absolute_error": "0.000005"
+    },
+    {
+      "check": "source/released__operations_bridge/2024/DC Labor",
+      "actual": "164737269.19353122",
+      "independent": "164737269.19353122",
+      "absolute_error": "0E-8"
+    },
+    {
+      "check": "source/released__operations_bridge/2024/Power Costs",
+      "actual": "5892450000.0",
+      "independent": "5892450000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "source/released__operations_bridge/2024/AI Services Labor",
+      "actual": "4522988066.887905",
+      "independent": "4522988066.887905",
+      "absolute_error": "0.000000"
+    },
+    {
+      "check": "source/released__operations_bridge/2024/Nominal GDP",
+      "actual": "102494526336.11618",
+      "independent": "102494526336.11618878",
+      "absolute_error": "0.00000878"
+    },
+    {
+      "check": "source/released__operations_bridge/2024/Fisher Index",
+      "actual": "3392.518071194095",
+      "independent": "3392.5180711940947387899904993018922224683132756211",
+      "absolute_error": "2.612100095006981077775316867243789E-13"
+    },
+    {
+      "check": "source/released__operations_bridge/2024/Real GDP",
+      "actual": "1422404994319.6096",
+      "independent": "1422404994319.6096518247743300127447695930482265372",
+      "absolute_error": "0.0000518247743300127447695930482265372"
+    },
+    {
+      "check": "source/released__operations_bridge/2025/Training Compute",
+      "actual": "109583879884.5678",
+      "independent": "109583879884.5678",
+      "absolute_error": "0.0000"
+    },
+    {
+      "check": "source/released__operations_bridge/2025/AI Services Revenue",
+      "actual": "164375819826.85168",
+      "independent": "164375819826.851700",
+      "absolute_error": "0.000020"
+    },
+    {
+      "check": "source/released__operations_bridge/2025/DC Labor",
+      "actual": "380805370.1870002",
+      "independent": "380805370.1870002",
+      "absolute_error": "0E-7"
+    },
+    {
+      "check": "source/released__operations_bridge/2025/Power Costs",
+      "actual": "11895600000.0",
+      "independent": "11895600000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "source/released__operations_bridge/2025/AI Services Labor",
+      "actual": "10958387988.45678",
+      "independent": "10958387988.456780",
+      "absolute_error": "0.000000"
+    },
+    {
+      "check": "source/released__operations_bridge/2025/Nominal GDP",
+      "actual": "250724906352.7757",
+      "independent": "250724906352.7757198",
+      "absolute_error": "0.0000198"
+    },
+    {
+      "check": "source/released__operations_bridge/2025/Fisher Index",
+      "actual": "121725.11092022035",
+      "independent": "121725.11092022036403052662297115959520716907733621",
+      "absolute_error": "1.403052662297115959520716907733621E-11"
+    },
+    {
+      "check": "source/released__operations_bridge/2025/Real GDP",
+      "actual": "51036546327397.28",
+      "independent": "51036546327397.286417845370974581462833872705510529",
+      "absolute_error": "0.006417845370974581462833872705510529"
+    },
+    {
+      "check": "source/released__released/2023/Training Compute",
+      "actual": "18459302632.003185",
+      "independent": "18459302632.003185",
+      "absolute_error": "0.000000"
+    },
+    {
+      "check": "source/released__released/2023/AI Services Revenue",
+      "actual": "27688953948.004776",
+      "independent": "27688953948.0047775",
+      "absolute_error": "0.0000015"
+    },
+    {
+      "check": "source/released__released/2023/DC Labor",
+      "actual": "67140569.349293",
+      "independent": "67140569.349293",
+      "absolute_error": "0.000000"
+    },
+    {
+      "check": "source/released__released/2023/Power Costs",
+      "actual": "2307480000.0",
+      "independent": "2307480000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "source/released__released/2023/AI Services Labor",
+      "actual": "1845930263.2003186",
+      "independent": "1845930263.2003185",
+      "absolute_error": "1E-7"
+    },
+    {
+      "check": "source/released__released/2023/Nominal GDP",
+      "actual": "41927705747.45835",
+      "independent": "41927705747.4583510",
+      "absolute_error": "0.0000010"
+    },
+    {
+      "check": "source/released__released/2023/Fisher Index",
+      "actual": "100.0",
+      "independent": "100",
+      "absolute_error": "0.0"
+    },
+    {
+      "check": "source/released__released/2023/Real GDP",
+      "actual": "41927705747.45835",
+      "independent": "41927705747.4583510",
+      "absolute_error": "0.0000010"
+    },
+    {
+      "check": "source/released__released/2024/Training Compute",
+      "actual": "45229880668.87905",
+      "independent": "45229880668.87905",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "source/released__released/2024/AI Services Revenue",
+      "actual": "67844821003.31857",
+      "independent": "67844821003.318575",
+      "absolute_error": "0.000005"
+    },
+    {
+      "check": "source/released__released/2024/DC Labor",
+      "actual": "164737269.19353122",
+      "independent": "164737269.19353122",
+      "absolute_error": "0E-8"
+    },
+    {
+      "check": "source/released__released/2024/Power Costs",
+      "actual": "5892450000.0",
+      "independent": "5892450000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "source/released__released/2024/AI Services Labor",
+      "actual": "4522988066.887905",
+      "independent": "4522988066.887905",
+      "absolute_error": "0.000000"
+    },
+    {
+      "check": "source/released__released/2024/Nominal GDP",
+      "actual": "102494526336.11618",
+      "independent": "102494526336.11618878",
+      "absolute_error": "0.00000878"
+    },
+    {
+      "check": "source/released__released/2024/Fisher Index",
+      "actual": "2699.4875656890504",
+      "independent": "2699.4875656890508937288151304385782070379632956562",
+      "absolute_error": "4.937288151304385782070379632956562E-13"
+    },
+    {
+      "check": "source/released__released/2024/Real GDP",
+      "actual": "1131833203231.3315",
+      "independent": "1131833203231.3317199719027057018162626558622227823",
+      "absolute_error": "0.0002199719027057018162626558622227823"
+    },
+    {
+      "check": "source/released__released/2025/Training Compute",
+      "actual": "109583879884.5678",
+      "independent": "109583879884.5678",
+      "absolute_error": "0.0000"
+    },
+    {
+      "check": "source/released__released/2025/AI Services Revenue",
+      "actual": "164375819826.85168",
+      "independent": "164375819826.851700",
+      "absolute_error": "0.000020"
+    },
+    {
+      "check": "source/released__released/2025/DC Labor",
+      "actual": "380805370.1870002",
+      "independent": "380805370.1870002",
+      "absolute_error": "0E-7"
+    },
+    {
+      "check": "source/released__released/2025/Power Costs",
+      "actual": "11895600000.0",
+      "independent": "11895600000.00000",
+      "absolute_error": "0.00000"
+    },
+    {
+      "check": "source/released__released/2025/AI Services Labor",
+      "actual": "10958387988.45678",
+      "independent": "10958387988.456780",
+      "absolute_error": "0.000000"
+    },
+    {
+      "check": "source/released__released/2025/Nominal GDP",
+      "actual": "250724906352.7757",
+      "independent": "250724906352.7757198",
+      "absolute_error": "0.0000198"
+    },
+    {
+      "check": "source/released__released/2025/Fisher Index",
+      "actual": "74445.23177799903",
+      "independent": "74445.231777999045199527282111648345814770530221948",
+      "absolute_error": "1.5199527282111648345814770530221948E-11"
+    },
+    {
+      "check": "source/released__released/2025/Real GDP",
+      "actual": "31213177722892.79",
+      "independent": "31213177722892.796420034104282420971737441538884256",
+      "absolute_error": "0.006420034104282420971737441538884256"
+    }
+  ],
+  "own_sha256": "9f642c8df09f4bb8ccefe5ac5f81cd4f64ff1a5f977cd4fb1b29d63a261e8188"
+}

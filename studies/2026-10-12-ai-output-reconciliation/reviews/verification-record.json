@@ -1,0 +1,109 @@
+{
+  "review_started_utc": "2026-10-12T18:22:33.975220+00:00",
+  "review_completed_utc": "2026-10-12T18:29:47.308229+00:00",
+  "reviewer_role": "Separate AI agent; prior static-source feasibility and manuscript-wording advice; shared context; no central-analysis authorship",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "review_start_file_count": 55,
+  "reviewed_files_unchanged_since_start": true,
+  "reviewed_sha256": {
+    "README.md": "8ad5457fd662b329df8b131ebe73f03caff527b566d5be9ea08c23fd35ac1b3b",
+    "REPRODUCTION.md": "240a28986228017a25f4967b99e7847c523994ee833d0d14ecd11c62e7ba103d",
+    "code/analyze.py": "bd87f0fb37f5aaaba8a84e5fb1ec2313c0d8e2a9c8a249c40c81afed3faa8b2b",
+    "code/check_printed.py": "f07ec8b29b26afccc25d18ec63c1718cbac34fd50c071a27b1847a7dd12ef2b5",
+    "code/check_private_controls.py": "c79175f2de46ff38245275ce2e5213e3ab25308c5d7baed33c53a6fe88959d7c",
+    "code/reproduce_private.py": "6a9068cfc52b997f96cc11e2ea93ee44f7bdcc3332022de85f982ab2e67cd1d7",
+    "code/requirements-private.txt": "ae5b4b6744761da428166aa3718bd8c05d3d7abb1eeb44162f3be527f57269a3",
+    "code/source_check.py": "d1d35b77dcf16ba3db68d63e06b9c31508752cf568dd5804c3368f5b0c17cea2",
+    "code/source_retrieve.py": "29fc066fba05d3402b27b062423c49f82d274192b1f154038d3797bae0a912fd",
+    "code/test_analysis.py": "4cd1ebda8b3e9962a5d6e7c04e66ec8e8102185c8329c10381ad760b7bdd7262",
+    "code/verify.py": "6321bd802bacf751f504a363300654d0cb4e8fe55a0b0bbf205c5f14e9b367d4",
+    "data/raw/README.md": "124919575455ac2a212128e999f144597c566132f5b4c48d419b0f2208acefc7",
+    "data/raw/annual-inputs.csv": "cb2577ef91e1dde7555651fa7ce8313960ae4b4a81edc553ad00f2d97ec2bc9a",
+    "data/raw/monthly-power.csv": "8ce604eb44988918e172e39aba0b248787a4083ed7a1a6d6dd14081ebafe2159",
+    "data/raw/parameters.json": "b3d264ea5c2bca519241e184653b6a230699007fe50c512e1a1e0d58d6139ce0",
+    "data/raw/printed-targets.csv": "8efcdc96972d3f041ebd3ddce5c099f77b132a5f12d98776485950c31bbe8134",
+    "data/raw/source-case-outputs.json": "d537315e65631dc598306b4d1be094eedb5692c63e872104922ab75687c1c446",
+    "data/raw/source-control.json": "10500d516b3c17dfa7e2068006a6660b257b58e089db2f7f10e8813a41eb5879",
+    "evidence/shortquotes.csv": "b3ec005d3873a7d9b6b2acb0ce92e9994c84d04de961d8e8d70e3b93808fd49f",
+    "evidence/source-defaults.json": "5b3ff7f8a9ffb5c7ba55782dacf7ca9127874fa07750e396994dee167ebafa63",
+    "logs/duplicate-check.json": "544a330d3cf387c45ce154272d08c8c0652cb2727604f97e2f97a3e060835841",
+    "logs/execution-repeat-preflight-failure.json": "2a91ca1bc5831933c8cbf85265c57fd08720fe470d556658ce7be68ffc7a3fbc",
+    "logs/execution-run-01.json": "e04040e718ad4d63c0cd0ecccc85e2cbcc9545d0fdc0f6ddef2f721d1055a222",
+    "logs/execution-run-02.json": "f75a89268d6a0226c735cc53727ba5b4250d5fd878b98c6682fd0ab12a9adcc1",
+    "logs/numerical-manifest.json": "01de0b572c24bfe30ae6de28bdb384d566f7ae1df72af0786606e839a5c7b7d0",
+    "logs/numerical-private-control.json": "3e5ab0392e790892c12e8345ab4fb11dd2409e6b327e3202b02e82b8ed687340",
+    "logs/numerical-tests.txt": "9fdfc1fc2ed069bf114f94f775504ec0259e9c243c6f575eb98507dfef3d843a",
+    "logs/numerical-verification.json": "b7ca3edaa03a23ee8eb574440b33b49b9b1f72f12885803b501ad4fad8ec74c0",
+    "logs/repository-check.json": "296e689a7f12374d76e200837dd4759cda297f929276a7560b80d2e1b4286ab6",
+    "logs/source-acquisitions.json": "31f3a11189951bbebe3d604ce5248e1b11ed191e3c8c5c7c5c8a67c69b318d69",
+    "logs/source-bell-archive-check.json": "e1417792a401cd71e5cba5f1dbd6d8ceafd7c69177e23c53eee574cfa1fa0c84",
+    "logs/source-check-local.json": "e6a510f0e72fed17ad08a90ce0cfb87632b337f3de917d2518ebd1960aa81cf3",
+    "logs/source-check-public.json": "c1cf2e3383fe5039f28c763e2b84a5d5b89e326eb5205ad771b662ef5d335e28",
+    "logs/source-completion.json": "2dff97be80ff056ba0d989b6a4e9729f5be113e4bf1f5ea575e728844aa8f032",
+    "logs/source-fresh-recheck.json": "18e459e51de0f384396bc8589b822bb58d5e59a58fe90338f3dcc80feea03e67",
+    "logs/source-metadata-captures.json": "44f27c68edd326056dabc7e7fd81b57bc476e3ed8a1dc9f10482acd2e528913c",
+    "logs/source-migration.json": "bbfe63a80a1265a054825ad1cb11d4377381826b7144b94c07b9c26a69e6f8bd",
+    "logs/source-searches.json": "380dbbe4c82978060b836bccb3830d2726e9a3a3140fa7e0e09728934e4f7299",
+    "paper.md": "3eb26000443b7c6c0b27eea4300e7221892aafd3daaa707174242f836f25a182",
+    "protocol.md": "f0d6c33785243a6220af8c9f4ee998b31a6a4eb7964006dc1d1f5c4ebdd6ce60",
+    "results/README.md": "b09a6714ccc65627153a9a4af3e27d691d3957142532f45afc714bd9acb81489",
+    "results/cases.csv": "6be1c4dfb3ee160a9fb7af26fd449eb5fe8b5dfcb8aa11ff5798505438bbd71f",
+    "results/component-prices.csv": "2d895d1f8a5818c1b733060a2a311f9f903f78b406aeac9c1c6991565208fddb",
+    "results/factorial-effects.csv": "c05a462f0421b923524d3a7a61b4af8ef8d0611d32083b73f978d05328c79415",
+    "results/power-ledger.csv": "c9ca2e584ce280dfe9826813494eda45bdb24752b0151662a93c09bac5d27e20",
+    "results/printed-cell-checks.csv": "8121a6b0be42c92221d785f7b3b711c64c9de5d09c6e0705db34bc9a289770fc",
+    "results/printed-check-summary.json": "5af30af6fe41202a74128d6e018aa8fd68dcd7f8e1ae846edc2afc02baafe972",
+    "results/source-comparison.csv": "ba745fc95df55056de3efc73ac8aed5f2efac4c3687cbd0f0ceb660117aa8c3b",
+    "results/summary.json": "c42f16ed25d4f38c73de445e06413e9d8d04505b9d4f0827fc840bc3336d3d92",
+    "results/training-reconciliation.csv": "5132ea33a8fef3b306dbfb273aaa30dfbfbdfda9d2458aa50943129fc8fb62cb",
+    "sources/README.md": "6f4b72636ecc4b998fb6c6c72ec05d6d507b9206ef31beec7f944e976c0b7e24",
+    "sources/archive-members.json": "66e3b80c0544859c71ae3f66ed16f308cc382ddea0cc0b2ad2f12e2f62314701",
+    "sources/bell-archive-members.json": "a5ad7ac190bf3673eee89cc5dade137052a738ba99cb3a0e609e72743c92da7d",
+    "sources/manifest.csv": "39ae722b79e12ee074a1c8dd1af84949466167c4ed00e6992b82084a6e2a0dcb",
+    "sources/manifest.json": "cc2e42c99303c57a81a950b87321de5af650b998bfb8225b1b0a5f09beee54c9"
+  },
+  "numerical_manifest_sha256": "01de0b572c24bfe30ae6de28bdb384d566f7ae1df72af0786606e839a5c7b7d0",
+  "numerical_manifest_entries_checked": 31,
+  "review_evidence_sha256": {
+    "public-reconstruction.json": "9f1597994ca4e0272eeec030d33ae72877dbb74ba116f9987bd5239054d8bca5",
+    "private-record-check.json": "4105a64317baad28e4421e3c5e3a6add4cdfbdfadb97792156bac17770015b49",
+    "independent_checks.py": "9f642c8df09f4bb8ccefe5ac5f81cd4f64ff1a5f977cd4fb1b29d63a261e8188",
+    "independent-check-results.json": "df5fe3ed161c4503e4bf5da92071b9a5efb834d03895bb636317991db0c19bb0",
+    "review-start.json": "d614711e71b5bdb9c88e7d38bbca6ff22f50f71686c1e85aefdfde4f44711b95"
+  },
+  "command": [
+    "python3",
+    "studies/2026-10-12-ai-output-reconciliation/reviews/independent_checks.py"
+  ],
+  "review_script_development": [
+    {
+      "attempt": 1,
+      "status": "failed",
+      "error": "KeyError: dc_labor_usd; reviewer used an output column name for the raw data field. No central code or output was changed.",
+      "timestamp_note": "Exact first-attempt UTC was not saved."
+    },
+    {
+      "attempt": 2,
+      "status": "passed",
+      "changes": "Used the actual raw field data_center_labor_usd and the saved contrast labels. Both changes affect only reviewer code.",
+      "completed_utc": "2026-10-12T18:27:54.439786+00:00"
+    }
+  ],
+  "findings": [
+    {
+      "id": "R1",
+      "severity": "minor reporting correction required before release",
+      "location": "paper.md Section 4.4, line 102",
+      "finding": "The paragraph attributes the geometric electricity positive control to the 21 public tests. That check is a separate source-function run.",
+      "requested_change": "Say 21 tests and a separate source-function control.",
+      "status": "author accepted; frozen paper not changed during review"
+    }
+  ],
+  "decision": "No unresolved central calculation or interpretation blocker. Release needs R1 and an exact review of the release-only diff.",
+  "limits": [
+    "No human or blind peer review. Prior source feasibility and wording feedback, shared context, no central model authorship.",
+    "No fresh full source execution in this review. Retained source runs and bytes checked; public reconstruction executed in isolated copy.",
+    "Independent Decimal calculation accepts source aggregate inputs and does not validate the GPU microdata or economic assumptions.",
+    "Pinned source evidence, not a new exhaustive literature search or empirical welfare/fiscal estimate."
+  ]
+}

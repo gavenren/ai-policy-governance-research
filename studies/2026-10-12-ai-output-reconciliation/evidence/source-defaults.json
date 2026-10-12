@@ -1,0 +1,50 @@
+{
+  "method": "Manual transcription from frozen C1 source. Source inputs, not newly verified observations. No source code execution.",
+  "source_id": "C1",
+  "members": [
+    "replication/config.py",
+    "replication/main.py"
+  ],
+  "years": [
+    2023,
+    2024,
+    2025
+  ],
+  "annual_facility_power_Wh": [
+    28700000000000.0,
+    72300000000000.0,
+    138000000000000.0
+  ],
+  "power_price_USD_per_kWh": [
+    0.0804,
+    0.0815,
+    0.0862
+  ],
+  "inference_share": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "AI_services_revenue_multiplier": 1.5,
+  "AI_services_labor_share_of_inference_spending": 0.1,
+  "inference_price_ratio_expression": "2.2 / 35",
+  "training_algorithm_ratio_expression": "(0.5) ** (1 / (8 / 12))",
+  "PUE": 1.3,
+  "sellable_fraction": 0.9,
+  "TDP_adjustment": 0.9,
+  "staff_per_sqft_expression": "50 / 100_000",
+  "annual_salary_USD": 100000,
+  "hours_per_year": 8760,
+  "H100_price_factor_USD_per_hour": 1.8,
+  "H100_operations_per_year_expression": "15832000000000000 * 60 * 60 * 24 * 365",
+  "coverage": {
+    "Hopper": 0.3,
+    "A100": 0.12,
+    "V100": 0.1,
+    "MI300": 0.18,
+    "Google_TPU": 0.04,
+    "other": 0.1
+  },
+  "excluded_pipeline": "The 8000 operational-hours constant belongs to the chip-sales pipeline, not the fixed main design.",
+  "other_inputs": "GPU specifications, cluster dates, rental prices and fractions remain in C1; all file hashes appear in sources/archive-members.json."
+}

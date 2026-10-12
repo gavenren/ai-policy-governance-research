@@ -1,0 +1,7 @@
+source_id,locator,quote,word_count
+O1,"Annex A, paragraph 58; PDF page 29",the volume change of research output is measured by the volume change of its inputs.,15
+P2,"Section 6.6, PDF page 22",This deflator is applied to training compute spending in the GDP quantity index,13
+Z1,"Review-method note, PDF page 2",They are intended as a disciplined first stress test of the headline estimate.,13
+Z3,"Section 10, PDF page 7",The next step is to build uncertainty into the framework.,10
+C1,"replication/results.py, print_quality_adjusted_indices docstring",Training: compute growth deflated by algorithmic progress,7
+B1,Footnote 2; printed page 8 / PDF page 9,we hold rental prices constant over time for a given GPU type,12

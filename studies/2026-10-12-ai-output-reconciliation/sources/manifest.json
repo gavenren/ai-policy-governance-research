@@ -1,0 +1,264 @@
+[
+  {
+    "id": "Z1",
+    "title": "How Robust Is 2,600% AI GDP Growth? A First-Pass Sensitivity Audit of Korinek and McKelvey\u2019s AI Economy Estimate",
+    "authors": "Peter Bell",
+    "version": "Cover 1 June 2026, v02 DOI metadata patch; Zenodo posting 2 June 2026",
+    "language": "English",
+    "type": "research paper or appendix",
+    "requested_url": "https://zenodo.org/api/records/20501770/files/MANUSCRIPT_AI_GDP_SensitivityAudit_v02_DOI_METADATA_PATCH.pdf/content",
+    "retrieval_start_utc": "2026-10-12T18:04:27.680103+00:00",
+    "retrieval_end_utc": "2026-10-12T18:04:30.332712+00:00",
+    "method": "curl HTTPS GET",
+    "provenance": "This agent capture",
+    "read_scope": "All eight pages read before protocol. At original cutoff the associated ZIP was not checked; see later source Z1C for its inspection.",
+    "snapshot": {
+      "path": ".local-sources/next-design-screen/Z1.pdf",
+      "bytes": 97028,
+      "sha256": "8ef956e5524b8b40462b8a4b9c0d51a452bf1f9b3656495e1817ae4bff6ab977"
+    },
+    "text_snapshot": {
+      "path": ".local-sources/next-design-screen/Z1.txt",
+      "bytes": 18762,
+      "sha256": "48ebbe9417c39e06adc679e0290d2d2e0c79a7ea5f8649ed33994e1e4e10cd08"
+    },
+    "text_method": "pypdf 6.10.0 default extract_text; page markers added",
+    "rights": "Zenodo metadata states CC BY 4.0; retained privately, only narrow extract published",
+    "final_url": "https://zenodo.org/api/records/20501770/files/MANUSCRIPT_AI_GDP_SensitivityAudit_v02_DOI_METADATA_PATCH.pdf/content",
+    "http_status": 200,
+    "retained_media_type": "application/pdf",
+    "source_cutoff_relation": "Original source used in feasibility screen before protocol; later copy checks recorded separately"
+  },
+  {
+    "id": "Z2",
+    "title": "Beyond Task Exposure: Engineering Leverage, Capability Realization, and Bottleneck Migration in AI-Enabled Production",
+    "authors": "Peter Bell",
+    "version": "July 2026 cover; Zenodo posting 20 July 2026; archival edition",
+    "language": "English",
+    "type": "research paper or appendix",
+    "requested_url": "https://zenodo.org/api/records/21448572/files/05_BEYOND_TASK_EXPOSURE_DOI_EMBEDDED_ARCHIVAL_v01.pdf/content",
+    "retrieval_start_utc": "2026-10-12T18:04:27.680435+00:00",
+    "retrieval_end_utc": "2026-10-12T18:04:31.936338+00:00",
+    "method": "curl HTTPS GET",
+    "provenance": "This agent capture",
+    "read_scope": "Metadata, pages 1\u20134 and page 24 accounting passage; keyword search. Not full 39-page reading.",
+    "snapshot": {
+      "path": ".local-sources/next-design-screen/Z2.pdf",
+      "bytes": 1069971,
+      "sha256": "ae4962ce6f6da8748eaebf028a17ab26879cd3ef66b1c72c0545c0126121b5ae"
+    },
+    "text_snapshot": {
+      "path": ".local-sources/next-design-screen/Z2.txt",
+      "bytes": 123544,
+      "sha256": "96ba0bc29f3bc9600f5d6dd61eb0b88615a0468309e2c41556eac0a12dd685a5"
+    },
+    "text_method": "pypdf 6.10.0 default extract_text; page markers added",
+    "rights": "Zenodo metadata states CC BY 4.0; retained privately, only narrow extract published",
+    "final_url": "https://zenodo.org/api/records/21448572/files/05_BEYOND_TASK_EXPOSURE_DOI_EMBEDDED_ARCHIVAL_v01.pdf/content",
+    "http_status": 200,
+    "retained_media_type": "application/pdf",
+    "source_cutoff_relation": "Original source used in feasibility screen before protocol; later copy checks recorded separately"
+  },
+  {
+    "id": "O1",
+    "title": "Productivity measurement, R&D assets and mark-ups in OECD countries",
+    "authors": "Paul Schreyer; Belen Zinni",
+    "version": "25 October 2018; SDD/DOC(2018)6; replaces 24 October version",
+    "language": "English",
+    "type": "research paper or appendix",
+    "requested_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2018/10/productivity-measurement-r-d-assets-and-mark-ups-in-oecd-countries_fa1b9661/fb3c2e6f-en.pdf",
+    "retrieval_start_utc": "2026-10-12T18:04:27.680650+00:00",
+    "retrieval_end_utc": "2026-10-12T18:04:28.511374+00:00",
+    "method": "curl HTTPS GET",
+    "provenance": "This agent capture",
+    "read_scope": "Introduction and Annex A paragraphs 55\u201361, especially 57\u201358 and footnote 14. Not the full empirical country study.",
+    "snapshot": {
+      "path": ".local-sources/next-design-screen/O1.pdf",
+      "bytes": 1718242,
+      "sha256": "f578bfdb5dad73c379c99c2e42f32c3c85ad0fd966be8de58b70a33f695f24b7"
+    },
+    "text_snapshot": {
+      "path": ".local-sources/next-design-screen/O1.txt",
+      "bytes": 88661,
+      "sha256": "e110506fdddb9bcc0b2cfb9948d2125c836aff25fdc8d30f88979dc4eb76afe8"
+    },
+    "text_method": "pypdf 6.10.0 default extract_text; page markers added",
+    "rights": "No redistribution licence identified; source retained privately, only narrow extract published",
+    "final_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2018/10/productivity-measurement-r-d-assets-and-mark-ups-in-oecd-countries_fa1b9661/fb3c2e6f-en.pdf",
+    "http_status": 200,
+    "retained_media_type": "application/pdf",
+    "source_cutoff_relation": "Original source used in feasibility screen before protocol; later copy checks recorded separately",
+    "doi": "https://doi.org/10.1787/fb3c2e6f-en"
+  },
+  {
+    "id": "Z3",
+    "title": "Measuring the AI Economy Before GDP Can See It: A Review and Extension of Korinek and McKelvey",
+    "authors": "Peter Bell",
+    "version": "Cover 1 June 2026, v03 DOI metadata and transcript patch; Zenodo posting 2 June 2026",
+    "language": "English",
+    "type": "research paper or appendix",
+    "requested_url": "https://zenodo.org/api/records/20500501/files/MANUSCRIPT_PIIE_AI_GDP_ReviewExtension_v03_DOI_METADATA_PATCH.pdf/content",
+    "retrieval_start_utc": "2026-10-12T18:07:30.281220+00:00",
+    "retrieval_end_utc": "2026-10-12T18:07:31.725874+00:00",
+    "method": "curl HTTPS GET",
+    "provenance": "This agent capture",
+    "read_scope": "All eight pages read. Associated ZIP not acquired or checked.",
+    "snapshot": {
+      "path": ".local-sources/next-design-screen/Z3.pdf",
+      "bytes": 109536,
+      "sha256": "649b8a6a6fcd34aa10d6ab7a7f995c1811753327457f171514778644a10dd700"
+    },
+    "text_snapshot": {
+      "path": ".local-sources/next-design-screen/Z3.txt",
+      "bytes": 19146,
+      "sha256": "321add591e8680d8080249a96c4b3eefc49a11892a11b44c3f2091d0a9d01037"
+    },
+    "text_method": "pypdf 6.10.0 default extract_text; page markers added",
+    "rights": "Zenodo metadata states CC BY 4.0; retained privately, only narrow extract published",
+    "final_url": "https://zenodo.org/api/records/20500501/files/MANUSCRIPT_PIIE_AI_GDP_ReviewExtension_v03_DOI_METADATA_PATCH.pdf/content",
+    "http_status": 200,
+    "retained_media_type": "application/pdf",
+    "source_cutoff_relation": "Original source used in feasibility screen before protocol; later copy checks recorded separately"
+  },
+  {
+    "id": "P2",
+    "title": "Measuring the AI Economy: Conceptual Framework and Implementation",
+    "authors": "Patrick McKelvey; Leopold Brown; Yuval Rhymon; Anton Korinek",
+    "version": "11 May 2026; publisher appendix to WP26-9",
+    "language": "English",
+    "type": "research paper or appendix",
+    "requested_url": "https://www.piie.com/sites/default/files/2026-05/wp26-9-appendix.pdf",
+    "retrieval_start_utc": "2026-10-12T18:07:30.281639+00:00",
+    "retrieval_end_utc": "2026-10-12T18:07:30.400952+00:00",
+    "method": "curl HTTPS GET",
+    "provenance": "This agent capture",
+    "read_scope": "Sections 6.6, 7.5, 8.2\u20138.3, selected Sections 9.2\u20139.3. Same relevant formulas as B2; byte files differ.",
+    "snapshot": {
+      "path": ".local-sources/next-design-screen/P2.pdf",
+      "bytes": 478503,
+      "sha256": "12386d959b601296bd147cb546f1f5ec893630da64349651aa9488325524ade5"
+    },
+    "text_snapshot": {
+      "path": ".local-sources/next-design-screen/P2.txt",
+      "bytes": 58881,
+      "sha256": "50ab1d4754a06d7c2ea9cb7b298741f9e71b51784e9bd48c0efb53bc2786c964"
+    },
+    "text_method": "pypdf 6.10.0 default extract_text; page markers added",
+    "rights": "No redistribution licence identified; source retained privately, only narrow extract published",
+    "final_url": "https://www.piie.com/sites/default/files/2026-05/wp26-9-appendix.pdf",
+    "http_status": 200,
+    "retained_media_type": "application/pdf",
+    "source_cutoff_relation": "Original source used in feasibility screen before protocol; later copy checks recorded separately"
+  },
+  {
+    "id": "C1",
+    "title": "AI Compute Spending Estimation \u2014 Replication Package",
+    "authors": "Korinek and McKelvey, publisher-linked materials",
+    "version": "Publisher path 2026-05; internal release date unknown; README uses an older title",
+    "language": "English",
+    "type": "replication archive",
+    "requested_url": "https://www.piie.com/sites/default/files/2026-05/wp26-9.zip",
+    "retrieval_start_utc": "2026-10-12T18:06:58.410297+00:00",
+    "retrieval_end_utc": "2026-10-12T18:06:58.598652+00:00",
+    "method": "curl HTTPS GET",
+    "provenance": "This agent capture",
+    "read_scope": "Full README and config.py; main.py input and call flow; results.py quality, AI GDP, total GDP and summary-index functions; calculations.py power allocation and derived columns. Text licence scan of every .py/.txt/.md member. No source code executed.",
+    "snapshot": {
+      "path": ".local-sources/next-design-screen/original-replication.zip",
+      "bytes": 718528,
+      "sha256": "85bf1b23a99f606abf3ab87b39ed9d3bc69a6d53a27d50ee31ff20d1f974ff8c"
+    },
+    "rights": "No redistribution licence identified; source retained privately, only narrow extract published; no licence-named member and no licence/copyright/permission/redistribution text found in scanned text and Python files; this is not legal clearance",
+    "final_url": "https://www.piie.com/sites/default/files/2026-05/wp26-9.zip",
+    "http_status": 200,
+    "retained_media_type": "application/zip",
+    "source_cutoff_relation": "Original source used in feasibility screen before protocol; later copy checks recorded separately",
+    "licence_check": "No licence-named member. Case-insensitive text search for licen/copyright/permission/redistribut in all UTF-8 members except resource forks, .pyc and .png found no matches. No legal clearance is claimed."
+  },
+  {
+    "id": "B1",
+    "title": "Measuring the AI Economy",
+    "authors": "Anton Korinek; Patrick McKelvey",
+    "version": "Bank of Canada WP 2026-20; outer cover last updated 18 June 2026; inner manuscript dated 8 May 2026",
+    "language": "English",
+    "type": "research paper or appendix",
+    "requested_url": "https://www.bankofcanada.ca/wp-content/uploads/2026/06/swp2026-20.pdf",
+    "retrieval_start_utc": "2026-10-12T18:01:33.927244+00:00",
+    "retrieval_end_utc": "2026-10-12T18:01:34.408081+00:00",
+    "method": "curl HTTPS GET; normal TLS",
+    "provenance": "Earlier parent-agent capture; not reacquired by this agent",
+    "read_scope": "Main text definitions; Tables 1\u20134 and their notes; Sections 3\u20135; limits in later discussion. Not a new full citation audit.",
+    "snapshot": {
+      "path": ".local-sources/ai-measurement-screen/B1.pdf",
+      "bytes": 1403122,
+      "sha256": "c3d31bb0b0f44c7d17ebeca29ba0ff1b61ebc3f0ffd426c72c2942b666f296b6"
+    },
+    "text_snapshot": {
+      "path": ".local-sources/ai-measurement-screen/B1.txt",
+      "bytes": 48912,
+      "sha256": "e0c6c89ba37d8c8a87284918aa029bcc1176c85e4c0a0f9cbfdc456c34d1b0bf"
+    },
+    "text_method": "pypdf 6.10.0, Python 3.12.14; page.extract_text() joined with === PDF PAGE n === markers; confirmed by root from task record",
+    "rights": "No redistribution licence identified; source retained privately, only narrow extract published",
+    "final_url": "https://www.bankofcanada.ca/wp-content/uploads/2026/06/swp2026-20.pdf",
+    "http_status": 200,
+    "retained_media_type": "application/pdf",
+    "source_cutoff_relation": "Original source used in feasibility screen before protocol; later copy checks recorded separately",
+    "text_extraction_utc": "unavailable: not logged at extraction"
+  },
+  {
+    "id": "B2",
+    "title": "Measuring the AI Economy: Conceptual Framework and Implementation",
+    "authors": "Patrick McKelvey; Leopold Brown; Yuval Rhymon; Anton Korinek",
+    "version": "Author-hosted appendix; 27 April 2026 cover",
+    "language": "English",
+    "type": "research paper or appendix",
+    "requested_url": "https://pmckelveyboc.github.io/technical_appendix.pdf",
+    "retrieval_start_utc": "2026-10-12T18:02:22.012139+00:00",
+    "retrieval_end_utc": "2026-10-12T18:02:22.192770+00:00",
+    "method": "curl HTTPS GET; normal TLS",
+    "provenance": "Earlier parent-agent capture; not reacquired by this agent",
+    "read_scope": "Sections 2\u20133, 6.6, 7.3\u20137.5, 8.2\u20138.3; formulas and table notes. Parent acquired; this agent read.",
+    "snapshot": {
+      "path": ".local-sources/ai-measurement-screen/B2.pdf",
+      "bytes": 612263,
+      "sha256": "034cdc719155df8470e19554a6d46503a1c8530909702c6aeb99d5f26579e488"
+    },
+    "text_snapshot": {
+      "path": ".local-sources/ai-measurement-screen/B2.txt",
+      "bytes": 58375,
+      "sha256": "b0a9dc0995c7baf1b55c939f7d91d3d5af70d80604f164b7bb9f0dc613db1fa9"
+    },
+    "text_method": "pypdf 6.10.0, Python 3.12.14; page.extract_text() joined with === PDF PAGE n === markers; confirmed by root from task record",
+    "rights": "No redistribution licence identified; source retained privately, only narrow extract published",
+    "final_url": "https://pmckelveyboc.github.io/technical_appendix.pdf",
+    "http_status": 200,
+    "retained_media_type": "application/pdf",
+    "source_cutoff_relation": "Original source used in feasibility screen before protocol; later copy checks recorded separately",
+    "text_extraction_utc": "unavailable: not logged at extraction"
+  },
+  {
+    "id": "Z1C",
+    "title": "Supporting package for How Robust Is 2,600% AI GDP Growth?",
+    "authors": "Peter Bell",
+    "version": "Version 02 DOI metadata patch; record posted 2 June 2026; package date 1 June 2026",
+    "language": "English",
+    "type": "supporting archive",
+    "requested_url": "https://zenodo.org/api/records/20501770/files/PACKAGE_AI_GDP_SensitivityAudit_v02_DOI_METADATA_PATCH.zip/content",
+    "final_url": "https://zenodo.org/api/records/20501770/files/PACKAGE_AI_GDP_SensitivityAudit_v02_DOI_METADATA_PATCH.zip/content",
+    "http_status": 200,
+    "retrieval_start_utc": "2026-10-12T18:15:59.452887+00:00",
+    "retrieval_end_utc": "2026-10-12T18:16:02.497761+00:00",
+    "method": "curl HTTPS GET; normal TLS",
+    "provenance": "Later independent feasibility-agent source check after protocol; requested by root",
+    "read_scope": "All 11 members listed and hashed. Full README, metadata, two supporting CSVs and interpretation note read. Manuscript PDF is byte-identical to full-read Z1; Markdown searched for relevant terms. No script or notebook in member list. No execution.",
+    "snapshot": {
+      "path": ".local-sources/ai-output-reconciliation-evidence/bell-audit.zip",
+      "bytes": 91523,
+      "sha256": "2f61105169ced12c0c39f78f710f539941f5fb68aa3804ee614147daddc89485"
+    },
+    "rights": "Zenodo record metadata states CC BY 4.0; package retained privately; only metadata and independent inspection findings published",
+    "retained_media_type": "application/zip",
+    "source_cutoff_relation": "Added after original 18:08:07Z screen cutoff and after prospective protocol; this is prior-work inspection, not study outcome analysis."
+  }
+]

@@ -1,0 +1,477 @@
+[
+  {
+    "id": "Z1",
+    "url": "https://zenodo.org/api/records/20501770/files/MANUSCRIPT_AI_GDP_SensitivityAudit_v02_DOI_METADATA_PATCH.pdf/content",
+    "start_utc": "2026-10-12T18:04:27.680103+00:00",
+    "end_utc": "2026-10-12T18:04:30.332712+00:00",
+    "method": "curl HTTPS GET",
+    "http_and_final_url": "200\nhttps://zenodo.org/api/records/20501770/files/MANUSCRIPT_AI_GDP_SensitivityAudit_v02_DOI_METADATA_PATCH.pdf/content",
+    "exit_code": 0,
+    "stderr": "",
+    "path": ".local-sources/next-design-screen/Z1.pdf",
+    "bytes": 97028,
+    "sha256": "8ef956e5524b8b40462b8a4b9c0d51a452bf1f9b3656495e1817ae4bff6ab977",
+    "text_path": ".local-sources/next-design-screen/Z1.txt",
+    "text_bytes": 18762,
+    "text_sha256": "48ebbe9417c39e06adc679e0290d2d2e0c79a7ea5f8649ed33994e1e4e10cd08",
+    "pages": 8,
+    "extractor": "pypdf 6.10.0 default extract_text; page markers added"
+  },
+  {
+    "id": "Z2",
+    "url": "https://zenodo.org/api/records/21448572/files/05_BEYOND_TASK_EXPOSURE_DOI_EMBEDDED_ARCHIVAL_v01.pdf/content",
+    "start_utc": "2026-10-12T18:04:27.680435+00:00",
+    "end_utc": "2026-10-12T18:04:31.936338+00:00",
+    "method": "curl HTTPS GET",
+    "http_and_final_url": "200\nhttps://zenodo.org/api/records/21448572/files/05_BEYOND_TASK_EXPOSURE_DOI_EMBEDDED_ARCHIVAL_v01.pdf/content",
+    "exit_code": 0,
+    "stderr": "",
+    "path": ".local-sources/next-design-screen/Z2.pdf",
+    "bytes": 1069971,
+    "sha256": "ae4962ce6f6da8748eaebf028a17ab26879cd3ef66b1c72c0545c0126121b5ae",
+    "text_path": ".local-sources/next-design-screen/Z2.txt",
+    "text_bytes": 123544,
+    "text_sha256": "96ba0bc29f3bc9600f5d6dd61eb0b88615a0468309e2c41556eac0a12dd685a5",
+    "pages": 39,
+    "extractor": "pypdf 6.10.0 default extract_text; page markers added"
+  },
+  {
+    "id": "O1",
+    "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2018/10/productivity-measurement-r-d-assets-and-mark-ups-in-oecd-countries_fa1b9661/fb3c2e6f-en.pdf",
+    "start_utc": "2026-10-12T18:04:27.680650+00:00",
+    "end_utc": "2026-10-12T18:04:28.511374+00:00",
+    "method": "curl HTTPS GET",
+    "http_and_final_url": "200\nhttps://www.oecd.org/content/dam/oecd/en/publications/reports/2018/10/productivity-measurement-r-d-assets-and-mark-ups-in-oecd-countries_fa1b9661/fb3c2e6f-en.pdf",
+    "exit_code": 0,
+    "stderr": "",
+    "path": ".local-sources/next-design-screen/O1.pdf",
+    "bytes": 1718242,
+    "sha256": "f578bfdb5dad73c379c99c2e42f32c3c85ad0fd966be8de58b70a33f695f24b7",
+    "text_path": ".local-sources/next-design-screen/O1.txt",
+    "text_bytes": 88661,
+    "text_sha256": "e110506fdddb9bcc0b2cfb9948d2125c836aff25fdc8d30f88979dc4eb76afe8",
+    "pages": 33,
+    "extractor": "pypdf 6.10.0 default extract_text; page markers added"
+  },
+  {
+    "id": "Z3",
+    "url": "https://zenodo.org/api/records/20500501/files/MANUSCRIPT_PIIE_AI_GDP_ReviewExtension_v03_DOI_METADATA_PATCH.pdf/content",
+    "start_utc": "2026-10-12T18:07:30.281220+00:00",
+    "end_utc": "2026-10-12T18:07:31.725874+00:00",
+    "method": "curl HTTPS GET",
+    "http_and_final_url": "200\nhttps://zenodo.org/api/records/20500501/files/MANUSCRIPT_PIIE_AI_GDP_ReviewExtension_v03_DOI_METADATA_PATCH.pdf/content",
+    "exit_code": 0,
+    "stderr": "",
+    "path": ".local-sources/next-design-screen/Z3.pdf",
+    "bytes": 109536,
+    "sha256": "649b8a6a6fcd34aa10d6ab7a7f995c1811753327457f171514778644a10dd700",
+    "text_path": ".local-sources/next-design-screen/Z3.txt",
+    "text_bytes": 19146,
+    "text_sha256": "321add591e8680d8080249a96c4b3eefc49a11892a11b44c3f2091d0a9d01037",
+    "pages": 8,
+    "extractor": "pypdf 6.10.0 default extract_text; page markers added"
+  },
+  {
+    "id": "P2",
+    "url": "https://www.piie.com/sites/default/files/2026-05/wp26-9-appendix.pdf",
+    "start_utc": "2026-10-12T18:07:30.281639+00:00",
+    "end_utc": "2026-10-12T18:07:30.400952+00:00",
+    "method": "curl HTTPS GET",
+    "http_and_final_url": "200\nhttps://www.piie.com/sites/default/files/2026-05/wp26-9-appendix.pdf",
+    "exit_code": 0,
+    "stderr": "",
+    "path": ".local-sources/next-design-screen/P2.pdf",
+    "bytes": 478503,
+    "sha256": "12386d959b601296bd147cb546f1f5ec893630da64349651aa9488325524ade5",
+    "text_path": ".local-sources/next-design-screen/P2.txt",
+    "text_bytes": 58881,
+    "text_sha256": "50ab1d4754a06d7c2ea9cb7b298741f9e71b51784e9bd48c0efb53bc2786c964",
+    "pages": 36,
+    "extractor": "pypdf 6.10.0 default extract_text; page markers added"
+  },
+  {
+    "id": "C1",
+    "url": "https://www.piie.com/sites/default/files/2026-05/wp26-9.zip",
+    "start_utc": "2026-10-12T18:06:58.410297+00:00",
+    "end_utc": "2026-10-12T18:06:58.598652+00:00",
+    "method": "curl HTTPS GET",
+    "exit_code": 0,
+    "http_and_final_url": "200\nhttps://www.piie.com/sites/default/files/2026-05/wp26-9.zip",
+    "stderr": "",
+    "path": ".local-sources/next-design-screen/original-replication.zip",
+    "bytes": 718528,
+    "sha256": "85bf1b23a99f606abf3ab87b39ed9d3bc69a6d53a27d50ee31ff20d1f974ff8c",
+    "members": [
+      {
+        "name": "replication/",
+        "bytes": 0
+      },
+      {
+        "name": "__MACOSX/._replication",
+        "bytes": 163
+      },
+      {
+        "name": "replication/QAPI/",
+        "bytes": 0
+      },
+      {
+        "name": "__MACOSX/replication/._QAPI",
+        "bytes": 163
+      },
+      {
+        "name": "replication/config.py",
+        "bytes": 3872
+      },
+      {
+        "name": "__MACOSX/replication/._config.py",
+        "bytes": 163
+      },
+      {
+        "name": "replication/requirements.txt",
+        "bytes": 41
+      },
+      {
+        "name": "__MACOSX/replication/._requirements.txt",
+        "bytes": 163
+      },
+      {
+        "name": "replication/results.py",
+        "bytes": 39341
+      },
+      {
+        "name": "__MACOSX/replication/._results.py",
+        "bytes": 163
+      },
+      {
+        "name": "replication/gpu_data.py",
+        "bytes": 1079
+      },
+      {
+        "name": "__MACOSX/replication/._gpu_data.py",
+        "bytes": 163
+      },
+      {
+        "name": "replication/__pycache__/",
+        "bytes": 0
+      },
+      {
+        "name": "__MACOSX/replication/.___pycache__",
+        "bytes": 163
+      },
+      {
+        "name": "replication/calculations.py",
+        "bytes": 9101
+      },
+      {
+        "name": "__MACOSX/replication/._calculations.py",
+        "bytes": 163
+      },
+      {
+        "name": "replication/results/",
+        "bytes": 0
+      },
+      {
+        "name": "__MACOSX/replication/._results",
+        "bytes": 163
+      },
+      {
+        "name": "replication/chip_sales_calculations.py",
+        "bytes": 14353
+      },
+      {
+        "name": "__MACOSX/replication/._chip_sales_calculations.py",
+        "bytes": 163
+      },
+      {
+        "name": "replication/data_prep.py",
+        "bytes": 10039
+      },
+      {
+        "name": "__MACOSX/replication/._data_prep.py",
+        "bytes": 163
+      },
+      {
+        "name": "replication/epoch_loader.py",
+        "bytes": 7458
+      },
+      {
+        "name": "__MACOSX/replication/._epoch_loader.py",
+        "bytes": 163
+      },
+      {
+        "name": "replication/chip_sales_loader.py",
+        "bytes": 7304
+      },
+      {
+        "name": "__MACOSX/replication/._chip_sales_loader.py",
+        "bytes": 163
+      },
+      {
+        "name": "replication/README.txt",
+        "bytes": 4409
+      },
+      {
+        "name": "__MACOSX/replication/._README.txt",
+        "bytes": 163
+      },
+      {
+        "name": "replication/main.py",
+        "bytes": 6047
+      },
+      {
+        "name": "__MACOSX/replication/._main.py",
+        "bytes": 163
+      },
+      {
+        "name": "replication/data/",
+        "bytes": 0
+      },
+      {
+        "name": "__MACOSX/replication/._data",
+        "bytes": 163
+      },
+      {
+        "name": "replication/main_fromsales.py",
+        "bytes": 18970
+      },
+      {
+        "name": "__MACOSX/replication/._main_fromsales.py",
+        "bytes": 163
+      },
+      {
+        "name": "replication/QAPI/price_index.py",
+        "bytes": 9409
+      },
+      {
+        "name": "__MACOSX/replication/QAPI/._price_index.py",
+        "bytes": 163
+      },
+      {
+        "name": "replication/QAPI/fisher_index_analysis.ipynb",
+        "bytes": 402065
+      },
+      {
+        "name": "__MACOSX/replication/QAPI/._fisher_index_analysis.ipynb",
+        "bytes": 163
+      },
+      {
+        "name": "replication/QAPI/results/",
+        "bytes": 0
+      },
+      {
+        "name": "__MACOSX/replication/QAPI/._results",
+        "bytes": 163
+      },
+      {
+        "name": "replication/QAPI/fisher_price_index.py",
+        "bytes": 3002
+      },
+      {
+        "name": "__MACOSX/replication/QAPI/._fisher_price_index.py",
+        "bytes": 163
+      },
+      {
+        "name": "replication/QAPI/data/",
+        "bytes": 0
+      },
+      {
+        "name": "__MACOSX/replication/QAPI/._data",
+        "bytes": 163
+      },
+      {
+        "name": "replication/__pycache__/epoch_loader.cpython-313.pyc",
+        "bytes": 8515
+      },
+      {
+        "name": "__MACOSX/replication/__pycache__/._epoch_loader.cpython-313.pyc",
+        "bytes": 163
+      },
+      {
+        "name": "replication/__pycache__/config.cpython-313.pyc",
+        "bytes": 3012
+      },
+      {
+        "name": "__MACOSX/replication/__pycache__/._config.cpython-313.pyc",
+        "bytes": 163
+      },
+      {
+        "name": "replication/__pycache__/calculations.cpython-313.pyc",
+        "bytes": 8326
+      },
+      {
+        "name": "__MACOSX/replication/__pycache__/._calculations.cpython-313.pyc",
+        "bytes": 163
+      },
+      {
+        "name": "replication/__pycache__/gpu_data.cpython-313.pyc",
+        "bytes": 1501
+      },
+      {
+        "name": "__MACOSX/replication/__pycache__/._gpu_data.cpython-313.pyc",
+        "bytes": 163
+      },
+      {
+        "name": "replication/__pycache__/data_prep.cpython-313.pyc",
+        "bytes": 10980
+      },
+      {
+        "name": "__MACOSX/replication/__pycache__/._data_prep.cpython-313.pyc",
+        "bytes": 163
+      },
+      {
+        "name": "replication/__pycache__/results.cpython-313.pyc",
+        "bytes": 49257
+      },
+      {
+        "name": "__MACOSX/replication/__pycache__/._results.cpython-313.pyc",
+        "bytes": 163
+      },
+      {
+        "name": "replication/results/results_frompower.md",
+        "bytes": 4210
+      },
+      {
+        "name": "__MACOSX/replication/results/._results_frompower.md",
+        "bytes": 163
+      },
+      {
+        "name": "replication/results/indices_frompower.png",
+        "bytes": 84714
+      },
+      {
+        "name": "__MACOSX/replication/results/._indices_frompower.png",
+        "bytes": 163
+      },
+      {
+        "name": "replication/results/indices_frompower_log.png",
+        "bytes": 114528
+      },
+      {
+        "name": "__MACOSX/replication/results/._indices_frompower_log.png",
+        "bytes": 163
+      },
+      {
+        "name": "replication/results/results_fromsales.md",
+        "bytes": 5818
+      },
+      {
+        "name": "__MACOSX/replication/results/._results_fromsales.md",
+        "bytes": 163
+      },
+      {
+        "name": "replication/results/indices_frompower.csv",
+        "bytes": 194
+      },
+      {
+        "name": "__MACOSX/replication/results/._indices_frompower.csv",
+        "bytes": 163
+      },
+      {
+        "name": "replication/data/gpu_power_fraction.csv",
+        "bytes": 5720
+      },
+      {
+        "name": "__MACOSX/replication/data/._gpu_power_fraction.csv",
+        "bytes": 1790
+      },
+      {
+        "name": "replication/data/gpu_prices_validation_rackmerged_with_assumptions.csv",
+        "bytes": 11693
+      },
+      {
+        "name": "__MACOSX/replication/data/._gpu_prices_validation_rackmerged_with_assumptions.csv",
+        "bytes": 548
+      },
+      {
+        "name": "replication/data/epoch_downloads/",
+        "bytes": 0
+      },
+      {
+        "name": "__MACOSX/replication/data/._epoch_downloads",
+        "bytes": 163
+      },
+      {
+        "name": "replication/QAPI/results/fisher_price_index.csv",
+        "bytes": 2625
+      },
+      {
+        "name": "__MACOSX/replication/QAPI/results/._fisher_price_index.csv",
+        "bytes": 163
+      },
+      {
+        "name": "replication/QAPI/results/monthly_prices_by_bin.csv",
+        "bytes": 1377
+      },
+      {
+        "name": "__MACOSX/replication/QAPI/results/._monthly_prices_by_bin.csv",
+        "bytes": 163
+      },
+      {
+        "name": "replication/QAPI/data/min_price_fradkin.csv",
+        "bytes": 10056
+      },
+      {
+        "name": "__MACOSX/replication/QAPI/data/._min_price_fradkin.csv",
+        "bytes": 1741
+      },
+      {
+        "name": "replication/data/epoch_downloads/gpu_clusters_20260306.csv",
+        "bytes": 485157
+      },
+      {
+        "name": "__MACOSX/replication/data/epoch_downloads/._gpu_clusters_20260306.csv",
+        "bytes": 163
+      },
+      {
+        "name": "replication/data/epoch_downloads/ml_hardware_20260306.csv",
+        "bytes": 94584
+      },
+      {
+        "name": "__MACOSX/replication/data/epoch_downloads/._ml_hardware_20260306.csv",
+        "bytes": 163
+      },
+      {
+        "name": "replication/data/epoch_downloads/chip_types.csv",
+        "bytes": 5751
+      },
+      {
+        "name": "__MACOSX/replication/data/epoch_downloads/._chip_types.csv",
+        "bytes": 349
+      },
+      {
+        "name": "replication/data/epoch_downloads/timelines_by_chip.csv",
+        "bytes": 35297
+      },
+      {
+        "name": "__MACOSX/replication/data/epoch_downloads/._timelines_by_chip.csv",
+        "bytes": 249
+      }
+    ]
+  },
+  {
+    "id": "B1",
+    "url": "https://www.bankofcanada.ca/wp-content/uploads/2026/06/swp2026-20.pdf",
+    "started_utc": "2026-10-12T18:01:33.927244+00:00",
+    "completed_utc": "2026-10-12T18:01:34.408081+00:00",
+    "method": "curl HTTPS GET; normal TLS",
+    "exit_status": 0,
+    "stderr": "",
+    "path": ".local-sources/ai-measurement-screen/B1.pdf",
+    "sha256": "c3d31bb0b0f44c7d17ebeca29ba0ff1b61ebc3f0ffd426c72c2942b666f296b6",
+    "bytes": 1403122,
+    "provenance": "Earlier parent-agent capture; not reacquired by this agent"
+  },
+  {
+    "id": "B2",
+    "url": "https://pmckelveyboc.github.io/technical_appendix.pdf",
+    "started_utc": "2026-10-12T18:02:22.012139+00:00",
+    "completed_utc": "2026-10-12T18:02:22.192770+00:00",
+    "method": "curl HTTPS GET; normal TLS",
+    "exit_status": 0,
+    "stderr": "",
+    "path": ".local-sources/ai-measurement-screen/B2.pdf",
+    "sha256": "034cdc719155df8470e19554a6d46503a1c8530909702c6aeb99d5f26579e488",
+    "bytes": 612263,
+    "provenance": "Earlier parent-agent capture; not reacquired by this agent"
+  }
+]

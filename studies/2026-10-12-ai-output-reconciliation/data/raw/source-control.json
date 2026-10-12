@@ -1,0 +1,56 @@
+{
+  "baseline_compute": {
+    "2024_growth": 3.1185586819581914,
+    "2025_growth": 3.1385671940782944,
+    "h100_equiv_2023": 1093674.8500719722,
+    "h100_equiv_2024": 3410689.1989312726,
+    "h100_equiv_2025": 10704677.228962868,
+    "ops_2023": 5.460477392978414e+29,
+    "ops_2024": 1.7028819181509263e+30,
+    "ops_2025": 5.344609323697616e+30
+  },
+  "baseline_indices": [
+    {
+      "Nominal Spending": 100.0,
+      "Physical Compute": 100.0,
+      "Power": 100.0,
+      "QA Inference Output": 100.0,
+      "QA Training Output": 100.0,
+      "Year": 2023
+    },
+    {
+      "Nominal Spending": 245.0,
+      "Physical Compute": 311.9,
+      "Power": 251.9,
+      "QA Inference Output": 3898.1,
+      "QA Training Output": 882.1,
+      "Year": 2024
+    },
+    {
+      "Nominal Spending": 593.7,
+      "Physical Compute": 978.8,
+      "Power": 480.8,
+      "QA Inference Output": 150252.6,
+      "QA Training Output": 7830.2,
+      "Year": 2025
+    }
+  ],
+  "baseline_qa": {
+    "qa_inference_2024": 3798.122793225172,
+    "qa_inference_2025": 3754.487081267142,
+    "qa_production_2024": 2290.0921949207495,
+    "qa_production_2025": 2271.1039698620502,
+    "qa_training_2024": 782.0615966163276,
+    "qa_training_2025": 787.7208584569587
+  },
+  "baseline_spending": {
+    "2024_growth": 2.450248612884394,
+    "2025_growth": 2.422820451082204,
+    "spending_2023": 36918605264.00637,
+    "spending_2024": 90459761337.7581,
+    "spending_2025": 219167759769.1356
+  },
+  "source_checks": {
+    "row_allocation_and_composition_preserved": true
+  }
+}

@@ -1,0 +1,147 @@
+[
+  {
+    "name": "replication/config.py",
+    "bytes": 3872,
+    "sha256": "49188ccd76191f567f482d7fa24863e32b4425d197352832896c33da9995571e"
+  },
+  {
+    "name": "replication/requirements.txt",
+    "bytes": 41,
+    "sha256": "95baa4cc365986edd6bc8ad323cfd698effa3641b8f11a16778bc425819cf6b1"
+  },
+  {
+    "name": "replication/results.py",
+    "bytes": 39341,
+    "sha256": "dd81eb628425844fcb6e6cb4ff5fc2a1497cae1603d5d9339e29507d73edcffa"
+  },
+  {
+    "name": "replication/gpu_data.py",
+    "bytes": 1079,
+    "sha256": "5ada5c8cc264275cf3eac9888edbdebe56884a1dbcf779d764dd699ac0168a59"
+  },
+  {
+    "name": "replication/calculations.py",
+    "bytes": 9101,
+    "sha256": "875b37eff22e70f5e746876e72b864aa64f3e58b4c8cf5805875e82a8c706fdf"
+  },
+  {
+    "name": "replication/chip_sales_calculations.py",
+    "bytes": 14353,
+    "sha256": "2cf482efc48a37992a30c0879388bf6d187efdd5093068159f036203a7db4b47"
+  },
+  {
+    "name": "replication/data_prep.py",
+    "bytes": 10039,
+    "sha256": "807e51a6fa6a7726cf3e8551cbe02c451a55fbcbc11e962ba84e0d7332dbbbe5"
+  },
+  {
+    "name": "replication/epoch_loader.py",
+    "bytes": 7458,
+    "sha256": "6ad9bb00cd9890ac1466c524b47c39ede6408bafeb0b089f693bb03581e0fea8"
+  },
+  {
+    "name": "replication/chip_sales_loader.py",
+    "bytes": 7304,
+    "sha256": "f85322995de9f6623694ac79ca90adae90a7cfca69585a444dd4086f493ce796"
+  },
+  {
+    "name": "replication/README.txt",
+    "bytes": 4409,
+    "sha256": "15394ed55f85c324c085f416e9a8b599df844b68891cc8acf3ecef5880c8148c"
+  },
+  {
+    "name": "replication/main.py",
+    "bytes": 6047,
+    "sha256": "4a86bc3004e1fb67e4fa60445245a1bbd36ea4c277cd9b16e5056757ec90fd32"
+  },
+  {
+    "name": "replication/main_fromsales.py",
+    "bytes": 18970,
+    "sha256": "cea92a04c3b5bba18c220ee0c5f747b645012a51f992d28dcd139c64a47b916c"
+  },
+  {
+    "name": "replication/QAPI/price_index.py",
+    "bytes": 9409,
+    "sha256": "0e24990ea905301ec87ce300f48aa88d5eeaf0466b93f5ac6423264d361e3d3a"
+  },
+  {
+    "name": "replication/QAPI/fisher_index_analysis.ipynb",
+    "bytes": 402065,
+    "sha256": "9dd5cd292483948d9bdf77fc6e900b3f20b97f14d4ce07132fcc87e9d10ebc54"
+  },
+  {
+    "name": "replication/QAPI/fisher_price_index.py",
+    "bytes": 3002,
+    "sha256": "55f16b96e130c99cf314c39ae5549efe92146d4e602850164ff31549aca2ac2b"
+  },
+  {
+    "name": "replication/results/results_frompower.md",
+    "bytes": 4210,
+    "sha256": "809e8da46d34f7f6972af0a883e662bd7367b33b2ea6232f1067b0cc6319c2d1"
+  },
+  {
+    "name": "replication/results/indices_frompower.png",
+    "bytes": 84714,
+    "sha256": "99874119146313f3acf2d07e3fc5084c21680f24cb49bd99a5ad42db79917f20"
+  },
+  {
+    "name": "replication/results/indices_frompower_log.png",
+    "bytes": 114528,
+    "sha256": "f8d93ebdaf1d39675fc626ae0cee3270142d26cca152d16f9ad0a4f5398672f5"
+  },
+  {
+    "name": "replication/results/results_fromsales.md",
+    "bytes": 5818,
+    "sha256": "3b21d22878b37d4fc8015e44237856eb0e6026de7db87ad3acd97c55619718bf"
+  },
+  {
+    "name": "replication/results/indices_frompower.csv",
+    "bytes": 194,
+    "sha256": "470e79c8265fd98d80fcf03350c29348935f24d457c0a703fec7e876e9f289e4"
+  },
+  {
+    "name": "replication/data/gpu_power_fraction.csv",
+    "bytes": 5720,
+    "sha256": "841afeb966e1a19525bf1caf0b8bb50dd7605e6423eabc25f7d09bb7a6699519"
+  },
+  {
+    "name": "replication/data/gpu_prices_validation_rackmerged_with_assumptions.csv",
+    "bytes": 11693,
+    "sha256": "31bc320ef9f1521515298c74962670bb4bb2ec2ccf131c967ae501de53cdfcb4"
+  },
+  {
+    "name": "replication/QAPI/results/fisher_price_index.csv",
+    "bytes": 2625,
+    "sha256": "ff962edf80cd08467f60fb88363a348bf51b3c0ab17c841e9893f2a494ed5057"
+  },
+  {
+    "name": "replication/QAPI/results/monthly_prices_by_bin.csv",
+    "bytes": 1377,
+    "sha256": "46f8c1349d4cd845b934a6812c59258e713f2a040809717227e92effc2f938d5"
+  },
+  {
+    "name": "replication/QAPI/data/min_price_fradkin.csv",
+    "bytes": 10056,
+    "sha256": "d521128cba3aaf1f55cdb0d9c8cf599335d00493f36fea4cad241016301c61ee"
+  },
+  {
+    "name": "replication/data/epoch_downloads/gpu_clusters_20260306.csv",
+    "bytes": 485157,
+    "sha256": "82143b9213db751d7e7869633adc7c0b71f5d9e71882abe230f4dd127f48abe3"
+  },
+  {
+    "name": "replication/data/epoch_downloads/ml_hardware_20260306.csv",
+    "bytes": 94584,
+    "sha256": "16b7ee63cab716d5a7ddf0901be91bea9941be228081015c224ab1cda02974db"
+  },
+  {
+    "name": "replication/data/epoch_downloads/chip_types.csv",
+    "bytes": 5751,
+    "sha256": "989d75211fddc541b8960d571bb8131b1f79c2f51b515e7fab9751c84ba618df"
+  },
+  {
+    "name": "replication/data/epoch_downloads/timelines_by_chip.csv",
+    "bytes": 35297,
+    "sha256": "315644760db099bb98df72891aedc88717782187dcb337dbcb156f43e0adf55f"
+  }
+]

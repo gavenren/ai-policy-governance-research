@@ -1,0 +1,221 @@
+{
+  "method": "Bounded primary-source search and citation following; no exhaustive novelty claim",
+  "inclusion": "Close original research, official measurement methods, primary code and data; snippets discovery only",
+  "failures": "SSRN 6620040 and 7494040 direct pages: 403. Zenodo web page 20501770: web failure, normal API later worked. ZIP in web reader: unsupported content type; curl later worked.",
+  "calls": [
+    {
+      "id": "W1",
+      "service": "web.run",
+      "start_utc": "2026-10-12T18:01:05Z",
+      "end_utc": "2026-10-12T18:01:07Z",
+      "date_filter": "none",
+      "arguments": {
+        "search_query": [
+          "social wealth fund common ownership competition consumer welfare AI public ownership paper",
+          "universal basic income personalized pricing price discrimination paper",
+          "AI insolvency model weights escrow continuity public service bankruptcy intellectual property license",
+          "\"Automated Public Capitalism\" Murakami 6620040"
+        ]
+      },
+      "response_snapshot": {
+        "path": ".local-sources/next-design-screen/web-1.json",
+        "bytes": 39409,
+        "sha256": "10c8afa0c9174a363ff588a93370ea690a8d5a10c5e9fa002d0d4c75c12725c5"
+      },
+      "raw_clock_start_utc": "2026-10-12 18:01:05 UTC",
+      "raw_clock_end_utc": "2026-10-12 18:01:07 UTC"
+    },
+    {
+      "id": "W2",
+      "service": "web.run",
+      "start_utc": "2026-10-12T18:01:52Z",
+      "end_utc": "2026-10-12T18:01:53Z",
+      "date_filter": "none",
+      "arguments": {
+        "search_query": [
+          "agentic payments protocol AP2 intent mandate budget multiple agents spending limit specification",
+          "AI shopping agents consumer protection delegated payment budgets research 2026",
+          "\"universal basic income\" \"agents\" \"payments\" economic",
+          "\"Automated Public Capitalism\" Murakami SSRN pdf"
+        ]
+      },
+      "response_snapshot": {
+        "path": ".local-sources/next-design-screen/web-2.json",
+        "bytes": 38327,
+        "sha256": "a47ada75f69de4ed62797f2620b8bc61ec9fbdb624a780237ee9c715fb0d830f"
+      },
+      "raw_clock_start_utc": "2026-10-12 18:01:52 UTC",
+      "raw_clock_end_utc": "2026-10-12 18:01:53 UTC"
+    },
+    {
+      "id": "W3",
+      "service": "web.run",
+      "start_utc": "2026-10-12T18:02:18Z",
+      "end_utc": "2026-10-12T18:02:19Z",
+      "date_filter": "none",
+      "arguments": {
+        "open": [
+          "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6620040",
+          "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7494040",
+          "https://arxiv.org/pdf/2609.00060",
+          "https://ap2-protocol.org/ap2/specification/"
+        ]
+      },
+      "response_snapshot": {
+        "path": ".local-sources/next-design-screen/web-3.json",
+        "bytes": 32931,
+        "sha256": "87ef9876c5f0a86404c188f8de6bd3fc83027a4c953776cfdbbb0c8ef1eed201"
+      },
+      "raw_clock_start_utc": "2026-10-12 18:02:18 UTC",
+      "raw_clock_end_utc": "2026-10-12 18:02:19 UTC"
+    },
+    {
+      "id": "W4",
+      "service": "web.run",
+      "start_utc": "2026-10-12T18:02:47Z",
+      "end_utc": "2026-10-12T18:02:49Z",
+      "date_filter": "none",
+      "arguments": {
+        "search_query": [
+          "\"Automated Public Capitalism\" pdf -site:papers.ssrn.com",
+          "\"Murakami\" \"public capitalism\"",
+          "\"Public AI Wealth Funds and the Economics\" pdf",
+          "AI public fund welfare citizen ownership pension assets double counting proposal"
+        ]
+      },
+      "response_snapshot": {
+        "path": ".local-sources/next-design-screen/web-4.json",
+        "bytes": 40227,
+        "sha256": "2f5fb28a70ef09adaf29e35fe9e8d77f59c8b8db9b33979de51d9113c4fa8154"
+      },
+      "raw_clock_start_utc": "2026-10-12 18:02:47 UTC",
+      "raw_clock_end_utc": "2026-10-12 18:02:49 UTC"
+    },
+    {
+      "id": "W5",
+      "service": "web.run",
+      "start_utc": "2026-10-12T18:03:34Z",
+      "end_utc": "2026-10-12T18:03:35Z",
+      "date_filter": "none",
+      "arguments": {
+        "open": [
+          "https://www.bankofcanada.ca/2026/06/staff-working-paper-2026-20/"
+        ],
+        "search_query": [
+          "site.bea.gov price quantity indexes nominal value divided by price index double deflation value added Fisher",
+          "Korinek McKelvey \"Measuring the AI Economy\" code data training deflator",
+          "site.oecd.org research development output price index input cost productivity quality measurement handbook volume"
+        ]
+      },
+      "response_snapshot": {
+        "path": ".local-sources/next-design-screen/web-5.json",
+        "bytes": 38185,
+        "sha256": "562c1c2b808b29a7465a2bce2487ee2ee6f57f2e3c5dda6062fda6c855dcc3c2"
+      },
+      "raw_clock_start_utc": "2026-10-12 18:03:34 UTC",
+      "raw_clock_end_utc": "2026-10-12 18:03:35 UTC"
+    },
+    {
+      "id": "W6",
+      "service": "web.run",
+      "start_utc": "2026-10-12T18:03:41Z",
+      "end_utc": "2026-10-12T18:03:41Z",
+      "date_filter": "none",
+      "arguments": {
+        "open": [
+          "https://zenodo.org/records/20501770",
+          "https://www.oecd.org/content/dam/oecd/en/publications/reports/2018/10/productivity-measurement-r-d-assets-and-mark-ups-in-oecd-countries_fa1b9661/fb3c2e6f-en.pdf"
+        ]
+      },
+      "response_snapshot": {
+        "path": ".local-sources/next-design-screen/web-6.json",
+        "bytes": 30708,
+        "sha256": "92f15299eb834296c96a9018167c1631c4039f5a2244e3387ee497d857cc4d0f"
+      },
+      "raw_clock_start_utc": "2026-10-12 18:03:41 UTC",
+      "raw_clock_end_utc": "2026-10-12 18:03:41 UTC"
+    },
+    {
+      "id": "W7",
+      "service": "web.run",
+      "start_utc": "2026-10-12T18:06:33Z",
+      "end_utc": "2026-10-12T18:06:35Z",
+      "date_filter": "none",
+      "arguments": {
+        "open": [
+          "https://www.bankofcanada.ca/2026/06/staff-working-paper-2026-20/",
+          "https://pmckelveyboc.github.io/"
+        ],
+        "search_query": [
+          "Korinek McKelvey \"Measuring the AI Economy\" replication github",
+          "\"Measuring the AI Economy\" \"data\" \"code\""
+        ]
+      },
+      "response_snapshot": {
+        "path": ".local-sources/next-design-screen/web-7.json",
+        "bytes": 37511,
+        "sha256": "16f2c60cce66013ea79b8d671ac62fb35d67db0d1b82e9f504af5d141632e786"
+      },
+      "raw_clock_start_utc": "2026-10-12 18:06:33 UTC",
+      "raw_clock_end_utc": "2026-10-12 18:06:35 UTC"
+    },
+    {
+      "id": "W8",
+      "service": "web.run",
+      "start_utc": "2026-10-12T18:06:38Z",
+      "end_utc": "2026-10-12T18:06:39Z",
+      "date_filter": "none",
+      "arguments": {
+        "open": [
+          "https://www.piie.com/publications/working-papers/2026/measuring-ai-economy",
+          "https://pmckelveyboc.github.io/"
+        ],
+        "find": [
+          {
+            "url": "https://www.bankofcanada.ca/2026/06/staff-working-paper-2026-20/",
+            "patterns": [
+              "data",
+              "appendix"
+            ]
+          }
+        ]
+      },
+      "response_snapshot": {
+        "path": ".local-sources/next-design-screen/web-8.json",
+        "bytes": 25445,
+        "sha256": "0c49f7b07074ea5d389c78a40b401827373dc235e02b441bb6b74cac163914b8"
+      },
+      "raw_clock_start_utc": "2026-10-12 18:06:38 UTC",
+      "raw_clock_end_utc": "2026-10-12 18:06:39 UTC"
+    },
+    {
+      "id": "W9",
+      "service": "web.run",
+      "start_utc": "2026-10-12T18:06:43Z",
+      "end_utc": "2026-10-12T18:06:44Z",
+      "date_filter": "none",
+      "arguments": {
+        "click": [
+          {
+            "page": "https://www.piie.com/publications/working-papers/2026/measuring-ai-economy",
+            "link_id": 67,
+            "destination": "https://www.piie.com/sites/default/files/2026-05/wp26-9.zip"
+          },
+          {
+            "page": "https://www.piie.com/publications/working-papers/2026/measuring-ai-economy",
+            "link_id": 65,
+            "destination": "https://www.piie.com/sites/default/files/2026-05/wp26-9-appendix.pdf"
+          }
+        ]
+      },
+      "response_snapshot": {
+        "path": ".local-sources/next-design-screen/web-9.json",
+        "bytes": 11903,
+        "sha256": "a16d6890dfcbd96836b0fe00e705b282dc640fb566cd14e1e3866356f24dcb01"
+      },
+      "raw_clock_start_utc": "2026-10-12 18:06:43 UTC",
+      "raw_clock_end_utc": "2026-10-12 18:06:44 UTC"
+    }
+  ],
+  "scope": "Independent feasibility-agent calls only. Parent discovery and reviewer reading are separate. W1-W4 concern early alternatives; W5-W9 concern the selected measurement audit."
+}

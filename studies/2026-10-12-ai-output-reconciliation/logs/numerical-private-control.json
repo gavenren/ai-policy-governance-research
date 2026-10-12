@@ -1,0 +1,29 @@
+{
+  "checked_utc": "2026-10-12T18:19:42.215929+00:00",
+  "control": "geometrically consistent annual totals",
+  "status": "passed",
+  "scope": "diagnostic positive control, not a fifth empirical accounting case",
+  "source_run_id": "run-01",
+  "code_sha256": "c79175f2de46ff38245275ce2e5213e3ab25308c5d7baed33c53a6fe88959d7c",
+  "source_stdout": "",
+  "rows": [
+    {
+      "year": 2023,
+      "geometric_annual_Wh": 28700000000000.0,
+      "generated_Wh": 28699999999999.996,
+      "annual_preserving_scale": 1.0000000000000002
+    },
+    {
+      "year": 2024,
+      "geometric_annual_Wh": 72300000000000.0,
+      "generated_Wh": 72300000000000.03,
+      "annual_preserving_scale": 0.9999999999999996
+    },
+    {
+      "year": 2025,
+      "geometric_annual_Wh": 182135540069686.4,
+      "generated_Wh": 182135540069686.62,
+      "annual_preserving_scale": 0.9999999999999988
+    }
+  ]
+}

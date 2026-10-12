@@ -1,0 +1,13 @@
+{
+  "migration_utc": "2026-10-12T18:13:41.112310+00:00",
+  "agent": "international_dividend",
+  "source_screen": "studies/2026-10-12-next-design-screen",
+  "target": "studies/2026-10-12-ai-output-reconciliation",
+  "source_model_execution": "None by this agent. Own capture, metadata, hash and quote tools only.",
+  "notes": [
+    "B2 cover date corrected from a working May label to 27 April after cover recheck; P2 is 11 May.",
+    "First narrow-quote check failed across a PDF page marker; a complete short statement within page 2 replaced that extract. No source claim or analysis changed.",
+    "Original capture times are preserved; migration time is not retrieval time.",
+    "No protocol, paper, numerical code or Git state modified by this migration."
+  ]
+}
