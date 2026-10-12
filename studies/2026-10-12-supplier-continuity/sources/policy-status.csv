@@ -1,0 +1,6 @@
+source_id,instrument_or_document,status_at_capture,scope,date_basis,limits
+I1,G-Cloud service 244333610722828,Supplier-authored public offer,Named Claude via Bedrock offer on government marketplace,Publication date unknown; exact retrieval in manifest,Not proof of award or an executed buyer contract; framework label is source wording
+I2,UK AI Playbook,Official guidance,UK government and public-sector AI use,Published 2025-02-10,Used for reported project examples; no inference that every statement is a binding duty
+D6,Amazon Bedrock legacy lifecycle,Official product access policy,Models launched before 2026-09-07; named regions in relevant row,Sonnet 4.5 Legacy from 2026-10-08 and scheduled EOL 2027-04-08,Not legislation; actual regional API state and buyer contract not checked
+D4,Gemini 2.5 Pro product card,Official product support notice,Google Cloud platform deployment of gemini-2.5-pro,Page updated 2026-10-10; announced support retirement 2026-10-20,Not a promise or observation of future shutdown; excludes separate Gemini API
+

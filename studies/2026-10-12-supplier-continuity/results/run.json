@@ -1,0 +1,13 @@
+{
+  "run_utc": "2026-10-12T13:00:52Z",
+  "python": "3.13.7",
+  "command": "python3 code/analyze.py (from study directory)",
+  "exit_status": 0,
+  "sha256": {
+    "data/deployments.csv": "ea93ced1f43f1139f3a96c83f913c51bfc0c154416d1f66f5e3b47d2f3827931",
+    "code/analyze.py": "14f63faa16ec28a3657b1eee0b409ec95eb511bba8a884df3c365973dc9d6508",
+    "results/pairs.csv": "b1e8abed720d5ab5c9463abb382ccc42fab463dc3f6d9f5cd27f22e971a9a5fb",
+    "results/scenario-detail.json": "6a163cc9d61bd1abb1be75222116b22205bdd01851555c5e948b03d009dcbfbf",
+    "results/summary.json": "742cd29c7b8d2bfdb4e637a4f28f3d73b58bcb9d4023395feafbe64321a1b760"
+  }
+}

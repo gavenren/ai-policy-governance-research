@@ -1,0 +1,656 @@
+{
+  "announced_support_2026_10_21:AB": {
+    "eligible_ids": [
+      "A",
+      "B",
+      "C"
+    ],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": false,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": true
+    },
+    "platform_pass": true,
+    "platform_tests": {
+      "Amazon Bedrock": true,
+      "Google Cloud": true
+    }
+  },
+  "announced_support_2026_10_21:AC": {
+    "eligible_ids": [
+      "A",
+      "B",
+      "C"
+    ],
+    "joint_pass": false,
+    "model_pass": true,
+    "model_tests": {
+      "Claude Sonnet 4.5": true,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": true
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": false,
+      "Google Cloud": true
+    }
+  },
+  "announced_support_2026_10_21:AD": {
+    "eligible_ids": [
+      "A",
+      "B",
+      "C"
+    ],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": false,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": true
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": false,
+      "Google Cloud": true
+    }
+  },
+  "announced_support_2026_10_21:BC": {
+    "eligible_ids": [
+      "A",
+      "B",
+      "C"
+    ],
+    "joint_pass": true,
+    "model_pass": true,
+    "model_tests": {
+      "Claude Sonnet 4.5": true,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": true
+    },
+    "platform_pass": true,
+    "platform_tests": {
+      "Amazon Bedrock": true,
+      "Google Cloud": true
+    }
+  },
+  "announced_support_2026_10_21:BD": {
+    "eligible_ids": [
+      "A",
+      "B",
+      "C"
+    ],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": false,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": true
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": true,
+      "Google Cloud": false
+    }
+  },
+  "announced_support_2026_10_21:CD": {
+    "eligible_ids": [
+      "A",
+      "B",
+      "C"
+    ],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": true,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": false
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": false,
+      "Google Cloud": true
+    }
+  },
+  "claude_only_task_sensitivity:AB": {
+    "eligible_ids": [
+      "A",
+      "B"
+    ],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": false,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": true
+    },
+    "platform_pass": true,
+    "platform_tests": {
+      "Amazon Bedrock": true,
+      "Google Cloud": true
+    }
+  },
+  "claude_only_task_sensitivity:AC": {
+    "eligible_ids": [
+      "A",
+      "B"
+    ],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": false,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": true
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": false,
+      "Google Cloud": true
+    }
+  },
+  "claude_only_task_sensitivity:AD": {
+    "eligible_ids": [
+      "A",
+      "B"
+    ],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": false,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": true
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": false,
+      "Google Cloud": true
+    }
+  },
+  "claude_only_task_sensitivity:BC": {
+    "eligible_ids": [
+      "A",
+      "B"
+    ],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": false,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": true
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": true,
+      "Google Cloud": false
+    }
+  },
+  "claude_only_task_sensitivity:BD": {
+    "eligible_ids": [
+      "A",
+      "B"
+    ],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": false,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": true
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": true,
+      "Google Cloud": false
+    }
+  },
+  "claude_only_task_sensitivity:CD": {
+    "eligible_ids": [
+      "A",
+      "B"
+    ],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": false,
+      "Gemini 2.5 Pro": false,
+      "Nova Pro": false
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": false,
+      "Google Cloud": false
+    }
+  },
+  "incumbent_candidate_benchmark:AB": {
+    "eligible_ids": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": false,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": true
+    },
+    "platform_pass": true,
+    "platform_tests": {
+      "Amazon Bedrock": true,
+      "Google Cloud": true
+    }
+  },
+  "incumbent_candidate_benchmark:AC": {
+    "eligible_ids": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "joint_pass": false,
+    "model_pass": true,
+    "model_tests": {
+      "Claude Sonnet 4.5": true,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": true
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": false,
+      "Google Cloud": true
+    }
+  },
+  "incumbent_candidate_benchmark:AD": {
+    "eligible_ids": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "joint_pass": true,
+    "model_pass": true,
+    "model_tests": {
+      "Claude Sonnet 4.5": true,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": true
+    },
+    "platform_pass": true,
+    "platform_tests": {
+      "Amazon Bedrock": true,
+      "Google Cloud": true
+    }
+  },
+  "incumbent_candidate_benchmark:BC": {
+    "eligible_ids": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "joint_pass": true,
+    "model_pass": true,
+    "model_tests": {
+      "Claude Sonnet 4.5": true,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": true
+    },
+    "platform_pass": true,
+    "platform_tests": {
+      "Amazon Bedrock": true,
+      "Google Cloud": true
+    }
+  },
+  "incumbent_candidate_benchmark:BD": {
+    "eligible_ids": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "joint_pass": false,
+    "model_pass": true,
+    "model_tests": {
+      "Claude Sonnet 4.5": true,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": true
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": true,
+      "Google Cloud": false
+    }
+  },
+  "incumbent_candidate_benchmark:CD": {
+    "eligible_ids": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "joint_pass": true,
+    "model_pass": true,
+    "model_tests": {
+      "Claude Sonnet 4.5": true,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": true
+    },
+    "platform_pass": true,
+    "platform_tests": {
+      "Amazon Bedrock": true,
+      "Google Cloud": true
+    }
+  },
+  "new_buyer_and_support_2026_10_21:AB": {
+    "eligible_ids": [
+      "B",
+      "C"
+    ],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": false,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": true
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": true,
+      "Google Cloud": false
+    }
+  },
+  "new_buyer_and_support_2026_10_21:AC": {
+    "eligible_ids": [
+      "B",
+      "C"
+    ],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": true,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": false
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": false,
+      "Google Cloud": true
+    }
+  },
+  "new_buyer_and_support_2026_10_21:AD": {
+    "eligible_ids": [
+      "B",
+      "C"
+    ],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": false,
+      "Gemini 2.5 Pro": false,
+      "Nova Pro": false
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": false,
+      "Google Cloud": false
+    }
+  },
+  "new_buyer_and_support_2026_10_21:BC": {
+    "eligible_ids": [
+      "B",
+      "C"
+    ],
+    "joint_pass": true,
+    "model_pass": true,
+    "model_tests": {
+      "Claude Sonnet 4.5": true,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": true
+    },
+    "platform_pass": true,
+    "platform_tests": {
+      "Amazon Bedrock": true,
+      "Google Cloud": true
+    }
+  },
+  "new_buyer_and_support_2026_10_21:BD": {
+    "eligible_ids": [
+      "B",
+      "C"
+    ],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": false,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": true
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": true,
+      "Google Cloud": false
+    }
+  },
+  "new_buyer_and_support_2026_10_21:CD": {
+    "eligible_ids": [
+      "B",
+      "C"
+    ],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": true,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": false
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": false,
+      "Google Cloud": true
+    }
+  },
+  "new_buyer_lifecycle_gate:AB": {
+    "eligible_ids": [
+      "B",
+      "C",
+      "D"
+    ],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": false,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": true
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": true,
+      "Google Cloud": false
+    }
+  },
+  "new_buyer_lifecycle_gate:AC": {
+    "eligible_ids": [
+      "B",
+      "C",
+      "D"
+    ],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": true,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": false
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": false,
+      "Google Cloud": true
+    }
+  },
+  "new_buyer_lifecycle_gate:AD": {
+    "eligible_ids": [
+      "B",
+      "C",
+      "D"
+    ],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": true,
+      "Gemini 2.5 Pro": false,
+      "Nova Pro": true
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": true,
+      "Google Cloud": false
+    }
+  },
+  "new_buyer_lifecycle_gate:BC": {
+    "eligible_ids": [
+      "B",
+      "C",
+      "D"
+    ],
+    "joint_pass": true,
+    "model_pass": true,
+    "model_tests": {
+      "Claude Sonnet 4.5": true,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": true
+    },
+    "platform_pass": true,
+    "platform_tests": {
+      "Amazon Bedrock": true,
+      "Google Cloud": true
+    }
+  },
+  "new_buyer_lifecycle_gate:BD": {
+    "eligible_ids": [
+      "B",
+      "C",
+      "D"
+    ],
+    "joint_pass": false,
+    "model_pass": true,
+    "model_tests": {
+      "Claude Sonnet 4.5": true,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": true
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": true,
+      "Google Cloud": false
+    }
+  },
+  "new_buyer_lifecycle_gate:CD": {
+    "eligible_ids": [
+      "B",
+      "C",
+      "D"
+    ],
+    "joint_pass": true,
+    "model_pass": true,
+    "model_tests": {
+      "Claude Sonnet 4.5": true,
+      "Gemini 2.5 Pro": true,
+      "Nova Pro": true
+    },
+    "platform_pass": true,
+    "platform_tests": {
+      "Amazon Bedrock": true,
+      "Google Cloud": true
+    }
+  },
+  "shared_dependency_loss_sensitivity:AB": {
+    "eligible_ids": [],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": false,
+      "Gemini 2.5 Pro": false,
+      "Nova Pro": false
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": false,
+      "Google Cloud": false
+    }
+  },
+  "shared_dependency_loss_sensitivity:AC": {
+    "eligible_ids": [],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": false,
+      "Gemini 2.5 Pro": false,
+      "Nova Pro": false
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": false,
+      "Google Cloud": false
+    }
+  },
+  "shared_dependency_loss_sensitivity:AD": {
+    "eligible_ids": [],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": false,
+      "Gemini 2.5 Pro": false,
+      "Nova Pro": false
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": false,
+      "Google Cloud": false
+    }
+  },
+  "shared_dependency_loss_sensitivity:BC": {
+    "eligible_ids": [],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": false,
+      "Gemini 2.5 Pro": false,
+      "Nova Pro": false
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": false,
+      "Google Cloud": false
+    }
+  },
+  "shared_dependency_loss_sensitivity:BD": {
+    "eligible_ids": [],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": false,
+      "Gemini 2.5 Pro": false,
+      "Nova Pro": false
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": false,
+      "Google Cloud": false
+    }
+  },
+  "shared_dependency_loss_sensitivity:CD": {
+    "eligible_ids": [],
+    "joint_pass": false,
+    "model_pass": false,
+    "model_tests": {
+      "Claude Sonnet 4.5": false,
+      "Gemini 2.5 Pro": false,
+      "Nova Pro": false
+    },
+    "platform_pass": false,
+    "platform_tests": {
+      "Amazon Bedrock": false,
+      "Google Cloud": false
+    }
+  }
+}

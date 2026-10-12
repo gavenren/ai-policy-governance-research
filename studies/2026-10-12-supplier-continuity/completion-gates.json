@@ -1,0 +1,74 @@
+{
+  "study": "S013",
+  "state": "Complete-study draft",
+  "recorded_utc": "2026-10-12T17:09:43Z",
+  "human_peer_review": false,
+  "initial_evidence_cutoff_utc": "2026-10-12T13:50:17Z",
+  "gates": {
+    "contribution": {
+      "status": "pass within stated scope",
+      "evidence": [
+        "paper.md",
+        "protocol.md",
+        "logs/searches.json"
+      ],
+      "checks": "Selected documentary audit; close multi-model, fallback and supplier-risk work compared; no new resilience theorem or exhaustive novelty claim"
+    },
+    "evidence": {
+      "status": "pass within stated scope",
+      "evidence": [
+        "sources/manifest.json",
+        "sources/extracts.csv",
+        "sources/policy-status.csv",
+        "sources/rechecks.json"
+      ],
+      "checks": "13 sources, 24 narrow extracts; original and extracted hashes checked; pivotal lifecycle texts rechecked by author and reviewer"
+    },
+    "execution": {
+      "status": "pass within stated scope",
+      "evidence": [
+        "results/run.json",
+        "logs/execution.json",
+        "reviews/independent-check.json"
+      ],
+      "checks": "36 scenario/pair rows; ten author tests; separate enumeration with matching results"
+    },
+    "inference": {
+      "status": "pass within stated scope",
+      "evidence": [
+        "paper.md",
+        "data/codebook.md",
+        "results/scenario-detail.json"
+      ],
+      "checks": "All 24 readiness cells unknown; task restriction and shared dependency sensitivities defeat favorable structural choice; no reliability estimate or procurement recommendation"
+    },
+    "review": {
+      "status": "pass within stated scope",
+      "evidence": [
+        "reviews/critical-review.md",
+        "reviews/author-response.md",
+        "reviews/review-disposition.md",
+        "reviews/final-reviewed-files.json"
+      ],
+      "checks": "Two revisions resolved and affected contents rechecked; author and reviewer separate; no human review"
+    },
+    "disclosure": {
+      "status": "pass within stated scope",
+      "evidence": [
+        "paper.md",
+        "README.md",
+        "logs/coding-correction.md",
+        "logs/design-clarification.md"
+      ],
+      "checks": "Exploratory selection, source conflict, correction, conditional economic premise and review roles explicit"
+    },
+    "release_hygiene": {
+      "status": "pass within stated scope",
+      "evidence": [
+        "reviews/parent-release.md",
+        "reviews/release-hashes.json"
+      ],
+      "checks": "Exact reviewed hashes checked; initial public-file scan clear; final staged inspection and whitespace result recorded in maintainer release; remote receipt remains a separate step"
+    }
+  }
+}

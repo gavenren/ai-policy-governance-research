@@ -1,0 +1,25 @@
+extract_id,source_id,locator,quote,word_count,source_sha256
+P2-1,P2,Sections 3–5; framework pp. 6–9,a fallback that is documented but not resourced is not a control.,12,b9e3226a9027a20eaaf48a3422a1d9af459bee0ce36468eaa119c1c8f4396999
+P1-1,P1,PDF pp. 10–16; provider auditing p. 13; fallback p. 15,Institutions should assess and audit AI providers,7,7099dcb28e8c2b2bf3b1337e6bfa27c3e5d9dd8d116f42d20d14a5b03fe35900
+D1-1,D1,Model Details; Programmatic Access,Model lifecycle: Legacy,3,d1ad0a7701abe2367d27bcadaf825dd4c7a98d511f58cde070658046ed8c416d
+D1-2,D1,Model Details; Programmatic Access,"Model EOL date: April 8, 2027",6,d1ad0a7701abe2367d27bcadaf825dd4c7a98d511f58cde070658046ed8c416d
+D1-3,D1,Model Details; Programmatic Access,anthropic.claude-sonnet-4-5-20250929-v1:0,1,d1ad0a7701abe2367d27bcadaf825dd4c7a98d511f58cde070658046ed8c416d
+D3-1,D3,Model Details; Programmatic Access,Model lifecycle: Active,3,845ecfcece9a815a6f118a56936aec99296005ee4a5d84b666a101499f33c23e
+D3-2,D3,Model Details; Programmatic Access,amazon.nova-pro-v1:0,1,845ecfcece9a815a6f118a56936aec99296005ee4a5d84b666a101499f33c23e
+P5-1,P5,Section 2: Operational risks in relation to AI service providers,time-critical payments,2,13e26cb3c8cd18687a3548dfecd2fb1ceb25acd3bb27f7d29a94495b57f032e0
+D4-1,D4,Model ID; Versions; retirement footnote,gemini-2.5-pro,1,abe1869b7a09d0d57ff49235189c261ddd9b280b43604363c69192363557caf7
+D4-2,D4,Model ID; Versions; retirement footnote,Launch stage: GA,3,abe1869b7a09d0d57ff49235189c261ddd9b280b43604363c69192363557caf7
+D4-3,D4,Model ID; Versions; retirement footnote,"Retirement date†: October 20, 2026",5,abe1869b7a09d0d57ff49235189c261ddd9b280b43604363c69192363557caf7
+D4-4,D4,Model ID; Versions; retirement footnote,retirement of support in Gemini Enterprise Agent Platform,8,abe1869b7a09d0d57ff49235189c261ddd9b280b43604363c69192363557caf7
+D2-1,D2,Model ID; Versions; Supported regions,claude-sonnet-4-5,1,9346a7e1452c5a8da75a98fe43c1a637efa3f559fb6fdd298c687dcb8462cd43
+D2-2,D2,Model ID; Versions; Supported regions,Launch stage: Generally available,4,9346a7e1452c5a8da75a98fe43c1a637efa3f559fb6fdd298c687dcb8462cd43
+D2-3,D2,Model ID; Versions; Supported regions,"Retirement date not sooner than: September 29, 2026",8,9346a7e1452c5a8da75a98fe43c1a637efa3f559fb6fdd298c687dcb8462cd43
+D5-1,D5,Amazon Bedrock isolates your data,The Amazon Bedrock service team owns and operates these accounts.,10,08eb3594d6f495ba1cd32883aea8b4692aa9a2183321d4dfcdda40a5a22f2252
+I2-1,I2,Appendix: NHS user research finder; NHS.UK reviews,In early prototyping we attempted to run an in-house LLM.,10,aac8135371ed0aaeb4704832c572b1dc475b8b5ea6c99d0292128b28353159c0
+I2-2,I2,Appendix: NHS user research finder; NHS.UK reviews,the quality of the results was not high enough,9,aac8135371ed0aaeb4704832c572b1dc475b8b5ea6c99d0292128b28353159c0
+I1-1,I1,Service constraints; Scaling; Identity and authentication; Onboarding and offboarding,The Standard tier service draws from a shared shared capacity pool,11,f346b0f84fa1a6b1bf688316882ba618088947a2400683933f642676264628d9
+P3landing-1,P3landing,Description; publication and licence fields,recovery capacity,2,67c05620ba581756291ab6b48124b93724c079b10dceeb679cd19de8d38e7050
+D6-1,D6,Legacy definition; scheduled EOL table; Claude Sonnet 4.5 row,New customers can't use Legacy models,6,020bac76631abf692063257a26eede0303df0f6784f3839879ed10afb765b331
+D6-2,D6,Legacy definition; scheduled EOL table; Claude Sonnet 4.5 row,15 days of inactivity,4,020bac76631abf692063257a26eede0303df0f6784f3839879ed10afb765b331
+D6-3,D6,Legacy definition; scheduled EOL table; Claude Sonnet 4.5 row,"April 8, 2027",3,020bac76631abf692063257a26eede0303df0f6784f3839879ed10afb765b331
+P6-1,P6,PDF pp. 20–23: vertical integration and policy remedies,Risks from vertical integration,4,f49371b386f2a6c97a3186745e7a2cee367e407dfd565f00ae2d61d83062eb79

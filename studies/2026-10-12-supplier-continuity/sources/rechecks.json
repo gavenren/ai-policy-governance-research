@@ -1,0 +1,51 @@
+{
+  "scope": "Five pivotal product/access documents; no API access, legal contract or service test. Text extraction is byte-identical for all five. The Google HTML originals differ and both versions are retained. All coded claims use the unchanged text.",
+  "initial_check": "An assertion of identical original bytes failed for D2 and D4. It was not counted as a pass. The text-specific result is reported separately.",
+  "records": [
+    {
+      "source_id": "D1",
+      "repeat_capture_id": "D1R",
+      "rechecked_utc": "2026-10-12T16:56:30Z",
+      "original_bytes_identical": true,
+      "extracted_bytes_identical": true,
+      "original_sha256": "d1ad0a7701abe2367d27bcadaf825dd4c7a98d511f58cde070658046ed8c416d",
+      "extracted_sha256": "10f3fe9e355508dae34e3a8a948d38374082c7b7be299d196ea9c9d9a008ca00"
+    },
+    {
+      "source_id": "D2",
+      "repeat_capture_id": "D2R",
+      "rechecked_utc": "2026-10-12T16:56:30Z",
+      "original_bytes_identical": false,
+      "extracted_bytes_identical": true,
+      "original_sha256": "89594895518a754e241de38c4891e3103b7be9150768b2c3753e99aa3852040c",
+      "extracted_sha256": "5f129daff0db68d19deb81e825fd13a2e0a210d03a77be8a9703108b4dbf89b3"
+    },
+    {
+      "source_id": "D3",
+      "repeat_capture_id": "D3R",
+      "rechecked_utc": "2026-10-12T16:56:30Z",
+      "original_bytes_identical": true,
+      "extracted_bytes_identical": true,
+      "original_sha256": "845ecfcece9a815a6f118a56936aec99296005ee4a5d84b666a101499f33c23e",
+      "extracted_sha256": "40b1dc798303be277dc7c231a8d266ee8624af4fe0af1e84276003dbd5fb7a30"
+    },
+    {
+      "source_id": "D4",
+      "repeat_capture_id": "D4R",
+      "rechecked_utc": "2026-10-12T16:56:31Z",
+      "original_bytes_identical": false,
+      "extracted_bytes_identical": true,
+      "original_sha256": "3610e0b80e606a11c366f278551278dbe57c176f8deb7e3f2222a170c33e9c07",
+      "extracted_sha256": "4479d6d94d40ce74a7bd36f50a31775981186f99a12adebb19de23d0974a9a59"
+    },
+    {
+      "source_id": "D6",
+      "repeat_capture_id": "D6R",
+      "rechecked_utc": "2026-10-12T16:56:30Z",
+      "original_bytes_identical": true,
+      "extracted_bytes_identical": true,
+      "original_sha256": "020bac76631abf692063257a26eede0303df0f6784f3839879ed10afb765b331",
+      "extracted_sha256": "f0bc4e314585e37abb904be1bcc9aad957d22d0c465a430c386cfae882b85129"
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "run_utc": "2026-10-12T17:00:52.776234Z",
+  "python": "3.13.7",
+  "scope": "Independent enumeration and local source hashes; optional read-only public source requests.",
+  "enumeration_rows_checked": 36,
+  "independent_enumeration": [
+    {
+      "case": "incumbent_candidate_benchmark",
+      "pair": "AB",
+      "model_pass": false,
+      "platform_pass": true,
+      "joint_pass": false
+    },
+    {
+      "case": "incumbent_candidate_benchmark",
+      "pair": "AC",
+      "model_pass": true,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "incumbent_candidate_benchmark",
+      "pair": "AD",
+      "model_pass": true,
+      "platform_pass": true,
+      "joint_pass": true
+    },
+    {
+      "case": "incumbent_candidate_benchmark",
+      "pair": "BC",
+      "model_pass": true,
+      "platform_pass": true,
+      "joint_pass": true
+    },
+    {
+      "case": "incumbent_candidate_benchmark",
+      "pair": "BD",
+      "model_pass": true,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "incumbent_candidate_benchmark",
+      "pair": "CD",
+      "model_pass": true,
+      "platform_pass": true,
+      "joint_pass": true
+    },
+    {
+      "case": "new_buyer_lifecycle_gate",
+      "pair": "AB",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "new_buyer_lifecycle_gate",
+      "pair": "AC",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "new_buyer_lifecycle_gate",
+      "pair": "AD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "new_buyer_lifecycle_gate",
+      "pair": "BC",
+      "model_pass": true,
+      "platform_pass": true,
+      "joint_pass": true
+    },
+    {
+      "case": "new_buyer_lifecycle_gate",
+      "pair": "BD",
+      "model_pass": true,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "new_buyer_lifecycle_gate",
+      "pair": "CD",
+      "model_pass": true,
+      "platform_pass": true,
+      "joint_pass": true
+    },
+    {
+      "case": "announced_support_2026_10_21",
+      "pair": "AB",
+      "model_pass": false,
+      "platform_pass": true,
+      "joint_pass": false
+    },
+    {
+      "case": "announced_support_2026_10_21",
+      "pair": "AC",
+      "model_pass": true,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "announced_support_2026_10_21",
+      "pair": "AD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "announced_support_2026_10_21",
+      "pair": "BC",
+      "model_pass": true,
+      "platform_pass": true,
+      "joint_pass": true
+    },
+    {
+      "case": "announced_support_2026_10_21",
+      "pair": "BD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "announced_support_2026_10_21",
+      "pair": "CD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "new_buyer_and_support_2026_10_21",
+      "pair": "AB",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "new_buyer_and_support_2026_10_21",
+      "pair": "AC",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "new_buyer_and_support_2026_10_21",
+      "pair": "AD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "new_buyer_and_support_2026_10_21",
+      "pair": "BC",
+      "model_pass": true,
+      "platform_pass": true,
+      "joint_pass": true
+    },
+    {
+      "case": "new_buyer_and_support_2026_10_21",
+      "pair": "BD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "new_buyer_and_support_2026_10_21",
+      "pair": "CD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "claude_only_task_sensitivity",
+      "pair": "AB",
+      "model_pass": false,
+      "platform_pass": true,
+      "joint_pass": false
+    },
+    {
+      "case": "claude_only_task_sensitivity",
+      "pair": "AC",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "claude_only_task_sensitivity",
+      "pair": "AD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "claude_only_task_sensitivity",
+      "pair": "BC",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "claude_only_task_sensitivity",
+      "pair": "BD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "claude_only_task_sensitivity",
+      "pair": "CD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "shared_dependency_loss_sensitivity",
+      "pair": "AB",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "shared_dependency_loss_sensitivity",
+      "pair": "AC",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "shared_dependency_loss_sensitivity",
+      "pair": "AD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "shared_dependency_loss_sensitivity",
+      "pair": "BC",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "shared_dependency_loss_sensitivity",
+      "pair": "BD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "shared_dependency_loss_sensitivity",
+      "pair": "CD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    }
+  ],
+  "retained_source_files_hash_checked": 26,
+  "network": [
+    {
+      "source_id": "D1",
+      "requested_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-4-5.html",
+      "started_utc": "2026-10-12T17:00:52.648850Z",
+      "completed_utc": "2026-10-12T17:00:52.724481Z",
+      "status": "failed",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+    },
+    {
+      "source_id": "D6",
+      "requested_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+      "started_utc": "2026-10-12T17:00:52.724530Z",
+      "completed_utc": "2026-10-12T17:00:52.738814Z",
+      "status": "failed",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+    },
+    {
+      "source_id": "D4",
+      "requested_url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-pro",
+      "started_utc": "2026-10-12T17:00:52.738854Z",
+      "completed_utc": "2026-10-12T17:00:52.776196Z",
+      "status": "failed",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)>"
+    }
+  ],
+  "numerical_status": "passed",
+  "limits": "No account access, API inference, capacity trial, contract review, or population inference."
+}

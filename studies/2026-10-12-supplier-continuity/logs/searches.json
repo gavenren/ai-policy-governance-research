@@ -1,0 +1,240 @@
+{
+  "scope": "Targeted English-language web search, source following and programme duplicate screen. Not systematic database coverage. Query output alone is discovery, not final evidence.",
+  "cutoff_utc": "2026-10-12T13:50:17Z",
+  "events": [
+    {
+      "id": "search-1",
+      "service": "web.run",
+      "started_utc": "2026-10-12T04:51:53Z",
+      "completed_utc": "2026-10-12T04:51:54Z",
+      "queries": [
+        "AI multi cloud resilience common model dependency provider concentration portability paper",
+        "site.bankofengland.co.uk AI third party dependencies cloud concentration resilience model",
+        "site.arxiv.org \"LLM\" \"correlated\" \"failures\" \"ensemble\"",
+        "site.eur-lex.europa.eu \"Data Act\" \"functional equivalence\" \"switching\""
+      ],
+      "date_filters": "none",
+      "action": "Targeted keyword search; results screened for primary sources.",
+      "private_response_path": ".local-sources/supplier-continuity/search-1.json",
+      "private_response_sha256": "040f54d57258549fabb710bf2b522f6d8207c80075def0594306fe48f359c533"
+    },
+    {
+      "id": "search-2",
+      "service": "web.run",
+      "started_utc": "2026-10-12T06:51:10Z",
+      "completed_utc": "2026-10-12T06:51:10Z",
+      "queries": [],
+      "date_filters": "none",
+      "action": "Opened Tan repository record, Shelby arXiv abstract, and Bank of England April 2025 report.",
+      "private_response_path": ".local-sources/supplier-continuity/search-2.json",
+      "private_response_sha256": "ee875957ff76dcb9a994790c401d78508c0dac586fb2b14cec237a172e81c766"
+    },
+    {
+      "id": "search-3",
+      "service": "web.run",
+      "started_utc": "2026-10-12T06:51:46Z",
+      "completed_utc": "2026-10-12T06:51:47Z",
+      "queries": [],
+      "date_filters": "none",
+      "action": "Followed Tan PDF link (web reader error) and read Shelby full HTML.",
+      "private_response_path": ".local-sources/supplier-continuity/search-3.json",
+      "private_response_sha256": "72c057b61696b119dd4118fb7f413879e8729ed27954b352ae58742108a2c223"
+    },
+    {
+      "id": "search-4",
+      "service": "web.run",
+      "started_utc": "2026-10-12T06:52:31Z",
+      "completed_utc": "2026-10-12T06:52:32Z",
+      "queries": [
+        "\"public\" \"AI\" \"fallback\" procurement \"model\" dependency resilience paper",
+        "\"AI\" \"source code escrow\" \"model weights\"",
+        "\"supply disruption\" \"mitigation\" \"contingency\" Tomlin 2006 pdf",
+        "\"AI\" \"procurement\" \"diversity\" \"model providers\" paper"
+      ],
+      "date_filters": "none",
+      "action": "Targeted keyword search; results screened for primary sources.",
+      "private_response_path": ".local-sources/supplier-continuity/search-4.json",
+      "private_response_sha256": "0f35aef301c0c80d9d2a2e89f97d253fa44d630a6b2d7bdb8b032c3c395b8190"
+    },
+    {
+      "id": "search-5",
+      "service": "web.run",
+      "started_utc": "2026-10-12T06:54:02Z",
+      "completed_utc": "2026-10-12T06:54:03Z",
+      "queries": [
+        "site.docs.aws.amazon.com bedrock \"claude-sonnet-4-5-20250929\"",
+        "site.docs.cloud.google.com vertex-ai \"claude-sonnet-4-5\"",
+        "site.docs.aws.amazon.com \"Amazon Bedrock\" \"model providers\" \"access\" \"data\"",
+        "site.docs.cloud.google.com \"Claude\" \"managed\" \"Vertex AI\" \"infrastructure\""
+      ],
+      "date_filters": "none",
+      "action": "Targeted keyword search; results screened for primary sources.",
+      "private_response_path": ".local-sources/supplier-continuity/search-5.json",
+      "private_response_sha256": "78ce0bfeb25a4936a726e0c9032e470789054453b8623f027a16c043db1d6b4d"
+    },
+    {
+      "id": "search-6",
+      "service": "web.run",
+      "started_utc": "2026-10-12T08:55:52Z",
+      "completed_utc": "2026-10-12T08:55:53Z",
+      "queries": [],
+      "date_filters": "none",
+      "action": "Opened Langer and Haag full article, Canada AI-access repository lead, and AWS/Google Claude cards.",
+      "private_response_path": ".local-sources/supplier-continuity/search-6.json",
+      "private_response_sha256": "59edd4921889087b75264d01e237717fe3f7902ddc07b3bfc3c5c897a6a6c75d"
+    },
+    {
+      "id": "search-7",
+      "service": "web.run",
+      "started_utc": "2026-10-12T09:08:28Z",
+      "completed_utc": "2026-10-12T09:08:29Z",
+      "queries": [],
+      "date_filters": "none",
+      "action": "Read Langer and Haag framework/implementation sections and model-card portions; Canada repository open failed.",
+      "private_response_path": ".local-sources/supplier-continuity/search-7.json",
+      "private_response_sha256": "ade31cbe972367962df661d6f760665e17fb485c158374bb91dc8394cfc7c84f"
+    },
+    {
+      "id": "search-8",
+      "service": "web.run",
+      "started_utc": "2026-10-12T09:54:24Z",
+      "completed_utc": "2026-10-12T09:54:25Z",
+      "queries": [
+        "\"Tomlin\" \"On the Value of Mitigation\" filetype:pdf -site:researchgate.net",
+        "site.docs.aws.amazon.com \"Nova Pro\" \"Model ID\" \"Active\"",
+        "site.docs.cloud.google.com \"Gemini 2.5 Pro\" \"model ID\" \"Discontinuation\"",
+        "\"Canada\u2019s AI Access Problem\" OR \"Canada's AI Access Problem\""
+      ],
+      "date_filters": "none",
+      "action": "Searched alternate primary access for Tomlin; Nova and Gemini cards; Canada access-paper title.",
+      "private_response_path": ".local-sources/supplier-continuity/search-8.json",
+      "private_response_sha256": "566f76ab2245526a04ffa4278f59ce21708364370358c174bb75d64f36a0cbfa"
+    },
+    {
+      "id": "search-9",
+      "service": "web.run",
+      "started_utc": "2026-10-12T10:05:19Z",
+      "completed_utc": "2026-10-12T10:05:20Z",
+      "queries": [],
+      "date_filters": "none",
+      "action": "Opened Gemini and Nova cards and Tan repository record.",
+      "private_response_path": ".local-sources/supplier-continuity/search-9.json",
+      "private_response_sha256": "ea23a79d6d587e45f8e00f1d0efaa5834f8bc20637dd0f91f61ca0d0aaf19104"
+    },
+    {
+      "id": "search-10",
+      "service": "web.run",
+      "started_utc": "2026-10-12T10:56:33Z",
+      "completed_utc": "2026-10-12T10:56:34Z",
+      "queries": [
+        "site.gov.uk \"AI Playbook\" \"continuity\"",
+        "site.canada.ca \"cloud\" \"data residency\" \"Protected B\"",
+        "site.applytosupply.digitalmarketplace.service.gov.uk \"Claude\" \"Bedrock\"",
+        "site.applytosupply.digitalmarketplace.service.gov.uk \"Vertex AI\" \"benefits\""
+      ],
+      "date_filters": "none",
+      "action": "Targeted keyword search; results screened for primary sources.",
+      "private_response_path": ".local-sources/supplier-continuity/search-10.json",
+      "private_response_sha256": "1eb86a40bf5eec57be34b60cbc7ef59e16ecfefce5096c176867100310e9b4d9"
+    },
+    {
+      "id": "search-11",
+      "service": "web.run",
+      "started_utc": "2026-10-12T10:56:52Z",
+      "completed_utc": "2026-10-12T10:56:53Z",
+      "queries": [],
+      "date_filters": "none",
+      "action": "Opened official UK AI Playbook and the Softcat G-Cloud listing; found Bank operational-risk section.",
+      "private_response_path": ".local-sources/supplier-continuity/search-11.json",
+      "private_response_sha256": "7911edd5f4e23ed960a16dfd56cf29f5a8f4ee72eef3868f801c7bf1de6f1e77"
+    },
+    {
+      "id": "search-12",
+      "service": "web.run",
+      "started_utc": "2026-10-12T10:57:03Z",
+      "completed_utc": "2026-10-12T10:57:04Z",
+      "queries": [],
+      "date_filters": "none",
+      "action": "Found continuity, publication, and related passages in the official UK AI Playbook.",
+      "private_response_path": ".local-sources/supplier-continuity/search-12.json",
+      "private_response_sha256": "b590c1df0d759c9589c8838a4dae7c6b5095dc5ca8ce15fd65ca5ace63a8791c"
+    },
+    {
+      "id": "search-13",
+      "service": "web.run",
+      "started_utc": "2026-10-12T12:59:14Z",
+      "completed_utc": "2026-10-12T12:59:15Z",
+      "queries": [],
+      "date_filters": "none",
+      "action": "Opened linked AWS Legacy lifecycle policy. Retained-byte acquisition separately confirmed Sonnet 4.5 row missing from older web rendition.",
+      "private_response_path": ".local-sources/supplier-continuity/search-13.json",
+      "private_response_sha256": "c6a39559453de81f58b66f3fea475d2759c6b28e3015be7138d947ccd84e6df2"
+    },
+    {
+      "id": "search-14",
+      "service": "web.run",
+      "started_utc": "2026-10-12T13:49:49Z",
+      "completed_utc": "2026-10-12T13:49:50Z",
+      "queries": [
+        "\"Korinek\" \"Vipra\" \"2025\" foundation models market",
+        "\"AI\" \"backup\" \"Legacy\" \"Bedrock\" \"procurement\"",
+        "\"AI\" \"multi-cloud\" \"model\" \"lifecycle\" procurement research",
+        "site:github.com/gavenren/ai-safety-research \"economy\""
+      ],
+      "date_filters": "none",
+      "action": "Targeted keyword search; results screened for primary sources.",
+      "private_response_path": ".local-sources/supplier-continuity/search-14.json",
+      "private_response_sha256": "041c5c07de30f8cd0fd8886ebc7ba8b1e763acff84f427b0dc530298a5dc5fd3"
+    },
+    {
+      "id": "search-15",
+      "service": "web.run",
+      "started_utc": "2026-10-12T13:50:01Z",
+      "completed_utc": "2026-10-12T13:50:03Z",
+      "queries": [],
+      "date_filters": "none",
+      "action": "Opened NBER landing page (403) and separate public ai-safety-research programme index. PDF acquisition subsequently succeeded.",
+      "private_response_path": ".local-sources/supplier-continuity/search-15.json",
+      "private_response_sha256": "eba00fcf823979bc821ba7894e04c48d2e1f22c2e3bc65c161c907007e26ff9c"
+    }
+  ],
+  "unclocked_followup": "One intermediate web call followed the Springer PDF and retried the Canada Zenodo lead without a separate boundary clock. Exact web retrieval time was not recorded. The Springer PDF later has its own exact acquisition record; no coded fact relies on the unclocked response.",
+  "screening": {
+    "included": "P1 and P2 full conceptual frameworks, P6 full relevant economic sections, P5 official institutional context, D1-D6 primary product/access records, I1 procurement offer, I2 official cases; P3 repository description only.",
+    "excluded": [
+      {
+        "lead": "Tomlin (2006), DOI 10.1287/mnsc.1060.0515",
+        "reason": "Full PDF requests to author-upload and publisher denied; abstract used only to limit novelty claim, no proof verified."
+      },
+      {
+        "lead": "Canada's AI Access Problem, Zenodo 20691125",
+        "reason": "Repository metadata initially discovered; later page retrievals failed. Not evidence for a substantive claim."
+      },
+      {
+        "lead": "AI behavioral entanglement, arXiv:2604.07650",
+        "reason": "Different outcome: behavioral dependence. This audit estimates no correlation."
+      },
+      {
+        "lead": "Data Act switching provisions",
+        "reason": "No legal switching comparison is undertaken."
+      },
+      {
+        "lead": "Canada data residency policy",
+        "reason": "Different storage/transit scope; no residency-based exclusion inferred."
+      },
+      {
+        "lead": "Commercial AI escrow products",
+        "reason": "Marketing not evidence of tested recovery; no efficacy claim used."
+      },
+      {
+        "lead": "Generic cloud lifecycle and orchestration frameworks",
+        "reason": "Different scope; no new orchestration architecture claimed."
+      },
+      {
+        "lead": "Reddit and secondary market summaries",
+        "reason": "Discovery only; not primary evidence."
+      }
+    ],
+    "programme_comparison": "Local paper titles and S007 introduction/methods were read. Separate public ai-safety-research README was read at event 15: its listed studies cover incident severity, test dependence and judge correction. Full separate study contents were not re-audited. No exact duplicate identified in this bounded screen."
+  }
+}

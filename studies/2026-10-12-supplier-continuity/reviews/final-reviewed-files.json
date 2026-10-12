@@ -1,0 +1,44 @@
+{
+  "completed_utc": "2026-10-12T17:03:31.607590Z",
+  "reviewer": "Separate AI agent /root/large_load",
+  "manuscript_sha256": "b812d399ec084e83ef7eaa09d44c572a8af06ccce78c8b8c826c2de293818a51",
+  "changed_core_files": [
+    "code/build_ledger.py",
+    "data/codebook.md",
+    "paper.md",
+    "sources/extracts.csv"
+  ],
+  "files_sha256": {
+    "README.md": "135cc304eb51ac5ca8b5fc3d7f209e8b59907b925084234964a99d4958fbee78",
+    "code/acquire.py": "5585f782f9a5e321241310f2c0213a35e7a9a6f228a0dceaadb690965ac3bfa0",
+    "code/analyze.py": "14f63faa16ec28a3657b1eee0b409ec95eb511bba8a884df3c365973dc9d6508",
+    "code/build_ledger.py": "c139414632a5eeddce2e18a80f9a30425430e8d4faaeb018e60da47fd17a3fb0",
+    "code/check.py": "dcd59e1fbaae969c1b9bec6cbcbbb0f3a03b7abedd67b0aaf4733e942e658742",
+    "code/test_analysis.py": "ebc467f3475f3d22eb1542ebe550257ba72b336627cfc71e3d09b0d5e3f26a9c",
+    "data/codebook.md": "13e8311efe8924e5983e2d55af6bbc7417f64ee6ffd27ae1544f7c3922e4631a",
+    "data/deployments.csv": "ea93ced1f43f1139f3a96c83f913c51bfc0c154416d1f66f5e3b47d2f3827931",
+    "logs/coding-correction.md": "bb482c9640a40a4c183cb430e60733e69f8ba41dd7abde0ef508574be4178e92",
+    "logs/design-clarification.md": "e9e66b60b89bf4b86993fd34eaebb5f35216135be5d25f321b21fa4dbb1b134c",
+    "logs/execution.json": "16af319ae080ffb1dbb82c03edf72cb5b1275cd4113eab91b9608482dc42ff81",
+    "logs/searches.json": "1572ce037a0192a00c8d2e0bf5fdddea8cb4802a59fb39e6481876fe6cee7fbc",
+    "logs/superseded-first-run.json": "7bdb901cbb8e9f61c44359bdd32513a92a0ee177f6685504c2fac9658be0ca98",
+    "paper.md": "b812d399ec084e83ef7eaa09d44c572a8af06ccce78c8b8c826c2de293818a51",
+    "protocol.md": "4a826ec81d96e22a642c2d9c43b75350e2d61e162693bd6c424c20fd3ef9690f",
+    "results/pairs.csv": "b1e8abed720d5ab5c9463abb382ccc42fab463dc3f6d9f5cd27f22e971a9a5fb",
+    "results/run.json": "5d5e30efd4de490fd0ebc5233c746ecf67061090a64efd0666eaae6f35293b64",
+    "results/scenario-detail.json": "6a163cc9d61bd1abb1be75222116b22205bdd01851555c5e948b03d009dcbfbf",
+    "results/summary.json": "742cd29c7b8d2bfdb4e637a4f28f3d73b58bcb9d4023395feafbe64321a1b760",
+    "sources/captures.jsonl": "c6e851235a70fbf77d651fd7c82f890866edd48a7183fb96dc0db2d34e2e8516",
+    "sources/extracts.csv": "fa16ea51051db88710168ea1f0e2955bf21fcfc66bb64e6bc73f90f814b6b3b2",
+    "sources/manifest.json": "099c9839bd903f505def7a9a59563478e6f259bdc5d0a046a31684eefc8cf6a5",
+    "sources/policy-status.csv": "a772963dc3e1caffe9cf3c34c10039cc560a12664b1e8a27b039e89f63309617",
+    "sources/rechecks.json": "d572eddfe000f0b53a1406ce76a5f68e7d641dabc5cebb3802dad05b50f11c15"
+  },
+  "checks_after_revision": {
+    "regional_condition": "paper section 6 and codebook final paragraph checked",
+    "P2_extract": "12 words; checked against source bytes",
+    "source_validator": "passed; 13 sources; 24 extracts; local bytes checked",
+    "numerical_code_data_outputs": "unchanged from independently checked version"
+  },
+  "outcome": "R1 and R2 resolved; no unresolved blocker within the reviewed scope"
+}

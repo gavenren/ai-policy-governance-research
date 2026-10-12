@@ -1,0 +1,79 @@
+{
+  "cases": {
+    "announced_support_2026_10_21": {
+      "joint_pass": [
+        "BC"
+      ],
+      "model_pass": [
+        "AC",
+        "BC"
+      ],
+      "platform_pass": [
+        "AB",
+        "BC"
+      ]
+    },
+    "claude_only_task_sensitivity": {
+      "joint_pass": [],
+      "model_pass": [],
+      "platform_pass": [
+        "AB"
+      ]
+    },
+    "incumbent_candidate_benchmark": {
+      "joint_pass": [
+        "AD",
+        "BC",
+        "CD"
+      ],
+      "model_pass": [
+        "AC",
+        "AD",
+        "BC",
+        "BD",
+        "CD"
+      ],
+      "platform_pass": [
+        "AB",
+        "AD",
+        "BC",
+        "CD"
+      ]
+    },
+    "new_buyer_and_support_2026_10_21": {
+      "joint_pass": [
+        "BC"
+      ],
+      "model_pass": [
+        "BC"
+      ],
+      "platform_pass": [
+        "BC"
+      ]
+    },
+    "new_buyer_lifecycle_gate": {
+      "joint_pass": [
+        "BC",
+        "CD"
+      ],
+      "model_pass": [
+        "BC",
+        "BD",
+        "CD"
+      ],
+      "platform_pass": [
+        "BC",
+        "CD"
+      ]
+    },
+    "shared_dependency_loss_sensitivity": {
+      "joint_pass": [],
+      "model_pass": [],
+      "platform_pass": []
+    }
+  },
+  "deployment_count": 4,
+  "exact_retirement_unknown_rows": 2,
+  "pair_count": 6,
+  "readiness_unknown_cells": 24
+}

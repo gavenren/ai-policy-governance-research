@@ -1,0 +1,50 @@
+{
+  "recorded_utc": "2026-10-12T16:57:34Z",
+  "python": "3.13.7",
+  "checks": [
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "code",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "started_utc": "2026-10-12T16:57:34Z",
+      "completed_utc": "2026-10-12T16:57:34Z",
+      "exit_status": 0,
+      "stdout": "",
+      "stderr": "test_complete_enumeration_and_negative_cases (test_analysis.AuditTests.test_complete_enumeration_and_negative_cases) ... ok\ntest_crossed_pair (test_analysis.AuditTests.test_crossed_pair) ... ok\ntest_empty_candidate_set (test_analysis.AuditTests.test_empty_candidate_set) ... ok\ntest_readiness_never_inferred (test_analysis.AuditTests.test_readiness_never_inferred) ... ok\ntest_removal_cannot_improve_coverage (test_analysis.AuditTests.test_removal_cannot_improve_coverage) ... ok\ntest_retirement_boundary (test_analysis.AuditTests.test_retirement_boundary) ... ok\ntest_same_model_different_platform (test_analysis.AuditTests.test_same_model_different_platform) ... ok\ntest_same_platform_different_model (test_analysis.AuditTests.test_same_platform_different_model) ... ok\ntest_unique_keys (test_analysis.AuditTests.test_unique_keys) ... ok\ntest_unknown_date_not_exact (test_analysis.AuditTests.test_unknown_date_not_exact) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.002s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "code/check.py",
+        "--with-local"
+      ],
+      "started_utc": "2026-10-12T16:57:34Z",
+      "completed_utc": "2026-10-12T16:57:34Z",
+      "exit_status": 0,
+      "stdout": "{\"status\": \"passed\", \"public_sources\": 13, \"extracts\": 24, \"max_quoted_words_per_source\": 19, \"deployments\": 4, \"scenario_pair_rows\": 36, \"private_source_bytes_checked\": true}\n",
+      "stderr": ""
+    }
+  ],
+  "hashes": {
+    "paper.md": "3dbcd2446785e743c8c70a8342618a9c5e309a1a7974ace20e2c816ad4f6b37b",
+    "protocol.md": "4a826ec81d96e22a642c2d9c43b75350e2d61e162693bd6c424c20fd3ef9690f",
+    "data/deployments.csv": "ea93ced1f43f1139f3a96c83f913c51bfc0c154416d1f66f5e3b47d2f3827931",
+    "data/codebook.md": "843578d5b91f3df54e58517120ac25cb28363a0f80bb64485a534680c3f94fd3",
+    "code/analyze.py": "14f63faa16ec28a3657b1eee0b409ec95eb511bba8a884df3c365973dc9d6508",
+    "code/check.py": "dcd59e1fbaae969c1b9bec6cbcbbb0f3a03b7abedd67b0aaf4733e942e658742",
+    "sources/manifest.json": "099c9839bd903f505def7a9a59563478e6f259bdc5d0a046a31684eefc8cf6a5",
+    "sources/extracts.csv": "7e097b40d2664a559724b6a8fc19bbc55064ea9526645f8d2a0edc33ce4dbb46",
+    "sources/rechecks.json": "d572eddfe000f0b53a1406ce76a5f68e7d641dabc5cebb3802dad05b50f11c15",
+    "results/summary.json": "742cd29c7b8d2bfdb4e637a4f28f3d73b58bcb9d4023395feafbe64321a1b760",
+    "results/pairs.csv": "b1e8abed720d5ab5c9463abb382ccc42fab463dc3f6d9f5cd27f22e971a9a5fb"
+  },
+  "limitations": "Author checks only. Independent AI review pending. No source snapshots are published in this package."
+}

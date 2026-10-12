@@ -1,0 +1,307 @@
+{
+  "run_utc": "2026-10-12T17:01:55.782507Z",
+  "python": "3.12.14",
+  "scope": "Independent enumeration and local source hashes; optional read-only public source requests.",
+  "enumeration_rows_checked": 36,
+  "independent_enumeration": [
+    {
+      "case": "incumbent_candidate_benchmark",
+      "pair": "AB",
+      "model_pass": false,
+      "platform_pass": true,
+      "joint_pass": false
+    },
+    {
+      "case": "incumbent_candidate_benchmark",
+      "pair": "AC",
+      "model_pass": true,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "incumbent_candidate_benchmark",
+      "pair": "AD",
+      "model_pass": true,
+      "platform_pass": true,
+      "joint_pass": true
+    },
+    {
+      "case": "incumbent_candidate_benchmark",
+      "pair": "BC",
+      "model_pass": true,
+      "platform_pass": true,
+      "joint_pass": true
+    },
+    {
+      "case": "incumbent_candidate_benchmark",
+      "pair": "BD",
+      "model_pass": true,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "incumbent_candidate_benchmark",
+      "pair": "CD",
+      "model_pass": true,
+      "platform_pass": true,
+      "joint_pass": true
+    },
+    {
+      "case": "new_buyer_lifecycle_gate",
+      "pair": "AB",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "new_buyer_lifecycle_gate",
+      "pair": "AC",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "new_buyer_lifecycle_gate",
+      "pair": "AD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "new_buyer_lifecycle_gate",
+      "pair": "BC",
+      "model_pass": true,
+      "platform_pass": true,
+      "joint_pass": true
+    },
+    {
+      "case": "new_buyer_lifecycle_gate",
+      "pair": "BD",
+      "model_pass": true,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "new_buyer_lifecycle_gate",
+      "pair": "CD",
+      "model_pass": true,
+      "platform_pass": true,
+      "joint_pass": true
+    },
+    {
+      "case": "announced_support_2026_10_21",
+      "pair": "AB",
+      "model_pass": false,
+      "platform_pass": true,
+      "joint_pass": false
+    },
+    {
+      "case": "announced_support_2026_10_21",
+      "pair": "AC",
+      "model_pass": true,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "announced_support_2026_10_21",
+      "pair": "AD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "announced_support_2026_10_21",
+      "pair": "BC",
+      "model_pass": true,
+      "platform_pass": true,
+      "joint_pass": true
+    },
+    {
+      "case": "announced_support_2026_10_21",
+      "pair": "BD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "announced_support_2026_10_21",
+      "pair": "CD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "new_buyer_and_support_2026_10_21",
+      "pair": "AB",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "new_buyer_and_support_2026_10_21",
+      "pair": "AC",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "new_buyer_and_support_2026_10_21",
+      "pair": "AD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "new_buyer_and_support_2026_10_21",
+      "pair": "BC",
+      "model_pass": true,
+      "platform_pass": true,
+      "joint_pass": true
+    },
+    {
+      "case": "new_buyer_and_support_2026_10_21",
+      "pair": "BD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "new_buyer_and_support_2026_10_21",
+      "pair": "CD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "claude_only_task_sensitivity",
+      "pair": "AB",
+      "model_pass": false,
+      "platform_pass": true,
+      "joint_pass": false
+    },
+    {
+      "case": "claude_only_task_sensitivity",
+      "pair": "AC",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "claude_only_task_sensitivity",
+      "pair": "AD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "claude_only_task_sensitivity",
+      "pair": "BC",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "claude_only_task_sensitivity",
+      "pair": "BD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "claude_only_task_sensitivity",
+      "pair": "CD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "shared_dependency_loss_sensitivity",
+      "pair": "AB",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "shared_dependency_loss_sensitivity",
+      "pair": "AC",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "shared_dependency_loss_sensitivity",
+      "pair": "AD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "shared_dependency_loss_sensitivity",
+      "pair": "BC",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "shared_dependency_loss_sensitivity",
+      "pair": "BD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    },
+    {
+      "case": "shared_dependency_loss_sensitivity",
+      "pair": "CD",
+      "model_pass": false,
+      "platform_pass": false,
+      "joint_pass": false
+    }
+  ],
+  "retained_source_files_hash_checked": 26,
+  "network": [
+    {
+      "source_id": "D1",
+      "requested_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-4-5.html",
+      "started_utc": "2026-10-12T17:01:54.647219Z",
+      "final_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-card-anthropic-claude-sonnet-4-5.html",
+      "completed_utc": "2026-10-12T17:01:54.821908Z",
+      "bytes": 70430,
+      "sha256": "d1ad0a7701abe2367d27bcadaf825dd4c7a98d511f58cde070658046ed8c416d",
+      "same_original_bytes_as_author_capture": true,
+      "normalized_visible_text_same_as_saved": true,
+      "normalized_visible_text_sha256": "156e0b4bbdd4dd727c4478ee1b7f474bfc2a6e97200771857046cd397e089185",
+      "critical_texts_present": true,
+      "status": "passed"
+    },
+    {
+      "source_id": "D6",
+      "requested_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+      "started_utc": "2026-10-12T17:01:54.836963Z",
+      "final_url": "https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle-legacy.html",
+      "completed_utc": "2026-10-12T17:01:54.864558Z",
+      "bytes": 27600,
+      "sha256": "020bac76631abf692063257a26eede0303df0f6784f3839879ed10afb765b331",
+      "same_original_bytes_as_author_capture": true,
+      "normalized_visible_text_same_as_saved": true,
+      "normalized_visible_text_sha256": "68ca626a7880789cd38be26b02a7e909aad824f75b4171e61cd65a619ac97c24",
+      "critical_texts_present": true,
+      "status": "passed"
+    },
+    {
+      "source_id": "D4",
+      "requested_url": "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/models/gemini/2-5-pro",
+      "started_utc": "2026-10-12T17:01:54.869648Z",
+      "final_url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/gemini/2-5-pro",
+      "completed_utc": "2026-10-12T17:01:55.713212Z",
+      "bytes": 432170,
+      "sha256": "e3138050abc4c77d673fea8ea3acad44f1cc27c37ef436deeb2b90762582fbe0",
+      "same_original_bytes_as_author_capture": false,
+      "normalized_visible_text_same_as_saved": true,
+      "normalized_visible_text_sha256": "419b55a5ae0e2d9121f775ee1d3ef0f81f6c3157dab0e1cd56b17f0752906810",
+      "critical_texts_present": true,
+      "status": "passed"
+    }
+  ],
+  "numerical_status": "passed",
+  "limits": "No account access, API inference, capacity trial, contract review, or population inference."
+}

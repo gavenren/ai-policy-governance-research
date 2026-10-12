@@ -1,0 +1,18 @@
+{
+  "saved_utc": "2026-10-12T17:04:09Z",
+  "review": "reviews/review-disposition.md",
+  "fixed_findings": [
+    "R1",
+    "R2"
+  ],
+  "analysis_changed": false,
+  "result_counts_changed": false,
+  "state": "Working notes; separate AI review complete, release checks pending",
+  "sha256": {
+    "paper.md": "b812d399ec084e83ef7eaa09d44c572a8af06ccce78c8b8c826c2de293818a51",
+    "data/codebook.md": "13e8311efe8924e5983e2d55af6bbc7417f64ee6ffd27ae1544f7c3922e4631a",
+    "sources/extracts.csv": "fa16ea51051db88710168ea1f0e2955bf21fcfc66bb64e6bc73f90f814b6b3b2",
+    "code/build_ledger.py": "c139414632a5eeddce2e18a80f9a30425430e8d4faaeb018e60da47fd17a3fb0",
+    "reviews/author-response.md": "d0fdcda5a78d455e3bc494e68ef7e4837d4597131a1f389947c1b2c8361cb6c5"
+  }
+}

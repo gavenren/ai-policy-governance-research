@@ -1,0 +1,6 @@
+deployment_id,model_label,developer_label,platform_label,source_model_id,documented_stage,exact_support_retirement_date,source_id,source_locator,task_qualified,reserved_capacity,tested_switching,service_data_access,permission_for_hypothetical_use,other_infrastructure_independence
+A,Claude Sonnet 4.5,Anthropic,Amazon Bedrock,anthropic.claude-sonnet-4-5-20250929-v1:0,Legacy,2027-04-08,D1;D6,Model Details; Programmatic Access; scheduled EOL table and Legacy access rule,unknown,unknown,unknown,unknown,unknown,unknown
+B,Claude Sonnet 4.5,Anthropic,Google Cloud,claude-sonnet-4-5,GA,unknown,D2,Model ID; Versions,unknown,unknown,unknown,unknown,unknown,unknown
+C,Nova Pro,Amazon,Amazon Bedrock,amazon.nova-pro-v1:0,Active,unknown,D3,Model Details; Programmatic Access,unknown,unknown,unknown,unknown,unknown,unknown
+D,Gemini 2.5 Pro,Google,Google Cloud,gemini-2.5-pro,GA,2026-10-20,D4,Model ID; Versions; retirement footnote,unknown,unknown,unknown,unknown,unknown,unknown
+
