@@ -1,6 +1,6 @@
 # Canada: costs, funding, and timeline
 
-Read the [policy paper](paper.md). It applies the repository's combined policy plan to Canada.
+Read the [policy paper](paper.md). It applies the repository's combined policy plan to Canada. For a short version, use the [one-page brief](policy-brief.md) or its [print-ready PDF](output/pdf/canada-policy-brief.pdf). The [brief checks](brief-verification.md) record its content and page checks.
 
 The central limited programme costs $21bn a year before interest and a separate GST rebate. The proposed tax package supplies $22.696bn after that rebate under selected assumptions. A separate severe case finds that an additional $24,000 annual payment to all counted adults costs $819.805bn in cash alone. With the stated additions and tax losses, it needs $1,100.122bn in new annual revenue to keep the starting federal deficit unchanged.
 
