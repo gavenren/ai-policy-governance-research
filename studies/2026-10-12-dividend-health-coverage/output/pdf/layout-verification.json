@@ -1,0 +1,65 @@
+{
+  "checked_at_utc": "2026-10-12T18:59:44.181094Z",
+  "reviewer": "PDF authoring AI agent; not human review",
+  "pdf_sha256": "24c2e380ae5654301062f9b9b9e811e9df5158d0f972a0f414a91a85564db056",
+  "pages": 7,
+  "render_method": "Poppler pdftoppm; all pages; 130 dpi; PNG",
+  "all_pages_visually_inspected_at_full_size": true,
+  "observed_defects": [],
+  "page_inspections": [
+    {
+      "page": 1,
+      "path": ".local-verification/s017-reading-copy/page-1.png",
+      "sha256": "78cdd461669ab7584bd83314f44ee025b3c7f1925d3b0fb606bd131d7b839800",
+      "observations": "Title, subtitle, status disclosure and all prose are clear. The final paragraph continues on page 2."
+    },
+    {
+      "page": 2,
+      "path": ".local-verification/s017-reading-copy/page-2.png",
+      "sha256": "fd1701e2d82f22999bd6b286398dc5740ae856447dd7386558ba3c1576c40a0f",
+      "observations": "Subheadings and prose are clear. The final paragraph continues on page 3."
+    },
+    {
+      "page": 3,
+      "path": ".local-verification/s017-reading-copy/page-3.png",
+      "sha256": "75db2a3744d2b5e8fd618d4b04b0416b14c03f49cc0c16aee7323ec3f5ebc33a",
+      "observations": "The three-column legal-status table is complete and legible. Its long third-column entries wrap inside their cells. Plain y, d, U, m and y + d notation is unchanged."
+    },
+    {
+      "page": 4,
+      "path": ".local-verification/s017-reading-copy/page-4.png",
+      "sha256": "9f05b3be19d61e721dd4e6de29a7d6544b8183948f2a524770f8711d6a4e4929",
+      "observations": "The five-column illustrative case table fits and is clear. All 20 cells, including headers, are visible. Values and pass/fail labels match the source."
+    },
+    {
+      "page": 5,
+      "path": ".local-verification/s017-reading-copy/page-5.png",
+      "sha256": "17ac2a17db2285834d7cf1ea2cf09e66407b88e3cef6e91dd7613ac7fbc816f1",
+      "observations": "Federal-choice text and the hours-allocation passage are clear. No text overlaps or extends beyond margins."
+    },
+    {
+      "page": 6,
+      "path": ".local-verification/s017-reading-copy/page-6.png",
+      "sha256": "7ead9ee73ad8e6095685a3c7c5e21996541072e28e4d1369a95d78c500167694",
+      "observations": "Disclosure text and the first six reference items are clear. Bullets have hanging indents. Each displayed reference item is complete."
+    },
+    {
+      "page": 7,
+      "path": ".local-verification/s017-reading-copy/page-7.png",
+      "sha256": "382c963728e6cb3f9a3088392e93409f5e4b8acc9cf9d2df804eec5cb8994ff3",
+      "observations": "The final three reference items and closing source-map paragraph are clear. Blank end-of-paper space is normal."
+    }
+  ],
+  "contact_sheets_for_separate_review": [
+    {
+      "path": ".local-verification/s017-reading-copy/contact-1.png",
+      "sha256": "f02ee3ad1172c41142ea42b0973da8564e97bea6c2a03bd990656b8d3b9dce23"
+    },
+    {
+      "path": ".local-verification/s017-reading-copy/contact-2.png",
+      "sha256": "cd7c9496d548552f0fc995e55de8be6103dfe5e85b85a78f58577cc956a7e254"
+    }
+  ],
+  "limits": "Visual checks cover the saved renderings, not all viewers or printers. All URI targets and rectangles were checked, but each remote site was not reopened. No PDF/UA or semantic-math support is claimed.",
+  "separate_release_review": "Pending root review."
+}

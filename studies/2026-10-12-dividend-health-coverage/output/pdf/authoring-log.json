@@ -1,0 +1,88 @@
+{
+  "saved_at_utc": "2026-10-12T18:59:44.181094Z",
+  "source_commit": "1eb10be858df3e0069fa7c7f7722c548d040f865",
+  "source_sha256": "8585fd496381b90345db63d8b0e40bc67fbe063eb8c0f6456613a69a6b5158a5",
+  "pdf_sha256": "24c2e380ae5654301062f9b9b9e811e9df5158d0f972a0f414a91a85564db056",
+  "source_unchanged": true,
+  "base_renderer_unchanged": true,
+  "renderer": "scripts/render_s017_reading_copy.py",
+  "verifier": "scripts/verify_s017_reading_copy.py",
+  "layout_changes": [
+    "Three-column table widths: 26%, 29%, 45%.",
+    "Five-column table widths: 13%, 18%, 23%, 25%, 21%.",
+    "Nine flat Markdown reference markers are rendered as hanging bullets."
+  ],
+  "resolved_preview_failures": [
+    {
+      "stage": "First preview build",
+      "error": "The reference paragraph wrapper did not accept ReportLab internal split fragments with text=None.",
+      "repair": "Apply list styling only when text is not None. ReportLab retains the copied paragraph style for split fragments."
+    },
+    {
+      "stage": "Verification after the first failed preview build",
+      "error": "Preview PDF did not exist because the build failed.",
+      "repair": "Verification was rerun after successful build and passed."
+    }
+  ],
+  "final_build_failures": [],
+  "byte_identical_second_build": true,
+  "versions": {
+    "python": "3.12.14",
+    "reportlab": "4.4.9",
+    "pypdf": "6.10.0",
+    "pdfplumber": "0.11.9",
+    "Pillow": "12.3.0"
+  },
+  "local_font_files": [
+    {
+      "filename": "Times New Roman.ttf",
+      "bytes": 824920,
+      "sha256": "f3b4ffff71c2a0c7227d37497683b2498fb2d0a4e8beae26f022e3ccfcaabfa3"
+    },
+    {
+      "filename": "Times New Roman Bold.ttf",
+      "bytes": 832472,
+      "sha256": "50f5b1f27b7d34621090e437e8b1dd4510a22d2823fc876b3286bed327b64bbb"
+    },
+    {
+      "filename": "Times New Roman Italic.ttf",
+      "bytes": 660268,
+      "sha256": "7bb99c3a67697fbce15ab66d806d9a2151432ce1dab2eaba4156e1251da486c0"
+    },
+    {
+      "filename": "Times New Roman Bold Italic.ttf",
+      "bytes": 620008,
+      "sha256": "906157e8294fdf168d83002eaabde01c2d30fc3f44977be89e33fa22f262002a"
+    }
+  ],
+  "earlier_pdf_checks": [
+    {
+      "path": "studies/2026-10-11-public-ownership-control/output/pdf/paper.pdf",
+      "sha256": "4461a42c1a44cfd0254048b842a59cf9c8f770a2937f7d9fe3bc4550a7d1122e",
+      "matches_prior_record": "studies/2026-10-11-public-ownership-control/output/pdf/text-check.json"
+    },
+    {
+      "path": "studies/2026-10-12-supplier-continuity/output/pdf/paper.pdf",
+      "sha256": "912777cbe8fb2743e0fb9a465ccd6dbd54829ccfa9d5d3052f4ea7c3eef5909e",
+      "matches_prior_record": "studies/2026-10-12-supplier-continuity/output/pdf/text-check.json"
+    },
+    {
+      "path": "studies/2026-10-12-compute-allocation/output/pdf/paper.pdf",
+      "sha256": "1ddccfaedd1269ebd21709c9471d7a0a6248b3266f2b70fa52a5ebef0fd28bb9",
+      "matches_prior_record": "studies/2026-10-12-compute-allocation/output/pdf/text-math-check.json"
+    },
+    {
+      "path": "studies/2026-10-12-equity-levy-aggregation/output/pdf/paper.pdf",
+      "sha256": "a0cdadf042330bfe87432b82a6986b3ce9f5e5f2d0acfde67fa4909687d84d0f",
+      "matches_prior_record": "studies/2026-10-12-equity-levy-aggregation/output/pdf/text-math-check.json"
+    },
+    {
+      "path": "studies/2026-10-12-ai-output-reconciliation/output/pdf/paper.pdf",
+      "sha256": "87d5f086e97eaa2f2c8fff4fae21344c333c98f9a24cc8563cadb243474a5f3d",
+      "matches_prior_record": "studies/2026-10-12-ai-output-reconciliation/output/pdf/text-check.json"
+    }
+  ],
+  "study_readme_change": "Only the PDF and verification links were added, as authorized by root.",
+  "git_or_publication_actions": false,
+  "skill_marker": "Not repeated; already run earlier in this user task."
+}

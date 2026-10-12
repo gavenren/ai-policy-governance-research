@@ -1,0 +1,68 @@
+{
+  "saved_at_utc": "2026-10-12T18:59:44.181094Z",
+  "source_commit": "1eb10be858df3e0069fa7c7f7722c548d040f865",
+  "source_sha256": "8585fd496381b90345db63d8b0e40bc67fbe063eb8c0f6456613a69a6b5158a5",
+  "pdf_sha256": "24c2e380ae5654301062f9b9b9e811e9df5158d0f972a0f414a91a85564db056",
+  "files": [
+    {
+      "path": "studies/2026-10-12-dividend-health-coverage/paper.md",
+      "bytes": 24213,
+      "sha256": "8585fd496381b90345db63d8b0e40bc67fbe063eb8c0f6456613a69a6b5158a5"
+    },
+    {
+      "path": "studies/2026-10-12-dividend-health-coverage/README.md",
+      "bytes": 1969,
+      "sha256": "e53a95b59c0ea0487ccaca4f68875ec00266df5e39ae11eb6f9afd111e5e16f1"
+    },
+    {
+      "path": "scripts/render_s017_reading_copy.py",
+      "bytes": 2631,
+      "sha256": "704eac4ebfd0c24ebca220e4ee58ff0f3d5f0d6546af1e4611eeabda0e12b767"
+    },
+    {
+      "path": "scripts/verify_s017_reading_copy.py",
+      "bytes": 6025,
+      "sha256": "218b4db73d579e33060925437b2ab3e47837962b95d1a23e77ec31a5b5736cec"
+    },
+    {
+      "path": "scripts/render_reading_copy.py",
+      "bytes": 9884,
+      "sha256": "3ca8aa991c31fff407e010fe777697ecbc2fb5bfc931a8de02b80463cc472747"
+    },
+    {
+      "path": "scripts/verify_reading_copy.py",
+      "bytes": 6130,
+      "sha256": "754cb6a6b3f09825da99484d4edeb841e2ac0381ece25f44900765830c491ad5"
+    },
+    {
+      "path": "studies/2026-10-12-dividend-health-coverage/output/pdf/README.md",
+      "bytes": 4030,
+      "sha256": "3f1cc2cf0ee8c1e3cf7502f1f0475f82cc08038ed447d311434973d44d46a19f"
+    },
+    {
+      "path": "studies/2026-10-12-dividend-health-coverage/output/pdf/authoring-log.json",
+      "bytes": 3772,
+      "sha256": "1353050223b5c246953c14b32b587ee6df2b0c3b8681fcf67c59f0f05139dbfb"
+    },
+    {
+      "path": "studies/2026-10-12-dividend-health-coverage/output/pdf/layout-verification.json",
+      "bytes": 3301,
+      "sha256": "b08781ae22f1c85aea7897265c6bff057fcb06dfb8f4448a5a880356582b3ad7"
+    },
+    {
+      "path": "studies/2026-10-12-dividend-health-coverage/output/pdf/paper.pdf",
+      "bytes": 149227,
+      "sha256": "24c2e380ae5654301062f9b9b9e811e9df5158d0f972a0f414a91a85564db056"
+    },
+    {
+      "path": "studies/2026-10-12-dividend-health-coverage/output/pdf/source-pin-check.json",
+      "bytes": 463,
+      "sha256": "5469051902a6be9b56aafbb39f4b954a1ac1e45383e267c9d960d1d5a44e4248"
+    },
+    {
+      "path": "studies/2026-10-12-dividend-health-coverage/output/pdf/text-check.json",
+      "bytes": 34328,
+      "sha256": "2215ca7b6c0fdd00e75ce86fa36f2e6b26ec17310409e28236ebcc9e7415919c"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "checked_at_utc": "2026-10-12T19:01:19.719090+00:00",
+  "reviewer": "Root AI agent, separate from PDF rendering agent; manuscript author",
+  "source_sha256": "8585fd496381b90345db63d8b0e40bc67fbe063eb8c0f6456613a69a6b5158a5",
+  "pdf_sha256": "24c2e380ae5654301062f9b9b9e811e9df5158d0f972a0f414a91a85564db056",
+  "verification": "Independently invoked published strict text/links verifier, output .local-verification/s017-root-text-check.json; pass. Read reproduction record and inspected all seven page contact images. Tables and reference bullets are readable with no visible cut or overlap.",
+  "limits": "Author inspected all full-size pages; root inspected contacts. No claim of PDF/UA or every viewer."
+}
