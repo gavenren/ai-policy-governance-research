@@ -1,0 +1,15 @@
+REF_DATE,GEO,DGUID,Gender,Age group,UOM,UOM_ID,SCALAR_FACTOR,SCALAR_ID,VECTOR,COORDINATE,VALUE,STATUS,SYMBOL,TERMINATED,DECIMALS
+2025,Canada,2021A000011124,Total - gender,All ages,Persons,249,units,0,v466668,1.1.1,41608982,,,,0
+2025,Canada,2021A000011124,Total - gender,0 to 4 years,Persons,249,units,0,v466884,1.1.7,1870545,,,,0
+2025,Canada,2021A000011124,Total - gender,5 years,Persons,249,units,0,v466917,1.1.8,403971,,,,0
+2025,Canada,2021A000011124,Total - gender,0 to 17 years,Persons,249,units,0,v466965,1.1.94,7636727,,,,0
+2025,Canada,2021A000011124,Total - gender,18 years and older,Persons,249,units,0,v466677,1.1.101,33972255,,,,0
+2025,Canada,2021A000011124,Total - gender,18 to 64 years,Persons,249,units,0,v466674,1.1.100,25863811,,,,0
+2025,Canada,2021A000011124,Total - gender,65 years and older,Persons,249,units,0,v466686,1.1.104,8108444,,,,0
+2026,Canada,2021A000011124,Total - gender,All ages,Persons,249,units,0,v466668,1.1.1,41798407,,,,0
+2026,Canada,2021A000011124,Total - gender,0 to 4 years,Persons,249,units,0,v466884,1.1.7,1874505,,,,0
+2026,Canada,2021A000011124,Total - gender,5 years,Persons,249,units,0,v466917,1.1.8,396645,,,,0
+2026,Canada,2021A000011124,Total - gender,0 to 17 years,Persons,249,units,0,v466965,1.1.94,7639850,,,,0
+2026,Canada,2021A000011124,Total - gender,18 years and older,Persons,249,units,0,v466677,1.1.101,34158557,,,,0
+2026,Canada,2021A000011124,Total - gender,18 to 64 years,Persons,249,units,0,v466674,1.1.100,25780176,,,,0
+2026,Canada,2021A000011124,Total - gender,65 years and older,Persons,249,units,0,v466686,1.1.104,8378381,,,,0

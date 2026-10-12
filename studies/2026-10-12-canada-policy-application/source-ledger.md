@@ -1,0 +1,36 @@
+# Canada source ledger
+
+Evidence checked on 12 October 2026. The linked sources are official publications. Numerical policy cases are this study's calculations. They are not official forecasts or costings. Links were read during research; live pages and statistical estimates can later change.
+
+## Numerical inputs
+
+| Source | Date and location | Inputs used and limits |
+| --- | --- | --- |
+| [PBO, Economic and Fiscal Outlook](https://www.pbo-dpb.ca/en/publications/RP-2627-002-S--economic-fiscal-outlook-june-2026--perspectives-economiques-financieres-juin-2026); [official PDF](https://distribution-a617274656661637473.pbo-dpb.ca/2073136cc439c15f9cc5917e1db1ed23bef0aa72a4a8a1751a1c650913a5fa10) | 4 June 2026; information to 8 May. Printed pp.10, 16, 19–20; Table 3 and Appendices A, C, D. | Calendar-2026 nominal GDP $3,392bn. FY2026–27 revenue $528.3bn; PIT $248.3bn; CIT $101.2bn; GST $52.8bn; EI premiums $33.9bn; CCB $30.9bn; deficit $71.8bn. Expense $600.5bn before a $0.4bn actuarial gain, hence $600.1bn after it. Forecasts, not actual results. Existing policy and planned savings are already included. |
+| [Statistics Canada, Table 17-10-0005-01](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000501); [CSV download](https://www150.statcan.gc.ca/n1/tbl/csv/17100005-eng.zip) | Released 23 September 2026; population at 1 July 2026; preliminary postcensal estimates. | Canada, total gender. Adults 18+: 34,158,557; children 0–17: 7,639,850; total 41,798,407. Ages 0–4: 1,874,505; age 5: 396,645; thus below age 6: 2,271,150, and 6–17: 5,368,700. Population counts do not define benefit eligibility. |
+| [CRA, CCB calculation and rates](https://www.canada.ca/en/revenue-agency/services/child-family-benefits/canada-child-benefit/how-much.html) | Rates for July 2026–June 2027; checked live. | Maximum $8,157 under age six and $6,883 at ages 6–17. Income-tested using prior-year adjusted family net income. Giving every counted child the maximum is a study assumption. The age-band totals produce $55.47853265bn; subtracting the already budgeted $30.9bn gives $24.57853265bn in extra cost. This period comparison is an approximate fixed-price benchmark, not an exact CRA fiscal-year forecast. |
+| [Excise Tax Act, section 165](https://laws-lois.justice.gc.ca/eng/acts/e-15/section-165.html) | Law current to 21 September 2026 at retrieval. | Federal GST rate 5%. The proposed 6% rate is not current law. |
+| [CRA, corporate tax rates](https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/corporations/corporation-tax-rates.html) | Page dated 30 May 2025; checked live. | Federal general net rate 15%; small-business rate 9%; special cases also exist. The model therefore specifies a surcharge on liability across rates. It does not infer a corporate tax base by dividing all receipts by 15%. |
+| [Statistics Canada, Table 10-10-0147-01](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1010014701); [CSV download](https://www150.statcan.gc.ca/n1/tbl/csv/10100147-eng.zip) | Released 21 November 2025; reference year 2024, provisional. | Consolidated provincial, territorial, and local taxes on individuals: $158.351bn. Vector v106982737, coordinates 1.2.2.6. Uses the fiscal year-end closest to 31 December. Includes investment income. It is a historical scale comparison, excluded from the current federal model. |
+
+The compact [population extract](data/population-extract.csv) retains seven age rows for each of 2025 and 2026, with source vectors. The paper uses only 2026. To reproduce the selection, download the full CSV and select `GEO=Canada`, `Gender=Total - gender`, the reference years, and the listed age groups. Check that children plus adults equal the total. The [provincial tax extract](data/pt-income-tax-2024.csv) retains the selected national records. The complete source archives are not republished.
+
+## Policy comparisons and delivery facts
+
+| Official source | Use in this paper | Limit |
+| --- | --- | --- |
+| [PBO, basic-income analysis](https://www.pbo-dpb.ca/en/publications/RP-2425-029-S--distributional-analysis-national-guaranteed-basic-income-update--analyse-distributive-un-revenu-base-garanti-echelle-nationale-mise-jour); [PDF](https://distribution-a617274656661637473.pbo-dpb.ca/827eba1e752214dc65904faca913d39e87f64c57fc186ce4bf8b8936cd851cc0) | 19 February 2025; Tables 1, 4, 5 and Appendix A. Shows why a family income guarantee with removed credits differs from an additional universal payment. | Its wage-economy tax offsets are not imported into the severe case. |
+| [CMHC, Housing Supply Report](https://www.cmhc-schl.gc.ca/professionals/housing-markets-data-and-research/market-reports/housing-market/housing-supply-report) | Fall 2026 report: approximately 417,000–469,000 annual starts through 2036 in its affordability scenario. | Conditional housing need, not a funded programme, a project cost, or delivery promised by this paper. |
+| [CRA, easier tax filing](https://www.canada.ca/en/revenue-agency/campaigns/easier-tax-filing.html) | Page dated 17 September 2026. Planned pre-filled returns for invited people from March 2027. Review and submission still required. | Not universal automatic enrolment. |
+| [Health Canada, Canada's health system](https://www.canada.ca/en/health-canada/services/canada-health-care-system.html) | Federal and provincial-territorial roles; insured hospital and physician care. | Does not imply that all drugs, dental care, long-term care, or other needs are fully covered. |
+| [Finance Canada, Canada Social Transfer](https://www.canada.ca/en/department-finance/programs/federal-transfers/canada-social-transfer.html) | Transfer is largely unconditional. | New benefit protections require agreements or legal change. They cannot be assumed to be existing transfer conditions. |
+| [Canada Pension Plan Investment Board Act, section 5](https://laws-lois.justice.gc.ca/eng/acts/C-8.3/section-5.html) | Statutory duties to contributors and beneficiaries. | Assets are not treated as uncommitted federal wealth. |
+| [Retraite Québec, QPP](https://www.retraitequebec.gouv.qc.ca/en/programs/quebec-pension-plan) | Contributory plan and its benefit obligations. | Assets and contribution losses are outside the new federal payment budget. Separate actuarial work is required. |
+
+## Assumptions and exclusions
+
+All proposed rates, recipient counts, payment amounts, administrative allowances, service and capital budgets, receipt reductions, tax-loss shares, and borrowing rates are in [inputs.json](data/inputs.json). They were selected for transparent planning and stress tests. They are not estimates produced from confidential tax records or a household simulation.
+
+The PBO forecast is the only federal baseline used. Alternative government forecasts and dated election-policy costings are not added to it. A live PBO Ready Reckoner data-date conflict was found during research; its outputs are not used. No unverified wealth-tax yield, public investment income, tariff revenue, or extra compliance gain enters the model.
+
+The analysis applies the repository's [combined policy paper](../../docs/POLICY_PAPER.md), published at commit `8cae385b76be12f1d32c1eea4411e431f03a3d2e`. Its 15 studies establish the questions to check. Their numerical results are not added to make Canada's budget.
