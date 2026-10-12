@@ -4,7 +4,9 @@ Reproducible studies of AI policy and governance, using dated public primary sou
 
 **Programme status:** on 2026-10-11 the user authorized further papers on economic governance after labor displacement, using the remaining core usage allowance. See the [continuation record](docs/RESEARCH_CONTINUATION_2026-10-11.md). Other research fields remain paused.
 
-Start with **[A Secure Living After Wages](docs/POLICY_PAPER.md)** for one policy paper that combines all 15 economic studies. It sets out government action, the order of work, and a funding plan. It includes an illustrative budget and an evidence map. This is a policy synthesis, not a new empirical study or a national cost estimate.
+For a quick overview, read the **[one-page policy brief](docs/POLICY_BRIEF.md)** or its **[print-ready PDF](output/pdf/policy-brief.pdf)**. It gives the key actions, their order, and the funding plan in plain English. The [brief checks](docs/POLICY_BRIEF_VERIFICATION.md) record its content review and one-page verification.
+
+Read **[A Secure Living After Wages](docs/POLICY_PAPER.md)** for the full policy paper that combines all 15 economic studies. It sets out government action, the order of work, and a funding plan. It includes an illustrative budget and an evidence map. This is a policy synthesis, not a new empirical study or a national cost estimate.
 
 Use the [reading guide](docs/READING_GUIDE.md) for a connected account of the economic questions and the limits of each paper. The guide has a [separate AI review](docs/reviews/reading-guide-review.md) and a [review of its later additions](docs/reviews/reading-guide-update-review.md) and [review of S016–S017 additions](docs/reviews/reading-guide-s016-s017-review.md) and [S018 addition](docs/reviews/reading-guide-s018-review.md).
 

@@ -3,6 +3,8 @@
 
 Prepared on 12 October 2026. This guide connects studies S004–S018. It is an explanation of their results, not a new study or a combined economic model. The papers are AI-assisted complete-study drafts with separate AI reviews. They have not had human or journal peer review.
 
+For the shortest route, read the [one-page policy brief](POLICY_BRIEF.md) or its [PDF](../output/pdf/policy-brief.pdf). It summarises the action order and funding plan. Its [verification record](POLICY_BRIEF_VERIFICATION.md) links the content review and PDF checks.
+
 For an integrated government plan, read **[A Secure Living After Wages](POLICY_PAPER.md)**. It sets out the order of action, recurring funding, transition finance, and public duties. Its recommendations are distinct from the study findings. It has separate AI checks for [evidence and clarity](reviews/policy-paper-evidence-review.md) and [funding and sequence](reviews/policy-paper-funding-review.md). The [publication check](POLICY_PAPER_VERIFICATION.md) records the source set and file checks.
 
 ## Start with the promise to the household
